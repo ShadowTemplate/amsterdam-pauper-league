@@ -2,7 +2,7 @@ import type { Event, EventDetail } from "@/types";
 
 export const event: Event = {
   slug: "2026-04-11",
-  name: "Amsterdam Pauper League – 1° Leg – 2026",
+  name: "Dutch Pauper League – 1° Leg – 2026",
   date: "2026-04-11",
   venue: "Pondok",
   format: "paper",
@@ -13,7 +13,7 @@ export const event: Event = {
 
 export const eventDetail: EventDetail = {
     slug: "2026-04-11",
-    name: "Amsterdam Pauper League – 1° Leg – 2026",
+    name: "Dutch Pauper League – 1° Leg – 2026",
     date: "2026-04-11",
     venue: "Pondok",
     format: "paper",

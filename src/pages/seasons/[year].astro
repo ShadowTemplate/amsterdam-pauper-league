@@ -46,6 +46,10 @@ const { stats } = season;
       ))}
     </div>
 
+    {currentYear === 2026 && (
+      <p class="text-sm text-muted-foreground mb-6 italic">The first 3 events of this season were organised by the Dutch Pauper League and are displayed here for historical relevance.</p>
+    )}
+
     {currentYear < 2026 && (
       <p class="text-sm text-muted-foreground mb-6 italic">All the events of this season were organised by the Dutch Pauper League and are displayed here for historical relevance.</p>
     )}
