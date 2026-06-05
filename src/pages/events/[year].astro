@@ -1,0 +1,115 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { EVENTS } from "@/lib/mock-data";
+import { formatDate } from "@/lib/utils";
+
+export function getStaticPaths() {
+  return [
+    { params: { year: "2026" } },
+    { params: { year: "2025" } },
+    { params: { year: "2024" } },
+  ];
+}
+
+const { year } = Astro.params;
+const currentYear = parseInt(year);
+const availableYears = [2026, 2025, 2024];
+
+const eventsForYear = EVENTS.filter((e) => e.date.startsWith(year)).sort(
+  (a, b) => b.date.localeCompare(a.date)
+);
+---
+
+<Layout title="Calendar – Amsterdam Pauper League">
+  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">Calendar</h1>
+
+    <!-- Year tabs -->
+    <div class="flex gap-4 mb-6">
+      {availableYears.map((y) => (
+        <a
+          href={`/events/${y}`}
+          class={currentYear === y
+            ? "font-bold underline underline-offset-4"
+            : "text-muted-foreground hover:underline underline-offset-4"}
+        >
+          {y}
+        </a>
+      ))}
+    </div>
+
+    {currentYear < 2026 && (
+      <p class="text-sm text-muted-foreground mb-6 italic">All the events of this season were organised by the Dutch Pauper League and are displayed here for historical relevance.</p>
+    )}
+
+    <!-- Events list -->
+    <div id="events-container">
+      <ul class="border border-border divide-y divide-border">
+        {eventsForYear.map((event) => (
+          <li>
+            {event.status === "upcoming" ? (
+              <div class="flex items-center justify-between py-4 px-2">
+                <div>
+                  <div class="font-semibold">{event.name}</div>
+                  <div class="text-sm text-muted-foreground">
+                    {formatDate(event.date)} @ {event.venue}
+                  </div>
+                </div>
+                {event.registrationUrl ? (
+                  <a
+                    href={event.registrationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-sm rounded-lg px-3 py-1 bg-primary text-primary-foreground hover:opacity-90 transition-colors"
+                  >
+                    Register
+                  </a>
+                ) : (
+                  <span class="text-sm border border-border rounded-lg px-3 py-1 text-muted-foreground whitespace-nowrap">
+                    Coming Soon
+                  </span>
+                )}
+              </div>
+            ) : (
+              <a href={`/events/${event.slug}`} class="block">
+                <div class="flex items-center justify-between py-4 hover:bg-muted/50 px-2 transition-colors">
+                  <div>
+                    <div class="font-semibold">{event.name}</div>
+                    <div class="text-sm text-muted-foreground">
+                      {formatDate(event.date)} @ {event.venue}
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 text-sm text-muted-foreground">
+                    {event.winner && (
+                      <span class="flex items-center gap-1">
+                        <svg class="h-[14px] w-[14px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+                        </svg>
+                        {event.winner}
+                      </span>
+                    )}
+                    {event.playerCount != null && (
+                      <span class="flex items-center gap-1">
+                        <svg class="h-[14px] w-[14px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                        {event.playerCount}
+                      </span>
+                    )}
+                    <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            )}
+          </li>
+        ))}
+      </ul>
+      {eventsForYear.length === 0 && (
+        <p class="text-muted-foreground">No events found.</p>
+      )}
+    </div>
+
+  </div>
+</Layout>

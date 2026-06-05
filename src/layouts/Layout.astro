@@ -1,0 +1,31 @@
+---
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import "@/styles/globals.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Amsterdam Pauper League",
+  description = "The largest Magic: The Gathering™ Pauper tournament series in the Netherlands",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="h-full antialiased dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body class="min-h-full flex flex-col bg-background text-foreground">
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>

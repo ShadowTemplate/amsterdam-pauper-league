@@ -1,0 +1,153 @@
+---
+import type { Archetype } from "@/types";
+
+interface Props {
+  archetypes: Archetype[];
+}
+
+const { archetypes } = Astro.props;
+const PAGE_SIZE = 10;
+---
+
+<div id="archetype-search-root">
+  <!-- Search input -->
+  <div class="mb-4">
+    <input
+      id="archetype-search-input"
+      type="search"
+      placeholder="Search archetypes…"
+      class="w-full border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary"
+    />
+  </div>
+
+  <!-- Results count -->
+  <p id="archetype-search-count" class="text-sm text-muted-foreground mb-2">
+    {archetypes.length} archetypes
+  </p>
+
+  <!-- List -->
+  <ul id="archetype-list" class="border border-border divide-y divide-border">
+    {
+      archetypes.map((archetype) => (
+        <li data-name={archetype.name.toLowerCase()}>
+          <a href={`/archetypes/${archetype.slug}`} class="block">
+            <div class="flex items-center justify-between py-3 hover:bg-muted/50 px-2 transition-colors">
+              <div class="flex items-baseline gap-3">
+                <div class="font-semibold hover:underline underline-offset-4">
+                  {archetype.name}
+                </div>
+                <div class="text-sm text-muted-foreground">
+                  ({archetype.count} decks, {archetype.percentage} meta)
+                </div>
+              </div>
+              <svg
+                class="h-4 w-4 text-muted-foreground"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </div>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p id="archetype-no-results" class="text-muted-foreground py-4 hidden">
+    No archetypes found.
+  </p>
+
+  <!-- Pagination -->
+  <div id="archetype-pagination" class="flex items-center gap-2 mt-4 hidden">
+    <button
+      id="archetype-prev"
+      class="px-3 py-1 border border-border rounded-lg hover:bg-muted disabled:opacity-50"
+      disabled
+    >
+      ← Prev
+    </button>
+    <span id="archetype-page-info" class="text-sm text-muted-foreground"></span>
+    <button
+      id="archetype-next"
+      class="px-3 py-1 border border-border rounded-lg hover:bg-muted disabled:opacity-50"
+    >
+      Next →
+    </button>
+  </div>
+</div>
+
+<script define:vars={{ PAGE_SIZE }}>
+  const input = document.getElementById("archetype-search-input");
+  const countEl = document.getElementById("archetype-search-count");
+  const list = document.getElementById("archetype-list");
+  const noResults = document.getElementById("archetype-no-results");
+  const pagination = document.getElementById("archetype-pagination");
+  const prevBtn = document.getElementById("archetype-prev");
+  const nextBtn = document.getElementById("archetype-next");
+  const pageInfo = document.getElementById("archetype-page-info");
+
+  const allItems = list
+    ? [...list.querySelectorAll("li[data-name]")]
+    : [];
+
+  let query = "";
+  let page = 0;
+
+  function update() {
+    const filtered = allItems.filter((li) =>
+      li.dataset.name.includes(query.toLowerCase())
+    );
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    page = Math.min(page, Math.max(0, totalPages - 1));
+
+    allItems.forEach((li) => (li.hidden = true));
+    filtered
+      .slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
+      .forEach((li) => (li.hidden = false));
+
+    if (countEl) {
+      countEl.textContent =
+        filtered.length +
+        " archetype" +
+        (filtered.length !== 1 ? "s" : "") +
+        (query ? ` matching "${query}"` : "");
+    }
+
+    if (noResults) noResults.classList.toggle("hidden", filtered.length > 0);
+    if (list) list.classList.toggle("hidden", filtered.length === 0);
+
+    if (pagination) pagination.classList.toggle("hidden", totalPages <= 1);
+    if (pageInfo)
+      pageInfo.textContent = `Page ${page + 1} of ${totalPages}`;
+    if (prevBtn) prevBtn.disabled = page === 0;
+    if (nextBtn) nextBtn.disabled = page >= totalPages - 1;
+  }
+
+  input?.addEventListener("input", (e) => {
+    query = e.target.value;
+    page = 0;
+    update();
+  });
+
+  prevBtn?.addEventListener("click", () => {
+    page = Math.max(0, page - 1);
+    update();
+  });
+
+  nextBtn?.addEventListener("click", () => {
+    const filtered = allItems.filter((li) =>
+      li.dataset.name.includes(query.toLowerCase())
+    );
+    page = Math.min(Math.ceil(filtered.length / PAGE_SIZE) - 1, page + 1);
+    update();
+  });
+
+  update();
+</script>

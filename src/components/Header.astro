@@ -1,0 +1,102 @@
+---
+const navLinks = [
+  { href: "/seasons/2026", label: "Seasons" },
+  { href: "/events/2026", label: "Events" },
+  { href: "/players", label: "Players" },
+  { href: "/archetypes", label: "Archetypes" },
+  { href: "/faq", label: "FAQ" },
+];
+---
+
+<header class="sticky top-0 z-50 w-full shadow-xs bg-background border-b border-border">
+  <div class="container mx-auto flex h-14 max-w-screen-lg items-center justify-between px-4 md:grid md:grid-cols-[1fr_auto_1fr]">
+    <!-- Logo (left) -->
+    <a href="/" class="font-bold text-lg tracking-tight hover:opacity-80 transition-opacity">
+      APL
+    </a>
+
+    <!-- Desktop nav (center) -->
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <!-- Mobile menu button (right) -->
+    <div class="flex items-center justify-end gap-2">
+      <button
+        id="mobile-menu-btn"
+        aria-label="Open menu"
+        class="md:hidden p-2 rounded-md hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+      >
+        <svg
+          id="menu-icon-open"
+          class="h-5 w-5"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+        <svg
+          id="menu-icon-close"
+          class="hidden h-5 w-5"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile nav -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-border bg-background">
+    <nav class="container mx-auto max-w-screen-lg px-4 py-3 flex flex-col gap-3">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>
+
+<script>
+  const menuBtn = document.getElementById("mobile-menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const openIcon = document.getElementById("menu-icon-open");
+  const closeIcon = document.getElementById("menu-icon-close");
+
+  menuBtn?.addEventListener("click", () => {
+    const isOpen = mobileMenu?.classList.toggle("hidden") === false;
+    openIcon?.classList.toggle("hidden", isOpen);
+    closeIcon?.classList.toggle("hidden", !isOpen);
+  });
+</script>

@@ -1,0 +1,89 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { ARCHETYPES, getArchetypeDetail } from "@/lib/mock-data";
+
+export function getStaticPaths() {
+  return ARCHETYPES.map((a) => ({ params: { slug: a.slug } }));
+}
+
+const { slug } = Astro.params;
+const archetype = ARCHETYPES.find((a) => a.slug === slug);
+
+if (!archetype) {
+  return Astro.redirect("/404", 404);
+}
+
+const detail = getArchetypeDetail(slug);
+const title = `${archetype.name} – Amsterdam Pauper League`;
+const pauperformanceSlug = slug
+  .replace(/^mono-([a-z])-/, "mono$1-")
+  .replace(/-/g, "_");
+const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanceSlug}`;
+---
+
+<Layout title={title}>
+  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted-foreground mb-4">
+      <a href="/archetypes" class="hover:underline underline-offset-4">Archetypes</a>
+      <span class="mx-2">›</span>{archetype.name}
+    </nav>
+
+    <h1 class="text-3xl font-bold mb-2">{archetype.name}</h1>
+    <p class="text-muted-foreground mb-4">
+      {archetype.percentage} of all decks ({archetype.count} total)
+    </p>
+    <p class="text-sm text-muted-foreground mb-8">
+      <a
+        href={pauperformanceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:underline underline-offset-4 text-primary"
+      >
+        Learn more about this archetype on Pauperformance
+      </a>
+    </p>
+
+    {detail ? (
+      detail.byEvent.map((group) => (
+        <section class="mb-8">
+          <h2 class="text-xl font-semibold mb-4">
+            <a
+              href={`/events/${group.eventSlug}`}
+              class="hover:underline underline-offset-4 text-foreground"
+            >
+              {group.eventName}
+            </a>
+          </h2>
+          <div class="w-full overflow-x-auto">
+            <table class="w-full text-sm border-collapse">
+              <thead>
+                <tr>
+                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">#</th>
+                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Pilot</th>
+                </tr>
+              </thead>
+              <tbody>
+                {group.appearances.map((a) => (
+                  <tr class="hover:bg-muted/50">
+                    <td class="py-3 px-4 border-b border-border font-mono">{a.position}</td>
+                    <td class="py-3 px-4 border-b border-border">
+                      <a
+                        href={`/players/${a.pilotSlug}`}
+                        class="hover:underline underline-offset-4 text-foreground"
+                      >
+                        {a.pilot}
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ))
+    ) : (
+      <p class="text-muted-foreground">Detailed appearance data coming soon.</p>
+    )}
+  </div>
+</Layout>

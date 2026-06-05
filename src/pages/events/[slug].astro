@@ -1,0 +1,108 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { EVENTS, getEventDetail, getEvent } from "@/lib/mock-data";
+import { formatDate } from "@/lib/utils";
+
+export function getStaticPaths() {
+  return EVENTS.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const detail = getEventDetail(slug);
+const basicEvent = getEvent(slug);
+
+if (!basicEvent) {
+  return Astro.redirect("/404", 404);
+}
+
+const event = detail ?? basicEvent;
+const title = `${event.name} – Amsterdam Pauper League`;
+---
+
+<Layout title={title}>
+  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted-foreground mb-4">
+      <a href="/events" class="hover:underline underline-offset-4">
+        Tournaments
+      </a>
+      <span class="mx-2">›</span>{event.name}
+    </nav>
+
+    <h1 class="text-3xl font-bold mb-2">{event.name}</h1>
+    <p class="text-muted-foreground mb-8">
+      {formatDate(event.date)} @ {event.venue}
+    </p>
+
+    <!-- Standings table -->
+    {detail?.standings && detail.standings.length > 0 && (
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-4">Standings</h2>
+        <div class="w-full overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr>
+                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">#</th>
+                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Player</th>
+                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Deck</th>
+                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">OMW%</th>
+                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Match Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {detail.standings.map((s) => (
+                <tr class="hover:bg-muted/50">
+                  <td class="py-3 px-4 border-b border-border font-mono">{s.position}</td>
+                  <td class="py-3 px-4 border-b border-border">
+                    <a href={`/players/${s.playerSlug}`} class="hover:underline underline-offset-4 text-foreground">
+                      {s.player}
+                    </a>
+                  </td>
+                  <td class="py-3 px-4 border-b border-border">
+                    <a href={`/archetypes/${s.deckSlug}`} class="hover:underline underline-offset-4 text-foreground">
+                      {s.deck}
+                    </a>
+                  </td>
+                  <td class="py-3 px-4 border-b border-border font-mono">{s.omwPercentage}</td>
+                  <td class="py-3 px-4 border-b border-border font-mono">{s.matchPoints}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    <!-- Metagame -->
+    {detail?.meta && detail.meta.length > 0 && (
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-4">Metagame</h2>
+        <div class="grid gap-2">
+          {detail.meta.map((m) => (
+            <div class="flex items-center gap-3">
+              <div class="text-sm w-40 truncate">
+                <a href={`/archetypes/${m.archetypeSlug}`} class="hover:underline underline-offset-4">{m.archetype}</a>
+              </div>
+              <div class="flex-1 h-4 bg-muted rounded overflow-hidden">
+                <div
+                  class="h-full bg-primary/70 rounded"
+                  style={`width: ${m.percentage}`}
+                ></div>
+              </div>
+              <div class="text-sm text-muted-foreground w-24 text-right">
+                {m.percentage} ({m.count})
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- No detail fallback -->
+    {!detail?.standings && (
+      <p class="text-muted-foreground">
+        Detailed standings not yet available for this event.
+      </p>
+    )}
+  </div>
+</Layout>

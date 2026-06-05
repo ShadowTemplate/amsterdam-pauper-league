@@ -1,0 +1,146 @@
+---
+import type { Player } from "@/types";
+
+interface Props {
+  players: Player[];
+}
+
+const { players } = Astro.props;
+const PAGE_SIZE = 10;
+---
+
+<div id="player-search-root">
+  <!-- Search input -->
+  <div class="mb-4">
+    <input
+      id="player-search-input"
+      type="search"
+      placeholder="Search players…"
+      class="w-full border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary"
+    />
+  </div>
+
+  <!-- Results count -->
+  <p id="player-search-count" class="text-sm text-muted-foreground mb-2">
+    {players.length} players
+  </p>
+
+  <!-- List -->
+  <ul id="player-list" class="border border-border divide-y divide-border">
+    {
+      players.map((player) => (
+        <li data-name={player.name.toLowerCase()}>
+          <a href={`/players/${player.slug}`} class="block">
+            <div class="flex items-center justify-between py-3 hover:bg-muted/50 px-2 transition-colors">
+              <div class="font-semibold">{player.name}</div>
+              <svg
+                class="h-4 w-4 text-muted-foreground"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </div>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p id="player-no-results" class="text-muted-foreground py-4 hidden">
+    No players found.
+  </p>
+
+  <!-- Pagination -->
+  <div id="player-pagination" class="flex items-center gap-2 mt-4 hidden">
+    <button
+      id="player-prev"
+      class="px-3 py-1 border border-border rounded-lg hover:bg-muted disabled:opacity-50"
+      disabled
+    >
+      ← Prev
+    </button>
+    <span id="player-page-info" class="text-sm text-muted-foreground"></span>
+    <button
+      id="player-next"
+      class="px-3 py-1 border border-border rounded-lg hover:bg-muted disabled:opacity-50"
+    >
+      Next →
+    </button>
+  </div>
+</div>
+
+<script define:vars={{ PAGE_SIZE }}>
+  const input = document.getElementById("player-search-input");
+  const countEl = document.getElementById("player-search-count");
+  const list = document.getElementById("player-list");
+  const noResults = document.getElementById("player-no-results");
+  const pagination = document.getElementById("player-pagination");
+  const prevBtn = document.getElementById("player-prev");
+  const nextBtn = document.getElementById("player-next");
+  const pageInfo = document.getElementById("player-page-info");
+
+  const allItems = list
+    ? [...list.querySelectorAll("li[data-name]")]
+    : [];
+
+  let query = "";
+  let page = 0;
+
+  function update() {
+    const filtered = allItems.filter((li) =>
+      li.dataset.name.includes(query.toLowerCase())
+    );
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    page = Math.min(page, Math.max(0, totalPages - 1));
+
+    allItems.forEach((li) => (li.hidden = true));
+    filtered
+      .slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
+      .forEach((li) => (li.hidden = false));
+
+    if (countEl) {
+      countEl.textContent =
+        filtered.length +
+        " player" +
+        (filtered.length !== 1 ? "s" : "") +
+        (query ? ` matching "${query}"` : "");
+    }
+
+    if (noResults) noResults.classList.toggle("hidden", filtered.length > 0);
+    if (list) list.classList.toggle("hidden", filtered.length === 0);
+
+    if (pagination) pagination.classList.toggle("hidden", totalPages <= 1);
+    if (pageInfo)
+      pageInfo.textContent = `Page ${page + 1} of ${totalPages}`;
+    if (prevBtn) prevBtn.disabled = page === 0;
+    if (nextBtn) nextBtn.disabled = page >= totalPages - 1;
+  }
+
+  input?.addEventListener("input", (e) => {
+    query = e.target.value;
+    page = 0;
+    update();
+  });
+
+  prevBtn?.addEventListener("click", () => {
+    page = Math.max(0, page - 1);
+    update();
+  });
+
+  nextBtn?.addEventListener("click", () => {
+    const filtered = allItems.filter((li) =>
+      li.dataset.name.includes(query.toLowerCase())
+    );
+    page = Math.min(Math.ceil(filtered.length / PAGE_SIZE) - 1, page + 1);
+    update();
+  });
+
+  update();
+</script>

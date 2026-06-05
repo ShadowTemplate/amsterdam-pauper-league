@@ -1,0 +1,109 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import PrizesCard from "@/components/PrizesCard.astro";
+import { getLeagueSeason } from "@/lib/mock-data";
+
+const top16 = (getLeagueSeason(2026)?.standings ?? []).slice(0, 16);
+---
+
+<Layout title="Amsterdam Pauper League">
+  <main class="flex-1">
+    <!-- Hero -->
+    <section class="relative mx-auto flex w-full flex-col items-center justify-center pt-14 pb-6 text-center px-4">
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mb-6">
+        Amsterdam Pauper League
+      </h1>
+      <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl mb-8">
+        Welcome to the largest Pauper tournament series in the Netherlands!<br />Compete in thrilling monthly events with our fantastic community to win amazing prices, flight tickets and byes to Paupergeddon.
+      </p>
+      <div class="flex gap-4">
+        <a
+          href="/events"
+          class="bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition text-center w-40"
+        >
+          View Calendar
+        </a>
+        <a
+          href="/faq"
+          class="bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition text-center w-40"
+        >
+          Learn More
+        </a>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <blockquote class="mx-auto max-w-screen-lg w-full px-4 pt-0 pb-6 text-center text-muted-foreground italic text-xl">
+      "I came to play Magic, I stayed for the people."
+      <footer class="mt-2 text-sm not-italic">— APL player</footer>
+    </blockquote>
+
+    <div class="mx-auto w-full max-w-3xl border-b border-border"></div>
+
+    <!-- Standings -->
+    <section class="mx-auto pt-8 pb-6 md:pt-12 max-w-screen-lg w-full px-4 text-center">
+      <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+        Road to Paupergeddon 2027
+      </h2>
+      <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl mb-8">
+        The APL Champion represents the Netherlands at Paupergeddon, the most important Pauper event in the world.<br />Will you be able to climb the ladder and claim your spot?
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 max-w-xl mx-auto mb-6">
+        {[top16.slice(0, 8), top16.slice(8, 16)].map((half) => (
+          <div>
+            {half.map((s) => (
+              <div class="flex items-center py-2 px-3 border-b border-border hover:bg-muted/50 text-sm">
+                <span class="font-mono text-muted-foreground w-7 shrink-0 text-center">{s.position}</span>
+                <span class="flex-1 px-2 text-left">
+                  <a href={`/players/${s.playerSlug}`} class="hover:underline underline-offset-4">
+                    {s.player}
+                  </a>
+                </span>
+                <span class="font-mono">{s.points}</span>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+      <a
+        href="/seasons/2026"
+        class="inline-block bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition"
+      >
+        View Standings
+      </a>
+    </section>
+
+    <!-- Quote -->
+    <blockquote class="mx-auto max-w-screen-lg w-full px-4 pt-0 pb-6 text-center text-muted-foreground italic text-xl">
+      "Bottom feeders sometimes rise to the top."
+      <footer class="mt-2 text-sm not-italic">— Chittering Rats</footer>
+    </blockquote>
+
+    <div class="mx-auto w-full max-w-3xl border-b border-border"></div>
+
+    <!-- Prizes -->
+    <section class="mx-auto pt-8 pb-6 md:px-6 md:pt-12 max-w-screen-lg w-full px-4 text-center">
+      <div class="space-y-4 mb-8">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl">
+          Prizes
+        </h2>
+        <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl">
+          Leg prizes are determined based on the number of players in each event.<br />
+          A portion of the entry fees is used to cover venue costs, judge
+          compensation, and travel allowances to Paupergeddon.<br />
+          The rest goes directly into the prize pool for that event.
+        </p>
+      </div>
+      <div class="max-w-sm mx-auto">
+        <PrizesCard />
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <blockquote class="mx-auto max-w-screen-lg w-full px-4 pt-0 pb-6 text-center text-muted-foreground italic text-xl">
+      "Wake up, my friends! There are deeds to be done and treasures to be won!"
+      <footer class="mt-2 text-sm not-italic">— Inspiring Bard</footer>
+    </blockquote>
+
+  </main>
+</Layout>

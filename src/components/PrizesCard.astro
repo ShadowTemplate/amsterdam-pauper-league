@@ -1,0 +1,216 @@
+---
+const DEFAULT_PLAYERS = 70;
+const MIN_PLAYERS = 32;
+const MAX_PLAYERS = 74;
+
+const ENTRY_PER_PLAYER = 13;
+const LOCATION_PER_PLAYER = 2.5;
+const STRIPE_FEE_PER_PLAYER = 0.677;
+const JUDGE = 80;
+const KNOCKOUT_PRIZE = 60;
+const OPERATIONAL_COSTS = 37.5;
+
+function compute(n: number) {
+  const entry = n * ENTRY_PER_PLAYER;
+  const location = n * LOCATION_PER_PLAYER;
+  const stripeFee = n * STRIPE_FEE_PER_PLAYER;
+  const prizePool = entry - location - stripeFee - JUDGE - KNOCKOUT_PRIZE - OPERATIONAL_COSTS;
+  return {
+    entry,
+    location,
+    stripeFee,
+    prizePool,
+    top1:   prizePool * 0.200,
+    top2:   prizePool * 0.130,
+    top3:   prizePool * 0.090,
+    top4:   prizePool * 0.070,
+    top58:  prizePool * 0.045,
+    top916: prizePool * 0.025,
+  };
+}
+
+function fmt(n: number) {
+  return `€ ${n.toFixed(2).replace(".", ",")}`;
+}
+
+const d = compute(DEFAULT_PLAYERS);
+---
+
+<div class="rounded-2xl bg-card border border-border/50 p-6 space-y-5">
+  <!-- Player count input -->
+  <div class="flex items-center justify-center gap-3">
+    <label for="prizes-player-count" class="text-lg font-medium text-muted-foreground">Players:</label>
+    <div class="flex items-center gap-1">
+      <button
+        id="prizes-decrement"
+        class="h-[34px] w-[34px] flex items-center justify-center rounded-md border border-border bg-muted text-muted-foreground hover:bg-card hover:text-foreground transition-colors text-base leading-none"
+        aria-label="Decrease player count"
+      >−</button>
+      <span
+        id="prizes-player-count"
+        class="h-[34px] w-16 flex items-center justify-center rounded-lg border border-border bg-muted text-sm font-mono font-medium select-none"
+      >{DEFAULT_PLAYERS}</span>
+      <button
+        id="prizes-increment"
+        class="h-[34px] w-[34px] flex items-center justify-center rounded-md border border-border bg-muted text-muted-foreground hover:bg-card hover:text-foreground transition-colors text-base leading-none"
+        aria-label="Increase player count"
+      >+</button>
+    </div>
+  </div>
+
+  <!-- Cost breakdown -->
+  <div class="text-sm space-y-2">
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">Entry</span>
+      <span id="pz-entry">{fmt(d.entry)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">Location</span>
+      <span id="pz-location">{fmt(d.location)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">Stripe fee</span>
+      <span id="pz-stripe">{fmt(d.stripeFee)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">Judge</span>
+      <span>{fmt(JUDGE)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">Knockout prize</span>
+      <span>{fmt(KNOCKOUT_PRIZE)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">Operational costs</span>
+      <span>{fmt(OPERATIONAL_COSTS)}</span>
+    </div>
+  </div>
+
+  <div class="border-t border-border" />
+
+  <div class="flex justify-between text-sm font-bold">
+    <span>Prize pool</span>
+    <span id="pz-pool">{fmt(d.prizePool)}</span>
+  </div>
+
+  <div class="border-t border-border" />
+
+  <!-- Payouts -->
+  <div class="text-sm space-y-2">
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">1st <span class="text-xs">(20%)</span></span>
+      <span id="pz-top1">{fmt(d.top1)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">2nd <span class="text-xs">(13%)</span></span>
+      <span id="pz-top2">{fmt(d.top2)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">3rd <span class="text-xs">(9%)</span></span>
+      <span id="pz-top3">{fmt(d.top3)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">4th <span class="text-xs">(7%)</span></span>
+      <span id="pz-top4">{fmt(d.top4)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">5th–8th <span class="text-xs">(4,5% each)</span></span>
+      <span id="pz-top58">{fmt(d.top58)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">9th–16th <span class="text-xs">(2,5% each)</span></span>
+      <span id="pz-top916">{fmt(d.top916)}</span>
+    </div>
+  </div>
+
+  <div class="border-t border-border" />
+
+  <p class="text-xs text-muted-foreground italic">Prizes are awarded as store credit<br />(more information coming soon)</p>
+</div>
+
+<script>
+  const MIN_PLAYERS = 32;
+  const MAX_PLAYERS = 74;
+  const ENTRY_PER_PLAYER = 13;
+  const LOCATION_PER_PLAYER = 2.5;
+  const STRIPE_FEE_PER_PLAYER = 0.677;
+  const JUDGE = 80;
+  const KNOCKOUT_PRIZE = 60;
+  const OPERATIONAL_COSTS = 37.5;
+
+  function fmt(n: number) {
+    return `€ ${n.toFixed(2).replace(".", ",")}`;
+  }
+
+  function compute(n: number) {
+    const entry = n * ENTRY_PER_PLAYER;
+    const location = n * LOCATION_PER_PLAYER;
+    const stripeFee = n * STRIPE_FEE_PER_PLAYER;
+    const prizePool = entry - location - stripeFee - JUDGE - KNOCKOUT_PRIZE - OPERATIONAL_COSTS;
+    return {
+      entry,
+      location,
+      stripeFee,
+      prizePool,
+      top1:   prizePool * 0.200,
+      top2:   prizePool * 0.130,
+      top3:   prizePool * 0.090,
+      top4:   prizePool * 0.070,
+      top58:  prizePool * 0.045,
+      top916: prizePool * 0.025,
+    };
+  }
+
+  function update(n: number) {
+    const d = compute(n);
+    document.getElementById("pz-entry")!.textContent = fmt(d.entry);
+    document.getElementById("pz-location")!.textContent = fmt(d.location);
+    document.getElementById("pz-stripe")!.textContent = fmt(d.stripeFee);
+    document.getElementById("pz-pool")!.textContent = fmt(d.prizePool);
+    document.getElementById("pz-top1")!.textContent = fmt(d.top1);
+    document.getElementById("pz-top2")!.textContent = fmt(d.top2);
+    document.getElementById("pz-top3")!.textContent = fmt(d.top3);
+    document.getElementById("pz-top4")!.textContent = fmt(d.top4);
+    document.getElementById("pz-top58")!.textContent = fmt(d.top58);
+    document.getElementById("pz-top916")!.textContent = fmt(d.top916);
+  }
+
+  const counter = document.getElementById("prizes-player-count")!;
+
+  function setCount(n: number) {
+    if (n < MIN_PLAYERS || n > MAX_PLAYERS) return;
+    counter.textContent = String(n);
+    update(n);
+  }
+
+  function getCount() {
+    return parseInt(counter.textContent!, 10);
+  }
+
+  function holdButton(btn: HTMLElement | null, delta: number) {
+    if (!btn) return;
+    let timeout: ReturnType<typeof setTimeout>;
+    let interval: ReturnType<typeof setInterval>;
+
+    function start() {
+      setCount(getCount() + delta);
+      timeout = setTimeout(() => {
+        interval = setInterval(() => setCount(getCount() + delta), 80);
+      }, 400);
+    }
+
+    function stop() {
+      clearTimeout(timeout);
+      clearInterval(interval);
+    }
+
+    btn.addEventListener("mousedown", start);
+    btn.addEventListener("touchstart", (e) => { e.preventDefault(); start(); });
+    btn.addEventListener("mouseup", stop);
+    btn.addEventListener("mouseleave", stop);
+    btn.addEventListener("touchend", stop);
+  }
+
+  holdButton(document.getElementById("prizes-decrement"), -1);
+  holdButton(document.getElementById("prizes-increment"), +1);
+</script>

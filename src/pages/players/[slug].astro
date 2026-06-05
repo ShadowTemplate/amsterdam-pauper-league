@@ -1,0 +1,121 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { PLAYERS, getPlayerDetail } from "@/lib/mock-data";
+
+export function getStaticPaths() {
+  return PLAYERS.map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params;
+const player = PLAYERS.find((p) => p.slug === slug);
+
+if (!player) {
+  return Astro.redirect("/404", 404);
+}
+
+const detail = getPlayerDetail(slug);
+const title = `${player.name} – Amsterdam Pauper League`;
+
+const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCase(), p.slug]));
+---
+
+<Layout title={title}>
+  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted-foreground mb-4">
+      <a href="/players" class="hover:underline underline-offset-4">Players</a>
+      <span class="mx-2">›</span>{player.name}
+    </nav>
+
+    <h1 class="text-3xl font-bold mb-2">{player.name}</h1>
+    <p class="text-muted-foreground mb-8">Tournament results and statistics</p>
+
+    {detail ? (
+      <>
+        <!-- Stats row -->
+        <div class="flex gap-8 mb-8">
+          <div class="text-center">
+            <div class="text-3xl font-bold font-mono">{detail.stats.wins}</div>
+            <div class="text-sm text-muted-foreground">wins</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold font-mono">{detail.stats.losses}</div>
+            <div class="text-sm text-muted-foreground">losses</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold font-mono">{detail.stats.draws}</div>
+            <div class="text-sm text-muted-foreground">draws</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold font-mono">{detail.stats.byes}</div>
+            <div class="text-sm text-muted-foreground">byes</div>
+          </div>
+        </div>
+
+        <!-- Results per event -->
+        {detail.results.map((result) => (
+          <section class="mb-8">
+            <h2 class="text-xl font-semibold mb-1">
+              <a
+                href={`/events/${result.eventSlug}`}
+                class="hover:underline underline-offset-4 text-foreground"
+              >
+                {result.eventName}
+              </a>
+            </h2>
+            <p class="text-sm text-muted-foreground mb-3">
+              {result.position}th &bull;{" "}
+              <a
+                href={`/archetypes/${result.deckSlug}`}
+                class="hover:underline underline-offset-4 text-muted-foreground"
+              >
+                {result.deck}
+              </a>
+            </p>
+            <div class="w-full overflow-x-auto">
+              <table class="w-full text-sm border-collapse">
+                <thead>
+                  <tr>
+                    <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-20">Round</th>
+                    <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">vs</th>
+                    <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Pilot</th>
+                    <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Result</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[...result.rounds]
+                    .sort((a, b) => b.round - a.round)
+                    .map((r) => (
+                      <tr class={r.result === "Win" ? "text-green-600 dark:text-green-400" : r.result === "Loss" ? "text-red-600 dark:text-red-400" : r.result === "Draw" ? "text-yellow-500 dark:text-yellow-400" : ""}>
+                        <td class="py-3 px-4 border-b border-border font-mono">{r.round}</td>
+                        <td class="py-3 px-4 border-b border-border">
+                          <a href={`/archetypes/${r.opponentDeckSlug}`} class="hover:underline underline-offset-4">
+                            {r.opponentDeck}
+                          </a>
+                        </td>
+                        <td class="py-3 px-4 border-b border-border">
+                          {(() => {
+                            const ps = r.opponentPilotSlug ?? playerSlugByName[r.opponentPilot.toLowerCase()];
+                            return ps ? (
+                              <a href={`/players/${ps}`} class="hover:underline underline-offset-4">
+                                {r.opponentPilot}
+                              </a>
+                            ) : r.opponentPilot;
+                          })()}
+                        </td>
+                        <td class="py-3 px-4 border-b border-border font-medium">{r.result}</td>
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        ))}
+      </>
+    ) : (
+      <p class="text-muted-foreground">
+        Detailed match history coming soon for this player.
+      </p>
+    )}
+  </div>
+</Layout>

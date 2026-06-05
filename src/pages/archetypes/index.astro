@@ -1,0 +1,25 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import ArchetypeSearch from "@/components/ArchetypeSearch.astro";
+import { ARCHETYPES } from "@/lib/mock-data";
+
+const archetypes = ARCHETYPES;
+const totalDecks = archetypes.reduce((sum, a) => sum + a.count, 0);
+---
+
+<Layout title="Archetypes – Amsterdam Pauper League">
+  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+    <h1 class="text-3xl font-bold mb-2">Archetypes</h1>
+
+    <div class="flex gap-6 text-sm text-muted-foreground mb-6">
+      <span>
+        <span class="font-mono font-semibold text-foreground">{totalDecks}</span> total decks
+      </span>
+      <span>
+        <span class="font-mono font-semibold text-foreground">{archetypes.length}</span> archetypes
+      </span>
+    </div>
+
+    <ArchetypeSearch archetypes={archetypes} />
+  </div>
+</Layout>

@@ -1,0 +1,138 @@
+// ── Events ──────────────────────────────────────────────────────────────────
+
+export interface Event {
+  slug: string;          // YYYY-MM-DD
+  name: string;
+  date: string;          // YYYY-MM-DD
+  venue: string;
+  format: "paper" | "online";
+  status: "past" | "upcoming";
+  winner?: string;
+  playerCount?: number;
+  registrationUrl?: string;
+}
+
+export interface EventStanding {
+  position: number;
+  player: string;
+  playerSlug: string;
+  deck: string;          // archetype name
+  deckSlug: string;
+  omwPercentage: string; // e.g. "69.39%"
+  matchPoints: number;
+}
+
+export interface EventMetaEntry {
+  archetype: string;
+  archetypeSlug: string;
+  count: number;
+  percentage: string;
+}
+
+export interface EventDetail extends Event {
+  standings: EventStanding[];
+  meta: EventMetaEntry[];
+}
+
+// ── League ───────────────────────────────────────────────────────────────────
+
+export interface LeagueStanding {
+  position: number;
+  player: string;
+  playerSlug: string;
+  points: number;
+  flight?: boolean;
+  bye?: boolean;
+}
+
+export interface LeagueStats {
+  uniquePlayers: number;
+  averagePlayers: number;
+  eventsCompleted: number;
+  totalEvents: number;
+  latestAttendance: number;
+  byesUnlocked: number;
+}
+
+export interface LeagueSeason {
+  year: number;
+  standings: LeagueStanding[];
+  stats: LeagueStats;
+}
+
+// ── Archetypes ───────────────────────────────────────────────────────────────
+
+export interface Archetype {
+  slug: string;
+  name: string;
+  count: number;
+  percentage: string;
+}
+
+export interface ArchetypeAppearance {
+  position: number;
+  pilot: string;
+  pilotSlug: string;
+  eventSlug: string;
+  eventName: string;
+}
+
+export interface ArchetypeDetail {
+  slug: string;
+  name: string;
+  count: number;
+  percentage: string;
+  byEvent: {
+    eventSlug: string;
+    eventName: string;
+    appearances: ArchetypeAppearance[];
+  }[];
+}
+
+// ── Players ──────────────────────────────────────────────────────────────────
+
+export interface Player {
+  slug: string;
+  name: string;
+}
+
+export interface PlayerStats {
+  wins: number;
+  losses: number;
+  draws: number;
+  byes: number;
+}
+
+export interface RoundResult {
+  round: number;
+  opponentDeck: string;
+  opponentDeckSlug: string;
+  opponentPilot: string;
+  opponentPilotSlug?: string;
+  result: "Win" | "Loss" | "Draw" | "Bye";
+}
+
+export interface PlayerEventResult {
+  eventSlug: string;
+  eventName: string;
+  position: number;
+  deck: string;
+  deckSlug: string;
+  rounds: RoundResult[];
+}
+
+export interface PlayerDetail {
+  slug: string;
+  name: string;
+  stats: PlayerStats;
+  results: PlayerEventResult[];
+}
+
+// ── Pagination ───────────────────────────────────────────────────────────────
+
+export interface PaginatedResult<T> {
+  items: T[];
+  page: number;
+  totalPages: number;
+  total: number;
+}
