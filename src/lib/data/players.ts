@@ -288,7 +288,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 53,
         deck: "Monster Tron",
         deckSlug: "cyyoegpjsplbjgwv9pykcy9c",
@@ -332,7 +332,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 13,
         deck: "Izzet Terror",
         deckSlug: "g2smxlggf8pwjv4lu26o4syp",
@@ -348,7 +348,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 13,
         deck: "MonoW Heroic",
         deckSlug: "pyqxeaxdks7nd4e7xvlywza9",
@@ -551,7 +551,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 65,
         deck: "Jeskai Ephemerate",
         deckSlug: "uo1ymp7i579ks5j5tsguxezt",
@@ -567,7 +567,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 61,
         deck: "Affinity",
         deckSlug: "nq2axq0z87t47rcofczac258",
@@ -658,7 +658,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 37,
         deck: "Walls",
         deckSlug: "orfdouw213cnmt07scxcmguw",
@@ -685,7 +685,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 7,
         deck: "Walls",
         deckSlug: "wrzx5iitszimcd1e3qvauivs",
@@ -1454,7 +1454,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 57,
         deck: "MonoR Madness",
         deckSlug: "mdncauz3bpd4dqm6a4idjm7c",
@@ -1529,7 +1529,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 40,
         deck: "Gruul Ponza",
         deckSlug: "guq5mr1wfyznh84umkzeupn6",
@@ -1557,7 +1557,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 1,
         deck: "Jund Wildfire",
         deckSlug: "q1we7y7ynde6am85cqtha8yr",
@@ -1954,7 +1954,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 67,
         deck: "Izzet Terror",
         deckSlug: "ybqwwe8oklkki1qx1w5akh9s",
@@ -2108,7 +2108,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 46,
         deck: "Jund Wildfire",
         deckSlug: "gtfebx04g2mdz4cryse4mn5k",
@@ -2136,7 +2136,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 45,
         deck: "Spy Walls",
         deckSlug: "ana3kxe4p5llfmcnoplm3jtz",
@@ -2402,7 +2402,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 69,
         deck: "Affinity",
         deckSlug: "ujvcn36ehbzk0dcaj3x5m79d",
@@ -2840,7 +2840,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 16,
         deck: "MonoU Terror",
         deckSlug: "s0xusgf6g7iljdkgad2o61ct",
@@ -2856,7 +2856,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 36,
         deck: "Dimir Terror",
         deckSlug: "sjiygvk2y53e6uy0896lzykx",
@@ -2991,7 +2991,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 30,
         deck: "Brew",
         deckSlug: "q1jwy38ce4e4avnkfekmjvfh",
@@ -3019,7 +3019,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 44,
         deck: "Dimir Terror",
         deckSlug: "j793ce9354hqleqc8w2m1non",
@@ -3387,7 +3387,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 48,
         deck: "Elves",
         deckSlug: "gql2sa0e111xukrzt64yx7zj",
@@ -3403,7 +3403,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 29,
         deck: "Elves",
         deckSlug: "rax1z7bknckcsizu9h0t1pdq",
@@ -3472,7 +3472,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 21,
         deck: "Spy Walls",
         deckSlug: "lesicu1zcga4dhn3ewu0bsh7",
@@ -3488,7 +3488,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 34,
         deck: "Spy Walls",
         deckSlug: "jqaa1xk6zwaipyh3qw5850u2",
@@ -3884,7 +3884,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 66,
         deck: "Altar Tron",
         deckSlug: "virxjoqnk7dfj2rgsq6ukb9i",
@@ -3963,7 +3963,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 33,
         deck: "White Weenie",
         deckSlug: "gx1eme10ifukqg4vv591ipfu",
@@ -3979,7 +3979,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 59,
         deck: "White Weenie",
         deckSlug: "q6o5dlp1i3kccrrswepaq8e8",
@@ -4047,7 +4047,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 8,
         deck: "MonoR Rally",
         deckSlug: "uc99d85cipu68wevkt6527i8",
@@ -4221,7 +4221,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 61,
         deck: "Cycling Storm",
         deckSlug: "qln750wca67li5nmphhw5b0m",
@@ -4237,7 +4237,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 15,
         deck: "Ruby Storm",
         deckSlug: "t5ssnqpdwvtvhwxvhv6qdlb1",
@@ -4291,7 +4291,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 55,
         deck: "MonoR Madness",
         deckSlug: "qhg11j892dbufjys3csudr7y",
@@ -4307,7 +4307,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 40,
         deck: "MonoR Madness",
         deckSlug: "d9donbq8iobmx665lwu97luy",
@@ -4697,7 +4697,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 20,
         deck: "Eldrazi Spawn",
         deckSlug: "aapbawq8rn816x84m5yi0but",
@@ -4786,7 +4786,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 28,
         deck: "Spy Walls",
         deckSlug: "xz19dyp8splrgd57g1xye81w",
@@ -4802,7 +4802,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 31,
         deck: "Spy Walls",
         deckSlug: "na8zqq1v29wal1m7ywp25u6n",
@@ -5357,7 +5357,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 44,
         deck: "MonoB Sacrifice",
         deckSlug: "pikg49mruyknxa6nrsrm4m1c",
@@ -5373,7 +5373,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 10,
         deck: "MonoB Sacrifice",
         deckSlug: "zwv4js7a0gly092riz8xhdbv",
@@ -5620,7 +5620,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 9,
         deck: "Azorius Gates",
         deckSlug: "xqizqi86hi0uhmbxhbyo6ei3",
@@ -5636,7 +5636,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 12,
         deck: "Azorius Gates",
         deckSlug: "fkcxlo7xxx0nsantoglagldd",
@@ -5838,7 +5838,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 20,
         deck: "MonoU Terror",
         deckSlug: "v20dy8c2sgzyhi6d35uostlx",
@@ -6063,7 +6063,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 60,
         deck: "Boros Synth",
         deckSlug: "qe6ay5zvxe6yxhmkcychu5nc",
@@ -6079,7 +6079,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 54,
         deck: "Boros Synth",
         deckSlug: "b6fngyoe61rr2daq66uoes8l",
@@ -6138,7 +6138,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 45,
         deck: "MonoR Madness",
         deckSlug: "qkhxbpdyj9xco7i6o6ghr1ep",
@@ -6154,7 +6154,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 69,
         deck: "Rakdos Burn",
         deckSlug: "wzc6ew056cv5ulumnxpzllrz",
@@ -6222,7 +6222,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 15,
         deck: "Gruul Ramp",
         deckSlug: "mx6g9y7sq75i9ve5gofpr10h",
@@ -6245,7 +6245,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 66,
         deck: "Affinity",
         deckSlug: "nsj6p555s41m4an0lok4a470",
@@ -6266,7 +6266,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 25,
         deck: "Dimir Faeries",
         deckSlug: "wnpjbyiwvc69l3cyiu91at2z",
@@ -6282,7 +6282,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 28,
         deck: "Dimir Faeries",
         deckSlug: "m7zpak92ddun5136vi1lk03s",
@@ -6305,7 +6305,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 23,
         deck: "Elves",
         deckSlug: "biplrdzy5nvio884uo31ssx8",
@@ -6332,7 +6332,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 17,
         deck: "Golgari Gardens",
         deckSlug: "aik3chd5hicylzmdk1g6u9bh",
@@ -6851,7 +6851,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 55,
         deck: "Petitioners Mill",
         deckSlug: "lbhwde3m4klo5xksu51nraxb",
@@ -6873,7 +6873,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 72,
         deck: "Brew",
         deckSlug: "g45i2f0fuenznj4fa4lxfljv",
@@ -6889,7 +6889,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 63,
         deck: "Rakdos Ally",
         deckSlug: "b4oe47wez3feg0qqi119ie6y",
@@ -6942,7 +6942,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 14,
         deck: "White Weenie",
         deckSlug: "mpecepj04qt633id2e5mpcf9",
@@ -6958,7 +6958,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 19,
         deck: "Gruul Ponza",
         deckSlug: "qqhipzglqoex66x07461n9zm",
@@ -7042,7 +7042,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 1,
         deck: "Selesnya Gates",
         deckSlug: "p38ulb2fws5qfop8q9zulthy",
@@ -7058,7 +7058,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 2,
         deck: "Selesnya Gates",
         deckSlug: "eq1ba3ucsvcroj9epmv9ejoh",
@@ -7171,7 +7171,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 39,
         deck: "MonoR Rally",
         deckSlug: "swnbn6cvnwbaoxygbqbt4uoj",
@@ -7277,7 +7277,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 62,
         deck: "Flicker Tron",
         deckSlug: "a2k4ob1dulmgafs4g38yd0z6",
@@ -7374,7 +7374,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 29,
         deck: "Dimir Faeries",
         deckSlug: "lbybkzdq3tfc9edg9h42g9ay",
@@ -7390,7 +7390,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 51,
         deck: "MonoU Faeries",
         deckSlug: "sgsnrg1pngdyo24l6rkfexci",
@@ -8070,7 +8070,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 21,
         deck: "MonoR Madness",
         deckSlug: "va0m3u7eiqpqci8tzwmejp7b",
@@ -8116,7 +8116,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 10,
         deck: "MonoR Blitz",
         deckSlug: "jomg27nqfj3wcm5ulkk6f79b",
@@ -8234,7 +8234,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 56,
         deck: "Boros Synth",
         deckSlug: "u6z8z5uar1o2kyr342jb33a9",
@@ -8575,7 +8575,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 31,
         deck: "Boros Bully",
         deckSlug: "g4tbvcu028qa670s8e7k6ktl",
@@ -8591,7 +8591,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 16,
         deck: "Monster Tron",
         deckSlug: "tv2qiz4ssupcwekz6jyn0e7a",
@@ -8665,7 +8665,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 54,
         deck: "Affinity",
         deckSlug: "ddfbex498wwbgee3n9xg98z2",
@@ -8863,7 +8863,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 62,
         deck: "Brew",
         deckSlug: "v4tcu661k3szc9bwdgo07epc",
@@ -8879,7 +8879,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 57,
         deck: "Brew",
         deckSlug: "y9zyscu2oo9wgmidvfoc52y1",
@@ -8932,7 +8932,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 5,
         deck: "Jeskai Ephemerate",
         deckSlug: "vq8nxf2jpnbnhhyf1v5uzmyu",
@@ -8948,7 +8948,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 35,
         deck: "Jeskai Ephemerate",
         deckSlug: "awfbcvx6ptuqv0yok42sj3yi",
@@ -9231,7 +9231,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 64,
         deck: "Monster Tron",
         deckSlug: "zan6329qny36s08x6vp1ynsz",
@@ -9355,7 +9355,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 70,
         deck: "MonoR Madness",
         deckSlug: "x1yw2npax1y6vqc7t2hk4v5u",
@@ -9484,7 +9484,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 41,
         deck: "MonoR Rally",
         deckSlug: "o83z76tbf8agd2v2wgst3pe9",
@@ -9500,7 +9500,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 4,
         deck: "MonoR Rally",
         deckSlug: "o75wg1r8vr693yy70t1pnyue",
@@ -9554,7 +9554,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 65,
         deck: "Affinity",
         deckSlug: "lnykn7ydvoyt3a5hyhsmgrgw",
@@ -10038,7 +10038,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 51,
         deck: "Altar Tron",
         deckSlug: "c9qnxili01bvx53zsk66utyr",
@@ -10054,7 +10054,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 26,
         deck: "Rakdos Burn",
         deckSlug: "tta3txbd8jvgyng214is9zdb",
@@ -10173,7 +10173,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 42,
         deck: "Jund Wildfire",
         deckSlug: "hvus4x20mi8ctl4ent0p3vt5",
@@ -10287,7 +10287,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 19,
         deck: "Mardu Synth",
         deckSlug: "quk8dhhvwtl4acqhdamkle0x",
@@ -10303,7 +10303,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 43,
         deck: "Mardu Synth",
         deckSlug: "sid6mr9qnogpxpjryjpwhbzh",
@@ -10438,7 +10438,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 70,
         deck: "Golgari Gardens",
         deckSlug: "k13oc4dc9zdpb0pbvlwoob4d",
@@ -10458,7 +10458,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 12,
         deck: "MonoR Madness",
         deckSlug: "ytah6uzd88juul7n578jivas",
@@ -10486,7 +10486,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 48,
         deck: "MonoW Heroic",
         deckSlug: "l9du76jg4sxb9mngcjux0jro",
@@ -10804,7 +10804,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 37,
         deck: "MonoU Terror",
         deckSlug: "wkvzzczrpsap9jlw6lswg1cl",
@@ -10940,7 +10940,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 22,
         deck: "Familiars",
         deckSlug: "m1ympk1e7td30gfl8gm90e87",
@@ -11008,7 +11008,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 3,
         deck: "Gruul Ponza",
         deckSlug: "qowxggbklkl30uko4rbpzan1",
@@ -11024,7 +11024,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 33,
         deck: "Golgari Dredge",
         deckSlug: "j7ah4nmdv6slc2vkh0qq43mv",
@@ -11047,7 +11047,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 63,
         deck: "Affinity",
         deckSlug: "ybx6hytq1gm5f44mfwo662ft",
@@ -11060,7 +11060,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 11,
         deck: "Affinity",
         deckSlug: "rc428peh4m4norn86shg1qx4",
@@ -11496,7 +11496,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 49,
         deck: "MonoR Madness",
         deckSlug: "wnhlqfn7acrhiyf33tkyv5za",
@@ -11741,7 +11741,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 7,
         deck: "MonoR Madness",
         deckSlug: "bllm1gtbw31lp5y8o9n862xr",
@@ -12053,7 +12053,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 32,
         deck: "MonoU Terror",
         deckSlug: "c5w495qfb8eejxtbc6w76z4d",
@@ -12069,7 +12069,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 56,
         deck: "MonoU Terror",
         deckSlug: "b4sqlexgo9jamen8u5fkxot1",
@@ -12092,7 +12092,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 18,
         deck: "Brew",
         deckSlug: "fn6wvjtbeyxu16k5v5ima0dc",
@@ -12108,7 +12108,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 50,
         deck: "Flicker Tron",
         deckSlug: "s8kpn1na1t611gdkn31sl6jw",
@@ -12311,7 +12311,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 17,
         deck: "MonoW Heroic",
         deckSlug: "pug9xxzfqf4u7fqczx8zvxkq",
@@ -12403,7 +12403,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 59,
         deck: "MonoR Madness",
         deckSlug: "zeaagktrx129mwo322rdue1r",
@@ -12661,7 +12661,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 6,
         deck: "MonoR Madness",
         deckSlug: "smsoedr1enzk23th8gksvm3h",
@@ -12714,7 +12714,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 42,
         deck: "Golgari Dredge",
         deckSlug: "s21cjw72fvmhqzr8qnumm9hf",
@@ -12929,7 +12929,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 36,
         deck: "Golgari Dredge",
         deckSlug: "hk66pdwhn51p750gq2gom99l",
@@ -12945,7 +12945,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 25,
         deck: "Golgari Dredge",
         deckSlug: "ey11u2qcgmj5ep131b32ovll",
@@ -12968,7 +12968,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 35,
         deck: "Azorius Gates",
         deckSlug: "dgwaddag0in4nnfpnrn6fb9q",
@@ -12996,7 +12996,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 18,
         deck: "Dimir Terror",
         deckSlug: "ta8jjgy7tjp8g53hmzisc90h",
@@ -13192,7 +13192,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 38,
         deck: "MonoR Rally",
         deckSlug: "olw934ylg9o2zdn8fhy1h0rr",
@@ -13406,7 +13406,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 32,
         deck: "MonoU Terror",
         deckSlug: "yahsnh52o09hagp1l3p50fgc",
@@ -13444,7 +13444,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 23,
         deck: "Dimir Faeries",
         deckSlug: "nf73mp0nyjmw55gb90kz3u7e",
@@ -13557,7 +13557,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 27,
         deck: "Burn",
         deckSlug: "qvniryrhz0el9h1pdk15j66h",
@@ -13786,7 +13786,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 43,
         deck: "MonoR Madness",
         deckSlug: "rvpbbn8v1723nyu2flh8ugpt",
@@ -13802,7 +13802,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 49,
         deck: "MonoR Madness",
         deckSlug: "kufnff4t3q17ojt4rfppqgo5",
@@ -14248,7 +14248,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 11,
         deck: "Goblins",
         deckSlug: "bbifoycfcd3jlv0kouecdu0f",
@@ -14264,7 +14264,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 47,
         deck: "MonoB Sacrifice",
         deckSlug: "wseom9hizeob64pk5hq1ydej",
@@ -14871,7 +14871,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 38,
         deck: "Jeskai Ephemerate",
         deckSlug: "r9dgfe4g3mo5foonoqgupa0b",
@@ -14887,7 +14887,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 30,
         deck: "Elves",
         deckSlug: "r4qlb9ppm26skqotvdmjem8m",
@@ -15060,7 +15060,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 53,
         deck: "Dimir Terror",
         deckSlug: "sk11gvp705ppc0dmtnhocove",
@@ -15179,7 +15179,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 47,
         deck: "Affinity",
         deckSlug: "mz4lz8sptdwdot52bkswh9cy",
@@ -15281,7 +15281,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 41,
         deck: "Spy Walls",
         deckSlug: "d3yc9s540yr1ozqnnv33tx6n",
@@ -15334,7 +15334,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 4,
         deck: "Monster Tron",
         deckSlug: "upr4uejq8rc4sogwuol4x23r",
@@ -15350,7 +15350,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 3,
         deck: "Monster Tron",
         deckSlug: "o8y013w8ynjnzkp4wlt9iv2p",
@@ -15550,7 +15550,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 68,
         deck: "Affinity",
         deckSlug: "lg8u0cueahh2dx1us1tefagc",
@@ -15564,7 +15564,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 27,
         deck: "Affinity",
         deckSlug: "yz21tmsqlkohi9tsbubdp7xf",
@@ -15632,7 +15632,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 14,
         deck: "Spy Walls",
         deckSlug: "vacek7p71emeemswpfox2sh7",
@@ -15719,7 +15719,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 9,
         deck: "Gruul Ramp",
         deckSlug: "ma46ic1pkh9yf9pdvqeg0yhl",
@@ -15757,7 +15757,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 46,
         deck: "Monster Tron",
         deckSlug: "rbwrio9calny7r1ba3chi5s7",
@@ -15839,7 +15839,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 39,
         deck: "White Weenie",
         deckSlug: "ub0c11upqj5b5em1efpj0h1m",
@@ -15941,7 +15941,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 24,
         deck: "Affinity",
         deckSlug: "ufnqc6phnz69y9opbp719cql",
@@ -15957,7 +15957,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 22,
         deck: "Affinity",
         deckSlug: "r36i0nwgwvib84c7dyfkwmfv",
@@ -16264,7 +16264,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 58,
         deck: "Eldrazi Spawn",
         deckSlug: "mk5kf14808jm9kk60upf9lyt",
@@ -16280,7 +16280,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 68,
         deck: "Eldrazi Spawn",
         deckSlug: "xgfka70a2rdw07ze9yld5bgf",
@@ -16318,7 +16318,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 26,
         deck: "MonoU Faeries",
         deckSlug: "vu6bomyi3xseuv21m7pc5l2s",
@@ -16334,7 +16334,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 8,
         deck: "Dimir Faeries",
         deckSlug: "imttfi2ol0nhptre3v0pjd9j",
@@ -16762,7 +16762,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 71,
         deck: "White Weenie",
         deckSlug: "bahdgvyh9upyrppxvob1gfd7",
@@ -16778,7 +16778,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 67,
         deck: "Brew",
         deckSlug: "ji9q22n6qamzrnmnr746bkio",
@@ -16912,7 +16912,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 34,
         deck: "Boros Bully",
         deckSlug: "p8hzy79apv5uthwimtp8r19m",
@@ -16928,7 +16928,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 58,
         deck: "Esper Affinity",
         deckSlug: "hp6wo22upraqbg261v4ryha9",
@@ -17101,7 +17101,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 50,
         deck: "Affinity",
         deckSlug: "bp0yybb99rnb617ozvgkl1ag",
@@ -17357,7 +17357,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 2,
         deck: "Boros Tribe",
         deckSlug: "yyg8w85b01mmhb4ppj539bnw",
@@ -17373,7 +17373,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 24,
         deck: "Familiars",
         deckSlug: "uv6tq22q6qfjc742sl16p5or",
@@ -17664,7 +17664,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 52,
         deck: "MonoU Faeries",
         deckSlug: "t1eg5w86347mqvv5tvs0hod9",
@@ -17881,7 +17881,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 6,
         deck: "Dimir Faeries",
         deckSlug: "nhz95enabp99gzynrve0s5uy",
@@ -17897,7 +17897,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 5,
         deck: "Dimir Faeries",
         deckSlug: "kdn7rpzoi1v3crpvgn6yz2r6",
@@ -18245,7 +18245,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-05-02",
-        eventName: "Amsterdam Pauper League – 2° Leg – 2026",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 52,
         deck: "MonoB Sacrifice",
         deckSlug: "fbfso4ddre17xqctu55wd35r",
@@ -18261,7 +18261,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 60,
         deck: "MonoB Sacrifice",
         deckSlug: "dgk2ufjk8pzr6vdq9oe4mtrq",
@@ -18375,7 +18375,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     results: [
       {
         eventSlug: "2026-04-11",
-        eventName: "Amsterdam Pauper League – 1° Leg – 2026",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 64,
         deck: "Golgari Gardens",
         deckSlug: "rm2rbrtvxivq2bqyoo0erihb",
