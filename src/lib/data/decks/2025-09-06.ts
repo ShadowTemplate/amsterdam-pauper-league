@@ -1,0 +1,6390 @@
+import type { Deck } from "@/types";
+
+export const decks: Deck[] = [
+  {
+    "id": "c8jfdnvx8yb3redsw2zvjkuf",
+    "url": "https://dutchpauperleague.nl/decks/c8jfdnvx8yb3redsw2zvjkuf",
+    "name": "Brew",
+    "archetype": "Brew",
+    "pilotName": "Tobias van Kersbergen",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Glint Hawk"
+      },
+      {
+        "quantity": 4,
+        "name": "Kor Skyfisher"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Myr Enforcer"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 3,
+        "name": "Grim Bauble"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 2,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 2,
+        "name": "Tithing Blade"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 1,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 2,
+        "name": "Thraben Charm"
+      },
+      {
+        "quantity": 1,
+        "name": "Suffocating Fumes"
+      },
+      {
+        "quantity": 4,
+        "name": "Thoughtcast"
+      },
+      {
+        "quantity": 3,
+        "name": "Ancient Den"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 3,
+        "name": "Goldmire Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Mistvault Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Razortide Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Seat of the Synod"
+      },
+      {
+        "quantity": 4,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 3,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 3,
+        "name": "Navigator's Compass"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 3,
+        "name": "Dust to Dust"
+      },
+      {
+        "quantity": 2,
+        "name": "Temporal Intervention"
+      },
+      {
+        "quantity": 2,
+        "name": "Arms of Hadar"
+      }
+    ]
+  },
+  {
+    "id": "vnzida4cu3aug62tnbprp70s",
+    "url": "https://dutchpauperleague.nl/decks/vnzida4cu3aug62tnbprp70s",
+    "name": "MonoU Terror",
+    "archetype": "MonoU Terror",
+    "pilotName": "Raven de Bruin",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Delver of Secrets"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryptic Serpent"
+      },
+      {
+        "quantity": 4,
+        "name": "Tolarian Terror"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 3,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 4,
+        "name": "Mental Note"
+      },
+      {
+        "quantity": 1,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Thought Scour"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 3,
+        "name": "Ponder"
+      },
+      {
+        "quantity": 2,
+        "name": "Sleep of the Dead"
+      },
+      {
+        "quantity": 2,
+        "name": "Deem Inferior"
+      },
+      {
+        "quantity": 1,
+        "name": "Deep Analysis"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 16,
+        "name": "Island"
+      },
+      {
+        "quantity": 4,
+        "name": "Annul"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Envelop"
+      },
+      {
+        "quantity": 3,
+        "name": "Gut Shot"
+      },
+      {
+        "quantity": 2,
+        "name": "Hydroblast"
+      }
+    ]
+  },
+  {
+    "id": "sxjmni6igxkg8v5snjt4tfka",
+    "url": "https://dutchpauperleague.nl/decks/sxjmni6igxkg8v5snjt4tfka",
+    "name": "MonoB Sacrifice",
+    "archetype": "MonoB Sacrifice",
+    "pilotName": "Harm steenbakkers",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Carrion Feeder"
+      },
+      {
+        "quantity": 4,
+        "name": "Infestation Sage"
+      },
+      {
+        "quantity": 4,
+        "name": "Mortician Beetle"
+      },
+      {
+        "quantity": 4,
+        "name": "Nested Shambler"
+      },
+      {
+        "quantity": 4,
+        "name": "Nezumi Linkbreaker"
+      },
+      {
+        "quantity": 2,
+        "name": "Snarling Gorehound"
+      },
+      {
+        "quantity": 2,
+        "name": "Accursed Marauder"
+      },
+      {
+        "quantity": 4,
+        "name": "Bloodthrone Vampire"
+      },
+      {
+        "quantity": 3,
+        "name": "Sadistic Glee"
+      },
+      {
+        "quantity": 3,
+        "name": "Supernatural Stamina"
+      },
+      {
+        "quantity": 4,
+        "name": "Village Rites"
+      },
+      {
+        "quantity": 2,
+        "name": "Unearth"
+      },
+      {
+        "quantity": 3,
+        "name": "Rite of Consumption"
+      },
+      {
+        "quantity": 1,
+        "name": "Escape Tunnel"
+      },
+      {
+        "quantity": 16,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 2,
+        "name": "Vampiric Link"
+      },
+      {
+        "quantity": 1,
+        "name": "Accursed Marauder"
+      },
+      {
+        "quantity": 4,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 3,
+        "name": "Drown in Sorrow"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 3,
+        "name": "Snuff Out"
+      }
+    ]
+  },
+  {
+    "id": "rcfxquhz4t9wpx8m3kzgct4b",
+    "url": "https://dutchpauperleague.nl/decks/rcfxquhz4t9wpx8m3kzgct4b",
+    "name": "Burn",
+    "archetype": "Burn",
+    "pilotName": "Eef vV",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Kessig Flamebreather"
+      },
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 3,
+        "name": "Guttersnipe"
+      },
+      {
+        "quantity": 4,
+        "name": "Faithless Looting"
+      },
+      {
+        "quantity": 4,
+        "name": "Grab the Prize"
+      },
+      {
+        "quantity": 4,
+        "name": "Highway Robbery"
+      },
+      {
+        "quantity": 4,
+        "name": "Lava Dart"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiery Temper"
+      },
+      {
+        "quantity": 3,
+        "name": "Fireblast"
+      },
+      {
+        "quantity": 18,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 1,
+        "name": "Tormod's Crypt"
+      },
+      {
+        "quantity": 2,
+        "name": "End the Festivities"
+      },
+      {
+        "quantity": 2,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 3,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Flaring Pain"
+      },
+      {
+        "quantity": 2,
+        "name": "Searing Blaze"
+      },
+      {
+        "quantity": 2,
+        "name": "Smash to Smithereens"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      }
+    ]
+  },
+  {
+    "id": "tjktfycngyyk5w2gkyf9losf",
+    "url": "https://dutchpauperleague.nl/decks/tjktfycngyyk5w2gkyf9losf",
+    "name": "Brew",
+    "archetype": "Brew",
+    "pilotName": "Davy Baardink",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 2,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 4,
+        "name": "Abjure"
+      },
+      {
+        "quantity": 4,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 4,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Hard Evidence"
+      },
+      {
+        "quantity": 1,
+        "name": "Extract a Confession"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 2,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Contaminated Aquifer"
+      },
+      {
+        "quantity": 1,
+        "name": "Dimir Aqueduct"
+      },
+      {
+        "quantity": 2,
+        "name": "Foreboding Landscape"
+      },
+      {
+        "quantity": 9,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 2,
+        "name": "Annul"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Envelop"
+      },
+      {
+        "quantity": 1,
+        "name": "Extract a Confession"
+      },
+      {
+        "quantity": 2,
+        "name": "Arms of Hadar"
+      },
+      {
+        "quantity": 2,
+        "name": "Snuff Out"
+      }
+    ]
+  },
+  {
+    "id": "xnix6t3j38iihvwfztfu2qst",
+    "url": "https://dutchpauperleague.nl/decks/xnix6t3j38iihvwfztfu2qst",
+    "name": "Izzet Terror",
+    "archetype": "Izzet Terror",
+    "pilotName": "Clemens Gerteiser",
+    "cards": [
+      {
+        "quantity": 2,
+        "name": "Azure Fleet Admiral"
+      },
+      {
+        "quantity": 2,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 4,
+        "name": "Tolarian Terror"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 2,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Skred"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Lose Focus"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 2,
+        "name": "Campfire"
+      },
+      {
+        "quantity": 4,
+        "name": "Ponder"
+      },
+      {
+        "quantity": 4,
+        "name": "Preordain"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 2,
+        "name": "Perilous Landscape"
+      },
+      {
+        "quantity": 9,
+        "name": "Snow-Covered Island"
+      },
+      {
+        "quantity": 3,
+        "name": "Snow-Covered Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Volatile Fjord"
+      },
+      {
+        "quantity": 3,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Campfire"
+      },
+      {
+        "quantity": 4,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast into the Fire"
+      }
+    ]
+  },
+  {
+    "id": "puv7br4452m16rptphs2v7sj",
+    "url": "https://dutchpauperleague.nl/decks/puv7br4452m16rptphs2v7sj",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "Bram Deppenbroek",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 1,
+        "name": "Nyxborn Hydra"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 2,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 2,
+        "name": "Toxin Analysis"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 1,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 3,
+        "name": "Duress"
+      },
+      {
+        "quantity": 1,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 2,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 4,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 1,
+        "name": "Snuff Out"
+      }
+    ]
+  },
+  {
+    "id": "qzf5xg6ax3r160pm71w5e79x",
+    "url": "https://dutchpauperleague.nl/decks/qzf5xg6ax3r160pm71w5e79x",
+    "name": "Mardu Synth",
+    "archetype": "Mardu Synth",
+    "pilotName": "Kasper Zijl",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Glint Hawk"
+      },
+      {
+        "quantity": 4,
+        "name": "Kor Skyfisher"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Experimental Synthesizer"
+      },
+      {
+        "quantity": 4,
+        "name": "Black Mage's Rod"
+      },
+      {
+        "quantity": 4,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 2,
+        "name": "Tithing Blade"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 3,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 2,
+        "name": "Journey to Nowhere"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 1,
+        "name": "Ancient Den"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Plains"
+      },
+      {
+        "quantity": 4,
+        "name": "Rustvale Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Shattered Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 3,
+        "name": "Duress"
+      },
+      {
+        "quantity": 3,
+        "name": "Navigator's Compass"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 1,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 2,
+        "name": "Thraben Charm"
+      },
+      {
+        "quantity": 2,
+        "name": "Tithing Blade"
+      }
+    ]
+  },
+  {
+    "id": "ra1u8w40tzlktgellmdbelfl",
+    "url": "https://dutchpauperleague.nl/decks/ra1u8w40tzlktgellmdbelfl",
+    "name": "Elves",
+    "archetype": "Elves",
+    "pilotName": "Ben van Wijk",
+    "cards": [
+      {
+        "quantity": 2,
+        "name": "Elvish Mystic"
+      },
+      {
+        "quantity": 4,
+        "name": "Fyndhorn Elves"
+      },
+      {
+        "quantity": 2,
+        "name": "Llanowar Elves"
+      },
+      {
+        "quantity": 4,
+        "name": "Nyxborn Hydra"
+      },
+      {
+        "quantity": 4,
+        "name": "Quirion Ranger"
+      },
+      {
+        "quantity": 4,
+        "name": "Masked Vandal"
+      },
+      {
+        "quantity": 4,
+        "name": "Priest of Titania"
+      },
+      {
+        "quantity": 4,
+        "name": "Wellwisher"
+      },
+      {
+        "quantity": 4,
+        "name": "Timberwatch Elf"
+      },
+      {
+        "quantity": 4,
+        "name": "Sagu Wildling"
+      },
+      {
+        "quantity": 4,
+        "name": "Generous Ent"
+      },
+      {
+        "quantity": 4,
+        "name": "Winding Way"
+      },
+      {
+        "quantity": 4,
+        "name": "Lead the Stampede"
+      },
+      {
+        "quantity": 12,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 1,
+        "name": "Scattershot Archer"
+      },
+      {
+        "quantity": 4,
+        "name": "Deglamer"
+      },
+      {
+        "quantity": 4,
+        "name": "Vitu-Ghazi Inspector"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 2,
+        "name": "Pulse of Murasa"
+      }
+    ]
+  },
+  {
+    "id": "pnr04m4c6e06pvdrp5q6lugv",
+    "url": "https://dutchpauperleague.nl/decks/pnr04m4c6e06pvdrp5q6lugv",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "jarno polhuijs",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 1,
+        "name": "Nyxborn Hydra"
+      },
+      {
+        "quantity": 1,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 1,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 2,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 2,
+        "name": "Toxin Analysis"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 1,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 3,
+        "name": "Duress"
+      },
+      {
+        "quantity": 1,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 3,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Troublemaker Ouphe"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 2,
+        "name": "Thorn of the Black Rose"
+      }
+    ]
+  },
+  {
+    "id": "mcjusykt1nfe9pkij0rih7em",
+    "url": "https://dutchpauperleague.nl/decks/mcjusykt1nfe9pkij0rih7em",
+    "name": "Familiars",
+    "archetype": "Familiars",
+    "pilotName": "Simon Isphording",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "God-Pharaoh's Faithful"
+      },
+      {
+        "quantity": 4,
+        "name": "Sunscape Familiar"
+      },
+      {
+        "quantity": 3,
+        "name": "Archaeomancer"
+      },
+      {
+        "quantity": 2,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 3,
+        "name": "Mulldrifter"
+      },
+      {
+        "quantity": 4,
+        "name": "Preordain"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 4,
+        "name": "Snap"
+      },
+      {
+        "quantity": 3,
+        "name": "Ghostly Flicker"
+      },
+      {
+        "quantity": 3,
+        "name": "Foil"
+      },
+      {
+        "quantity": 4,
+        "name": "The Modern Age"
+      },
+      {
+        "quantity": 2,
+        "name": "Ash Barrens"
+      },
+      {
+        "quantity": 4,
+        "name": "Azorius Chancery"
+      },
+      {
+        "quantity": 1,
+        "name": "Idyllic Beachfront"
+      },
+      {
+        "quantity": 8,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Mortuary Mire"
+      },
+      {
+        "quantity": 2,
+        "name": "Plains"
+      },
+      {
+        "quantity": 4,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 1,
+        "name": "Last Breath"
+      },
+      {
+        "quantity": 2,
+        "name": "Negate"
+      },
+      {
+        "quantity": 2,
+        "name": "Prohibit"
+      },
+      {
+        "quantity": 2,
+        "name": "Revoke Existence"
+      },
+      {
+        "quantity": 4,
+        "name": "Dust to Dust"
+      }
+    ]
+  },
+  {
+    "id": "t247j0ql7n632z499itfps87",
+    "url": "https://dutchpauperleague.nl/decks/t247j0ql7n632z499itfps87",
+    "name": "Azorius Gates",
+    "archetype": "Azorius Gates",
+    "pilotName": "Hidde van 't Verlaat",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Sacred Cat"
+      },
+      {
+        "quantity": 2,
+        "name": "Outlaw Medic"
+      },
+      {
+        "quantity": 4,
+        "name": "Squadron Hawk"
+      },
+      {
+        "quantity": 1,
+        "name": "Guardian of the Guildpact"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 1,
+        "name": "Focus Fire"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 1,
+        "name": "Lose Focus"
+      },
+      {
+        "quantity": 2,
+        "name": "Thraben Charm"
+      },
+      {
+        "quantity": 4,
+        "name": "Prismatic Strands"
+      },
+      {
+        "quantity": 4,
+        "name": "Journey to Nowhere"
+      },
+      {
+        "quantity": 4,
+        "name": "The Modern Age"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 3,
+        "name": "Azorius Guildgate"
+      },
+      {
+        "quantity": 4,
+        "name": "Basilisk Gate"
+      },
+      {
+        "quantity": 4,
+        "name": "Citadel Gate"
+      },
+      {
+        "quantity": 1,
+        "name": "Glacial Floodplain"
+      },
+      {
+        "quantity": 2,
+        "name": "Heap Gate"
+      },
+      {
+        "quantity": 3,
+        "name": "Island"
+      },
+      {
+        "quantity": 4,
+        "name": "Sea Gate"
+      },
+      {
+        "quantity": 2,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 3,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 3,
+        "name": "Dust to Dust"
+      },
+      {
+        "quantity": 1,
+        "name": "Last Rites"
+      }
+    ]
+  },
+  {
+    "id": "ks62uh4l5i5m1ww2edew7rc9",
+    "url": "https://dutchpauperleague.nl/decks/ks62uh4l5i5m1ww2edew7rc9",
+    "name": "Elves",
+    "archetype": "Elves",
+    "pilotName": "Vincent Zwinkels",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Elves of Deep Shadow"
+      },
+      {
+        "quantity": 2,
+        "name": "Elvish Mystic"
+      },
+      {
+        "quantity": 3,
+        "name": "Jaspera Sentinel"
+      },
+      {
+        "quantity": 2,
+        "name": "Llanowar Elves"
+      },
+      {
+        "quantity": 3,
+        "name": "Nyxborn Hydra"
+      },
+      {
+        "quantity": 4,
+        "name": "Quirion Ranger"
+      },
+      {
+        "quantity": 4,
+        "name": "Priest of Titania"
+      },
+      {
+        "quantity": 4,
+        "name": "Sylvan Ranger"
+      },
+      {
+        "quantity": 2,
+        "name": "Vitu-Ghazi Inspector"
+      },
+      {
+        "quantity": 2,
+        "name": "Wellwisher"
+      },
+      {
+        "quantity": 4,
+        "name": "Timberwatch Elf"
+      },
+      {
+        "quantity": 4,
+        "name": "Sagu Wildling"
+      },
+      {
+        "quantity": 4,
+        "name": "Generous Ent"
+      },
+      {
+        "quantity": 4,
+        "name": "Winding Way"
+      },
+      {
+        "quantity": 4,
+        "name": "Lead the Stampede"
+      },
+      {
+        "quantity": 9,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Masked Vandal"
+      },
+      {
+        "quantity": 4,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 3,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 4,
+        "name": "Nylea's Disciple"
+      }
+    ]
+  },
+  {
+    "id": "qhu0qcljvnpb8mdjojwpnh5f",
+    "url": "https://dutchpauperleague.nl/decks/qhu0qcljvnpb8mdjojwpnh5f",
+    "name": "Azorius Gates",
+    "archetype": "Azorius Gates",
+    "pilotName": "Jelle Zwaan",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Sacred Cat"
+      },
+      {
+        "quantity": 3,
+        "name": "Outlaw Medic"
+      },
+      {
+        "quantity": 4,
+        "name": "Squadron Hawk"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 3,
+        "name": "Thraben Charm"
+      },
+      {
+        "quantity": 4,
+        "name": "Prismatic Strands"
+      },
+      {
+        "quantity": 4,
+        "name": "Journey to Nowhere"
+      },
+      {
+        "quantity": 4,
+        "name": "The Modern Age"
+      },
+      {
+        "quantity": 1,
+        "name": "Deep Analysis"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 1,
+        "name": "Azorius Guildgate"
+      },
+      {
+        "quantity": 4,
+        "name": "Basilisk Gate"
+      },
+      {
+        "quantity": 4,
+        "name": "Citadel Gate"
+      },
+      {
+        "quantity": 2,
+        "name": "Heap Gate"
+      },
+      {
+        "quantity": 1,
+        "name": "Idyllic Beachfront"
+      },
+      {
+        "quantity": 4,
+        "name": "Island"
+      },
+      {
+        "quantity": 4,
+        "name": "Sea Gate"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 4,
+        "name": "Dust to Dust"
+      }
+    ]
+  },
+  {
+    "id": "a20izljdgwolciyoell9kju6",
+    "url": "https://dutchpauperleague.nl/decks/a20izljdgwolciyoell9kju6",
+    "name": "Burn",
+    "archetype": "Burn",
+    "pilotName": "Francesco Agnesi",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Kessig Flamebreather"
+      },
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 3,
+        "name": "Guttersnipe"
+      },
+      {
+        "quantity": 2,
+        "name": "Chain Lightning"
+      },
+      {
+        "quantity": 4,
+        "name": "Grab the Prize"
+      },
+      {
+        "quantity": 4,
+        "name": "Highway Robbery"
+      },
+      {
+        "quantity": 4,
+        "name": "Lava Dart"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 2,
+        "name": "Sazacap's Brew"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiery Temper"
+      },
+      {
+        "quantity": 3,
+        "name": "Fireblast"
+      },
+      {
+        "quantity": 18,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Tormod's Crypt"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 3,
+        "name": "Tectonic Hazard"
+      },
+      {
+        "quantity": 4,
+        "name": "Searing Blaze"
+      },
+      {
+        "quantity": 2,
+        "name": "Smash to Smithereens"
+      }
+    ]
+  },
+  {
+    "id": "p11p98fvo6d86q883o7hb8g4",
+    "url": "https://dutchpauperleague.nl/decks/p11p98fvo6d86q883o7hb8g4",
+    "name": "MonoB Sacrifice",
+    "archetype": "MonoB Sacrifice",
+    "pilotName": "Roberto van den Elzen",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Carrion Feeder"
+      },
+      {
+        "quantity": 4,
+        "name": "Infestation Sage"
+      },
+      {
+        "quantity": 4,
+        "name": "Mortician Beetle"
+      },
+      {
+        "quantity": 4,
+        "name": "Nested Shambler"
+      },
+      {
+        "quantity": 4,
+        "name": "Nezumi Linkbreaker"
+      },
+      {
+        "quantity": 2,
+        "name": "Accursed Marauder"
+      },
+      {
+        "quantity": 4,
+        "name": "Bloodthrone Vampire"
+      },
+      {
+        "quantity": 3,
+        "name": "Corrupted Conviction"
+      },
+      {
+        "quantity": 4,
+        "name": "Supernatural Stamina"
+      },
+      {
+        "quantity": 4,
+        "name": "Village Rites"
+      },
+      {
+        "quantity": 2,
+        "name": "Sadistic Glee"
+      },
+      {
+        "quantity": 2,
+        "name": "Rite of Consumption"
+      },
+      {
+        "quantity": 2,
+        "name": "Wedding Invitation"
+      },
+      {
+        "quantity": 17,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 2,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 2,
+        "name": "Tragic Slip"
+      },
+      {
+        "quantity": 2,
+        "name": "Accursed Marauder"
+      },
+      {
+        "quantity": 3,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 2,
+        "name": "Crypt Incursion"
+      },
+      {
+        "quantity": 1,
+        "name": "Drown in Sorrow"
+      },
+      {
+        "quantity": 2,
+        "name": "Snuff Out"
+      },
+      {
+        "quantity": 1,
+        "name": "Spinning Darkness"
+      }
+    ]
+  },
+  {
+    "id": "ruhdow3f9xq4j8ricotpy0bf",
+    "url": "https://dutchpauperleague.nl/decks/ruhdow3f9xq4j8ricotpy0bf",
+    "name": "Dimir Faeries",
+    "archetype": "Dimir Faeries",
+    "pilotName": "Tom de Ruiter",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 1,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 2,
+        "name": "Thorn of the Black Rose"
+      },
+      {
+        "quantity": 1,
+        "name": "Gurmag Angler"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Unexpected Fangs"
+      },
+      {
+        "quantity": 1,
+        "name": "Dihada's Ploy"
+      },
+      {
+        "quantity": 1,
+        "name": "Suffocating Fumes"
+      },
+      {
+        "quantity": 3,
+        "name": "Snuff Out"
+      },
+      {
+        "quantity": 4,
+        "name": "The Modern Age"
+      },
+      {
+        "quantity": 1,
+        "name": "Deep Analysis"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Contaminated Aquifer"
+      },
+      {
+        "quantity": 1,
+        "name": "Contaminated Landscape"
+      },
+      {
+        "quantity": 1,
+        "name": "Dimir Aqueduct"
+      },
+      {
+        "quantity": 1,
+        "name": "Foreboding Landscape"
+      },
+      {
+        "quantity": 9,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 2,
+        "name": "Annul"
+      },
+      {
+        "quantity": 1,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 4,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 2,
+        "name": "Extract a Confession"
+      },
+      {
+        "quantity": 1,
+        "name": "Crypt Incursion"
+      },
+      {
+        "quantity": 1,
+        "name": "Mind Extraction"
+      },
+      {
+        "quantity": 1,
+        "name": "Arms of Hadar"
+      },
+      {
+        "quantity": 1,
+        "name": "Thorn of the Black Rose"
+      }
+    ]
+  },
+  {
+    "id": "zp5zlfvqv3n38b5x7gulxi3d",
+    "url": "https://dutchpauperleague.nl/decks/zp5zlfvqv3n38b5x7gulxi3d",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "Ettore Cerracchio",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 1,
+        "name": "Nyxborn Hydra"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 2,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 4,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 1,
+        "name": "Crypt Incursion"
+      },
+      {
+        "quantity": 1,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 3,
+        "name": "Duress"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Troublemaker Ouphe"
+      },
+      {
+        "quantity": 4,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 3,
+        "name": "Breath Weapon"
+      }
+    ]
+  },
+  {
+    "id": "aib584qygl01oc6xgcuu4r7d",
+    "url": "https://dutchpauperleague.nl/decks/aib584qygl01oc6xgcuu4r7d",
+    "name": "Dimir Faeries",
+    "archetype": "Dimir Faeries",
+    "pilotName": "Felipe Inza",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Faerie Seer"
+      },
+      {
+        "quantity": 4,
+        "name": "Augur of Bolas"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 1,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 4,
+        "name": "Ninja of the Deep Hours"
+      },
+      {
+        "quantity": 2,
+        "name": "Thorn of the Black Rose"
+      },
+      {
+        "quantity": 3,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 2,
+        "name": "Agony Warp"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 1,
+        "name": "Suffocating Fumes"
+      },
+      {
+        "quantity": 4,
+        "name": "Snuff Out"
+      },
+      {
+        "quantity": 3,
+        "name": "Preordain"
+      },
+      {
+        "quantity": 1,
+        "name": "Extract a Confession"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Contaminated Aquifer"
+      },
+      {
+        "quantity": 1,
+        "name": "Contaminated Landscape"
+      },
+      {
+        "quantity": 1,
+        "name": "Dimir Aqueduct"
+      },
+      {
+        "quantity": 9,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 1,
+        "name": "Duress"
+      },
+      {
+        "quantity": 1,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 1,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 1,
+        "name": "Extract a Confession"
+      },
+      {
+        "quantity": 1,
+        "name": "Unexpected Fangs"
+      },
+      {
+        "quantity": 1,
+        "name": "Arms of Hadar"
+      },
+      {
+        "quantity": 1,
+        "name": "Mukotai Ambusher"
+      },
+      {
+        "quantity": 1,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 1,
+        "name": "Okiba-Gang Shinobi"
+      }
+    ]
+  },
+  {
+    "id": "awl4tygikfi25b5j4dr355zr",
+    "url": "https://dutchpauperleague.nl/decks/awl4tygikfi25b5j4dr355zr",
+    "name": "Boros Synth",
+    "archetype": "Boros Synth",
+    "pilotName": "Koen de Vos",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Glint Hawk"
+      },
+      {
+        "quantity": 4,
+        "name": "Novice Inspector"
+      },
+      {
+        "quantity": 3,
+        "name": "Thraben Inspector"
+      },
+      {
+        "quantity": 1,
+        "name": "Dawnbringer Cleric"
+      },
+      {
+        "quantity": 4,
+        "name": "Kor Skyfisher"
+      },
+      {
+        "quantity": 4,
+        "name": "Experimental Synthesizer"
+      },
+      {
+        "quantity": 4,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 2,
+        "name": "Thraben Charm"
+      },
+      {
+        "quantity": 2,
+        "name": "Prismatic Strands"
+      },
+      {
+        "quantity": 3,
+        "name": "Journey to Nowhere"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 3,
+        "name": "Ancient Den"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 2,
+        "name": "Boros Garrison"
+      },
+      {
+        "quantity": 3,
+        "name": "Great Furnace"
+      },
+      {
+        "quantity": 3,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 3,
+        "name": "Plains"
+      },
+      {
+        "quantity": 1,
+        "name": "Radiant Fountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Rustvale Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Wind-Scarred Crag"
+      },
+      {
+        "quantity": 2,
+        "name": "Electrickery"
+      },
+      {
+        "quantity": 2,
+        "name": "Navigator's Compass"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 1,
+        "name": "Dawnbringer Cleric"
+      },
+      {
+        "quantity": 4,
+        "name": "Dust to Dust"
+      }
+    ]
+  },
+  {
+    "id": "cymc977gcsz43b3qvx985cly",
+    "url": "https://dutchpauperleague.nl/decks/cymc977gcsz43b3qvx985cly",
+    "name": "Brew",
+    "archetype": "Brew",
+    "pilotName": "Vlad-Alexandru Negară",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Quirion Ranger"
+      },
+      {
+        "quantity": 4,
+        "name": "Saruli Caretaker"
+      },
+      {
+        "quantity": 3,
+        "name": "Gatecreeper Vine"
+      },
+      {
+        "quantity": 3,
+        "name": "Masked Vandal"
+      },
+      {
+        "quantity": 2,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 4,
+        "name": "Overgrown Battlement"
+      },
+      {
+        "quantity": 4,
+        "name": "Axebane Guardian"
+      },
+      {
+        "quantity": 4,
+        "name": "Balustrade Spy"
+      },
+      {
+        "quantity": 1,
+        "name": "Dimir House Guard"
+      },
+      {
+        "quantity": 4,
+        "name": "Sagu Wildling"
+      },
+      {
+        "quantity": 4,
+        "name": "Generous Ent"
+      },
+      {
+        "quantity": 2,
+        "name": "Troll of Khazad-dûm"
+      },
+      {
+        "quantity": 2,
+        "name": "Lotleth Giant"
+      },
+      {
+        "quantity": 2,
+        "name": "Lotus Petal"
+      },
+      {
+        "quantity": 4,
+        "name": "Land Grant"
+      },
+      {
+        "quantity": 4,
+        "name": "Winding Way"
+      },
+      {
+        "quantity": 4,
+        "name": "Lead the Stampede"
+      },
+      {
+        "quantity": 2,
+        "name": "Dread Return"
+      },
+      {
+        "quantity": 3,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 3,
+        "name": "Scattershot Archer"
+      },
+      {
+        "quantity": 1,
+        "name": "Flaring Pain"
+      },
+      {
+        "quantity": 1,
+        "name": "Masked Vandal"
+      },
+      {
+        "quantity": 2,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 1,
+        "name": "Acorn Harvest"
+      },
+      {
+        "quantity": 3,
+        "name": "Nylea's Disciple"
+      },
+      {
+        "quantity": 1,
+        "name": "Fang Dragon"
+      }
+    ]
+  },
+  {
+    "id": "ifc01q3gjj16vo92lz8rqhol",
+    "url": "https://dutchpauperleague.nl/decks/ifc01q3gjj16vo92lz8rqhol",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "Nigel Stikker",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 3,
+        "name": "Gixian Infiltrator"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 2,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 1,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 1,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 1,
+        "name": "Crypt Incursion"
+      },
+      {
+        "quantity": 1,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 4,
+        "name": "Duress"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 1,
+        "name": "Troublemaker Ouphe"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      }
+    ]
+  },
+  {
+    "id": "t8ldhatwipczhj8wnuc8nshg",
+    "url": "https://dutchpauperleague.nl/decks/t8ldhatwipczhj8wnuc8nshg",
+    "name": "Izzet Terror",
+    "archetype": "Izzet Terror",
+    "pilotName": "Rob Nolle",
+    "cards": [
+      {
+        "quantity": 2,
+        "name": "Azure Fleet Admiral"
+      },
+      {
+        "quantity": 1,
+        "name": "Crimson Fleet Commodore"
+      },
+      {
+        "quantity": 3,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 4,
+        "name": "Tolarian Terror"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 4,
+        "name": "Force Spike"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Skred"
+      },
+      {
+        "quantity": 2,
+        "name": "Boomerang"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Mana Leak"
+      },
+      {
+        "quantity": 4,
+        "name": "Ponder"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 2,
+        "name": "Perilous Landscape"
+      },
+      {
+        "quantity": 9,
+        "name": "Snow-Covered Island"
+      },
+      {
+        "quantity": 3,
+        "name": "Snow-Covered Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Volatile Fjord"
+      },
+      {
+        "quantity": 4,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 4,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Boomerang"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      }
+    ]
+  },
+  {
+    "id": "plk8z0hndyaekp638g81sqjs",
+    "url": "https://dutchpauperleague.nl/decks/plk8z0hndyaekp638g81sqjs",
+    "name": "MonoU Faeries",
+    "archetype": "MonoU Faeries",
+    "pilotName": "Ashley Bits",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Brinebarrow Intruder"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Miscreant"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Seer"
+      },
+      {
+        "quantity": 2,
+        "name": "Snaremaster Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Moon-Circuit Hacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Ninja of the Deep Hours"
+      },
+      {
+        "quantity": 1,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Mutagenic Growth"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 3,
+        "name": "Snap"
+      },
+      {
+        "quantity": 3,
+        "name": "Of One Mind"
+      },
+      {
+        "quantity": 18,
+        "name": "Island"
+      },
+      {
+        "quantity": 4,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 3,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Sabotage"
+      }
+    ]
+  },
+  {
+    "id": "agv2u3c9hl64nsyea4d3jc17",
+    "url": "https://dutchpauperleague.nl/decks/agv2u3c9hl64nsyea4d3jc17",
+    "name": "MonoU Terror",
+    "archetype": "MonoU Terror",
+    "pilotName": "Yannic van Heereveld",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Delver of Secrets"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryptic Serpent"
+      },
+      {
+        "quantity": 4,
+        "name": "Tolarian Terror"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 4,
+        "name": "Mental Note"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Thought Scour"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 3,
+        "name": "Ponder"
+      },
+      {
+        "quantity": 2,
+        "name": "Sleep of the Dead"
+      },
+      {
+        "quantity": 3,
+        "name": "Deem Inferior"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 16,
+        "name": "Island"
+      },
+      {
+        "quantity": 2,
+        "name": "Tormod's Crypt"
+      },
+      {
+        "quantity": 4,
+        "name": "Annul"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Gut Shot"
+      },
+      {
+        "quantity": 3,
+        "name": "Hydroblast"
+      }
+    ]
+  },
+  {
+    "id": "zvfyj8xwi7ybot3fcac9z89i",
+    "url": "https://dutchpauperleague.nl/decks/zvfyj8xwi7ybot3fcac9z89i",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "Max Roovers",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 4,
+        "name": "Gixian Infiltrator"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 1,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 1,
+        "name": "Crypt Incursion"
+      },
+      {
+        "quantity": 1,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 1,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 4,
+        "name": "Duress"
+      },
+      {
+        "quantity": 1,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 3,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      }
+    ]
+  },
+  {
+    "id": "l716rd1m3q5pfhdn0w6j9a52",
+    "url": "https://dutchpauperleague.nl/decks/l716rd1m3q5pfhdn0w6j9a52",
+    "name": "Flicker Tron",
+    "archetype": "Flicker Tron",
+    "pilotName": "Noah Westerweel",
+    "cards": [
+      {
+        "quantity": 1,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 1,
+        "name": "Stonehorn Dignitary"
+      },
+      {
+        "quantity": 3,
+        "name": "Mnemonic Wall"
+      },
+      {
+        "quantity": 2,
+        "name": "Mulldrifter"
+      },
+      {
+        "quantity": 1,
+        "name": "Crop Rotation"
+      },
+      {
+        "quantity": 1,
+        "name": "Ephemerate"
+      },
+      {
+        "quantity": 1,
+        "name": "Heritage Reclamation"
+      },
+      {
+        "quantity": 4,
+        "name": "Impulse"
+      },
+      {
+        "quantity": 1,
+        "name": "Moment's Peace"
+      },
+      {
+        "quantity": 1,
+        "name": "Prohibit"
+      },
+      {
+        "quantity": 1,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 1,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 2,
+        "name": "Ghostly Flicker"
+      },
+      {
+        "quantity": 1,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 1,
+        "name": "Unwind"
+      },
+      {
+        "quantity": 2,
+        "name": "Mystical Teachings"
+      },
+      {
+        "quantity": 4,
+        "name": "Expedition Map"
+      },
+      {
+        "quantity": 3,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 4,
+        "name": "Energy Refractor"
+      },
+      {
+        "quantity": 4,
+        "name": "Prophetic Prism"
+      },
+      {
+        "quantity": 3,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 1,
+        "name": "Conduit Pylons"
+      },
+      {
+        "quantity": 2,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Molten Tributary"
+      },
+      {
+        "quantity": 1,
+        "name": "Tangled Islet"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Mine"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Power Plant"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Tower"
+      },
+      {
+        "quantity": 2,
+        "name": "Envelop"
+      },
+      {
+        "quantity": 3,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 4,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 1,
+        "name": "Ancient Grudge"
+      },
+      {
+        "quantity": 1,
+        "name": "Gilded Light"
+      },
+      {
+        "quantity": 1,
+        "name": "Remove Soul"
+      },
+      {
+        "quantity": 1,
+        "name": "Rolling Thunder"
+      },
+      {
+        "quantity": 1,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 1,
+        "name": "Scattershot"
+      }
+    ]
+  },
+  {
+    "id": "jxon805af6at52pvw1hx725v",
+    "url": "https://dutchpauperleague.nl/decks/jxon805af6at52pvw1hx725v",
+    "name": "MonoU Faeries",
+    "archetype": "MonoU Faeries",
+    "pilotName": "soufian hriz",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Brinebarrow Intruder"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Miscreant"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Seer"
+      },
+      {
+        "quantity": 1,
+        "name": "Harrier Strix"
+      },
+      {
+        "quantity": 2,
+        "name": "Snaremaster Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Moon-Circuit Hacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Ninja of the Deep Hours"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 3,
+        "name": "Snap"
+      },
+      {
+        "quantity": 4,
+        "name": "Of One Mind"
+      },
+      {
+        "quantity": 18,
+        "name": "Island"
+      },
+      {
+        "quantity": 4,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Gut Shot"
+      },
+      {
+        "quantity": 1,
+        "name": "Hydroblast"
+      }
+    ]
+  },
+  {
+    "id": "r7y4re65jza4n7n5bvdqysgb",
+    "url": "https://dutchpauperleague.nl/decks/r7y4re65jza4n7n5bvdqysgb",
+    "name": "Brew",
+    "archetype": "Brew",
+    "pilotName": "Floris Heins",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Ornithopter"
+      },
+      {
+        "quantity": 4,
+        "name": "Ardent Recruit"
+      },
+      {
+        "quantity": 4,
+        "name": "Court Homunculus"
+      },
+      {
+        "quantity": 2,
+        "name": "Glint Hawk"
+      },
+      {
+        "quantity": 3,
+        "name": "Novice Inspector"
+      },
+      {
+        "quantity": 4,
+        "name": "Thraben Inspector"
+      },
+      {
+        "quantity": 4,
+        "name": "Fortress Kin-Guard"
+      },
+      {
+        "quantity": 4,
+        "name": "Halo Hopper"
+      },
+      {
+        "quantity": 4,
+        "name": "Martyr's Soul"
+      },
+      {
+        "quantity": 2,
+        "name": "Summon: Choco/Mog"
+      },
+      {
+        "quantity": 4,
+        "name": "Salt Road Packbeast"
+      },
+      {
+        "quantity": 4,
+        "name": "Springleaf Drum"
+      },
+      {
+        "quantity": 1,
+        "name": "Greatsword of Tyr"
+      },
+      {
+        "quantity": 2,
+        "name": "Ramosian Rally"
+      },
+      {
+        "quantity": 4,
+        "name": "Ancient Den"
+      },
+      {
+        "quantity": 10,
+        "name": "Plains"
+      },
+      {
+        "quantity": 2,
+        "name": "Tormod's Crypt"
+      },
+      {
+        "quantity": 3,
+        "name": "Mana Tithe"
+      },
+      {
+        "quantity": 3,
+        "name": "Pay No Heed"
+      },
+      {
+        "quantity": 1,
+        "name": "Dawnbringer Cleric"
+      },
+      {
+        "quantity": 2,
+        "name": "Standard Bearer"
+      },
+      {
+        "quantity": 4,
+        "name": "Conclave Phalanx"
+      }
+    ]
+  },
+  {
+    "id": "a8o64fkqe40ngiq2h5jymhxl",
+    "url": "https://dutchpauperleague.nl/decks/a8o64fkqe40ngiq2h5jymhxl",
+    "name": "MonoU Terror",
+    "archetype": "MonoU Terror",
+    "pilotName": "Iain Ligthart",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Delver of Secrets"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryptic Serpent"
+      },
+      {
+        "quantity": 4,
+        "name": "Tolarian Terror"
+      },
+      {
+        "quantity": 4,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 4,
+        "name": "Mental Note"
+      },
+      {
+        "quantity": 3,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Thought Scour"
+      },
+      {
+        "quantity": 2,
+        "name": "Boomerang"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Ponder"
+      },
+      {
+        "quantity": 2,
+        "name": "Sleep of the Dead"
+      },
+      {
+        "quantity": 2,
+        "name": "Deem Inferior"
+      },
+      {
+        "quantity": 4,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 16,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Tormod's Crypt"
+      },
+      {
+        "quantity": 3,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 3,
+        "name": "Gut Shot"
+      },
+      {
+        "quantity": 2,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 1,
+        "name": "Steel Sabotage"
+      },
+      {
+        "quantity": 1,
+        "name": "Murmuring Mystic"
+      }
+    ]
+  },
+  {
+    "id": "o70yh5267l2phi78hgohcq42",
+    "url": "https://dutchpauperleague.nl/decks/o70yh5267l2phi78hgohcq42",
+    "name": "MonoU Faeries",
+    "archetype": "MonoU Faeries",
+    "pilotName": "Thijs",
+    "cards": [
+      {
+        "quantity": 2,
+        "name": "Brinebarrow Intruder"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Miscreant"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Seer"
+      },
+      {
+        "quantity": 2,
+        "name": "Humbling Elder"
+      },
+      {
+        "quantity": 2,
+        "name": "Snaremaster Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Moon-Circuit Hacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Ninja of the Deep Hours"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Mutagenic Growth"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Snap"
+      },
+      {
+        "quantity": 3,
+        "name": "Of One Mind"
+      },
+      {
+        "quantity": 18,
+        "name": "Island"
+      },
+      {
+        "quantity": 3,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 1,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Sabotage"
+      },
+      {
+        "quantity": 1,
+        "name": "Nullify"
+      }
+    ]
+  },
+  {
+    "id": "d12k85mw5m5fjcdwteuj8dr9",
+    "url": "https://dutchpauperleague.nl/decks/d12k85mw5m5fjcdwteuj8dr9",
+    "name": "Affinity",
+    "archetype": "Affinity",
+    "pilotName": "Ramon Facchin",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Myr Enforcer"
+      },
+      {
+        "quantity": 3,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 1,
+        "name": "Hunter's Blowgun"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 3,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Toxin Analysis"
+      },
+      {
+        "quantity": 1,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 4,
+        "name": "Reckoner's Bargain"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 4,
+        "name": "Thoughtcast"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Great Furnace"
+      },
+      {
+        "quantity": 4,
+        "name": "Mistvault Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Seat of the Synod"
+      },
+      {
+        "quantity": 3,
+        "name": "Silverbluff Bridge"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 3,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Gorilla Shaman"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Toxin Analysis"
+      },
+      {
+        "quantity": 1,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Negate"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      }
+    ]
+  },
+  {
+    "id": "eh4k3rm4zbjweua31cy2e272",
+    "url": "https://dutchpauperleague.nl/decks/eh4k3rm4zbjweua31cy2e272",
+    "name": "Burn",
+    "archetype": "Burn",
+    "pilotName": "Rob Lamers",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Clockwork Percussionist"
+      },
+      {
+        "quantity": 1,
+        "name": "Gingerbrute"
+      },
+      {
+        "quantity": 4,
+        "name": "Goblin Bushwhacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Goblin Tomb Raider"
+      },
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Burning-Tree Emissary"
+      },
+      {
+        "quantity": 2,
+        "name": "End the Festivities"
+      },
+      {
+        "quantity": 4,
+        "name": "Rally at the Hornburg"
+      },
+      {
+        "quantity": 4,
+        "name": "Wrenn's Resolve"
+      },
+      {
+        "quantity": 2,
+        "name": "Experimental Synthesizer"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Great Furnace"
+      },
+      {
+        "quantity": 15,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 2,
+        "name": "End the Festivities"
+      },
+      {
+        "quantity": 3,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 3,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 2,
+        "name": "Suplex"
+      }
+    ]
+  },
+  {
+    "id": "s2079a46mortwugsyhl63b0h",
+    "url": "https://dutchpauperleague.nl/decks/s2079a46mortwugsyhl63b0h",
+    "name": "Bogles",
+    "archetype": "Bogles",
+    "pilotName": "Renee Zwolle",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Gladecover Scout"
+      },
+      {
+        "quantity": 4,
+        "name": "Slippery Bogle"
+      },
+      {
+        "quantity": 2,
+        "name": "Silhana Ledgewalker"
+      },
+      {
+        "quantity": 4,
+        "name": "Abundant Growth"
+      },
+      {
+        "quantity": 3,
+        "name": "Cartouche of Solidarity"
+      },
+      {
+        "quantity": 4,
+        "name": "Ethereal Armor"
+      },
+      {
+        "quantity": 1,
+        "name": "Lifelink"
+      },
+      {
+        "quantity": 4,
+        "name": "Rancor"
+      },
+      {
+        "quantity": 1,
+        "name": "Sentinel's Eyes"
+      },
+      {
+        "quantity": 4,
+        "name": "Utopia Sprawl"
+      },
+      {
+        "quantity": 3,
+        "name": "Ancestral Mask"
+      },
+      {
+        "quantity": 4,
+        "name": "Armadillo Cloak"
+      },
+      {
+        "quantity": 4,
+        "name": "Malevolent Rumble"
+      },
+      {
+        "quantity": 1,
+        "name": "Ram Through"
+      },
+      {
+        "quantity": 11,
+        "name": "Forest"
+      },
+      {
+        "quantity": 3,
+        "name": "Plains"
+      },
+      {
+        "quantity": 3,
+        "name": "Sheltering Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Tormod's Crypt"
+      },
+      {
+        "quantity": 2,
+        "name": "Mask of Law and Grace"
+      },
+      {
+        "quantity": 4,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 1,
+        "name": "Spirit Link"
+      },
+      {
+        "quantity": 1,
+        "name": "Tamiyo's Safekeeping"
+      },
+      {
+        "quantity": 2,
+        "name": "Deglamer"
+      },
+      {
+        "quantity": 3,
+        "name": "Standard Bearer"
+      }
+    ]
+  },
+  {
+    "id": "a38tkttiwlep2qpde87k9i2n",
+    "url": "https://dutchpauperleague.nl/decks/a38tkttiwlep2qpde87k9i2n",
+    "name": "Bogles",
+    "archetype": "Bogles",
+    "pilotName": "Lorenzo Vitale",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Gladecover Scout"
+      },
+      {
+        "quantity": 4,
+        "name": "Slippery Bogle"
+      },
+      {
+        "quantity": 3,
+        "name": "Silhana Ledgewalker"
+      },
+      {
+        "quantity": 4,
+        "name": "Abundant Growth"
+      },
+      {
+        "quantity": 4,
+        "name": "Ethereal Armor"
+      },
+      {
+        "quantity": 4,
+        "name": "Rancor"
+      },
+      {
+        "quantity": 3,
+        "name": "Sentinel's Eyes"
+      },
+      {
+        "quantity": 4,
+        "name": "Utopia Sprawl"
+      },
+      {
+        "quantity": 4,
+        "name": "Ancestral Mask"
+      },
+      {
+        "quantity": 4,
+        "name": "Armadillo Cloak"
+      },
+      {
+        "quantity": 4,
+        "name": "Malevolent Rumble"
+      },
+      {
+        "quantity": 1,
+        "name": "Ram Through"
+      },
+      {
+        "quantity": 2,
+        "name": "Ash Barrens"
+      },
+      {
+        "quantity": 11,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Plains"
+      },
+      {
+        "quantity": 2,
+        "name": "Radiant Grove"
+      },
+      {
+        "quantity": 2,
+        "name": "Lifelink"
+      },
+      {
+        "quantity": 1,
+        "name": "Spirit Link"
+      },
+      {
+        "quantity": 1,
+        "name": "Tamiyo's Safekeeping"
+      },
+      {
+        "quantity": 2,
+        "name": "Flaring Pain"
+      },
+      {
+        "quantity": 4,
+        "name": "Freewind Falcon"
+      },
+      {
+        "quantity": 2,
+        "name": "Ram Through"
+      },
+      {
+        "quantity": 3,
+        "name": "Standard Bearer"
+      }
+    ]
+  },
+  {
+    "id": "mf2kr0muhdgtik4rgm7lccls",
+    "url": "https://dutchpauperleague.nl/decks/mf2kr0muhdgtik4rgm7lccls",
+    "name": "Altar Tron",
+    "archetype": "Altar Tron",
+    "pilotName": "Gianvito Taneburgo",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Myr Retriever"
+      },
+      {
+        "quantity": 1,
+        "name": "Myr Kinsmith"
+      },
+      {
+        "quantity": 2,
+        "name": "Pactdoll Terror"
+      },
+      {
+        "quantity": 4,
+        "name": "Ancient Stirrings"
+      },
+      {
+        "quantity": 4,
+        "name": "Malevolent Rumble"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Candy Trail"
+      },
+      {
+        "quantity": 2,
+        "name": "Chromatic Star"
+      },
+      {
+        "quantity": 4,
+        "name": "Expedition Map"
+      },
+      {
+        "quantity": 4,
+        "name": "Wizard's Rockets"
+      },
+      {
+        "quantity": 2,
+        "name": "Energy Refractor"
+      },
+      {
+        "quantity": 3,
+        "name": "Ashnod's Altar"
+      },
+      {
+        "quantity": 4,
+        "name": "Golem Foundry"
+      },
+      {
+        "quantity": 3,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 3,
+        "name": "Conduit Pylons"
+      },
+      {
+        "quantity": 1,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Night Market"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Mine"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Power Plant"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Tower"
+      },
+      {
+        "quantity": 3,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 1,
+        "name": "Ancient Grudge"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 3,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 1,
+        "name": "Mirrorshell Crab"
+      }
+    ]
+  },
+  {
+    "id": "honqtg6qhlzq48762rt0qcwj",
+    "url": "https://dutchpauperleague.nl/decks/honqtg6qhlzq48762rt0qcwj",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "Wesley Choong",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 1,
+        "name": "Campfire"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 2,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 3,
+        "name": "Toxin Analysis"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 3,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 3,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 1,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 3,
+        "name": "Duress"
+      },
+      {
+        "quantity": 1,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 3,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 1,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Toxin Analysis"
+      },
+      {
+        "quantity": 4,
+        "name": "Vampiric Link"
+      },
+      {
+        "quantity": 2,
+        "name": "Troublemaker Ouphe"
+      }
+    ]
+  },
+  {
+    "id": "sljgpsqkh8kqildoi2diskzq",
+    "url": "https://dutchpauperleague.nl/decks/sljgpsqkh8kqildoi2diskzq",
+    "name": "Familiars",
+    "archetype": "Familiars",
+    "pilotName": "Toon de Vet",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "God-Pharaoh's Faithful"
+      },
+      {
+        "quantity": 4,
+        "name": "Sunscape Familiar"
+      },
+      {
+        "quantity": 2,
+        "name": "Archaeomancer"
+      },
+      {
+        "quantity": 1,
+        "name": "Murmuring Mystic"
+      },
+      {
+        "quantity": 1,
+        "name": "Stonehorn Dignitary"
+      },
+      {
+        "quantity": 4,
+        "name": "Mulldrifter"
+      },
+      {
+        "quantity": 1,
+        "name": "Ephemerate"
+      },
+      {
+        "quantity": 1,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 4,
+        "name": "Snap"
+      },
+      {
+        "quantity": 3,
+        "name": "Ghostly Flicker"
+      },
+      {
+        "quantity": 2,
+        "name": "Foil"
+      },
+      {
+        "quantity": 4,
+        "name": "Preordain"
+      },
+      {
+        "quantity": 2,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 3,
+        "name": "The Modern Age"
+      },
+      {
+        "quantity": 1,
+        "name": "Ash Barrens"
+      },
+      {
+        "quantity": 4,
+        "name": "Azorius Chancery"
+      },
+      {
+        "quantity": 3,
+        "name": "Contaminated Landscape"
+      },
+      {
+        "quantity": 1,
+        "name": "Idyllic Beachfront"
+      },
+      {
+        "quantity": 8,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Mortuary Mire"
+      },
+      {
+        "quantity": 2,
+        "name": "Plains"
+      },
+      {
+        "quantity": 3,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Destroy Evil"
+      },
+      {
+        "quantity": 2,
+        "name": "Last Breath"
+      },
+      {
+        "quantity": 1,
+        "name": "Negate"
+      },
+      {
+        "quantity": 1,
+        "name": "Prohibit"
+      },
+      {
+        "quantity": 2,
+        "name": "Remove Soul"
+      },
+      {
+        "quantity": 4,
+        "name": "Thraben Charm"
+      }
+    ]
+  },
+  {
+    "id": "s10qg4u8vlbm3ncnzel992uj",
+    "url": "https://dutchpauperleague.nl/decks/s10qg4u8vlbm3ncnzel992uj",
+    "name": "Boros Synth",
+    "archetype": "Boros Synth",
+    "pilotName": "Koen Zuidberg",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Glint Hawk"
+      },
+      {
+        "quantity": 4,
+        "name": "Novice Inspector"
+      },
+      {
+        "quantity": 4,
+        "name": "Thraben Inspector"
+      },
+      {
+        "quantity": 4,
+        "name": "Kor Skyfisher"
+      },
+      {
+        "quantity": 4,
+        "name": "Experimental Synthesizer"
+      },
+      {
+        "quantity": 2,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 2,
+        "name": "Barbed Batterfist"
+      },
+      {
+        "quantity": 4,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 2,
+        "name": "Thraben Charm"
+      },
+      {
+        "quantity": 1,
+        "name": "Journey to Nowhere"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 4,
+        "name": "Abraded Bluffs"
+      },
+      {
+        "quantity": 1,
+        "name": "Ancient Den"
+      },
+      {
+        "quantity": 1,
+        "name": "Boros Garrison"
+      },
+      {
+        "quantity": 3,
+        "name": "Great Furnace"
+      },
+      {
+        "quantity": 1,
+        "name": "Lorehold Campus"
+      },
+      {
+        "quantity": 1,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 5,
+        "name": "Plains"
+      },
+      {
+        "quantity": 4,
+        "name": "Rustvale Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Electrickery"
+      },
+      {
+        "quantity": 1,
+        "name": "Gorilla Shaman"
+      },
+      {
+        "quantity": 2,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dawnbringer Cleric"
+      },
+      {
+        "quantity": 1,
+        "name": "Journey to Nowhere"
+      },
+      {
+        "quantity": 1,
+        "name": "Lone Missionary"
+      },
+      {
+        "quantity": 2,
+        "name": "Thraben Charm"
+      },
+      {
+        "quantity": 4,
+        "name": "Dust to Dust"
+      }
+    ]
+  },
+  {
+    "id": "f9ahwblnq2fwl7f61hhy0ifz",
+    "url": "https://dutchpauperleague.nl/decks/f9ahwblnq2fwl7f61hhy0ifz",
+    "name": "Rakdos Burn",
+    "archetype": "Rakdos Burn",
+    "pilotName": "Mark Bosma",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Kitchen Imp"
+      },
+      {
+        "quantity": 4,
+        "name": "Faithless Looting"
+      },
+      {
+        "quantity": 4,
+        "name": "Grab the Prize"
+      },
+      {
+        "quantity": 4,
+        "name": "Vampire's Kiss"
+      },
+      {
+        "quantity": 4,
+        "name": "Alms of the Vein"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiery Temper"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 3,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 4,
+        "name": "Great Furnace"
+      },
+      {
+        "quantity": 4,
+        "name": "Jagged Barrens"
+      },
+      {
+        "quantity": 5,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 1,
+        "name": "Rakdos Carnarium"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 2,
+        "name": "Duress"
+      },
+      {
+        "quantity": 1,
+        "name": "End the Festivities"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 2,
+        "name": "Extract a Confession"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      }
+    ]
+  },
+  {
+    "id": "r8j0bxnvlpkr8qb3101lclwa",
+    "url": "https://dutchpauperleague.nl/decks/r8j0bxnvlpkr8qb3101lclwa",
+    "name": "MonoU Faeries",
+    "archetype": "MonoU Faeries",
+    "pilotName": "Youri Bakker",
+    "cards": [
+      {
+        "quantity": 2,
+        "name": "Brinebarrow Intruder"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Miscreant"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Seer"
+      },
+      {
+        "quantity": 2,
+        "name": "Humbling Elder"
+      },
+      {
+        "quantity": 2,
+        "name": "Snaremaster Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Moon-Circuit Hacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Ninja of the Deep Hours"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Mutagenic Growth"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Snap"
+      },
+      {
+        "quantity": 3,
+        "name": "Of One Mind"
+      },
+      {
+        "quantity": 18,
+        "name": "Island"
+      },
+      {
+        "quantity": 3,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 2,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 3,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Sabotage"
+      },
+      {
+        "quantity": 1,
+        "name": "Nullify"
+      }
+    ]
+  },
+  {
+    "id": "bxmiyd8gvvi6z2i4iw3wy9gj",
+    "url": "https://dutchpauperleague.nl/decks/bxmiyd8gvvi6z2i4iw3wy9gj",
+    "name": "Golgari Dredge",
+    "archetype": "Golgari Dredge",
+    "pilotName": "Tim Laros",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Circle of the Land Druid"
+      },
+      {
+        "quantity": 4,
+        "name": "Satyr Wayfinder"
+      },
+      {
+        "quantity": 4,
+        "name": "Scrapwork Mutt"
+      },
+      {
+        "quantity": 4,
+        "name": "Town Greeter"
+      },
+      {
+        "quantity": 4,
+        "name": "Stinkweed Imp"
+      },
+      {
+        "quantity": 4,
+        "name": "Generous Ent"
+      },
+      {
+        "quantity": 4,
+        "name": "Troll of Khazad-dûm"
+      },
+      {
+        "quantity": 4,
+        "name": "Lotleth Giant"
+      },
+      {
+        "quantity": 4,
+        "name": "Exhume"
+      },
+      {
+        "quantity": 4,
+        "name": "Malevolent Rumble"
+      },
+      {
+        "quantity": 4,
+        "name": "Dread Return"
+      },
+      {
+        "quantity": 3,
+        "name": "Gnaw to the Bone"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 2,
+        "name": "Conduit Pylons"
+      },
+      {
+        "quantity": 5,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Geothermal Bog"
+      },
+      {
+        "quantity": 1,
+        "name": "Haunted Mire"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Wooded Ridgeline"
+      },
+      {
+        "quantity": 2,
+        "name": "Coffin Purge"
+      },
+      {
+        "quantity": 1,
+        "name": "Rotten Reunion"
+      },
+      {
+        "quantity": 4,
+        "name": "Ancient Grudge"
+      },
+      {
+        "quantity": 4,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 1,
+        "name": "Gnaw to the Bone"
+      },
+      {
+        "quantity": 3,
+        "name": "Last Rites"
+      }
+    ]
+  },
+  {
+    "id": "pc4dvcbqw89ehwgko1at66hp",
+    "url": "https://dutchpauperleague.nl/decks/pc4dvcbqw89ehwgko1at66hp",
+    "name": "Fangren Tron",
+    "archetype": "Fangren Tron",
+    "pilotName": "Jan Rijnbeek",
+    "cards": [
+      {
+        "quantity": 1,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 3,
+        "name": "Crypt Rats"
+      },
+      {
+        "quantity": 4,
+        "name": "Fangren Marauder"
+      },
+      {
+        "quantity": 4,
+        "name": "Candy Trail"
+      },
+      {
+        "quantity": 4,
+        "name": "Expedition Map"
+      },
+      {
+        "quantity": 1,
+        "name": "Hunter's Blowgun"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Wizard's Rockets"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 4,
+        "name": "Prophetic Prism"
+      },
+      {
+        "quantity": 1,
+        "name": "Stream of Thought"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 3,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 2,
+        "name": "Crystal Grotto"
+      },
+      {
+        "quantity": 1,
+        "name": "Haunted Fengraf"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Mine"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Power Plant"
+      },
+      {
+        "quantity": 4,
+        "name": "Urza's Tower"
+      },
+      {
+        "quantity": 1,
+        "name": "Hunter's Blowgun"
+      },
+      {
+        "quantity": 1,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Stream of Thought"
+      },
+      {
+        "quantity": 1,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Heritage Reclamation"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 1,
+        "name": "Negate"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 1,
+        "name": "Faerie Macabre"
+      }
+    ]
+  },
+  {
+    "id": "s148eljk5pwuuxtv2s2tp68o",
+    "url": "https://dutchpauperleague.nl/decks/s148eljk5pwuuxtv2s2tp68o",
+    "name": "MonoU Faeries",
+    "archetype": "MonoU Faeries",
+    "pilotName": "Rob Vermaas",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Brinebarrow Intruder"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Miscreant"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Seer"
+      },
+      {
+        "quantity": 2,
+        "name": "Harrier Strix"
+      },
+      {
+        "quantity": 3,
+        "name": "Illvoi Galeblade"
+      },
+      {
+        "quantity": 4,
+        "name": "Moon-Circuit Hacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Ninja of the Deep Hours"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Snap"
+      },
+      {
+        "quantity": 4,
+        "name": "Of One Mind"
+      },
+      {
+        "quantity": 18,
+        "name": "Island"
+      },
+      {
+        "quantity": 2,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 3,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Humbling Elder"
+      },
+      {
+        "quantity": 2,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 3,
+        "name": "Steel Sabotage"
+      }
+    ]
+  },
+  {
+    "id": "e1fj7feuy0xs1afgj9eb2uf8",
+    "url": "https://dutchpauperleague.nl/decks/e1fj7feuy0xs1afgj9eb2uf8",
+    "name": "Burn",
+    "archetype": "Burn",
+    "pilotName": "Francesco Simonetto",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Clockwork Percussionist"
+      },
+      {
+        "quantity": 4,
+        "name": "Goblin Bushwhacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Goblin Tomb Raider"
+      },
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Burning-Tree Emissary"
+      },
+      {
+        "quantity": 2,
+        "name": "Chain Lightning"
+      },
+      {
+        "quantity": 4,
+        "name": "Rally at the Hornburg"
+      },
+      {
+        "quantity": 2,
+        "name": "Reckless Impulse"
+      },
+      {
+        "quantity": 2,
+        "name": "Wrenn's Resolve"
+      },
+      {
+        "quantity": 4,
+        "name": "Experimental Synthesizer"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Great Furnace"
+      },
+      {
+        "quantity": 14,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 1,
+        "name": "End the Festivities"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 3,
+        "name": "Raze"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 1,
+        "name": "Smash to Dust"
+      },
+      {
+        "quantity": 2,
+        "name": "Smash to Smithereens"
+      }
+    ]
+  },
+  {
+    "id": "f11zrashr3hea4rpm6rgbbb0",
+    "url": "https://dutchpauperleague.nl/decks/f11zrashr3hea4rpm6rgbbb0",
+    "name": "Rakdos Burn",
+    "archetype": "Rakdos Burn",
+    "pilotName": "Aurora Polak",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Kitchen Imp"
+      },
+      {
+        "quantity": 2,
+        "name": "Chain Lightning"
+      },
+      {
+        "quantity": 4,
+        "name": "Faithless Looting"
+      },
+      {
+        "quantity": 4,
+        "name": "Grab the Prize"
+      },
+      {
+        "quantity": 2,
+        "name": "Highway Robbery"
+      },
+      {
+        "quantity": 3,
+        "name": "Vampire's Kiss"
+      },
+      {
+        "quantity": 4,
+        "name": "Alms of the Vein"
+      },
+      {
+        "quantity": 2,
+        "name": "Lightning Axe"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiery Temper"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Jagged Barrens"
+      },
+      {
+        "quantity": 8,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Rakdos Carnarium"
+      },
+      {
+        "quantity": 2,
+        "name": "Razortrap Gorge"
+      },
+      {
+        "quantity": 2,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 2,
+        "name": "Duress"
+      },
+      {
+        "quantity": 1,
+        "name": "End the Festivities"
+      },
+      {
+        "quantity": 1,
+        "name": "Gorilla Shaman"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 2,
+        "name": "Extract a Confession"
+      }
+    ]
+  },
+  {
+    "id": "y106h2a96317p6jmlll8sxj5",
+    "url": "https://dutchpauperleague.nl/decks/y106h2a96317p6jmlll8sxj5",
+    "name": "Brew",
+    "archetype": "Brew",
+    "pilotName": "Tijmen van der Kamp",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Arbor Elf"
+      },
+      {
+        "quantity": 2,
+        "name": "Nyxborn Hydra"
+      },
+      {
+        "quantity": 3,
+        "name": "Troublemaker Ouphe"
+      },
+      {
+        "quantity": 4,
+        "name": "Stickytongue Sentinel"
+      },
+      {
+        "quantity": 2,
+        "name": "Avenging Hunter"
+      },
+      {
+        "quantity": 3,
+        "name": "Generous Ent"
+      },
+      {
+        "quantity": 4,
+        "name": "Utopia Sprawl"
+      },
+      {
+        "quantity": 3,
+        "name": "Wild Growth"
+      },
+      {
+        "quantity": 4,
+        "name": "Reality Acid"
+      },
+      {
+        "quantity": 4,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 2,
+        "name": "Run Away Together"
+      },
+      {
+        "quantity": 4,
+        "name": "Thermokarst"
+      },
+      {
+        "quantity": 4,
+        "name": "Mwonvuli Acid-Moss"
+      },
+      {
+        "quantity": 1,
+        "name": "Lórien Revealed"
+      },
+      {
+        "quantity": 13,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Island"
+      },
+      {
+        "quantity": 1,
+        "name": "Tangled Islet"
+      },
+      {
+        "quantity": 3,
+        "name": "Gut Shot"
+      },
+      {
+        "quantity": 3,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 3,
+        "name": "Deglamer"
+      },
+      {
+        "quantity": 4,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      }
+    ]
+  },
+  {
+    "id": "dni6kmod9pjs0ozkz2x28gsc",
+    "url": "https://dutchpauperleague.nl/decks/dni6kmod9pjs0ozkz2x28gsc",
+    "name": "Cycling Storm",
+    "archetype": "Cycling Storm",
+    "pilotName": "Floris Stapel",
+    "cards": [
+      {
+        "quantity": 1,
+        "name": "Blood Celebrant"
+      },
+      {
+        "quantity": 4,
+        "name": "Drannith Healer"
+      },
+      {
+        "quantity": 4,
+        "name": "Drannith Stinger"
+      },
+      {
+        "quantity": 1,
+        "name": "Repository Skaab"
+      },
+      {
+        "quantity": 2,
+        "name": "Horror of the Broken Lands"
+      },
+      {
+        "quantity": 4,
+        "name": "Monstrous Carabid"
+      },
+      {
+        "quantity": 4,
+        "name": "Street Wraith"
+      },
+      {
+        "quantity": 4,
+        "name": "Imposing Vantasaur"
+      },
+      {
+        "quantity": 4,
+        "name": "Lotus Petal"
+      },
+      {
+        "quantity": 4,
+        "name": "Dark Ritual"
+      },
+      {
+        "quantity": 4,
+        "name": "Songs of the Damned"
+      },
+      {
+        "quantity": 4,
+        "name": "Cabal Ritual"
+      },
+      {
+        "quantity": 4,
+        "name": "Reaping the Graves"
+      },
+      {
+        "quantity": 4,
+        "name": "Rowan's Grim Search"
+      },
+      {
+        "quantity": 4,
+        "name": "Barren Moor"
+      },
+      {
+        "quantity": 4,
+        "name": "Great Furnace"
+      },
+      {
+        "quantity": 4,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 3,
+        "name": "Duress"
+      },
+      {
+        "quantity": 2,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Siege Smash"
+      },
+      {
+        "quantity": 1,
+        "name": "Dihada's Ploy"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 4,
+        "name": "Chitin Gravestalker"
+      }
+    ]
+  },
+  {
+    "id": "rvs5m9n3fu00y47nvs5amyeo",
+    "url": "https://dutchpauperleague.nl/decks/rvs5m9n3fu00y47nvs5amyeo",
+    "name": "Brew",
+    "archetype": "Brew",
+    "pilotName": "Elles Dijkhuizen",
+    "cards": [
+      {
+        "quantity": 2,
+        "name": "Quirion Ranger"
+      },
+      {
+        "quantity": 4,
+        "name": "Saruli Caretaker"
+      },
+      {
+        "quantity": 3,
+        "name": "Gatecreeper Vine"
+      },
+      {
+        "quantity": 3,
+        "name": "Masked Vandal"
+      },
+      {
+        "quantity": 3,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 4,
+        "name": "Overgrown Battlement"
+      },
+      {
+        "quantity": 4,
+        "name": "Wall of Roots"
+      },
+      {
+        "quantity": 4,
+        "name": "Balustrade Spy"
+      },
+      {
+        "quantity": 4,
+        "name": "Sagu Wildling"
+      },
+      {
+        "quantity": 4,
+        "name": "Generous Ent"
+      },
+      {
+        "quantity": 2,
+        "name": "Troll of Khazad-dûm"
+      },
+      {
+        "quantity": 2,
+        "name": "Lotleth Giant"
+      },
+      {
+        "quantity": 3,
+        "name": "Lotus Petal"
+      },
+      {
+        "quantity": 4,
+        "name": "Land Grant"
+      },
+      {
+        "quantity": 2,
+        "name": "Pilfer"
+      },
+      {
+        "quantity": 3,
+        "name": "Winding Way"
+      },
+      {
+        "quantity": 3,
+        "name": "Lead the Stampede"
+      },
+      {
+        "quantity": 2,
+        "name": "Dread Return"
+      },
+      {
+        "quantity": 3,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 1,
+        "name": "Duress"
+      },
+      {
+        "quantity": 2,
+        "name": "Elven Farsight"
+      },
+      {
+        "quantity": 2,
+        "name": "Rust"
+      },
+      {
+        "quantity": 1,
+        "name": "Masked Vandal"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 1,
+        "name": "Winding Way"
+      },
+      {
+        "quantity": 2,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 1,
+        "name": "Lead the Stampede"
+      },
+      {
+        "quantity": 1,
+        "name": "Acorn Harvest"
+      }
+    ]
+  },
+  {
+    "id": "a11fzm1njda6dbh65t47svzf",
+    "url": "https://dutchpauperleague.nl/decks/a11fzm1njda6dbh65t47svzf",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "Lucas Feliciano",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 1,
+        "name": "Nyxborn Hydra"
+      },
+      {
+        "quantity": 1,
+        "name": "Faerie Macabre"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 2,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 3,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 2,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 2,
+        "name": "Pulse of Murasa"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 2,
+        "name": "Forest"
+      },
+      {
+        "quantity": 1,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 3,
+        "name": "Duress"
+      },
+      {
+        "quantity": 3,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Toxin Analysis"
+      },
+      {
+        "quantity": 1,
+        "name": "Troublemaker Ouphe"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 1,
+        "name": "Crypt Incursion"
+      }
+    ]
+  },
+  {
+    "id": "civ3l5gxcxc58drmxc5y2c9c",
+    "url": "https://dutchpauperleague.nl/decks/civ3l5gxcxc58drmxc5y2c9c",
+    "name": "Gruul Ramp",
+    "archetype": "Gruul Ramp",
+    "pilotName": "Quinten Hogenes",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Arbor Elf"
+      },
+      {
+        "quantity": 4,
+        "name": "Eldrazi Repurposer"
+      },
+      {
+        "quantity": 4,
+        "name": "Jewel Thief"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 4,
+        "name": "Avenging Hunter"
+      },
+      {
+        "quantity": 3,
+        "name": "Sagu Wildling"
+      },
+      {
+        "quantity": 4,
+        "name": "Boarding Party"
+      },
+      {
+        "quantity": 2,
+        "name": "Annoyed Altisaur"
+      },
+      {
+        "quantity": 4,
+        "name": "Utopia Sprawl"
+      },
+      {
+        "quantity": 4,
+        "name": "Wild Growth"
+      },
+      {
+        "quantity": 4,
+        "name": "Malevolent Rumble"
+      },
+      {
+        "quantity": 1,
+        "name": "Lead the Stampede"
+      },
+      {
+        "quantity": 2,
+        "name": "You Meet in a Tavern"
+      },
+      {
+        "quantity": 14,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Relic of Progenitus"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 2,
+        "name": "Deglamer"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 4,
+        "name": "Mwonvuli Acid-Moss"
+      }
+    ]
+  },
+  {
+    "id": "t12ho96bsdnv1bkm7wwtbaw8",
+    "url": "https://dutchpauperleague.nl/decks/t12ho96bsdnv1bkm7wwtbaw8",
+    "name": "Poison Storm",
+    "archetype": "Poison Storm",
+    "pilotName": "Teun Fekkes",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Nightscape Familiar"
+      },
+      {
+        "quantity": 1,
+        "name": "Everflowing Chalice"
+      },
+      {
+        "quantity": 4,
+        "name": "Pentad Prism"
+      },
+      {
+        "quantity": 3,
+        "name": "Thirsting Roots"
+      },
+      {
+        "quantity": 4,
+        "name": "Contentious Plan"
+      },
+      {
+        "quantity": 4,
+        "name": "Infectious Inquiry"
+      },
+      {
+        "quantity": 3,
+        "name": "Vivisurgeon's Insight"
+      },
+      {
+        "quantity": 1,
+        "name": "Virulent Wound"
+      },
+      {
+        "quantity": 2,
+        "name": "Whisper of the Dross"
+      },
+      {
+        "quantity": 4,
+        "name": "Experimental Augury"
+      },
+      {
+        "quantity": 4,
+        "name": "Prologue to Phyresis"
+      },
+      {
+        "quantity": 4,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 4,
+        "name": "Steady Progress"
+      },
+      {
+        "quantity": 1,
+        "name": "Forest"
+      },
+      {
+        "quantity": 4,
+        "name": "Hickory Woodlot"
+      },
+      {
+        "quantity": 4,
+        "name": "Island"
+      },
+      {
+        "quantity": 4,
+        "name": "Peat Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Saprazzan Skerry"
+      },
+      {
+        "quantity": 2,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 3,
+        "name": "Virulent Wound"
+      },
+      {
+        "quantity": 2,
+        "name": "Blightbelly Rat"
+      },
+      {
+        "quantity": 1,
+        "name": "Nightscape Familiar"
+      },
+      {
+        "quantity": 2,
+        "name": "Snap"
+      },
+      {
+        "quantity": 3,
+        "name": "Carnivorous Canopy"
+      },
+      {
+        "quantity": 4,
+        "name": "Serrated Arrows"
+      }
+    ]
+  },
+  {
+    "id": "j2gn87weiohr05s8sjieaedx",
+    "url": "https://dutchpauperleague.nl/decks/j2gn87weiohr05s8sjieaedx",
+    "name": "Jund Wildfire",
+    "archetype": "Jund Wildfire",
+    "pilotName": "Francesco Bernardi",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Krark-Clan Shaman"
+      },
+      {
+        "quantity": 3,
+        "name": "Gixian Infiltrator"
+      },
+      {
+        "quantity": 4,
+        "name": "Refurbished Familiar"
+      },
+      {
+        "quantity": 4,
+        "name": "Writhing Chrysalis"
+      },
+      {
+        "quantity": 2,
+        "name": "Blood Fountain"
+      },
+      {
+        "quantity": 2,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichor Wellspring"
+      },
+      {
+        "quantity": 1,
+        "name": "Lembas"
+      },
+      {
+        "quantity": 4,
+        "name": "Galvanic Blast"
+      },
+      {
+        "quantity": 1,
+        "name": "Eviscerator's Insight"
+      },
+      {
+        "quantity": 4,
+        "name": "Fanatical Offering"
+      },
+      {
+        "quantity": 2,
+        "name": "Unexpected Fangs"
+      },
+      {
+        "quantity": 1,
+        "name": "Rancor"
+      },
+      {
+        "quantity": 1,
+        "name": "Makeshift Munitions"
+      },
+      {
+        "quantity": 4,
+        "name": "Cleansing Wildfire"
+      },
+      {
+        "quantity": 4,
+        "name": "Drossforge Bridge"
+      },
+      {
+        "quantity": 1,
+        "name": "Forest"
+      },
+      {
+        "quantity": 2,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Slagwoods Bridge"
+      },
+      {
+        "quantity": 3,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 4,
+        "name": "Twisted Landscape"
+      },
+      {
+        "quantity": 2,
+        "name": "Vault of Whispers"
+      },
+      {
+        "quantity": 4,
+        "name": "Duress"
+      },
+      {
+        "quantity": 4,
+        "name": "Red Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast Down"
+      },
+      {
+        "quantity": 3,
+        "name": "Weather the Storm"
+      },
+      {
+        "quantity": 2,
+        "name": "Breath Weapon"
+      }
+    ]
+  },
+  {
+    "id": "o47txhu9zvj4u675to64g0st",
+    "url": "https://dutchpauperleague.nl/decks/o47txhu9zvj4u675to64g0st",
+    "name": "MonoB Sacrifice",
+    "archetype": "MonoB Sacrifice",
+    "pilotName": "Wouter Hordijk",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Carrion Feeder"
+      },
+      {
+        "quantity": 4,
+        "name": "Infestation Sage"
+      },
+      {
+        "quantity": 4,
+        "name": "Mortician Beetle"
+      },
+      {
+        "quantity": 4,
+        "name": "Nested Shambler"
+      },
+      {
+        "quantity": 2,
+        "name": "Nezumi Linkbreaker"
+      },
+      {
+        "quantity": 2,
+        "name": "Shambling Ghast"
+      },
+      {
+        "quantity": 2,
+        "name": "Accursed Marauder"
+      },
+      {
+        "quantity": 4,
+        "name": "Bloodthrone Vampire"
+      },
+      {
+        "quantity": 4,
+        "name": "Perigee Beckoner"
+      },
+      {
+        "quantity": 2,
+        "name": "Corrupted Conviction"
+      },
+      {
+        "quantity": 4,
+        "name": "Supernatural Stamina"
+      },
+      {
+        "quantity": 4,
+        "name": "Village Rites"
+      },
+      {
+        "quantity": 2,
+        "name": "Unearth"
+      },
+      {
+        "quantity": 1,
+        "name": "Rite of Consumption"
+      },
+      {
+        "quantity": 17,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 2,
+        "name": "Rotten Reunion"
+      },
+      {
+        "quantity": 2,
+        "name": "Sylvok Lifestaff"
+      },
+      {
+        "quantity": 2,
+        "name": "Tragic Slip"
+      },
+      {
+        "quantity": 2,
+        "name": "Accursed Marauder"
+      },
+      {
+        "quantity": 4,
+        "name": "Mesmeric Fiend"
+      },
+      {
+        "quantity": 2,
+        "name": "Drown in Sorrow"
+      },
+      {
+        "quantity": 1,
+        "name": "Suffocating Fumes"
+      }
+    ]
+  },
+  {
+    "id": "bdpyjezre8jb4er4dgf5i97v",
+    "url": "https://dutchpauperleague.nl/decks/bdpyjezre8jb4er4dgf5i97v",
+    "name": "Rakdos Burn",
+    "archetype": "Rakdos Burn",
+    "pilotName": "Roberto Schiavone",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Kitchen Imp"
+      },
+      {
+        "quantity": 1,
+        "name": "End the Festivities"
+      },
+      {
+        "quantity": 4,
+        "name": "Faithless Looting"
+      },
+      {
+        "quantity": 4,
+        "name": "Grab the Prize"
+      },
+      {
+        "quantity": 4,
+        "name": "Highway Robbery"
+      },
+      {
+        "quantity": 4,
+        "name": "Vampire's Kiss"
+      },
+      {
+        "quantity": 4,
+        "name": "Alms of the Vein"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiery Temper"
+      },
+      {
+        "quantity": 1,
+        "name": "Bojuka Bog"
+      },
+      {
+        "quantity": 4,
+        "name": "Jagged Barrens"
+      },
+      {
+        "quantity": 8,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 1,
+        "name": "Rakdos Carnarium"
+      },
+      {
+        "quantity": 3,
+        "name": "Razortrap Gorge"
+      },
+      {
+        "quantity": 2,
+        "name": "Swamp"
+      },
+      {
+        "quantity": 2,
+        "name": "Electrickery"
+      },
+      {
+        "quantity": 3,
+        "name": "Nihil Spellbomb"
+      },
+      {
+        "quantity": 3,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 4,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 3,
+        "name": "Extract a Confession"
+      }
+    ]
+  },
+  {
+    "id": "npellj8dgxnl6q65xp6hl4h2",
+    "url": "https://dutchpauperleague.nl/decks/npellj8dgxnl6q65xp6hl4h2",
+    "name": "MonoU Faeries",
+    "archetype": "MonoU Faeries",
+    "pilotName": "Antonio Liguori",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Brinebarrow Intruder"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Miscreant"
+      },
+      {
+        "quantity": 4,
+        "name": "Faerie Seer"
+      },
+      {
+        "quantity": 2,
+        "name": "Snaremaster Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Moon-Circuit Hacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Spellstutter Sprite"
+      },
+      {
+        "quantity": 4,
+        "name": "Ninja of the Deep Hours"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 1,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 2,
+        "name": "Mutagenic Growth"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 4,
+        "name": "Counterspell"
+      },
+      {
+        "quantity": 2,
+        "name": "Snap"
+      },
+      {
+        "quantity": 3,
+        "name": "Of One Mind"
+      },
+      {
+        "quantity": 18,
+        "name": "Island"
+      },
+      {
+        "quantity": 3,
+        "name": "Annul"
+      },
+      {
+        "quantity": 2,
+        "name": "Bind the Monster"
+      },
+      {
+        "quantity": 4,
+        "name": "Blue Elemental Blast"
+      },
+      {
+        "quantity": 2,
+        "name": "Dispel"
+      },
+      {
+        "quantity": 1,
+        "name": "Hydroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Sabotage"
+      },
+      {
+        "quantity": 1,
+        "name": "Nullify"
+      }
+    ]
+  },
+  {
+    "id": "ggui807cwqs5mijpmfcxtrfl",
+    "url": "https://dutchpauperleague.nl/decks/ggui807cwqs5mijpmfcxtrfl",
+    "name": "Burn",
+    "archetype": "Burn",
+    "pilotName": "Max Moriette-Sala",
+    "cards": [
+      {
+        "quantity": 4,
+        "name": "Voldaren Epicure"
+      },
+      {
+        "quantity": 4,
+        "name": "Sneaky Snacker"
+      },
+      {
+        "quantity": 4,
+        "name": "Guttersnipe"
+      },
+      {
+        "quantity": 4,
+        "name": "Faithless Looting"
+      },
+      {
+        "quantity": 2,
+        "name": "Grab the Prize"
+      },
+      {
+        "quantity": 4,
+        "name": "Highway Robbery"
+      },
+      {
+        "quantity": 4,
+        "name": "Lava Dart"
+      },
+      {
+        "quantity": 4,
+        "name": "Lightning Bolt"
+      },
+      {
+        "quantity": 2,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 4,
+        "name": "Fiery Temper"
+      },
+      {
+        "quantity": 4,
+        "name": "Fireblast"
+      },
+      {
+        "quantity": 20,
+        "name": "Mountain"
+      },
+      {
+        "quantity": 4,
+        "name": "Tormod's Crypt"
+      },
+      {
+        "quantity": 1,
+        "name": "Gorilla Shaman"
+      },
+      {
+        "quantity": 2,
+        "name": "Pyroblast"
+      },
+      {
+        "quantity": 2,
+        "name": "Tectonic Hazard"
+      },
+      {
+        "quantity": 2,
+        "name": "Cast into the Fire"
+      },
+      {
+        "quantity": 1,
+        "name": "Siege Smash"
+      },
+      {
+        "quantity": 1,
+        "name": "Breath Weapon"
+      },
+      {
+        "quantity": 2,
+        "name": "Skewer the Critics"
+      }
+    ]
+  },
+  {
+    "id": "b9jrpf5b1cb696t1sbta5sjv",
+    "url": "https://dutchpauperleague.nl/decks/b9jrpf5b1cb696t1sbta5sjv",
+    "name": "Brew",
+    "archetype": "Brew",
+    "pilotName": "Marvin Schippmann",
+    "cards": [
+      {
+        "quantity": 3,
+        "name": "Illvoi Galeblade"
+      },
+      {
+        "quantity": 4,
+        "name": "Blighted Agent"
+      },
+      {
+        "quantity": 4,
+        "name": "Ichorclaw Myr"
+      },
+      {
+        "quantity": 4,
+        "name": "Thrummingbird"
+      },
+      {
+        "quantity": 1,
+        "name": "Phyrexian Digester"
+      },
+      {
+        "quantity": 1,
+        "name": "Corpse Cur"
+      },
+      {
+        "quantity": 1,
+        "name": "Chained Throatseeker"
+      },
+      {
+        "quantity": 2,
+        "name": "Aqueous Form"
+      },
+      {
+        "quantity": 2,
+        "name": "Cryoshatter"
+      },
+      {
+        "quantity": 2,
+        "name": "Unable to Scream"
+      },
+      {
+        "quantity": 2,
+        "name": "Cartouche of Knowledge"
+      },
+      {
+        "quantity": 1,
+        "name": "Ophidian Eye"
+      },
+      {
+        "quantity": 1,
+        "name": "Traveler's Cloak"
+      },
+      {
+        "quantity": 3,
+        "name": "Aspirant's Ascent"
+      },
+      {
+        "quantity": 2,
+        "name": "Brainstorm"
+      },
+      {
+        "quantity": 2,
+        "name": "Spell Pierce"
+      },
+      {
+        "quantity": 1,
+        "name": "Steel Sabotage"
+      },
+      {
+        "quantity": 3,
+        "name": "Experimental Augury"
+      },
+      {
+        "quantity": 1,
+        "name": "Planar Incision"
+      },
+      {
+        "quantity": 4,
+        "name": "Prologue to Phyresis"
+      },
+      {
+        "quantity": 2,
+        "name": "Resculpt"
+      },
+      {
+        "quantity": 2,
+        "name": "Enter the Enigma"
+      },
+      {
+        "quantity": 2,
+        "name": "Slip Through Space"
+      },
+      {
+        "quantity": 2,
+        "name": "Moonsnare Prototype"
+      },
+      {
+        "quantity": 3,
+        "name": "Cryogen Relic"
+      },
+      {
+        "quantity": 26,
+        "name": "Island"
+      },
+      {
+        "quantity": 4,
+        "name": "Seat of the Synod"
+      },
+      {
+        "quantity": 1,
+        "name": "Bone Saw"
+      },
+      {
+        "quantity": 1,
+        "name": "Hunter's Blowgun"
+      },
+      {
+        "quantity": 1,
+        "name": "Mystic Remora"
+      },
+      {
+        "quantity": 1,
+        "name": "Arcane Denial"
+      },
+      {
+        "quantity": 1,
+        "name": "Eel Umbra"
+      },
+      {
+        "quantity": 1,
+        "name": "Muddle the Mixture"
+      },
+      {
+        "quantity": 1,
+        "name": "Snap"
+      },
+      {
+        "quantity": 1,
+        "name": "Ghostly Flicker"
+      },
+      {
+        "quantity": 1,
+        "name": "Imprisoned in the Moon"
+      },
+      {
+        "quantity": 1,
+        "name": "Mocking Sprite"
+      },
+      {
+        "quantity": 1,
+        "name": "Ophidian Eye"
+      },
+      {
+        "quantity": 1,
+        "name": "Archaeomancer"
+      },
+      {
+        "quantity": 1,
+        "name": "Fuel for the Cause"
+      },
+      {
+        "quantity": 1,
+        "name": "Petrifying Meddler"
+      },
+      {
+        "quantity": 1,
+        "name": "Vivisurgeon's Insight"
+      }
+    ]
+  }
+];
