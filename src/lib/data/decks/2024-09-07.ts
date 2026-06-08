@@ -7,7 +7,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ponza",
     "archetype": "Gruul Ponza",
     "pilotName": "Sam Ye",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -92,7 +92,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "z2csmq6vibnbgztkxsuqqzsf",
@@ -100,7 +101,7 @@ export const decks: Deck[] = [
     "name": "Walls",
     "archetype": "Walls",
     "pilotName": "Vlad-Alexandru Negară",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Quirion Ranger"
@@ -209,7 +210,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Guardian Naga"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "rhvwurkvf4osvaq0cf790ahh",
@@ -217,7 +219,7 @@ export const decks: Deck[] = [
     "name": "Altar Tron",
     "archetype": "Altar Tron",
     "pilotName": "Gianvito Taneburgo",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Myr Retriever"
@@ -330,7 +332,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Mirrorshell Crab"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "u10d5ulyednyrkldhpd2pk9u",
@@ -338,7 +341,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Bauke Ham",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Goblin Tomb Raider"
@@ -435,7 +438,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Smash to Smithereens"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "p6nnze90owfrzfjxhvsxbmq2",
@@ -443,7 +447,7 @@ export const decks: Deck[] = [
     "name": "Golgari Gardens",
     "archetype": "Golgari Gardens",
     "pilotName": "Jan Rijnbeek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Crypt Rats"
@@ -544,7 +548,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Snuff Out"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "pko53x7g7xo4907a9a0y3m9s",
@@ -552,7 +557,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Tim Bunnik",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -649,7 +654,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Trespasser's Curse"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "gjxnmd2vftp24cju4qrkte2r",
@@ -657,7 +663,7 @@ export const decks: Deck[] = [
     "name": "Jund Gleezard",
     "archetype": "Jund Gleezard",
     "pilotName": "Lucas Feliciano",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 2,
         "name": "Krark-Clan Shaman"
@@ -762,7 +768,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Snuff Out"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "o134s35py6jo1d5ijg1r67p9",
@@ -770,7 +777,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ponza",
     "archetype": "Gruul Ponza",
     "pilotName": "Raaayyyyyyyyyy",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -843,7 +850,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "dnt7eldfg1xihpbcbecmfq1p",
@@ -851,7 +859,7 @@ export const decks: Deck[] = [
     "name": "MonoR Kuldotha",
     "archetype": "MonoR Kuldotha",
     "pilotName": "Nicolas Bordenabe",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Goblin Blast-Runner"
@@ -936,7 +944,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Cast into the Fire"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "zqdm3havz9uhb2o2xud5t5nf",
@@ -944,7 +953,7 @@ export const decks: Deck[] = [
     "name": "MonoU Terror",
     "archetype": "MonoU Terror",
     "pilotName": "Koen de Vos",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -1033,7 +1042,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Murmuring Mystic"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "snmt2qv090mxkwfvbke5eskc",
@@ -1041,7 +1051,7 @@ export const decks: Deck[] = [
     "name": "MonoR Kuldotha",
     "archetype": "MonoR Kuldotha",
     "pilotName": "Clemens Gerteiser",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Goblin Blast-Runner"
@@ -1118,7 +1128,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Smash to Smithereens"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "oj1cj7a9qqwbb58lyj3obfac",
@@ -1126,7 +1137,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ponza",
     "archetype": "Gruul Ponza",
     "pilotName": "Catalin Apostol",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -1207,7 +1218,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "ckjtj90su01p4nyy166ikdeb",
@@ -1215,7 +1227,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ponza",
     "archetype": "Gruul Ponza",
     "pilotName": "Mark Coehoorn",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -1304,7 +1316,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "ff25367zzu94apxdplgs3fhr",
@@ -1312,7 +1325,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Floris Heins",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -1409,7 +1422,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "dc162y3eg5vjpjhcp3d26whb",
@@ -1417,7 +1431,7 @@ export const decks: Deck[] = [
     "name": "Azorius Gates",
     "archetype": "Azorius Gates",
     "pilotName": "Abe Mulder",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Sacred Cat"
@@ -1530,7 +1544,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Dust to Dust"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "o928n2dv34flygf5x71crnpu",
@@ -1538,7 +1553,7 @@ export const decks: Deck[] = [
     "name": "Dimir Faeries",
     "archetype": "Dimir Faeries",
     "pilotName": "Kasper Zijl",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Faerie Seer"
@@ -1679,7 +1694,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Okiba-Gang Shinobi"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "hstr60lhmnzmaw7elzyyfl0c",
@@ -1687,7 +1703,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Dylan Holly",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -1780,7 +1796,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "zkzjapvioxoarhg5lk33bm6y",
@@ -1788,7 +1805,7 @@ export const decks: Deck[] = [
     "name": "MonoR Kuldotha",
     "archetype": "MonoR Kuldotha",
     "pilotName": "Nicolas Komanski",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Goblin Blast-Runner"
@@ -1865,7 +1882,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Pyroblast"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "x46om61fxowwnardonjdgffm",
@@ -1873,7 +1891,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ponza",
     "archetype": "Gruul Ponza",
     "pilotName": "Bram Deppenbroek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -1958,7 +1976,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "qqgsnqi9ms0oa18k7p7g8fw7",
@@ -1966,7 +1985,7 @@ export const decks: Deck[] = [
     "name": "Jund Cascade",
     "archetype": "Jund Cascade",
     "pilotName": "Mirco Bonati",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Eldrazi Repurposer"
@@ -2075,7 +2094,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "a20cyulkk9hndbjqiwepevyt",
@@ -2083,7 +2103,7 @@ export const decks: Deck[] = [
     "name": "Boros Bully",
     "archetype": "Boros Bully",
     "pilotName": "Max Roovers",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Lunarch Veteran"
@@ -2176,7 +2196,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Ramirez DePietro"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "p38c519n14rteraq7saja5bo",
@@ -2184,7 +2205,7 @@ export const decks: Deck[] = [
     "name": "Jeskai Ephemerate",
     "archetype": "Jeskai Ephemerate",
     "pilotName": "Danila",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Augur of Bolas"
@@ -2325,7 +2346,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Ingot Chewer"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "wrngzn9ipjobw50zt9bsy3dn",
@@ -2333,7 +2355,7 @@ export const decks: Deck[] = [
     "name": "Brew",
     "archetype": "Brew",
     "pilotName": "Dylan van Gelder",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Blightbelly Rat"
@@ -2442,7 +2464,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Drown in Sorrow"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "nhq3g2s2wx4fp5mz50fnqw74",
@@ -2450,7 +2473,7 @@ export const decks: Deck[] = [
     "name": "White Weenie",
     "archetype": "White Weenie",
     "pilotName": "Raymond Anderson",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Lunarch Veteran"
@@ -2531,7 +2554,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Prismatic Strands"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "u84ctdilsgpa1mshv8wmhute",
@@ -2539,7 +2563,7 @@ export const decks: Deck[] = [
     "name": "Brew",
     "archetype": "Brew",
     "pilotName": "Hidde van 't Verlaat",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Satyr Wayfinder"
@@ -2640,7 +2664,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Fiery Cannonade"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "plvp01ko57hfo61lj6a816gh",
@@ -2648,7 +2673,7 @@ export const decks: Deck[] = [
     "name": "Dimir Faeries",
     "archetype": "Dimir Faeries",
     "pilotName": "Raven de Bruin",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Sneaky Snacker"
@@ -2781,7 +2806,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Thorn of the Black Rose"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "iho49ndms8c64ynptax73ar4",
@@ -2789,7 +2815,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ponza",
     "archetype": "Gruul Ponza",
     "pilotName": "Tijmen van der Kamp",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -2874,7 +2900,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "m10z189y5wsljx90tthrf92d",
@@ -2882,7 +2909,7 @@ export const decks: Deck[] = [
     "name": "Jeskai Ephemerate",
     "archetype": "Jeskai Ephemerate",
     "pilotName": "Ettore Cerracchio",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Augur of Bolas"
@@ -3019,7 +3046,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Murmuring Mystic"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "h19pzauf24gwsz543u5ej0p0",
@@ -3027,7 +3055,7 @@ export const decks: Deck[] = [
     "name": "Familiars",
     "archetype": "Familiars",
     "pilotName": "Toon de Vet",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "God-Pharaoh's Faithful"
@@ -3152,7 +3180,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Revoke Existence"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "zjpk1l2m3menb71k6vprgzfn",
@@ -3160,7 +3189,7 @@ export const decks: Deck[] = [
     "name": "Brew",
     "archetype": "Brew",
     "pilotName": "Tobias van Kersbergen",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Nest Invader"
@@ -3257,7 +3286,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "dk8a25y760tha5sshnvxczvb",
@@ -3265,7 +3295,7 @@ export const decks: Deck[] = [
     "name": "MonoR Kuldotha",
     "archetype": "MonoR Kuldotha",
     "pilotName": "Ashley Bits",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Goblin Blast-Runner"
@@ -3342,7 +3372,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Cast into the Fire"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "pqevuogtjio9qnzddo82a46y",
@@ -3350,7 +3381,7 @@ export const decks: Deck[] = [
     "name": "Elves",
     "archetype": "Elves",
     "pilotName": "Nigel Stikker",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Birchlore Rangers"
@@ -3435,7 +3466,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Coalition Honor Guard"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "upwzzcn2znmi91dtsaden0um",
@@ -3443,7 +3475,7 @@ export const decks: Deck[] = [
     "name": "Brew",
     "archetype": "Brew",
     "pilotName": "Arne Klarenberg",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Quirion Ranger"
@@ -3516,7 +3548,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Flaring Pain"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "rpj3xle33fz3xkbac1gy2tbp",
@@ -3524,7 +3557,7 @@ export const decks: Deck[] = [
     "name": "MonoR Kuldotha",
     "archetype": "MonoR Kuldotha",
     "pilotName": "Tim Zemack",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Goblin Blast-Runner"
@@ -3605,6 +3638,7 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Smash to Smithereens"
       }
-    ]
+    ],
+    "sideboard": []
   }
 ];

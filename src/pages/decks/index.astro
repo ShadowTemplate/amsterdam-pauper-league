@@ -1,0 +1,78 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getAllDecks } from "@/lib/decks";
+import { getEvent } from "@/lib/mock-data";
+
+const allDecks = getAllDecks();
+
+// Group decks by event
+const decksByEvent = allDecks.reduce(
+  (acc, deck) => {
+    if (!acc[deck.eventSlug]) {
+      acc[deck.eventSlug] = [];
+    }
+    acc[deck.eventSlug].push(deck);
+    return acc;
+  },
+  {} as Record<string, typeof allDecks>
+);
+
+// Sort events by date (most recent first)
+const sortedEventSlugs = Object.keys(decksByEvent).sort().reverse();
+
+const title = "Decks – Amsterdam Pauper League";
+---
+
+<Layout title={title}>
+  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted-foreground mb-4">
+      <a href="/" class="hover:underline underline-offset-4">Home</a>
+      <span class="mx-2">›</span>Decks
+    </nav>
+
+    <h1 class="text-3xl font-bold mb-2">Deck Database</h1>
+    <p class="text-muted-foreground mb-8">
+      Browse all decks played in the league. {allDecks.length} decks across {sortedEventSlugs.length} events.
+    </p>
+
+    <!-- Events with Decks -->
+    {sortedEventSlugs.map((eventSlug) => {
+      const event = getEvent(eventSlug);
+      const decks = decksByEvent[eventSlug];
+
+      return (
+        <section class="mb-12">
+          <h2 class="text-2xl font-semibold mb-4">
+            {event ? (
+              <a href={`/events/${event.slug}`} class="hover:underline underline-offset-4">
+                {event.name}
+              </a>
+            ) : (
+              eventSlug
+            )}
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {decks.map((deck) => {
+              const mainDeckTotal = deck.mainDeck.reduce((sum, c) => sum + c.quantity, 0);
+              const sideboardTotal = deck.sideboard.reduce((sum, c) => sum + c.quantity, 0);
+              return (
+                <a
+                  href={`/decks/${deck.id}`}
+                  class="p-4 rounded border border-border hover:border-primary/50 hover:bg-muted/50 transition"
+                >
+                  <div class="font-semibold text-foreground mb-1">{deck.archetype}</div>
+                  <div class="text-sm text-muted-foreground">{deck.pilotName}</div>
+                  <div class="text-xs text-muted-foreground mt-2">
+                    {mainDeckTotal} + {sideboardTotal} cards
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      );
+    })}
+  </div>
+</Layout>

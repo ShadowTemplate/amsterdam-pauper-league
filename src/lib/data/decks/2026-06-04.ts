@@ -7,7 +7,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ramp",
     "archetype": "Gruul Ramp",
     "pilotName": "Jelle Schneider",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -71,7 +71,9 @@ export const decks: Deck[] = [
       {
         "quantity": 2,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Relic of Progenitus"
@@ -104,7 +106,7 @@ export const decks: Deck[] = [
     "name": "Cycling Storm",
     "archetype": "Cycling Storm",
     "pilotName": "Samuel Schumacher",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Drannith Healer"
@@ -168,7 +170,9 @@ export const decks: Deck[] = [
       {
         "quantity": 4,
         "name": "Vault of Whispers"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 1,
         "name": "Swamp"
@@ -205,7 +209,7 @@ export const decks: Deck[] = [
     "name": "Unknown Archetype",
     "archetype": "Unknown Archetype",
     "pilotName": "Eef vV",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Clockwork Percussionist"
@@ -261,7 +265,9 @@ export const decks: Deck[] = [
       {
         "quantity": 14,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Tormod's Crypt"
@@ -290,7 +296,7 @@ export const decks: Deck[] = [
     "name": "Dimir Faeries",
     "archetype": "Dimir Faeries",
     "pilotName": "vinicius duarte",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Faerie Seer"
@@ -378,7 +384,9 @@ export const decks: Deck[] = [
       {
         "quantity": 1,
         "name": "Swamp"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "Blue Elemental Blast"
@@ -415,7 +423,7 @@ export const decks: Deck[] = [
     "name": "Brew",
     "archetype": "Brew",
     "pilotName": "Jan Rijnbeek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 1,
         "name": "Caustic Caterpillar"
@@ -499,7 +507,9 @@ export const decks: Deck[] = [
       {
         "quantity": 3,
         "name": "Swamp"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Caustic Caterpillar"
@@ -532,7 +542,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ramp",
     "archetype": "Gruul Ramp",
     "pilotName": "Max Roovers",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -584,7 +594,9 @@ export const decks: Deck[] = [
       {
         "quantity": 2,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Vines of Vastwood"
@@ -613,7 +625,7 @@ export const decks: Deck[] = [
     "name": "Infect",
     "archetype": "Infect",
     "pilotName": "Collin Bos",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Glistener Elf"
@@ -673,7 +685,9 @@ export const decks: Deck[] = [
       {
         "quantity": 4,
         "name": "Hickory Woodlot"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 1,
         "name": "Bojuka Bog"

@@ -7,7 +7,7 @@ export const decks: Deck[] = [
     "name": "Walls",
     "archetype": "Walls",
     "pilotName": "Andrea Passaro",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 2,
         "name": "Avacyn's Pilgrim"
@@ -99,7 +99,9 @@ export const decks: Deck[] = [
       {
         "quantity": 1,
         "name": "Plains"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "Benevolent Bodyguard"
@@ -136,7 +138,7 @@ export const decks: Deck[] = [
     "name": "Spy Walls",
     "archetype": "Spy Walls",
     "pilotName": "Ettore Cerracchio",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Elves of Deep Shadow"
@@ -208,7 +210,9 @@ export const decks: Deck[] = [
       {
         "quantity": 1,
         "name": "Swamp"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 1,
         "name": "Mountain"
@@ -245,7 +249,7 @@ export const decks: Deck[] = [
     "name": "MonoU Terror",
     "archetype": "MonoU Terror",
     "pilotName": "Bram Deppenbroek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -305,7 +309,9 @@ export const decks: Deck[] = [
       {
         "quantity": 16,
         "name": "Island"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 4,
         "name": "Annul"
@@ -334,7 +340,7 @@ export const decks: Deck[] = [
     "name": "MonoR Madness",
     "archetype": "MonoR Madness",
     "pilotName": "Gino De Guzman",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -382,7 +388,9 @@ export const decks: Deck[] = [
       {
         "quantity": 18,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "End the Festivities"
@@ -411,7 +419,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Tim Bunnik",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -475,7 +483,9 @@ export const decks: Deck[] = [
       {
         "quantity": 3,
         "name": "Swamp"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 4,
         "name": "Duress"
@@ -504,7 +514,7 @@ export const decks: Deck[] = [
     "name": "Golgari Dredge",
     "archetype": "Golgari Dredge",
     "pilotName": "Max Roovers",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Circle of the Land Druid"
@@ -572,7 +582,9 @@ export const decks: Deck[] = [
       {
         "quantity": 3,
         "name": "Survivors' Encampment"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 4,
         "name": "Ancient Grudge"
@@ -601,7 +613,7 @@ export const decks: Deck[] = [
     "name": "Brew",
     "archetype": "Brew",
     "pilotName": "Jan Rijnbeek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Cauldron Familiar"
@@ -673,7 +685,9 @@ export const decks: Deck[] = [
       {
         "quantity": 3,
         "name": "Survivors' Encampment"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Krark-Clan Shaman"
@@ -702,7 +716,7 @@ export const decks: Deck[] = [
     "name": "Cycling Storm",
     "archetype": "Cycling Storm",
     "pilotName": "Samuel Schumacher",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Drannith Healer"
@@ -762,7 +776,9 @@ export const decks: Deck[] = [
       {
         "quantity": 4,
         "name": "Vault of Whispers"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 1,
         "name": "Swamp"
@@ -799,7 +815,7 @@ export const decks: Deck[] = [
     "name": "Golgari Dredge",
     "archetype": "Golgari Dredge",
     "pilotName": "gieli0",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Circle of the Land Druid"
@@ -871,7 +887,9 @@ export const decks: Deck[] = [
       {
         "quantity": 1,
         "name": "Wooded Ridgeline"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 4,
         "name": "Ancient Grudge"
@@ -900,7 +918,7 @@ export const decks: Deck[] = [
     "name": "Spy Walls",
     "archetype": "Spy Walls",
     "pilotName": "Collin Bos",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Elves of Deep Shadow"
@@ -972,7 +990,9 @@ export const decks: Deck[] = [
       {
         "quantity": 1,
         "name": "Swamp"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 1,
         "name": "Mountain"
@@ -1009,7 +1029,7 @@ export const decks: Deck[] = [
     "name": "MonoR Rally",
     "archetype": "MonoR Rally",
     "pilotName": "Tim Zemack",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Clockwork Percussionist"
@@ -1065,7 +1085,9 @@ export const decks: Deck[] = [
       {
         "quantity": 14,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "End the Festivities"

@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { ARCHETYPES, getArchetypeDetail } from "@/lib/mock-data";
+import { getDecksByArchetype } from "@/lib/decks";
 
 export function getStaticPaths() {
   return ARCHETYPES.map((a) => ({ params: { slug: a.slug } }));
@@ -14,6 +15,7 @@ if (!archetype) {
 }
 
 const detail = getArchetypeDetail(slug);
+const decks = getDecksByArchetype(slug);
 const title = `${archetype.name} – Amsterdam Pauper League`;
 const pauperformanceSlug = slug
   .replace(/^mono-([a-z])-/, "mono$1-")
@@ -61,22 +63,38 @@ const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanc
                 <tr>
                   <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">#</th>
                   <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Pilot</th>
+                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Deck</th>
                 </tr>
               </thead>
               <tbody>
-                {group.appearances.map((a) => (
-                  <tr class="hover:bg-muted/50">
-                    <td class="py-3 px-4 border-b border-border font-mono">{a.position}</td>
-                    <td class="py-3 px-4 border-b border-border">
-                      <a
-                        href={`/players/${a.pilotSlug}`}
-                        class="hover:underline underline-offset-4 text-foreground"
-                      >
-                        {a.pilot}
-                      </a>
-                    </td>
-                  </tr>
-                ))}
+                {group.appearances.map((a) => {
+                  const deck = decks.find(d => d.eventSlug === group.eventSlug && d.pilotName === a.pilot);
+                  return (
+                    <tr class="hover:bg-muted/50">
+                      <td class="py-3 px-4 border-b border-border font-mono">{a.position}</td>
+                      <td class="py-3 px-4 border-b border-border">
+                        <a
+                          href={`/players/${a.pilotSlug}`}
+                          class="hover:underline underline-offset-4 text-foreground"
+                        >
+                          {a.pilot}
+                        </a>
+                      </td>
+                      <td class="py-3 px-4 border-b border-border">
+                        {deck ? (
+                          <a
+                            href={`/decks/${deck.id}`}
+                            class="hover:underline underline-offset-4 text-primary"
+                          >
+                            View Deck
+                          </a>
+                        ) : (
+                          <span class="text-muted-foreground">-</span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

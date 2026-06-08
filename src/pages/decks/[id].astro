@@ -1,0 +1,109 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getDeck, getStaticDeckPaths } from "@/lib/decks";
+import { getEvent } from "@/lib/mock-data";
+import { formatDate } from "@/lib/utils";
+
+export function getStaticPaths() {
+  return getStaticDeckPaths();
+}
+
+const { id } = Astro.params;
+const deck = getDeck(id);
+
+if (!deck) {
+  return Astro.redirect("/404", 404);
+}
+
+const event = getEvent(deck.eventSlug);
+const title = `${deck.archetype} by ${deck.pilotName} – Amsterdam Pauper League`;
+
+const mainDeckTotal = deck.mainDeck.reduce((sum, card) => sum + card.quantity, 0);
+const sideboardTotal = deck.sideboard.reduce((sum, card) => sum + card.quantity, 0);
+const totalCards = mainDeckTotal + sideboardTotal;
+---
+
+<Layout title={title}>
+  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted-foreground mb-4">
+      <a href="/decks" class="hover:underline underline-offset-4">
+        Decks
+      </a>
+      <span class="mx-2">›</span>
+      {event && (
+        <>
+          <a href={`/events/${event.slug}`} class="hover:underline underline-offset-4">
+            {event.name}
+          </a>
+          <span class="mx-2">›</span>
+        </>
+      )}
+      {deck.archetype}
+    </nav>
+
+    <!-- Deck Header -->
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold mb-2">{deck.archetype}</h1>
+      <p class="text-muted-foreground mb-4">
+        Piloted by <span class="text-foreground font-semibold">{deck.pilotName}</span>
+      </p>
+      {event && (
+        <p class="text-sm text-muted-foreground mb-4">
+          {formatDate(event.date)} @ {event.venue}
+        </p>
+      )}
+    </div>
+
+    <!-- Deck Lists Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- Main Deck -->
+      <section>
+        <h2 class="text-xl font-semibold mb-4">Main Deck ({mainDeckTotal} cards)</h2>
+        <div class="w-full overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr>
+                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">Qty</th>
+                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Card Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              {deck.mainDeck.map((card) => (
+                <tr class="hover:bg-muted/50">
+                  <td class="py-3 px-4 border-b border-border font-mono font-medium w-12">{card.quantity}</td>
+                  <td class="py-3 px-4 border-b border-border">{card.name}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Sideboard -->
+      {deck.sideboard.length > 0 && (
+        <section>
+          <h2 class="text-xl font-semibold mb-4">Sideboard ({sideboardTotal} cards)</h2>
+          <div class="w-full overflow-x-auto">
+            <table class="w-full text-sm border-collapse">
+              <thead>
+                <tr>
+                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">Qty</th>
+                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Card Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                {deck.sideboard.map((card) => (
+                  <tr class="hover:bg-muted/50">
+                    <td class="py-3 px-4 border-b border-border font-mono font-medium w-12">{card.quantity}</td>
+                    <td class="py-3 px-4 border-b border-border">{card.name}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+    </div>
+  </div>
+</Layout>

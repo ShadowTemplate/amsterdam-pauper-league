@@ -34,6 +34,23 @@ export interface EventDetail extends Event {
   meta: EventMetaEntry[];
 }
 
+// ── Decks ────────────────────────────────────────────────────────────────────
+
+export interface DeckCard {
+  quantity: number;
+  name: string;
+}
+
+export interface Deck {
+  id: string;
+  url: string;
+  name: string;
+  archetype: string;
+  pilotName: string;
+  mainDeck: DeckCard[];
+  sideboard: DeckCard[];
+}
+
 // ── League ───────────────────────────────────────────────────────────────────
 
 export interface LeagueStanding {

@@ -7,7 +7,7 @@ export const decks: Deck[] = [
     "name": "Dimir Faeries",
     "archetype": "Dimir Faeries",
     "pilotName": "Floris Heins",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Sneaky Snacker"
@@ -128,7 +128,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Okiba-Gang Shinobi"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "dvwcfz87k2h3boc9z4skc1m2",
@@ -136,7 +137,7 @@ export const decks: Deck[] = [
     "name": "MonoU Faeries",
     "archetype": "MonoU Faeries",
     "pilotName": "Rob Vermaas",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Brinebarrow Intruder"
@@ -217,7 +218,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Steel Sabotage"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "p13cejtk8ea5u3h3jok8b4r7",
@@ -225,7 +227,7 @@ export const decks: Deck[] = [
     "name": "Burn",
     "archetype": "Burn",
     "pilotName": "Eef vV",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -298,7 +300,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Smash to Smithereens"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "swc5ukqnlv8fxw51tc6k96dx",
@@ -306,7 +309,7 @@ export const decks: Deck[] = [
     "name": "Jund Wildfire",
     "archetype": "Jund Wildfire",
     "pilotName": "Bram Deppenbroek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Krark-Clan Shaman"
@@ -427,7 +430,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "yy1zjr46ritqtpsjvvj68rfx",
@@ -435,7 +439,7 @@ export const decks: Deck[] = [
     "name": "Affinity",
     "archetype": "Affinity",
     "pilotName": "Tom de Ruiter",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Etherium Spinner"
@@ -532,7 +536,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Arms of Hadar"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "uxbvz5d31ouo1s3h416lq1ck",
@@ -540,7 +545,7 @@ export const decks: Deck[] = [
     "name": "Fangren Tron",
     "archetype": "Fangren Tron",
     "pilotName": "Jan Rijnbeek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 2,
         "name": "Krark-Clan Shaman"
@@ -653,7 +658,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Last Rites"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "n14d4f1b1jxagj7uyga0xkfh",
@@ -661,7 +667,7 @@ export const decks: Deck[] = [
     "name": "Jund Wildfire",
     "archetype": "Jund Wildfire",
     "pilotName": "Jort Bakker",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Krark-Clan Shaman"
@@ -770,7 +776,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "x8k1byqo2qmv3rhgvp7kdfx1",
@@ -778,7 +785,7 @@ export const decks: Deck[] = [
     "name": "Jund Wildfire",
     "archetype": "Jund Wildfire",
     "pilotName": "Lucas Feliciano",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Krark-Clan Shaman"
@@ -895,7 +902,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Okiba-Gang Shinobi"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "cvptbdlkxtujglhsahm449dd",
@@ -903,7 +911,7 @@ export const decks: Deck[] = [
     "name": "Walls",
     "archetype": "Walls",
     "pilotName": "Yaro Kraneveld",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 2,
         "name": "Jaspera Sentinel"
@@ -1012,7 +1020,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Mirrorshell Crab"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "e4lo4vxzpzt2a3fhfiirrhrs",
@@ -1020,7 +1029,7 @@ export const decks: Deck[] = [
     "name": "Burn",
     "archetype": "Burn",
     "pilotName": "Rob Lamers",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Clockwork Percussionist"
@@ -1093,7 +1102,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Cast into the Fire"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "t2ctekh716gqgwy1s3zp7c4d",
@@ -1101,7 +1111,7 @@ export const decks: Deck[] = [
     "name": "MonoU Faeries",
     "archetype": "MonoU Faeries",
     "pilotName": "soufian hriz",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Brinebarrow Intruder"
@@ -1182,7 +1192,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Hydroblast"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "nk6n8g8fngp3gyw4g7ckom87",
@@ -1190,7 +1201,7 @@ export const decks: Deck[] = [
     "name": "MonoU Faeries",
     "archetype": "MonoU Faeries",
     "pilotName": "Raven de Bruin",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 1,
         "name": "Brinebarrow Intruder"
@@ -1279,7 +1290,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Azure Fleet Admiral"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "tqilfb5alytjmre1acdfh4zy",
@@ -1287,7 +1299,7 @@ export const decks: Deck[] = [
     "name": "MonoU Terror",
     "archetype": "MonoU Terror",
     "pilotName": "Collin Bos",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -1360,7 +1372,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Hydroblast"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "l82nbut1usxjl1vki5ay0xwo",
@@ -1368,7 +1381,7 @@ export const decks: Deck[] = [
     "name": "MonoU Terror",
     "archetype": "MonoU Terror",
     "pilotName": "Iain Ligthart",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -1469,7 +1482,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Murmuring Mystic"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "v24vrs1bqshcukj4wzl40lh7",
@@ -1477,7 +1491,7 @@ export const decks: Deck[] = [
     "name": "Elves",
     "archetype": "Elves",
     "pilotName": "Robbert",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Birchlore Rangers"
@@ -1562,7 +1576,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Wellwisher"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "d11ydgqqr0gpak1kgq8b27zi",
@@ -1570,7 +1585,7 @@ export const decks: Deck[] = [
     "name": "MonoB Sacrifice",
     "archetype": "MonoB Sacrifice",
     "pilotName": "Roberto van den Elzen",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Carrion Feeder"
@@ -1659,7 +1674,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Spinning Darkness"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "pu4nvsb71bbmxgk3yki32hvr",
@@ -1667,7 +1683,7 @@ export const decks: Deck[] = [
     "name": "Altar Tron",
     "archetype": "Altar Tron",
     "pilotName": "Gianvito Taneburgo",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 2,
         "name": "Krark-Clan Shaman"
@@ -1784,7 +1800,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Pactdoll Terror"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "f7dx3mk7plko61bdntqy4uqq",
@@ -1792,7 +1809,7 @@ export const decks: Deck[] = [
     "name": "Flicker Tron",
     "archetype": "Flicker Tron",
     "pilotName": "Noah Westerweel",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 1,
         "name": "Murmuring Mystic"
@@ -1937,7 +1954,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Dinrova Horror"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "cowc4rt27uv7y3rwzv2g2spr",
@@ -1945,7 +1963,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Nicolas Bordenabe",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -2038,7 +2056,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Smash to Smithereens"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "oz4htnz4qn8ruhxle2hp9x8x",
@@ -2046,7 +2065,7 @@ export const decks: Deck[] = [
     "name": "Golgari Gardens",
     "archetype": "Golgari Gardens",
     "pilotName": "Max Roovers",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Shambling Ghast"
@@ -2171,7 +2190,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Okiba-Gang Shinobi"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "ga5ghp90m3lae8ad588od6xk",
@@ -2179,7 +2199,7 @@ export const decks: Deck[] = [
     "name": "Elves",
     "archetype": "Elves",
     "pilotName": "Ben van Wijk",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Birchlore Rangers"
@@ -2268,7 +2288,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Avenging Hunter"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "xc0om9jpyogw0xz2k8yeqe1x",
@@ -2276,7 +2297,7 @@ export const decks: Deck[] = [
     "name": "Azorius Gates",
     "archetype": "Azorius Gates",
     "pilotName": "Jelle Zwaan",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Sacred Cat"
@@ -2373,7 +2394,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Dust to Dust"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "dq6igarmrele8i5242iiqhnh",
@@ -2381,7 +2403,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ponza",
     "archetype": "Gruul Ponza",
     "pilotName": "Tijmen van der Kamp",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -2474,7 +2496,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "h4huny117v6bgz4c2f0zbb15",
@@ -2482,7 +2505,7 @@ export const decks: Deck[] = [
     "name": "MonoB Sacrifice",
     "archetype": "MonoB Sacrifice",
     "pilotName": "Yuri Stevens van Swaay",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Carrion Feeder"
@@ -2587,7 +2610,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Spinning Darkness"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "j4bwyjxonf5ugjhh0eb2m44e",
@@ -2595,7 +2619,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Nicolas Komanski",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -2688,7 +2712,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Smash to Smithereens"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "znsb5n4rqq9pi5srtya25r0u",
@@ -2696,7 +2721,7 @@ export const decks: Deck[] = [
     "name": "Bogles",
     "archetype": "Bogles",
     "pilotName": "Yannic van Heereveld",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Gladecover Scout"
@@ -2781,7 +2806,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Standard Bearer"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "fvzf9t3vo7zu64g47y81a29c",
@@ -2789,7 +2815,7 @@ export const decks: Deck[] = [
     "name": "MonoU Terror",
     "archetype": "MonoU Terror",
     "pilotName": "Rob Nolle",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -2862,7 +2888,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Steel Sabotage"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "m12itu9818z15smr4f2n7whj",
@@ -2870,7 +2897,7 @@ export const decks: Deck[] = [
     "name": "MonoU Faeries",
     "archetype": "MonoU Faeries",
     "pilotName": "Youri Bakker",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Brinebarrow Intruder"
@@ -2955,7 +2982,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Steel Sabotage"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "kin0n4owf5vkew4cywb72b2s",
@@ -2963,7 +2991,7 @@ export const decks: Deck[] = [
     "name": "Izzet Terror",
     "archetype": "Izzet Terror",
     "pilotName": "Clemens Gerteiser",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -3052,7 +3080,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "kqbfzqwjm86w09nysyij6pj8",
@@ -3060,7 +3089,7 @@ export const decks: Deck[] = [
     "name": "MonoU Faeries",
     "archetype": "MonoU Faeries",
     "pilotName": "vinicius duarte",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Faerie Miscreant"
@@ -3145,7 +3174,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Unable to Scream"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "rcjsqo7mjikfqb4aukdryuyi",
@@ -3153,7 +3183,7 @@ export const decks: Deck[] = [
     "name": "Bogles",
     "archetype": "Bogles",
     "pilotName": "Liam Wyatt",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Gladecover Scout"
@@ -3242,7 +3272,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Standard Bearer"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "kebs4dweebmd1k3teo5pyyxb",
@@ -3250,7 +3281,7 @@ export const decks: Deck[] = [
     "name": "Jund Wildfire",
     "archetype": "Jund Wildfire",
     "pilotName": "Davy Baardink",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Krark-Clan Shaman"
@@ -3367,7 +3398,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Last Rites"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "pxlcqe4csgx0b65yzzy3s5ub",
@@ -3375,7 +3407,7 @@ export const decks: Deck[] = [
     "name": "MonoU Terror",
     "archetype": "MonoU Terror",
     "pilotName": "Michael Joseph Purcell",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -3452,7 +3484,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Sleep of the Dead"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "vy9bsilq0ft6qmlfivysbu7s",
@@ -3460,7 +3493,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Dalilla Bezoen",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -3557,7 +3590,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Smash to Smithereens"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "auip3zjyvi92ns5ehw6vvhm0",
@@ -3565,7 +3599,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Francesco Simonetto",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -3662,7 +3696,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Extract a Confession"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "bd0bef4110vxj6oh3dt59b2b",
@@ -3670,7 +3705,7 @@ export const decks: Deck[] = [
     "name": "Bogles",
     "archetype": "Bogles",
     "pilotName": "Abe Mulder",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Gladecover Scout"
@@ -3763,7 +3798,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Standard Bearer"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "jkvtamx6u7m82ybcakv3912l",
@@ -3771,7 +3807,7 @@ export const decks: Deck[] = [
     "name": "MonoU Terror",
     "archetype": "MonoU Terror",
     "pilotName": "Natalie Zuidberg",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Delver of Secrets"
@@ -3860,7 +3896,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Murmuring Mystic"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "tme7b1o46cucdlohicpsxg4c",
@@ -3868,7 +3905,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Koen Zuidberg",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -3969,7 +4006,8 @@ export const decks: Deck[] = [
         "quantity": 2,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "njt5kx2t4mr4efqjchfaaj1a",
@@ -3977,7 +4015,7 @@ export const decks: Deck[] = [
     "name": "Brew",
     "archetype": "Brew",
     "pilotName": "Dylan van Gelder",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Blightbelly Rat"
@@ -4082,7 +4120,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Out Cold"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "z7s3hmza6yi3w6h3yhvl7jlh",
@@ -4090,7 +4129,7 @@ export const decks: Deck[] = [
     "name": "MonoU Faeries",
     "archetype": "MonoU Faeries",
     "pilotName": "Tobias van Kersbergen",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 1,
         "name": "Brinebarrow Intruder"
@@ -4175,7 +4214,8 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Steel Sabotage"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "kriwt0769h2wyvgt75wkm031",
@@ -4183,7 +4223,7 @@ export const decks: Deck[] = [
     "name": "Burn",
     "archetype": "Burn",
     "pilotName": "Hidde van 't Verlaat",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Voldaren Epicure"
@@ -4264,7 +4304,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Guttersnipe"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "k8lc8mep7ic7l5zz3pnmqimx",
@@ -4272,7 +4313,7 @@ export const decks: Deck[] = [
     "name": "MonoB Sacrifice",
     "archetype": "MonoB Sacrifice",
     "pilotName": "Harm steenbakkers",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Carrion Feeder"
@@ -4365,7 +4406,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Spinning Darkness"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "iijrrzpm74cadb62wihexp2r",
@@ -4373,7 +4415,7 @@ export const decks: Deck[] = [
     "name": "Inside Out",
     "archetype": "Inside Out",
     "pilotName": "Toon de Vet",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Tireless Tribe"
@@ -4474,7 +4516,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Murmuring Mystic"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "gkgr4ef9yzdgfh3dya8bmsx3",
@@ -4482,7 +4525,7 @@ export const decks: Deck[] = [
     "name": "Gruul Ramp",
     "archetype": "Gruul Ramp",
     "pilotName": "Mirco Bonati",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Arbor Elf"
@@ -4567,7 +4610,8 @@ export const decks: Deck[] = [
         "quantity": 4,
         "name": "Breath Weapon"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "b11ja66ownw25f8usl02czd7",
@@ -4575,7 +4619,7 @@ export const decks: Deck[] = [
     "name": "Rakdos Burn",
     "archetype": "Rakdos Burn",
     "pilotName": "Wouter Hordijk",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -4684,7 +4728,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Molten Rain"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "vbesf7qjl23nate79qei2sre",
@@ -4692,7 +4737,7 @@ export const decks: Deck[] = [
     "name": "Dimir Faeries",
     "archetype": "Dimir Faeries",
     "pilotName": "Kasper Zijl",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Faerie Seer"
@@ -4809,7 +4854,8 @@ export const decks: Deck[] = [
         "quantity": 1,
         "name": "Mukotai Ambusher"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "fd3wziwvs3g2dhnlted4g6ry",
@@ -4817,7 +4863,7 @@ export const decks: Deck[] = [
     "name": "Poison Storm",
     "archetype": "Poison Storm",
     "pilotName": "Jinja Kinyak",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Everflowing Chalice"
@@ -4910,6 +4956,7 @@ export const decks: Deck[] = [
         "quantity": 3,
         "name": "Serrated Arrows"
       }
-    ]
+    ],
+    "sideboard": []
   }
 ];

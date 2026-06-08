@@ -7,7 +7,7 @@ export const decks: Deck[] = [
     "name": "Elves",
     "archetype": "Elves",
     "pilotName": "Bram Deppenbroek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Birchlore Rangers"
@@ -67,7 +67,9 @@ export const decks: Deck[] = [
       {
         "quantity": 14,
         "name": "Forest"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "Blue Elemental Blast"
@@ -112,7 +114,7 @@ export const decks: Deck[] = [
     "name": "MonoB Sacrifice",
     "archetype": "MonoB Sacrifice",
     "pilotName": "Max Roovers",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Carrion Feeder"
@@ -172,7 +174,9 @@ export const decks: Deck[] = [
       {
         "quantity": 17,
         "name": "Swamp"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 4,
         "name": "Rotten Reunion"
@@ -201,7 +205,7 @@ export const decks: Deck[] = [
     "name": "Unknown Archetype",
     "archetype": "Unknown Archetype",
     "pilotName": "Eef vV",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Clockwork Percussionist"
@@ -257,7 +261,9 @@ export const decks: Deck[] = [
       {
         "quantity": 14,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 4,
         "name": "Pyroblast"
@@ -282,7 +288,7 @@ export const decks: Deck[] = [
     "name": "Orzhov Blade",
     "archetype": "Orzhov Blade",
     "pilotName": "Koen Zuidberg",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Glint Hawk"
@@ -370,7 +376,9 @@ export const decks: Deck[] = [
       {
         "quantity": 4,
         "name": "Vault of Whispers"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 4,
         "name": "Duress"
@@ -403,7 +411,7 @@ export const decks: Deck[] = [
     "name": "MonoB Sacrifice",
     "archetype": "MonoB Sacrifice",
     "pilotName": "Jan Rijnbeek",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Carrion Feeder"
@@ -492,7 +500,8 @@ export const decks: Deck[] = [
         "quantity": 17,
         "name": "Swamp"
       }
-    ]
+    ],
+    "sideboard": []
   },
   {
     "id": "jrmss6icv4xo9ab2ktpggo17",
@@ -500,7 +509,7 @@ export const decks: Deck[] = [
     "name": "Jund Wildfire",
     "archetype": "Jund Wildfire",
     "pilotName": "Collin Bos",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 3,
         "name": "Krark-Clan Shaman"
@@ -576,7 +585,9 @@ export const decks: Deck[] = [
       {
         "quantity": 2,
         "name": "Vault of Whispers"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "Duress"
@@ -621,7 +632,7 @@ export const decks: Deck[] = [
     "name": "Dimir Faeries",
     "archetype": "Dimir Faeries",
     "pilotName": "Raven de Bruin",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Faerie Seer"
@@ -709,7 +720,9 @@ export const decks: Deck[] = [
       {
         "quantity": 1,
         "name": "Swamp"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Annul"
@@ -746,7 +759,7 @@ export const decks: Deck[] = [
     "name": "Boros Tribe",
     "archetype": "Boros Tribe",
     "pilotName": "Stefan Jager",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Tireless Tribe"
@@ -814,7 +827,9 @@ export const decks: Deck[] = [
       {
         "quantity": 7,
         "name": "Snow-Covered Plains"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Loran's Escape"
@@ -847,7 +862,7 @@ export const decks: Deck[] = [
     "name": "Walls",
     "archetype": "Walls",
     "pilotName": "Andrea Passaro",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Quirion Ranger"
@@ -907,7 +922,9 @@ export const decks: Deck[] = [
       {
         "quantity": 1,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 3,
         "name": "Pyroblast"
@@ -940,7 +957,7 @@ export const decks: Deck[] = [
     "name": "MonoR Madness",
     "archetype": "MonoR Madness",
     "pilotName": "Gino De Guzman",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Voldaren Epicure"
@@ -988,7 +1005,9 @@ export const decks: Deck[] = [
       {
         "quantity": 18,
         "name": "Mountain"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "End the Festivities"
@@ -1017,7 +1036,7 @@ export const decks: Deck[] = [
     "name": "White Weenie",
     "archetype": "White Weenie",
     "pilotName": "Thomas Wood",
-    "cards": [
+    "mainDeck": [
       {
         "quantity": 4,
         "name": "Lunarch Veteran"
@@ -1073,7 +1092,9 @@ export const decks: Deck[] = [
       {
         "quantity": 17,
         "name": "Plains"
-      },
+      }
+    ],
+    "sideboard": [
       {
         "quantity": 2,
         "name": "Hallow"
