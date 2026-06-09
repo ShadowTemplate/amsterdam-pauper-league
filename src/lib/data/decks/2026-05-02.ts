@@ -1783,8 +1783,8 @@ export const decks: Deck[] = [
   {
     "id": "fn6wvjtbeyxu16k5v5ima0dc",
     "url": "https://dutchpauperleague.nl/decks/fn6wvjtbeyxu16k5v5ima0dc",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "Gruul Ponza",
+    "archetype": "Gruul Ponza",
     "pilotName": "Noah Westerweel",
     "mainDeck": [
       {
@@ -3071,8 +3071,8 @@ export const decks: Deck[] = [
   {
     "id": "q1jwy38ce4e4avnkfekmjvfh",
     "url": "https://dutchpauperleague.nl/decks/q1jwy38ce4e4avnkfekmjvfh",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "Izzet Terror",
+    "archetype": "Izzet Terror",
     "pilotName": "Eef vV",
     "mainDeck": [
       {
@@ -6395,8 +6395,8 @@ export const decks: Deck[] = [
   {
     "id": "v4tcu661k3szc9bwdgo07epc",
     "url": "https://dutchpauperleague.nl/decks/v4tcu661k3szc9bwdgo07epc",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "Elves",
+    "archetype": "Elves",
     "pilotName": "Lotte Klomp",
     "mainDeck": [
       {
@@ -7561,8 +7561,8 @@ export const decks: Deck[] = [
   {
     "id": "g45i2f0fuenznj4fa4lxfljv",
     "url": "https://dutchpauperleague.nl/decks/g45i2f0fuenznj4fa4lxfljv",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "Brew",
+    "archetype": "Brew",
     "pilotName": "Jeff Wade",
     "mainDeck": [
       {
