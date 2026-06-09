@@ -1321,6 +1321,10 @@ export const decks: Deck[] = [
         "name": "Akroan Skyguard"
       },
       {
+        "quantity": 4,
+        "name": "Skyward Spider"
+      },
+      {
         "quantity": 3,
         "name": "Emerge Unscathed"
       },

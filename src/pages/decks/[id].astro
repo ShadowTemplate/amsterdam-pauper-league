@@ -62,17 +62,11 @@ const totalCards = mainDeckTotal + sideboardTotal;
         <h2 class="text-xl font-semibold mb-4">Main Deck ({mainDeckTotal} cards)</h2>
         <div class="w-full overflow-x-auto">
           <table class="w-full text-sm border-collapse">
-            <thead>
-              <tr>
-                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">Qty</th>
-                <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Card Name</th>
-              </tr>
-            </thead>
             <tbody>
               {deck.mainDeck.map((card) => (
                 <tr class="hover:bg-muted/50">
-                  <td class="py-3 px-4 border-b border-border font-mono font-medium w-12">{card.quantity}</td>
-                  <td class="py-3 px-4 border-b border-border">{card.name}</td>
+                  <td class="py-1 font-mono font-medium w-auto">{card.quantity}</td>
+                  <td>{card.name}</td>
                 </tr>
               ))}
             </tbody>
@@ -86,17 +80,11 @@ const totalCards = mainDeckTotal + sideboardTotal;
           <h2 class="text-xl font-semibold mb-4">Sideboard ({sideboardTotal} cards)</h2>
           <div class="w-full overflow-x-auto">
             <table class="w-full text-sm border-collapse">
-              <thead>
-                <tr>
-                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">Qty</th>
-                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Card Name</th>
-                </tr>
-              </thead>
               <tbody>
                 {deck.sideboard.map((card) => (
                   <tr class="hover:bg-muted/50">
-                    <td class="py-3 px-4 border-b border-border font-mono font-medium w-12">{card.quantity}</td>
-                    <td class="py-3 px-4 border-b border-border">{card.name}</td>
+                    <td class="py-1 font-mono font-medium w-auto">{card.quantity}</td>
+                    <td>{card.name}</td>
                   </tr>
                 ))}
               </tbody>
