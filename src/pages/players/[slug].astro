@@ -102,9 +102,18 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
                       <tr class={r.result === "Win" ? "text-green-600 dark:text-green-400" : r.result === "Loss" ? "text-red-600 dark:text-red-400" : r.result === "Draw" ? "text-yellow-500 dark:text-yellow-400" : ""}>
                         <td class="py-3 px-4 border-b border-border font-mono">{r.round}</td>
                         <td class="py-3 px-4 border-b border-border">
-                          <a href={`/archetypes/${r.opponentDeckSlug}`} class="hover:underline underline-offset-4">
-                            {r.opponentDeck}
-                          </a>
+                          {(() => {
+                            const opponentDeck = findDeckByEventAndPilot(result.eventSlug, r.opponentPilot, r.opponentDeck);
+                            return opponentDeck ? (
+                              <a href={`/decks/${opponentDeck.id}`} class="hover:underline underline-offset-4">
+                                {r.opponentDeck}
+                              </a>
+                            ) : (
+                              <a href={`/archetypes/${r.opponentDeckSlug}`} class="hover:underline underline-offset-4">
+                                {r.opponentDeck}
+                              </a>
+                            );
+                          })()}
                         </td>
                         <td class="py-3 px-4 border-b border-border">
                           {(() => {
