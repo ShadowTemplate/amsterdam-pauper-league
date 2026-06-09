@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { PLAYERS, getPlayerDetail } from "@/lib/mock-data";
+import { findDeckByEventAndPilot } from "@/lib/decks";
 
 export function getStaticPaths() {
   return PLAYERS.map((p) => ({ params: { slug: p.slug } }));
@@ -65,12 +66,24 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
             </h2>
             <p class="text-sm text-muted-foreground mb-3">
               {result.position}th &bull;{" "}
-              <a
-                href={`/archetypes/${result.deckSlug}`}
-                class="hover:underline underline-offset-4 text-muted-foreground"
-              >
-                {result.deck}
-              </a>
+              {(() => {
+                const deck = findDeckByEventAndPilot(result.eventSlug, player.name, result.deck);
+                return deck ? (
+                  <a
+                    href={`/decks/${deck.id}`}
+                    class="hover:underline underline-offset-4 text-muted-foreground"
+                  >
+                    {result.deck}
+                  </a>
+                ) : (
+                  <a
+                    href={`/archetypes/${result.deckSlug}`}
+                    class="hover:underline underline-offset-4 text-muted-foreground"
+                  >
+                    {result.deck}
+                  </a>
+                );
+              })()}
             </p>
             <div class="w-full overflow-x-auto">
               <table class="w-full text-sm border-collapse">
@@ -89,9 +102,18 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
                       <tr class={r.result === "Win" ? "text-green-600 dark:text-green-400" : r.result === "Loss" ? "text-red-600 dark:text-red-400" : r.result === "Draw" ? "text-yellow-500 dark:text-yellow-400" : ""}>
                         <td class="py-3 px-4 border-b border-border font-mono">{r.round}</td>
                         <td class="py-3 px-4 border-b border-border">
-                          <a href={`/archetypes/${r.opponentDeckSlug}`} class="hover:underline underline-offset-4">
-                            {r.opponentDeck}
-                          </a>
+                          {(() => {
+                            const opponentDeck = findDeckByEventAndPilot(result.eventSlug, r.opponentPilot, r.opponentDeck);
+                            return opponentDeck ? (
+                              <a href={`/decks/${opponentDeck.id}`} class="hover:underline underline-offset-4">
+                                {r.opponentDeck}
+                              </a>
+                            ) : (
+                              <a href={`/archetypes/${r.opponentDeckSlug}`} class="hover:underline underline-offset-4">
+                                {r.opponentDeck}
+                              </a>
+                            );
+                          })()}
                         </td>
                         <td class="py-3 px-4 border-b border-border">
                           {(() => {

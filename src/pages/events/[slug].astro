@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import { EVENTS, getEventDetail, getEvent } from "@/lib/mock-data";
 import { formatDate } from "@/lib/utils";
+import { findDeckByEventAndPilot } from "@/lib/decks";
 
 export function getStaticPaths() {
   return EVENTS.map((e) => ({ params: { slug: e.slug } }));
@@ -59,9 +60,18 @@ const title = `${event.name} – Amsterdam Pauper League`;
                     </a>
                   </td>
                   <td class="py-3 px-4 border-b border-border">
-                    <a href={`/archetypes/${s.deckSlug}`} class="hover:underline underline-offset-4 text-foreground">
-                      {s.deck}
-                    </a>
+                    {(() => {
+                      const deck = findDeckByEventAndPilot(slug, s.player, s.deck);
+                      return deck ? (
+                        <a href={`/decks/${deck.id}`} class="hover:underline underline-offset-4 text-foreground">
+                          {s.deck}
+                        </a>
+                      ) : (
+                        <a href={`/archetypes/${s.deckSlug}`} class="hover:underline underline-offset-4 text-foreground">
+                          {s.deck}
+                        </a>
+                      );
+                    })()}
                   </td>
                   <td class="py-3 px-4 border-b border-border font-mono">{s.omwPercentage}</td>
                   <td class="py-3 px-4 border-b border-border font-mono">{s.matchPoints}</td>
