@@ -54,22 +54,15 @@ const title = "Decks – Amsterdam Pauper League";
           </h2>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {decks.map((deck) => {
-              const mainDeckTotal = deck.mainDeck.reduce((sum, c) => sum + c.quantity, 0);
-              const sideboardTotal = deck.sideboard.reduce((sum, c) => sum + c.quantity, 0);
-              return (
+            {decks.map((deck) => (
                 <a
                   href={`/decks/${deck.id}`}
                   class="p-4 rounded border border-border hover:border-primary/50 hover:bg-muted/50 transition"
                 >
                   <div class="font-semibold text-foreground mb-1">{deck.archetype}</div>
                   <div class="text-sm text-muted-foreground">{deck.pilotName}</div>
-                  <div class="text-xs text-muted-foreground mt-2">
-                    {mainDeckTotal} + {sideboardTotal} cards
-                  </div>
                 </a>
-              );
-            })}
+              ))}
           </div>
         </section>
       );

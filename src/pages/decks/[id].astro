@@ -65,7 +65,7 @@ const totalCards = mainDeckTotal + sideboardTotal;
             <tbody>
               {deck.mainDeck.map((card) => (
                 <tr class="hover:bg-muted/50">
-                  <td class="py-1 font-mono font-medium w-auto">{card.quantity}</td>
+                  <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
                   <td>{card.name}</td>
                 </tr>
               ))}
@@ -83,7 +83,7 @@ const totalCards = mainDeckTotal + sideboardTotal;
               <tbody>
                 {deck.sideboard.map((card) => (
                   <tr class="hover:bg-muted/50">
-                    <td class="py-1 font-mono font-medium w-auto">{card.quantity}</td>
+                    <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
                     <td>{card.name}</td>
                   </tr>
                 ))}
