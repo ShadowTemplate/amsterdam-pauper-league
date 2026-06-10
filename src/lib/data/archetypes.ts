@@ -1,71 +1,71 @@
 import type { Archetype, ArchetypeDetail } from "@/types";
 
 export const ARCHETYPES: Archetype[] = [
-  { slug: "rakdos-burn", name: "Rakdos Burn", count: 75, percentage: "6.74%" },
-  { slug: "mono-u-terror", name: "MonoU Terror", count: 70, percentage: "6.29%" },
-  { slug: "brew", name: "Brew", count: 68, percentage: "6.12%" },
-  { slug: "affinity", name: "Affinity", count: 55, percentage: "4.95%" },
-  { slug: "mono-u-faeries", name: "MonoU Faeries", count: 52, percentage: "4.68%" },
-  { slug: "jund-wildfire", name: "Jund Wildfire", count: 48, percentage: "4.32%" },
-  { slug: "gruul-ponza", name: "Gruul Ponza", count: 44, percentage: "3.96%" },
-  { slug: "burn", name: "Burn", count: 43, percentage: "3.87%" },
-  { slug: "elves", name: "Elves", count: 41, percentage: "3.69%" },
-  { slug: "dimir-faeries", name: "Dimir Faeries", count: 35, percentage: "3.15%" },
-  { slug: "mono-r-madness", name: "MonoR Madness", count: 33, percentage: "2.97%" },
-  { slug: "azorius-gates", name: "Azorius Gates", count: 32, percentage: "2.88%" },
-  { slug: "mono-b-sacrifice", name: "MonoB Sacrifice", count: 31, percentage: "2.79%" },
-  { slug: "familiars", name: "Familiars", count: 29, percentage: "2.61%" },
-  { slug: "mono-r-kuldotha", name: "MonoR Kuldotha", count: 28, percentage: "2.52%" },
-  { slug: "flicker-tron", name: "Flicker Tron", count: 24, percentage: "2.16%" },
-  { slug: "bogles", name: "Bogles", count: 24, percentage: "2.16%" },
-  { slug: "gruul-ramp", name: "Gruul Ramp", count: 23, percentage: "2.07%" },
-  { slug: "walls", name: "Walls", count: 21, percentage: "1.89%" },
-  { slug: "jeskai-ephemerate", name: "Jeskai Ephemerate", count: 20, percentage: "1.80%" },
-  { slug: "white-weenie", name: "White Weenie", count: 19, percentage: "1.71%" },
-  { slug: "izzet-terror", name: "Izzet Terror", count: 18, percentage: "1.62%" },
-  { slug: "golgari-gardens", name: "Golgari Gardens", count: 17, percentage: "1.53%" },
-  { slug: "golgari-dredge", name: "Golgari Dredge", count: 16, percentage: "1.44%" },
-  { slug: "one-land-spy", name: "One Land Spy", count: 16, percentage: "1.44%" },
-  { slug: "dimir-terror", name: "Dimir Terror", count: 15, percentage: "1.35%" },
-  { slug: "altar-tron", name: "Altar Tron", count: 14, percentage: "1.26%" },
-  { slug: "moggwarts", name: "Moggwarts", count: 12, percentage: "1.08%" },
-  { slug: "boros-synth", name: "Boros Synth", count: 11, percentage: "0.99%" },
-  { slug: "spy-walls", name: "Spy Walls", count: 10, percentage: "0.90%" },
-  { slug: "mardu-synth", name: "Mardu Synth", count: 10, percentage: "0.90%" },
-  { slug: "cycling-storm", name: "Cycling Storm", count: 9, percentage: "0.81%" },
-  { slug: "mono-u-high-tide", name: "MonoU High Tide", count: 9, percentage: "0.81%" },
-  { slug: "jund-gleezard", name: "Jund Gleezard", count: 9, percentage: "0.81%" },
-  { slug: "boros-glitters", name: "Boros Glitters", count: 8, percentage: "0.72%" },
-  { slug: "boros-bully", name: "Boros Bully", count: 7, percentage: "0.63%" },
-  { slug: "orzhov-blade", name: "Orzhov Blade", count: 7, percentage: "0.63%" },
-  { slug: "esper-blade", name: "Esper Blade", count: 7, percentage: "0.63%" },
-  { slug: "monster-tron", name: "Monster Tron", count: 6, percentage: "0.54%" },
-  { slug: "mono-r-rally", name: "MonoR Rally", count: 6, percentage: "0.54%" },
-  { slug: "poison-storm", name: "Poison Storm", count: 6, percentage: "0.54%" },
-  { slug: "azorius-glitters", name: "Azorius Glitters", count: 6, percentage: "0.54%" },
-  { slug: "mono-w-heroic", name: "MonoW Heroic", count: 5, percentage: "0.45%" },
-  { slug: "fangren-tron", name: "Fangren Tron", count: 5, percentage: "0.45%" },
-  { slug: "golgari-gleezard", name: "Golgari Gleezard", count: 4, percentage: "0.36%" },
-  { slug: "jeskai-glitters", name: "Jeskai Glitters", count: 4, percentage: "0.36%" },
-  { slug: "eldrazi-spawn", name: "Eldrazi Spawn", count: 3, percentage: "0.27%" },
-  { slug: "goblins", name: "Goblins", count: 3, percentage: "0.27%" },
-  { slug: "brew-golgari", name: "Brew Golgari", count: 3, percentage: "0.27%" },
-  { slug: "slivers", name: "Slivers", count: 3, percentage: "0.27%" },
-  { slug: "turbofog", name: "Turbofog", count: 3, percentage: "0.27%" },
-  { slug: "inside-out", name: "Inside Out", count: 3, percentage: "0.27%" },
-  { slug: "mono-r-tron", name: "MonoR Tron", count: 3, percentage: "0.27%" },
-  { slug: "temur-ponza", name: "Temur Ponza", count: 3, percentage: "0.27%" },
-  { slug: "boros-tribe", name: "Boros Tribe", count: 2, percentage: "0.18%" },
-  { slug: "mono-r-blitz", name: "MonoR Blitz", count: 2, percentage: "0.18%" },
-  { slug: "selesnya-gates", name: "Selesnya Gates", count: 2, percentage: "0.18%" },
-  { slug: "esper-affinity", name: "Esper Affinity", count: 2, percentage: "0.18%" },
-  { slug: "petitioners-mill", name: "Petitioners Mill", count: 2, percentage: "0.18%" },
-  { slug: "ruby-storm", name: "Ruby Storm", count: 2, percentage: "0.18%" },
-  { slug: "mono-r-dredge", name: "MonoR Dredge", count: 2, percentage: "0.18%" },
-  { slug: "infect", name: "Infect", count: 2, percentage: "0.18%" },
-  { slug: "jund-cascade", name: "Jund Cascade", count: 2, percentage: "0.18%" },
-  { slug: "stompy", name: "Stompy", count: 2, percentage: "0.18%" },
-  { slug: "jund-gardens", name: "Jund Gardens", count: 2, percentage: "0.18%" },
+  { slug: "rakdos-burn", name: "Rakdos Burn", count: 76, percentage: "6.51%" },
+  { slug: "mono-u-terror", name: "MonoU Terror", count: 70, percentage: "5.99%" },
+  { slug: "brew", name: "Brew", count: 68, percentage: "5.82%" },
+  { slug: "affinity", name: "Affinity", count: 60, percentage: "5.14%" },
+  { slug: "mono-u-faeries", name: "MonoU Faeries", count: 52, percentage: "4.45%" },
+  { slug: "jund-wildfire", name: "Jund Wildfire", count: 54, percentage: "4.62%" },
+  { slug: "gruul-ponza", name: "Gruul Ponza", count: 44, percentage: "3.77%" },
+  { slug: "burn", name: "Burn", count: 44, percentage: "3.77%" },
+  { slug: "elves", name: "Elves", count: 42, percentage: "3.60%" },
+  { slug: "dimir-faeries", name: "Dimir Faeries", count: 39, percentage: "3.34%" },
+  { slug: "mono-r-madness", name: "MonoR Madness", count: 33, percentage: "2.83%" },
+  { slug: "azorius-gates", name: "Azorius Gates", count: 33, percentage: "2.83%" },
+  { slug: "mono-b-sacrifice", name: "MonoB Sacrifice", count: 31, percentage: "2.65%" },
+  { slug: "familiars", name: "Familiars", count: 29, percentage: "2.48%" },
+  { slug: "mono-r-kuldotha", name: "MonoR Kuldotha", count: 28, percentage: "2.40%" },
+  { slug: "flicker-tron", name: "Flicker Tron", count: 26, percentage: "2.23%" },
+  { slug: "bogles", name: "Bogles", count: 24, percentage: "2.05%" },
+  { slug: "gruul-ramp", name: "Gruul Ramp", count: 24, percentage: "2.05%" },
+  { slug: "walls", name: "Walls", count: 21, percentage: "1.80%" },
+  { slug: "jeskai-ephemerate", name: "Jeskai Ephemerate", count: 21, percentage: "1.80%" },
+  { slug: "white-weenie", name: "White Weenie", count: 22, percentage: "1.88%" },
+  { slug: "izzet-terror", name: "Izzet Terror", count: 18, percentage: "1.54%" },
+  { slug: "golgari-gardens", name: "Golgari Gardens", count: 19, percentage: "1.63%" },
+  { slug: "golgari-dredge", name: "Golgari Dredge", count: 17, percentage: "1.46%" },
+  { slug: "one-land-spy", name: "One Land Spy", count: 16, percentage: "1.37%" },
+  { slug: "dimir-terror", name: "Dimir Terror", count: 15, percentage: "1.28%" },
+  { slug: "altar-tron", name: "Altar Tron", count: 14, percentage: "1.20%" },
+  { slug: "moggwarts", name: "Moggwarts", count: 12, percentage: "1.03%" },
+  { slug: "boros-synth", name: "Boros Synth", count: 13, percentage: "1.11%" },
+  { slug: "spy-walls", name: "Spy Walls", count: 14, percentage: "1.20%" },
+  { slug: "mardu-synth", name: "Mardu Synth", count: 10, percentage: "0.86%" },
+  { slug: "cycling-storm", name: "Cycling Storm", count: 10, percentage: "0.86%" },
+  { slug: "mono-u-high-tide", name: "MonoU High Tide", count: 9, percentage: "0.77%" },
+  { slug: "jund-gleezard", name: "Jund Gleezard", count: 9, percentage: "0.77%" },
+  { slug: "boros-glitters", name: "Boros Glitters", count: 8, percentage: "0.68%" },
+  { slug: "boros-bully", name: "Boros Bully", count: 7, percentage: "0.60%" },
+  { slug: "orzhov-blade", name: "Orzhov Blade", count: 9, percentage: "0.77%" },
+  { slug: "esper-blade", name: "Esper Blade", count: 7, percentage: "0.60%" },
+  { slug: "monster-tron", name: "Monster Tron", count: 7, percentage: "0.60%" },
+  { slug: "mono-r-rally", name: "MonoR Rally", count: 6, percentage: "0.51%" },
+  { slug: "poison-storm", name: "Poison Storm", count: 6, percentage: "0.51%" },
+  { slug: "azorius-glitters", name: "Azorius Glitters", count: 6, percentage: "0.51%" },
+  { slug: "mono-w-heroic", name: "MonoW Heroic", count: 5, percentage: "0.43%" },
+  { slug: "fangren-tron", name: "Fangren Tron", count: 5, percentage: "0.43%" },
+  { slug: "golgari-gleezard", name: "Golgari Gleezard", count: 4, percentage: "0.34%" },
+  { slug: "jeskai-glitters", name: "Jeskai Glitters", count: 4, percentage: "0.34%" },
+  { slug: "eldrazi-spawn", name: "Eldrazi Spawn", count: 3, percentage: "0.26%" },
+  { slug: "goblins", name: "Goblins", count: 3, percentage: "0.26%" },
+  { slug: "brew-golgari", name: "Brew Golgari", count: 3, percentage: "0.26%" },
+  { slug: "slivers", name: "Slivers", count: 3, percentage: "0.26%" },
+  { slug: "turbofog", name: "Turbofog", count: 4, percentage: "0.34%" },
+  { slug: "inside-out", name: "Inside Out", count: 3, percentage: "0.26%" },
+  { slug: "mono-r-tron", name: "MonoR Tron", count: 3, percentage: "0.26%" },
+  { slug: "temur-ponza", name: "Temur Ponza", count: 3, percentage: "0.26%" },
+  { slug: "boros-tribe", name: "Boros Tribe", count: 4, percentage: "0.34%" },
+  { slug: "mono-r-blitz", name: "MonoR Blitz", count: 2, percentage: "0.17%" },
+  { slug: "selesnya-gates", name: "Selesnya Gates", count: 3, percentage: "0.26%" },
+  { slug: "esper-affinity", name: "Esper Affinity", count: 2, percentage: "0.17%" },
+  { slug: "petitioners-mill", name: "Petitioners Mill", count: 2, percentage: "0.17%" },
+  { slug: "ruby-storm", name: "Ruby Storm", count: 5, percentage: "0.43%" },
+  { slug: "mono-r-dredge", name: "MonoR Dredge", count: 2, percentage: "0.17%" },
+  { slug: "infect", name: "Infect", count: 2, percentage: "0.17%" },
+  { slug: "jund-cascade", name: "Jund Cascade", count: 2, percentage: "0.17%" },
+  { slug: "stompy", name: "Stompy", count: 2, percentage: "0.17%" },
+  { slug: "jund-gardens", name: "Jund Gardens", count: 2, percentage: "0.17%" },
   { slug: "rakdos-ally", name: "Rakdos Ally", count: 1, percentage: "0.09%" },
   { slug: "boros-moxite", name: "Boros Moxite", count: 1, percentage: "0.09%" },
   { slug: "dimir-control", name: "Dimir Control", count: 1, percentage: "0.09%" },
@@ -74,7 +74,7 @@ export const ARCHETYPES: Archetype[] = [
   { slug: "naya-gates", name: "Naya Gates", count: 1, percentage: "0.09%" },
   { slug: "mono-b-ponza", name: "MonoB Ponza", count: 1, percentage: "0.09%" },
   { slug: "golgari-tort-ex", name: "Golgari TortEx", count: 1, percentage: "0.09%" },
-  { slug: "naya-turbo-emblem", name: "Naya Turbo Emblem", count: 1, percentage: "0.09%" }
+  { slug: "naya-turbo-emblem", name: "Naya Turbo Emblem", count: 1, percentage: "0.09%" },
 ];
 
 export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
@@ -84,6 +84,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 55,
     percentage: "4.97%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 21, pilot: "Aartos Locos", pilotSlug: "aartos-locos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 34, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen-van-der-kamp", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 35, pilot: "Liam Wyatt", pilotSlug: "liam-wyatt", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 43, pilot: "Marco Giocondo Mignone", pilotSlug: "marco-giocondo-mignone", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 45, pilot: "Vitaly Svetlov", pilotSlug: "vitaly-svetlov", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -361,6 +372,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 32,
     percentage: "2.89%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 29, pilot: "Michael Joseph Purcell", pilotSlug: "michael-joseph-purcell", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -734,6 +752,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.99%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 24, pilot: "Noah Westerweel", pilotSlug: "noah-westerweel", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 31, pilot: "Tobias van Kersbergen", pilotSlug: "tobias-van-kersbergen", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -788,6 +814,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 2,
     percentage: "0.18%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 51, pilot: "Alexander Hamilton", pilotSlug: "alexander-hamilton", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 55, pilot: "Toon de Vet", pilotSlug: "toon-de-vet", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -1016,6 +1050,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "3.88%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 19, pilot: "Rob Lamers", pilotSlug: "rob-lamers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -1139,6 +1180,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.81%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 10, pilot: "Tim Laros", pilotSlug: "tim-laros", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -1217,6 +1265,16 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 35,
     percentage: "3.16%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 16, pilot: "vinicius duarte", pilotSlug: "vinicius-duarte", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 22, pilot: "Rob Vermaas", pilotSlug: "rob-vermaas", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 26, pilot: "Jamie March", pilotSlug: "jamie-march", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 60, pilot: "Raven de Bruin", pilotSlug: "raven-de-bruin", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -1455,6 +1513,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 41,
     percentage: "3.70%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 9, pilot: "Simon Isphording", pilotSlug: "simon-isphording", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -1843,6 +1908,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.17%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 33, pilot: "Raymond Anderson", pilotSlug: "raymond-anderson", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 52, pilot: "Jinja Kinyak", pilotSlug: "jinja-kinyak", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
@@ -1994,6 +2067,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.45%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 39, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas-jan-gorter", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -2075,6 +2155,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 17,
     percentage: "1.54%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 36, pilot: "Thomas Wood", pilotSlug: "thomas-wood", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 59, pilot: "Mirco Bonati", pilotSlug: "mirco-bonati", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -2366,6 +2454,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.08%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 7, pilot: "Jelle Schneider", pilotSlug: "jelle-schneider", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -2606,6 +2701,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.81%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 61, pilot: "Lucas Feliciano", pilotSlug: "lucas-feliciano", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -2826,6 +2928,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 48,
     percentage: "4.34%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 6, pilot: "Jan Rijnbeek", pilotSlug: "jan-rijnbeek", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 25, pilot: "Tom de Ruiter", pilotSlug: "tom-de-ruiter", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 28, pilot: "Matteo Bellante", pilotSlug: "matteo-bellante", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 38, pilot: "Collin Bos", pilotSlug: "collin-bos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 41, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel-blazquez", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 44, pilot: "Giacco", pilotSlug: "giacco", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -3936,6 +4050,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.54%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 15, pilot: "Stefan van der List", pilotSlug: "stefan-van-der-list", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -4057,6 +4178,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 7,
     percentage: "0.63%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 27, pilot: "Ramon Facchin", pilotSlug: "ramon-facchin", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 47, pilot: "Nicola Gnasso", pilotSlug: "nicola-gnasso", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2025-04-12",
         eventName: "Dutch Pauper League – 1° Leg – 2025",
@@ -4194,6 +4323,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 75,
     percentage: "6.78%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 54, pilot: "Javier Carrillo Delgado", pilotSlug: "javier-carrillo-delgado", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
@@ -4397,6 +4533,15 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.18%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 3, pilot: "Floris Stapel", pilotSlug: "floris-stapel", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 11, pilot: "Thijs Deckers", pilotSlug: "thijs-deckers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 42, pilot: "Max Roovers", pilotSlug: "max-roovers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
@@ -4418,6 +4563,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 2,
     percentage: "0.18%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 32, pilot: "Jelle Zwaan", pilotSlug: "jelle-zwaan", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -4463,6 +4615,16 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 10,
     percentage: "0.90%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 2, pilot: "Leonardo Paternotte", pilotSlug: "leonardo-paternotte", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 5, pilot: "Ettore Cerracchio", pilotSlug: "ettore-cerracchio", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 12, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito-taneburgo", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 37, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas-bordenabe", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -4548,6 +4710,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 3,
     percentage: "0.27%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 23, pilot: "Stefan Vlijm", pilotSlug: "stefan-vlijm", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2025-08-02",
         eventName: "Dutch Pauper League – 5° Leg – 2025",
@@ -4694,6 +4863,15 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 19,
     percentage: "1.72%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 8, pilot: "Roberto van den Elzen", pilotSlug: "roberto-van-den-elzen", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 20, pilot: "Fernando Tong", pilotSlug: "fernando-tong", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 48, pilot: "Jeff Wade", pilotSlug: "jeff-wade", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
