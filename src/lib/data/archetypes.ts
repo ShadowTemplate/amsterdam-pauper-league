@@ -84,6 +84,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 55,
     percentage: "4.97%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 21, pilot: "Aartos Locos", pilotSlug: "aartos-locos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 34, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen-van-der-kamp", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 35, pilot: "Liam Wyatt", pilotSlug: "liam-wyatt", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 43, pilot: "Marco Giocondo Mignone", pilotSlug: "marco-giocondo-mignone", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 45, pilot: "Vitaly Svetlov", pilotSlug: "vitaly-svetlov", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -372,6 +383,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 32,
     percentage: "2.89%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 29, pilot: "Michael Joseph Purcell", pilotSlug: "michael-joseph-purcell", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -837,6 +855,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 68,
     percentage: "6.14%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 49, pilot: "Lotte Klomp", pilotSlug: "lotte-klomp", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 53, pilot: "Arne Klarenberg", pilotSlug: "arne-klarenberg", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
@@ -1049,6 +1075,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 43,
     percentage: "3.88%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 19, pilot: "Rob Lamers", pilotSlug: "rob-lamers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -1265,6 +1298,16 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 35,
     percentage: "3.16%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 16, pilot: "vinicius duarte", pilotSlug: "vinicius-duarte", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 22, pilot: "Rob Vermaas", pilotSlug: "rob-vermaas", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 26, pilot: "Jamie March", pilotSlug: "jamie-march", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 60, pilot: "Raven de Bruin", pilotSlug: "raven-de-bruin", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -1513,6 +1556,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 41,
     percentage: "3.70%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 9, pilot: "Simon Isphording", pilotSlug: "simon-isphording", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -2928,6 +2978,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 48,
     percentage: "4.34%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 6, pilot: "Jan Rijnbeek", pilotSlug: "jan-rijnbeek", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 25, pilot: "Tom de Ruiter", pilotSlug: "tom-de-ruiter", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 28, pilot: "Matteo Bellante", pilotSlug: "matteo-bellante", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 38, pilot: "Collin Bos", pilotSlug: "collin-bos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 41, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel-blazquez", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 44, pilot: "Giacco", pilotSlug: "giacco", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -3232,6 +3294,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.80%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 17, pilot: "Wouter Hordijk", pilotSlug: "wouter-hordijk", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 57, pilot: "Tim Swillens", pilotSlug: "tim-swillens", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -3490,6 +3560,15 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.98%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 14, pilot: "Nicolas Komanski", pilotSlug: "nicolas-komanski", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 46, pilot: "Francesco Simonetto", pilotSlug: "francesco-simonetto", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 50, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -3553,6 +3632,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.54%",
     byEvent: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 1, pilot: "Eef vV", pilotSlug: "eef-v-v", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 4, pilot: "Floris Heins", pilotSlug: "floris-heins", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
@@ -3606,6 +3693,15 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 52,
     percentage: "4.70%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 13, pilot: "Dylan Holly", pilotSlug: "dylan-holly", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 40, pilot: "Johan Boesveld", pilotSlug: "johan-boesveld", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 58, pilot: "Marvin Schippmann", pilotSlug: "marvin-schippmann", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -3815,6 +3911,15 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 70,
     percentage: "6.32%",
     byEvent: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        appearances: [
+          { position: 18, pilot: "Blom Bezemer", pilotSlug: "blom-bezemer", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 30, pilot: "Dylan van Gelder", pilotSlug: "dylan-van-gelder", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 56, pilot: "Iain Ligthart", pilotSlug: "iain-ligthart", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -4323,6 +4428,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     count: 75,
     percentage: "6.78%",
     byEvent: [
+        {
+          eventSlug: "2026-06-06",
+          eventName: "Dutch Pauper League – 3° Leg – 2026",
+          appearances: [
+            { position: 54, pilot: "Javier Carrillo Delgado", pilotSlug: "javier-carrillo-delgado", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" }
+          ],
+        },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
