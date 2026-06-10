@@ -7455,6 +7455,21 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 3, losses: 36, draws: 0, byes: 4 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 52,
+        deck: "Flicker Tron",
+        deckSlug: "flicker-tron",
+        rounds: [
+          { round: 6, opponentDeck: "Boros Tribe", opponentDeckSlug: "boros-tribe", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander-hamilton", result: "Draw" },
+          { round: 5, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai-ephemerate", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas-feliciano", result: "Win" },
+          { round: 4, opponentDeck: "Boros Tribe", opponentDeckSlug: "boros-tribe", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon-de-vet", result: "Loss" },
+          { round: 3, opponentDeck: "Boros Synth", opponentDeckSlug: "boros-synth", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias-van-kersbergen", result: "Loss" },
+          { round: 2, opponentDeck: "MonoU Terror", opponentDeckSlug: "monou-terror", opponentPilot: "Blom Bezemer", opponentPilotSlug: "blom-bezemer", result: "Loss" },
+          { round: 1, opponentDeck: "Turbofog", opponentDeckSlug: "turbofog", opponentPilot: "Stefan Vlijm", opponentPilotSlug: "stefan-vlijm", result: "Draw" }
+        ],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 62,
@@ -7468,21 +7483,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 3, opponentDeck: "MonoW Heroic", opponentDeckSlug: "mono-w-heroic", opponentPilot: "Max Roovers", opponentPilotSlug: "max-roovers", result: "Loss" },
           { round: 2, opponentDeck: "Spy Walls", opponentDeckSlug: "spy-walls", opponentPilot: "Collin Bos", opponentPilotSlug: "collin-bos", result: "Loss" },
           { round: 1, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir-faeries", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim-bunnik", result: "Loss" }
-        ],
-      },
-      {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
-        position: 52,
-        deck: "Flicker Tron",
-        deckSlug: "flicker-tron",
-        rounds: [
-          { round: 6, opponentDeck: "Boros Tribe", opponentDeckSlug: "boros-tribe", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander-hamilton", result: "Draw" },
-          { round: 5, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai-ephemerate", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas-feliciano", result: "Win" },
-          { round: 4, opponentDeck: "Boros Tribe", opponentDeckSlug: "boros-tribe", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon-de-vet", result: "Loss" },
-          { round: 3, opponentDeck: "Boros Synth", opponentDeckSlug: "boros-synth", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias-van-kersbergen", result: "Loss" },
-          { round: 2, opponentDeck: "MonoU Terror", opponentDeckSlug: "monou-terror", opponentPilot: "Blom Bezemer", opponentPilotSlug: "blom-bezemer", result: "Loss" },
-          { round: 1, opponentDeck: "Turbofog", opponentDeckSlug: "turbofog", opponentPilot: "Stefan Vlijm", opponentPilotSlug: "stefan-vlijm", result: "Draw" }
         ],
       },
       {
