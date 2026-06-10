@@ -1,7 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { getDeck, getStaticDeckPaths } from "@/lib/decks";
-import { getEvent } from "@/lib/mock-data";
+import { PLAYERS, getEvent } from "@/lib/mock-data";
 import { formatDate } from "@/lib/utils";
 
 export function getStaticPaths() {
@@ -16,6 +16,7 @@ if (!deck) {
 }
 
 const event = getEvent(deck.eventSlug);
+const player = PLAYERS.find((p) => p.name.toLowerCase() === deck.pilotName.toLowerCase());
 const title = `${deck.archetype} by ${deck.pilotName} – Amsterdam Pauper League`;
 
 const mainDeckTotal = deck.mainDeck.reduce((sum, card) => sum + card.quantity, 0);
@@ -46,7 +47,15 @@ const totalCards = mainDeckTotal + sideboardTotal;
     <div class="mb-8">
       <h1 class="text-3xl font-bold mb-2">{deck.archetype}</h1>
       <p class="text-muted-foreground mb-4">
-        Piloted by <span class="text-foreground font-semibold">{deck.pilotName}</span>
+        Piloted by {
+          player ? (
+            <a href={`/players/${player.slug}`} class="text-foreground font-semibold hover:underline underline-offset-4">
+              {deck.pilotName}
+            </a>
+          ) : (
+            <span class="text-foreground font-semibold">{deck.pilotName}</span>
+          )
+        }
       </p>
       {event && (
         <p class="text-sm text-muted-foreground mb-4">

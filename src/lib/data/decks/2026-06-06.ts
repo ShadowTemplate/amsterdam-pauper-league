@@ -4,8 +4,8 @@ export const decks: Deck[] = [
   {
     "id": "rnnnu7dwzsbn1q0thhmvn1ma",
     "url": "https://dutchpauperleague.nl/decks/rnnnu7dwzsbn1q0thhmvn1ma",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "MonoR Rally",
+    "archetype": "MonoR Rally",
     "pilotName": "Eef vV",
     "mainDeck": [
       {
@@ -5308,8 +5308,8 @@ export const decks: Deck[] = [
   {
     "id": "sf8bo34qb99bycx5b9yaowys",
     "url": "https://dutchpauperleague.nl/decks/sf8bo34qb99bycx5b9yaowys",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "Brew",
+    "archetype": "Brew",
     "pilotName": "Lotte Klomp",
     "mainDeck": [
       {
@@ -5764,8 +5764,8 @@ export const decks: Deck[] = [
   {
     "id": "gmlyxmy9opolkyea5am8mjrw",
     "url": "https://dutchpauperleague.nl/decks/gmlyxmy9opolkyea5am8mjrw",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "Brew",
+    "archetype": "Brew",
     "pilotName": "Arne Klarenberg",
     "mainDeck": [
       {

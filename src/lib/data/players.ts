@@ -6,6 +6,7 @@ export const PLAYERS: Player[] = [
   { slug: "abe-mulder", name: "Abe Mulder" },
   { slug: "alessio-viali", name: "Alessio Viali" },
   { slug: "alexander-boon", name: "Alexander Boon" },
+  { slug: "alexander-hamilton", name: "Alexander Hamilton" },
   { slug: "andrea-passaro", name: "Andrea Passaro" },
   { slug: "andrey-petukhov", name: "Andrey Petukhov" },
   { slug: "annemarije-boersma", name: "Annemarije Boersma" },
@@ -90,6 +91,7 @@ export const PLAYERS: Player[] = [
   { slug: "jamie-march", name: "Jamie March" },
   { slug: "jan-rijnbeek", name: "Jan Rijnbeek" },
   { slug: "jari-van-schaik", name: "Jari Van Schaik" },
+  { slug: "javier-carrillo-delgado", name: "Javier Carrillo Delgado" },
   { slug: "jarno-polhuijs", name: "jarno polhuijs" },
   { slug: "jaron-polhuijs", name: "Jaron Polhuijs" },
   { slug: "jasper-jonkman", name: "Jasper jonkman" },
@@ -648,6 +650,21 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 2, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Marcel Hogewoning", opponentPilotSlug: "marcel-hogewoning", result: "Win" },
           { round: 1, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Ivan Kors", opponentPilotSlug: "ivan-kors", result: "Win" }
         ],
+      }
+    ],
+  },
+  "alexander-hamilton": {
+    slug: "alexander-hamilton",
+    name: "Alexander Hamilton",
+    stats: { wins: 0, losses: 0, draws: 0, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 0,
+        deck: "Boros Tribe",
+        deckSlug: "iv97cvgu2jtxj7zvyyn4fx1e",
+        rounds: [],
       }
     ],
   },
@@ -6493,6 +6510,21 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       }
     ],
   },
+  "javier-carrillo-delgado": {
+    slug: "javier-carrillo-delgado",
+    name: "Javier Carrillo Delgado",
+    stats: { wins: 0, losses: 0, draws: 0, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 0,
+        deck: "Rakdos Burn",
+        deckSlug: "kek5847cx0a551oxnhdnck5k",
+        rounds: [],
+      }
+    ],
+  },
   "jarno-polhuijs": {
     slug: "jarno-polhuijs",
     name: "jarno polhuijs",
@@ -7248,6 +7280,21 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 2, opponentDeck: "Monster Tron", opponentDeckSlug: "monster-tron", opponentPilot: "Thomas Tates", opponentPilotSlug: "thomas-tates", result: "Draw" },
           { round: 1, opponentDeck: "Boros Synth", opponentDeckSlug: "boros-synth", opponentPilot: "IJsbrand", opponentPilotSlug: "ijsbrand", result: "Draw" }
         ],
+      }
+    ],
+  },
+  "johannes-theiß": {
+    slug: "johannes-theiß",
+    name: "Johannes Theiß",
+    stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
+        position: 84,
+        deck: "Dimir Terror",
+        deckSlug: "i42uxy1vu88yv594a4ccbln4",
+        rounds: [],
       }
     ],
   },

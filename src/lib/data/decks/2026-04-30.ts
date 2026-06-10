@@ -202,8 +202,8 @@ export const decks: Deck[] = [
   {
     "id": "vt0hamayvwwx1xf0tol9sxl6",
     "url": "https://dutchpauperleague.nl/decks/vt0hamayvwwx1xf0tol9sxl6",
-    "name": "Unknown Archetype",
-    "archetype": "Unknown Archetype",
+    "name": "MonoR Rally",
+    "archetype": "MonoR Rally",
     "pilotName": "Eef vV",
     "mainDeck": [
       {
