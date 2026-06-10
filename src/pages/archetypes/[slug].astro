@@ -62,8 +62,8 @@ const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanc
               <thead>
                 <tr>
                   <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">#</th>
-                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Pilot</th>
-                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">Deck</th>
+                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 flex-1 min-w-48">Pilot</th>
+                  <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-40">Deck</th>
                 </tr>
               </thead>
               <tbody>
@@ -71,8 +71,8 @@ const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanc
                   const deck = decks.find(d => d.eventSlug === group.eventSlug && d.pilotName === a.pilot);
                   return (
                     <tr class="hover:bg-muted/50">
-                      <td class="py-3 px-4 border-b border-border font-mono">{a.position}</td>
-                      <td class="py-3 px-4 border-b border-border">
+                      <td class="py-3 px-4 border-b border-border font-mono w-12">{a.position}</td>
+                      <td class="py-3 px-4 border-b border-border flex-1 min-w-48">
                         <a
                           href={`/players/${a.pilotSlug}`}
                           class="hover:underline underline-offset-4 text-foreground"
@@ -80,7 +80,7 @@ const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanc
                           {a.pilot}
                         </a>
                       </td>
-                      <td class="py-3 px-4 border-b border-border">
+                      <td class="py-3 px-4 border-b border-border w-40">
                         {deck ? (
                           <a
                             href={`/decks/${deck.id}`}
