@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import { PLAYERS, getPlayerDetail } from "@/lib/mock-data";
 import { findDeckByEventAndPilot } from "@/lib/decks";
+import { formatDate } from "@/lib/utils";
 
 export function getStaticPaths() {
   return PLAYERS.map((p) => ({ params: { slug: p.slug } }));
@@ -65,6 +66,7 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
               </a>
             </h2>
             <p class="text-sm text-muted-foreground mb-3">
+              {formatDate(result.eventSlug)} &bull;{" "}
               {result.position}th &bull;{" "}
               {(() => {
                 const deck = findDeckByEventAndPilot(result.eventSlug, player.name, result.deck);
