@@ -289,6 +289,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 21,
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 53,
@@ -661,6 +669,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 51,
+        deck: "Boros Tribe",
+        deckSlug: "boros-tribe",
+        rounds: [],
+      },
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         position: 0,
         deck: "Boros Tribe",
         deckSlug: "iv97cvgu2jtxj7zvyyn4fx1e",
@@ -852,6 +868,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Arne Klarenberg",
     stats: { wins: 7, losses: 27, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 53,
+        deck: "Unknown Archetype",
+        deckSlug: "unknown-archetype",
+        rounds: [],
+      },
       {
         eventSlug: "2025-08-02",
         eventName: "Dutch Pauper League – 5° Leg – 2025",
@@ -1445,6 +1469,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Blom Bezemer",
     stats: { wins: 3, losses: 9, draws: 0, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 18,
+        deck: "MonoU Terror",
+        deckSlug: "monou-terror",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -2076,6 +2108,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 14, losses: 17, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 38,
+        deck: "Jund Wildfire",
+        deckSlug: "jund-wildfire",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 46,
@@ -2656,6 +2696,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 25, losses: 22, draws: 2, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 13,
+        deck: "MonoU Faeries",
+        deckSlug: "monou-faeries",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-01-17",
         eventName: "Stroopwafel IPT",
         position: 101,
@@ -2783,6 +2831,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Dylan van Gelder",
     stats: { wins: 20, losses: 25, draws: 3, byes: 2 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 30,
+        deck: "MonoU Terror",
+        deckSlug: "monou-terror",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -2934,6 +2990,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Eef vV",
     stats: { wins: 66, losses: 50, draws: 2, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 1,
+        deck: "Unknown Archetype",
+        deckSlug: "unknown-archetype",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -3319,6 +3383,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 7, losses: 7, draws: 0, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 41,
+        deck: "Jund Wildfire",
+        deckSlug: "jund-wildfire",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 48,
@@ -3403,6 +3475,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Ettore Cerracchio",
     stats: { wins: 55, losses: 47, draws: 14, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 5,
+        deck: "Spy Walls",
+        deckSlug: "spy-walls",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -3883,6 +3963,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 7, losses: 21, draws: 4, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 20,
+        deck: "White Weenie",
+        deckSlug: "white-weenie",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 33,
@@ -3966,6 +4054,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Floris Heins",
     stats: { wins: 38, losses: 25, draws: 5, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 4,
+        deck: "MonoR Rally",
+        deckSlug: "monor-rally",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -4141,6 +4237,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 11, losses: 15, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 3,
+        deck: "Ruby Storm",
+        deckSlug: "ruby-storm",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 61,
@@ -4210,6 +4314,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Francesco Simonetto",
     stats: { wins: 27, losses: 46, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 46,
+        deck: "MonoR Madness",
+        deckSlug: "monor-madness",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -4662,6 +4774,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 1, losses: 4, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 44,
+        deck: "Jund Wildfire",
+        deckSlug: "jund-wildfire",
+        rounds: [],
+      },
+      {
         eventSlug: "2025-12-13",
         eventName: "Dutch Pauper League – 9° Leg – 2025",
         position: 51,
@@ -4705,6 +4825,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Gianvito Taneburgo",
     stats: { wins: 58, losses: 53, draws: 11, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 12,
+        deck: "Spy Walls",
+        deckSlug: "spy-walls",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -5722,6 +5850,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 50, losses: 26, draws: 4, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 56,
+        deck: "MonoU Terror",
+        deckSlug: "monou-terror",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 20,
@@ -6022,6 +6158,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 4, losses: 10, draws: 0, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 50,
+        deck: "MonoR Madness",
+        deckSlug: "monor-madness",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 45,
@@ -6150,6 +6294,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 8, losses: 6, draws: 0, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 26,
+        deck: "Dimir Faeries",
+        deckSlug: "dimir-faeries",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 25,
@@ -6188,6 +6340,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Jan Rijnbeek",
     stats: { wins: 69, losses: 43, draws: 9, byes: 2 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 6,
+        deck: "Jund Wildfire",
+        deckSlug: "jund-wildfire",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -6518,6 +6678,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 54,
+        deck: "Rakdos Burn",
+        deckSlug: "rakdos-burn",
+        rounds: [],
+      },
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         position: 0,
         deck: "Rakdos Burn",
         deckSlug: "kek5847cx0a551oxnhdnck5k",
@@ -6750,6 +6918,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 5, losses: 20, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 48,
+        deck: "White Weenie",
+        deckSlug: "white-weenie",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 72,
@@ -6818,6 +6994,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Jelle Schneider",
     stats: { wins: 24, losses: 13, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 7,
+        deck: "Gruul Ramp",
+        deckSlug: "gruul-ramp",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -6918,6 +7102,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Jelle Zwaan",
     stats: { wins: 35, losses: 12, draws: 3, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 32,
+        deck: "Selesnya Gates",
+        deckSlug: "selesnya-gates",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -7087,6 +7279,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 0, losses: 22, draws: 0, byes: 2 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 52,
+        deck: "Flicker Tron",
+        deckSlug: "flicker-tron",
+        rounds: [],
+      },
+      {
         eventSlug: "2025-07-05",
         eventName: "Dutch Pauper League – 4° Leg – 2025",
         position: 47,
@@ -7250,6 +7450,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Johan Boesveld",
     stats: { wins: 6, losses: 5, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 40,
+        deck: "MonoU Faeries",
+        deckSlug: "monou-faeries",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -8008,6 +8216,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 12, losses: 7, draws: 0, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 39,
+        deck: "Golgari Dredge",
+        deckSlug: "golgari-dredge",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 10,
@@ -8455,6 +8671,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 14, losses: 9, draws: 4, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 2,
+        deck: "Spy Walls",
+        deckSlug: "spy-walls",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 31,
@@ -8544,6 +8768,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Liam Wyatt",
     stats: { wins: 19, losses: 23, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 35,
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -8743,6 +8975,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 7, losses: 18, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 49,
+        deck: "Unknown Archetype",
+        deckSlug: "unknown-archetype",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 62,
@@ -8811,6 +9051,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Lucas Feliciano",
     stats: { wins: 48, losses: 52, draws: 11, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 61,
+        deck: "Jeskai Ephemerate",
+        deckSlug: "jeskai-ephemerate",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -9434,6 +9682,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 3, losses: 11, draws: 2, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 43,
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 65,
@@ -9918,6 +10174,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 6, losses: 13, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 58,
+        deck: "MonoU Faeries",
+        deckSlug: "monou-faeries",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 51,
@@ -10052,6 +10316,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Matteo Bellante",
     stats: { wins: 5, losses: 8, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 28,
+        deck: "Jund Wildfire",
+        deckSlug: "jund-wildfire",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -10337,6 +10609,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Max Roovers",
     stats: { wins: 77, losses: 50, draws: 4, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 42,
+        deck: "Ruby Storm",
+        deckSlug: "ruby-storm",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -10661,6 +10941,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 20, losses: 17, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 29,
+        deck: "Azorius Gates",
+        deckSlug: "azorius-gates",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 37,
@@ -10903,6 +11191,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Mirco Bonati",
     stats: { wins: 32, losses: 36, draws: 14, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 59,
+        deck: "Golgari Gardens",
+        deckSlug: "golgari-gardens",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -11302,6 +11598,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 9, losses: 7, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 47,
+        deck: "Orzhov Blade",
+        deckSlug: "orzhov-blade",
+        rounds: [],
+      },
+      {
         eventSlug: "2025-12-13",
         eventName: "Dutch Pauper League – 9° Leg – 2025",
         position: 23,
@@ -11352,6 +11656,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Nicolas Bordenabe",
     stats: { wins: 54, losses: 35, draws: 4, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 37,
+        deck: "Spy Walls",
+        deckSlug: "spy-walls",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -11597,6 +11909,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Nicolas Komanski",
     stats: { wins: 53, losses: 24, draws: 5, byes: 2 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 14,
+        deck: "MonoR Madness",
+        deckSlug: "monor-madness",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -11948,6 +12268,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Noah Westerweel",
     stats: { wins: 39, losses: 36, draws: 10, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 24,
+        deck: "Boros Synth",
+        deckSlug: "boros-synth",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -12727,6 +13055,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 27,
+        deck: "Orzhov Blade",
+        deckSlug: "orzhov-blade",
+        rounds: [],
+      },
+      {
         eventSlug: "2025-09-06",
         eventName: "Dutch Pauper League – 6° Leg – 2025",
         position: 32,
@@ -12824,6 +13160,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Raven de Bruin",
     stats: { wins: 44, losses: 31, draws: 3, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 60,
+        deck: "Dimir Faeries",
+        deckSlug: "dimir-faeries",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -13036,6 +13380,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Raymond Anderson",
     stats: { wins: 26, losses: 37, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 33,
+        deck: "Flicker Tron",
+        deckSlug: "flicker-tron",
+        rounds: [],
+      },
       {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
@@ -13289,6 +13641,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 26, losses: 15, draws: 2, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 22,
+        deck: "Dimir Faeries",
+        deckSlug: "dimir-faeries",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 23,
@@ -13401,6 +13761,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Rob Lamers",
     stats: { wins: 47, losses: 38, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 19,
+        deck: "Burn",
+        deckSlug: "burn",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -14093,6 +14461,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 38, losses: 22, draws: 2, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 8,
+        deck: "White Weenie",
+        deckSlug: "white-weenie",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 11,
@@ -14704,6 +15080,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 27, losses: 21, draws: 2, byes: 1 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 9,
+        deck: "Elves",
+        deckSlug: "elves",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 38,
@@ -15155,6 +15539,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 11, losses: 2, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 15,
+        deck: "Monster Tron",
+        deckSlug: "monster-tron",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 4,
@@ -15193,6 +15585,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Stefan Vlijm",
     stats: { wins: 12, losses: 15, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 23,
+        deck: "Turbofog",
+        deckSlug: "turbofog",
+        rounds: [],
+      },
       {
         eventSlug: "2026-01-17",
         eventName: "Stroopwafel IPT",
@@ -15453,6 +15853,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 5, losses: 6, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 11,
+        deck: "Ruby Storm",
+        deckSlug: "ruby-storm",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 14,
@@ -15660,6 +16068,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 12, losses: 15, draws: 0, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 36,
+        deck: "Golgari Gardens",
+        deckSlug: "golgari-gardens",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 39,
@@ -15751,6 +16167,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Tijmen van der Kamp",
     stats: { wins: 69, losses: 55, draws: 3, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 34,
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -16406,6 +16830,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 28, losses: 29, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 10,
+        deck: "Cycling Storm",
+        deckSlug: "cycling-storm",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-01-17",
         eventName: "Stroopwafel IPT",
         position: 90,
@@ -16561,6 +16993,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 1, losses: 12, draws: 1, byes: 0 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 57,
+        deck: "MonoB Sacrifice",
+        deckSlug: "monob-sacrifice",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 71,
@@ -16699,6 +17139,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Tobias van Kersbergen",
     stats: { wins: 32, losses: 32, draws: 10, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 31,
+        deck: "Boros Synth",
+        deckSlug: "boros-synth",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -16888,6 +17336,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Tom de Ruiter",
     stats: { wins: 48, losses: 34, draws: 9, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 25,
+        deck: "Jund Wildfire",
+        deckSlug: "jund-wildfire",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -17144,6 +17600,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Toon de Vet",
     stats: { wins: 55, losses: 47, draws: 17, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 55,
+        deck: "Boros Tribe",
+        deckSlug: "boros-tribe",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -17669,6 +18133,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 13, losses: 8, draws: 2, byes: 1 },
     results: [
       {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 16,
+        deck: "Dimir Faeries",
+        deckSlug: "dimir-faeries",
+        rounds: [],
+      },
+      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         position: 6,
@@ -17735,6 +18207,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Vitaly Svetlov",
     stats: { wins: 5, losses: 7, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 45,
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [],
+      },
       {
         eventSlug: "2026-01-17",
         eventName: "Stroopwafel IPT",
@@ -18032,6 +18512,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     name: "Wouter Hordijk",
     stats: { wins: 11, losses: 37, draws: 1, byes: 2 },
     results: [
+      {
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        position: 17,
+        deck: "MonoB Sacrifice",
+        deckSlug: "monob-sacrifice",
+        rounds: [],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
