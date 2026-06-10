@@ -15579,21 +15579,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     stats: { wins: 24, losses: 17, draws: 1, byes: 0 },
     results: [
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        position: 91,
-        deck: "MonoU Faeries",
-        deckSlug: "yrlxab24tc6et2jhl2fwen74",
-        rounds: [
-          { round: 6, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Vince kors", opponentPilotSlug: "vince-kors", result: "Loss" },
-          { round: 5, opponentDeck: "MonoU Terror", opponentDeckSlug: "mono-u-terror", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim-bunnik", result: "Loss" },
-          { round: 4, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Luka Pasalic", opponentPilotSlug: "luka-pasalic", result: "Loss" },
-          { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs-deckers", result: "Win" },
-          { round: 2, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Kieran Edwards", opponentPilotSlug: "kieran-edwards", result: "Loss" },
-          { round: 1, opponentDeck: "Gruul Ramp", opponentDeckSlug: "gruul-ramp", opponentPilot: "Neil", opponentPilotSlug: "neil", result: "Win" }
-        ],
-      },
-      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         position: 53,
@@ -15606,6 +15591,21 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 3, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Bram Deppenbroek", opponentPilotSlug: "bram-deppenbroek", result: "Draw" },
           { round: 2, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir-faeries", opponentPilot: "Rob Vermaas", opponentPilotSlug: "rob", result: "Win" },
           { round: 1, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir-faeries", opponentPilot: "vinicius duarte", opponentPilotSlug: "vinicius-duarte", result: "Win" }
+        ],
+      },
+      {
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
+        position: 91,
+        deck: "MonoU Faeries",
+        deckSlug: "yrlxab24tc6et2jhl2fwen74",
+        rounds: [
+          { round: 6, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Vince kors", opponentPilotSlug: "vince-kors", result: "Loss" },
+          { round: 5, opponentDeck: "MonoU Terror", opponentDeckSlug: "mono-u-terror", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim-bunnik", result: "Loss" },
+          { round: 4, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Luka Pasalic", opponentPilotSlug: "luka-pasalic", result: "Loss" },
+          { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs-deckers", result: "Win" },
+          { round: 2, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Kieran Edwards", opponentPilotSlug: "kieran-edwards", result: "Loss" },
+          { round: 1, opponentDeck: "Gruul Ramp", opponentDeckSlug: "gruul-ramp", opponentPilot: "Neil", opponentPilotSlug: "neil", result: "Win" }
         ],
       },
       {
