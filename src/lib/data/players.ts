@@ -284,7 +284,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "aartos-locos": {
     slug: "aartos-locos",
     name: "Aartos Locos",
-    stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    stats: { wins: 5, losses: 5, draws: 2, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -669,7 +669,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "alexander-hamilton": {
     slug: "alexander-hamilton",
     name: "Alexander Hamilton",
-    stats: { wins: 0, losses: 0, draws: 0, byes: 0 },
+    stats: { wins: 2, losses: 6, draws: 4, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -706,7 +706,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "andrea-passaro": {
     slug: "andrea-passaro",
     name: "Andrea Passaro",
-    stats: { wins: 24, losses: 13, draws: 0, byes: 0 },
+    stats: { wins: 20, losses: 11, draws: 0, byes: 0 },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -885,7 +885,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "arne-klarenberg": {
     slug: "arne-klarenberg",
     name: "Arne Klarenberg",
-    stats: { wins: 7, losses: 27, draws: 2, byes: 0 },
+    stats: { wins: 8, losses: 31, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -1493,7 +1493,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "blom-bezemer": {
     slug: "blom-bezemer",
     name: "Blom Bezemer",
-    stats: { wins: 3, losses: 9, draws: 0, byes: 0 },
+    stats: { wins: 6, losses: 11, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -1583,7 +1583,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "bram-deppenbroek": {
     slug: "bram-deppenbroek",
     name: "Bram Deppenbroek",
-    stats: { wins: 96, losses: 38, draws: 3, byes: 0 },
+    stats: { wins: 91, losses: 37, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -2138,7 +2138,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "collin-bos": {
     slug: "collin-bos",
     name: "Collin Bos",
-    stats: { wins: 14, losses: 17, draws: 1, byes: 0 },
+    stats: { wins: 14, losses: 16, draws: 2, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -2733,7 +2733,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "dylan-holly": {
     slug: "dylan-holly",
     name: "Dylan Holly",
-    stats: { wins: 25, losses: 22, draws: 2, byes: 0 },
+    stats: { wins: 29, losses: 24, draws: 2, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -2876,7 +2876,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "dylan-van-gelder": {
     slug: "dylan-van-gelder",
     name: "Dylan van Gelder",
-    stats: { wins: 20, losses: 25, draws: 3, byes: 2 },
+    stats: { wins: 23, losses: 28, draws: 3, byes: 2 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -3042,7 +3042,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "eef-v-v": {
     slug: "eef-v-v",
     name: "Eef vV",
-    stats: { wins: 66, losses: 50, draws: 2, byes: 1 },
+    stats: { wins: 70, losses: 49, draws: 2, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -3441,7 +3441,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "emmanuel-blazquez": {
     slug: "emmanuel-blazquez",
     name: "Emmanuel Blazquez",
-    stats: { wins: 7, losses: 7, draws: 0, byes: 0 },
+    stats: { wins: 8, losses: 8, draws: 4, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -3541,7 +3541,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "ettore-cerracchio": {
     slug: "ettore-cerracchio",
     name: "Ettore Cerracchio",
-    stats: { wins: 55, losses: 47, draws: 14, byes: 0 },
+    stats: { wins: 57, losses: 48, draws: 14, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4035,7 +4035,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "fernando-tong": {
     slug: "fernando-tong",
     name: "Fernando Tong",
-    stats: { wins: 7, losses: 21, draws: 4, byes: 0 },
+    stats: { wins: 10, losses: 23, draws: 5, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4134,7 +4134,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "floris-heins": {
     slug: "floris-heins",
     name: "Floris Heins",
-    stats: { wins: 38, losses: 25, draws: 5, byes: 0 },
+    stats: { wins: 43, losses: 26, draws: 5, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4323,7 +4323,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "floris-stapel": {
     slug: "floris-stapel",
     name: "Floris Stapel",
-    stats: { wins: 11, losses: 15, draws: 1, byes: 0 },
+    stats: { wins: 16, losses: 16, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4408,7 +4408,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "francesco": {
     slug: "francesco",
     name: "Francesco Simonetto",
-    stats: { wins: 27, losses: 46, draws: 2, byes: 0 },
+    stats: { wins: 29, losses: 50, draws: 2, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4874,7 +4874,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "giacco": {
     slug: "giacco",
     name: "Giacco",
-    stats: { wins: 1, losses: 4, draws: 1, byes: 0 },
+    stats: { wins: 3, losses: 7, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4932,7 +4932,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "gianvito-taneburgo": {
     slug: "gianvito-taneburgo",
     name: "Gianvito Taneburgo",
-    stats: { wins: 58, losses: 53, draws: 11, byes: 1 },
+    stats: { wins: 62, losses: 55, draws: 11, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -5266,14 +5266,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "gieli0": {
     slug: "gieli0",
     name: "gieli0",
-    stats: { wins: 1, losses: 2, draws: 0, byes: 0 },
+    stats: { wins: 0, losses: 0, draws: 0, byes: 0 },
     results: [
     ],
   },
   "gino-de-guzman": {
     slug: "gino-de-guzman",
     name: "Gino De Guzman",
-    stats: { wins: 9, losses: 21, draws: 4, byes: 2 },
+    stats: { wins: 7, losses: 18, draws: 4, byes: 1 },
     results: [
       {
         eventSlug: "2024-08-03",
@@ -5963,7 +5963,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "iain-ligthart": {
     slug: "iain-ligthart",
     name: "Iain Ligthart",
-    stats: { wins: 50, losses: 26, draws: 4, byes: 0 },
+    stats: { wins: 51, losses: 30, draws: 4, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -6277,7 +6277,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "irshaad": {
     slug: "irshaad",
     name: "Irshaad",
-    stats: { wins: 4, losses: 10, draws: 0, byes: 0 },
+    stats: { wins: 6, losses: 14, draws: 0, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -6420,7 +6420,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jamie-march": {
     slug: "jamie-march",
     name: "Jamie March",
-    stats: { wins: 8, losses: 6, draws: 0, byes: 0 },
+    stats: { wins: 11, losses: 9, draws: 0, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -6474,7 +6474,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jan-rijnbeek": {
     slug: "jan-rijnbeek",
     name: "Jan Rijnbeek",
-    stats: { wins: 69, losses: 43, draws: 9, byes: 2 },
+    stats: { wins: 72, losses: 42, draws: 10, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -6816,7 +6816,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "javier-carrillo-delgado": {
     slug: "javier-carrillo-delgado",
     name: "Javier Carrillo Delgado",
-    stats: { wins: 0, losses: 0, draws: 0, byes: 0 },
+    stats: { wins: 2, losses: 6, draws: 2, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -6980,7 +6980,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jasper-roelfsema": {
     slug: "jasper-roelfsema",
     name: "Jasper Roelfsema",
-    stats: { wins: 10, losses: 12, draws: 3, byes: 0 },
+    stats: { wins: 9, losses: 12, draws: 3, byes: 1 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7070,7 +7070,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jeff-wade": {
     slug: "jeff-wade",
     name: "Jeff Wade",
-    stats: { wins: 5, losses: 20, draws: 1, byes: 0 },
+    stats: { wins: 7, losses: 24, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7154,7 +7154,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jelle-schneider": {
     slug: "jelle-schneider",
     name: "Jelle Schneider",
-    stats: { wins: 24, losses: 13, draws: 2, byes: 0 },
+    stats: { wins: 28, losses: 14, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7269,7 +7269,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jelle-zwaan": {
     slug: "jelle-zwaan",
     name: "Jelle Zwaan",
-    stats: { wins: 35, losses: 12, draws: 3, byes: 0 },
+    stats: { wins: 38, losses: 15, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7452,7 +7452,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jinja-kinyak": {
     slug: "jinja-kinyak",
     name: "Jinja Kinyak",
-    stats: { wins: 3, losses: 36, draws: 0, byes: 4 },
+    stats: { wins: 2, losses: 30, draws: 2, byes: 3 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7594,7 +7594,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "johan-boesveld": {
     slug: "johan-boesveld",
     name: "Johan Boesveld",
-    stats: { wins: 6, losses: 5, draws: 2, byes: 0 },
+    stats: { wins: 8, losses: 8, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -8366,7 +8366,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "klaas-jan-gorter": {
     slug: "klaas-jan-gorter",
     name: "Klaas-Jan Gorter",
-    stats: { wins: 12, losses: 7, draws: 0, byes: 0 },
+    stats: { wins: 14, losses: 7, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -8496,7 +8496,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "koen-zuidberg": {
     slug: "koen-zuidberg",
     name: "Koen Zuidberg",
-    stats: { wins: 16, losses: 21, draws: 4, byes: 0 },
+    stats: { wins: 14, losses: 20, draws: 4, byes: 0 },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -8825,7 +8825,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "leonardo-paternotte": {
     slug: "leonardo-paternotte",
     name: "Leonardo Paternotte",
-    stats: { wins: 14, losses: 9, draws: 4, byes: 0 },
+    stats: { wins: 19, losses: 10, draws: 4, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -8930,7 +8930,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "liam-wyatt": {
     slug: "liam-wyatt",
     name: "Liam Wyatt",
-    stats: { wins: 19, losses: 23, draws: 1, byes: 0 },
+    stats: { wins: 21, losses: 25, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -9143,7 +9143,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "lotte-klomp": {
     slug: "lotte-klomp",
     name: "Lotte Klomp",
-    stats: { wins: 7, losses: 18, draws: 1, byes: 0 },
+    stats: { wins: 9, losses: 22, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -9227,7 +9227,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "lucas-feliciano": {
     slug: "lucas-feliciano",
     name: "Lucas Feliciano",
-    stats: { wins: 48, losses: 52, draws: 11, byes: 1 },
+    stats: { wins: 48, losses: 55, draws: 13, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -9863,7 +9863,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "marco-giocondo-mignone": {
     slug: "marco-giocondo-mignone",
     name: "Marco Giocondo Mignone",
-    stats: { wins: 3, losses: 11, draws: 2, byes: 0 },
+    stats: { wins: 5, losses: 15, draws: 2, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -10362,7 +10362,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "marvin-schippmann": {
     slug: "marvin-schippmann",
     name: "Marvin Schippmann",
-    stats: { wins: 6, losses: 13, draws: 1, byes: 0 },
+    stats: { wins: 6, losses: 18, draws: 1, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -10512,7 +10512,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "matteo-bellante": {
     slug: "matteo-bellante",
     name: "Matteo Bellante",
-    stats: { wins: 5, losses: 8, draws: 1, byes: 0 },
+    stats: { wins: 7, losses: 11, draws: 1, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -10812,7 +10812,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "max-roovers": {
     slug: "max-roovers",
     name: "Max Roovers",
-    stats: { wins: 77, losses: 50, draws: 4, byes: 1 },
+    stats: { wins: 75, losses: 53, draws: 4, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -11150,7 +11150,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "michael-joseph-purcell": {
     slug: "michael-joseph-purcell",
     name: "Michael Joseph Purcell",
-    stats: { wins: 20, losses: 17, draws: 1, byes: 0 },
+    stats: { wins: 23, losses: 20, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -11408,7 +11408,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "mirco-bonati": {
     slug: "mirco-bonati",
     name: "Mirco Bonati",
-    stats: { wins: 32, losses: 36, draws: 14, byes: 0 },
+    stats: { wins: 32, losses: 39, draws: 17, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -11821,7 +11821,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "nicola-gnasso": {
     slug: "nicola-gnasso",
     name: "Nicola Gnasso",
-    stats: { wins: 9, losses: 7, draws: 1, byes: 0 },
+    stats: { wins: 10, losses: 8, draws: 4, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -11886,7 +11886,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "nicolas-bordenabe": {
     slug: "nicolas-bordenabe",
     name: "Nicolas Bordenabe",
-    stats: { wins: 54, losses: 35, draws: 4, byes: 1 },
+    stats: { wins: 56, losses: 38, draws: 5, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -12146,7 +12146,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "nicolas-komanski": {
     slug: "nicolas-komanski",
     name: "Nicolas Komanski",
-    stats: { wins: 53, losses: 24, draws: 5, byes: 2 },
+    stats: { wins: 57, losses: 26, draws: 5, byes: 2 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -12512,7 +12512,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "noah-westerweel": {
     slug: "noah-westerweel",
     name: "Noah Westerweel",
-    stats: { wins: 39, losses: 36, draws: 10, byes: 1 },
+    stats: { wins: 42, losses: 39, draws: 10, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -13305,7 +13305,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "ramon-facchin": {
     slug: "ramon-facchin",
     name: "Ramon Facchin",
-    stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    stats: { wins: 6, losses: 6, draws: 0, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -13418,7 +13418,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "raven-de-bruin": {
     slug: "raven-de-bruin",
     name: "Raven de Bruin",
-    stats: { wins: 44, losses: 31, draws: 3, byes: 0 },
+    stats: { wins: 43, losses: 34, draws: 3, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -13645,7 +13645,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "raymond-anderson": {
     slug: "raymond-anderson",
     name: "Raymond Anderson",
-    stats: { wins: 26, losses: 37, draws: 1, byes: 0 },
+    stats: { wins: 28, losses: 39, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -13912,7 +13912,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "rob": {
     slug: "rob",
     name: "Rob Vermaas",
-    stats: { wins: 26, losses: 15, draws: 2, byes: 0 },
+    stats: { wins: 29, losses: 17, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -14040,7 +14040,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "rob-lamers": {
     slug: "rob-lamers",
     name: "Rob Lamers",
-    stats: { wins: 47, losses: 38, draws: 2, byes: 0 },
+    stats: { wins: 50, losses: 40, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -14746,7 +14746,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "roberto-van-den-elzen": {
     slug: "roberto-van-den-elzen",
     name: "Roberto van den Elzen",
-    stats: { wins: 38, losses: 22, draws: 2, byes: 0 },
+    stats: { wins: 42, losses: 23, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -15313,7 +15313,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "samuel-schumacher": {
     slug: "samuel-schumacher",
     name: "Samuel Schumacher",
-    stats: { wins: 3, losses: 6, draws: 0, byes: 0 },
+    stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
     results: [
       {
         eventSlug: "2024-04-13",
@@ -15372,7 +15372,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "simon-isphording": {
     slug: "simon-isphording",
     name: "Simon Isphording",
-    stats: { wins: 27, losses: 21, draws: 2, byes: 1 },
+    stats: { wins: 31, losses: 23, draws: 2, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -15771,7 +15771,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "stefan-jager": {
     slug: "stefan-jager",
     name: "Stefan Jager",
-    stats: { wins: 0, losses: 2, draws: 0, byes: 1 },
+    stats: { wins: 0, losses: 0, draws: 0, byes: 0 },
     results: [
     ],
   },
@@ -15831,7 +15831,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "stefan-van-der-list": {
     slug: "stefan-van-der-list",
     name: "Stefan van der List",
-    stats: { wins: 11, losses: 2, draws: 1, byes: 0 },
+    stats: { wins: 13, losses: 4, draws: 2, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -15885,7 +15885,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "stefan-vlijm": {
     slug: "stefan-vlijm",
     name: "Stefan Vlijm",
-    stats: { wins: 12, losses: 15, draws: 2, byes: 0 },
+    stats: { wins: 14, losses: 15, draws: 6, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -16159,7 +16159,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "thijs-deckers": {
     slug: "thijs-deckers",
     name: "Thijs Deckers",
-    stats: { wins: 5, losses: 6, draws: 1, byes: 0 },
+    stats: { wins: 9, losses: 8, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -16381,7 +16381,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "thomas-wood": {
     slug: "thomas-wood",
     name: "Thomas Wood",
-    stats: { wins: 12, losses: 15, draws: 0, byes: 0 },
+    stats: { wins: 14, losses: 17, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -16488,7 +16488,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tijmen-van-der-kamp": {
     slug: "tijmen-van-der-kamp",
     name: "Tijmen van der Kamp",
-    stats: { wins: 69, losses: 55, draws: 3, byes: 0 },
+    stats: { wins: 71, losses: 57, draws: 5, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -16880,7 +16880,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim-bunnik": {
     slug: "tim-bunnik",
     name: "Tim Bunnik",
-    stats: { wins: 66, losses: 41, draws: 3, byes: 1 },
+    stats: { wins: 66, losses: 39, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -17157,7 +17157,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim-laros": {
     slug: "tim-laros",
     name: "Tim Laros",
-    stats: { wins: 28, losses: 29, draws: 1, byes: 0 },
+    stats: { wins: 32, losses: 31, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -17327,7 +17327,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim-swillens": {
     slug: "tim-swillens",
     name: "Tim Swillens",
-    stats: { wins: 1, losses: 12, draws: 1, byes: 0 },
+    stats: { wins: 2, losses: 17, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -17381,7 +17381,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim-zemack": {
     slug: "tim-zemack",
     name: "Tim Zemack",
-    stats: { wins: 11, losses: 16, draws: 0, byes: 0 },
+    stats: { wins: 11, losses: 14, draws: 0, byes: 0 },
     results: [
       {
         eventSlug: "2024-09-07",
@@ -17481,7 +17481,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tobias-van-kersbergen": {
     slug: "tobias-van-kersbergen",
     name: "Tobias van Kersbergen",
-    stats: { wins: 32, losses: 32, draws: 10, byes: 0 },
+    stats: { wins: 34, losses: 33, draws: 13, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -17685,7 +17685,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tom-de-ruiter": {
     slug: "tom-de-ruiter",
     name: "Tom de Ruiter",
-    stats: { wins: 48, losses: 34, draws: 9, byes: 0 },
+    stats: { wins: 51, losses: 37, draws: 9, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -17956,7 +17956,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "toon-de-vet": {
     slug: "toon-de-vet",
     name: "Toon de Vet",
-    stats: { wins: 55, losses: 47, draws: 17, byes: 1 },
+    stats: { wins: 56, losses: 51, draws: 18, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -18495,7 +18495,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "vinicius-duarte": {
     slug: "vinicius-duarte",
     name: "vinicius duarte",
-    stats: { wins: 13, losses: 8, draws: 2, byes: 1 },
+    stats: { wins: 16, losses: 10, draws: 3, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -18577,7 +18577,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "vitaly-svetlov": {
     slug: "vitaly-svetlov",
     name: "Vitaly Svetlov",
-    stats: { wins: 5, losses: 7, draws: 1, byes: 0 },
+    stats: { wins: 7, losses: 11, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -18889,7 +18889,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "wouter-hordijk": {
     slug: "wouter-hordijk",
     name: "Wouter Hordijk",
-    stats: { wins: 11, losses: 37, draws: 1, byes: 2 },
+    stats: { wins: 14, losses: 39, draws: 2, byes: 2 },
     results: [
       {
         eventSlug: "2026-06-06",
