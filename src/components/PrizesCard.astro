@@ -20,12 +20,12 @@ function compute(n: number) {
     location,
     stripeFee,
     prizePool,
-    top1:   prizePool * 0.200,
-    top2:   prizePool * 0.130,
-    top3:   prizePool * 0.090,
-    top4:   prizePool * 0.070,
-    top58:  prizePool * 0.045,
-    top916: prizePool * 0.025,
+    top1:   prizePool * 0.230,
+    top2:   prizePool * 0.150,
+    top3:   prizePool * 0.100,
+    top4:   prizePool * 0.080,
+    top58:  prizePool * 0.050,
+    top916: prizePool * 0.030,
   };
 }
 
@@ -98,27 +98,27 @@ const d = compute(DEFAULT_PLAYERS);
   <!-- Payouts -->
   <div class="text-sm space-y-2">
     <div class="flex justify-between">
-      <span class="text-muted-foreground">1st <span class="text-xs">(20%)</span></span>
+      <span class="text-muted-foreground">1st <span class="text-xs">(23%)</span></span>
       <span id="pz-top1">{fmt(d.top1)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">2nd <span class="text-xs">(13%)</span></span>
+      <span class="text-muted-foreground">2nd <span class="text-xs">(15%)</span></span>
       <span id="pz-top2">{fmt(d.top2)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">3rd <span class="text-xs">(9%)</span></span>
+      <span class="text-muted-foreground">3rd <span class="text-xs">(10%)</span></span>
       <span id="pz-top3">{fmt(d.top3)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">4th <span class="text-xs">(7%)</span></span>
+      <span class="text-muted-foreground">4th <span class="text-xs">(8%)</span></span>
       <span id="pz-top4">{fmt(d.top4)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">5th–8th <span class="text-xs">(4,5% each)</span></span>
+      <span class="text-muted-foreground">5th–8th <span class="text-xs">(5% each)</span></span>
       <span id="pz-top58">{fmt(d.top58)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">9th–16th <span class="text-xs">(2,5% each)</span></span>
+      <span class="text-muted-foreground">9th–16th <span class="text-xs">(3% each)</span></span>
       <span id="pz-top916">{fmt(d.top916)}</span>
     </div>
   </div>
@@ -152,12 +152,12 @@ const d = compute(DEFAULT_PLAYERS);
       location,
       stripeFee,
       prizePool,
-      top1:   prizePool * 0.200,
-      top2:   prizePool * 0.130,
-      top3:   prizePool * 0.090,
-      top4:   prizePool * 0.070,
-      top58:  prizePool * 0.045,
-      top916: prizePool * 0.025,
+      top1:   prizePool * 0.230,
+      top2:   prizePool * 0.150,
+      top3:   prizePool * 0.100,
+      top4:   prizePool * 0.080,
+      top58:  prizePool * 0.050,
+      top916: prizePool * 0.030,
     };
   }
 
