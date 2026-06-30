@@ -12,12 +12,14 @@ const KNOCKOUT_PRIZE = 60;
 function compute(n: number) {
   const entry = n * ENTRY_PER_PLAYER;
   const location = n * LOCATION_PER_PLAYER;
-  const stripeFee = n * STRIPE_FEE_PER_PLAYER + 5.00 + location * 0.055;
-  const prizePool = entry - location - stripeFee - JUDGE - KNOCKOUT_PRIZE;
+  const stripeFee = n * STRIPE_FEE_PER_PLAYER;
+  const taxes = (location + JUDGE) * 0.055;
+  const prizePool = entry - location - stripeFee - taxes - JUDGE - KNOCKOUT_PRIZE;
   return {
     entry,
     location,
     stripeFee,
+    taxes,
     prizePool,
     top1:   prizePool * 0.230,
     top2:   prizePool * 0.150,
@@ -76,8 +78,12 @@ const d = compute(DEFAULT_PLAYERS);
       <span>- {fmt(KNOCKOUT_PRIZE)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">Fees and taxes</span>
+      <span class="text-muted-foreground">Stripe fees</span>
       <span id="pz-stripe">- {fmt(d.stripeFee)}</span>
+    </div>
+    <div class="flex justify-between">
+      <span class="text-muted-foreground">Taxes</span>
+      <span id="pz-taxes">- {fmt(d.taxes)}</span>
     </div>
   </div>
 
@@ -139,12 +145,14 @@ const d = compute(DEFAULT_PLAYERS);
   function compute(n: number) {
     const entry = n * ENTRY_PER_PLAYER;
     const location = n * LOCATION_PER_PLAYER;
-    const stripeFee = n * STRIPE_FEE_PER_PLAYER + 5.00 + location * 0.055;
-    const prizePool = entry - location - stripeFee - JUDGE - KNOCKOUT_PRIZE;
+    const stripeFee = n * STRIPE_FEE_PER_PLAYER;
+    const taxes = (location + JUDGE) * 0.055;
+    const prizePool = entry - location - stripeFee - taxes - JUDGE - KNOCKOUT_PRIZE;
     return {
       entry,
       location,
       stripeFee,
+      taxes,
       prizePool,
       top1:   prizePool * 0.230,
       top2:   prizePool * 0.150,
@@ -160,6 +168,7 @@ const d = compute(DEFAULT_PLAYERS);
     document.getElementById("pz-entry")!.textContent = fmt(d.entry);
     document.getElementById("pz-location")!.textContent = `- ${fmt(d.location)}`;
     document.getElementById("pz-stripe")!.textContent = `- ${fmt(d.stripeFee)}`;
+    document.getElementById("pz-taxes")!.textContent = `- ${fmt(d.taxes)}`;
     document.getElementById("pz-pool")!.textContent = fmt(d.prizePool);
     document.getElementById("pz-top1")!.textContent = fmt(d.top1);
     document.getElementById("pz-top2")!.textContent = fmt(d.top2);
