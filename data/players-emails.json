@@ -1415,6 +1415,14 @@
     ]
   },
   {
+    "normalized": "l.s. driessen",
+    "name": "L.S. Driessen",
+    "email": "l.s.driessen@missingplayer.com",
+    "sources": [
+      "players_Dutch Pauper League – 2° Leg – 2024_2024-04-13.csv"
+    ]
+  },
+  {
     "normalized": "lars broekhof",
     "name": "Lars Broekhof",
     "email": "lars.broekhof.lb@gmail.com",
@@ -2521,6 +2529,14 @@
       "players_Dutch Pauper League – 7° Leg – 2024_2024-09-07.csv",
       "players_Dutch Pauper League – 8° Leg – 2024_2024-10-05.csv",
       "players_Dutch Pauper League – 9° Leg – 2024_2024-11-02.csv"
+    ]
+  },
+  {
+    "normalized": "samuel schumacher",
+    "name": "Samuel Schumacher",
+    "email": "samuel.schumacher@gmail.com",
+    "sources": [
+      "players_Dutch Pauper League – 2° Leg – 2024_2024-04-13.csv"
     ]
   },
   {
