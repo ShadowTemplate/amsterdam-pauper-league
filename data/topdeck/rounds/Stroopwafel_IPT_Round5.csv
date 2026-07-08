@@ -34,26 +34,27 @@ Table,Player 1,P1 Wins,Player 2,P2 Wins
 33,Jasper jonkman,0,Neil,2
 34,Jasper Roelfsema,0,Kai Schutte,2
 35,Jelle Schneider,2,Mario Giordano,0
-36,Jonathan,2,Klaas-Jan Gorter,0
-37,Julian Dornebusch,2,Marius Bergwerff,0
-38,Kai Schäfer,2,Marco Lazzari,0
-39,Koen Zuidberg,2,Yannic van Heereveld,0
-40,Leonardo Paternotte,0,Nicolas Bordenabe,2
-41,Lisa-Marie Bliek,2,Stefan Vlijm,0
-42,Marcel Hogewoning,2,Max Moriette-Sala,0
-43,Mattia Paglino,0,PotestasNecis,2
-44,Max Roovers,0,phillip drage,2
-45,Michael Joseph Purcell,2,Youri Bakker,0
-46,Mick,0,Morgan Fussell,2
-47,Mitch van der Heijden,0,Oscar Francisco,2
-48,Morgan Privitera,0,Yuri Stevens van Swaay,2
-49,Noah Westerweel,2,Vincent Zwinkels,0
-50,Oscar Jocqué,2,Youri van der Zee,0
-51,OwenP,0,Thomas Wood,2
-52,Patrick Heijna,2,Wouter Hordijk,0
-53,Rob Lamers,0,Tomas Gonzalez,2
-54,Robbert,0,ruben drabbels,2
-55,Robert Kropholler,0,Tijmen van der Kamp,2
-56,Ross McKendrick,2,Tom de Ruiter,0
-57,soufian hriz,0,Tim Bunnik,2
-58,Wilson,2,Johannes Theiß,0
+36,Johannes Theiß,0,Wilson,2
+37,Jonathan,2,Klaas-Jan Gorter,0
+38,Julian Dornebusch,2,Marius Bergwerff,0
+39,Kai Schäfer,2,Marco Lazzari,0
+40,Koen Zuidberg,2,Yannic van Heereveld,0
+41,Leonardo Paternotte,0,Nicolas Bordenabe,2
+42,Lisa-Marie Bliek,2,Stefan Vlijm,0
+43,Marcel Hogewoning,2,Max Moriette-Sala,0
+44,Mattia Paglino,0,PotestasNecis,2
+45,Max Roovers,0,phillip drage,2
+46,Michael Joseph Purcell,2,Youri Bakker,0
+47,Mick,0,Morgan Fussell,2
+48,Mitch van der Heijden,0,Oscar Francisco,2
+49,Morgan Privitera,0,Yuri Stevens van Swaay,2
+50,Noah Westerweel,2,Vincent Zwinkels,0
+51,Oscar Jocqué,2,Youri van der Zee,0
+52,OwenP,0,Thomas Wood,2
+53,Patrick Heijna,2,Wouter Hordijk,0
+54,Rob Lamers,0,Tomas Gonzalez,2
+55,Robbert,0,ruben drabbels,2
+56,Robert Kropholler,0,Tijmen van der Kamp,2
+57,Ross McKendrick,2,Tom de Ruiter,0
+58,soufian hriz,0,Tim Bunnik,2
+59,Wilson,2,Johannes Theiss,0
