@@ -98,7 +98,7 @@ export const eventDetail: EventDetail = {
     { position: 81, player: "Yuri Stevens van Swaay", playerSlug: "yuri_stevens_van_swaay", deck: "Esper Affinity", deckSlug: "esper_affinity", omwPercentage: "48.84%", matchPoints: 8 },
     { position: 82, player: "Matteo Bellante", playerSlug: "matteo_bellante", deck: "Jund Wildfire", deckSlug: "jund_wildfire", omwPercentage: "56.23%", matchPoints: 7 },
     { position: 83, player: "Luka Pasalic", playerSlug: "luka_pasalic", deck: "Azorius Gates", deckSlug: "azorius_gates", omwPercentage: "54.67%", matchPoints: 7 },
-    { position: 84, player: "Johannes Theiß", playerSlug: "johannes_theiß", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "50.29%", matchPoints: 7 },
+    { position: 84, player: "Johannes Theiss", playerSlug: "johannes-theiss", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "50.29%", matchPoints: 7 },
     { position: 85, player: "Harm steenbakkers", playerSlug: "harm_steenbakkers", deck: "MonoB Sacrifice", deckSlug: "monob_sacrifice", omwPercentage: "48.44%", matchPoints: 7 },
     { position: 86, player: "Diego Orlandini", playerSlug: "diego_orlandini", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "46.89%", matchPoints: 7 },
     { position: 87, player: "Jasper Roelfsema", playerSlug: "jasper_roelfsema", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "46.16%", matchPoints: 7 },

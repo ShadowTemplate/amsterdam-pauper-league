@@ -3437,7 +3437,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         appearances: [
           { position: 25, pilot: "Wilson", pilotSlug: "wilson", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
           { position: 57, pilot: "Youri van der Zee", pilotSlug: "youri_van_der_zee", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 84, pilot: "Johannes Theiß", pilotSlug: "johannes_theiß", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 84, pilot: "Johannes Theiss", pilotSlug: "johannes-theiss", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {

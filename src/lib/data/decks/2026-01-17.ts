@@ -8807,7 +8807,7 @@ export const decks: Deck[] = [
     "url": "https://dutchpauperleague.nl/decks/i42uxy1vu88yv594a4ccbln4",
     "name": "Dimir Terror",
     "archetype": "Dimir Terror",
-    "pilotName": "Johannes Theiß",
+    "pilotName": "Johannes Theiss",
     "mainDeck": [
       {
         "quantity": 4,

@@ -105,7 +105,7 @@ export const PLAYERS: Player[] = [
   { slug: "job-ortmans", name: "Job Ortmans" },
   { slug: "johan", name: "Johan" },
   { slug: "johan-boesveld", name: "Johan Boesveld" },
-  { slug: "johannes-thei\u00df", name: "Johannes Thei\u00df" },
+  { slug: "johannes-theiss", name: "Johannes Theiß" },
   { slug: "john-buckley", name: "John Buckley" },
   { slug: "jona-dijksterhuis", name: "Jona Dijksterhuis" },
   { slug: "jonathan", name: "Jonathan" },
@@ -255,7 +255,7 @@ export const PLAYERS: Player[] = [
   { slug: "tim-laros", name: "Tim Laros" },
   { slug: "tim-swillens", name: "Tim Swillens" },
   { slug: "tim-zemack", name: "Tim Zemack" },
-  { slug: "timo-vogelfanger", name: "Timo Vogelf\u00e4nger" },
+  { slug: "timo-vogelfaenger", name: "Timo Vogelf\u00e4nger" },
   { slug: "tobias-van-kersbergen", name: "Tobias van Kersbergen" },
   { slug: "tom-de-ruiter", name: "Tom de Ruiter" },
   { slug: "tomas-gonzalez", name: "Tomas Gonzalez" },
@@ -1244,7 +1244,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 5, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz-francisco-scudelari-de-macedo", result: "Win" },
           { round: 4, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Frank Kortsmit", opponentPilotSlug: "frank", result: "Draw" },
           { round: 3, opponentDeck: "Esper Affinity", opponentDeckSlug: "esper-affinity", opponentPilot: "Yuri Stevens van Swaay", opponentPilotSlug: "yuri-stevens-van-swaay", result: "Win" },
-          { round: 2, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes-theiß", result: "Draw" },
+          { round: 2, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes-theiss", result: "Draw" },
           { round: 1, opponentDeck: "White Weenie", opponentDeckSlug: "white-weenie", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas-wood", result: "Loss" }
         ],
       },
@@ -1557,7 +1557,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 7, opponentDeck: "Izzet Terror", opponentDeckSlug: "izzet-terror", opponentPilot: "Donato Bliek", opponentPilotSlug: "donato-bliek", result: "Loss" },
           { round: 6, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos-burn", opponentPilot: "Jasper Roelfsema", opponentPilotSlug: "jasper-roelfsema", result: "Loss" },
           { round: 5, opponentDeck: "Gruul Ramp", opponentDeckSlug: "gruul-ramp", opponentPilot: "Vitaly Svetlov", opponentPilotSlug: "vitaly-svetlov", result: "Loss" },
-          { round: 4, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes-theiß", result: "Loss" },
+          { round: 4, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes-theiss", result: "Loss" },
           { round: 3, opponentDeck: "Boros Bully", opponentDeckSlug: "boros-bully", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias-van-kersbergen", result: "Draw" },
           { round: 2, opponentDeck: "MonoU Faeries", opponentDeckSlug: "mono-u-faeries", opponentPilot: "Kai Schutte", opponentPilotSlug: "kai-schutte", result: "Win" },
           { round: 1, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Floris Heins", opponentPilotSlug: "floris-heins", result: "Draw" }
@@ -2676,9 +2676,9 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         rounds: [
           { round: 7, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Koen Zuidberg", opponentPilotSlug: "koen-zuidberg", result: "Loss" },
           { round: 6, opponentDeck: "Izzet Terror", opponentDeckSlug: "izzet-terror", opponentPilot: "Donato Bliek", opponentPilotSlug: "donato-bliek", result: "Win" },
-          { round: 5, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfanger", result: "Loss" },
+          { round: 5, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfaenger", result: "Loss" },
           { round: 4, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Jerwin Pouwelse", opponentPilotSlug: "jerwin-pouwelse", result: "Win" },
-          { round: 3, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes-theiß", result: "Loss" },
+          { round: 3, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes-theiss", result: "Loss" },
           { round: 2, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul-ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan-gussenhoven", result: "Loss" },
           { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "jarno polhuijs", opponentPilotSlug: "jarno-polhuijs", result: "Draw" }
         ],
@@ -3533,7 +3533,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 4, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker-tron", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah-westerweel", result: "Win" },
           { round: 3, opponentDeck: "Ruby Storm", opponentDeckSlug: "ruby-storm", opponentPilot: "Max Roovers", opponentPilotSlug: "max-roovers", result: "Loss" },
           { round: 2, opponentDeck: "White Weenie", opponentDeckSlug: "white-weenie", opponentPilot: "Marc Bosserhoff", opponentPilotSlug: "marc-bosserhoff", result: "Win" },
-          { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfanger", result: "Win" }
+          { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfaenger", result: "Win" }
         ],
       }
     ],
@@ -5789,10 +5789,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 7, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Patrick Heijna", opponentPilotSlug: "patrick-heijna", result: "Win" },
           { round: 6, opponentDeck: "Spy Walls", opponentDeckSlug: "spy-walls", opponentPilot: "Leonardo Paternotte", opponentPilotSlug: "leonardo-paternotte", result: "Loss" },
           { round: 5, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Luka Pasalic", opponentPilotSlug: "luka-pasalic", result: "Win" },
-          { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfanger", result: "Win" },
+          { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfaenger", result: "Win" },
           { round: 3, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Mattia Paglino", opponentPilotSlug: "mattia-paglino", result: "Loss" },
           { round: 2, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "PotestasNecis", opponentPilotSlug: "potestas-necis", result: "Draw" },
-          { round: 1, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes-theiß", result: "Win" }
+          { round: 1, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes-theiss", result: "Win" }
         ],
       },
       {
@@ -6989,7 +6989,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Rakdos Burn",
         deckSlug: "ul0o5y4fh9n97pbcormfhcs8",
         rounds: [
-          { round: 7, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfanger", result: "Loss" },
+          { round: 7, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfaenger", result: "Loss" },
           { round: 6, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "boris romero", opponentPilotSlug: "boris-romero", result: "Win" },
           { round: 5, opponentDeck: "MonoU Faeries", opponentDeckSlug: "mono-u-faeries", opponentPilot: "Kai Schutte", opponentPilotSlug: "kai-schutte", result: "Loss" },
           { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Patrick Heijna", opponentPilotSlug: "patrick-heijna", result: "Draw" },
@@ -7644,10 +7644,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       }
     ],
   },
-  "johannes-theiß": {
-    slug: "johannes-theiß",
+  "johannes-theiss": {
+    slug: "johannes-theiss",
     name: "Johannes Theiß",
-    stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    stats: { wins: 2, losses: 4, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7655,7 +7655,15 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         position: 84,
         deck: "Dimir Terror",
         deckSlug: "i42uxy1vu88yv594a4ccbln4",
-        rounds: [],
+        rounds: [
+          { round: 7, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou-faeries", opponentPilot: "Kai Schutte", opponentPilotSlug: "kai-schutte", result: "Loss" },
+          { round: 6, opponentDeck: "Boros Bully", opponentDeckSlug: "boros-bully", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias-van-kersbergen", result: "Loss" },
+          { round: 5, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Wilson", opponentPilotSlug: "wilson", result: "Loss" },
+          { round: 4, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "boris romero", opponentPilotSlug: "boris-romero", result: "Win" },
+          { round: 3, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos-burn", opponentPilot: "Diego Orlandini", opponentPilotSlug: "diego-orlandini", result: "Win" },
+          { round: 2, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Ben van Wijk", opponentPilotSlug: "ben-van-wijk", result: "Draw" },
+          { round: 1, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde-van-t-verlaat", result: "Loss" }
+        ],
       }
     ],
   },
@@ -8002,7 +8010,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "MonoU Faeries",
         deckSlug: "wvsw7b64vtaqk7h0fnr0asz0",
         rounds: [
-          { round: 7, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes-theiß", result: "Win" },
+          { round: 7, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes-theiss", result: "Win" },
           { round: 6, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Floris Heins", opponentPilotSlug: "floris-heins", result: "Loss" },
           { round: 5, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos-burn", opponentPilot: "Jasper Roelfsema", opponentPilotSlug: "jasper-roelfsema", result: "Win" },
           { round: 4, opponentDeck: "MonoU Terror", opponentDeckSlug: "mono-u-terror", opponentPilot: "Yannic van Heereveld", opponentPilotSlug: "yannic-van-heereveld", result: "Win" },
@@ -9588,7 +9596,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         rounds: [
           { round: 5, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde-van-t-verlaat", result: "Loss" },
           { round: 4, opponentDeck: "MonoU Faeries", opponentDeckSlug: "mono-u-faeries", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian-hriz", result: "Win" },
-          { round: 3, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfanger", result: "Draw" },
+          { round: 3, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfaenger", result: "Draw" },
           { round: 2, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "phillip drage", opponentPilotSlug: "phillip-drage", result: "Loss" },
           { round: 1, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob-lamers", result: "Win" }
         ],
@@ -12923,7 +12931,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deckSlug: "m809rghnbffdjbsnmkexin59",
         rounds: [
           { round: 7, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde-van-t-verlaat", result: "Loss" },
-          { round: 6, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfanger", result: "Win" },
+          { round: 6, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfaenger", result: "Win" },
           { round: 5, opponentDeck: "MonoB Sacrifice", opponentDeckSlug: "mono-b-sacrifice", opponentPilot: "Wouter Hordijk", opponentPilotSlug: "wouter-hordijk", result: "Win" },
           { round: 4, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos-burn", opponentPilot: "Jasper Roelfsema", opponentPilotSlug: "jasper-roelfsema", result: "Draw" },
           { round: 3, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Morgan Privitera", opponentPilotSlug: "morgan-privitera", result: "Win" },
@@ -16479,7 +16487,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 5, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe-mulder", result: "Loss" },
           { round: 4, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Katie Berlin", opponentPilotSlug: "katie-berlin", result: "Loss" },
           { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Erik de Waard", opponentPilotSlug: "erik-de-waard", result: "Win" },
-          { round: 2, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfanger", result: "Loss" },
+          { round: 2, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo-vogelfaenger", result: "Loss" },
           { round: 1, opponentDeck: "MonoU Terror", opponentDeckSlug: "mono-u-terror", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael-joseph-purcell", result: "Loss" }
         ],
       }
@@ -17455,8 +17463,8 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       }
     ],
   },
-  "timo-vogelfanger": {
-    slug: "timo-vogelfanger",
+  "timo-vogelfaenger": {
+    slug: "timo-vogelfaenger",
     name: "Timo Vogelfänger",
     stats: { wins: 3, losses: 3, draws: 1, byes: 0 },
     results: [
@@ -17538,7 +17546,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deckSlug: "hmhmd8ne2ujhv1pl1d1mp4i4",
         rounds: [
           { round: 7, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "Benjamin Mul", opponentPilotSlug: "benjamin-mul", result: "Draw" },
-          { round: 6, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes-theiß", result: "Win" },
+          { round: 6, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes-theiss", result: "Win" },
           { round: 5, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Frank Kortsmit", opponentPilotSlug: "frank", result: "Win" },
           { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund-wildfire", opponentPilot: "jarno polhuijs", opponentPilotSlug: "jarno-polhuijs", result: "Loss" },
           { round: 3, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "boris romero", opponentPilotSlug: "boris-romero", result: "Draw" },
@@ -18877,7 +18885,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         rounds: [
           { round: 7, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Mattia Paglino", opponentPilotSlug: "mattia-paglino", result: "Loss" },
           { round: 6, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos-burn", opponentPilot: "Gus Vanpoucke", opponentPilotSlug: "gus-vanpoucke", result: "Win" },
-          { round: 5, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes-theiß", result: "Win" },
+          { round: 5, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir-terror", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes-theiss", result: "Win" },
           { round: 4, opponentDeck: "Gruul Ramp", opponentDeckSlug: "gruul-ramp", opponentPilot: "Vitaly Svetlov", opponentPilotSlug: "vitaly-svetlov", result: "Win" },
           { round: 3, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Jerwin Pouwelse", opponentPilotSlug: "jerwin-pouwelse", result: "Win" },
           { round: 2, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius-gates", opponentPilot: "Koen Zuidberg", opponentPilotSlug: "koen-zuidberg", result: "Draw" },
