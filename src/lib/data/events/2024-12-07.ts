@@ -33,7 +33,7 @@ export const eventDetail: EventDetail = {
     { position: 16, player: "Hidde van 't Verlaat", playerSlug: "hidde_van_t_verlaat", deck: "Brew", deckSlug: "brew", omwPercentage: "44.33%", matchPoints: 10 },
     { position: 17, player: "Bram Deppenbroek", playerSlug: "bram_deppenbroek", deck: "MonoU Faeries", deckSlug: "monou_faeries", omwPercentage: "61.11%", matchPoints: 9 },
     { position: 18, player: "Eef vV", playerSlug: "eef_vv", deck: "MonoU Terror", deckSlug: "monou_terror", omwPercentage: "56.48%", matchPoints: 9 },
-    { position: 19, player: "Derin Ünver", playerSlug: "derin_ünver", deck: "MonoU Terror", deckSlug: "monou_terror", omwPercentage: "55.56%", matchPoints: 9 },
+    { position: 19, player: "Derin Ünver", playerSlug: "derin-unver", deck: "MonoU Terror", deckSlug: "monou_terror", omwPercentage: "55.56%", matchPoints: 9 },
     { position: 20, player: "Yasmin Saciri", playerSlug: "yasmin_saciri", deck: "Jund Gleezard", deckSlug: "jund_gleezard", omwPercentage: "54.63%", matchPoints: 9 },
     { position: 21, player: "Dylan Holly", playerSlug: "dylan_holly", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "54.63%", matchPoints: 9 },
     { position: 22, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Walls", deckSlug: "walls", omwPercentage: "50.00%", matchPoints: 9 },

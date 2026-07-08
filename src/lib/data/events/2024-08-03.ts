@@ -30,7 +30,7 @@ export const eventDetail: EventDetail = {
     { position: 13, player: "Tijmen van der Kamp", playerSlug: "tijmen_van_der_kamp", deck: "Gruul Ponza", deckSlug: "gruul_ponza", omwPercentage: "47.11%", matchPoints: 10 },
     { position: 14, player: "Clemens Gerteiser", playerSlug: "clemens_gerteiser", deck: "MonoR Kuldotha", deckSlug: "monor_kuldotha", omwPercentage: "58.28%", matchPoints: 9 },
     { position: 15, player: "Eef vV", playerSlug: "eef_vv", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "58.28%", matchPoints: 9 },
-    { position: 16, player: "Fernando Gómez-Acebo", playerSlug: "fernando_gómezacebo", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "56.48%", matchPoints: 9 },
+    { position: 16, player: "Fernando Gómez-Acebo", playerSlug: "fernando-gomez-acebo", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "56.48%", matchPoints: 9 },
     { position: 17, player: "Sam Ye", playerSlug: "sam_ye", deck: "Affinity", deckSlug: "affinity", omwPercentage: "54.57%", matchPoints: 9 },
     { position: 18, player: "Danila", playerSlug: "danila", deck: "Affinity", deckSlug: "affinity", omwPercentage: "53.70%", matchPoints: 9 },
     { position: 19, player: "Bram Deppenbroek", playerSlug: "bram_deppenbroek", deck: "MonoR Kuldotha", deckSlug: "monor_kuldotha", omwPercentage: "52.78%", matchPoints: 9 },

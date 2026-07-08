@@ -25,7 +25,7 @@ export const eventDetail: EventDetail = {
     { position: 8, player: "Thomas Wood", playerSlug: "thomas_wood", deck: "White Weenie", deckSlug: "white_weenie", omwPercentage: "66.67%", matchPoints: 12 },
     { position: 9, player: "Max Roovers", playerSlug: "max_roovers", deck: "Elves", deckSlug: "elves", omwPercentage: "63.89%", matchPoints: 12 },
     { position: 10, player: "Jelle Zwaan", playerSlug: "jelle_zwaan", deck: "Azorius Gates", deckSlug: "azorius_gates", omwPercentage: "62.78%", matchPoints: 12 },
-    { position: 11, player: "Fernando Gómez-Acebo", playerSlug: "fernando_gómezacebo", deck: "MonoR Dredge", deckSlug: "monor_dredge", omwPercentage: "58.67%", matchPoints: 12 },
+    { position: 11, player: "Fernando Gómez-Acebo", playerSlug: "fernando-gomez-acebo", deck: "MonoR Dredge", deckSlug: "monor_dredge", omwPercentage: "58.67%", matchPoints: 12 },
     { position: 12, player: "Rob Lamers", playerSlug: "rob_lamers", deck: "Burn", deckSlug: "burn", omwPercentage: "58.28%", matchPoints: 12 },
     { position: 13, player: "Toon de Vet", playerSlug: "toon_de_vet", deck: "Familiars", deckSlug: "familiars", omwPercentage: "58.22%", matchPoints: 12 },
     { position: 14, player: "Bram Deppenbroek", playerSlug: "bram_deppenbroek", deck: "MonoU Terror", deckSlug: "monou_terror", omwPercentage: "57.22%", matchPoints: 12 },
