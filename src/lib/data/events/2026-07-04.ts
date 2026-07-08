@@ -1,4 +1,4 @@
-import type { Event } from "@/types";
+import type { Event, EventDetail } from "@/types";
 
 export const event: Event = {
   slug: "2026-07-04",
@@ -6,6 +6,64 @@ export const event: Event = {
   date: "2026-07-04",
   venue: "Pondok",
   format: "paper",
-  status: "upcoming",
-  registrationUrl: "https://topdeck.gg/event/amsterdam-pauper-league-4-leg-2026",
+  status: "past",
+  winner: "Jelle Zwaan",
+  playerCount: 47,
+  registrationUrl: "https://topdeck.gg",
+};
+
+export const eventDetail: EventDetail = {
+  ...event,
+  standings: [
+    { position: 1, player: "Jelle Zwaan", playerSlug: "jelle-zwaan", deck: "Unknown", deckSlug: "unknown", omwPercentage: "65.74%", matchPoints: 16 },
+    { position: 2, player: "Jelle Schneider", playerSlug: "jelle-schneider", deck: "Unknown", deckSlug: "unknown", omwPercentage: "53.59%", matchPoints: 16 },
+    { position: 3, player: "Jamie March", playerSlug: "jamie-march", deck: "Unknown", deckSlug: "unknown", omwPercentage: "56.43%", matchPoints: 15 },
+    { position: 4, player: "Nicolas Komanski", playerSlug: "nicolas-komanski", deck: "Unknown", deckSlug: "unknown", omwPercentage: "49.02%", matchPoints: 15 },
+    { position: 5, player: "Abe Mulder", playerSlug: "abe-mulder", deck: "Unknown", deckSlug: "unknown", omwPercentage: "47.22%", matchPoints: 15 },
+    { position: 6, player: "Bas Hendriks", playerSlug: "bas-hendriks", deck: "Unknown", deckSlug: "unknown", omwPercentage: "64.76%", matchPoints: 12 },
+    { position: 7, player: "Dylan Holly", playerSlug: "dylan-holly", deck: "Unknown", deckSlug: "unknown", omwPercentage: "63.89%", matchPoints: 12 },
+    { position: 8, player: "Jerryt Boersen", playerSlug: "jerryt-boersen", deck: "Unknown", deckSlug: "unknown", omwPercentage: "58.33%", matchPoints: 12 },
+    { position: 9, player: "Tim Bunnik", playerSlug: "tim-bunnik", deck: "Unknown", deckSlug: "unknown", omwPercentage: "58.33%", matchPoints: 12 },
+    { position: 10, player: "Floris Heins", playerSlug: "floris-heins", deck: "Unknown", deckSlug: "unknown", omwPercentage: "52.72%", matchPoints: 12 },
+    { position: 11, player: "Tobias van Kersbergen", playerSlug: "tobias-van-kersbergen", deck: "Unknown", deckSlug: "unknown", omwPercentage: "50.00%", matchPoints: 12 },
+    { position: 12, player: "Max Roovers", playerSlug: "max-roovers", deck: "Unknown", deckSlug: "unknown", omwPercentage: "45.31%", matchPoints: 12 },
+    { position: 13, player: "Thijs Deckers", playerSlug: "thijs-deckers", deck: "Unknown", deckSlug: "unknown", omwPercentage: "45.31%", matchPoints: 12 },
+    { position: 14, player: "Roberto van den Elzen", playerSlug: "roberto-van-den-elzen", deck: "Unknown", deckSlug: "unknown", omwPercentage: "47.22%", matchPoints: 11 },
+    { position: 15, player: "Raymond Anderson", playerSlug: "raymond-anderson", deck: "Unknown", deckSlug: "unknown", omwPercentage: "50.93%", matchPoints: 10 },
+    { position: 16, player: "Tom de Ruiter", playerSlug: "tom-de-ruiter", deck: "Unknown", deckSlug: "unknown", omwPercentage: "45.37%", matchPoints: 10 },
+    { position: 17, player: "Stefan van der List", playerSlug: "stefan-van-der-list", deck: "Unknown", deckSlug: "unknown", omwPercentage: "45.37%", matchPoints: 10 },
+    { position: 18, player: "Alice Lenting", playerSlug: "alice-lenting", deck: "Unknown", deckSlug: "unknown", omwPercentage: "63.89%", matchPoints: 9 },
+    { position: 19, player: "Raaayyyyyyyyyy", playerSlug: "raaayyyyyyyyyy", deck: "Unknown", deckSlug: "unknown", omwPercentage: "62.96%", matchPoints: 9 },
+    { position: 20, player: "Dylan van Gelder", playerSlug: "dylan-van-gelder", deck: "Unknown", deckSlug: "unknown", omwPercentage: "61.11%", matchPoints: 9 },
+    { position: 21, player: "Noah Westerweel", playerSlug: "noah-westerweel", deck: "Unknown", deckSlug: "unknown", omwPercentage: "59.26%", matchPoints: 9 },
+    { position: 22, player: "soufian hriz", playerSlug: "soufian-hriz", deck: "Unknown", deckSlug: "unknown", omwPercentage: "53.70%", matchPoints: 9 },
+    { position: 23, player: "Gianvito Taneburgo", playerSlug: "gianvito-taneburgo", deck: "Unknown", deckSlug: "unknown", omwPercentage: "53.70%", matchPoints: 9 },
+    { position: 24, player: "Tim Laros", playerSlug: "tim-laros", deck: "Unknown", deckSlug: "unknown", omwPercentage: "50.93%", matchPoints: 9 },
+    { position: 25, player: "Michael Joseph Purcell", playerSlug: "michael-joseph-purcell", deck: "Unknown", deckSlug: "unknown", omwPercentage: "49.07%", matchPoints: 9 },
+    { position: 26, player: "Alexander Hamilton", playerSlug: "alexander-hamilton", deck: "Unknown", deckSlug: "unknown", omwPercentage: "47.11%", matchPoints: 9 },
+    { position: 27, player: "Simon Isphording", playerSlug: "simon-isphording", deck: "Unknown", deckSlug: "unknown", omwPercentage: "44.39%", matchPoints: 9 },
+    { position: 28, player: "Lucas Feliciano", playerSlug: "lucas-feliciano", deck: "Unknown", deckSlug: "unknown", omwPercentage: "43.52%", matchPoints: 9 },
+    { position: 29, player: "Davey Barendregt", playerSlug: "davey-barendregt", deck: "Unknown", deckSlug: "unknown", omwPercentage: "60.00%", matchPoints: 7 },
+    { position: 30, player: "Harm steenbakkers", playerSlug: "harm-steenbakkers", deck: "Unknown", deckSlug: "unknown", omwPercentage: "52.72%", matchPoints: 7 },
+    { position: 31, player: "Aartos Locos", playerSlug: "aartos-locos", deck: "Unknown", deckSlug: "unknown", omwPercentage: "48.91%", matchPoints: 7 },
+    { position: 32, player: "Jose Jiménez Guerrero", playerSlug: "jose-jimnez-guerrero", deck: "Unknown", deckSlug: "unknown", omwPercentage: "42.54%", matchPoints: 7 },
+    { position: 33, player: "Fernando Tong", playerSlug: "fernando-tong", deck: "Unknown", deckSlug: "unknown", omwPercentage: "42.09%", matchPoints: 7 },
+    { position: 34, player: "vinicius duarte", playerSlug: "vinicius-duarte", deck: "Unknown", deckSlug: "unknown", omwPercentage: "38.78%", matchPoints: 7 },
+    { position: 35, player: "Rob Lamers", playerSlug: "rob-lamers", deck: "Unknown", deckSlug: "unknown", omwPercentage: "59.20%", matchPoints: 6 },
+    { position: 36, player: "Stefan Pouwelse", playerSlug: "stefan-pouwelse", deck: "Unknown", deckSlug: "unknown", omwPercentage: "55.56%", matchPoints: 6 },
+    { position: 37, player: "Toon de Vet", playerSlug: "toon-de-vet", deck: "Unknown", deckSlug: "unknown", omwPercentage: "50.87%", matchPoints: 6 },
+    { position: 38, player: "Vanessa Weber", playerSlug: "vanessa-weber", deck: "Unknown", deckSlug: "unknown", omwPercentage: "50.00%", matchPoints: 6 },
+    { position: 39, player: "Collin Bos", playerSlug: "collin-bos", deck: "Unknown", deckSlug: "unknown", omwPercentage: "49.94%", matchPoints: 6 },
+    { position: 40, player: "Tijmen van der Kamp", playerSlug: "tijmen-van-der-kamp", deck: "Unknown", deckSlug: "unknown", omwPercentage: "48.15%", matchPoints: 6 },
+    { position: 41, player: "Rob Kerlin", playerSlug: "rob-kerlin", deck: "Unknown", deckSlug: "unknown", omwPercentage: "42.54%", matchPoints: 6 },
+    { position: 42, player: "Leonardo Paternotte", playerSlug: "leonardo-paternotte", deck: "Unknown", deckSlug: "unknown", omwPercentage: "40.00%", matchPoints: 6 },
+    { position: 43, player: "Floris Stapel", playerSlug: "floris-stapel", deck: "Unknown", deckSlug: "unknown", omwPercentage: "55.56%", matchPoints: 4 },
+    { position: 44, player: "Irshaad", playerSlug: "irshaad", deck: "Unknown", deckSlug: "unknown", omwPercentage: "56.43%", matchPoints: 3 },
+    { position: 45, player: "Eef vV", playerSlug: "eef-vv", deck: "Unknown", deckSlug: "unknown", omwPercentage: "52.72%", matchPoints: 3 },
+    { position: 46, player: "Tim Swillens", playerSlug: "tim-swillens", deck: "Unknown", deckSlug: "unknown", omwPercentage: "37.91%", matchPoints: 0 },
+    { position: 47, player: "Mirco Bonati", playerSlug: "mirco-bonati", deck: "Unknown", deckSlug: "unknown", omwPercentage: "40.19%", matchPoints: 1 }
+  ],
+  meta: [
+    { archetype: "Unknown", archetypeSlug: "unknown", count: 47, percentage: "100.00%" }
+  ],
 };
