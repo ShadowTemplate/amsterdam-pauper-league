@@ -41,11 +41,15 @@ def load_players_csv(filepath: Path) -> dict:
             player = row.get('Player', '').strip()
             decklist_url = row.get('Decklist', '').strip()
             if player and decklist_url:
-                # Extract deck_id from URL like "https://dutchpauperleague.nl/decks/DECK_ID"
-                match = re.search(r'/decks/([a-z0-9]+)', decklist_url)
-                if match:
-                    deck_id = match.group(1)
-                    player_to_deck_id[player] = deck_id
+                # Extract deck_id from URLs like:
+                # - https://dutchpauperleague.nl/decks/DECK_ID
+                # - https://topdeck.gg/deck/DECK_SLUG/DECK_ID
+                # - https://topdeck.gg/deck/DECK_ID
+                # Strategy: extract the last non-empty path component
+                path = decklist_url.split('?')[0]  # Remove query params
+                last_component = path.rstrip('/').split('/')[-1]
+                if last_component:
+                    player_to_deck_id[player] = last_component
     return player_to_deck_id
 
 
@@ -76,13 +80,34 @@ def find_event_ts_file(event_name: str) -> tuple:
     return None, None
 
 
+def build_player_to_deck_slug_map(events_dir: Path = Path("src/lib/data/events")) -> dict:
+    """Build a mapping of player -> deck_slug by reading event TS files."""
+    player_to_deck_slug = {}
+    for event_file in events_dir.glob("*.ts"):
+        with open(event_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+            # Extract standing entries: player: "Player Name", ... deckSlug: "deck-slug"
+            for match in re.finditer(r'player:\s*"([^"]+)".*?deckSlug:\s*"([^"]+)"', content, re.DOTALL):
+                player = match.group(1)
+                deck_slug = match.group(2)
+                if player not in player_to_deck_slug:
+                    player_to_deck_slug[player] = deck_slug
+    return player_to_deck_slug
+
+
 def normalize_slug(text: str) -> str:
-    """Convert text to slug format (lowercase, hyphens for spaces/special chars)."""
+    """Convert text to pauperformance.com-compatible slug format.
+    Examples: "MonoR Madness" -> "monor_madness", "Jund Wildfire" -> "jund_wildfire"
+    Pattern: lowercase, remove non-word chars except spaces, replace spaces with underscores
+    """
     text = text.lower()
-    text = re.sub(r'[^\w\s-]', '', text)
-    text = re.sub(r'[\s_]+', '-', text)
-    text = re.sub(r'-+', '-', text)
-    return text.strip('-')
+    # Remove non-word characters (keep only alphanumeric and spaces)
+    text = re.sub(r'[^\w\s]', '', text)
+    # Replace one or more spaces with a single underscore
+    text = re.sub(r'\s+', '_', text)
+    # Collapse multiple underscores into one
+    text = re.sub(r'_+', '_', text)
+    return text.strip('_')
 
 
 def js_str(s) -> str:
@@ -140,6 +165,8 @@ def main():
                 if name_match:
                     event_data[event_name]['event_name'] = name_match.group(1)
 
+    # Note: We generate pauperformance.com-compatible slugs from archetype names
+
     # Aggregate archetype data
     archetype_stats = defaultdict(lambda: {'count': 0, 'appearances': []})
     all_archetypes_for_summary = set()
@@ -182,7 +209,7 @@ def main():
             archetype_name = arch_mapping[deck_id]
             all_archetypes_for_summary.add(archetype_name)
 
-            # Normalize archetype name to slug
+            # Generate pauperformance.com-compatible slug from archetype name
             arch_slug = normalize_slug(archetype_name)
 
             archetype_stats[arch_slug]['count'] += 1
