@@ -35,7 +35,7 @@ export const eventDetail: EventDetail = {
     { position: 18, player: "Tobias van Kersbergen", playerSlug: "tobias_van_kersbergen", deck: "White Weenie", deckSlug: "white_weenie", omwPercentage: "62.60%", matchPoints: 6 },
     { position: 19, player: "Gianvito Taneburgo", playerSlug: "gianvito_taneburgo", deck: "Brew", deckSlug: "brew", omwPercentage: "62.60%", matchPoints: 6 },
     { position: 20, player: "Davy Baardink", playerSlug: "davy_baardink", deck: "Naya Gates", deckSlug: "naya_gates", omwPercentage: "61.33%", matchPoints: 6 },
-    { position: 21, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Walls", deckSlug: "walls", omwPercentage: "58.60%", matchPoints: 6 },
+    { position: 21, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Walls", deckSlug: "walls", omwPercentage: "58.60%", matchPoints: 6 },
     { position: 22, player: "Koen de Vos", playerSlug: "koen_de_vos", deck: "MonoU Terror", deckSlug: "monou_terror", omwPercentage: "54.53%", matchPoints: 6 },
     { position: 23, player: "Sam Ye", playerSlug: "sam_ye", deck: "Izzet Terror", deckSlug: "izzet_terror", omwPercentage: "42.53%", matchPoints: 6 },
     { position: 24, player: "Toon de Vet", playerSlug: "toon_de_vet", deck: "Familiars", deckSlug: "familiars", omwPercentage: "47.93%", matchPoints: 5 },

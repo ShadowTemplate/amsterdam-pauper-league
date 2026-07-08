@@ -35,7 +35,7 @@ export const eventDetail: EventDetail = {
     { position: 18, player: "Ettore Cerracchio", playerSlug: "ettore_cerracchio", deck: "Jund Wildfire", deckSlug: "jund_wildfire", omwPercentage: "56.48%", matchPoints: 10 },
     { position: 19, player: "Felipe Inza", playerSlug: "felipe_inza", deck: "Dimir Faeries", deckSlug: "dimir_faeries", omwPercentage: "55.31%", matchPoints: 10 },
     { position: 20, player: "Koen de Vos", playerSlug: "koen_de_vos", deck: "Boros Synth", deckSlug: "boros_synth", omwPercentage: "51.85%", matchPoints: 10 },
-    { position: 21, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Brew", deckSlug: "brew", omwPercentage: "51.80%", matchPoints: 10 },
+    { position: 21, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Brew", deckSlug: "brew", omwPercentage: "51.80%", matchPoints: 10 },
     { position: 22, player: "Nigel Stikker", playerSlug: "nigel_stikker", deck: "Jund Wildfire", deckSlug: "jund_wildfire", omwPercentage: "64.81%", matchPoints: 9 },
     { position: 23, player: "Rob Nolle", playerSlug: "rob_nolle", deck: "Izzet Terror", deckSlug: "izzet_terror", omwPercentage: "63.89%", matchPoints: 9 },
     { position: 24, player: "Ashley Bits", playerSlug: "ashley_bits", deck: "MonoU Faeries", deckSlug: "monou_faeries", omwPercentage: "57.78%", matchPoints: 9 },
@@ -71,7 +71,7 @@ export const eventDetail: EventDetail = {
     { position: 54, player: "Wouter Hordijk", playerSlug: "wouter_hordijk", deck: "MonoB Sacrifice", deckSlug: "monob_sacrifice", omwPercentage: "49.02%", matchPoints: 3 },
     { position: 55, player: "Roberto Schiavone", playerSlug: "roberto_schiavone", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "48.15%", matchPoints: 3 },
     { position: 56, player: "Antonio Liguori", playerSlug: "antonio_liguori", deck: "MonoU Faeries", deckSlug: "monou_faeries", omwPercentage: "41.42%", matchPoints: 3 },
-    { position: 57, player: "Max Moriette-Sala", playerSlug: "max_moriettesala", deck: "Burn", deckSlug: "burn", omwPercentage: "41.11%", matchPoints: 3 },
+    { position: 57, player: "Max Moriette-Sala", playerSlug: "max_moriette_sala", deck: "Burn", deckSlug: "burn", omwPercentage: "41.11%", matchPoints: 3 },
     { position: 58, player: "Marvin Schippmann", playerSlug: "marvin_schippmann", deck: "Brew", deckSlug: "brew", omwPercentage: "46.24%", matchPoints: 0 },
   ],
   meta: [

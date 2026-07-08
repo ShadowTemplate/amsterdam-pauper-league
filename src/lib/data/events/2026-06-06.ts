@@ -53,7 +53,7 @@ export const eventDetail: EventDetail = {
     { position: 36, player: "Thomas Wood", playerSlug: "thomas_wood", deck: "Golgari Gardens", deckSlug: "golgari_gardens", omwPercentage: "50.00%", matchPoints: 7 },
     { position: 37, player: "Nicolas Bordenabe", playerSlug: "nicolas_bordenabe", deck: "Spy Walls", deckSlug: "spy_walls", omwPercentage: "49.94%", matchPoints: 7 },
     { position: 38, player: "Collin Bos", playerSlug: "collin_bos", deck: "Jund Wildfire", deckSlug: "jund_wildfire", omwPercentage: "48.33%", matchPoints: 7 },
-    { position: 39, player: "Klaas-Jan Gorter", playerSlug: "klaasjan_gorter", deck: "Golgari Dredge", deckSlug: "golgari_dredge", omwPercentage: "46.30%", matchPoints: 7 },
+    { position: 39, player: "Klaas-Jan Gorter", playerSlug: "klaas_jan_gorter", deck: "Golgari Dredge", deckSlug: "golgari_dredge", omwPercentage: "46.30%", matchPoints: 7 },
     { position: 40, player: "Johan Boesveld", playerSlug: "johan_boesveld", deck: "MonoU Faeries", deckSlug: "monou_faeries", omwPercentage: "46.19%", matchPoints: 7 },
     { position: 41, player: "Emmanuel Blazquez", playerSlug: "emmanuel_blazquez", deck: "Jund Wildfire", deckSlug: "jund_wildfire", omwPercentage: "44.46%", matchPoints: 7 },
     { position: 42, player: "Max Roovers", playerSlug: "max_roovers", deck: "Ruby Storm", deckSlug: "ruby_storm", omwPercentage: "65.74%", matchPoints: 6 },

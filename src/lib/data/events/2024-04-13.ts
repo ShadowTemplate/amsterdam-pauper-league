@@ -39,7 +39,7 @@ export const eventDetail: EventDetail = {
     { position: 22, player: "Simon Isphording", playerSlug: "simon_isphording", deck: "Familiars", deckSlug: "familiars", omwPercentage: "48.09%", matchPoints: 7 },
     { position: 23, player: "Lucas Feliciano", playerSlug: "lucas_feliciano", deck: "Dimir Faeries", deckSlug: "dimir_faeries", omwPercentage: "48.09%", matchPoints: 7 },
     { position: 24, player: "Gino De Guzman", playerSlug: "gino_de_guzman", deck: "Azorius Glitters", deckSlug: "azorius_glitters", omwPercentage: "44.39%", matchPoints: 7 },
-    { position: 25, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "55.56%", matchPoints: 6 },
+    { position: 25, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "55.56%", matchPoints: 6 },
     { position: 26, player: "Gianvito Taneburgo", playerSlug: "gianvito_taneburgo", deck: "Familiars", deckSlug: "familiars", omwPercentage: "55.56%", matchPoints: 6 },
     { position: 27, player: "Yasmin Saciri", playerSlug: "yasmin_saciri", deck: "Bogles", deckSlug: "bogles", omwPercentage: "51.85%", matchPoints: 6 },
     { position: 28, player: "Laurent Paardekooper", playerSlug: "laurent_paardekooper", deck: "Naya Turbo Emblem", deckSlug: "naya_turbo_emblem", omwPercentage: "42.48%", matchPoints: 6 },

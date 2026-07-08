@@ -33,7 +33,7 @@ export const eventDetail: EventDetail = {
     { position: 16, player: "Robbert", playerSlug: "robbert", deck: "Moggwarts", deckSlug: "moggwarts", omwPercentage: "55.50%", matchPoints: 9 },
     { position: 17, player: "Jan Rijnbeek", playerSlug: "jan_rijnbeek", deck: "Golgari Gardens", deckSlug: "golgari_gardens", omwPercentage: "55.44%", matchPoints: 9 },
     { position: 18, player: "Max Roovers", playerSlug: "max_roovers", deck: "Walls", deckSlug: "walls", omwPercentage: "52.78%", matchPoints: 9 },
-    { position: 19, player: "Panagiotis Lantavos-Stratigakis", playerSlug: "panagiotis_lantavosstratigakis", deck: "Boros Glitters", deckSlug: "boros_glitters", omwPercentage: "52.67%", matchPoints: 9 },
+    { position: 19, player: "Panagiotis Lantavos-Stratigakis", playerSlug: "panagiotis_lantavos_stratigakis", deck: "Boros Glitters", deckSlug: "boros_glitters", omwPercentage: "52.67%", matchPoints: 9 },
     { position: 20, player: "Leo Rodrigo Heran Balbuena", playerSlug: "leo_rodrigo_heran_balbuena", deck: "Boros Glitters", deckSlug: "boros_glitters", omwPercentage: "49.94%", matchPoints: 9 },
     { position: 21, player: "Tijmen van der Kamp", playerSlug: "tijmen_van_der_kamp", deck: "Temur Ponza", deckSlug: "temur_ponza", omwPercentage: "49.02%", matchPoints: 9 },
     { position: 22, player: "Iain Ligthart", playerSlug: "iain_ligthart", deck: "MonoU Terror", deckSlug: "monou_terror", omwPercentage: "46.24%", matchPoints: 9 },

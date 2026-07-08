@@ -15,7 +15,7 @@ export const event: Event = {
 export const eventDetail: EventDetail = {
   ...event,
   standings: [
-    { position: 1, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Walls", deckSlug: "walls", omwPercentage: "59.20%", matchPoints: 18 },
+    { position: 1, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Walls", deckSlug: "walls", omwPercentage: "59.20%", matchPoints: 18 },
     { position: 2, player: "Tijmen van der Kamp", playerSlug: "tijmen_van_der_kamp", deck: "Gruul Ponza", deckSlug: "gruul_ponza", omwPercentage: "67.59%", matchPoints: 15 },
     { position: 3, player: "Hidde van 't Verlaat", playerSlug: "hidde_van_t_verlaat", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "63.89%", matchPoints: 15 },
     { position: 4, player: "Dylan Holly", playerSlug: "dylan_holly", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "57.41%", matchPoints: 15 },

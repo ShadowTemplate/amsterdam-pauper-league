@@ -16,7 +16,7 @@ export const eventDetail: EventDetail = {
   ...event,
   standings: [
     { position: 1, player: "Sam Ye", playerSlug: "sam_ye", deck: "Gruul Ponza", deckSlug: "gruul_ponza", omwPercentage: "63.89%", matchPoints: 15 },
-    { position: 2, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Walls", deckSlug: "walls", omwPercentage: "63.83%", matchPoints: 15 },
+    { position: 2, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Walls", deckSlug: "walls", omwPercentage: "63.83%", matchPoints: 15 },
     { position: 3, player: "Gianvito Taneburgo", playerSlug: "gianvito_taneburgo", deck: "Altar Tron", deckSlug: "altar_tron", omwPercentage: "62.04%", matchPoints: 15 },
     { position: 4, player: "Bauke Ham", playerSlug: "bauke_ham", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "59.26%", matchPoints: 13 },
     { position: 5, player: "Jan Rijnbeek", playerSlug: "jan_rijnbeek", deck: "Golgari Gardens", deckSlug: "golgari_gardens", omwPercentage: "48.09%", matchPoints: 13 },

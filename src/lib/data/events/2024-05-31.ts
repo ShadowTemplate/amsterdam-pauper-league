@@ -35,7 +35,7 @@ export const eventDetail: EventDetail = {
     { position: 18, player: "Dylan Holly", playerSlug: "dylan_holly", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "61.98%", matchPoints: 9 },
     { position: 19, player: "Max Roovers", playerSlug: "max_roovers", deck: "MonoR Tron", deckSlug: "monor_tron", omwPercentage: "61.06%", matchPoints: 9 },
     { position: 20, player: "Guus Hinrichs", playerSlug: "guus_hinrichs", deck: "Golgari Gardens", deckSlug: "golgari_gardens", omwPercentage: "55.56%", matchPoints: 9 },
-    { position: 21, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Moggwarts", deckSlug: "moggwarts", omwPercentage: "52.72%", matchPoints: 9 },
+    { position: 21, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Moggwarts", deckSlug: "moggwarts", omwPercentage: "52.72%", matchPoints: 9 },
     { position: 22, player: "Gianvito Taneburgo", playerSlug: "gianvito_taneburgo", deck: "Brew Golgari", deckSlug: "brew_golgari", omwPercentage: "50.74%", matchPoints: 9 },
     { position: 23, player: "Nicolas Bordenabe", playerSlug: "nicolas_bordenabe", deck: "Boros Synth", deckSlug: "boros_synth", omwPercentage: "49.02%", matchPoints: 9 },
     { position: 24, player: "Leo Rodrigo Heran Balbuena", playerSlug: "leo_rodrigo_heran_balbuena", deck: "Affinity", deckSlug: "affinity", omwPercentage: "45.31%", matchPoints: 9 },

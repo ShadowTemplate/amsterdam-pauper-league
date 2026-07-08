@@ -5,62 +5,17 @@ Run from project root: python3 scripts/generate_archetypes.py
 """
 
 import json
-import csv
 import re
 from pathlib import Path
 from collections import defaultdict
-from urllib.parse import urlparse
+from utils import (
+    normalize_slug, js_str, extract_event_name,
+    load_archetypes_json, load_players_csv, load_standings_csv
+)
 
 ARCHETYPES_DIR = Path("data/archetypes")
 TOPDECK_DIR = Path("data/topdeck")
 OUTPUT_FILE = Path("src/lib/data/archetypes.ts")
-
-
-def extract_event_name(filename: str) -> str:
-    """Extract event name from filename.
-    E.g., 'archetypes_Dutch Pauper League – 1° Leg – 2024.json' -> 'Dutch Pauper League – 1° Leg – 2024'
-    """
-    # Remove prefix (archetypes_, standings_, players_) and suffix (.json, .csv)
-    name = re.sub(r'^(archetypes_|standings_|players_)', '', filename)
-    name = re.sub(r'\.(json|csv)$', '', name)
-    return name
-
-
-def load_archetypes_json(filepath: Path) -> dict:
-    """Load archetype mapping from JSON file."""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-
-def load_players_csv(filepath: Path) -> dict:
-    """Load players CSV and extract Player -> deck_id mapping."""
-    player_to_deck_id = {}
-    with open(filepath, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            player = row.get('Player', '').strip()
-            decklist_url = row.get('Decklist', '').strip()
-            if player and decklist_url:
-                # Extract deck_id from URLs like:
-                # - https://dutchpauperleague.nl/decks/DECK_ID
-                # - https://topdeck.gg/deck/DECK_SLUG/DECK_ID
-                # - https://topdeck.gg/deck/DECK_ID
-                # Strategy: extract the last non-empty path component
-                path = decklist_url.split('?')[0]  # Remove query params
-                last_component = path.rstrip('/').split('/')[-1]
-                if last_component:
-                    player_to_deck_id[player] = last_component
-    return player_to_deck_id
-
-
-def load_standings_csv(filepath: Path) -> list:
-    """Load standings CSV."""
-    standings = []
-    with open(filepath, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            standings.append(row)
-    return standings
 
 
 def find_event_ts_file(event_name: str) -> tuple:
@@ -95,35 +50,13 @@ def build_player_to_deck_slug_map(events_dir: Path = Path("src/lib/data/events")
     return player_to_deck_slug
 
 
-def normalize_slug(text: str) -> str:
-    """Convert text to pauperformance.com-compatible slug format.
-    Examples: "MonoR Madness" -> "monor_madness", "Jund Wildfire" -> "jund_wildfire"
-    Pattern: lowercase, remove non-word chars except spaces, replace spaces with underscores
-    """
-    text = text.lower()
-    # Remove non-word characters (keep only alphanumeric and spaces)
-    text = re.sub(r'[^\w\s]', '', text)
-    # Replace one or more spaces with a single underscore
-    text = re.sub(r'\s+', '_', text)
-    # Collapse multiple underscores into one
-    text = re.sub(r'_+', '_', text)
-    return text.strip('_')
-
-
-def js_str(s) -> str:
-    """Convert Python string to JS string literal."""
-    if s is None:
-        return '""'
-    return json.dumps(str(s), ensure_ascii=False)
-
-
 def main():
     print("Scanning for archetype and standings data...")
 
     # Find all archetype JSON files and match with standings CSVs
     archetype_files = sorted(ARCHETYPES_DIR.glob("*.json"))
-    standings_files = sorted(TOPDECK_DIR.glob("standings_*.csv"))
-    players_files = sorted(TOPDECK_DIR.glob("players_*.csv"))
+    standings_files = sorted((TOPDECK_DIR / "standings").glob("*.csv"))
+    players_files = sorted((TOPDECK_DIR / "players").glob("*.csv"))
 
     print(f"Found {len(archetype_files)} archetype files")
     print(f"Found {len(standings_files)} standings files")

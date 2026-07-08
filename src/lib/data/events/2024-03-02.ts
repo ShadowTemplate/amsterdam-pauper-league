@@ -27,7 +27,7 @@ export const eventDetail: EventDetail = {
     { position: 10, player: "Kasper Zijl", playerSlug: "kasper_zijl", deck: "Dimir Faeries", deckSlug: "dimir_faeries", omwPercentage: "53.27%", matchPoints: 9 },
     { position: 11, player: "Jan Rijnbeek", playerSlug: "jan_rijnbeek", deck: "Golgari Gardens", deckSlug: "golgari_gardens", omwPercentage: "42.53%", matchPoints: 9 },
     { position: 12, player: "Nicola Gnasso", playerSlug: "nicola_gnasso", deck: "Orzhov Blade", deckSlug: "orzhov_blade", omwPercentage: "66.67%", matchPoints: 7 },
-    { position: 13, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "65.27%", matchPoints: 7 },
+    { position: 13, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "65.27%", matchPoints: 7 },
     { position: 14, player: "Gianvito Taneburgo", playerSlug: "gianvito_taneburgo", deck: "Familiars", deckSlug: "familiars", omwPercentage: "57.27%", matchPoints: 7 },
     { position: 15, player: "Jari Van Schaik", playerSlug: "jari_van_schaik", deck: "Golgari Dredge", deckSlug: "golgari_dredge", omwPercentage: "49.27%", matchPoints: 7 },
     { position: 16, player: "Tim Bunnik", playerSlug: "tim_bunnik", deck: "Flicker Tron", deckSlug: "flicker_tron", omwPercentage: "45.13%", matchPoints: 7 },

@@ -24,7 +24,7 @@ export const eventDetail: EventDetail = {
     { position: 7, player: "Nicolas Komanski", playerSlug: "nicolas_komanski", deck: "MonoR Madness", deckSlug: "monor_madness", omwPercentage: "54.33%", matchPoints: 16 },
     { position: 8, player: "Floris Heins", playerSlug: "floris_heins", deck: "MonoR Rally", deckSlug: "monor_rally", omwPercentage: "59.86%", matchPoints: 15 },
     { position: 9, player: "Hidde van 't Verlaat", playerSlug: "hidde_van_t_verlaat", deck: "Azorius Gates", deckSlug: "azorius_gates", omwPercentage: "57.10%", matchPoints: 15 },
-    { position: 10, player: "Klaas-Jan Gorter", playerSlug: "klaasjan_gorter", deck: "MonoR Blitz", deckSlug: "monor_blitz", omwPercentage: "53.01%", matchPoints: 15 },
+    { position: 10, player: "Klaas-Jan Gorter", playerSlug: "klaas_jan_gorter", deck: "MonoR Blitz", deckSlug: "monor_blitz", omwPercentage: "53.01%", matchPoints: 15 },
     { position: 11, player: "Roberto van den Elzen", playerSlug: "roberto_van_den_elzen", deck: "Goblins", deckSlug: "goblins", omwPercentage: "52.33%", matchPoints: 15 },
     { position: 12, player: "Max Roovers", playerSlug: "max_roovers", deck: "MonoR Madness", deckSlug: "monor_madness", omwPercentage: "52.29%", matchPoints: 15 },
     { position: 13, player: "Abe Mulder", playerSlug: "abe_mulder", deck: "Izzet Terror", deckSlug: "izzet_terror", omwPercentage: "46.21%", matchPoints: 15 },

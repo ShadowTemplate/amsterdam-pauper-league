@@ -18,7 +18,7 @@ export const eventDetail: EventDetail = {
     { position: 1, player: "Kasper Zijl", playerSlug: "kasper_zijl", deck: "Gruul Ramp", deckSlug: "gruul_ramp", omwPercentage: "58.28%", matchPoints: 18 },
     { position: 2, player: "Bram Deppenbroek", playerSlug: "bram_deppenbroek", deck: "MonoU Faeries", deckSlug: "monou_faeries", omwPercentage: "73.15%", matchPoints: 15 },
     { position: 3, player: "Raven de Bruin", playerSlug: "raven_de_bruin", deck: "Dimir Faeries", deckSlug: "dimir_faeries", omwPercentage: "53.65%", matchPoints: 15 },
-    { position: 4, player: "Vlad-Alexandru Negară", playerSlug: "vladalexandru_negară", deck: "Walls", deckSlug: "walls", omwPercentage: "62.96%", matchPoints: 13 },
+    { position: 4, player: "Vlad-Alexandru Negară", playerSlug: "vlad_alexandru_negar", deck: "Walls", deckSlug: "walls", omwPercentage: "62.96%", matchPoints: 13 },
     { position: 5, player: "Youri Bakker", playerSlug: "youri_bakker", deck: "Gruul Ponza", deckSlug: "gruul_ponza", omwPercentage: "62.04%", matchPoints: 13 },
     { position: 6, player: "Tijmen van der Kamp", playerSlug: "tijmen_van_der_kamp", deck: "Gruul Ponza", deckSlug: "gruul_ponza", omwPercentage: "60.19%", matchPoints: 13 },
     { position: 7, player: "Sam Ye", playerSlug: "sam_ye", deck: "Jund Wildfire", deckSlug: "jund_wildfire", omwPercentage: "56.48%", matchPoints: 13 },

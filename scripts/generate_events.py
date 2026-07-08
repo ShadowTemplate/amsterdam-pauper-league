@@ -6,11 +6,14 @@ Run from project root: python3 scripts/generate_events.py
 """
 
 import json
-import csv
 import re
 from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
+from utils import (
+    normalize_slug, js_str, extract_event_name, extract_date_from_filename,
+    load_archetypes_json, load_players_csv, load_standings_csv
+)
 
 TOPDECK_DIR = Path("data/topdeck")
 ARCHETYPES_DIR = Path("data/archetypes")
@@ -23,85 +26,11 @@ STATUS = "past"
 REGISTRATION_URL = "https://topdeck.gg"
 
 
-def extract_date_from_filename(filename: str) -> str:
-    """Extract date from filename suffix (e.g., standings_EventName_YYYY-MM-DD.csv -> YYYY-MM-DD)."""
-    match = re.search(r'_(\d{4}-\d{2}-\d{2})\.(csv|json)$', filename)
-    if match:
-        return match.group(1)
-    return None
-
-
-def extract_event_name(filename: str) -> str:
-    """Extract event name from filename (remove prefix, date suffix, and file extension).
-    E.g., 'standings_Dutch Pauper League – 1° Leg – 2024_2024-03-02.csv' -> 'Dutch Pauper League – 1° Leg – 2024'
-    """
-    name = re.sub(r'^(standings_|players_|archetypes_)', '', filename)
-    # Remove file extension
-    name = re.sub(r'\.(csv|json)$', '', name)
-    # Remove date suffix (e.g., _YYYY-MM-DD)
-    name = re.sub(r'_\d{4}-\d{2}-\d{2}$', '', name)
-    return name
-
-
-def normalize_slug(text: str) -> str:
-    """Convert text to pauperformance.com-compatible slug format with underscores.
-    Examples: "MonoR Madness" -> "monor_madness", "Jund Wildfire" -> "jund_wildfire"
-    """
-    text = text.lower()
-    # Remove non-word characters (keep only alphanumeric and spaces)
-    text = re.sub(r'[^\w\s]', '', text)
-    # Replace one or more spaces with a single underscore
-    text = re.sub(r'\s+', '_', text)
-    # Collapse multiple underscores into one
-    text = re.sub(r'_+', '_', text)
-    return text.strip('_')
-
-
-def js_str(s) -> str:
-    """Convert Python string to JS string literal."""
-    if s is None:
-        return '""'
-    return json.dumps(str(s), ensure_ascii=False)
-
-
-def load_archetypes_json(filepath: Path) -> dict:
-    """Load archetype mapping from JSON file."""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-
-def load_standings_csv(filepath: Path) -> list:
-    """Load standings CSV."""
-    standings = []
-    with open(filepath, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            standings.append(row)
-    return standings
-
-
-def load_players_csv(filepath: Path) -> dict:
-    """Load players CSV and extract Player -> deck_id mapping."""
-    player_to_deck_id = {}
-    with open(filepath, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            player = row.get('Player', '').strip()
-            decklist_url = row.get('Decklist', '').strip()
-            if player and decklist_url:
-                # Extract deck_id from last path component
-                path = decklist_url.split('?')[0]
-                last_component = path.rstrip('/').split('/')[-1]
-                if last_component:
-                    player_to_deck_id[player] = last_component
-    return player_to_deck_id
-
-
 def main():
     print("Scanning for event data...")
 
     # Find all standings files and match with archetypes and players
-    standings_files = sorted(TOPDECK_DIR.glob("standings_*.csv"))
+    standings_files = sorted((TOPDECK_DIR / "standings").glob("*.csv"))
     print(f"Found {len(standings_files)} events")
 
     for standings_file in standings_files:
@@ -117,7 +46,7 @@ def main():
         # Find corresponding files - need to find the matching files with same date
         date_suffix = f"_{event_slug}"
         archetypes_file = ARCHETYPES_DIR / f"archetypes_{event_name}{date_suffix}.json"
-        players_file = TOPDECK_DIR / f"players_{event_name}{date_suffix}.csv"
+        players_file = (TOPDECK_DIR / "players") / f"{event_name}{date_suffix}.csv"
 
         if not archetypes_file.exists():
             print(f"⚠️  Missing archetypes JSON")
