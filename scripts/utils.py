@@ -101,3 +101,12 @@ def load_standings_csv(filepath: Path) -> list:
         for row in reader:
             standings.append(row)
     return standings
+
+
+def get_venue(event_name: str) -> str:
+    """Determine venue based on event name.
+    Rule: Stroopwafel IPT events are at StayOkay Oost Hostel, all others at Pondok.
+    """
+    if "Stroopwafel IPT" in event_name:
+        return "StayOkay Oost Hostel"
+    return "Pondok"

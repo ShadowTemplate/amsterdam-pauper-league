@@ -12,7 +12,7 @@ from collections import defaultdict
 from datetime import datetime
 from utils import (
     normalize_slug, js_str, extract_event_name, extract_date_from_filename,
-    load_archetypes_json, load_players_csv, load_standings_csv
+    load_archetypes_json, load_players_csv, load_standings_csv, get_venue
 )
 
 TOPDECK_DIR = Path("data/topdeck")
@@ -20,7 +20,6 @@ ARCHETYPES_DIR = Path("data/archetypes")
 EVENTS_DIR = Path("src/lib/data/events")
 
 # Default event metadata
-VENUE = "Pondok"
 FORMAT_TYPE = "paper"
 STATUS = "past"
 REGISTRATION_URL = "https://topdeck.gg"
@@ -148,7 +147,7 @@ def main():
             f"  slug: {js_str(event_slug)},",
             f"  name: {js_str(event_name)},",
             f"  date: {js_str(event_slug)},",
-            f"  venue: {js_str(VENUE)},",
+            f"  venue: {js_str(get_venue(event_name))},",
             f"  format: {js_str(FORMAT_TYPE)},",
             f"  status: {js_str(STATUS)},",
             f"  winner: {js_str(winner)},",

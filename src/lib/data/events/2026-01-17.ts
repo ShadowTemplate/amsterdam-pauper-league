@@ -4,7 +4,7 @@ export const event: Event = {
   slug: "2026-01-17",
   name: "Stroopwafel IPT",
   date: "2026-01-17",
-  venue: "Pondok",
+  venue: "StayOkay Oost Hostel",
   format: "paper",
   status: "past",
   winner: "Ross McKendrick",
