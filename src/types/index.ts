@@ -61,6 +61,8 @@ export interface LeagueStanding {
   points: number;
   flight?: boolean;
   bye?: boolean;
+  /** Position change after the most recent leg: positive = moved up, negative = down, 0 = held. Absent if there's no prior leg to compare to (e.g. their first leg). */
+  positionChange?: number;
 }
 
 export interface LeagueStats {

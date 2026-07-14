@@ -89,6 +89,18 @@ def load_awards(year: int, seasons_info: dict) -> list:
     return seasons_info.get(str(year), {}).get('awards', [])
 
 
+def rank_players(events: list) -> dict:
+    """Return {player_name: position} for the standings these events alone
+    would produce (same points-sum + tie-break rule as the real standings)."""
+    points_by_player = defaultdict(int)
+    for event in events:
+        for standing in event['standings']:
+            points_by_player[standing['player']] += standing['matchPoints']
+
+    ranked = sorted(points_by_player.items(), key=lambda kv: (-kv[1], kv[0].lower()))
+    return {player: i for i, (player, _) in enumerate(ranked, start=1)}
+
+
 def compute_byes_unlocked(player_counts: list) -> int:
     """Byes unlocked for a season, based on average leg attendance.
     If 8+ legs have been played, the least-attended leg is dropped first
@@ -142,8 +154,19 @@ def build_season(year: int, seasons_info: dict) -> dict:
 
     # Rank by points descending; ties broken alphabetically for determinism.
     standings.sort(key=lambda s: (-s['points'], s['player'].lower()))
+
+    # positionChange: how a player's rank moved after the most recently
+    # played leg, vs. where they stood on points from every leg before it.
+    # Positive = moved up (better), negative = moved down, 0 = held.
+    # Omitted entirely for a player with no previous ranking (their first
+    # leg, or a season with 0-1 legs played so far - nothing to compare to).
+    previous_positions = rank_players(past_events[:-1]) if past_events else {}
+
     for i, entry in enumerate(standings, start=1):
         entry['position'] = i
+        prev_position = previous_positions.get(entry['player'])
+        if prev_position is not None:
+            entry['positionChange'] = prev_position - i
 
     # ── Stats ─────────────────────────────────────────────────────────────
     player_counts = [e['playerCount'] for e in past_events]
@@ -192,6 +215,8 @@ def render_season_ts(season: dict) -> str:
             parts.append('flight: true')
         if s.get('bye'):
             parts.append('bye: true')
+        if 'positionChange' in s:
+            parts.append(f'positionChange: {s["positionChange"]}')
         lines.append(f'    {{ {", ".join(parts)} }},')
 
     lines.append('  ],')

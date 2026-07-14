@@ -131,13 +131,13 @@ const { stats } = season;
     <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4 mb-8 items-stretch">
 
       <!-- Left: stacked stat cards -->
-      <div class="flex flex-col gap-4">
-        <div class="flex-1 border border-border p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
-          <div class="text-3xl font-bold font-mono" data-count={stats.uniquePlayers}>{stats.uniquePlayers}</div>
+      <div class="grid grid-cols-2 gap-3 sm:flex sm:flex-col sm:gap-4">
+        <div class="flex-1 border border-border p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
+          <div class="text-2xl sm:text-3xl font-bold font-mono" data-count={stats.uniquePlayers}>{stats.uniquePlayers}</div>
           <div class="text-sm text-muted-foreground">unique players</div>
         </div>
-        <div class="flex-1 border border-border p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
-          <div class="text-3xl font-bold font-mono" data-count={stats.averagePlayers}>{stats.averagePlayers}</div>
+        <div class="flex-1 border border-border p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
+          <div class="text-2xl sm:text-3xl font-bold font-mono" data-count={stats.averagePlayers}>{stats.averagePlayers}</div>
           <div class="text-sm text-muted-foreground">average players</div>
         </div>
       </div>
@@ -180,9 +180,19 @@ const { stats } = season;
 
     <!-- Standings table -->
     <h2 class="text-xl font-semibold mb-4">Standings</h2>
-    <div class="w-full overflow-x-auto">
-      <table class="w-full text-sm border-collapse">
-        <thead>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 items-start">
+      {[
+        season.standings.slice(0, Math.ceil(season.standings.length / 2)),
+        season.standings.slice(Math.ceil(season.standings.length / 2)),
+      ].map((half, i) => (
+      <div class="w-full overflow-x-auto">
+      <table class="w-full text-sm border-collapse table-fixed">
+        <colgroup>
+          <col class="w-12" />
+          <col />
+          <col class="w-16" />
+        </colgroup>
+        <thead class={i > 0 ? "hidden md:table-header-group" : ""}>
           <tr>
             <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-12">
               #
@@ -190,17 +200,32 @@ const { stats } = season;
             <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">
               Player
             </th>
-            <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4">
+            <th class="text-left font-medium text-muted-foreground border-b border-border py-3 px-4 w-16">
               Points
             </th>
           </tr>
         </thead>
         <tbody>
-          {season.standings.map((s) => (
+          {half.map((s) => (
             <tr class="hover:bg-muted/50">
               <td class="py-3 px-4 border-b border-border font-mono">{s.position}</td>
               <td class="py-3 px-4 border-b border-border">
                 <span class="flex items-center gap-2">
+                  {currentYear === CURRENT_SEASON_YEAR && s.positionChange !== undefined && (
+                    s.positionChange > 0 ? (
+                      <svg class="h-4 w-4 text-green-600 dark:text-green-400 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Up ${s.positionChange} since last leg`}>
+                        <path d="m18 15-6-6-6 6" />
+                      </svg>
+                    ) : s.positionChange < 0 ? (
+                      <svg class="h-4 w-4 text-red-600 dark:text-red-400 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Down ${-s.positionChange} since last leg`}>
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
+                    ) : (
+                      <svg class="h-4 w-4 text-muted-foreground shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title="Unchanged since last leg">
+                        <path d="m9 18 6-6-6-6" />
+                      </svg>
+                    )
+                  )}
                   <a href={`/players/${s.playerSlug}`} class="hover:underline underline-offset-4 text-foreground">
                     {s.player}
                   </a>
@@ -229,6 +254,8 @@ const { stats } = season;
           ))}
         </tbody>
       </table>
+      </div>
+      ))}
     </div>
 
     <!-- Legend -->
