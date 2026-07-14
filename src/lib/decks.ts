@@ -1,5 +1,5 @@
 import type { Deck } from "@/types";
-import { getEventDetail } from "@/lib/mock-data";
+import { getEventDetail } from "@/lib/data-layer";
 
 // Import all deck files
 import { decks as decks20240302 } from "@/lib/data/decks/2024-03-02";

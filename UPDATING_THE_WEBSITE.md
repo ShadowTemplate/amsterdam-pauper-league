@@ -96,7 +96,7 @@ This runs, in order:
    every deck-file import automatically.
 7. **`generate_seasons.py`** - rebuilds `src/lib/data/seasons/{year}.ts`
    (points, stats, byesUnlocked) from events + `seasons_info.json`.
-8. **`generate_mock_data.py`** - rebuilds `src/lib/mock-data.ts`, wiring up
+8. **`generate_data_layer.py`** - rebuilds `src/lib/data-layer.ts`, wiring up
    every event/season import automatically.
 
 Each step reads the *current state* of `data/` and `src/lib/data/`, so

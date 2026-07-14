@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 r"""
-Generate src/lib/mock-data.ts by scanning src/lib/data/events/*.ts and
+Generate src/lib/data-layer.ts by scanning src/lib/data/events/*.ts and
 reading data/seasons_info.json. Replaces the manual import-and-wire-up step
 that was previously needed every time an event or season file was
 added/removed.
@@ -17,7 +17,7 @@ archetypes.ts and players.ts are not scanned - there's always exactly one of
 each, so those imports/re-exports are fixed.
 
 Usage:
-  python3 scripts/generate_mock_data.py
+  python3 scripts/generate_data_layer.py
 """
 
 import json
@@ -27,7 +27,7 @@ from pathlib import Path
 EVENTS_DIR = Path("src/lib/data/events")
 SEASONS_DIR = Path("src/lib/data/seasons")
 SEASONS_INFO_FILE = Path("data/seasons_info.json")
-OUTPUT_FILE = Path("src/lib/mock-data.ts")
+OUTPUT_FILE = Path("src/lib/data-layer.ts")
 
 
 def var_prefix(date: str) -> str:
@@ -171,7 +171,7 @@ def render(events: list, years: list) -> str:
 
 
 def main():
-    print("Generating mock-data.ts from events/ and seasons/...\n")
+    print("Generating data-layer.ts from events/ and seasons/...\n")
 
     events = scan_events()
     years = scan_seasons()

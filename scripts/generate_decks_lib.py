@@ -2,8 +2,8 @@
 r"""
 Generate src/lib/decks.ts by scanning src/lib/data/decks/*.ts.
 Replaces the manual import-and-wire-up step that was previously needed
-every time a deck file was added/removed (same problem generate_mock_data.py
-solves for mock-data.ts).
+every time a deck file was added/removed (same problem generate_data_layer.py
+solves for data-layer.ts).
 
 The lookup helpers (getAllDecks, getDeck, findDeckByEventAndPilot, ...) are
 static logic, not derived from scanned data - they're baked into this
@@ -87,7 +87,7 @@ def scan_decks() -> list:
 def render(dates: list) -> str:
     lines = [
         'import type { Deck } from "@/types";',
-        'import { getEventDetail } from "@/lib/mock-data";',
+        'import { getEventDetail } from "@/lib/data-layer";',
         '',
         '// Import all deck files',
     ]

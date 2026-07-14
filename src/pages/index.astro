@@ -1,7 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import PrizesCard from "@/components/PrizesCard.astro";
-import { getLeagueSeason } from "@/lib/mock-data";
+import { getLeagueSeason } from "@/lib/data-layer";
 import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
 
 const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 16);

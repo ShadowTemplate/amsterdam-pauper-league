@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 r"""
 Run the full data-generation pipeline in dependency order, turning raw
-data/ input into everything under src/lib/data/ and src/lib/mock-data.ts.
+data/ input into everything under src/lib/data/ and src/lib/data-layer.ts.
 
 Pipeline (each step's output feeds later steps - order matters):
-  1. download_topdeck_decks.py  (only if --decks-csv is passed)
+  1. download_topdeck_decks.py   (only if --decks-csv is passed)
   2. generate_events.py
   3. generate_players.py
   4. generate_archetypes.py
-  5. generate_decks.py          (needs events/ from step 2)
-  6. generate_decks_lib.py      (needs src/lib/data/decks/ from step 5)
-  7. generate_seasons.py        (needs events/ from step 2)
-  8. generate_mock_data.py      (needs events/ from step 2, seasons/ from step 7)
+  5. generate_decks.py           (needs events/ from step 2)
+  6. generate_decks_lib.py       (needs src/lib/data/decks/ from step 5)
+  7. generate_seasons.py         (needs events/ from step 2)
+  8. generate_data_layer.py      (needs events/ from step 2, seasons/ from step 7)
 
 Not part of this pipeline:
   - convert_past_event_decks.py is a one-off backfill script for historical
@@ -39,7 +39,7 @@ STEPS = [
     "generate_decks.py",
     "generate_decks_lib.py",
     "generate_seasons.py",
-    "generate_mock_data.py",
+    "generate_data_layer.py",
 ]
 
 

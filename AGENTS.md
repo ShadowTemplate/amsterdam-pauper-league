@@ -8,7 +8,7 @@ Key facts:
 - Astro components are in `src/components/` (`.astro` files)
 - No React — interactive components use vanilla JS in `<script>` blocks
 - CSS is in `src/styles/globals.css` (Tailwind v4 syntax: `@import "tailwindcss"`, `@theme inline`, `@variant dark`)
-- Data is in `src/lib/mock-data.ts` and types in `src/types/index.ts`
+- Data is in `src/lib/data-layer.ts` and types in `src/types/index.ts`
 - Static paths generated via `getStaticPaths()` exported from `.astro` frontmatter
 - Node.js >=22 required (`nvm use 22` before running commands)
 - Dev: `npm run dev` (port 4321), Build: `npm run build`
