@@ -40,7 +40,7 @@ def scan_events() -> list:
     events = []
     for f in sorted(EVENTS_DIR.glob("*.ts")):
         date = f.stem
-        content = f.read_text(encoding="utf-8")
+        content = f.read_text(encoding="utf-8-sig")
         has_detail = "export const eventDetail" in content
         events.append({"date": date, "has_detail": has_detail})
     events.sort(key=lambda e: e["date"], reverse=True)
@@ -58,7 +58,7 @@ def scan_seasons() -> list:
         print(f"⚠️  {SEASONS_INFO_FILE} not found - no seasons will be included")
         return []
 
-    with open(SEASONS_INFO_FILE, 'r', encoding='utf-8') as f:
+    with open(SEASONS_INFO_FILE, 'r', encoding='utf-8-sig') as f:
         seasons_info = json.load(f)
 
     years = []

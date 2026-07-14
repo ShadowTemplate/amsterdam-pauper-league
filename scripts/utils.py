@@ -37,6 +37,24 @@ def normalize_slug(text: str) -> str:
     return text.strip('_')
 
 
+# Pronoun options from the website's account settings ("account-pronouns"
+# select). Some players type their pronoun choice straight into the
+# topdeck.gg sign-up "Name" field (e.g. "Max Roovers He/They"), which only
+# shows up in the players CSV export - the standings and round CSVs always
+# have the plain name. Stripped so player_to_deck_id keys match those.
+PRONOUN_SUFFIXES = ["He/Him", "He/They", "She/Her", "She/They", "They/Them", "Ask Me"]
+PRONOUN_SUFFIX_RE = re.compile(
+    r'\s+(?:' + '|'.join(re.escape(p) for p in PRONOUN_SUFFIXES) + r')$',
+    re.IGNORECASE,
+)
+
+
+def strip_pronoun_suffix(name: str) -> str:
+    """Strip a trailing pronoun tag (from the website's pronoun options) off
+    a player name, if present. E.g. "Max Roovers He/They" -> "Max Roovers"."""
+    return PRONOUN_SUFFIX_RE.sub('', name).strip()
+
+
 def js_str(s) -> str:
     """Convert Python string to JS string literal."""
     if s is None:
@@ -68,17 +86,17 @@ def extract_date_from_filename(filename: str) -> str:
 
 def load_archetypes_json(filepath: Path) -> dict:
     """Load archetype mapping from JSON file."""
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with open(filepath, 'r', encoding='utf-8-sig') as f:
         return json.load(f)
 
 
 def load_players_csv(filepath: Path) -> dict:
     """Load players CSV and extract Player -> deck_id mapping."""
     player_to_deck_id = {}
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with open(filepath, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            player = row.get('Player', '').strip()
+            player = strip_pronoun_suffix(row.get('Player', '').strip())
             decklist_url = row.get('Decklist', '').strip()
             if player and decklist_url:
                 # Extract deck_id from URLs like:
@@ -96,7 +114,7 @@ def load_players_csv(filepath: Path) -> dict:
 def load_standings_csv(filepath: Path) -> list:
     """Load standings CSV."""
     standings = []
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with open(filepath, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:
             standings.append(row)

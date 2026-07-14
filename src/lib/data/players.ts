@@ -7,6 +7,7 @@ export const PLAYERS: Player[] = [
   { slug: "alessio_viali", name: "Alessio Viali" },
   { slug: "alexander_boon", name: "Alexander Boon" },
   { slug: "alexander_hamilton", name: "Alexander Hamilton" },
+  { slug: "alice_lenting", name: "Alice Lenting" },
   { slug: "andrea_passaro", name: "Andrea Passaro" },
   { slug: "andrey_petukhov", name: "Andrey Petukhov" },
   { slug: "annemarije_boersma", name: "Annemarije Boersma" },
@@ -16,6 +17,7 @@ export const PLAYERS: Player[] = [
   { slug: "ashley_bits", name: "Ashley Bits" },
   { slug: "aurora_polak", name: "Aurora Polak" },
   { slug: "axel_quasten", name: "Axel Quasten" },
+  { slug: "bas_hendriks", name: "Bas Hendriks" },
   { slug: "bauke_ham", name: "Bauke Ham" },
   { slug: "ben_luis_hack", name: "Ben Luis Hack" },
   { slug: "ben_van_wijk", name: "Ben van Wijk" },
@@ -31,6 +33,7 @@ export const PLAYERS: Player[] = [
   { slug: "collin_bos", name: "Collin Bos" },
   { slug: "dalilla_bezoen", name: "Dalilla Bezoen" },
   { slug: "danila", name: "Danila" },
+  { slug: "davey_barendregt", name: "Davey Barendregt" },
   { slug: "david_horvath", name: "David Horvath" },
   { slug: "davide_caviglia", name: "Davide Caviglia" },
   { slug: "davy_baardink", name: "Davy Baardink" },
@@ -99,6 +102,7 @@ export const PLAYERS: Player[] = [
   { slug: "jeff_wade", name: "Jeff Wade" },
   { slug: "jelle_schneider", name: "Jelle Schneider" },
   { slug: "jelle_zwaan", name: "Jelle Zwaan" },
+  { slug: "jerryt_boersen", name: "Jerryt Boersen" },
   { slug: "jerwin_pouwelse", name: "Jerwin Pouwelse" },
   { slug: "jinja_kinyak", name: "Jinja Kinyak" },
   { slug: "job_ortmans", name: "Job Ortmans" },
@@ -110,6 +114,7 @@ export const PLAYERS: Player[] = [
   { slug: "jonathan", name: "Jonathan" },
   { slug: "joris_dral", name: "Joris Dral" },
   { slug: "jort_bakker", name: "Jort Bakker" },
+  { slug: "jose_jimenez_guerrero", name: "Jose Jiménez Guerrero" },
   { slug: "juan_ascanio", name: "Juan Ascanio" },
   { slug: "julian_dornebusch", name: "Julian Dornebusch" },
   { slug: "julius_siemes", name: "Julius Siemes" },
@@ -213,6 +218,7 @@ export const PLAYERS: Player[] = [
   { slug: "renee_zwolle", name: "Renee Zwolle" },
   { slug: "rizi", name: "Rizi" },
   { slug: "roald_landheer", name: "Roald Landheer" },
+  { slug: "rob_kerlin", name: "Rob Kerlin" },
   { slug: "rob_lamers", name: "Rob Lamers" },
   { slug: "rob_nolle", name: "Rob Nolle" },
   { slug: "rob_vermaas", name: "Rob Vermaas" },
@@ -281,8 +287,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "aartos_locos": {
     slug: "aartos_locos",
     name: "Aartos Locos",
-    stats: { wins: 5, losses: 5, draws: 2, byes: 0 },
+    stats: { wins: 7, losses: 8, draws: 3, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 31,
+        deckId: "9M0DnPLC7veuAqUqhfUG5GH8eSr1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Stapel", opponentPilotSlug: "floris_stapel", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Swillens", opponentPilotSlug: "tim_swillens", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jose Jiménez Guerrero", opponentPilotSlug: "jose_jimenez_guerrero", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Heins", opponentPilotSlug: "floris_heins", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Draw" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Zwaan", opponentPilotSlug: "jelle_zwaan", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -343,8 +365,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "abe_mulder": {
     slug: "abe_mulder",
     name: "Abe Mulder",
-    stats: { wins: 44, losses: 37, draws: 5, byes: 0 },
+    stats: { wins: 49, losses: 38, draws: 5, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 5,
+        deckId: "IXYpl9bnq7R9boRdpsmDtuzFM3H3",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan Pouwelse", opponentPilotSlug: "stefan_pouwelse", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob_lamers", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -689,8 +727,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "alexander_hamilton": {
     slug: "alexander_hamilton",
     name: "Alexander Hamilton",
-    stats: { wins: 1, losses: 3, draws: 2, byes: 0 },
+    stats: { wins: 4, losses: 6, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 26,
+        deckId: "yBFaRmnZHscRxAcfwmLqvWDPUpk2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Leonardo Paternotte", opponentPilotSlug: "leonardo_paternotte", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Gianvito Taneburgo", opponentPilotSlug: "gianvito_taneburgo", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Swillens", opponentPilotSlug: "tim_swillens", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias_van_kersbergen", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -705,6 +759,29 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 3, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
           { round: 2, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Win" },
           { round: 1, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Vitaly Svetlov", opponentPilotSlug: "vitaly_svetlov", result: "Loss" },
+        ],
+      },
+    ],
+  },
+  "alice_lenting": {
+    slug: "alice_lenting",
+    name: "Alice Lenting",
+    stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 18,
+        deckId: "8EJey3hrIkbaHypGiGuH0JJ6BBN2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan Holly", opponentPilotSlug: "dylan_holly", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan Pouwelse", opponentPilotSlug: "stefan_pouwelse", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Win" },
         ],
       },
     ],
@@ -1204,6 +1281,29 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
     ],
   },
+  "bas_hendriks": {
+    slug: "bas_hendriks",
+    name: "Bas Hendriks",
+    stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 6,
+        deckId: "gaofBFhyILRpoQWOrYJFuLvEatd2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs_deckers", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Zwaan", opponentPilotSlug: "jelle_zwaan", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Stapel", opponentPilotSlug: "floris_stapel", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Vanessa Weber", opponentPilotSlug: "vanessa_weber", result: "Win" },
+        ],
+      },
+    ],
+  },
   "bauke_ham": {
     slug: "bauke_ham",
     name: "Bauke Ham",
@@ -1267,7 +1367,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "ben_van_wijk": {
     slug: "ben_van_wijk",
     name: "Ben van Wijk",
-    stats: { wins: 38, losses: 37, draws: 9, byes: 1 },
+    stats: { wins: 38, losses: 36, draws: 9, byes: 1 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1486,7 +1586,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "MonoU Terror",
         deckSlug: "monou_terror",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Loss" },
           { round: 5, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Bram Deppenbroek", opponentPilotSlug: "bram_deppenbroek", result: "Loss" },
           { round: 4, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Leo Rodrigo Heran Balbuena", opponentPilotSlug: "leo_rodrigo_heran_balbuena", result: "Win" },
           { round: 3, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Francesco Bernardi", opponentPilotSlug: "francesco_bernardi", result: "Win" },
@@ -1642,7 +1741,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "bram_deppenbroek": {
     slug: "bram_deppenbroek",
     name: "Bram Deppenbroek",
-    stats: { wins: 92, losses: 37, draws: 3, byes: 0 },
+    stats: { wins: 91, losses: 37, draws: 3, byes: 0 },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -1988,7 +2087,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "MonoU Faeries",
         deckSlug: "monou_faeries",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Mathieu Zwaan", opponentPilotSlug: "mathieu_zwaan", result: "Win" },
           { round: 5, opponentDeck: "MonoU Terror", opponentDeckSlug: "monou_terror", opponentPilot: "Ben van Wijk", opponentPilotSlug: "ben_van_wijk", result: "Win" },
           { round: 4, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Danila", opponentPilotSlug: "danila", result: "Win" },
           { round: 3, opponentDeck: "Jeskai Glitters", opponentDeckSlug: "jeskai_glitters", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Win" },
@@ -2233,8 +2331,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "collin_bos": {
     slug: "collin_bos",
     name: "Collin Bos",
-    stats: { wins: 14, losses: 16, draws: 2, byes: 0 },
+    stats: { wins: 16, losses: 20, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 39,
+        deckId: "2ebaPkr3S4M6za5LYjn5OQZvDlw1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Swillens", opponentPilotSlug: "tim_swillens", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias_van_kersbergen", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs_deckers", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Kerlin", opponentPilotSlug: "rob_kerlin", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -2377,7 +2491,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "danila": {
     slug: "danila",
     name: "Danila",
-    stats: { wins: 19, losses: 13, draws: 4, byes: 0 },
+    stats: { wins: 18, losses: 13, draws: 4, byes: 0 },
     results: [
       {
         eventSlug: "2024-12-07",
@@ -2467,12 +2581,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "MonoU Faeries",
         deckSlug: "monou_faeries",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Fedor Manukovskii", opponentPilotSlug: "fedor_manukovskii", result: "Win" },
           { round: 5, opponentDeck: "Jeskai Glitters", opponentDeckSlug: "jeskai_glitters", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Loss" },
           { round: 4, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Bram Deppenbroek", opponentPilotSlug: "bram_deppenbroek", result: "Loss" },
           { round: 3, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Win" },
           { round: 2, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Robbert", opponentPilotSlug: "robbert", result: "Win" },
           { round: 1, opponentDeck: "Moggwarts", opponentDeckSlug: "moggwarts", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
+        ],
+      },
+    ],
+  },
+  "davey_barendregt": {
+    slug: "davey_barendregt",
+    name: "Davey Barendregt",
+    stats: { wins: 1, losses: 3, draws: 1, byes: 1 },
+    results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 29,
+        deckId: "XI5xJhmn7pOlh6QThJtv7cB6OwY2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan van der List", opponentPilotSlug: "stefan_van_der_list", result: "Draw" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Heins", opponentPilotSlug: "floris_heins", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Win" },
+          { round: 2, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tom de Ruiter", opponentPilotSlug: "tom_de_ruiter", result: "Loss" },
         ],
       },
     ],
@@ -2863,8 +2999,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "dylan_holly": {
     slug: "dylan_holly",
     name: "Dylan Holly",
-    stats: { wins: 29, losses: 24, draws: 2, byes: 0 },
+    stats: { wins: 33, losses: 26, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 7,
+        deckId: "zfi8nWR2mLY7dTTMWLvk0p68drm2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Zwaan", opponentPilotSlug: "jelle_zwaan", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan van der List", opponentPilotSlug: "stefan_van_der_list", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Harm steenbakkers", opponentPilotSlug: "harm_steenbakkers", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -3015,8 +3167,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "dylan_van_gelder": {
     slug: "dylan_van_gelder",
     name: "Dylan van Gelder",
-    stats: { wins: 23, losses: 28, draws: 3, byes: 2 },
+    stats: { wins: 25, losses: 31, draws: 3, byes: 3 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 20,
+        deckId: "emuvdnaJ86Ps46foNQSBmwmGTh92",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Zwaan", opponentPilotSlug: "jelle_zwaan", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Win" },
+          { round: 1, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -3191,8 +3359,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "eef_vv": {
     slug: "eef_vv",
     name: "Eef vV",
-    stats: { wins: 70, losses: 50, draws: 2, byes: 1 },
+    stats: { wins: 71, losses: 54, draws: 2, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 45,
+        deckId: "4SxREx8i42aZJhd3Vqngw8NT9bG3",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "vinicius duarte", opponentPilotSlug: "vinicius_duarte", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander_hamilton", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Heins", opponentPilotSlug: "floris_heins", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -3508,7 +3692,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Rakdos Burn",
         deckSlug: "rakdos_burn",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob_lamers", result: "Loss" },
           { round: 5, opponentDeck: "Moggwarts", opponentDeckSlug: "moggwarts", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Loss" },
           { round: 4, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Diego Cath", opponentPilotSlug: "diego_cath", result: "Loss" },
           { round: 3, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Thomas Tates", opponentPilotSlug: "thomas_tates", result: "Loss" },
@@ -4244,8 +4427,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "fernando_tong": {
     slug: "fernando_tong",
     name: "Fernando Tong",
-    stats: { wins: 10, losses: 23, draws: 5, byes: 0 },
+    stats: { wins: 11, losses: 26, draws: 6, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 33,
+        deckId: "ltNVvCO8AEgFzy9uaLH4fcpoPQX2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Harm steenbakkers", opponentPilotSlug: "harm_steenbakkers", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Stapel", opponentPilotSlug: "floris_stapel", result: "Draw" },
+          { round: 3, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -4349,8 +4548,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "floris_heins": {
     slug: "floris_heins",
     name: "Floris Heins",
-    stats: { wins: 43, losses: 26, draws: 5, byes: 0 },
+    stats: { wins: 47, losses: 28, draws: 5, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 10,
+        deckId: "xrLCwHfzn8Np5DNnZroSWD8y4UD3",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Davey Barendregt", opponentPilotSlug: "davey_barendregt", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Aartos Locos", opponentPilotSlug: "aartos_locos", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -4550,8 +4765,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "floris_stapel": {
     slug: "floris_stapel",
     name: "Floris Stapel",
-    stats: { wins: 16, losses: 16, draws: 1, byes: 0 },
+    stats: { wins: 17, losses: 20, draws: 2, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 43,
+        deckId: "HRzczTOaOQWz13Q6nf9S14hYqII3",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Aartos Locos", opponentPilotSlug: "aartos_locos", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jose Jiménez Guerrero", opponentPilotSlug: "jose_jimenez_guerrero", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Draw" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs_deckers", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -5195,8 +5426,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "gianvito_taneburgo": {
     slug: "gianvito_taneburgo",
     name: "Gianvito Taneburgo",
-    stats: { wins: 62, losses: 55, draws: 12, byes: 1 },
+    stats: { wins: 65, losses: 58, draws: 11, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 23,
+        deckId: "Xopd3GyttdWVeaJPcGZXV0A7qi92",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander_hamilton", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs_deckers", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Vanessa Weber", opponentPilotSlug: "vanessa_weber", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan van der List", opponentPilotSlug: "stefan_van_der_list", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -5539,7 +5786,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Familiars",
         deckSlug: "familiars",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Youri Bakker", opponentPilotSlug: "youri_bakker", result: "Draw" },
           { round: 5, opponentDeck: "Golgari Dredge", opponentDeckSlug: "golgari_dredge", opponentPilot: "Jari Van Schaik", opponentPilotSlug: "jari_van_schaik", result: "Draw" },
           { round: 4, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Ingo van den Bersselaar", opponentPilotSlug: "ingo_van_den_bersselaar", result: "Loss" },
           { round: 3, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Win" },
@@ -5773,8 +6019,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "harm_steenbakkers": {
     slug: "harm_steenbakkers",
     name: "Harm steenbakkers",
-    stats: { wins: 43, losses: 38, draws: 3, byes: 0 },
+    stats: { wins: 45, losses: 41, draws: 4, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 30,
+        deckId: "PJ3JGn2svRczecN90JLIroSaFlE2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tom de Ruiter", opponentPilotSlug: "tom_de_ruiter", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jose Jiménez Guerrero", opponentPilotSlug: "jose_jimenez_guerrero", result: "Draw" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan Holly", opponentPilotSlug: "dylan_holly", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -6617,8 +6879,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "irshaad": {
     slug: "irshaad",
     name: "Irshaad",
-    stats: { wins: 6, losses: 14, draws: 0, byes: 0 },
+    stats: { wins: 7, losses: 19, draws: 0, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 44,
+        deckId: "BioneAJShcclAIjweTSJRYnZ2Vr2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Kerlin", opponentPilotSlug: "rob_kerlin", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Swillens", opponentPilotSlug: "tim_swillens", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -6767,8 +7045,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jamie_march": {
     slug: "jamie_march",
     name: "Jamie March",
-    stats: { wins: 11, losses: 9, draws: 0, byes: 0 },
+    stats: { wins: 16, losses: 10, draws: 0, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 3,
+        deckId: "KXf0lfdBqaRAUYzb3gDSYMx60Dx1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Stapel", opponentPilotSlug: "floris_stapel", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Zwaan", opponentPilotSlug: "jelle_zwaan", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -6824,7 +7118,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jan_rijnbeek": {
     slug: "jan_rijnbeek",
     name: "Jan Rijnbeek",
-    stats: { wins: 72, losses: 43, draws: 10, byes: 1 },
+    stats: { wins: 72, losses: 42, draws: 10, byes: 1 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7154,7 +7448,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Golgari Gardens",
         deckSlug: "golgari_gardens",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Raven de Bruin", opponentPilotSlug: "raven_de_bruin", result: "Loss" },
           { round: 5, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
           { round: 4, opponentDeck: "Izzet Terror", opponentDeckSlug: "izzet_terror", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
           { round: 3, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Gianvito Taneburgo", opponentPilotSlug: "gianvito_taneburgo", result: "Loss" },
@@ -7531,8 +7824,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jelle_schneider": {
     slug: "jelle_schneider",
     name: "Jelle Schneider",
-    stats: { wins: 28, losses: 14, draws: 3, byes: 0 },
+    stats: { wins: 33, losses: 14, draws: 4, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 2,
+        deckId: "KLBnaqTCPoVzPjd1a5W0UZ2aAos1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Zwaan", opponentPilotSlug: "jelle_zwaan", result: "Draw" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Heins", opponentPilotSlug: "floris_heins", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -7653,8 +7962,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jelle_zwaan": {
     slug: "jelle_zwaan",
     name: "Jelle Zwaan",
-    stats: { wins: 38, losses: 15, draws: 3, byes: 0 },
+    stats: { wins: 43, losses: 15, draws: 4, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 1,
+        deckId: "6hVWhkOz1uXnX9db859Wk8ubeP43",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Draw" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan Holly", opponentPilotSlug: "dylan_holly", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan van Gelder", opponentPilotSlug: "dylan_van_gelder", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Aartos Locos", opponentPilotSlug: "aartos_locos", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -7799,6 +8124,29 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 3, opponentDeck: "MonoU Terror", opponentDeckSlug: "monou_terror", opponentPilot: "Rob Nolle", opponentPilotSlug: "rob_nolle", result: "Win" },
           { round: 2, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Liam Wyatt", opponentPilotSlug: "liam_wyatt", result: "Win" },
           { round: 1, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Tom de Ruiter", opponentPilotSlug: "tom_de_ruiter", result: "Loss" },
+        ],
+      },
+    ],
+  },
+  "jerryt_boersen": {
+    slug: "jerryt_boersen",
+    name: "Jerryt Boersen",
+    stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 8,
+        deckId: "QGEpmyzm7rbliACT77RxLF1sS7k1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan van Gelder", opponentPilotSlug: "dylan_van_gelder", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan Holly", opponentPilotSlug: "dylan_holly", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Heins", opponentPilotSlug: "floris_heins", result: "Win" },
         ],
       },
     ],
@@ -8314,6 +8662,29 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
     ],
   },
+  "jose_jimenez_guerrero": {
+    slug: "jose_jimenez_guerrero",
+    name: "Jose Jiménez Guerrero",
+    stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 32,
+        deckId: "38CLRSsjmOfpY76P2gcdUMQZZ952",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Stapel", opponentPilotSlug: "floris_stapel", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Aartos Locos", opponentPilotSlug: "aartos_locos", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Harm steenbakkers", opponentPilotSlug: "harm_steenbakkers", result: "Draw" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Loss" },
+        ],
+      },
+    ],
+  },
   "juan_ascanio": {
     slug: "juan_ascanio",
     name: "Juan Ascanio",
@@ -8503,7 +8874,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "kasper_zijl": {
     slug: "kasper_zijl",
     name: "Kasper Zijl",
-    stats: { wins: 50, losses: 45, draws: 5, byes: 0 },
+    stats: { wins: 50, losses: 44, draws: 5, byes: 0 },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -8767,7 +9138,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Dimir Faeries",
         deckSlug: "dimir_faeries",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Derin Ünver", opponentPilotSlug: "derin_unver", result: "Loss" },
           { round: 5, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Francesco Bernardi", opponentPilotSlug: "francesco_bernardi", result: "Win" },
           { round: 4, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
           { round: 3, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Vlad-Alexandru Negară", opponentPilotSlug: "vlad_alexandru_negar", result: "Loss" },
@@ -9180,7 +9550,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "leo_rodrigo_heran_balbuena": {
     slug: "leo_rodrigo_heran_balbuena",
     name: "Leo Rodrigo Heran Balbuena",
-    stats: { wins: 22, losses: 21, draws: 3, byes: 2 },
+    stats: { wins: 21, losses: 21, draws: 3, byes: 2 },
     results: [
       {
         eventSlug: "2025-04-12",
@@ -9302,7 +9672,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Dimir Faeries",
         deckSlug: "dimir_faeries",
         rounds: [
-          { round: 6, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Win" },
           { round: 5, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Vlad-Alexandru Negară", opponentPilotSlug: "vlad_alexandru_negar", result: "Win" },
           { round: 4, opponentDeck: "MonoU Terror", opponentDeckSlug: "monou_terror", opponentPilot: "Ben van Wijk", opponentPilotSlug: "ben_van_wijk", result: "Loss" },
           { round: 3, opponentDeck: "Orzhov Blade", opponentDeckSlug: "orzhov_blade", opponentPilot: "Nicola Gnasso", opponentPilotSlug: "nicola_gnasso", result: "Draw" },
@@ -9339,8 +9708,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "leonardo_paternotte": {
     slug: "leonardo_paternotte",
     name: "Leonardo Paternotte",
-    stats: { wins: 19, losses: 10, draws: 4, byes: 0 },
+    stats: { wins: 20, losses: 14, draws: 4, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 42,
+        deckId: "biuoEAg6P5O3ozzXka7cNGKFWYR2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander_hamilton", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Kerlin", opponentPilotSlug: "rob_kerlin", result: "Win" },
+          { round: 4, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Vanessa Weber", opponentPilotSlug: "vanessa_weber", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan Pouwelse", opponentPilotSlug: "stefan_pouwelse", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -9764,8 +10149,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "lucas_feliciano": {
     slug: "lucas_feliciano",
     name: "Lucas Feliciano",
-    stats: { wins: 48, losses: 56, draws: 13, byes: 1 },
+    stats: { wins: 51, losses: 58, draws: 13, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 28,
+        deckId: "AT81NVr1HlVmMnXl4luvUorE8Zk1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan Pouwelse", opponentPilotSlug: "stefan_pouwelse", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Collin Bos", opponentPilotSlug: "collin_bos", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Vanessa Weber", opponentPilotSlug: "vanessa_weber", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob_lamers", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -10086,7 +10487,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Izzet Terror",
         deckSlug: "izzet_terror",
         rounds: [
-          { round: 6, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Loss" },
           { round: 5, opponentDeck: "MonoR Kuldotha", opponentDeckSlug: "monor_kuldotha", opponentPilot: "Tim Zemack", opponentPilotSlug: "tim_zemack", result: "Win" },
           { round: 4, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Loss" },
           { round: 3, opponentDeck: "Golgari Dredge", opponentDeckSlug: "golgari_dredge", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Loss" },
@@ -11442,8 +11842,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "max_roovers": {
     slug: "max_roovers",
     name: "Max Roovers",
-    stats: { wins: 75, losses: 53, draws: 4, byes: 1 },
+    stats: { wins: 79, losses: 55, draws: 4, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 12,
+        deckId: "dFkwHr2M8aOSppCudk7vGUxKs4w1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Gianvito Taneburgo", opponentPilotSlug: "gianvito_taneburgo", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob_lamers", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Davey Barendregt", opponentPilotSlug: "davey_barendregt", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias_van_kersbergen", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -11802,8 +12218,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "michael_joseph_purcell": {
     slug: "michael_joseph_purcell",
     name: "Michael Joseph Purcell",
-    stats: { wins: 23, losses: 20, draws: 1, byes: 0 },
+    stats: { wins: 25, losses: 21, draws: 4, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 25,
+        deckId: "E0NmWXOL1WV1kSD11m4XhxkjbAv2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Draw" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Vanessa Weber", opponentPilotSlug: "vanessa_weber", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Draw" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tom de Ruiter", opponentPilotSlug: "tom_de_ruiter", result: "Draw" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -12074,8 +12506,22 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "mirco_bonati": {
     slug: "mirco_bonati",
     name: "Mirco Bonati",
-    stats: { wins: 32, losses: 40, draws: 17, byes: 0 },
+    stats: { wins: 32, losses: 42, draws: 18, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 47,
+        deckId: "u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Harm steenbakkers", opponentPilotSlug: "harm_steenbakkers", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Aartos Locos", opponentPilotSlug: "aartos_locos", result: "Draw" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -12317,7 +12763,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Azorius Gates",
         deckSlug: "azorius_gates",
         rounds: [
-          { round: 6, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Leo Rodrigo Heran Balbuena", opponentPilotSlug: "leo_rodrigo_heran_balbuena", result: "Loss" },
           { round: 5, opponentDeck: "Jeskai Glitters", opponentDeckSlug: "jeskai_glitters", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Win" },
           { round: 4, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Vlad-Alexandru Negară", opponentPilotSlug: "vlad_alexandru_negar", result: "Draw" },
           { round: 3, opponentDeck: "MonoR Kuldotha", opponentDeckSlug: "monor_kuldotha", opponentPilot: "Tim Zemack", opponentPilotSlug: "tim_zemack", result: "Win" },
@@ -12859,8 +13304,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "nicolas_komanski": {
     slug: "nicolas_komanski",
     name: "Nicolas Komanski",
-    stats: { wins: 57, losses: 26, draws: 5, byes: 2 },
+    stats: { wins: 62, losses: 27, draws: 5, byes: 2 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 4,
+        deckId: "RLHTn0MYwcSBOPby9QiqsG8wn1d2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan Holly", opponentPilotSlug: "dylan_holly", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Harm steenbakkers", opponentPilotSlug: "harm_steenbakkers", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -13248,8 +13709,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "noah_westerweel": {
     slug: "noah_westerweel",
     name: "Noah Westerweel",
-    stats: { wins: 42, losses: 39, draws: 10, byes: 1 },
+    stats: { wins: 44, losses: 40, draws: 13, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 21,
+        deckId: "kBX6yZadhyW9ajR7TyABLzbBDd43",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Draw" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Draw" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tom de Ruiter", opponentPilotSlug: "tom_de_ruiter", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Draw" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -13920,8 +14397,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "raaayyyyyyyyyy": {
     slug: "raaayyyyyyyyyy",
     name: "Raaayyyyyyyyyy",
-    stats: { wins: 35, losses: 21, draws: 4, byes: 0 },
+    stats: { wins: 37, losses: 24, draws: 4, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 19,
+        deckId: "Cn8mL2l7xPQGPLu9uUOLoqeANF32",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias_van_kersbergen", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Collin Bos", opponentPilotSlug: "collin_bos", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
@@ -14074,7 +14567,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Golgari Dredge",
         deckSlug: "golgari_dredge",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Vincent Zwinkels", opponentPilotSlug: "vincent_zwinkels", result: "Win" },
           { round: 5, opponentDeck: "Orzhov Blade", opponentDeckSlug: "orzhov_blade", opponentPilot: "Nicola Gnasso", opponentPilotSlug: "nicola_gnasso", result: "Win" },
           { round: 4, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Win" },
           { round: 3, opponentDeck: "Izzet Terror", opponentDeckSlug: "izzet_terror", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
@@ -14447,8 +14939,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "raymond_anderson": {
     slug: "raymond_anderson",
     name: "Raymond Anderson",
-    stats: { wins: 28, losses: 39, draws: 3, byes: 0 },
+    stats: { wins: 31, losses: 41, draws: 4, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 15,
+        deckId: "2Q3QynkzgbNVKAmrYcg2YDqGQyl1",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Davey Barendregt", opponentPilotSlug: "davey_barendregt", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Draw" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -14727,11 +15235,50 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
     ],
   },
+  "rob_kerlin": {
+    slug: "rob_kerlin",
+    name: "Rob Kerlin",
+    stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 41,
+        deckId: "FJZa4ZosC2SEdml1yrMghUOa5OV2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Leonardo Paternotte", opponentPilotSlug: "leonardo_paternotte", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan van der List", opponentPilotSlug: "stefan_van_der_list", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "vinicius duarte", opponentPilotSlug: "vinicius_duarte", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Collin Bos", opponentPilotSlug: "collin_bos", result: "Loss" },
+        ],
+      },
+    ],
+  },
   "rob_lamers": {
     slug: "rob_lamers",
     name: "Rob Lamers",
-    stats: { wins: 50, losses: 40, draws: 3, byes: 0 },
+    stats: { wins: 52, losses: 44, draws: 3, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 35,
+        deckId: "N3U8IQEU4TNXkUPHm6jQzy6QyJ93",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan van der List", opponentPilotSlug: "stefan_van_der_list", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Swillens", opponentPilotSlug: "tim_swillens", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -15263,7 +15810,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "robbert": {
     slug: "robbert",
     name: "Robbert",
-    stats: { wins: 36, losses: 37, draws: 9, byes: 0 },
+    stats: { wins: 36, losses: 36, draws: 9, byes: 0 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -15479,7 +16026,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Golgari Gardens",
         deckSlug: "golgari_gardens",
         rounds: [
-          { round: 6, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
           { round: 5, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Diego Cath", opponentPilotSlug: "diego_cath", result: "Draw" },
           { round: 4, opponentDeck: "Moggwarts", opponentDeckSlug: "moggwarts", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Draw" },
           { round: 3, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Jort Bakker", opponentPilotSlug: "jort_bakker", result: "Loss" },
@@ -15618,8 +16164,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "roberto_van_den_elzen": {
     slug: "roberto_van_den_elzen",
     name: "Roberto van den Elzen",
-    stats: { wins: 42, losses: 23, draws: 3, byes: 0 },
+    stats: { wins: 45, losses: 24, draws: 5, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 14,
+        deckId: "en2liKJ8OsRkG91YKPvgsepnp9C3",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jose Jiménez Guerrero", opponentPilotSlug: "jose_jimenez_guerrero", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Draw" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tom de Ruiter", opponentPilotSlug: "tom_de_ruiter", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Draw" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Kerlin", opponentPilotSlug: "rob_kerlin", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -15984,7 +16546,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "sam_ye": {
     slug: "sam_ye",
     name: "Sam Ye",
-    stats: { wins: 48, losses: 32, draws: 1, byes: 1 },
+    stats: { wins: 48, losses: 31, draws: 1, byes: 1 },
     results: [
       {
         eventSlug: "2025-08-02",
@@ -16200,7 +16762,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Jeskai Glitters",
         deckSlug: "jeskai_glitters",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
           { round: 5, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Loss" },
           { round: 4, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Loss" },
           { round: 3, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
@@ -16275,8 +16836,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "simon_isphording": {
     slug: "simon_isphording",
     name: "Simon Isphording",
-    stats: { wins: 31, losses: 23, draws: 2, byes: 1 },
+    stats: { wins: 34, losses: 26, draws: 2, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 27,
+        deckId: "k70Ar8wnHcRcDGN7hKwhV96S5ml2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs_deckers", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Gianvito Taneburgo", opponentPilotSlug: "gianvito_taneburgo", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan Pouwelse", opponentPilotSlug: "stefan_pouwelse", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -16491,8 +17068,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "soufian_hriz": {
     slug: "soufian_hriz",
     name: "soufian hriz",
-    stats: { wins: 24, losses: 17, draws: 1, byes: 0 },
+    stats: { wins: 27, losses: 20, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 22,
+        deckId: "ysNRuEfWziNdlXox7pwnWAyFHsw2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Heins", opponentPilotSlug: "floris_heins", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan van Gelder", opponentPilotSlug: "dylan_van_gelder", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jose Jiménez Guerrero", opponentPilotSlug: "jose_jimenez_guerrero", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
@@ -16698,8 +17291,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "stefan_pouwelse": {
     slug: "stefan_pouwelse",
     name: "Stefan Pouwelse",
-    stats: { wins: 10, losses: 9, draws: 0, byes: 0 },
+    stats: { wins: 12, losses: 13, draws: 0, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 36,
+        deckId: "qQLEC7ELV1Z5mrqtPoRtQKjNZx73",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias_van_kersbergen", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Leonardo Paternotte", opponentPilotSlug: "leonardo_paternotte", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
@@ -16754,8 +17363,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "stefan_van_der_list": {
     slug: "stefan_van_der_list",
     name: "Stefan van der List",
-    stats: { wins: 13, losses: 4, draws: 2, byes: 1 },
+    stats: { wins: 16, losses: 6, draws: 3, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 17,
+        deckId: "Zj3iw1nlIRTtHrRSCvpFTYAld2Q2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob_lamers", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Davey Barendregt", opponentPilotSlug: "davey_barendregt", result: "Draw" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Kerlin", opponentPilotSlug: "rob_kerlin", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan Holly", opponentPilotSlug: "dylan_holly", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Gianvito Taneburgo", opponentPilotSlug: "gianvito_taneburgo", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -17101,8 +17726,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "thijs_deckers": {
     slug: "thijs_deckers",
     name: "Thijs Deckers",
-    stats: { wins: 9, losses: 8, draws: 1, byes: 0 },
+    stats: { wins: 13, losses: 10, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 13,
+        deckId: "mhhqO8qTuEOSmJVQ7eQDULAOzj82",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Gianvito Taneburgo", opponentPilotSlug: "gianvito_taneburgo", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Collin Bos", opponentPilotSlug: "collin_bos", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "vinicius duarte", opponentPilotSlug: "vinicius_duarte", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Floris Stapel", opponentPilotSlug: "floris_stapel", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -17249,7 +17890,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "thomas_tates": {
     slug: "thomas_tates",
     name: "Thomas Tates",
-    stats: { wins: 7, losses: 20, draws: 3, byes: 1 },
+    stats: { wins: 6, losses: 20, draws: 3, byes: 1 },
     results: [
       {
         eventSlug: "2026-04-11",
@@ -17324,7 +17965,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Burn",
         deckSlug: "burn",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Jinja Kinyak", opponentPilotSlug: "jinja_kinyak", result: "Win" },
           { round: 5, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai_ephemerate", opponentPilot: "Ettore Cerracchio", opponentPilotSlug: "ettore_cerracchio", result: "Loss" },
           { round: 4, opponentDeck: "Golgari Dredge", opponentDeckSlug: "golgari_dredge", opponentPilot: "Jari Van Schaik", opponentPilotSlug: "jari_van_schaik", result: "Loss" },
           { round: 3, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
@@ -17450,8 +18090,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tijmen_van_der_kamp": {
     slug: "tijmen_van_der_kamp",
     name: "Tijmen van der Kamp",
-    stats: { wins: 71, losses: 57, draws: 5, byes: 0 },
+    stats: { wins: 72, losses: 59, draws: 8, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 40,
+        deckId: "jq3MPltEh3gT3UnxatUV5wsHLv82",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "vinicius duarte", opponentPilotSlug: "vinicius_duarte", result: "Draw" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tom de Ruiter", opponentPilotSlug: "tom_de_ruiter", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Draw" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jose Jiménez Guerrero", opponentPilotSlug: "jose_jimenez_guerrero", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Draw" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -17867,8 +18523,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim_bunnik": {
     slug: "tim_bunnik",
     name: "Tim Bunnik",
-    stats: { wins: 67, losses: 39, draws: 3, byes: 0 },
+    stats: { wins: 70, losses: 41, draws: 3, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 9,
+        deckId: "vRDl5dUGhQRB9ckDjsZkt5I75gs2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob_lamers", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias_van_kersbergen", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan van Gelder", opponentPilotSlug: "dylan_van_gelder", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander_hamilton", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -18150,7 +18822,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Flicker Tron",
         deckSlug: "flicker_tron",
         rounds: [
-          { round: 6, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Robbert", opponentPilotSlug: "robbert", result: "Win" },
           { round: 5, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Jort Bakker", opponentPilotSlug: "jort_bakker", result: "Win" },
           { round: 4, opponentDeck: "Golgari Dredge", opponentDeckSlug: "golgari_dredge", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Loss" },
           { round: 3, opponentDeck: "Moggwarts", opponentDeckSlug: "moggwarts", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
@@ -18163,8 +18834,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim_laros": {
     slug: "tim_laros",
     name: "Tim Laros",
-    stats: { wins: 32, losses: 31, draws: 1, byes: 0 },
+    stats: { wins: 35, losses: 34, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 24,
+        deckId: "JHDnc7YgrLOY5l08pCJJM28WIRC2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Vanessa Weber", opponentPilotSlug: "vanessa_weber", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan van der List", opponentPilotSlug: "stefan_van_der_list", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Leonardo Paternotte", opponentPilotSlug: "leonardo_paternotte", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -18344,8 +19031,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim_swillens": {
     slug: "tim_swillens",
     name: "Tim Swillens",
-    stats: { wins: 2, losses: 17, draws: 1, byes: 0 },
+    stats: { wins: 2, losses: 23, draws: 1, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 46,
+        deckId: "U6PRugzMmoOutqxeQIKPDK8Ys7I2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Collin Bos", opponentPilotSlug: "collin_bos", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Aartos Locos", opponentPilotSlug: "aartos_locos", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "vinicius duarte", opponentPilotSlug: "vinicius_duarte", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander_hamilton", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Lamers", opponentPilotSlug: "rob_lamers", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -18507,8 +19210,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tobias_van_kersbergen": {
     slug: "tobias_van_kersbergen",
     name: "Tobias van Kersbergen",
-    stats: { wins: 34, losses: 33, draws: 13, byes: 0 },
+    stats: { wins: 38, losses: 35, draws: 13, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 11,
+        deckId: "xzxxxPRgMRMUmWf8MNQMTH9rnOz2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Raaayyyyyyyyyy", opponentPilotSlug: "raaayyyyyyyyyy", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Stefan Pouwelse", opponentPilotSlug: "stefan_pouwelse", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Collin Bos", opponentPilotSlug: "collin_bos", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Alexander Hamilton", opponentPilotSlug: "alexander_hamilton", result: "Win" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -18724,8 +19443,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tom_de_ruiter": {
     slug: "tom_de_ruiter",
     name: "Tom de Ruiter",
-    stats: { wins: 51, losses: 37, draws: 9, byes: 0 },
+    stats: { wins: 54, losses: 39, draws: 10, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 16,
+        deckId: "vS51wYeoyVcyG8HVrOhMF5WdJOr2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Harm steenbakkers", opponentPilotSlug: "harm_steenbakkers", result: "Win" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Draw" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Davey Barendregt", opponentPilotSlug: "davey_barendregt", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -19012,8 +19747,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "toon_de_vet": {
     slug: "toon_de_vet",
     name: "Toon de Vet",
-    stats: { wins: 57, losses: 51, draws: 18, byes: 1 },
+    stats: { wins: 58, losses: 55, draws: 18, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 37,
+        deckId: "OQAgwZqyRtZEijVCnEqW37NWmlE2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Dylan van Gelder", opponentPilotSlug: "dylan_van_gelder", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Loss" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "vinicius duarte", opponentPilotSlug: "vinicius_duarte", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -19343,7 +20094,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Familiars",
         deckSlug: "familiars",
         rounds: [
-          { round: 6, opponentDeck: "Izzet Terror", opponentDeckSlug: "izzet_terror", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
           { round: 5, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Loss" },
           { round: 4, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Kasper Zijl", opponentPilotSlug: "kasper_zijl", result: "Loss" },
           { round: 3, opponentDeck: "Jeskai Glitters", opponentDeckSlug: "jeskai_glitters", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Loss" },
@@ -19380,8 +20130,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "vanessa_weber": {
     slug: "vanessa_weber",
     name: "Vanessa Weber",
-    stats: { wins: 1, losses: 5, draws: 0, byes: 0 },
+    stats: { wins: 3, losses: 9, draws: 0, byes: 0 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 38,
+        deckId: "elzjMN3i6ehtzkGQfe7auxXkmvy2",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Loss" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Leonardo Paternotte", opponentPilotSlug: "leonardo_paternotte", result: "Win" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Gianvito Taneburgo", opponentPilotSlug: "gianvito_taneburgo", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2025-12-13",
         eventName: "Dutch Pauper League – 9° Leg – 2025",
@@ -19585,8 +20351,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "vinicius_duarte": {
     slug: "vinicius_duarte",
     name: "vinicius duarte",
-    stats: { wins: 16, losses: 10, draws: 3, byes: 1 },
+    stats: { wins: 18, losses: 13, draws: 4, byes: 1 },
     results: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        position: 34,
+        deckId: "CDpQeExwsOc91b2OrQ1MymZT1S42",
+        deck: "Unknown",
+        deckSlug: "unknown",
+        rounds: [
+          { round: 6, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Draw" },
+          { round: 5, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
+          { round: 4, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Tim Swillens", opponentPilotSlug: "tim_swillens", result: "Win" },
+          { round: 3, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Rob Kerlin", opponentPilotSlug: "rob_kerlin", result: "Loss" },
+          { round: 2, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Thijs Deckers", opponentPilotSlug: "thijs_deckers", result: "Loss" },
+          { round: 1, opponentDeck: "Unknown", opponentDeckSlug: "unknown", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -19728,7 +20510,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "vlad_alexandru_negar": {
     slug: "vlad_alexandru_negar",
     name: "Vlad-Alexandru Negară",
-    stats: { wins: 44, losses: 33, draws: 5, byes: 0 },
+    stats: { wins: 43, losses: 33, draws: 5, byes: 0 },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -19944,7 +20726,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Dimir Terror",
         deckSlug: "dimir_terror",
         rounds: [
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Harm steenbakkers", opponentPilotSlug: "harm_steenbakkers", result: "Win" },
           { round: 5, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Leo Rodrigo Heran Balbuena", opponentPilotSlug: "leo_rodrigo_heran_balbuena", result: "Loss" },
           { round: 4, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Draw" },
           { round: 3, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Kasper Zijl", opponentPilotSlug: "kasper_zijl", result: "Win" },

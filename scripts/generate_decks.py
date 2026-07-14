@@ -30,7 +30,7 @@ def build_event_name_to_date_mapping() -> dict:
         date = event_file.stem  # e.g., "2024-03-02"
 
         # Read the event file to extract event name
-        with open(event_file, 'r', encoding='utf-8') as f:
+        with open(event_file, 'r', encoding='utf-8-sig') as f:
             content = f.read()
 
         # Extract event name from: name: "Event Name",
@@ -67,7 +67,7 @@ def main():
         print(f"📄 {event_name_from_file}...", end=" ", flush=True)
 
         # Read JSON
-        with open(json_file, 'r', encoding='utf-8') as f:
+        with open(json_file, 'r', encoding='utf-8-sig') as f:
             data = json.load(f)
 
         if 'decks' not in data:

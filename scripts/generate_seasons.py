@@ -7,6 +7,14 @@ Only events whose name contains "° Leg" count towards a season's stats and
 standings - one-off/special events (Stroopwafel IPT, Invitational, ...) are
 excluded, matching how the league has always scored these.
 
+Standings points are a player's best `bestOfCap` leg results (per FAQ, for
+2026+: "best 7 of 8 events"; a season can run more than 8 legs, so this is
+applied as "best N of however many a player played"). Players with
+`bestOfCap` or fewer results have all of them counted. `bestOfCap` is
+per-season, manually-curated in data/seasons_info.json (see below) - past
+seasons (2024, 2025) set it to null/absent, meaning uncapped, matching how
+they were originally scored.
+
 Byes/flights (LeagueStanding.flight/.bye) cannot be derived from match
 results - there's no discoverable rule in the data (see project memory).
 They're sourced from a manually-curated file: data/seasons_info.json
@@ -15,11 +23,13 @@ They're sourced from a manually-curated file: data/seasons_info.json
       "awards": [
         {"playerSlug": "bram_deppenbroek", "flight": true, "bye": true}
       ],
-      "status": "completed"
+      "status": "completed",
+      "bestOfCap": null
     }
   }
-If a year is absent from that file, no standing gets flight/bye for it.
-This script only reads "awards" - "status" ("ongoing"/"completed") is read
+If a year is absent from that file, no standing gets flight/bye for it,
+and its standings are uncapped (every leg result counts). This script
+reads "awards" and "bestOfCap" - "status" ("ongoing"/"completed") is read
 by the website (src/lib/current-season.ts) to pick the current season and
 build the list of years with pages; it plays no role in generation here.
 
@@ -51,7 +61,7 @@ def load_leg_events_for_year(year: int) -> list:
     events = []
 
     for event_file in sorted(EVENTS_DIR.glob(f"{year}-*.ts")):
-        content = event_file.read_text(encoding='utf-8')
+        content = event_file.read_text(encoding='utf-8-sig')
 
         event = extract_json_from_ts(content, 'event')
         if not event or "° Leg" not in event.get('name', ''):
@@ -80,7 +90,7 @@ def load_seasons_info() -> dict:
     if not SEASONS_INFO_FILE.exists():
         return {}
 
-    with open(SEASONS_INFO_FILE, 'r', encoding='utf-8') as f:
+    with open(SEASONS_INFO_FILE, 'r', encoding='utf-8-sig') as f:
         return json.load(f)
 
 
@@ -89,14 +99,33 @@ def load_awards(year: int, seasons_info: dict) -> list:
     return seasons_info.get(str(year), {}).get('awards', [])
 
 
-def rank_players(events: list) -> dict:
-    """Return {player_name: position} for the standings these events alone
-    would produce (same points-sum + tie-break rule as the real standings)."""
-    points_by_player = defaultdict(int)
+def load_best_of_cap(year: int, seasons_info: dict):
+    """Get this year's manually-curated bestOfCap, if any. None (absent or
+    explicit null) means uncapped - every leg result counts."""
+    return seasons_info.get(str(year), {}).get('bestOfCap')
+
+
+def compute_capped_points(events: list, cap: int = None) -> dict:
+    """Return {player_name: points}, where points is the sum of a player's
+    best `cap` matchPoints across the given events. Players with `cap` or
+    fewer results have all of them counted. cap=None means uncapped (every
+    result counts)."""
+    points_per_event = defaultdict(list)
     for event in events:
         for standing in event['standings']:
-            points_by_player[standing['player']] += standing['matchPoints']
+            points_per_event[standing['player']].append(standing['matchPoints'])
 
+    return {
+        player: sum(sorted(points, reverse=True)[:cap])
+        for player, points in points_per_event.items()
+    }
+
+
+def rank_players(events: list, cap: int = None) -> dict:
+    """Return {player_name: position} for the standings these events alone
+    would produce (same points rule + tie-break rule as the real
+    standings)."""
+    points_by_player = compute_capped_points(events, cap)
     ranked = sorted(points_by_player.items(), key=lambda kv: (-kv[1], kv[0].lower()))
     return {player: i for i, (player, _) in enumerate(ranked, start=1)}
 
@@ -130,12 +159,11 @@ def compute_byes_unlocked(player_counts: list) -> int:
 def build_season(year: int, seasons_info: dict) -> dict:
     events = load_leg_events_for_year(year)
     past_events = [e for e in events if e['status'] == 'past']
+    cap = load_best_of_cap(year, seasons_info)
 
-    # ── Standings: sum matchPoints per player across all past legs ──────────
-    points_by_player = defaultdict(int)
-    for event in past_events:
-        for standing in event['standings']:
-            points_by_player[standing['player']] += standing['matchPoints']
+    # ── Standings: best `cap` leg results per player (all of them if no cap
+    # or <= cap results) ─────────────────────────────────────────────────
+    points_by_player = compute_capped_points(past_events, cap)
 
     awards = load_awards(year, seasons_info)
     award_by_slug = {a['playerSlug']: a for a in awards}
@@ -160,7 +188,7 @@ def build_season(year: int, seasons_info: dict) -> dict:
     # Positive = moved up (better), negative = moved down, 0 = held.
     # Omitted entirely for a player with no previous ranking (their first
     # leg, or a season with 0-1 legs played so far - nothing to compare to).
-    previous_positions = rank_players(past_events[:-1]) if past_events else {}
+    previous_positions = rank_players(past_events[:-1], cap) if past_events else {}
 
     for i, entry in enumerate(standings, start=1):
         entry['position'] = i

@@ -1,63 +1,64 @@
 import type { Archetype, ArchetypeDetail } from "@/types";
 
 export const ARCHETYPES: Archetype[] = [
-  { slug: "rakdos_burn", name: "Rakdos Burn", count: 75, percentage: "6.52%" },
-  { slug: "brew", name: "Brew", count: 73, percentage: "6.34%" },
-  { slug: "monou_terror", name: "MonoU Terror", count: 72, percentage: "6.26%" },
-  { slug: "affinity", name: "Affinity", count: 60, percentage: "5.21%" },
-  { slug: "monou_faeries", name: "MonoU Faeries", count: 55, percentage: "4.78%" },
-  { slug: "jund_wildfire", name: "Jund Wildfire", count: 53, percentage: "4.60%" },
-  { slug: "gruul_ponza", name: "Gruul Ponza", count: 44, percentage: "3.82%" },
-  { slug: "burn", name: "Burn", count: 44, percentage: "3.82%" },
-  { slug: "elves", name: "Elves", count: 41, percentage: "3.56%" },
-  { slug: "dimir_faeries", name: "Dimir Faeries", count: 38, percentage: "3.30%" },
-  { slug: "monor_madness", name: "MonoR Madness", count: 34, percentage: "2.95%" },
-  { slug: "azorius_gates", name: "Azorius Gates", count: 33, percentage: "2.87%" },
-  { slug: "monob_sacrifice", name: "MonoB Sacrifice", count: 31, percentage: "2.69%" },
-  { slug: "familiars", name: "Familiars", count: 29, percentage: "2.52%" },
-  { slug: "monor_kuldotha", name: "MonoR Kuldotha", count: 28, percentage: "2.43%" },
-  { slug: "flicker_tron", name: "Flicker Tron", count: 26, percentage: "2.26%" },
-  { slug: "bogles", name: "Bogles", count: 24, percentage: "2.09%" },
-  { slug: "gruul_ramp", name: "Gruul Ramp", count: 24, percentage: "2.09%" },
-  { slug: "jeskai_ephemerate", name: "Jeskai Ephemerate", count: 21, percentage: "1.82%" },
-  { slug: "white_weenie", name: "White Weenie", count: 21, percentage: "1.82%" },
-  { slug: "walls", name: "Walls", count: 19, percentage: "1.65%" },
-  { slug: "golgari_gardens", name: "Golgari Gardens", count: 19, percentage: "1.65%" },
-  { slug: "izzet_terror", name: "Izzet Terror", count: 18, percentage: "1.56%" },
-  { slug: "one_land_spy", name: "One Land Spy", count: 16, percentage: "1.39%" },
-  { slug: "golgari_dredge", name: "Golgari Dredge", count: 15, percentage: "1.30%" },
-  { slug: "dimir_terror", name: "Dimir Terror", count: 15, percentage: "1.30%" },
-  { slug: "altar_tron", name: "Altar Tron", count: 14, percentage: "1.22%" },
-  { slug: "boros_synth", name: "Boros Synth", count: 13, percentage: "1.13%" },
-  { slug: "moggwarts", name: "Moggwarts", count: 12, percentage: "1.04%" },
-  { slug: "spy_walls", name: "Spy Walls", count: 12, percentage: "1.04%" },
-  { slug: "mardu_synth", name: "Mardu Synth", count: 10, percentage: "0.87%" },
-  { slug: "jund_gleezard", name: "Jund Gleezard", count: 9, percentage: "0.78%" },
-  { slug: "cycling_storm", name: "Cycling Storm", count: 9, percentage: "0.78%" },
-  { slug: "monou_high_tide", name: "MonoU High Tide", count: 9, percentage: "0.78%" },
-  { slug: "orzhov_blade", name: "Orzhov Blade", count: 8, percentage: "0.70%" },
-  { slug: "boros_glitters", name: "Boros Glitters", count: 8, percentage: "0.70%" },
-  { slug: "monster_tron", name: "Monster Tron", count: 7, percentage: "0.61%" },
-  { slug: "monor_rally", name: "MonoR Rally", count: 7, percentage: "0.61%" },
-  { slug: "boros_bully", name: "Boros Bully", count: 7, percentage: "0.61%" },
-  { slug: "esper_blade", name: "Esper Blade", count: 7, percentage: "0.61%" },
-  { slug: "azorius_glitters", name: "Azorius Glitters", count: 6, percentage: "0.52%" },
-  { slug: "poison_storm", name: "Poison Storm", count: 6, percentage: "0.52%" },
-  { slug: "monow_heroic", name: "MonoW Heroic", count: 5, percentage: "0.43%" },
-  { slug: "ruby_storm", name: "Ruby Storm", count: 5, percentage: "0.43%" },
-  { slug: "fangren_tron", name: "Fangren Tron", count: 5, percentage: "0.43%" },
-  { slug: "jeskai_glitters", name: "Jeskai Glitters", count: 4, percentage: "0.35%" },
-  { slug: "turbofog", name: "Turbofog", count: 4, percentage: "0.35%" },
-  { slug: "golgari_gleezard", name: "Golgari Gleezard", count: 4, percentage: "0.35%" },
-  { slug: "temur_ponza", name: "Temur Ponza", count: 3, percentage: "0.26%" },
-  { slug: "monor_tron", name: "MonoR Tron", count: 3, percentage: "0.26%" },
-  { slug: "selesnya_gates", name: "Selesnya Gates", count: 3, percentage: "0.26%" },
-  { slug: "eldrazi_spawn", name: "Eldrazi Spawn", count: 3, percentage: "0.26%" },
-  { slug: "goblins", name: "Goblins", count: 3, percentage: "0.26%" },
-  { slug: "boros_tribe", name: "Boros Tribe", count: 3, percentage: "0.26%" },
-  { slug: "inside_out", name: "Inside Out", count: 3, percentage: "0.26%" },
-  { slug: "brew_golgari", name: "Brew Golgari", count: 3, percentage: "0.26%" },
-  { slug: "slivers", name: "Slivers", count: 3, percentage: "0.26%" },
+  { slug: "rakdos_burn", name: "Rakdos Burn", count: 75, percentage: "6.26%" },
+  { slug: "brew", name: "Brew", count: 73, percentage: "6.09%" },
+  { slug: "monou_terror", name: "MonoU Terror", count: 72, percentage: "6.01%" },
+  { slug: "affinity", name: "Affinity", count: 60, percentage: "5.01%" },
+  { slug: "monou_faeries", name: "MonoU Faeries", count: 55, percentage: "4.59%" },
+  { slug: "jund_wildfire", name: "Jund Wildfire", count: 53, percentage: "4.42%" },
+  { slug: "unknown", name: "Unknown", count: 47, percentage: "3.92%" },
+  { slug: "gruul_ponza", name: "Gruul Ponza", count: 44, percentage: "3.67%" },
+  { slug: "burn", name: "Burn", count: 44, percentage: "3.67%" },
+  { slug: "elves", name: "Elves", count: 41, percentage: "3.42%" },
+  { slug: "dimir_faeries", name: "Dimir Faeries", count: 38, percentage: "3.17%" },
+  { slug: "monor_madness", name: "MonoR Madness", count: 34, percentage: "2.84%" },
+  { slug: "azorius_gates", name: "Azorius Gates", count: 33, percentage: "2.75%" },
+  { slug: "monob_sacrifice", name: "MonoB Sacrifice", count: 31, percentage: "2.59%" },
+  { slug: "familiars", name: "Familiars", count: 29, percentage: "2.42%" },
+  { slug: "monor_kuldotha", name: "MonoR Kuldotha", count: 28, percentage: "2.34%" },
+  { slug: "flicker_tron", name: "Flicker Tron", count: 26, percentage: "2.17%" },
+  { slug: "bogles", name: "Bogles", count: 24, percentage: "2.00%" },
+  { slug: "gruul_ramp", name: "Gruul Ramp", count: 24, percentage: "2.00%" },
+  { slug: "jeskai_ephemerate", name: "Jeskai Ephemerate", count: 21, percentage: "1.75%" },
+  { slug: "white_weenie", name: "White Weenie", count: 21, percentage: "1.75%" },
+  { slug: "walls", name: "Walls", count: 19, percentage: "1.59%" },
+  { slug: "golgari_gardens", name: "Golgari Gardens", count: 19, percentage: "1.59%" },
+  { slug: "izzet_terror", name: "Izzet Terror", count: 18, percentage: "1.50%" },
+  { slug: "one_land_spy", name: "One Land Spy", count: 16, percentage: "1.34%" },
+  { slug: "golgari_dredge", name: "Golgari Dredge", count: 15, percentage: "1.25%" },
+  { slug: "dimir_terror", name: "Dimir Terror", count: 15, percentage: "1.25%" },
+  { slug: "altar_tron", name: "Altar Tron", count: 14, percentage: "1.17%" },
+  { slug: "boros_synth", name: "Boros Synth", count: 13, percentage: "1.09%" },
+  { slug: "moggwarts", name: "Moggwarts", count: 12, percentage: "1.00%" },
+  { slug: "spy_walls", name: "Spy Walls", count: 12, percentage: "1.00%" },
+  { slug: "mardu_synth", name: "Mardu Synth", count: 10, percentage: "0.83%" },
+  { slug: "jund_gleezard", name: "Jund Gleezard", count: 9, percentage: "0.75%" },
+  { slug: "cycling_storm", name: "Cycling Storm", count: 9, percentage: "0.75%" },
+  { slug: "monou_high_tide", name: "MonoU High Tide", count: 9, percentage: "0.75%" },
+  { slug: "orzhov_blade", name: "Orzhov Blade", count: 8, percentage: "0.67%" },
+  { slug: "boros_glitters", name: "Boros Glitters", count: 8, percentage: "0.67%" },
+  { slug: "monster_tron", name: "Monster Tron", count: 7, percentage: "0.58%" },
+  { slug: "monor_rally", name: "MonoR Rally", count: 7, percentage: "0.58%" },
+  { slug: "boros_bully", name: "Boros Bully", count: 7, percentage: "0.58%" },
+  { slug: "esper_blade", name: "Esper Blade", count: 7, percentage: "0.58%" },
+  { slug: "azorius_glitters", name: "Azorius Glitters", count: 6, percentage: "0.50%" },
+  { slug: "poison_storm", name: "Poison Storm", count: 6, percentage: "0.50%" },
+  { slug: "monow_heroic", name: "MonoW Heroic", count: 5, percentage: "0.42%" },
+  { slug: "ruby_storm", name: "Ruby Storm", count: 5, percentage: "0.42%" },
+  { slug: "fangren_tron", name: "Fangren Tron", count: 5, percentage: "0.42%" },
+  { slug: "jeskai_glitters", name: "Jeskai Glitters", count: 4, percentage: "0.33%" },
+  { slug: "turbofog", name: "Turbofog", count: 4, percentage: "0.33%" },
+  { slug: "golgari_gleezard", name: "Golgari Gleezard", count: 4, percentage: "0.33%" },
+  { slug: "temur_ponza", name: "Temur Ponza", count: 3, percentage: "0.25%" },
+  { slug: "monor_tron", name: "MonoR Tron", count: 3, percentage: "0.25%" },
+  { slug: "selesnya_gates", name: "Selesnya Gates", count: 3, percentage: "0.25%" },
+  { slug: "eldrazi_spawn", name: "Eldrazi Spawn", count: 3, percentage: "0.25%" },
+  { slug: "goblins", name: "Goblins", count: 3, percentage: "0.25%" },
+  { slug: "boros_tribe", name: "Boros Tribe", count: 3, percentage: "0.25%" },
+  { slug: "inside_out", name: "Inside Out", count: 3, percentage: "0.25%" },
+  { slug: "brew_golgari", name: "Brew Golgari", count: 3, percentage: "0.25%" },
+  { slug: "slivers", name: "Slivers", count: 3, percentage: "0.25%" },
   { slug: "petitioners_mill", name: "Petitioners Mill", count: 2, percentage: "0.17%" },
   { slug: "esper_affinity", name: "Esper Affinity", count: 2, percentage: "0.17%" },
   { slug: "jund_gardens", name: "Jund Gardens", count: 2, percentage: "0.17%" },
@@ -66,15 +67,15 @@ export const ARCHETYPES: Archetype[] = [
   { slug: "infect", name: "Infect", count: 2, percentage: "0.17%" },
   { slug: "jund_cascade", name: "Jund Cascade", count: 2, percentage: "0.17%" },
   { slug: "monor_dredge", name: "MonoR Dredge", count: 2, percentage: "0.17%" },
-  { slug: "monog_tron", name: "MonoG Tron", count: 1, percentage: "0.09%" },
-  { slug: "monob_control", name: "MonoB Control", count: 1, percentage: "0.09%" },
-  { slug: "rakdos_ally", name: "Rakdos Ally", count: 1, percentage: "0.09%" },
-  { slug: "naya_turbo_emblem", name: "Naya Turbo Emblem", count: 1, percentage: "0.09%" },
-  { slug: "golgari_tortex", name: "Golgari TortEx", count: 1, percentage: "0.09%" },
-  { slug: "monob_ponza", name: "MonoB Ponza", count: 1, percentage: "0.09%" },
-  { slug: "dimir_control", name: "Dimir Control", count: 1, percentage: "0.09%" },
-  { slug: "naya_gates", name: "Naya Gates", count: 1, percentage: "0.09%" },
-  { slug: "boros_moxite", name: "Boros Moxite", count: 1, percentage: "0.09%" },
+  { slug: "monog_tron", name: "MonoG Tron", count: 1, percentage: "0.08%" },
+  { slug: "monob_control", name: "MonoB Control", count: 1, percentage: "0.08%" },
+  { slug: "rakdos_ally", name: "Rakdos Ally", count: 1, percentage: "0.08%" },
+  { slug: "naya_turbo_emblem", name: "Naya Turbo Emblem", count: 1, percentage: "0.08%" },
+  { slug: "golgari_tortex", name: "Golgari TortEx", count: 1, percentage: "0.08%" },
+  { slug: "monob_ponza", name: "MonoB Ponza", count: 1, percentage: "0.08%" },
+  { slug: "dimir_control", name: "Dimir Control", count: 1, percentage: "0.08%" },
+  { slug: "naya_gates", name: "Naya Gates", count: 1, percentage: "0.08%" },
+  { slug: "boros_moxite", name: "Boros Moxite", count: 1, percentage: "0.08%" },
 ];
 
 export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
@@ -82,7 +83,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "rakdos_burn",
     name: "Rakdos Burn",
     count: 75,
-    percentage: "6.52%",
+    percentage: "6.26%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -291,7 +292,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "brew",
     name: "Brew",
     count: 73,
-    percentage: "6.34%",
+    percentage: "6.09%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -492,7 +493,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monou_terror",
     name: "MonoU Terror",
     count: 72,
-    percentage: "6.26%",
+    percentage: "6.01%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -698,7 +699,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "affinity",
     name: "Affinity",
     count: 60,
-    percentage: "5.21%",
+    percentage: "5.01%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -880,7 +881,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monou_faeries",
     name: "MonoU Faeries",
     count: 55,
-    percentage: "4.78%",
+    percentage: "4.59%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -1057,7 +1058,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "jund_wildfire",
     name: "Jund Wildfire",
     count: 53,
-    percentage: "4.60%",
+    percentage: "4.42%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -1192,11 +1193,72 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
       },
     ],
   },
+  "unknown": {
+    slug: "unknown",
+    name: "Unknown",
+    count: 47,
+    percentage: "3.92%",
+    byEvent: [
+      {
+        eventSlug: "2026-07-04",
+        eventName: "Amsterdam Pauper League – 4° Leg – 2026",
+        appearances: [
+          { position: 1, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 2, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 3, pilot: "Jamie March", pilotSlug: "jamie_march", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 4, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 5, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 6, pilot: "Bas Hendriks", pilotSlug: "bas_hendriks", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 7, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 8, pilot: "Jerryt Boersen", pilotSlug: "jerryt_boersen", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 9, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 10, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 11, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 12, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 13, pilot: "Thijs Deckers", pilotSlug: "thijs_deckers", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 14, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 15, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 16, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 17, pilot: "Stefan van der List", pilotSlug: "stefan_van_der_list", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 18, pilot: "Alice Lenting", pilotSlug: "alice_lenting", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 19, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 20, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 21, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 22, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 23, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 24, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 25, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 26, pilot: "Alexander Hamilton", pilotSlug: "alexander_hamilton", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 27, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 28, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 29, pilot: "Davey Barendregt", pilotSlug: "davey_barendregt", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 30, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 31, pilot: "Aartos Locos", pilotSlug: "aartos_locos", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 32, pilot: "Jose Jiménez Guerrero", pilotSlug: "jose_jimenez_guerrero", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 33, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 34, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 35, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 36, pilot: "Stefan Pouwelse", pilotSlug: "stefan_pouwelse", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 37, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 38, pilot: "Vanessa Weber", pilotSlug: "vanessa_weber", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 39, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 40, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 41, pilot: "Rob Kerlin", pilotSlug: "rob_kerlin", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 42, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 43, pilot: "Floris Stapel", pilotSlug: "floris_stapel", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 44, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 45, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 46, pilot: "Tim Swillens", pilotSlug: "tim_swillens", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+          { position: 47, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2026-07-04", eventName: "Amsterdam Pauper League – 4° Leg – 2026" },
+        ],
+      },
+    ],
+  },
   "gruul_ponza": {
     slug: "gruul_ponza",
     name: "Gruul Ponza",
     count: 44,
-    percentage: "3.82%",
+    percentage: "3.67%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -1356,7 +1418,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "burn",
     name: "Burn",
     count: 44,
-    percentage: "3.82%",
+    percentage: "3.67%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -1486,7 +1548,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "elves",
     name: "Elves",
     count: 41,
-    percentage: "3.56%",
+    percentage: "3.42%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -1637,7 +1699,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "dimir_faeries",
     name: "Dimir Faeries",
     count: 38,
-    percentage: "3.30%",
+    percentage: "3.17%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -1791,7 +1853,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monor_madness",
     name: "MonoR Madness",
     count: 34,
-    percentage: "2.95%",
+    percentage: "2.84%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -1863,7 +1925,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "azorius_gates",
     name: "Azorius Gates",
     count: 33,
-    percentage: "2.87%",
+    percentage: "2.75%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -2006,7 +2068,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monob_sacrifice",
     name: "MonoB Sacrifice",
     count: 31,
-    percentage: "2.69%",
+    percentage: "2.59%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -2123,7 +2185,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "familiars",
     name: "Familiars",
     count: 29,
-    percentage: "2.52%",
+    percentage: "2.42%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -2280,7 +2342,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monor_kuldotha",
     name: "MonoR Kuldotha",
     count: 28,
-    percentage: "2.43%",
+    percentage: "2.34%",
     byEvent: [
       {
         eventSlug: "2024-12-07",
@@ -2370,7 +2432,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "flicker_tron",
     name: "Flicker Tron",
     count: 26,
-    percentage: "2.26%",
+    percentage: "2.17%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -2500,7 +2562,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "bogles",
     name: "Bogles",
     count: 24,
-    percentage: "2.09%",
+    percentage: "2.00%",
     byEvent: [
       {
         eventSlug: "2025-12-13",
@@ -2616,7 +2678,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "gruul_ramp",
     name: "Gruul Ramp",
     count: 24,
-    percentage: "2.09%",
+    percentage: "2.00%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -2726,7 +2788,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "jeskai_ephemerate",
     name: "Jeskai Ephemerate",
     count: 21,
-    percentage: "1.82%",
+    percentage: "1.75%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -2827,7 +2889,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "white_weenie",
     name: "White Weenie",
     count: 21,
-    percentage: "1.82%",
+    percentage: "1.75%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -2922,7 +2984,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "walls",
     name: "Walls",
     count: 19,
-    percentage: "1.65%",
+    percentage: "1.59%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -3039,7 +3101,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "golgari_gardens",
     name: "Golgari Gardens",
     count: 19,
-    percentage: "1.65%",
+    percentage: "1.59%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -3138,7 +3200,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "izzet_terror",
     name: "Izzet Terror",
     count: 18,
-    percentage: "1.56%",
+    percentage: "1.50%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -3230,7 +3292,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "one_land_spy",
     name: "One Land Spy",
     count: 16,
-    percentage: "1.39%",
+    percentage: "1.34%",
     byEvent: [
       {
         eventSlug: "2026-01-17",
@@ -3296,7 +3358,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "golgari_dredge",
     name: "Golgari Dredge",
     count: 15,
-    percentage: "1.30%",
+    percentage: "1.25%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -3385,7 +3447,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "dimir_terror",
     name: "Dimir Terror",
     count: 15,
-    percentage: "1.30%",
+    percentage: "1.25%",
     byEvent: [
       {
         eventSlug: "2026-04-11",
@@ -3456,7 +3518,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "altar_tron",
     name: "Altar Tron",
     count: 14,
-    percentage: "1.22%",
+    percentage: "1.17%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -3562,7 +3624,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "boros_synth",
     name: "Boros Synth",
     count: 13,
-    percentage: "1.13%",
+    percentage: "1.09%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -3625,7 +3687,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "moggwarts",
     name: "Moggwarts",
     count: 12,
-    percentage: "1.04%",
+    percentage: "1.00%",
     byEvent: [
       {
         eventSlug: "2025-11-01",
@@ -3693,7 +3755,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "spy_walls",
     name: "Spy Walls",
     count: 12,
-    percentage: "1.04%",
+    percentage: "1.00%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -3737,7 +3799,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "mardu_synth",
     name: "Mardu Synth",
     count: 10,
-    percentage: "0.87%",
+    percentage: "0.83%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -3803,7 +3865,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "jund_gleezard",
     name: "Jund Gleezard",
     count: 9,
-    percentage: "0.78%",
+    percentage: "0.75%",
     byEvent: [
       {
         eventSlug: "2024-12-07",
@@ -3856,7 +3918,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "cycling_storm",
     name: "Cycling Storm",
     count: 9,
-    percentage: "0.78%",
+    percentage: "0.75%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -3927,7 +3989,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monou_high_tide",
     name: "MonoU High Tide",
     count: 9,
-    percentage: "0.78%",
+    percentage: "0.75%",
     byEvent: [
       {
         eventSlug: "2025-11-01",
@@ -3968,7 +4030,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "orzhov_blade",
     name: "Orzhov Blade",
     count: 8,
-    percentage: "0.70%",
+    percentage: "0.67%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -4026,7 +4088,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "boros_glitters",
     name: "Boros Glitters",
     count: 8,
-    percentage: "0.70%",
+    percentage: "0.67%",
     byEvent: [
       {
         eventSlug: "2024-05-04",
@@ -4054,7 +4116,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monster_tron",
     name: "Monster Tron",
     count: 7,
-    percentage: "0.61%",
+    percentage: "0.58%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -4087,7 +4149,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monor_rally",
     name: "MonoR Rally",
     count: 7,
-    percentage: "0.61%",
+    percentage: "0.58%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -4120,7 +4182,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "boros_bully",
     name: "Boros Bully",
     count: 7,
-    percentage: "0.61%",
+    percentage: "0.58%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -4171,7 +4233,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "esper_blade",
     name: "Esper Blade",
     count: 7,
-    percentage: "0.61%",
+    percentage: "0.58%",
     byEvent: [
       {
         eventSlug: "2025-11-01",
@@ -4198,7 +4260,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "azorius_glitters",
     name: "Azorius Glitters",
     count: 6,
-    percentage: "0.52%",
+    percentage: "0.50%",
     byEvent: [
       {
         eventSlug: "2024-05-04",
@@ -4224,7 +4286,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "poison_storm",
     name: "Poison Storm",
     count: 6,
-    percentage: "0.52%",
+    percentage: "0.50%",
     byEvent: [
       {
         eventSlug: "2025-09-06",
@@ -4274,7 +4336,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monow_heroic",
     name: "MonoW Heroic",
     count: 5,
-    percentage: "0.43%",
+    percentage: "0.42%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -4311,7 +4373,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "ruby_storm",
     name: "Ruby Storm",
     count: 5,
-    percentage: "0.43%",
+    percentage: "0.42%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -4342,7 +4404,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "fangren_tron",
     name: "Fangren Tron",
     count: 5,
-    percentage: "0.43%",
+    percentage: "0.42%",
     byEvent: [
       {
         eventSlug: "2025-09-06",
@@ -4379,7 +4441,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "jeskai_glitters",
     name: "Jeskai Glitters",
     count: 4,
-    percentage: "0.35%",
+    percentage: "0.33%",
     byEvent: [
       {
         eventSlug: "2024-05-04",
@@ -4409,7 +4471,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "turbofog",
     name: "Turbofog",
     count: 4,
-    percentage: "0.35%",
+    percentage: "0.33%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -4445,7 +4507,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "golgari_gleezard",
     name: "Golgari Gleezard",
     count: 4,
-    percentage: "0.35%",
+    percentage: "0.33%",
     byEvent: [
       {
         eventSlug: "2024-11-02",
@@ -4469,7 +4531,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "temur_ponza",
     name: "Temur Ponza",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2024-12-07",
@@ -4498,7 +4560,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monor_tron",
     name: "MonoR Tron",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2025-05-03",
@@ -4527,7 +4589,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "selesnya_gates",
     name: "Selesnya Gates",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -4556,7 +4618,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "eldrazi_spawn",
     name: "Eldrazi Spawn",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -4579,7 +4641,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "goblins",
     name: "Goblins",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2026-05-02",
@@ -4608,7 +4670,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "boros_tribe",
     name: "Boros Tribe",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2026-06-06",
@@ -4631,7 +4693,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "inside_out",
     name: "Inside Out",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2025-07-05",
@@ -4660,7 +4722,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "brew_golgari",
     name: "Brew Golgari",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2026-01-17",
@@ -4689,7 +4751,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "slivers",
     name: "Slivers",
     count: 3,
-    percentage: "0.26%",
+    percentage: "0.25%",
     byEvent: [
       {
         eventSlug: "2025-08-02",
@@ -4882,7 +4944,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monog_tron",
     name: "MonoG Tron",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2024-12-07",
@@ -4897,7 +4959,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monob_control",
     name: "MonoB Control",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2025-04-12",
@@ -4912,7 +4974,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "rakdos_ally",
     name: "Rakdos Ally",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2026-04-11",
@@ -4927,7 +4989,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "naya_turbo_emblem",
     name: "Naya Turbo Emblem",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2024-04-13",
@@ -4942,7 +5004,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "golgari_tortex",
     name: "Golgari TortEx",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2024-05-04",
@@ -4957,7 +5019,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "monob_ponza",
     name: "MonoB Ponza",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2024-05-31",
@@ -4972,7 +5034,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "dimir_control",
     name: "Dimir Control",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2025-10-04",
@@ -4987,7 +5049,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "naya_gates",
     name: "Naya Gates",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2024-11-02",
@@ -5002,7 +5064,7 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     slug: "boros_moxite",
     name: "Boros Moxite",
     count: 1,
-    percentage: "0.09%",
+    percentage: "0.08%",
     byEvent: [
       {
         eventSlug: "2026-01-17",

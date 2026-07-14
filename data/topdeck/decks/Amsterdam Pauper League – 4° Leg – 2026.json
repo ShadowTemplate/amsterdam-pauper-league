@@ -1,0 +1,4899 @@
+{
+  "event": "Amsterdam Pauper League – 4° Leg – 2026",
+  "decks": [
+    {
+      "id": "2Q3QynkzgbNVKAmrYcg2YDqGQyl1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/2Q3QynkzgbNVKAmrYcg2YDqGQyl1",
+      "pilotName": "Raymond Anderson",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Cauldron Familiar"
+        },
+        {
+          "quantity": 2,
+          "name": "Troll of Khazad-dûm"
+        },
+        {
+          "quantity": 2,
+          "name": "Defile"
+        },
+        {
+          "quantity": 4,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 2,
+          "name": "Eviscerator's Insight"
+        },
+        {
+          "quantity": 4,
+          "name": "Fanatical Offering"
+        },
+        {
+          "quantity": 1,
+          "name": "Heritage Reclamation"
+        },
+        {
+          "quantity": 2,
+          "name": "Reckoner's Bargain"
+        },
+        {
+          "quantity": 1,
+          "name": "Suffocating Fumes"
+        },
+        {
+          "quantity": 1,
+          "name": "Snuff Out"
+        },
+        {
+          "quantity": 2,
+          "name": "Spinning Darkness"
+        },
+        {
+          "quantity": 1,
+          "name": "Campfire"
+        },
+        {
+          "quantity": 2,
+          "name": "Candy Trail"
+        },
+        {
+          "quantity": 2,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 2,
+          "name": "Nutrient Block"
+        },
+        {
+          "quantity": 2,
+          "name": "Ichor Wellspring"
+        },
+        {
+          "quantity": 4,
+          "name": "Lembas"
+        },
+        {
+          "quantity": 1,
+          "name": "Heaped Harvest"
+        },
+        {
+          "quantity": 3,
+          "name": "Pestilence"
+        },
+        {
+          "quantity": 2,
+          "name": "Bojuka Bog"
+        },
+        {
+          "quantity": 1,
+          "name": "Golgari Rot Farm"
+        },
+        {
+          "quantity": 2,
+          "name": "Haunted Mire"
+        },
+        {
+          "quantity": 4,
+          "name": "Khalni Garden"
+        },
+        {
+          "quantity": 10,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 3,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 2,
+          "name": "Okiba-Gang Shinobi"
+        },
+        {
+          "quantity": 3,
+          "name": "Drown in Sorrow"
+        },
+        {
+          "quantity": 2,
+          "name": "Heritage Reclamation"
+        },
+        {
+          "quantity": 4,
+          "name": "Weather the Storm"
+        },
+        {
+          "quantity": 1,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "2ebaPkr3S4M6za5LYjn5OQZvDlw1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/2ebaPkr3S4M6za5LYjn5OQZvDlw1",
+      "pilotName": "Collin Bos",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Elves of Deep Shadow"
+        },
+        {
+          "quantity": 4,
+          "name": "Saruli Caretaker"
+        },
+        {
+          "quantity": 4,
+          "name": "Gatecreeper Vine"
+        },
+        {
+          "quantity": 4,
+          "name": "Masked Vandal"
+        },
+        {
+          "quantity": 4,
+          "name": "Overgrown Battlement"
+        },
+        {
+          "quantity": 4,
+          "name": "Wall of Roots"
+        },
+        {
+          "quantity": 4,
+          "name": "Balustrade Spy"
+        },
+        {
+          "quantity": 3,
+          "name": "Avenging Hunter"
+        },
+        {
+          "quantity": 4,
+          "name": "Sagu Wildling // Roost Seek"
+        },
+        {
+          "quantity": 4,
+          "name": "Generous Ent"
+        },
+        {
+          "quantity": 2,
+          "name": "Lotleth Giant"
+        },
+        {
+          "quantity": 4,
+          "name": "Land Grant"
+        },
+        {
+          "quantity": 4,
+          "name": "Winding Way"
+        },
+        {
+          "quantity": 4,
+          "name": "Lead the Stampede"
+        },
+        {
+          "quantity": 2,
+          "name": "Dread Return"
+        },
+        {
+          "quantity": 1,
+          "name": "Lotus Petal"
+        },
+        {
+          "quantity": 3,
+          "name": "Forest"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Mesmeric Fiend"
+        },
+        {
+          "quantity": 2,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 3,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 1,
+          "name": "Avenging Hunter"
+        },
+        {
+          "quantity": 3,
+          "name": "Fang Dragon // Forktail Sweep"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 1,
+          "name": "Mountain"
+        }
+      ]
+    },
+    {
+      "id": "38CLRSsjmOfpY76P2gcdUMQZZ952",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/38CLRSsjmOfpY76P2gcdUMQZZ952",
+      "pilotName": "Jose Jiménez Guerrero",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Delver of Secrets // Insectile Aberration"
+        },
+        {
+          "quantity": 4,
+          "name": "Cryptic Serpent"
+        },
+        {
+          "quantity": 4,
+          "name": "Tolarian Terror"
+        },
+        {
+          "quantity": 3,
+          "name": "Ponder"
+        },
+        {
+          "quantity": 2,
+          "name": "Sleep of the Dead"
+        },
+        {
+          "quantity": 2,
+          "name": "Deem Inferior"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 4,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 2,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 3,
+          "name": "Force Spike"
+        },
+        {
+          "quantity": 4,
+          "name": "Mental Note"
+        },
+        {
+          "quantity": 4,
+          "name": "Thought Scour"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 16,
+          "name": "Island"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Murmuring Mystic"
+        },
+        {
+          "quantity": 1,
+          "name": "Serpentine Curve"
+        },
+        {
+          "quantity": 4,
+          "name": "Annul"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Gut Shot"
+        },
+        {
+          "quantity": 1,
+          "name": "Hydroblast"
+        }
+      ]
+    },
+    {
+      "id": "4SxREx8i42aZJhd3Vqngw8NT9bG3",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/4SxREx8i42aZJhd3Vqngw8NT9bG3",
+      "pilotName": "Eef vV",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Clockwork Percussionist"
+        },
+        {
+          "quantity": 4,
+          "name": "Gingerbrute"
+        },
+        {
+          "quantity": 2,
+          "name": "Goblin Bushwhacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Goblin Tomb Raider"
+        },
+        {
+          "quantity": 4,
+          "name": "Reckless Lackey"
+        },
+        {
+          "quantity": 4,
+          "name": "Voldaren Epicure"
+        },
+        {
+          "quantity": 4,
+          "name": "Chain Lightning"
+        },
+        {
+          "quantity": 4,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 4,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 4,
+          "name": "Experimental Synthesizer"
+        },
+        {
+          "quantity": 4,
+          "name": "Inventor's Axe"
+        },
+        {
+          "quantity": 4,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 14,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 3,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 3,
+          "name": "Searing Blaze"
+        },
+        {
+          "quantity": 3,
+          "name": "Smash to Smithereens"
+        },
+        {
+          "quantity": 3,
+          "name": "Tormod's Crypt"
+        }
+      ]
+    },
+    {
+      "id": "6hVWhkOz1uXnX9db859Wk8ubeP43",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/6hVWhkOz1uXnX9db859Wk8ubeP43",
+      "pilotName": "Jelle Zwaan",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Sacred Cat"
+        },
+        {
+          "quantity": 4,
+          "name": "Outlaw Medic"
+        },
+        {
+          "quantity": 4,
+          "name": "Raffine's Informant"
+        },
+        {
+          "quantity": 4,
+          "name": "Guardian of the Guildpact"
+        },
+        {
+          "quantity": 4,
+          "name": "Open the Gates"
+        },
+        {
+          "quantity": 4,
+          "name": "Malevolent Rumble"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 4,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 4,
+          "name": "Journey to Nowhere"
+        },
+        {
+          "quantity": 4,
+          "name": "Armadillo Cloak"
+        },
+        {
+          "quantity": 4,
+          "name": "Basilisk Gate"
+        },
+        {
+          "quantity": 4,
+          "name": "Citadel Gate"
+        },
+        {
+          "quantity": 2,
+          "name": "Forest"
+        },
+        {
+          "quantity": 2,
+          "name": "Heap Gate"
+        },
+        {
+          "quantity": 4,
+          "name": "Manor Gate"
+        },
+        {
+          "quantity": 2,
+          "name": "Plains"
+        },
+        {
+          "quantity": 2,
+          "name": "Selesnya Guildgate"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Saruli Gatekeepers"
+        },
+        {
+          "quantity": 3,
+          "name": "Dust to Dust"
+        },
+        {
+          "quantity": 3,
+          "name": "Arms of Hadar"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 2,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "8EJey3hrIkbaHypGiGuH0JJ6BBN2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/8EJey3hrIkbaHypGiGuH0JJ6BBN2",
+      "pilotName": "Alice Lenting",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Krark-Clan Shaman"
+        },
+        {
+          "quantity": 4,
+          "name": "Refurbished Familiar"
+        },
+        {
+          "quantity": 4,
+          "name": "Utrom Monitor"
+        },
+        {
+          "quantity": 4,
+          "name": "Myr Enforcer"
+        },
+        {
+          "quantity": 4,
+          "name": "Thoughtcast"
+        },
+        {
+          "quantity": 4,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Toxin Analysis"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 1,
+          "name": "Eviscerator's Insight"
+        },
+        {
+          "quantity": 4,
+          "name": "Reckoner's Bargain"
+        },
+        {
+          "quantity": 2,
+          "name": "Blood Fountain"
+        },
+        {
+          "quantity": 2,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 4,
+          "name": "Ichor Wellspring"
+        },
+        {
+          "quantity": 1,
+          "name": "Makeshift Munitions"
+        },
+        {
+          "quantity": 4,
+          "name": "Drossforge Bridge"
+        },
+        {
+          "quantity": 2,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 4,
+          "name": "Mistvault Bridge"
+        },
+        {
+          "quantity": 1,
+          "name": "Mountain"
+        },
+        {
+          "quantity": 3,
+          "name": "Seat of the Synod"
+        },
+        {
+          "quantity": 2,
+          "name": "Silverbluff Bridge"
+        },
+        {
+          "quantity": 3,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Duress"
+        },
+        {
+          "quantity": 2,
+          "name": "Extract a Confession"
+        },
+        {
+          "quantity": 2,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Envelop"
+        },
+        {
+          "quantity": 1,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 3,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Breath Weapon"
+        },
+        {
+          "quantity": 1,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "9M0DnPLC7veuAqUqhfUG5GH8eSr1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/9M0DnPLC7veuAqUqhfUG5GH8eSr1",
+      "pilotName": "Aartos Locos",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Krark-Clan Shaman"
+        },
+        {
+          "quantity": 4,
+          "name": "Refurbished Familiar"
+        },
+        {
+          "quantity": 4,
+          "name": "Utrom Monitor"
+        },
+        {
+          "quantity": 4,
+          "name": "Myr Enforcer"
+        },
+        {
+          "quantity": 4,
+          "name": "Thoughtcast"
+        },
+        {
+          "quantity": 4,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Toxin Analysis"
+        },
+        {
+          "quantity": 1,
+          "name": "Fanatical Offering"
+        },
+        {
+          "quantity": 4,
+          "name": "Reckoner's Bargain"
+        },
+        {
+          "quantity": 2,
+          "name": "Blood Fountain"
+        },
+        {
+          "quantity": 3,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 1,
+          "name": "Sewer-veillance Cam"
+        },
+        {
+          "quantity": 4,
+          "name": "Ichor Wellspring"
+        },
+        {
+          "quantity": 1,
+          "name": "Makeshift Munitions"
+        },
+        {
+          "quantity": 4,
+          "name": "Drossforge Bridge"
+        },
+        {
+          "quantity": 3,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 4,
+          "name": "Mistvault Bridge"
+        },
+        {
+          "quantity": 3,
+          "name": "Seat of the Synod"
+        },
+        {
+          "quantity": 2,
+          "name": "Silverbluff Bridge"
+        },
+        {
+          "quantity": 3,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Envelop"
+        },
+        {
+          "quantity": 4,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 3,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 1,
+          "name": "Cast into the Fire"
+        },
+        {
+          "quantity": 1,
+          "name": "Negate"
+        },
+        {
+          "quantity": 1,
+          "name": "Unexpected Fangs"
+        },
+        {
+          "quantity": 1,
+          "name": "Breath Weapon"
+        }
+      ]
+    },
+    {
+      "id": "AT81NVr1HlVmMnXl4luvUorE8Zk1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/AT81NVr1HlVmMnXl4luvUorE8Zk1",
+      "pilotName": "Lucas Feliciano",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Augur of Bolas"
+        },
+        {
+          "quantity": 3,
+          "name": "Archaeomancer"
+        },
+        {
+          "quantity": 1,
+          "name": "Murmuring Mystic"
+        },
+        {
+          "quantity": 4,
+          "name": "Mulldrifter"
+        },
+        {
+          "quantity": 2,
+          "name": "Preordain"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 1,
+          "name": "Visionary's Dance"
+        },
+        {
+          "quantity": 2,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 1,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 4,
+          "name": "Ephemerate"
+        },
+        {
+          "quantity": 1,
+          "name": "Ethereal Haze"
+        },
+        {
+          "quantity": 4,
+          "name": "Skred"
+        },
+        {
+          "quantity": 2,
+          "name": "Torch the Tower"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 1,
+          "name": "Crypt Incursion"
+        },
+        {
+          "quantity": 1,
+          "name": "Ride's End"
+        },
+        {
+          "quantity": 3,
+          "name": "Bender's Waterskin"
+        },
+        {
+          "quantity": 2,
+          "name": "Glacial Floodplain"
+        },
+        {
+          "quantity": 4,
+          "name": "Perilous Landscape"
+        },
+        {
+          "quantity": 7,
+          "name": "Snow-Covered Island"
+        },
+        {
+          "quantity": 2,
+          "name": "Snow-Covered Mountain"
+        },
+        {
+          "quantity": 2,
+          "name": "Snow-Covered Plains"
+        },
+        {
+          "quantity": 2,
+          "name": "Volatile Fjord"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Goliath Paladin"
+        },
+        {
+          "quantity": 1,
+          "name": "Fanged Flames"
+        },
+        {
+          "quantity": 2,
+          "name": "Dust to Dust"
+        },
+        {
+          "quantity": 1,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 4,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 3,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 1,
+          "name": "Cast into the Fire"
+        },
+        {
+          "quantity": 1,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 1,
+          "name": "Breath Weapon"
+        }
+      ]
+    },
+    {
+      "id": "BioneAJShcclAIjweTSJRYnZ2Vr2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/BioneAJShcclAIjweTSJRYnZ2Vr2",
+      "pilotName": "Irshaad",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Voldaren Epicure"
+        },
+        {
+          "quantity": 4,
+          "name": "Kessig Flamebreather"
+        },
+        {
+          "quantity": 4,
+          "name": "Sneaky Snacker"
+        },
+        {
+          "quantity": 3,
+          "name": "Guttersnipe"
+        },
+        {
+          "quantity": 1,
+          "name": "Stormshriek Feral // Flush Out"
+        },
+        {
+          "quantity": 4,
+          "name": "Faithless Looting"
+        },
+        {
+          "quantity": 4,
+          "name": "Grab the Prize"
+        },
+        {
+          "quantity": 3,
+          "name": "Highway Robbery"
+        },
+        {
+          "quantity": 4,
+          "name": "Lava Dart"
+        },
+        {
+          "quantity": 4,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 4,
+          "name": "Fiery Temper"
+        },
+        {
+          "quantity": 3,
+          "name": "Fireblast"
+        },
+        {
+          "quantity": 18,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 3,
+          "name": "Smash to Dust"
+        },
+        {
+          "quantity": 4,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 3,
+          "name": "Smash to Smithereens"
+        },
+        {
+          "quantity": 2,
+          "name": "Campfire"
+        },
+        {
+          "quantity": 2,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "CDpQeExwsOc91b2OrQ1MymZT1S42",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/CDpQeExwsOc91b2OrQ1MymZT1S42",
+      "pilotName": "vinicius duarte",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Sacred Cat"
+        },
+        {
+          "quantity": 4,
+          "name": "Outlaw Medic"
+        },
+        {
+          "quantity": 4,
+          "name": "Sneaky Snacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 4,
+          "name": "Malevolent Rumble"
+        },
+        {
+          "quantity": 4,
+          "name": "Pursue the Past"
+        },
+        {
+          "quantity": 3,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 3,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 4,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 4,
+          "name": "Melded Moxite"
+        },
+        {
+          "quantity": 2,
+          "name": "Journey to Nowhere"
+        },
+        {
+          "quantity": 4,
+          "name": "Basilisk Gate"
+        },
+        {
+          "quantity": 4,
+          "name": "Citadel Gate"
+        },
+        {
+          "quantity": 4,
+          "name": "Cliffgate"
+        },
+        {
+          "quantity": 2,
+          "name": "Manor Gate"
+        },
+        {
+          "quantity": 3,
+          "name": "Mountain"
+        },
+        {
+          "quantity": 3,
+          "name": "Plains"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 3,
+          "name": "Guardian of the Guildpact"
+        },
+        {
+          "quantity": 4,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 4,
+          "name": "Tamiyo's Safekeeping"
+        },
+        {
+          "quantity": 4,
+          "name": "Breath Weapon"
+        }
+      ]
+    },
+    {
+      "id": "Cn8mL2l7xPQGPLu9uUOLoqeANF32",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/Cn8mL2l7xPQGPLu9uUOLoqeANF32",
+      "pilotName": "Raaayyyyyyyyyy",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Delver of Secrets // Insectile Aberration"
+        },
+        {
+          "quantity": 4,
+          "name": "Guttersnipe"
+        },
+        {
+          "quantity": 4,
+          "name": "Tolarian Terror"
+        },
+        {
+          "quantity": 4,
+          "name": "Ponder"
+        },
+        {
+          "quantity": 4,
+          "name": "Preordain"
+        },
+        {
+          "quantity": 3,
+          "name": "Deem Inferior"
+        },
+        {
+          "quantity": 2,
+          "name": "Deep Analysis"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 4,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 3,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 4,
+          "name": "Thought Scour"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 12,
+          "name": "Snow-Covered Island"
+        },
+        {
+          "quantity": 4,
+          "name": "Volatile Fjord"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Envelop"
+        },
+        {
+          "quantity": 4,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 4,
+          "name": "Pyroblast"
+        }
+      ]
+    },
+    {
+      "id": "E0NmWXOL1WV1kSD11m4XhxkjbAv2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/E0NmWXOL1WV1kSD11m4XhxkjbAv2",
+      "pilotName": "Michael Joseph Purcell",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Sacred Cat"
+        },
+        {
+          "quantity": 2,
+          "name": "Outlaw Medic"
+        },
+        {
+          "quantity": 4,
+          "name": "Squadron Hawk"
+        },
+        {
+          "quantity": 2,
+          "name": "Guardian of the Guildpact"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 4,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 3,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 4,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 4,
+          "name": "Journey to Nowhere"
+        },
+        {
+          "quantity": 4,
+          "name": "The Modern Age // Vector Glider"
+        },
+        {
+          "quantity": 2,
+          "name": "Azorius Guildgate"
+        },
+        {
+          "quantity": 4,
+          "name": "Basilisk Gate"
+        },
+        {
+          "quantity": 4,
+          "name": "Citadel Gate"
+        },
+        {
+          "quantity": 2,
+          "name": "Heap Gate"
+        },
+        {
+          "quantity": 1,
+          "name": "Idyllic Beachfront"
+        },
+        {
+          "quantity": 4,
+          "name": "Island"
+        },
+        {
+          "quantity": 4,
+          "name": "Sea Gate"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Outlaw Medic"
+        },
+        {
+          "quantity": 1,
+          "name": "Revoke Existence"
+        },
+        {
+          "quantity": 2,
+          "name": "Dust to Dust"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Essence Scatter"
+        },
+        {
+          "quantity": 2,
+          "name": "Breath Weapon"
+        }
+      ]
+    },
+    {
+      "id": "FJZa4ZosC2SEdml1yrMghUOa5OV2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/FJZa4ZosC2SEdml1yrMghUOa5OV2",
+      "pilotName": "Rob Kerlin",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Arbor Elf"
+        },
+        {
+          "quantity": 2,
+          "name": "Nyxborn Hydra"
+        },
+        {
+          "quantity": 4,
+          "name": "Eldrazi Repurposer"
+        },
+        {
+          "quantity": 4,
+          "name": "Jewel Thief"
+        },
+        {
+          "quantity": 2,
+          "name": "Bannerhide Krushok"
+        },
+        {
+          "quantity": 4,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 4,
+          "name": "Avenging Hunter"
+        },
+        {
+          "quantity": 2,
+          "name": "Sagu Wildling // Roost Seek"
+        },
+        {
+          "quantity": 4,
+          "name": "Boarding Party"
+        },
+        {
+          "quantity": 4,
+          "name": "Malevolent Rumble"
+        },
+        {
+          "quantity": 3,
+          "name": "Ram Through"
+        },
+        {
+          "quantity": 4,
+          "name": "Utopia Sprawl"
+        },
+        {
+          "quantity": 3,
+          "name": "Wild Growth"
+        },
+        {
+          "quantity": 16,
+          "name": "Forest"
+        },
+        {
+          "quantity": 2,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Cast into the Fire"
+        },
+        {
+          "quantity": 2,
+          "name": "Deglamer"
+        },
+        {
+          "quantity": 4,
+          "name": "Weather the Storm"
+        },
+        {
+          "quantity": 2,
+          "name": "Tormod's Crypt"
+        }
+      ]
+    },
+    {
+      "id": "HRzczTOaOQWz13Q6nf9S14hYqII3",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/HRzczTOaOQWz13Q6nf9S14hYqII3",
+      "pilotName": "Floris Stapel",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Goblin Anarchomancer"
+        },
+        {
+          "quantity": 4,
+          "name": "Thornscape Familiar"
+        },
+        {
+          "quantity": 3,
+          "name": "Reckless Impulse"
+        },
+        {
+          "quantity": 3,
+          "name": "Wrenn's Resolve"
+        },
+        {
+          "quantity": 4,
+          "name": "Glimpse the Impossible"
+        },
+        {
+          "quantity": 2,
+          "name": "Seize the Storm"
+        },
+        {
+          "quantity": 4,
+          "name": "Desperate Ritual"
+        },
+        {
+          "quantity": 3,
+          "name": "First Day of Class"
+        },
+        {
+          "quantity": 4,
+          "name": "Manamorphose"
+        },
+        {
+          "quantity": 2,
+          "name": "Electric Revelation"
+        },
+        {
+          "quantity": 2,
+          "name": "Laughing Mad"
+        },
+        {
+          "quantity": 4,
+          "name": "Seething Song"
+        },
+        {
+          "quantity": 4,
+          "name": "Big Score"
+        },
+        {
+          "quantity": 4,
+          "name": "Geothermal Crevice"
+        },
+        {
+          "quantity": 4,
+          "name": "Hickory Woodlot"
+        },
+        {
+          "quantity": 5,
+          "name": "Mountain"
+        },
+        {
+          "quantity": 4,
+          "name": "Sandstone Needle"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Waterbending Lesson"
+        },
+        {
+          "quantity": 1,
+          "name": "Firebending Lesson"
+        },
+        {
+          "quantity": 1,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 4,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Abandon Attachments"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 1,
+          "name": "Origin of Metalbending"
+        },
+        {
+          "quantity": 3,
+          "name": "Weather the Storm"
+        },
+        {
+          "quantity": 2,
+          "name": "Gruul Turf"
+        }
+      ]
+    },
+    {
+      "id": "IXYpl9bnq7R9boRdpsmDtuzFM3H3",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/IXYpl9bnq7R9boRdpsmDtuzFM3H3",
+      "pilotName": "Abe Mulder",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Gladecover Scout"
+        },
+        {
+          "quantity": 4,
+          "name": "Slippery Bogle"
+        },
+        {
+          "quantity": 3,
+          "name": "Silhana Ledgewalker"
+        },
+        {
+          "quantity": 4,
+          "name": "Malevolent Rumble"
+        },
+        {
+          "quantity": 4,
+          "name": "Abundant Growth"
+        },
+        {
+          "quantity": 1,
+          "name": "Cartouche of Solidarity"
+        },
+        {
+          "quantity": 4,
+          "name": "Ethereal Armor"
+        },
+        {
+          "quantity": 1,
+          "name": "Lifelink"
+        },
+        {
+          "quantity": 4,
+          "name": "Rancor"
+        },
+        {
+          "quantity": 2,
+          "name": "Sentinel's Eyes"
+        },
+        {
+          "quantity": 4,
+          "name": "Utopia Sprawl"
+        },
+        {
+          "quantity": 4,
+          "name": "Ancestral Mask"
+        },
+        {
+          "quantity": 4,
+          "name": "Armadillo Cloak"
+        },
+        {
+          "quantity": 2,
+          "name": "Ash Barrens"
+        },
+        {
+          "quantity": 12,
+          "name": "Forest"
+        },
+        {
+          "quantity": 3,
+          "name": "Plains"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Scattershot Archer"
+        },
+        {
+          "quantity": 2,
+          "name": "Standard Bearer"
+        },
+        {
+          "quantity": 2,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 2,
+          "name": "Tamiyo's Safekeeping"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 4,
+          "name": "Mask of Law and Grace"
+        },
+        {
+          "quantity": 2,
+          "name": "Spirit Link"
+        }
+      ]
+    },
+    {
+      "id": "JHDnc7YgrLOY5l08pCJJM28WIRC2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/JHDnc7YgrLOY5l08pCJJM28WIRC2",
+      "pilotName": "Tim Laros",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Drannith Healer"
+        },
+        {
+          "quantity": 4,
+          "name": "Drannith Stinger"
+        },
+        {
+          "quantity": 4,
+          "name": "Page, Loose Leaf"
+        },
+        {
+          "quantity": 2,
+          "name": "Horror of the Broken Lands"
+        },
+        {
+          "quantity": 4,
+          "name": "Monstrous Carabid"
+        },
+        {
+          "quantity": 4,
+          "name": "Street Wraith"
+        },
+        {
+          "quantity": 4,
+          "name": "Imposing Vantasaur"
+        },
+        {
+          "quantity": 4,
+          "name": "Dark Ritual"
+        },
+        {
+          "quantity": 4,
+          "name": "Songs of the Damned"
+        },
+        {
+          "quantity": 4,
+          "name": "Cabal Ritual"
+        },
+        {
+          "quantity": 4,
+          "name": "Reaping the Graves"
+        },
+        {
+          "quantity": 3,
+          "name": "Rowan's Grim Search"
+        },
+        {
+          "quantity": 4,
+          "name": "Lotus Petal"
+        },
+        {
+          "quantity": 3,
+          "name": "Barren Moor"
+        },
+        {
+          "quantity": 4,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 4,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Blood Celebrant"
+        },
+        {
+          "quantity": 2,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 4,
+          "name": "Chitin Gravestalker"
+        },
+        {
+          "quantity": 2,
+          "name": "Duress"
+        },
+        {
+          "quantity": 3,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Siege Smash"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        }
+      ]
+    },
+    {
+      "id": "KLBnaqTCPoVzPjd1a5W0UZ2aAos1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/KLBnaqTCPoVzPjd1a5W0UZ2aAos1",
+      "pilotName": "Jelle Schneider",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Arbor Elf"
+        },
+        {
+          "quantity": 3,
+          "name": "Nyxborn Hydra"
+        },
+        {
+          "quantity": 4,
+          "name": "Eldrazi Repurposer"
+        },
+        {
+          "quantity": 4,
+          "name": "Jewel Thief"
+        },
+        {
+          "quantity": 2,
+          "name": "Bannerhide Krushok"
+        },
+        {
+          "quantity": 4,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 4,
+          "name": "Avenging Hunter"
+        },
+        {
+          "quantity": 2,
+          "name": "Sagu Wildling // Roost Seek"
+        },
+        {
+          "quantity": 3,
+          "name": "Boarding Party"
+        },
+        {
+          "quantity": 3,
+          "name": "Malevolent Rumble"
+        },
+        {
+          "quantity": 1,
+          "name": "Vines of Vastwood"
+        },
+        {
+          "quantity": 3,
+          "name": "Ram Through"
+        },
+        {
+          "quantity": 4,
+          "name": "Utopia Sprawl"
+        },
+        {
+          "quantity": 3,
+          "name": "Wild Growth"
+        },
+        {
+          "quantity": 14,
+          "name": "Forest"
+        },
+        {
+          "quantity": 2,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Horrific Assault"
+        },
+        {
+          "quantity": 1,
+          "name": "Suplex"
+        },
+        {
+          "quantity": 3,
+          "name": "Deglamer"
+        },
+        {
+          "quantity": 3,
+          "name": "Weather the Storm"
+        },
+        {
+          "quantity": 3,
+          "name": "Breath Weapon"
+        },
+        {
+          "quantity": 3,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "KXf0lfdBqaRAUYzb3gDSYMx60Dx1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/KXf0lfdBqaRAUYzb3gDSYMx60Dx1",
+      "pilotName": "Jamie March",
+      "mainDeck": [
+        {
+          "quantity": 1,
+          "name": "Brinebarrow Intruder"
+        },
+        {
+          "quantity": 4,
+          "name": "Faerie Miscreant"
+        },
+        {
+          "quantity": 4,
+          "name": "Faerie Seer"
+        },
+        {
+          "quantity": 2,
+          "name": "Harrier Strix"
+        },
+        {
+          "quantity": 3,
+          "name": "Humbling Elder"
+        },
+        {
+          "quantity": 3,
+          "name": "Illvoi Galeblade"
+        },
+        {
+          "quantity": 4,
+          "name": "Moon-Circuit Hacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Spellstutter Sprite"
+        },
+        {
+          "quantity": 4,
+          "name": "Ninja of the Deep Hours"
+        },
+        {
+          "quantity": 4,
+          "name": "Of One Mind"
+        },
+        {
+          "quantity": 2,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 3,
+          "name": "Snap"
+        },
+        {
+          "quantity": 18,
+          "name": "Island"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Humbling Elder"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 1,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 4,
+          "name": "Steel Sabotage"
+        },
+        {
+          "quantity": 4,
+          "name": "Bind the Monster"
+        }
+      ]
+    },
+    {
+      "id": "N3U8IQEU4TNXkUPHm6jQzy6QyJ93",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/N3U8IQEU4TNXkUPHm6jQzy6QyJ93",
+      "pilotName": "Rob Lamers",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Clockwork Percussionist"
+        },
+        {
+          "quantity": 4,
+          "name": "Goblin Tomb Raider"
+        },
+        {
+          "quantity": 4,
+          "name": "Voldaren Epicure"
+        },
+        {
+          "quantity": 4,
+          "name": "Kessig Flamebreather"
+        },
+        {
+          "quantity": 2,
+          "name": "Thermo-Alchemist"
+        },
+        {
+          "quantity": 2,
+          "name": "Chain Lightning"
+        },
+        {
+          "quantity": 1,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 4,
+          "name": "Reckless Impulse"
+        },
+        {
+          "quantity": 4,
+          "name": "Wrenn's Resolve"
+        },
+        {
+          "quantity": 4,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 4,
+          "name": "Lava Dart"
+        },
+        {
+          "quantity": 4,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 4,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 15,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 3,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 3,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 4,
+          "name": "Cast into the Fire"
+        },
+        {
+          "quantity": 4,
+          "name": "Tormod's Crypt"
+        }
+      ]
+    },
+    {
+      "id": "OQAgwZqyRtZEijVCnEqW37NWmlE2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/OQAgwZqyRtZEijVCnEqW37NWmlE2",
+      "pilotName": "Toon de Vet",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "God-Pharaoh's Faithful"
+        },
+        {
+          "quantity": 4,
+          "name": "Sunscape Familiar"
+        },
+        {
+          "quantity": 3,
+          "name": "Sea Gate Oracle"
+        },
+        {
+          "quantity": 3,
+          "name": "Archaeomancer"
+        },
+        {
+          "quantity": 3,
+          "name": "Mulldrifter"
+        },
+        {
+          "quantity": 4,
+          "name": "Preordain"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 2,
+          "name": "Ephemerate"
+        },
+        {
+          "quantity": 3,
+          "name": "Negate"
+        },
+        {
+          "quantity": 2,
+          "name": "Remove Soul"
+        },
+        {
+          "quantity": 4,
+          "name": "Snap"
+        },
+        {
+          "quantity": 2,
+          "name": "Ghostly Flicker"
+        },
+        {
+          "quantity": 3,
+          "name": "Meeting of Minds"
+        },
+        {
+          "quantity": 4,
+          "name": "Azorius Chancery"
+        },
+        {
+          "quantity": 2,
+          "name": "Contaminated Landscape"
+        },
+        {
+          "quantity": 1,
+          "name": "Idyllic Beachfront"
+        },
+        {
+          "quantity": 8,
+          "name": "Island"
+        },
+        {
+          "quantity": 1,
+          "name": "Lonely Arroyo"
+        },
+        {
+          "quantity": 1,
+          "name": "Mortuary Mire"
+        },
+        {
+          "quantity": 2,
+          "name": "Plains"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Murmuring Mystic"
+        },
+        {
+          "quantity": 2,
+          "name": "Stonehorn Dignitary"
+        },
+        {
+          "quantity": 1,
+          "name": "Dust to Dust"
+        },
+        {
+          "quantity": 4,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Sabotage"
+        },
+        {
+          "quantity": 1,
+          "name": "Glorious Gale"
+        },
+        {
+          "quantity": 2,
+          "name": "Last Breath"
+        },
+        {
+          "quantity": 1,
+          "name": "Negate"
+        },
+        {
+          "quantity": 1,
+          "name": "Thraben Charm"
+        }
+      ]
+    },
+    {
+      "id": "PJ3JGn2svRczecN90JLIroSaFlE2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/PJ3JGn2svRczecN90JLIroSaFlE2",
+      "pilotName": "Harm steenbakkers",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Krark-Clan Shaman"
+        },
+        {
+          "quantity": 2,
+          "name": "Nyxborn Hydra"
+        },
+        {
+          "quantity": 4,
+          "name": "Refurbished Familiar"
+        },
+        {
+          "quantity": 4,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 4,
+          "name": "Cleansing Wildfire"
+        },
+        {
+          "quantity": 2,
+          "name": "Toxin Analysis"
+        },
+        {
+          "quantity": 4,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 2,
+          "name": "Eviscerator's Insight"
+        },
+        {
+          "quantity": 4,
+          "name": "Fanatical Offering"
+        },
+        {
+          "quantity": 3,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 4,
+          "name": "Ichor Wellspring"
+        },
+        {
+          "quantity": 2,
+          "name": "Lembas"
+        },
+        {
+          "quantity": 1,
+          "name": "Makeshift Munitions"
+        },
+        {
+          "quantity": 4,
+          "name": "Drossforge Bridge"
+        },
+        {
+          "quantity": 2,
+          "name": "Forest"
+        },
+        {
+          "quantity": 2,
+          "name": "Mountain"
+        },
+        {
+          "quantity": 4,
+          "name": "Slagwoods Bridge"
+        },
+        {
+          "quantity": 3,
+          "name": "Swamp"
+        },
+        {
+          "quantity": 4,
+          "name": "Twisted Landscape"
+        },
+        {
+          "quantity": 2,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Troublemaker Ouphe"
+        },
+        {
+          "quantity": 1,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 3,
+          "name": "Duress"
+        },
+        {
+          "quantity": 3,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Ancient Grudge"
+        },
+        {
+          "quantity": 3,
+          "name": "Weather the Storm"
+        },
+        {
+          "quantity": 2,
+          "name": "Breath Weapon"
+        }
+      ]
+    },
+    {
+      "id": "QGEpmyzm7rbliACT77RxLF1sS7k1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/QGEpmyzm7rbliACT77RxLF1sS7k1",
+      "pilotName": "Jerryt Boersen",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Krark-Clan Shaman"
+        },
+        {
+          "quantity": 4,
+          "name": "Refurbished Familiar"
+        },
+        {
+          "quantity": 4,
+          "name": "Utrom Monitor"
+        },
+        {
+          "quantity": 4,
+          "name": "Myr Enforcer"
+        },
+        {
+          "quantity": 4,
+          "name": "Thoughtcast"
+        },
+        {
+          "quantity": 4,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Toxin Analysis"
+        },
+        {
+          "quantity": 1,
+          "name": "Eviscerator's Insight"
+        },
+        {
+          "quantity": 4,
+          "name": "Reckoner's Bargain"
+        },
+        {
+          "quantity": 2,
+          "name": "Blood Fountain"
+        },
+        {
+          "quantity": 3,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 4,
+          "name": "Cryogen Relic"
+        },
+        {
+          "quantity": 1,
+          "name": "Makeshift Munitions"
+        },
+        {
+          "quantity": 4,
+          "name": "Drossforge Bridge"
+        },
+        {
+          "quantity": 1,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 4,
+          "name": "Mistvault Bridge"
+        },
+        {
+          "quantity": 4,
+          "name": "Seat of the Synod"
+        },
+        {
+          "quantity": 4,
+          "name": "Silverbluff Bridge"
+        },
+        {
+          "quantity": 3,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 3,
+          "name": "Duress"
+        },
+        {
+          "quantity": 2,
+          "name": "Extract a Confession"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Fiery Cannonade"
+        },
+        {
+          "quantity": 1,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "RLHTn0MYwcSBOPby9QiqsG8wn1d2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/RLHTn0MYwcSBOPby9QiqsG8wn1d2",
+      "pilotName": "Nicolas Komanski",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Voldaren Epicure"
+        },
+        {
+          "quantity": 4,
+          "name": "Kessig Flamebreather"
+        },
+        {
+          "quantity": 4,
+          "name": "Sneaky Snacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Guttersnipe"
+        },
+        {
+          "quantity": 3,
+          "name": "Faithless Looting"
+        },
+        {
+          "quantity": 4,
+          "name": "Grab the Prize"
+        },
+        {
+          "quantity": 4,
+          "name": "Highway Robbery"
+        },
+        {
+          "quantity": 4,
+          "name": "Lava Dart"
+        },
+        {
+          "quantity": 4,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 4,
+          "name": "Fiery Temper"
+        },
+        {
+          "quantity": 3,
+          "name": "Fireblast"
+        },
+        {
+          "quantity": 18,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 4,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 3,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Searing Blaze"
+        },
+        {
+          "quantity": 2,
+          "name": "Tormod's Crypt"
+        },
+        {
+          "quantity": 2,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "U6PRugzMmoOutqxeQIKPDK8Ys7I2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/U6PRugzMmoOutqxeQIKPDK8Ys7I2",
+      "pilotName": "Tim Swillens",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Blood Pet"
+        },
+        {
+          "quantity": 4,
+          "name": "Greedy Freebooter"
+        },
+        {
+          "quantity": 4,
+          "name": "Shambling Ghast"
+        },
+        {
+          "quantity": 2,
+          "name": "Accursed Marauder"
+        },
+        {
+          "quantity": 4,
+          "name": "Bone Picker"
+        },
+        {
+          "quantity": 1,
+          "name": "Chitin Gravestalker"
+        },
+        {
+          "quantity": 2,
+          "name": "Troll of Khazad-dûm"
+        },
+        {
+          "quantity": 4,
+          "name": "Unearth"
+        },
+        {
+          "quantity": 2,
+          "name": "Worthy Cost"
+        },
+        {
+          "quantity": 4,
+          "name": "Corrupted Conviction"
+        },
+        {
+          "quantity": 4,
+          "name": "Village Rites"
+        },
+        {
+          "quantity": 4,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 4,
+          "name": "Last Gasp"
+        },
+        {
+          "quantity": 17,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Mesmeric Fiend"
+        },
+        {
+          "quantity": 2,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 2,
+          "name": "Canyon Crawler"
+        },
+        {
+          "quantity": 3,
+          "name": "Temporal Intervention"
+        },
+        {
+          "quantity": 3,
+          "name": "Arms of Hadar"
+        },
+        {
+          "quantity": 3,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "XI5xJhmn7pOlh6QThJtv7cB6OwY2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/XI5xJhmn7pOlh6QThJtv7cB6OwY2",
+      "pilotName": "Davey Barendregt",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "God-Pharaoh's Faithful"
+        },
+        {
+          "quantity": 4,
+          "name": "Sunscape Familiar"
+        },
+        {
+          "quantity": 3,
+          "name": "Sea Gate Oracle"
+        },
+        {
+          "quantity": 3,
+          "name": "Archaeomancer"
+        },
+        {
+          "quantity": 2,
+          "name": "Murmuring Mystic"
+        },
+        {
+          "quantity": 3,
+          "name": "Mulldrifter"
+        },
+        {
+          "quantity": 4,
+          "name": "Preordain"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 3,
+          "name": "Ephemerate"
+        },
+        {
+          "quantity": 1,
+          "name": "Glorious Gale"
+        },
+        {
+          "quantity": 1,
+          "name": "Negate"
+        },
+        {
+          "quantity": 2,
+          "name": "Prohibit"
+        },
+        {
+          "quantity": 4,
+          "name": "Snap"
+        },
+        {
+          "quantity": 1,
+          "name": "Ghostly Flicker"
+        },
+        {
+          "quantity": 3,
+          "name": "Meeting of Minds"
+        },
+        {
+          "quantity": 3,
+          "name": "Azorius Chancery"
+        },
+        {
+          "quantity": 4,
+          "name": "Contaminated Landscape"
+        },
+        {
+          "quantity": 1,
+          "name": "Glacial Floodplain"
+        },
+        {
+          "quantity": 8,
+          "name": "Island"
+        },
+        {
+          "quantity": 2,
+          "name": "Plains"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Loyal Sentry"
+        },
+        {
+          "quantity": 2,
+          "name": "Stonehorn Dignitary"
+        },
+        {
+          "quantity": 4,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 1,
+          "name": "Essence Scatter"
+        },
+        {
+          "quantity": 2,
+          "name": "Last Breath"
+        },
+        {
+          "quantity": 2,
+          "name": "Negate"
+        },
+        {
+          "quantity": 2,
+          "name": "Thraben Charm"
+        }
+      ]
+    },
+    {
+      "id": "Xopd3GyttdWVeaJPcGZXV0A7qi92",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/Xopd3GyttdWVeaJPcGZXV0A7qi92",
+      "pilotName": "Gianvito Taneburgo",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Elves of Deep Shadow"
+        },
+        {
+          "quantity": 4,
+          "name": "Saruli Caretaker"
+        },
+        {
+          "quantity": 4,
+          "name": "Gatecreeper Vine"
+        },
+        {
+          "quantity": 4,
+          "name": "Guerrilla Gorilla"
+        },
+        {
+          "quantity": 4,
+          "name": "Overgrown Battlement"
+        },
+        {
+          "quantity": 4,
+          "name": "Wall of Roots"
+        },
+        {
+          "quantity": 4,
+          "name": "Balustrade Spy"
+        },
+        {
+          "quantity": 4,
+          "name": "Avenging Hunter"
+        },
+        {
+          "quantity": 4,
+          "name": "Sagu Wildling // Roost Seek"
+        },
+        {
+          "quantity": 4,
+          "name": "Generous Ent"
+        },
+        {
+          "quantity": 2,
+          "name": "Lotleth Giant"
+        },
+        {
+          "quantity": 4,
+          "name": "Land Grant"
+        },
+        {
+          "quantity": 4,
+          "name": "Winding Way"
+        },
+        {
+          "quantity": 4,
+          "name": "Lead the Stampede"
+        },
+        {
+          "quantity": 2,
+          "name": "Dread Return"
+        },
+        {
+          "quantity": 3,
+          "name": "Forest"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Mesmeric Fiend"
+        },
+        {
+          "quantity": 3,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 3,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 3,
+          "name": "Fang Dragon // Forktail Sweep"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 1,
+          "name": "Mountain"
+        }
+      ]
+    },
+    {
+      "id": "Zj3iw1nlIRTtHrRSCvpFTYAld2Q2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/Zj3iw1nlIRTtHrRSCvpFTYAld2Q2",
+      "pilotName": "Stefan van der List",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Faerie Seer"
+        },
+        {
+          "quantity": 4,
+          "name": "Augur of Bolas"
+        },
+        {
+          "quantity": 4,
+          "name": "Spellstutter Sprite"
+        },
+        {
+          "quantity": 1,
+          "name": "Mukotai Ambusher"
+        },
+        {
+          "quantity": 3,
+          "name": "Ninja of the Deep Hours"
+        },
+        {
+          "quantity": 2,
+          "name": "Thorn of the Black Rose"
+        },
+        {
+          "quantity": 1,
+          "name": "Gurmag Angler"
+        },
+        {
+          "quantity": 1,
+          "name": "Extract a Confession"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 4,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 1,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 1,
+          "name": "Spell Pierce"
+        },
+        {
+          "quantity": 3,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 4,
+          "name": "Snuff Out"
+        },
+        {
+          "quantity": 1,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 1,
+          "name": "Bojuka Bog"
+        },
+        {
+          "quantity": 1,
+          "name": "Foreboding Landscape"
+        },
+        {
+          "quantity": 4,
+          "name": "Ice Tunnel"
+        },
+        {
+          "quantity": 11,
+          "name": "Island"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Mukotai Ambusher"
+        },
+        {
+          "quantity": 2,
+          "name": "Arms of Hadar"
+        },
+        {
+          "quantity": 4,
+          "name": "Annul"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 1,
+          "name": "Campfire"
+        },
+        {
+          "quantity": 1,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "biuoEAg6P5O3ozzXka7cNGKFWYR2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/biuoEAg6P5O3ozzXka7cNGKFWYR2",
+      "pilotName": "Leonardo Paternotte",
+      "mainDeck": [
+        {
+          "quantity": 2,
+          "name": "Elves of Deep Shadow"
+        },
+        {
+          "quantity": 2,
+          "name": "Nyxborn Hydra"
+        },
+        {
+          "quantity": 2,
+          "name": "Quirion Ranger"
+        },
+        {
+          "quantity": 3,
+          "name": "Saruli Caretaker"
+        },
+        {
+          "quantity": 2,
+          "name": "Gatecreeper Vine"
+        },
+        {
+          "quantity": 2,
+          "name": "Masked Vandal"
+        },
+        {
+          "quantity": 3,
+          "name": "Mesmeric Fiend"
+        },
+        {
+          "quantity": 4,
+          "name": "Overgrown Battlement"
+        },
+        {
+          "quantity": 3,
+          "name": "Wall of Roots"
+        },
+        {
+          "quantity": 1,
+          "name": "Axebane Guardian"
+        },
+        {
+          "quantity": 2,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 4,
+          "name": "Balustrade Spy"
+        },
+        {
+          "quantity": 4,
+          "name": "Sagu Wildling // Roost Seek"
+        },
+        {
+          "quantity": 4,
+          "name": "Generous Ent"
+        },
+        {
+          "quantity": 2,
+          "name": "Lotleth Giant"
+        },
+        {
+          "quantity": 4,
+          "name": "Land Grant"
+        },
+        {
+          "quantity": 4,
+          "name": "Winding Way"
+        },
+        {
+          "quantity": 4,
+          "name": "Lead the Stampede"
+        },
+        {
+          "quantity": 2,
+          "name": "Dread Return"
+        },
+        {
+          "quantity": 2,
+          "name": "Lotus Petal"
+        },
+        {
+          "quantity": 3,
+          "name": "Forest"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Nylea's Disciple"
+        },
+        {
+          "quantity": 4,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 3,
+          "name": "Haunting Misery"
+        },
+        {
+          "quantity": 1,
+          "name": "Acorn Harvest"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 1,
+          "name": "Jack-o'-Lantern"
+        },
+        {
+          "quantity": 1,
+          "name": "Mountain"
+        }
+      ]
+    },
+    {
+      "id": "dFkwHr2M8aOSppCudk7vGUxKs4w1",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/dFkwHr2M8aOSppCudk7vGUxKs4w1",
+      "pilotName": "Max Roovers",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Lunarch Veteran // Luminous Phantom"
+        },
+        {
+          "quantity": 4,
+          "name": "Novice Inspector"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Inspector"
+        },
+        {
+          "quantity": 4,
+          "name": "Kor Skyfisher"
+        },
+        {
+          "quantity": 4,
+          "name": "Raffine's Informant"
+        },
+        {
+          "quantity": 3,
+          "name": "Whitemane Lion"
+        },
+        {
+          "quantity": 4,
+          "name": "Leonardo, Big Brother"
+        },
+        {
+          "quantity": 4,
+          "name": "Battle Screech"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 3,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 3,
+          "name": "Rally the Peasants"
+        },
+        {
+          "quantity": 4,
+          "name": "Boros Garrison"
+        },
+        {
+          "quantity": 16,
+          "name": "Plains"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Martyr of Sands"
+        },
+        {
+          "quantity": 2,
+          "name": "Sunlance"
+        },
+        {
+          "quantity": 4,
+          "name": "Dust to Dust"
+        },
+        {
+          "quantity": 2,
+          "name": "Holy Light"
+        },
+        {
+          "quantity": 1,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 2,
+          "name": "Journey to Nowhere"
+        }
+      ]
+    },
+    {
+      "id": "elzjMN3i6ehtzkGQfe7auxXkmvy2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/elzjMN3i6ehtzkGQfe7auxXkmvy2",
+      "pilotName": "Vanessa Weber",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Clockwork Percussionist"
+        },
+        {
+          "quantity": 4,
+          "name": "Goblin Bushwhacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Goblin Tomb Raider"
+        },
+        {
+          "quantity": 4,
+          "name": "Voldaren Epicure"
+        },
+        {
+          "quantity": 4,
+          "name": "Burning-Tree Emissary"
+        },
+        {
+          "quantity": 2,
+          "name": "Chain Lightning"
+        },
+        {
+          "quantity": 1,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 4,
+          "name": "Rally at the Hornburg"
+        },
+        {
+          "quantity": 3,
+          "name": "Reckless Impulse"
+        },
+        {
+          "quantity": 1,
+          "name": "Wrenn's Resolve"
+        },
+        {
+          "quantity": 3,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 4,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 1,
+          "name": "Fireblast"
+        },
+        {
+          "quantity": 3,
+          "name": "Experimental Synthesizer"
+        },
+        {
+          "quantity": 4,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 14,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 2,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast into the Fire"
+        },
+        {
+          "quantity": 3,
+          "name": "Smash to Smithereens"
+        },
+        {
+          "quantity": 2,
+          "name": "Mine Collapse"
+        },
+        {
+          "quantity": 2,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "emuvdnaJ86Ps46foNQSBmwmGTh92",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/emuvdnaJ86Ps46foNQSBmwmGTh92",
+      "pilotName": "Dylan van Gelder",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Delver of Secrets // Insectile Aberration"
+        },
+        {
+          "quantity": 4,
+          "name": "Cryptic Serpent"
+        },
+        {
+          "quantity": 4,
+          "name": "Tolarian Terror"
+        },
+        {
+          "quantity": 4,
+          "name": "Ponder"
+        },
+        {
+          "quantity": 2,
+          "name": "Sleep of the Dead"
+        },
+        {
+          "quantity": 1,
+          "name": "Deep Analysis"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 4,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 3,
+          "name": "Force Spike"
+        },
+        {
+          "quantity": 3,
+          "name": "Mental Note"
+        },
+        {
+          "quantity": 1,
+          "name": "Spell Pierce"
+        },
+        {
+          "quantity": 4,
+          "name": "Thought Scour"
+        },
+        {
+          "quantity": 2,
+          "name": "Boomerang"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 16,
+          "name": "Island"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Murmuring Mystic"
+        },
+        {
+          "quantity": 3,
+          "name": "Annul"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Envelop"
+        },
+        {
+          "quantity": 3,
+          "name": "Gut Shot"
+        },
+        {
+          "quantity": 2,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 1,
+          "name": "Steel Sabotage"
+        }
+      ]
+    },
+    {
+      "id": "en2liKJ8OsRkG91YKPvgsepnp9C3",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/en2liKJ8OsRkG91YKPvgsepnp9C3",
+      "pilotName": "Roberto van den Elzen",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Lunarch Veteran // Luminous Phantom"
+        },
+        {
+          "quantity": 4,
+          "name": "Novice Inspector"
+        },
+        {
+          "quantity": 1,
+          "name": "Steadfast Unicorn"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Inspector"
+        },
+        {
+          "quantity": 4,
+          "name": "Kor Skyfisher"
+        },
+        {
+          "quantity": 4,
+          "name": "Raffine's Informant"
+        },
+        {
+          "quantity": 3,
+          "name": "Leonardo, Big Brother"
+        },
+        {
+          "quantity": 2,
+          "name": "Spider-Man, Web-Slinger"
+        },
+        {
+          "quantity": 1,
+          "name": "Eagles of the North"
+        },
+        {
+          "quantity": 4,
+          "name": "Battle Screech"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 2,
+          "name": "Guardians' Pledge"
+        },
+        {
+          "quantity": 3,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 1,
+          "name": "Ramosian Rally"
+        },
+        {
+          "quantity": 1,
+          "name": "Journey to Nowhere"
+        },
+        {
+          "quantity": 2,
+          "name": "Idyllic Grange"
+        },
+        {
+          "quantity": 16,
+          "name": "Plains"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 3,
+          "name": "Martyr of Sands"
+        },
+        {
+          "quantity": 2,
+          "name": "Palace Sentinels"
+        },
+        {
+          "quantity": 3,
+          "name": "Dust to Dust"
+        },
+        {
+          "quantity": 2,
+          "name": "Hallow"
+        },
+        {
+          "quantity": 2,
+          "name": "Destroy Evil"
+        },
+        {
+          "quantity": 2,
+          "name": "Holy Light"
+        },
+        {
+          "quantity": 1,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "gaofBFhyILRpoQWOrYJFuLvEatd2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/gaofBFhyILRpoQWOrYJFuLvEatd2",
+      "pilotName": "Bas Hendriks",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Elves of Deep Shadow"
+        },
+        {
+          "quantity": 2,
+          "name": "Quirion Ranger"
+        },
+        {
+          "quantity": 4,
+          "name": "Saruli Caretaker"
+        },
+        {
+          "quantity": 1,
+          "name": "Tinder Wall"
+        },
+        {
+          "quantity": 4,
+          "name": "Gatecreeper Vine"
+        },
+        {
+          "quantity": 2,
+          "name": "Masked Vandal"
+        },
+        {
+          "quantity": 1,
+          "name": "Mesmeric Fiend"
+        },
+        {
+          "quantity": 4,
+          "name": "Overgrown Battlement"
+        },
+        {
+          "quantity": 1,
+          "name": "Wall of Roots"
+        },
+        {
+          "quantity": 4,
+          "name": "Balustrade Spy"
+        },
+        {
+          "quantity": 2,
+          "name": "Avenging Hunter"
+        },
+        {
+          "quantity": 4,
+          "name": "Sagu Wildling // Roost Seek"
+        },
+        {
+          "quantity": 4,
+          "name": "Generous Ent"
+        },
+        {
+          "quantity": 1,
+          "name": "Troll of Khazad-dûm"
+        },
+        {
+          "quantity": 2,
+          "name": "Lotleth Giant"
+        },
+        {
+          "quantity": 4,
+          "name": "Land Grant"
+        },
+        {
+          "quantity": 4,
+          "name": "Winding Way"
+        },
+        {
+          "quantity": 4,
+          "name": "Lead the Stampede"
+        },
+        {
+          "quantity": 2,
+          "name": "Dread Return"
+        },
+        {
+          "quantity": 3,
+          "name": "Lotus Petal"
+        },
+        {
+          "quantity": 3,
+          "name": "Forest"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Nyxborn Hydra"
+        },
+        {
+          "quantity": 3,
+          "name": "Accursed Marauder"
+        },
+        {
+          "quantity": 2,
+          "name": "Masked Vandal"
+        },
+        {
+          "quantity": 2,
+          "name": "Mesmeric Fiend"
+        },
+        {
+          "quantity": 2,
+          "name": "Vitu-Ghazi Inspector"
+        },
+        {
+          "quantity": 3,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        }
+      ]
+    },
+    {
+      "id": "jq3MPltEh3gT3UnxatUV5wsHLv82",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/jq3MPltEh3gT3UnxatUV5wsHLv82",
+      "pilotName": "Tijmen van der Kamp",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Krark-Clan Shaman"
+        },
+        {
+          "quantity": 1,
+          "name": "Nyxborn Hydra"
+        },
+        {
+          "quantity": 4,
+          "name": "Refurbished Familiar"
+        },
+        {
+          "quantity": 4,
+          "name": "Writhing Chrysalis"
+        },
+        {
+          "quantity": 4,
+          "name": "Cleansing Wildfire"
+        },
+        {
+          "quantity": 2,
+          "name": "Toxin Analysis"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 2,
+          "name": "Eviscerator's Insight"
+        },
+        {
+          "quantity": 4,
+          "name": "Fanatical Offering"
+        },
+        {
+          "quantity": 2,
+          "name": "Terminate"
+        },
+        {
+          "quantity": 1,
+          "name": "Pulse of Murasa"
+        },
+        {
+          "quantity": 1,
+          "name": "Blood Fountain"
+        },
+        {
+          "quantity": 3,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 4,
+          "name": "Ichor Wellspring"
+        },
+        {
+          "quantity": 2,
+          "name": "Lembas"
+        },
+        {
+          "quantity": 1,
+          "name": "Makeshift Munitions"
+        },
+        {
+          "quantity": 4,
+          "name": "Drossforge Bridge"
+        },
+        {
+          "quantity": 2,
+          "name": "Forest"
+        },
+        {
+          "quantity": 1,
+          "name": "Mountain"
+        },
+        {
+          "quantity": 4,
+          "name": "Slagwoods Bridge"
+        },
+        {
+          "quantity": 3,
+          "name": "Swamp"
+        },
+        {
+          "quantity": 4,
+          "name": "Twisted Landscape"
+        },
+        {
+          "quantity": 2,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Troublemaker Ouphe"
+        },
+        {
+          "quantity": 3,
+          "name": "Duress"
+        },
+        {
+          "quantity": 2,
+          "name": "Ancient Grudge"
+        },
+        {
+          "quantity": 2,
+          "name": "Terminate"
+        },
+        {
+          "quantity": 4,
+          "name": "Weather the Storm"
+        },
+        {
+          "quantity": 2,
+          "name": "Breath Weapon"
+        },
+        {
+          "quantity": 1,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "k70Ar8wnHcRcDGN7hKwhV96S5ml2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/k70Ar8wnHcRcDGN7hKwhV96S5ml2",
+      "pilotName": "Simon Isphording",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Fyndhorn Elves"
+        },
+        {
+          "quantity": 4,
+          "name": "Llanowar Elves"
+        },
+        {
+          "quantity": 4,
+          "name": "Nyxborn Hydra"
+        },
+        {
+          "quantity": 4,
+          "name": "Quirion Ranger"
+        },
+        {
+          "quantity": 4,
+          "name": "Masked Vandal"
+        },
+        {
+          "quantity": 4,
+          "name": "Priest of Titania"
+        },
+        {
+          "quantity": 4,
+          "name": "Timberwatch Elf"
+        },
+        {
+          "quantity": 4,
+          "name": "Avenging Hunter"
+        },
+        {
+          "quantity": 3,
+          "name": "Sagu Wildling // Roost Seek"
+        },
+        {
+          "quantity": 4,
+          "name": "Generous Ent"
+        },
+        {
+          "quantity": 2,
+          "name": "Land Grant"
+        },
+        {
+          "quantity": 4,
+          "name": "Winding Way"
+        },
+        {
+          "quantity": 4,
+          "name": "Lead the Stampede"
+        },
+        {
+          "quantity": 10,
+          "name": "Forest"
+        },
+        {
+          "quantity": 1,
+          "name": "Gingerbread Cabin"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Faerie Macabre"
+        },
+        {
+          "quantity": 4,
+          "name": "Spinewoods Paladin"
+        },
+        {
+          "quantity": 4,
+          "name": "Monstrous Emergence"
+        },
+        {
+          "quantity": 3,
+          "name": "Lignify"
+        }
+      ]
+    },
+    {
+      "id": "kBX6yZadhyW9ajR7TyABLzbBDd43",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/kBX6yZadhyW9ajR7TyABLzbBDd43",
+      "pilotName": "Noah Westerweel",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Lunarch Veteran // Luminous Phantom"
+        },
+        {
+          "quantity": 2,
+          "name": "Novice Inspector"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Inspector"
+        },
+        {
+          "quantity": 4,
+          "name": "Sneaky Snacker"
+        },
+        {
+          "quantity": 2,
+          "name": "Faithless Looting"
+        },
+        {
+          "quantity": 4,
+          "name": "Pursue the Past"
+        },
+        {
+          "quantity": 4,
+          "name": "Thrilling Discovery"
+        },
+        {
+          "quantity": 4,
+          "name": "Battle Screech"
+        },
+        {
+          "quantity": 3,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 3,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 3,
+          "name": "Rally the Peasants"
+        },
+        {
+          "quantity": 4,
+          "name": "Boros Garrison"
+        },
+        {
+          "quantity": 4,
+          "name": "Mountain"
+        },
+        {
+          "quantity": 9,
+          "name": "Plains"
+        },
+        {
+          "quantity": 2,
+          "name": "Wind-Scarred Crag"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Coalition Honor Guard"
+        },
+        {
+          "quantity": 3,
+          "name": "Dust to Dust"
+        },
+        {
+          "quantity": 2,
+          "name": "Electrickery"
+        },
+        {
+          "quantity": 1,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 4,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast into the Fire"
+        },
+        {
+          "quantity": 1,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 1,
+          "name": "Journey to Nowhere"
+        }
+      ]
+    },
+    {
+      "id": "ltNVvCO8AEgFzy9uaLH4fcpoPQX2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/ltNVvCO8AEgFzy9uaLH4fcpoPQX2",
+      "pilotName": "Fernando Tong",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Lunarch Veteran // Luminous Phantom"
+        },
+        {
+          "quantity": 4,
+          "name": "Novice Inspector"
+        },
+        {
+          "quantity": 1,
+          "name": "Steadfast Unicorn"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Inspector"
+        },
+        {
+          "quantity": 4,
+          "name": "Kor Skyfisher"
+        },
+        {
+          "quantity": 4,
+          "name": "Raffine's Informant"
+        },
+        {
+          "quantity": 3,
+          "name": "Leonardo, Big Brother"
+        },
+        {
+          "quantity": 1,
+          "name": "Eagles of the North"
+        },
+        {
+          "quantity": 4,
+          "name": "Battle Screech"
+        },
+        {
+          "quantity": 4,
+          "name": "Thraben Charm"
+        },
+        {
+          "quantity": 2,
+          "name": "Guardians' Pledge"
+        },
+        {
+          "quantity": 3,
+          "name": "Prismatic Strands"
+        },
+        {
+          "quantity": 1,
+          "name": "Ramosian Rally"
+        },
+        {
+          "quantity": 2,
+          "name": "Journey to Nowhere"
+        },
+        {
+          "quantity": 2,
+          "name": "Idyllic Grange"
+        },
+        {
+          "quantity": 17,
+          "name": "Plains"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Martyr of Sands"
+        },
+        {
+          "quantity": 2,
+          "name": "Standard Bearer"
+        },
+        {
+          "quantity": 1,
+          "name": "Palace Sentinels"
+        },
+        {
+          "quantity": 4,
+          "name": "Revoke Existence"
+        },
+        {
+          "quantity": 1,
+          "name": "Destroy Evil"
+        },
+        {
+          "quantity": 2,
+          "name": "Holy Light"
+        },
+        {
+          "quantity": 1,
+          "name": "Journey to Nowhere"
+        }
+      ]
+    },
+    {
+      "id": "mhhqO8qTuEOSmJVQ7eQDULAOzj82",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/mhhqO8qTuEOSmJVQ7eQDULAOzj82",
+      "pilotName": "Thijs Deckers",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Goblin Anarchomancer"
+        },
+        {
+          "quantity": 4,
+          "name": "Thornscape Familiar"
+        },
+        {
+          "quantity": 2,
+          "name": "Reckless Impulse"
+        },
+        {
+          "quantity": 4,
+          "name": "Wrenn's Resolve"
+        },
+        {
+          "quantity": 4,
+          "name": "Glimpse the Impossible"
+        },
+        {
+          "quantity": 2,
+          "name": "Seize the Storm"
+        },
+        {
+          "quantity": 3,
+          "name": "Desperate Ritual"
+        },
+        {
+          "quantity": 3,
+          "name": "First Day of Class"
+        },
+        {
+          "quantity": 4,
+          "name": "Manamorphose"
+        },
+        {
+          "quantity": 3,
+          "name": "Crossover Collaboration"
+        },
+        {
+          "quantity": 3,
+          "name": "Electric Revelation"
+        },
+        {
+          "quantity": 4,
+          "name": "Seething Song"
+        },
+        {
+          "quantity": 3,
+          "name": "Big Score"
+        },
+        {
+          "quantity": 4,
+          "name": "Geothermal Crevice"
+        },
+        {
+          "quantity": 4,
+          "name": "Hickory Woodlot"
+        },
+        {
+          "quantity": 5,
+          "name": "Mountain"
+        },
+        {
+          "quantity": 4,
+          "name": "Sandstone Needle"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Waterbending Lesson"
+        },
+        {
+          "quantity": 1,
+          "name": "Firebending Lesson"
+        },
+        {
+          "quantity": 4,
+          "name": "Pyroblast"
+        },
+        {
+          "quantity": 1,
+          "name": "Abandon Attachments"
+        },
+        {
+          "quantity": 1,
+          "name": "Flaring Pain"
+        },
+        {
+          "quantity": 1,
+          "name": "Origin of Metalbending"
+        },
+        {
+          "quantity": 4,
+          "name": "Weather the Storm"
+        },
+        {
+          "quantity": 2,
+          "name": "Gruul Turf"
+        }
+      ]
+    },
+    {
+      "id": "qQLEC7ELV1Z5mrqtPoRtQKjNZx73",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/qQLEC7ELV1Z5mrqtPoRtQKjNZx73",
+      "pilotName": "Stefan Pouwelse",
+      "mainDeck": [
+        {
+          "quantity": 2,
+          "name": "Brinebarrow Intruder"
+        },
+        {
+          "quantity": 4,
+          "name": "Faerie Miscreant"
+        },
+        {
+          "quantity": 4,
+          "name": "Faerie Seer"
+        },
+        {
+          "quantity": 2,
+          "name": "Humbling Elder"
+        },
+        {
+          "quantity": 4,
+          "name": "Moon-Circuit Hacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Spellstutter Sprite"
+        },
+        {
+          "quantity": 4,
+          "name": "Ninja of the Deep Hours"
+        },
+        {
+          "quantity": 2,
+          "name": "Thorn of the Black Rose"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 1,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 3,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 4,
+          "name": "Snuff Out"
+        },
+        {
+          "quantity": 3,
+          "name": "Contaminated Aquifer"
+        },
+        {
+          "quantity": 1,
+          "name": "Ice Tunnel"
+        },
+        {
+          "quantity": 14,
+          "name": "Island"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Arms of Hadar"
+        },
+        {
+          "quantity": 4,
+          "name": "Annul"
+        },
+        {
+          "quantity": 2,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Envelop"
+        },
+        {
+          "quantity": 4,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
+      "pilotName": "Mirco Bonati",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Sneaky Snacker"
+        },
+        {
+          "quantity": 2,
+          "name": "Murmuring Mystic"
+        },
+        {
+          "quantity": 2,
+          "name": "Gurmag Angler"
+        },
+        {
+          "quantity": 4,
+          "name": "Tolarian Terror"
+        },
+        {
+          "quantity": 1,
+          "name": "Ponder"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 4,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 3,
+          "name": "Mental Note"
+        },
+        {
+          "quantity": 2,
+          "name": "Spell Pierce"
+        },
+        {
+          "quantity": 4,
+          "name": "Thought Scour"
+        },
+        {
+          "quantity": 3,
+          "name": "Abandon Attachments"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 1,
+          "name": "Unexpected Fangs"
+        },
+        {
+          "quantity": 4,
+          "name": "Snuff Out"
+        },
+        {
+          "quantity": 4,
+          "name": "Contaminated Aquifer"
+        },
+        {
+          "quantity": 2,
+          "name": "Ice Tunnel"
+        },
+        {
+          "quantity": 10,
+          "name": "Island"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Thorn of the Black Rose"
+        },
+        {
+          "quantity": 2,
+          "name": "Arms of Hadar"
+        },
+        {
+          "quantity": 2,
+          "name": "Annul"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Sabotage"
+        },
+        {
+          "quantity": 1,
+          "name": "Unexpected Fangs"
+        },
+        {
+          "quantity": 2,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "vRDl5dUGhQRB9ckDjsZkt5I75gs2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/vRDl5dUGhQRB9ckDjsZkt5I75gs2",
+      "pilotName": "Tim Bunnik",
+      "mainDeck": [
+        {
+          "quantity": 2,
+          "name": "Generous Ent"
+        },
+        {
+          "quantity": 4,
+          "name": "Boulderbranch Golem"
+        },
+        {
+          "quantity": 4,
+          "name": "Drownyard Lurker"
+        },
+        {
+          "quantity": 3,
+          "name": "Wretched Gryff"
+        },
+        {
+          "quantity": 3,
+          "name": "Ulamog's Crusher"
+        },
+        {
+          "quantity": 4,
+          "name": "Ancient Stirrings"
+        },
+        {
+          "quantity": 2,
+          "name": "Crop Rotation"
+        },
+        {
+          "quantity": 1,
+          "name": "Breath Weapon"
+        },
+        {
+          "quantity": 1,
+          "name": "Unfathomable Truths"
+        },
+        {
+          "quantity": 4,
+          "name": "Candy Trail"
+        },
+        {
+          "quantity": 4,
+          "name": "Expedition Map"
+        },
+        {
+          "quantity": 3,
+          "name": "Prophetic Prism"
+        },
+        {
+          "quantity": 3,
+          "name": "Bonder's Ornament"
+        },
+        {
+          "quantity": 4,
+          "name": "Pinnacle Kill-Ship"
+        },
+        {
+          "quantity": 1,
+          "name": "Bojuka Bog"
+        },
+        {
+          "quantity": 1,
+          "name": "Conduit Pylons"
+        },
+        {
+          "quantity": 2,
+          "name": "Crystal Grotto"
+        },
+        {
+          "quantity": 2,
+          "name": "Forest"
+        },
+        {
+          "quantity": 4,
+          "name": "Urza's Mine"
+        },
+        {
+          "quantity": 4,
+          "name": "Urza's Power Plant"
+        },
+        {
+          "quantity": 4,
+          "name": "Urza's Tower"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 4,
+          "name": "Monstrous Emergence"
+        },
+        {
+          "quantity": 1,
+          "name": "Heritage Reclamation"
+        },
+        {
+          "quantity": 2,
+          "name": "Moment's Peace"
+        },
+        {
+          "quantity": 3,
+          "name": "Breath Weapon"
+        },
+        {
+          "quantity": 2,
+          "name": "Pulse of Murasa"
+        },
+        {
+          "quantity": 3,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "vS51wYeoyVcyG8HVrOhMF5WdJOr2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/vS51wYeoyVcyG8HVrOhMF5WdJOr2",
+      "pilotName": "Tom de Ruiter",
+      "mainDeck": [
+        {
+          "quantity": 3,
+          "name": "Krark-Clan Shaman"
+        },
+        {
+          "quantity": 2,
+          "name": "Kenku Artificer"
+        },
+        {
+          "quantity": 4,
+          "name": "Refurbished Familiar"
+        },
+        {
+          "quantity": 3,
+          "name": "Utrom Monitor"
+        },
+        {
+          "quantity": 4,
+          "name": "Myr Enforcer"
+        },
+        {
+          "quantity": 4,
+          "name": "Thoughtcast"
+        },
+        {
+          "quantity": 4,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Toxin Analysis"
+        },
+        {
+          "quantity": 4,
+          "name": "Reckoner's Bargain"
+        },
+        {
+          "quantity": 2,
+          "name": "Blood Fountain"
+        },
+        {
+          "quantity": 3,
+          "name": "Nihil Spellbomb"
+        },
+        {
+          "quantity": 2,
+          "name": "Cryogen Relic"
+        },
+        {
+          "quantity": 2,
+          "name": "Ichor Wellspring"
+        },
+        {
+          "quantity": 1,
+          "name": "Makeshift Munitions"
+        },
+        {
+          "quantity": 4,
+          "name": "Drossforge Bridge"
+        },
+        {
+          "quantity": 2,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 1,
+          "name": "Island"
+        },
+        {
+          "quantity": 4,
+          "name": "Mistvault Bridge"
+        },
+        {
+          "quantity": 2,
+          "name": "Seat of the Synod"
+        },
+        {
+          "quantity": 2,
+          "name": "Silverbluff Bridge"
+        },
+        {
+          "quantity": 4,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Extract a Confession"
+        },
+        {
+          "quantity": 4,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 4,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Unexpected Fangs"
+        },
+        {
+          "quantity": 1,
+          "name": "Breath Weapon"
+        },
+        {
+          "quantity": 1,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "xrLCwHfzn8Np5DNnZroSWD8y4UD3",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/xrLCwHfzn8Np5DNnZroSWD8y4UD3",
+      "pilotName": "Floris Heins",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Clockwork Percussionist"
+        },
+        {
+          "quantity": 4,
+          "name": "Gingerbrute"
+        },
+        {
+          "quantity": 3,
+          "name": "Goblin Bushwhacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Goblin Tomb Raider"
+        },
+        {
+          "quantity": 4,
+          "name": "Voldaren Epicure"
+        },
+        {
+          "quantity": 4,
+          "name": "Burning-Tree Emissary"
+        },
+        {
+          "quantity": 1,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 4,
+          "name": "Rally at the Hornburg"
+        },
+        {
+          "quantity": 4,
+          "name": "Galvanic Blast"
+        },
+        {
+          "quantity": 4,
+          "name": "Lightning Bolt"
+        },
+        {
+          "quantity": 2,
+          "name": "Burning Sun's Fury"
+        },
+        {
+          "quantity": 1,
+          "name": "Fireblast"
+        },
+        {
+          "quantity": 4,
+          "name": "Inventor's Axe"
+        },
+        {
+          "quantity": 4,
+          "name": "Great Furnace"
+        },
+        {
+          "quantity": 13,
+          "name": "Mountain"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "End the Festivities"
+        },
+        {
+          "quantity": 1,
+          "name": "Tectonic Hazard"
+        },
+        {
+          "quantity": 4,
+          "name": "Red Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Searing Blaze"
+        },
+        {
+          "quantity": 4,
+          "name": "Smash to Smithereens"
+        },
+        {
+          "quantity": 3,
+          "name": "Tormod's Crypt"
+        }
+      ]
+    },
+    {
+      "id": "yBFaRmnZHscRxAcfwmLqvWDPUpk2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/yBFaRmnZHscRxAcfwmLqvWDPUpk2",
+      "pilotName": "Alexander Hamilton",
+      "mainDeck": [
+        {
+          "quantity": 1,
+          "name": "Cogwork Wrestler"
+        },
+        {
+          "quantity": 4,
+          "name": "Vedalken Engineer"
+        },
+        {
+          "quantity": 4,
+          "name": "Pactdoll Terror"
+        },
+        {
+          "quantity": 4,
+          "name": "Refurbished Familiar"
+        },
+        {
+          "quantity": 2,
+          "name": "Mirrorshell Crab"
+        },
+        {
+          "quantity": 2,
+          "name": "Thoughtcast"
+        },
+        {
+          "quantity": 1,
+          "name": "Banishing Knack"
+        },
+        {
+          "quantity": 1,
+          "name": "Retraction Helix"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 1,
+          "name": "Eviscerator's Insight"
+        },
+        {
+          "quantity": 1,
+          "name": "Shred Memory"
+        },
+        {
+          "quantity": 2,
+          "name": "Metallic Rebuke"
+        },
+        {
+          "quantity": 1,
+          "name": "Pop Quiz"
+        },
+        {
+          "quantity": 3,
+          "name": "Mystical Teachings"
+        },
+        {
+          "quantity": 2,
+          "name": "Candy Trail"
+        },
+        {
+          "quantity": 3,
+          "name": "Sewer-veillance Cam"
+        },
+        {
+          "quantity": 3,
+          "name": "Cryogen Relic"
+        },
+        {
+          "quantity": 2,
+          "name": "Energy Refractor"
+        },
+        {
+          "quantity": 3,
+          "name": "Bonder's Ornament"
+        },
+        {
+          "quantity": 1,
+          "name": "Bojuka Bog"
+        },
+        {
+          "quantity": 2,
+          "name": "Dimir Aqueduct"
+        },
+        {
+          "quantity": 2,
+          "name": "Island"
+        },
+        {
+          "quantity": 4,
+          "name": "Mistvault Bridge"
+        },
+        {
+          "quantity": 4,
+          "name": "Seat of the Synod"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        },
+        {
+          "quantity": 4,
+          "name": "Vault of Whispers"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Dai Li Indoctrination"
+        },
+        {
+          "quantity": 1,
+          "name": "Annul"
+        },
+        {
+          "quantity": 3,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 1,
+          "name": "Darkness"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Sabotage"
+        },
+        {
+          "quantity": 1,
+          "name": "Diabolic Edict"
+        },
+        {
+          "quantity": 1,
+          "name": "It'll Quench Ya!"
+        },
+        {
+          "quantity": 2,
+          "name": "Suffocating Fumes"
+        },
+        {
+          "quantity": 1,
+          "name": "Zuko's Exile"
+        },
+        {
+          "quantity": 2,
+          "name": "Nihil Spellbomb"
+        }
+      ]
+    },
+    {
+      "id": "ysNRuEfWziNdlXox7pwnWAyFHsw2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/ysNRuEfWziNdlXox7pwnWAyFHsw2",
+      "pilotName": "soufian hriz",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Faerie Seer"
+        },
+        {
+          "quantity": 4,
+          "name": "Augur of Bolas"
+        },
+        {
+          "quantity": 1,
+          "name": "Moon-Circuit Hacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Spellstutter Sprite"
+        },
+        {
+          "quantity": 1,
+          "name": "Mukotai Ambusher"
+        },
+        {
+          "quantity": 2,
+          "name": "Ninja of the Deep Hours"
+        },
+        {
+          "quantity": 2,
+          "name": "Thorn of the Black Rose"
+        },
+        {
+          "quantity": 1,
+          "name": "Extract a Confession"
+        },
+        {
+          "quantity": 4,
+          "name": "Lórien Revealed"
+        },
+        {
+          "quantity": 4,
+          "name": "Brainstorm"
+        },
+        {
+          "quantity": 2,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 1,
+          "name": "Agony Warp"
+        },
+        {
+          "quantity": 2,
+          "name": "Cast Down"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 1,
+          "name": "Suffocating Fumes"
+        },
+        {
+          "quantity": 4,
+          "name": "Snuff Out"
+        },
+        {
+          "quantity": 1,
+          "name": "Sewer-veillance Cam"
+        },
+        {
+          "quantity": 1,
+          "name": "Bojuka Bog"
+        },
+        {
+          "quantity": 4,
+          "name": "Contaminated Aquifer"
+        },
+        {
+          "quantity": 1,
+          "name": "Dimir Aqueduct"
+        },
+        {
+          "quantity": 10,
+          "name": "Island"
+        },
+        {
+          "quantity": 1,
+          "name": "Seething Landscape"
+        },
+        {
+          "quantity": 1,
+          "name": "Swamp"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 1,
+          "name": "Mukotai Ambusher"
+        },
+        {
+          "quantity": 1,
+          "name": "Murmuring Mystic"
+        },
+        {
+          "quantity": 1,
+          "name": "Arms of Hadar"
+        },
+        {
+          "quantity": 3,
+          "name": "Annul"
+        },
+        {
+          "quantity": 3,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 1,
+          "name": "Campfire"
+        },
+        {
+          "quantity": 2,
+          "name": "Relic of Progenitus"
+        }
+      ]
+    },
+    {
+      "id": "zfi8nWR2mLY7dTTMWLvk0p68drm2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/zfi8nWR2mLY7dTTMWLvk0p68drm2",
+      "pilotName": "Dylan Holly",
+      "mainDeck": [
+        {
+          "quantity": 2,
+          "name": "Brinebarrow Intruder"
+        },
+        {
+          "quantity": 4,
+          "name": "Faerie Miscreant"
+        },
+        {
+          "quantity": 4,
+          "name": "Faerie Seer"
+        },
+        {
+          "quantity": 2,
+          "name": "Harrier Strix"
+        },
+        {
+          "quantity": 2,
+          "name": "Humbling Elder"
+        },
+        {
+          "quantity": 1,
+          "name": "Snaremaster Sprite"
+        },
+        {
+          "quantity": 4,
+          "name": "Moon-Circuit Hacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Spellstutter Sprite"
+        },
+        {
+          "quantity": 4,
+          "name": "Ninja of the Deep Hours"
+        },
+        {
+          "quantity": 4,
+          "name": "Of One Mind"
+        },
+        {
+          "quantity": 2,
+          "name": "Spell Pierce"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 2,
+          "name": "Snap"
+        },
+        {
+          "quantity": 1,
+          "name": "Bind the Monster"
+        },
+        {
+          "quantity": 2,
+          "name": "Sunken City"
+        },
+        {
+          "quantity": 18,
+          "name": "Island"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 2,
+          "name": "Annul"
+        },
+        {
+          "quantity": 2,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 2,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 2,
+          "name": "Envelop"
+        },
+        {
+          "quantity": 2,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Sabotage"
+        },
+        {
+          "quantity": 3,
+          "name": "Bind the Monster"
+        }
+      ]
+    }
+  ]
+}

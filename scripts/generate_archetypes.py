@@ -24,7 +24,7 @@ def find_event_ts_file(event_name: str) -> tuple:
 
     # Read event TS files to find matching event name
     for event_file in events_dir.glob("*.ts"):
-        with open(event_file, 'r', encoding='utf-8') as f:
+        with open(event_file, 'r', encoding='utf-8-sig') as f:
             content = f.read()
             if event_name in content:
                 # Extract date from filename (YYYY-MM-DD)
@@ -39,7 +39,7 @@ def build_player_to_deck_slug_map(events_dir: Path = Path("src/lib/data/events")
     """Build a mapping of player -> deck_slug by reading event TS files."""
     player_to_deck_slug = {}
     for event_file in events_dir.glob("*.ts"):
-        with open(event_file, 'r', encoding='utf-8') as f:
+        with open(event_file, 'r', encoding='utf-8-sig') as f:
             content = f.read()
             # Extract standing entries: player: "Player Name", ... deckSlug: "deck-slug"
             for match in re.finditer(r'player:\s*"([^"]+)".*?deckSlug:\s*"([^"]+)"', content, re.DOTALL):
@@ -93,7 +93,7 @@ def main():
             event_data[event_name]['event_slug'] = event_slug
             event_data[event_name]['event_file'] = event_file
             # Read event name from TS file
-            with open(event_file, 'r', encoding='utf-8') as f:
+            with open(event_file, 'r', encoding='utf-8-sig') as f:
                 name_match = re.search(r'name:\s*"([^"]+)"', f.read())
                 if name_match:
                     event_data[event_name]['event_name'] = name_match.group(1)

@@ -149,7 +149,7 @@ def main():
 
     # Read CSV and extract deck URLs
     deck_urls = []
-    with open(csv_path, 'r', encoding='utf-8') as f:
+    with open(csv_path, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:
             url = row.get('Decklist', '').strip()

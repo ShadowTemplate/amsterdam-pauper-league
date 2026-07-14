@@ -45,8 +45,11 @@ def find_round_files_for_event(event_name: str) -> dict:
         year = leg_match.group(2)
         # Match files like: Dutch_Pauper_League___2__Leg___2026_Round*.csv
         # or: Amsterdam_Pauper_League___4__Leg___2026_Round*.csv
-        # Use glob pattern with wildcards to be flexible
-        pattern = f"*{leg_num}*Leg*{year}*Round*.csv"
+        # The leg number must be bounded by "_...__Leg" on both sides - a bare
+        # "*{leg_num}*Leg*" wildcard would let leg "1" match inside leg "10"
+        # too (both contain the digit "1"), silently blending two legs'
+        # rounds together for whichever round numbers only one of them has.
+        pattern = f"*_{leg_num}__Leg_*{year}*Round*.csv"
         round_files = sorted(ROUNDS_DIR.glob(pattern))
     else:
         # For events without leg format (like Stroopwafel IPT), match by organization name
@@ -63,7 +66,7 @@ def find_round_files_for_event(event_name: str) -> dict:
         round_num = int(match.group(1))
         matches = []
 
-        with open(round_file, 'r', encoding='utf-8') as f:
+        with open(round_file, 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 table = row.get('Table', '').strip()

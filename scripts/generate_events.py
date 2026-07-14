@@ -93,8 +93,13 @@ def main():
             if deck_id and deck_id in archetypes_map:
                 archetype_name = archetypes_map[deck_id]
                 archetype_slug = normalize_slug(archetype_name)
-                archetype_counter[archetype_slug]['name'] = archetype_name
-                archetype_counter[archetype_slug]['count'] += 1
+
+            # Every standings entry counts toward the breakdown, whether or
+            # not its deck was matched - otherwise unmatched players vanish
+            # from meta entirely instead of counting as "Unknown", and the
+            # percentages stop summing to 100%.
+            archetype_counter[archetype_slug]['name'] = archetype_name
+            archetype_counter[archetype_slug]['count'] += 1
 
             # Generate player slug
             player_slug = normalize_slug(player)
