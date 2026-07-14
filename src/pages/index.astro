@@ -2,8 +2,9 @@
 import Layout from "@/layouts/Layout.astro";
 import PrizesCard from "@/components/PrizesCard.astro";
 import { getLeagueSeason } from "@/lib/mock-data";
+import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
 
-const top16 = (getLeagueSeason(2026)?.standings ?? []).slice(0, 16);
+const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 16);
 ---
 
 <Layout title="Amsterdam Pauper League">
@@ -18,7 +19,7 @@ const top16 = (getLeagueSeason(2026)?.standings ?? []).slice(0, 16);
       </p>
       <div class="flex gap-4">
         <a
-          href="/events/2026"
+          href={`/events/${CURRENT_SEASON_YEAR}`}
           class="bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition text-center w-40"
         >
           View Calendar
@@ -66,7 +67,7 @@ const top16 = (getLeagueSeason(2026)?.standings ?? []).slice(0, 16);
         ))}
       </div>
       <a
-        href="/seasons/2026"
+        href={`/seasons/${CURRENT_SEASON_YEAR}`}
         class="inline-block bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition"
       >
         View Standings

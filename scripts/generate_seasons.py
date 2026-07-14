@@ -14,10 +14,14 @@ They're sourced from a manually-curated file: data/seasons_info.json
     "2024": {
       "awards": [
         {"playerSlug": "bram_deppenbroek", "flight": true, "bye": true}
-      ]
+      ],
+      "status": "completed"
     }
   }
 If a year is absent from that file, no standing gets flight/bye for it.
+This script only reads "awards" - "status" ("ongoing"/"completed") is read
+by the website (src/lib/current-season.ts) to pick the current season and
+build the list of years with pages; it plays no role in generation here.
 
 stats.byesUnlocked is computed from attendance (see compute_byes_unlocked)
 - it is NOT who receives the byes, only how many are unlocked for the

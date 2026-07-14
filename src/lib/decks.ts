@@ -22,11 +22,8 @@ import { decks as decks20251004 } from "@/lib/data/decks/2025-10-04";
 import { decks as decks20251101 } from "@/lib/data/decks/2025-11-01";
 import { decks as decks20251213 } from "@/lib/data/decks/2025-12-13";
 import { decks as decks20260117 } from "@/lib/data/decks/2026-01-17";
-import { decks as decks20260409 } from "@/lib/data/decks/2026-04-09";
 import { decks as decks20260411 } from "@/lib/data/decks/2026-04-11";
-import { decks as decks20260430 } from "@/lib/data/decks/2026-04-30";
 import { decks as decks20260502 } from "@/lib/data/decks/2026-05-02";
-import { decks as decks20260604 } from "@/lib/data/decks/2026-06-04";
 import { decks as decks20260606 } from "@/lib/data/decks/2026-06-06";
 
 const allDeckArrays = [
@@ -50,11 +47,8 @@ const allDeckArrays = [
   { eventSlug: "2025-11-01", decks: decks20251101 },
   { eventSlug: "2025-12-13", decks: decks20251213 },
   { eventSlug: "2026-01-17", decks: decks20260117 },
-  { eventSlug: "2026-04-09", decks: decks20260409 },
   { eventSlug: "2026-04-11", decks: decks20260411 },
-  { eventSlug: "2026-04-30", decks: decks20260430 },
   { eventSlug: "2026-05-02", decks: decks20260502 },
-  { eventSlug: "2026-06-04", decks: decks20260604 },
   { eventSlug: "2026-06-06", decks: decks20260606 },
 ];
 
@@ -96,14 +90,17 @@ export function findDeckByEventAndPilot(eventSlug: string, pilotName: string, ar
   );
 }
 
+// Mirrors normalize_slug() in scripts/utils.py (underscore slugs) - must match
+// so a deck's archetype name resolves to the same slug ARCHETYPES.slug uses.
+function toArchetypeSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/[\s-]+/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_|_$/g, '');
+}
+
 export function getDecksByArchetype(archetypeSlug: string): DeckWithEvent[] {
-  // Convert slug to archetype name (e.g., "mono-r-madness" -> find decks with "MonoR Madness")
-  return allDecks.filter(d => {
-    const deckSlug = d.archetype
-      .toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-');
-    return deckSlug === archetypeSlug;
-  });
+  return allDecks.filter(d => toArchetypeSlug(d.archetype) === archetypeSlug);
 }

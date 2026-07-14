@@ -113,17 +113,16 @@ export const EVENT_DETAILS: Record<string, EventDetail> = {
 
 // ── Seasons ───────────────────────────────────────────────────────────────────
 
-export const LEAGUE_2026 = season2026;
-export const LEAGUE_2025 = season2025;
-export const LEAGUE_2024 = season2024;
+const SEASONS: Record<number, LeagueSeason> = {
+  2026: season2026,
+  2025: season2025,
+  2024: season2024,
+};
 
 // ── Lookup helpers ────────────────────────────────────────────────────────────
 
 export function getLeagueSeason(year: number): LeagueSeason | null {
-  if (year === 2026) return LEAGUE_2026;
-  if (year === 2025) return LEAGUE_2025;
-  if (year === 2024) return LEAGUE_2024;
-  return null;
+  return SEASONS[year] ?? null;
 }
 
 export function getEvent(slug: string): Event | undefined {
