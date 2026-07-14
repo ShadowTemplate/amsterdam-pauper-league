@@ -1,7 +1,8 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { ARCHETYPES, getArchetypeDetail } from "@/lib/data-layer";
+import { ARCHETYPES, getArchetypeDetail, getEvent } from "@/lib/data-layer";
 import { getDecksByArchetype } from "@/lib/decks";
+import { formatDate } from "@/lib/utils";
 
 export function getStaticPaths() {
   return ARCHETYPES.map((a) => ({ params: { slug: a.slug } }));
@@ -47,9 +48,11 @@ const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanc
     </p>
 
     {detail ? (
-      detail.byEvent.map((group) => (
+      detail.byEvent.map((group) => {
+        const event = getEvent(group.eventSlug);
+        return (
         <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">
+          <h2 class="text-xl font-semibold mb-1">
             <a
               href={`/events/${group.eventSlug}`}
               class="hover:underline underline-offset-4 text-foreground"
@@ -57,6 +60,9 @@ const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanc
               {group.eventName}
             </a>
           </h2>
+          <p class="text-sm text-muted-foreground mb-4">
+            {formatDate(group.eventSlug)}{event?.venue && ` @ ${event.venue}`}
+          </p>
           <div class="w-full overflow-x-auto">
             <table class="w-full text-sm border-collapse">
               <thead>
@@ -99,7 +105,8 @@ const pauperformanceUrl = `https://pauperformance.com/archetypes/${pauperformanc
             </table>
           </div>
         </section>
-      ))
+        );
+      })
     ) : (
       <p class="text-muted-foreground">Detailed appearance data coming soon.</p>
     )}

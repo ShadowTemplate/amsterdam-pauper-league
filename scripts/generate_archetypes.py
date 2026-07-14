@@ -204,7 +204,7 @@ def main():
             event_key = app['eventSlug']
             appearances_by_event[event_key].append(app)
 
-        for event_slug in sorted(appearances_by_event.keys()):
+        for event_slug in sorted(appearances_by_event.keys(), reverse=True):
             appearances = appearances_by_event[event_slug]
             event_name = appearances[0]['eventName'] if appearances else ''
 

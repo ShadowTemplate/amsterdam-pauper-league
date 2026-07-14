@@ -1,7 +1,8 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { getAllDecks } from "@/lib/decks";
-import { getEvent } from "@/lib/data-layer";
+import { getEvent, PLAYERS } from "@/lib/data-layer";
+import { formatDate } from "@/lib/utils";
 
 const allDecks = getAllDecks();
 
@@ -19,6 +20,8 @@ const decksByEvent = allDecks.reduce(
 
 // Sort events by date (most recent first)
 const sortedEventSlugs = Object.keys(decksByEvent).sort().reverse();
+
+const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCase(), p.slug]));
 
 const title = "Decks – Amsterdam Pauper League";
 ---
@@ -43,7 +46,7 @@ const title = "Decks – Amsterdam Pauper League";
 
       return (
         <section class="mb-12">
-          <h2 class="text-2xl font-semibold mb-4">
+          <h2 class="text-2xl font-semibold mb-1">
             {event ? (
               <a href={`/events/${event.slug}`} class="hover:underline underline-offset-4">
                 {event.name}
@@ -52,17 +55,40 @@ const title = "Decks – Amsterdam Pauper League";
               eventSlug
             )}
           </h2>
+          {event && (
+            <p class="text-sm text-muted-foreground mb-4">
+              {formatDate(event.date)} @ {event.venue}
+            </p>
+          )}
 
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {decks.map((deck) => (
-                <a
-                  href={`/decks/${deck.id}`}
-                  class="p-4 rounded border border-border hover:border-primary/50 hover:bg-muted/50 transition"
-                >
-                  <div class="font-semibold text-foreground mb-1">{deck.archetype}</div>
-                  <div class="text-sm text-muted-foreground">{deck.pilotName}</div>
-                </a>
-              ))}
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 items-start">
+            {[decks.slice(0, Math.ceil(decks.length / 2)), decks.slice(Math.ceil(decks.length / 2))].map((half) => (
+              <table class="w-full text-sm border-collapse">
+                <tbody>
+                  {half.map((deck) => {
+                    const playerSlug = playerSlugByName[deck.pilotName.toLowerCase()];
+                    return (
+                      <tr class="hover:bg-muted/50">
+                        <td class="py-1.5 pr-3 border-b border-border">
+                          <a href={`/decks/${deck.id}`} class="hover:underline underline-offset-4 text-foreground">
+                            {deck.archetype}
+                          </a>
+                        </td>
+                        <td class="py-1.5 border-b border-border text-muted-foreground">
+                          {playerSlug ? (
+                            <a href={`/players/${playerSlug}`} class="hover:underline underline-offset-4">
+                              {deck.pilotName}
+                            </a>
+                          ) : (
+                            deck.pilotName
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            ))}
           </div>
         </section>
       );

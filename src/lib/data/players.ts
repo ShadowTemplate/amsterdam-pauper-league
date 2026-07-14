@@ -1267,7 +1267,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "ben_van_wijk": {
     slug: "ben_van_wijk",
     name: "Ben van Wijk",
-    stats: { wins: 38, losses: 37, draws: 10, byes: 1 },
+    stats: { wins: 38, losses: 37, draws: 9, byes: 1 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1282,7 +1282,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 5, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Win" },
           { round: 4, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Frank Kortsmit", opponentPilotSlug: "frank_kortsmit", result: "Draw" },
           { round: 3, opponentDeck: "Esper Affinity", opponentDeckSlug: "esper_affinity", opponentPilot: "Yuri Stevens van Swaay", opponentPilotSlug: "yuri_stevens_van_swaay", result: "Win" },
-          { round: 2, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes_theiss", result: "Draw" },
           { round: 2, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes_theiss", result: "Draw" },
           { round: 1, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas_wood", result: "Loss" },
         ],
@@ -1603,7 +1602,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "boris_romero": {
     slug: "boris_romero",
     name: "boris romero",
-    stats: { wins: 4, losses: 8, draws: 2, byes: 0 },
+    stats: { wins: 4, losses: 7, draws: 2, byes: 0 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1616,7 +1615,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 7, opponentDeck: "Izzet Terror", opponentDeckSlug: "izzet_terror", opponentPilot: "Donato Bliek", opponentPilotSlug: "donato_bliek", result: "Loss" },
           { round: 6, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Jasper Roelfsema", opponentPilotSlug: "jasper_roelfsema", result: "Loss" },
           { round: 5, opponentDeck: "Gruul Ramp", opponentDeckSlug: "gruul_ramp", opponentPilot: "Vitaly Svetlov", opponentPilotSlug: "vitaly_svetlov", result: "Loss" },
-          { round: 4, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes_theiss", result: "Loss" },
           { round: 4, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes_theiss", result: "Loss" },
           { round: 3, opponentDeck: "Boros Bully", opponentDeckSlug: "boros_bully", opponentPilot: "Tobias van Kersbergen", opponentPilotSlug: "tobias_van_kersbergen", result: "Draw" },
           { round: 2, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Kai Schutte", opponentPilotSlug: "kai_schutte", result: "Win" },
@@ -2794,7 +2792,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "diego_orlandini": {
     slug: "diego_orlandini",
     name: "Diego Orlandini",
-    stats: { wins: 2, losses: 5, draws: 1, byes: 0 },
+    stats: { wins: 2, losses: 4, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2808,7 +2806,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 6, opponentDeck: "Izzet Terror", opponentDeckSlug: "izzet_terror", opponentPilot: "Donato Bliek", opponentPilotSlug: "donato_bliek", result: "Win" },
           { round: 5, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo_vogelfanger", result: "Loss" },
           { round: 4, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Jerwin Pouwelse", opponentPilotSlug: "jerwin_pouwelse", result: "Win" },
-          { round: 3, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes_theiss", result: "Loss" },
           { round: 3, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes_theiss", result: "Loss" },
           { round: 2, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan_gussenhoven", result: "Loss" },
           { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "jarno polhuijs", opponentPilotSlug: "jarno_polhuijs", result: "Draw" },
@@ -6055,7 +6052,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "hidde_van_t_verlaat": {
     slug: "hidde_van_t_verlaat",
     name: "Hidde van 't Verlaat",
-    stats: { wins: 50, losses: 33, draws: 2, byes: 1 },
+    stats: { wins: 49, losses: 33, draws: 2, byes: 1 },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -6105,7 +6102,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Timo Vogelfänger", opponentPilotSlug: "timo_vogelfanger", result: "Win" },
           { round: 3, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Mattia Paglino", opponentPilotSlug: "mattia_paglino", result: "Loss" },
           { round: 2, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "PotestasNecis", opponentPilotSlug: "potestasnecis", result: "Draw" },
-          { round: 1, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes_theiss", result: "Win" },
           { round: 1, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes_theiss", result: "Win" },
         ],
       },
@@ -8436,7 +8432,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "kai_schutte": {
     slug: "kai_schutte",
     name: "Kai Schutte",
-    stats: { wins: 4, losses: 3, draws: 1, byes: 0 },
+    stats: { wins: 3, losses: 3, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8447,7 +8443,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deckSlug: "monou_faeries",
         rounds: [
           { round: 7, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes_theiss", result: "Win" },
-          { round: 7, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes_theiss", result: "Win" },
           { round: 6, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Floris Heins", opponentPilotSlug: "floris_heins", result: "Loss" },
           { round: 5, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Jasper Roelfsema", opponentPilotSlug: "jasper_roelfsema", result: "Win" },
           { round: 4, opponentDeck: "MonoU Terror", opponentDeckSlug: "monou_terror", opponentPilot: "Yannic van Heereveld", opponentPilotSlug: "yannic_van_heereveld", result: "Win" },
@@ -18512,7 +18507,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tobias_van_kersbergen": {
     slug: "tobias_van_kersbergen",
     name: "Tobias van Kersbergen",
-    stats: { wins: 35, losses: 33, draws: 13, byes: 0 },
+    stats: { wins: 34, losses: 33, draws: 13, byes: 0 },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -18574,7 +18569,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         rounds: [
           { round: 7, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Benjamin Mul", opponentPilotSlug: "benjamin_mul", result: "Draw" },
           { round: 6, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes_theiss", result: "Win" },
-          { round: 6, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes_theiss", result: "Win" },
           { round: 5, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Frank Kortsmit", opponentPilotSlug: "frank_kortsmit", result: "Win" },
           { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "jarno polhuijs", opponentPilotSlug: "jarno_polhuijs", result: "Loss" },
           { round: 3, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "boris romero", opponentPilotSlug: "boris_romero", result: "Draw" },
@@ -19986,7 +19980,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "wilson": {
     slug: "wilson",
     name: "Wilson",
-    stats: { wins: 5, losses: 2, draws: 1, byes: 0 },
+    stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -19999,7 +19993,6 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 7, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Mattia Paglino", opponentPilotSlug: "mattia_paglino", result: "Loss" },
           { round: 6, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Gus Vanpoucke", opponentPilotSlug: "gus_vanpoucke", result: "Win" },
           { round: 5, opponentDeck: "Dimir Terror", opponentDeckSlug: "dimir_terror", opponentPilot: "Johannes Theiß", opponentPilotSlug: "johannes_theiss", result: "Win" },
-          { round: 5, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "Johannes Theiss", opponentPilotSlug: "johannes_theiss", result: "Win" },
           { round: 4, opponentDeck: "Gruul Ramp", opponentDeckSlug: "gruul_ramp", opponentPilot: "Vitaly Svetlov", opponentPilotSlug: "vitaly_svetlov", result: "Win" },
           { round: 3, opponentDeck: "Burn", opponentDeckSlug: "burn", opponentPilot: "Jerwin Pouwelse", opponentPilotSlug: "jerwin_pouwelse", result: "Win" },
           { round: 2, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Koen Zuidberg", opponentPilotSlug: "koen_zuidberg", result: "Draw" },

@@ -85,174 +85,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "6.52%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 28, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 54, pilot: "Javier Carrillo Delgado", pilotSlug: "javier_carrillo_delgado", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 24, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 18, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 2, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 11, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 14, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 22, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 29, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 34, pilot: "Simone Gottardi", pilotSlug: "simone_gottardi", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 8, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 9, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 15, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 16, pilot: "Fernando Gómez-Acebo", pilotSlug: "fernando_gomez_acebo", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 20, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 25, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 4, pilot: "Bauke Ham", pilotSlug: "bauke_ham", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 6, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 14, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 17, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 6, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 16, pilot: "Bauke Ham", pilotSlug: "bauke_ham", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 20, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 21, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 3, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 7, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 27, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 21, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 40, pilot: "Moss", pilotSlug: "moss", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 4, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 5, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 23, pilot: "Jasper Roelfsema", pilotSlug: "jasper_roelfsema", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 33, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 51, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 15, pilot: "Jasper Roelfsema", pilotSlug: "jasper_roelfsema", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 20, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 24, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 36, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 41, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 42, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 24, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 31, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 41, pilot: "Dalilla Bezoen", pilotSlug: "dalilla_bezoen", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 43, pilot: "Jurre Berkhout", pilotSlug: "jurre_berkhout", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 56, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 19, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 25, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 34, pilot: "Dalilla Bezoen", pilotSlug: "dalilla_bezoen", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 35, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 38, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 45, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 36, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 42, pilot: "Dalilla Bezoen", pilotSlug: "dalilla_bezoen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 40, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 46, pilot: "Aurora Polak", pilotSlug: "aurora_polak", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 55, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 31, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 42, pilot: "Jasper Roelfsema", pilotSlug: "jasper_roelfsema", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 45, pilot: "Quint Marcelis", pilotSlug: "quint_marcelis", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 20, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 46, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 42, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 26, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 69, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -271,18 +115,174 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 26, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 69, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 42, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 54, pilot: "Javier Carrillo Delgado", pilotSlug: "javier_carrillo_delgado", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 20, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 46, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 31, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 42, pilot: "Jasper Roelfsema", pilotSlug: "jasper_roelfsema", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 45, pilot: "Quint Marcelis", pilotSlug: "quint_marcelis", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 40, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 46, pilot: "Aurora Polak", pilotSlug: "aurora_polak", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 55, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 36, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 42, pilot: "Dalilla Bezoen", pilotSlug: "dalilla_bezoen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 19, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 25, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 34, pilot: "Dalilla Bezoen", pilotSlug: "dalilla_bezoen", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 35, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 38, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 45, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 1, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 24, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 31, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 41, pilot: "Dalilla Bezoen", pilotSlug: "dalilla_bezoen", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 43, pilot: "Jurre Berkhout", pilotSlug: "jurre_berkhout", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 56, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 15, pilot: "Jasper Roelfsema", pilotSlug: "jasper_roelfsema", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 20, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 24, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 36, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 41, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 42, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 3, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 4, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 5, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 23, pilot: "Jasper Roelfsema", pilotSlug: "jasper_roelfsema", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 33, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 51, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 21, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 40, pilot: "Moss", pilotSlug: "moss", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 7, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 27, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 6, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 16, pilot: "Bauke Ham", pilotSlug: "bauke_ham", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 20, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 21, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 4, pilot: "Bauke Ham", pilotSlug: "bauke_ham", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 6, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 14, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 17, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 8, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 9, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 15, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 16, pilot: "Fernando Gómez-Acebo", pilotSlug: "fernando_gomez_acebo", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 20, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 25, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 2, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 11, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 14, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 22, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 29, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 34, pilot: "Simone Gottardi", pilotSlug: "simone_gottardi", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 18, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 24, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 28, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -294,152 +294,29 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "6.34%",
     byEvent: [
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 35, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 49, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 53, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 42, pilot: "Rizi", pilotSlug: "rizi", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 18, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 30, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 62, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 72, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 16, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 35, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 23, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 25, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 30, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 33, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 12, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 14, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 22, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 23, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 15, pilot: "Jona Dijksterhuis", pilotSlug: "jona_dijksterhuis", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 19, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 30, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 16, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 32, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 42, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 46, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 52, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 8, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 26, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 28, pilot: "Frank Kortsmit", pilotSlug: "frank_kortsmit", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 43, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 46, pilot: "Blom Bezemer", pilotSlug: "blom_bezemer", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 32, pilot: "Michele Violin", pilotSlug: "michele_violin", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 40, pilot: "Morgan Privitera", pilotSlug: "morgan_privitera", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 48, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 60, pilot: "Leonidas Faliagkas", pilotSlug: "leonidas_faliagkas", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 39, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 55, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 5, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 21, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 29, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 47, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 49, pilot: "Elles Dijkhuizen", pilotSlug: "elles_dijkhuizen", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 58, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 48, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 49, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 50, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 55, pilot: "Quinten Brouwer", pilotSlug: "quinten_brouwer", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 18, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 44, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 27, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 32, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 33, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 35, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 39, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 45, pilot: "Rowan Groen", pilotSlug: "rowan_groen", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 54, pilot: "Lisa-Marie van Barneveld", pilotSlug: "lisa_marie_van_barneveld", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 55, pilot: "Lot Rossmark", pilotSlug: "lot_rossmark", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 57, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 57, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 67, pilot: "Tim Swillens", pilotSlug: "tim_swillens", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -461,29 +338,152 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 57, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 67, pilot: "Tim Swillens", pilotSlug: "tim_swillens", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 27, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 32, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 33, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 35, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 39, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 45, pilot: "Rowan Groen", pilotSlug: "rowan_groen", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 54, pilot: "Lisa-Marie van Barneveld", pilotSlug: "lisa_marie_van_barneveld", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 55, pilot: "Lot Rossmark", pilotSlug: "lot_rossmark", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 57, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 18, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 30, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 62, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 72, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 18, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 44, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 49, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 53, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 48, pilot: "Lotte Klomp", pilotSlug: "lotte_klomp", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 49, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 50, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 55, pilot: "Quinten Brouwer", pilotSlug: "quinten_brouwer", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 1, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 5, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 21, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 29, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 47, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 49, pilot: "Elles Dijkhuizen", pilotSlug: "elles_dijkhuizen", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 58, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 55, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 39, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 32, pilot: "Michele Violin", pilotSlug: "michele_violin", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 40, pilot: "Morgan Privitera", pilotSlug: "morgan_privitera", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 48, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 60, pilot: "Leonidas Faliagkas", pilotSlug: "leonidas_faliagkas", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 8, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 26, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 28, pilot: "Frank Kortsmit", pilotSlug: "frank_kortsmit", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 43, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 46, pilot: "Blom Bezemer", pilotSlug: "blom_bezemer", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 42, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 46, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 52, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 16, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 32, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 15, pilot: "Jona Dijksterhuis", pilotSlug: "jona_dijksterhuis", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 19, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 30, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 12, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 14, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 22, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 23, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 23, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 25, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 30, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 33, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 16, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 35, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 42, pilot: "Rizi", pilotSlug: "rizi", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 35, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
         ],
       },
     ],
@@ -495,157 +495,30 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "6.26%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 5, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 18, pilot: "Blom Bezemer", pilotSlug: "blom_bezemer", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 30, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 56, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 33, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 16, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 20, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 32, pilot: "Noah van Duren", pilotSlug: "noah_van_duren", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 22, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-          { position: 34, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 27, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 28, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 5, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 26, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 10, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 8, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 10, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 17, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 22, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 1, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 10, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 18, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 19, pilot: "Derin Ünver", pilotSlug: "derin_unver", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 23, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 26, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 28, pilot: "Edwin bouwer", pilotSlug: "edwin_bouwer", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 34, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 19, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 12, pilot: "Mattia Paglino", pilotSlug: "mattia_paglino", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 17, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 22, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 59, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 13, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 14, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 27, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 33, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 37, pilot: "Natalie Zuidberg", pilotSlug: "natalie_zuidberg", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 2, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 28, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 33, pilot: "Juan Ascanio", pilotSlug: "juan_ascanio", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 35, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 2, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 25, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 30, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 14, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 22, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 38, pilot: "Mark", pilotSlug: "mark", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 46, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 4, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 22, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 34, pilot: "Gabriele Maria Giardino", pilotSlug: "gabriele_maria_giardino", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 2, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 4, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 23, pilot: "Nicola Gnasso", pilotSlug: "nicola_gnasso", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 58, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 32, pilot: "Roald Landheer", pilotSlug: "roald_landheer", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 37, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 56, pilot: "Noah van Duren", pilotSlug: "noah_van_duren", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -666,30 +539,157 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 32, pilot: "Roald Landheer", pilotSlug: "roald_landheer", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 37, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 56, pilot: "Noah van Duren", pilotSlug: "noah_van_duren", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 1, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 2, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 4, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 23, pilot: "Nicola Gnasso", pilotSlug: "nicola_gnasso", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 58, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 16, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 20, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 32, pilot: "Noah van Duren", pilotSlug: "noah_van_duren", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 4, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 22, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 34, pilot: "Gabriele Maria Giardino", pilotSlug: "gabriele_maria_giardino", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 18, pilot: "Blom Bezemer", pilotSlug: "blom_bezemer", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 30, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 56, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 3, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 14, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 22, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 38, pilot: "Mark", pilotSlug: "mark", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 46, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 2, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 25, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 30, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 2, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 28, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 33, pilot: "Juan Ascanio", pilotSlug: "juan_ascanio", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 35, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 13, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 14, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 27, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 33, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 37, pilot: "Natalie Zuidberg", pilotSlug: "natalie_zuidberg", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 3, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 12, pilot: "Mattia Paglino", pilotSlug: "mattia_paglino", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 17, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 22, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 59, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 19, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 1, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 10, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 18, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 19, pilot: "Derin Ünver", pilotSlug: "derin_unver", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 23, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 26, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 28, pilot: "Edwin bouwer", pilotSlug: "edwin_bouwer", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 34, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 17, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 22, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 8, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 10, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 10, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 26, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 27, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 28, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 22, pilot: "Iain Ligthart", pilotSlug: "iain_ligthart", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 34, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 33, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -701,152 +701,14 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "5.21%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 24, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 24, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 37, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 40, pilot: "Laurent Paardekooper", pilotSlug: "laurent_paardekooper", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 24, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 28, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 30, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 31, pilot: "Mattia Paglino", pilotSlug: "mattia_paglino", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 17, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 18, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 21, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 30, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 33, pilot: "Julius Siemes", pilotSlug: "julius_siemes", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 3, pilot: "Jonathan", pilotSlug: "jonathan", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 5, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 7, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 29, pilot: "Max Bosma", pilotSlug: "max_bosma", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 16, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 22, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 32, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 49, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 10, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 32, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 29, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 39, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 46, pilot: "Rufus Ang", pilotSlug: "rufus_ang", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 5, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 10, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 34, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 32, pilot: "Ramon Facchin", pilotSlug: "ramon_facchin", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 25, pilot: "Ramsey Zdiri", pilotSlug: "ramsey_zdiri", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 17, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 21, pilot: "Ramsey Zdiri", pilotSlug: "ramsey_zdiri", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 42, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 12, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 50, pilot: "Joris Dral", pilotSlug: "joris_dral", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 5, pilot: "Ernesto Jacopo Varriale", pilotSlug: "ernesto_jacopo_varriale", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 11, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 52, pilot: "Alexander Boon", pilotSlug: "alexander_boon", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 74, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 92, pilot: "Katie Berlin", pilotSlug: "katie_berlin", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 113, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-        ],
-      },
-      {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
-        appearances: [
-          { position: 11, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 22, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 27, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 61, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 65, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 21, pilot: "Aartos Locos", pilotSlug: "aartos_locos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 34, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 35, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 43, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 45, pilot: "Vitaly Svetlov", pilotSlug: "vitaly_svetlov", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -864,14 +726,152 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 21, pilot: "Aartos Locos", pilotSlug: "aartos_locos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 34, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 35, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 43, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 45, pilot: "Vitaly Svetlov", pilotSlug: "vitaly_svetlov", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 11, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 22, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 27, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 61, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 65, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
+        appearances: [
+          { position: 5, pilot: "Ernesto Jacopo Varriale", pilotSlug: "ernesto_jacopo_varriale", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 11, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 52, pilot: "Alexander Boon", pilotSlug: "alexander_boon", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 74, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 92, pilot: "Katie Berlin", pilotSlug: "katie_berlin", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 113, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+        ],
+      },
+      {
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        appearances: [
+          { position: 12, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 50, pilot: "Joris Dral", pilotSlug: "joris_dral", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        appearances: [
+          { position: 17, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 21, pilot: "Ramsey Zdiri", pilotSlug: "ramsey_zdiri", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 42, pilot: "Marco Giocondo Mignone", pilotSlug: "marco_giocondo_mignone", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 25, pilot: "Ramsey Zdiri", pilotSlug: "ramsey_zdiri", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 32, pilot: "Ramon Facchin", pilotSlug: "ramon_facchin", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 10, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 34, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 5, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 29, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 39, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 46, pilot: "Rufus Ang", pilotSlug: "rufus_ang", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 10, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 32, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 16, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 22, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 32, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 49, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 7, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 29, pilot: "Max Bosma", pilotSlug: "max_bosma", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Jonathan", pilotSlug: "jonathan", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 17, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 18, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 21, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 30, pilot: "Arne Klarenberg", pilotSlug: "arne_klarenberg", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 33, pilot: "Julius Siemes", pilotSlug: "julius_siemes", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 24, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 28, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 30, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 31, pilot: "Mattia Paglino", pilotSlug: "mattia_paglino", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 24, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 37, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 40, pilot: "Laurent Paardekooper", pilotSlug: "laurent_paardekooper", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 24, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -883,136 +883,27 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "4.78%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-          { position: 8, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 13, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 40, pilot: "Johan Boesveld", pilotSlug: "johan_boesveld", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 58, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 13, pilot: "Michael smit", pilotSlug: "michael_smit", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 26, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 2, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 4, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 5, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 13, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 3, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 17, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 13, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 47, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 48, pilot: "Romke Postma", pilotSlug: "romke_postma", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 2, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 18, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 37, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 5, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 2, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 11, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 12, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 28, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 30, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 40, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 3, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 14, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 21, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 25, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 47, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 24, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 28, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 31, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 41, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 44, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 56, pilot: "Antonio Liguori", pilotSlug: "antonio_liguori", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 2, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 19, pilot: "David Horvath", pilotSlug: "david_horvath", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 30, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 11, pilot: "Vilius Peteraitis", pilotSlug: "vilius_peteraitis", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 14, pilot: "Natalie Zuidberg", pilotSlug: "natalie_zuidberg", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 40, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 18, pilot: "David Horvath", pilotSlug: "david_horvath", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 51, pilot: "Johan Boesveld", pilotSlug: "johan_boesveld", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 52, pilot: "Tristan Tai", pilotSlug: "tristan_tai", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -1028,27 +919,136 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 51, pilot: "Johan Boesveld", pilotSlug: "johan_boesveld", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 52, pilot: "Tristan Tai", pilotSlug: "tristan_tai", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 18, pilot: "David Horvath", pilotSlug: "david_horvath", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 26, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 9, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 11, pilot: "Vilius Peteraitis", pilotSlug: "vilius_peteraitis", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 14, pilot: "Natalie Zuidberg", pilotSlug: "natalie_zuidberg", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 40, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 13, pilot: "Dylan Holly", pilotSlug: "dylan_holly", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 40, pilot: "Johan Boesveld", pilotSlug: "johan_boesveld", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 58, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 2, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 19, pilot: "David Horvath", pilotSlug: "david_horvath", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 30, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 24, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 28, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 31, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 41, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 44, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 56, pilot: "Antonio Liguori", pilotSlug: "antonio_liguori", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 3, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 14, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 21, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 25, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 47, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 2, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 11, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 12, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 28, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 30, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 40, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 5, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 2, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 18, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 37, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 13, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 47, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 48, pilot: "Romke Postma", pilotSlug: "romke_postma", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 17, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 4, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 5, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 13, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 2, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 13, pilot: "Michael smit", pilotSlug: "michael_smit", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 8, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -1060,55 +1060,68 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "4.60%",
     byEvent: [
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 39, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 40, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 6, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 25, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 28, pilot: "Matteo Bellante", pilotSlug: "matteo_bellante", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 38, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 41, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel_blazquez", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 44, pilot: "Giacco", pilotSlug: "giacco", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 7, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 21, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 25, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 42, pilot: "Matteo Bellante", pilotSlug: "matteo_bellante", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 46, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 14, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 15, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 18, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 30, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 36, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 51, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 55, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 4, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 7, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 8, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 32, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 20, pilot: "Jonathan", pilotSlug: "jonathan", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 23, pilot: "Benjamin Mul", pilotSlug: "benjamin_mul", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 40, pilot: "jarno polhuijs", pilotSlug: "jarno_polhuijs", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 54, pilot: "Patrick Heijna", pilotSlug: "patrick_heijna", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 55, pilot: "Timo Vogelfänger", pilotSlug: "timo_vogelfanger", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 82, pilot: "Matteo Bellante", pilotSlug: "matteo_bellante", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 7, pilot: "jarno polhuijs", pilotSlug: "jarno_polhuijs", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 13, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 17, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 20, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 45, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 53, pilot: "luka strganac", pilotSlug: "luka_strganac", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 38, pilot: "Mathieu Zwaan", pilotSlug: "mathieu_zwaan", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 49, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        appearances: [
+          { position: 8, pilot: "jarno polhuijs", pilotSlug: "jarno_polhuijs", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 16, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 27, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 39, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 5, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 56, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
         ],
       },
       {
@@ -1126,68 +1139,55 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
-          { position: 5, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 56, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 7, pilot: "jarno polhuijs", pilotSlug: "jarno_polhuijs", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 13, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 17, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 20, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 45, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 53, pilot: "luka strganac", pilotSlug: "luka_strganac", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
         appearances: [
-          { position: 8, pilot: "jarno polhuijs", pilotSlug: "jarno_polhuijs", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 16, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 27, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 39, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 4, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 7, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 8, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 32, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
         appearances: [
-          { position: 38, pilot: "Mathieu Zwaan", pilotSlug: "mathieu_zwaan", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 49, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 14, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 15, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 18, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 30, pilot: "Jort Bakker", pilotSlug: "jort_bakker", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 36, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 51, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 55, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
         appearances: [
-          { position: 20, pilot: "Jonathan", pilotSlug: "jonathan", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 23, pilot: "Benjamin Mul", pilotSlug: "benjamin_mul", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 40, pilot: "jarno polhuijs", pilotSlug: "jarno_polhuijs", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 54, pilot: "Patrick Heijna", pilotSlug: "patrick_heijna", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 55, pilot: "Timo Vogelfänger", pilotSlug: "timo_vogelfanger", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 82, pilot: "Matteo Bellante", pilotSlug: "matteo_bellante", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 7, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 21, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 25, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
         appearances: [
-          { position: 1, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 42, pilot: "Matteo Bellante", pilotSlug: "matteo_bellante", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 46, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
-        appearances: [
-          { position: 6, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 25, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 28, pilot: "Matteo Bellante", pilotSlug: "matteo_bellante", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 38, pilot: "Collin Bos", pilotSlug: "collin_bos", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 41, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel_blazquez", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 44, pilot: "Giacco", pilotSlug: "giacco", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 39, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 40, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
     ],
@@ -1199,46 +1199,100 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "3.82%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 3, pilot: "Ingo van den Bersselaar", pilotSlug: "ingo_van_den_bersselaar", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 3, pilot: "Mikhail Kulikov", pilotSlug: "mikhail_kulikov", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 40, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 29, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 19, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 8, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 14, pilot: "Simone Gottardi", pilotSlug: "simone_gottardi", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 29, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 16, pilot: "Stefan Gussenhoven", pilotSlug: "stefan_gussenhoven", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 67, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 10, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 12, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 17, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 18, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 20, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 21, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 24, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 26, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 6, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 13, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 4, pilot: "Thomas Isphording", pilotSlug: "thomas_isphording", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 8, pilot: "Stefan Gussenhoven", pilotSlug: "stefan_gussenhoven", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 11, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 12, pilot: "Iskander Waldorp", pilotSlug: "iskander_waldorp", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 23, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 4, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 38, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 5, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 6, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 2, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 7, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 12, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 38, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 44, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 8, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 13, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 25, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 8, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
         ],
       },
       {
@@ -1254,100 +1308,46 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
         appearances: [
-          { position: 8, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 6, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 13, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
         appearances: [
-          { position: 8, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 13, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 25, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 10, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 12, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 17, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 18, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 20, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 21, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
         appearances: [
-          { position: 2, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 7, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 12, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 38, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 44, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 8, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 14, pilot: "Simone Gottardi", pilotSlug: "simone_gottardi", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 29, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
         appearances: [
-          { position: 5, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 6, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 29, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
         appearances: [
-          { position: 4, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 38, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 23, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 8, pilot: "Stefan Gussenhoven", pilotSlug: "stefan_gussenhoven", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 11, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 12, pilot: "Iskander Waldorp", pilotSlug: "iskander_waldorp", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 4, pilot: "Thomas Isphording", pilotSlug: "thomas_isphording", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 24, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 26, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 16, pilot: "Stefan Gussenhoven", pilotSlug: "stefan_gussenhoven", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 67, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-        ],
-      },
-      {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
-        appearances: [
-          { position: 19, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 3, pilot: "Mikhail Kulikov", pilotSlug: "mikhail_kulikov", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 40, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 3, pilot: "Ingo van den Bersselaar", pilotSlug: "ingo_van_den_bersselaar", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -1359,97 +1359,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "3.82%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 25, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 19, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 8, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 25, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 22, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 23, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 25, pilot: "Teun Fekkes", pilotSlug: "teun_fekkes", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 28, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 45, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 10, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 41, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 18, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 26, pilot: "Marcel Hogewoning", pilotSlug: "marcel_hogewoning", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 30, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 41, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 4, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 15, pilot: "Francesco Agnesi", pilotSlug: "francesco_agnesi", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 33, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 45, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 57, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 7, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 12, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 17, pilot: "Francesco Agnesi", pilotSlug: "francesco_agnesi", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 23, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 26, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 44, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 2, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 6, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 41, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 5, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 11, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 56, pilot: "Vanessa Weber", pilotSlug: "vanessa_weber", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 27, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -1467,17 +1387,97 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 27, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 5, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 11, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 56, pilot: "Vanessa Weber", pilotSlug: "vanessa_weber", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 19, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 1, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 2, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 6, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 41, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 7, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 12, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 17, pilot: "Francesco Agnesi", pilotSlug: "francesco_agnesi", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 23, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 26, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 44, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 4, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 15, pilot: "Francesco Agnesi", pilotSlug: "francesco_agnesi", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 33, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 45, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 57, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 18, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 26, pilot: "Marcel Hogewoning", pilotSlug: "marcel_hogewoning", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 30, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 41, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 3, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 10, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 41, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 9, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 23, pilot: "Max Moriette-Sala", pilotSlug: "max_moriette_sala", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 25, pilot: "Teun Fekkes", pilotSlug: "teun_fekkes", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 28, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 45, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 22, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 8, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 25, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 25, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -1489,110 +1489,26 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "3.56%",
     byEvent: [
       {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 32, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 9, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 5, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 23, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 48, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel_blazquez", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 1, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 11, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 4, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 6, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 27, pilot: "Roald Landheer", pilotSlug: "roald_landheer", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 28, pilot: "Giovanni Allovio", pilotSlug: "giovanni_allovio", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 30, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 35, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 39, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 2, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 27, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 44, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 52, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 53, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 15, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 21, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 32, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 13, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 20, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 57, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 31, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 32, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 29, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 36, pilot: "boris romero", pilotSlug: "boris_romero", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 51, pilot: "Giacco", pilotSlug: "giacco", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 29, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel_blazquez", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 30, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -1609,26 +1525,110 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 29, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel_blazquez", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 30, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 29, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 36, pilot: "boris romero", pilotSlug: "boris_romero", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 51, pilot: "Giacco", pilotSlug: "giacco", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 23, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 48, pilot: "Emmanuel Blazquez", pilotSlug: "emmanuel_blazquez", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 31, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 32, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 9, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 9, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 20, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 57, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 9, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 13, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 32, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 15, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 21, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 2, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 27, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 44, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 52, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 53, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 30, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 35, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 39, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 6, pilot: "Ben van Wijk", pilotSlug: "ben_van_wijk", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 27, pilot: "Roald Landheer", pilotSlug: "roald_landheer", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 28, pilot: "Giovanni Allovio", pilotSlug: "giovanni_allovio", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 4, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 1, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 11, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 32, pilot: "Nigel Stikker", pilotSlug: "nigel_stikker", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
         ],
       },
     ],
@@ -1640,120 +1640,22 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "3.30%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 6, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-          { position: 9, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-          { position: 10, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 16, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 22, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 26, pilot: "Jamie March", pilotSlug: "jamie_march", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 60, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 17, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 20, pilot: "Ingo van den Bersselaar", pilotSlug: "ingo_van_den_bersselaar", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 23, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
-        appearances: [
-          { position: 23, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-          { position: 27, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 31, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 16, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 26, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 25, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 2, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 24, pilot: "Fedor Manukovskii", pilotSlug: "fedor_manukovskii", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 20, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 35, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 27, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 44, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 37, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 46, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 16, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 17, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 19, pilot: "Felipe Inza", pilotSlug: "felipe_inza", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 52, pilot: "Maarten", pilotSlug: "maarten", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 45, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 6, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 25, pilot: "Jamie March", pilotSlug: "jamie_march", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 29, pilot: "Johan Boesveld", pilotSlug: "johan_boesveld", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -1767,22 +1669,120 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 6, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 25, pilot: "Jamie March", pilotSlug: "jamie_march", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 29, pilot: "Johan Boesveld", pilotSlug: "johan_boesveld", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 45, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 16, pilot: "vinicius duarte", pilotSlug: "vinicius_duarte", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 22, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 26, pilot: "Jamie March", pilotSlug: "jamie_march", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 60, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 52, pilot: "Maarten", pilotSlug: "maarten", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 17, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 19, pilot: "Felipe Inza", pilotSlug: "felipe_inza", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 16, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 1, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 46, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 37, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 3, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 27, pilot: "Ashley Bits", pilotSlug: "ashley_bits", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 44, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 20, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 35, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 2, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 24, pilot: "Fedor Manukovskii", pilotSlug: "fedor_manukovskii", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 25, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 16, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 26, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 31, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 23, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 27, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 17, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 20, pilot: "Ingo van den Bersselaar", pilotSlug: "ingo_van_den_bersselaar", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 23, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 6, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 9, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 10, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -1794,17 +1794,37 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.95%",
     byEvent: [
       {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 10, pilot: "Quint Marcelis", pilotSlug: "quint_marcelis", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 15, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 19, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 25, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 28, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 30, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 40, pilot: "Maarten Van der weide", pilotSlug: "maarten_van_der_weide", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 41, pilot: "Francesco Agnesi", pilotSlug: "francesco_agnesi", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 14, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 46, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 50, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        appearances: [
+          { position: 7, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 12, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 43, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 45, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 49, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 55, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 57, pilot: "Blom Bezemer", pilotSlug: "blom_bezemer", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 59, pilot: "Pablo Pirata", pilotSlug: "pablo_pirata", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        appearances: [
+          { position: 6, pilot: "Quint Marcelis", pilotSlug: "quint_marcelis", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 21, pilot: "Kevin van Hengst", pilotSlug: "kevin_van_hengst", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 40, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 49, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 70, pilot: "Maeve Powlick", pilotSlug: "maeve_powlick", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -1824,37 +1844,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 6, pilot: "Quint Marcelis", pilotSlug: "quint_marcelis", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 21, pilot: "Kevin van Hengst", pilotSlug: "kevin_van_hengst", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 40, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 49, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 70, pilot: "Maeve Powlick", pilotSlug: "maeve_powlick", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 7, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 12, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 43, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 45, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 49, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 55, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 57, pilot: "Blom Bezemer", pilotSlug: "blom_bezemer", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 59, pilot: "Pablo Pirata", pilotSlug: "pablo_pirata", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
-        appearances: [
-          { position: 14, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 46, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 50, pilot: "Irshaad", pilotSlug: "irshaad", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 10, pilot: "Quint Marcelis", pilotSlug: "quint_marcelis", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 15, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 19, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 25, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 28, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 30, pilot: "Francesco Simonetto", pilotSlug: "francesco_simonetto", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 40, pilot: "Maarten Van der weide", pilotSlug: "maarten_van_der_weide", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 41, pilot: "Francesco Agnesi", pilotSlug: "francesco_agnesi", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
     ],
@@ -1866,102 +1866,25 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.87%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 7, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 29, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 3, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 9, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 35, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 12, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 16, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 15, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 29, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 35, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 36, pilot: "Morgan Privitera", pilotSlug: "morgan_privitera", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 22, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 6, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 12, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 14, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 10, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 36, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 13, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 20, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 21, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 24, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 12, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -1979,25 +1902,102 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 12, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 9, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 13, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 20, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 21, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 24, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 9, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 35, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 3, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 36, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 29, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 1, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 10, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 12, pilot: "Hidde van 't Verlaat", pilotSlug: "hidde_van_t_verlaat", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 14, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 6, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 22, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 35, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 36, pilot: "Morgan Privitera", pilotSlug: "morgan_privitera", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 29, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 15, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 16, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 12, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 7, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -2009,87 +2009,19 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.69%",
     byEvent: [
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 11, pilot: "Sebastian Diaz", pilotSlug: "sebastian_diaz", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 17, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 57, pilot: "Tim Swillens", pilotSlug: "tim_swillens", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 14, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 49, pilot: "Yuri Stevens van Swaay", pilotSlug: "yuri_stevens_van_swaay", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 16, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 33, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 16, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 24, pilot: "Yuri Stevens van Swaay", pilotSlug: "yuri_stevens_van_swaay", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-          { position: 42, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 4, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 5, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 16, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 54, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 21, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 24, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 10, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas_jan_gorter", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 12, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 23, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 8, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 14, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 26, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 75, pilot: "Tiff Kraan", pilotSlug: "tiff_kraan", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 85, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 98, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 44, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 52, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -2102,19 +2034,87 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 44, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 52, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 75, pilot: "Tiff Kraan", pilotSlug: "tiff_kraan", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 85, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 98, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 17, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 57, pilot: "Tim Swillens", pilotSlug: "tim_swillens", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 8, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 14, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 26, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        appearances: [
+          { position: 10, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas_jan_gorter", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 12, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 23, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 21, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 24, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 3, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 16, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 54, pilot: "Wouter Hordijk", pilotSlug: "wouter_hordijk", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 4, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 5, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 16, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 24, pilot: "Yuri Stevens van Swaay", pilotSlug: "yuri_stevens_van_swaay", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 42, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 16, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 33, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 14, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 49, pilot: "Yuri Stevens van Swaay", pilotSlug: "yuri_stevens_van_swaay", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 11, pilot: "Sebastian Diaz", pilotSlug: "sebastian_diaz", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
     ],
@@ -2126,92 +2126,54 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.52%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 14, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-          { position: 21, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 22, pilot: "Michele Papucci", pilotSlug: "michele_papucci", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 9, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 22, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 26, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 24, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 1, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 37, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 106, pilot: "boris romero", pilotSlug: "boris_romero", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 26, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 16, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 4, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 29, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 12, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 13, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 29, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 18, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 24, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 14, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 24, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 34, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 53, pilot: "Johan", pilotSlug: "johan", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 34, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 11, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 38, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
         ],
       },
       {
@@ -2224,54 +2186,92 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
         appearances: [
-          { position: 11, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 38, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 34, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
         appearances: [
-          { position: 13, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 24, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 34, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 53, pilot: "Johan", pilotSlug: "johan", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
         appearances: [
-          { position: 29, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 14, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
         appearances: [
-          { position: 16, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 24, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
         appearances: [
-          { position: 37, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 106, pilot: "boris romero", pilotSlug: "boris_romero", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 18, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
         appearances: [
-          { position: 24, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 29, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
         appearances: [
-          { position: 22, pilot: "Michele Papucci", pilotSlug: "michele_papucci", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 12, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 4, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 26, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 1, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 9, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 22, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 26, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 14, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 21, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -2283,56 +2283,21 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.43%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
         appearances: [
-          { position: 26, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 6, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 15, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 30, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 37, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
         appearances: [
-          { position: 5, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 30, pilot: "Samuel Schumacher", pilotSlug: "samuel_schumacher", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
-        appearances: [
-          { position: 3, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-          { position: 8, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-          { position: 10, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-          { position: 29, pilot: "Zephyr", pilotSlug: "zephyr", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-          { position: 37, pilot: "Thomas Gates", pilotSlug: "thomas_gates", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 3, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 7, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 9, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 12, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 1, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 3, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 1, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 14, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 19, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 2, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 19, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
         ],
       },
       {
@@ -2347,21 +2312,56 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
         appearances: [
-          { position: 2, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 19, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 1, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 14, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 19, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
         appearances: [
-          { position: 6, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 15, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 30, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 37, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 1, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 3, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Roberto Schiavone", pilotSlug: "roberto_schiavone", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 7, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 9, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 12, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 8, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 10, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 29, pilot: "Zephyr", pilotSlug: "zephyr", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 37, pilot: "Thomas Gates", pilotSlug: "thomas_gates", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Bram Deppenbroek", pilotSlug: "bram_deppenbroek", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 30, pilot: "Samuel Schumacher", pilotSlug: "samuel_schumacher", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 26, pilot: "Tim Zemack", pilotSlug: "tim_zemack", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -2373,78 +2373,41 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.26%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 16, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 33, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 52, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 7, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 50, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 62, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 5, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 61, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 116, pilot: "Leo Weiler", pilotSlug: "leo_weiler", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 39, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 37, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 21, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 36, pilot: "Sven van Dijk", pilotSlug: "sven_van_dijk", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 50, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 12, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 13, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 19, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 49, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 18, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 31, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 52, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 27, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 33, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
@@ -2457,41 +2420,78 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 33, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 27, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
-          { position: 37, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 31, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 52, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
         appearances: [
-          { position: 61, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 116, pilot: "Leo Weiler", pilotSlug: "leo_weiler", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 18, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
         appearances: [
-          { position: 50, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 62, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 19, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 49, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
         appearances: [
-          { position: 33, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 52, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 12, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 13, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 21, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 36, pilot: "Sven van Dijk", pilotSlug: "sven_van_dijk", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 50, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 39, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 7, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 16, pilot: "Tim Bunnik", pilotSlug: "tim_bunnik", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -2503,76 +2503,29 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.09%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 20, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 43, pilot: "tijn mercx", pilotSlug: "tijn_mercx", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 44, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 47, pilot: "Fedde Vlietstra", pilotSlug: "fedde_vlietstra", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 48, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 27, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 34, pilot: "Renee Zwolle", pilotSlug: "renee_zwolle", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 35, pilot: "Lorenzo Vitale", pilotSlug: "lorenzo_vitale", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
-          { position: 38, pilot: "Abby", pilotSlug: "abby", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 9, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-          { position: 27, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 4, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 7, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 15, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 26, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 31, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 29, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 10, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 11, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 24, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 49, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
         ],
       },
       {
@@ -2585,29 +2538,76 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
         appearances: [
-          { position: 24, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 49, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 10, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 11, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
         appearances: [
-          { position: 34, pilot: "Renee Zwolle", pilotSlug: "renee_zwolle", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 35, pilot: "Lorenzo Vitale", pilotSlug: "lorenzo_vitale", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 29, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
         appearances: [
-          { position: 43, pilot: "tijn mercx", pilotSlug: "tijn_mercx", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 44, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 47, pilot: "Fedde Vlietstra", pilotSlug: "fedde_vlietstra", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 48, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 31, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 26, pilot: "Harm steenbakkers", pilotSlug: "harm_steenbakkers", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 7, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 15, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 4, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 9, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 27, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 38, pilot: "Abby", pilotSlug: "abby", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 27, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 20, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -2619,72 +2619,24 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "2.09%",
     byEvent: [
       {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 11, pilot: "Stefan Pouwelse", pilotSlug: "stefan_pouwelse", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 7, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 31, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 15, pilot: "J van T", pilotSlug: "j_van_t", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 1, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 9, pilot: "Ruben Drabbels", pilotSlug: "ruben_drabbels", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 48, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 26, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 44, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 29, pilot: "Quinten Hogenes", pilotSlug: "quinten_hogenes", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 38, pilot: "Ido levy", pilotSlug: "ido_levy", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 51, pilot: "Quinten Hogenes", pilotSlug: "quinten_hogenes", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 16, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 3, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 17, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 59, pilot: "Vitaly Svetlov", pilotSlug: "vitaly_svetlov", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 9, pilot: "Thomas Isphording", pilotSlug: "thomas_isphording", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -2700,24 +2652,72 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 9, pilot: "Thomas Isphording", pilotSlug: "thomas_isphording", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 3, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 17, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 59, pilot: "Vitaly Svetlov", pilotSlug: "vitaly_svetlov", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 15, pilot: "J van T", pilotSlug: "j_van_t", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 16, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 7, pilot: "Jelle Schneider", pilotSlug: "jelle_schneider", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 51, pilot: "Quinten Hogenes", pilotSlug: "quinten_hogenes", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 9, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 29, pilot: "Quinten Hogenes", pilotSlug: "quinten_hogenes", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 38, pilot: "Ido levy", pilotSlug: "ido_levy", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 44, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 26, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 1, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 9, pilot: "Ruben Drabbels", pilotSlug: "ruben_drabbels", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 48, pilot: "Thijs", pilotSlug: "thijs", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 31, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 11, pilot: "Stefan Pouwelse", pilotSlug: "stefan_pouwelse", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
         ],
       },
     ],
@@ -2729,26 +2729,63 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.82%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 17, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 61, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 6, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 10, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 5, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 38, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 65, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 6, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-          { position: 13, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 35, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
+        appearances: [
+          { position: 4, pilot: "Hayden Dubock", pilotSlug: "hayden_dubock", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 80, pilot: "Lars Broekhof", pilotSlug: "lars_broekhof", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 31, pilot: "Rufus Ang", pilotSlug: "rufus_ang", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 17, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 10, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 22, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 28, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
         ],
       },
       {
@@ -2762,63 +2799,26 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
         appearances: [
-          { position: 22, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-          { position: 28, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+          { position: 6, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 13, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
         appearances: [
-          { position: 10, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 6, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 10, pilot: "Danila", pilotSlug: "danila", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
         appearances: [
-          { position: 17, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 31, pilot: "Rufus Ang", pilotSlug: "rufus_ang", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 4, pilot: "Hayden Dubock", pilotSlug: "hayden_dubock", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 80, pilot: "Lars Broekhof", pilotSlug: "lars_broekhof", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-        ],
-      },
-      {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
-        appearances: [
-          { position: 35, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 5, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 38, pilot: "Simon Isphording", pilotSlug: "simon_isphording", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 65, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
-        appearances: [
-          { position: 61, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 17, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -2830,71 +2830,12 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.82%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 23, pilot: "Diego Cath", pilotSlug: "diego_cath", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 7, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 24, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 24, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 4, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-          { position: 26, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 18, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 28, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 39, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 51, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 8, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 32, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-          { position: 94, pilot: "Marc Bosserhoff", pilotSlug: "marc_bosserhoff", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-        ],
-      },
-      {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
-        appearances: [
-          { position: 59, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 8, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 20, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 48, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -2908,12 +2849,71 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 8, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 20, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 48, pilot: "Jeff Wade", pilotSlug: "jeff_wade", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 59, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
+        appearances: [
+          { position: 32, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 94, pilot: "Marc Bosserhoff", pilotSlug: "marc_bosserhoff", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 8, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 39, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 51, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 18, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 28, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 4, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 26, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 24, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 7, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 24, pilot: "Rob Lamers", pilotSlug: "rob_lamers", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 23, pilot: "Diego Cath", pilotSlug: "diego_cath", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -2925,90 +2925,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.65%",
     byEvent: [
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 18, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 37, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 3, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 2, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 9, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 21, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 22, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 1, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 4, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 11, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 20, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 47, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Yaro Kraneveld", pilotSlug: "yaro_kraneveld", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 23, pilot: "Elles Dijkhuizen", pilotSlug: "elles_dijkhuizen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 33, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 54, pilot: "Thomas Gates", pilotSlug: "thomas_gates", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 7, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -3020,17 +2947,90 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 7, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 33, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 54, pilot: "Thomas Gates", pilotSlug: "thomas_gates", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
-          { position: 37, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 23, pilot: "Elles Dijkhuizen", pilotSlug: "elles_dijkhuizen", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 9, pilot: "Yaro Kraneveld", pilotSlug: "yaro_kraneveld", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 20, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 47, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 4, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 11, pilot: "Andrea Passaro", pilotSlug: "andrea_passaro", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 1, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 22, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 21, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 9, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 2, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 18, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
         ],
       },
     ],
@@ -3042,19 +3042,69 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.65%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 11, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-          { position: 27, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 36, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 59, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 1, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 7, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 70, pilot: "Max Power", pilotSlug: "max_power", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        appearances: [
+          { position: 17, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 64, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        appearances: [
+          { position: 7, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 20, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 24, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 15, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 10, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 20, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
       {
@@ -3067,69 +3117,19 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
         appearances: [
-          { position: 10, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 20, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 1, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 7, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
         appearances: [
-          { position: 15, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 5, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 24, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 20, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 7, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
-        appearances: [
-          { position: 17, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 64, pilot: "Yannic van Heereveld", pilotSlug: "yannic_van_heereveld", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 70, pilot: "Max Power", pilotSlug: "max_power", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
-        appearances: [
-          { position: 36, pilot: "Thomas Wood", pilotSlug: "thomas_wood", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 59, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 11, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 27, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -3141,71 +3141,11 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.56%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 19, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 23, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 34, pilot: "Andrey Petukhov", pilotSlug: "andrey_petukhov", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 16, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-          { position: 23, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 15, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 16, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 35, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 42, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 29, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 6, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 23, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 47, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 53, pilot: "Teun Sprikkelman", pilotSlug: "teun_sprikkelman", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 13, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 67, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -3217,11 +3157,71 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 13, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 67, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 47, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 53, pilot: "Teun Sprikkelman", pilotSlug: "teun_sprikkelman", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 6, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 23, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 29, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 35, pilot: "Rob Nolle", pilotSlug: "rob_nolle", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 42, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 16, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 15, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 16, pilot: "Clemens Gerteiser", pilotSlug: "clemens_gerteiser", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 23, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 23, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 34, pilot: "Andrey Petukhov", pilotSlug: "andrey_petukhov", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 19, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -3233,35 +3233,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.39%",
     byEvent: [
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 10, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 102, pilot: "Ravi Breugom", pilotSlug: "ravi_breugom", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 17, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 33, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 38, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 40, pilot: "Sebastian Diaz", pilotSlug: "sebastian_diaz", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 6, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 36, pilot: "Elles Dijkhuizen", pilotSlug: "elles_dijkhuizen", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-          { position: 40, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 22, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 46, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
         ],
       },
       {
@@ -3276,18 +3259,35 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 22, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-          { position: 46, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 6, pilot: "Nicolas Komanski", pilotSlug: "nicolas_komanski", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 36, pilot: "Elles Dijkhuizen", pilotSlug: "elles_dijkhuizen", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 40, pilot: "Vincent Zwinkels", pilotSlug: "vincent_zwinkels", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
-          { position: 102, pilot: "Ravi Breugom", pilotSlug: "ravi_breugom", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 40, pilot: "Sebastian Diaz", pilotSlug: "sebastian_diaz", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 17, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 33, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 38, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 10, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
     ],
@@ -3299,61 +3299,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.30%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 4, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-          { position: 15, pilot: "Jari Van Schaik", pilotSlug: "jari_van_schaik", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 39, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas_jan_gorter", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 8, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 11, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 15, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 7, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 22, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 14, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 22, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 42, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 36, pilot: "rasjied sloot", pilotSlug: "rasjied_sloot", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -3366,17 +3322,61 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 36, pilot: "rasjied sloot", pilotSlug: "rasjied_sloot", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 42, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
-          { position: 39, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas_jan_gorter", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 22, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 14, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 22, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 7, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 11, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 15, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 8, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 4, pilot: "Raaayyyyyyyyyy", pilotSlug: "raaayyyyyyyyyy", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 15, pilot: "Jari Van Schaik", pilotSlug: "jari_van_schaik", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -3388,47 +3388,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.30%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 13, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
-        appearances: [
-          { position: 25, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
-        appearances: [
-          { position: 15, pilot: "Pim Rutgers", pilotSlug: "pim_rutgers", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 25, pilot: "Pim Rutgers", pilotSlug: "pim_rutgers", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 39, pilot: "Andrey Petukhov", pilotSlug: "andrey_petukhov", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 31, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 32, pilot: "Thomas Gates", pilotSlug: "thomas_gates", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 53, pilot: "Maeve Powlick", pilotSlug: "maeve_powlick", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 18, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 36, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 44, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 53, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
@@ -3441,13 +3407,47 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 18, pilot: "Raven de Bruin", pilotSlug: "raven_de_bruin", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 36, pilot: "Dylan van Gelder", pilotSlug: "dylan_van_gelder", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 44, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 53, pilot: "soufian hriz", pilotSlug: "soufian_hriz", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 53, pilot: "Maeve Powlick", pilotSlug: "maeve_powlick", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 31, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 32, pilot: "Thomas Gates", pilotSlug: "thomas_gates", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 25, pilot: "Pim Rutgers", pilotSlug: "pim_rutgers", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 39, pilot: "Andrey Petukhov", pilotSlug: "andrey_petukhov", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 15, pilot: "Pim Rutgers", pilotSlug: "pim_rutgers", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 25, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 13, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -3459,87 +3459,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.22%",
     byEvent: [
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 33, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 41, pilot: "Sjef van Schie", pilotSlug: "sjef_van_schie", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 23, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 2, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 3, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 13, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 29, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 34, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 17, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
-        appearances: [
-          { position: 44, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 36, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 51, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 51, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -3550,10 +3473,87 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 51, pilot: "Marvin Schippmann", pilotSlug: "marvin_schippmann", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 51, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 36, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        appearances: [
+          { position: 44, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        appearances: [
+          { position: 17, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 34, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 29, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 13, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 3, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 2, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 23, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 41, pilot: "Sjef van Schie", pilotSlug: "sjef_van_schie", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 33, pilot: "Youri Bakker", pilotSlug: "youri_bakker", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
         ],
       },
     ],
@@ -3565,42 +3565,11 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.13%",
     byEvent: [
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 6, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 23, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 35, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 10, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
-        appearances: [
-          { position: 9, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 30, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 20, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-          { position: 39, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
-        appearances: [
-          { position: 54, pilot: "IJsbrand", pilotSlug: "ijsbrand", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 24, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 31, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -3612,11 +3581,42 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 24, pilot: "Noah Westerweel", pilotSlug: "noah_westerweel", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 31, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 54, pilot: "IJsbrand", pilotSlug: "ijsbrand", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 20, pilot: "Koen de Vos", pilotSlug: "koen_de_vos", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 39, pilot: "Koen Zuidberg", pilotSlug: "koen_zuidberg", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 9, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 30, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 10, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 6, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 23, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 35, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
     ],
@@ -3628,32 +3628,25 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.04%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 22, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 38, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
-          { position: 21, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 18, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
         appearances: [
-          { position: 16, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 21, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-          { position: 32, pilot: "Job Ortmans", pilotSlug: "job_ortmans", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 43, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 45, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
       {
@@ -3666,25 +3659,32 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
         appearances: [
-          { position: 43, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-          { position: 45, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 21, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 32, pilot: "Job Ortmans", pilotSlug: "job_ortmans", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
         appearances: [
-          { position: 18, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+          { position: 16, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
         ],
       },
       {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
         appearances: [
-          { position: 38, pilot: "Vlad-Alexandru Negară", pilotSlug: "vlad_alexandru_negar", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 21, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 22, pilot: "Abe Mulder", pilotSlug: "abe_mulder", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -3696,10 +3696,21 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "1.04%",
     byEvent: [
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 33, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 2, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 5, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 12, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 37, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        appearances: [
+          { position: 21, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 28, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -3714,21 +3725,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 21, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 28, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
-        appearances: [
-          { position: 2, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 5, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 12, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 37, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 33, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
     ],
@@ -3740,25 +3740,31 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.87%",
     byEvent: [
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 18, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
+          { position: 19, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-08-02",
-        eventName: "Dutch Pauper League – 5° Leg – 2025",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 19, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
-          { position: 50, pilot: "Jaron Polhuijs", pilotSlug: "jaron_polhuijs", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 43, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
       {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 8, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 41, pilot: "Oscar Francisco", pilotSlug: "oscar_francisco", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+        ],
+      },
+      {
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        appearances: [
+          { position: 25, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
@@ -3770,31 +3776,25 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 25, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 8, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2025-08-02",
+        eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
-          { position: 41, pilot: "Oscar Francisco", pilotSlug: "oscar_francisco", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 19, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+          { position: 50, pilot: "Jaron Polhuijs", pilotSlug: "jaron_polhuijs", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
         ],
       },
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
         appearances: [
-          { position: 43, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 19, pilot: "Max Mercx", pilotSlug: "max_mercx", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 18, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
     ],
@@ -3806,31 +3806,13 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.78%",
     byEvent: [
       {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
         appearances: [
-          { position: 13, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 26, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 7, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 17, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+          { position: 9, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 12, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 20, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 27, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
         ],
       },
       {
@@ -3841,13 +3823,31 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
         appearances: [
-          { position: 9, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 12, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 20, pilot: "Yasmin Saciri", pilotSlug: "yasmin_saciri", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-          { position: 27, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 17, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 7, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 26, pilot: "Francesco Bernardi", pilotSlug: "francesco_bernardi", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 13, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
         ],
       },
     ],
@@ -3859,52 +3859,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.78%",
     byEvent: [
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 11, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
-        appearances: [
-          { position: 25, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
-        appearances: [
-          { position: 33, pilot: "Mathieu Zwaan", pilotSlug: "mathieu_zwaan", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
-        appearances: [
-          { position: 48, pilot: "Floris Stapel", pilotSlug: "floris_stapel", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 27, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 34, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 115, pilot: "Dennis Puetz", pilotSlug: "dennis_puetz", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 10, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -3915,10 +3873,52 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 10, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 115, pilot: "Dennis Puetz", pilotSlug: "dennis_puetz", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+        ],
+      },
+      {
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
+        appearances: [
+          { position: 34, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 27, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        appearances: [
+          { position: 48, pilot: "Floris Stapel", pilotSlug: "floris_stapel", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        appearances: [
+          { position: 33, pilot: "Mathieu Zwaan", pilotSlug: "mathieu_zwaan", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 25, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 11, pilot: "Guus Hinrichs", pilotSlug: "guus_hinrichs", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
     ],
@@ -3930,18 +3930,12 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.78%",
     byEvent: [
       {
-        eventSlug: "2025-04-12",
-        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
         appearances: [
-          { position: 37, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 45, pilot: "Douwe Kasemier", pilotSlug: "douwe_kasemier", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-          { position: 47, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 5, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 7, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 37, pilot: "Stefan Gussenhoven", pilotSlug: "stefan_gussenhoven", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
       {
@@ -3954,12 +3948,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
         appearances: [
-          { position: 5, pilot: "Rob Vermaas", pilotSlug: "rob_vermaas", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 7, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 37, pilot: "Stefan Gussenhoven", pilotSlug: "stefan_gussenhoven", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 45, pilot: "Douwe Kasemier", pilotSlug: "douwe_kasemier", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 47, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-04-12",
+        eventName: "Dutch Pauper League – 1° Leg – 2025",
+        appearances: [
+          { position: 37, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2025-04-12", eventName: "Dutch Pauper League – 1° Leg – 2025" },
         ],
       },
     ],
@@ -3971,38 +3971,11 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.70%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 12, pilot: "Nicola Gnasso", pilotSlug: "nicola_gnasso", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
-        appearances: [
-          { position: 18, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
-        appearances: [
-          { position: 28, pilot: "Marc Van Doorn", pilotSlug: "marc_van_doorn", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 43, pilot: "Marc Van Doorn", pilotSlug: "marc_van_doorn", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 28, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 27, pilot: "Ramon Facchin", pilotSlug: "ramon_facchin", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 47, pilot: "Nicola Gnasso", pilotSlug: "nicola_gnasso", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -4013,11 +3986,38 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
         appearances: [
-          { position: 27, pilot: "Ramon Facchin", pilotSlug: "ramon_facchin", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 47, pilot: "Nicola Gnasso", pilotSlug: "nicola_gnasso", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 28, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 43, pilot: "Marc Van Doorn", pilotSlug: "marc_van_doorn", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        appearances: [
+          { position: 28, pilot: "Marc Van Doorn", pilotSlug: "marc_van_doorn", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 18, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        appearances: [
+          { position: 12, pilot: "Nicola Gnasso", pilotSlug: "nicola_gnasso", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -4029,15 +4029,6 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.70%",
     byEvent: [
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
-        appearances: [
-          { position: 12, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 19, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 31, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2024-05-04",
         eventName: "Dutch Pauper League – 3° Leg – 2024",
         appearances: [
@@ -4046,6 +4037,15 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
           { position: 14, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
           { position: 19, pilot: "Panagiotis Lantavos-Stratigakis", pilotSlug: "panagiotis_lantavos_stratigakis", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
           { position: 20, pilot: "Leo Rodrigo Heran Balbuena", pilotSlug: "leo_rodrigo_heran_balbuena", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 12, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 19, pilot: "Mark Coehoorn", pilotSlug: "mark_coehoorn", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 31, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
     ],
@@ -4057,12 +4057,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.61%",
     byEvent: [
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 3, pilot: "Stefan van der List", pilotSlug: "stefan_van_der_list", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 16, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 46, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 15, pilot: "Stefan van der List", pilotSlug: "stefan_van_der_list", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -4075,10 +4073,12 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 15, pilot: "Stefan van der List", pilotSlug: "stefan_van_der_list", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 3, pilot: "Stefan van der List", pilotSlug: "stefan_van_der_list", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 16, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 46, pilot: "Thomas Tates", pilotSlug: "thomas_tates", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
     ],
@@ -4090,12 +4090,11 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.61%",
     byEvent: [
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 4, pilot: "Marcel Hogewoning", pilotSlug: "marcel_hogewoning", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 38, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-          { position: 39, pilot: "Jerwin Pouwelse", pilotSlug: "jerwin_pouwelse", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 1, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 4, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -4107,11 +4106,12 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 1, pilot: "Eef vV", pilotSlug: "eef_vv", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 4, pilot: "Floris Heins", pilotSlug: "floris_heins", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 4, pilot: "Marcel Hogewoning", pilotSlug: "marcel_hogewoning", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 38, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 39, pilot: "Jerwin Pouwelse", pilotSlug: "jerwin_pouwelse", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
     ],
@@ -4123,31 +4123,11 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.61%",
     byEvent: [
       {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 5, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-09-07",
-        eventName: "Dutch Pauper League – 7° Leg – 2024",
-        appearances: [
-          { position: 21, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-10-05",
-        eventName: "Dutch Pauper League – 8° Leg – 2024",
-        appearances: [
-          { position: 25, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 60, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 31, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 34, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -4158,11 +4138,31 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 31, pilot: "Leonardo Paternotte", pilotSlug: "leonardo_paternotte", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-          { position: 34, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 60, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-10-05",
+        eventName: "Dutch Pauper League – 8° Leg – 2024",
+        appearances: [
+          { position: 25, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-10-05", eventName: "Dutch Pauper League – 8° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-09-07",
+        eventName: "Dutch Pauper League – 7° Leg – 2024",
+        appearances: [
+          { position: 21, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 5, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
         ],
       },
     ],
@@ -4174,6 +4174,15 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.61%",
     byEvent: [
       {
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        appearances: [
+          { position: 19, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 30, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+          { position: 47, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
+        ],
+      },
+      {
         eventSlug: "2025-10-04",
         eventName: "Dutch Pauper League – 7° Leg – 2025",
         appearances: [
@@ -4181,15 +4190,6 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
           { position: 32, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
           { position: 34, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
           { position: 41, pilot: "Kasper Zijl", pilotSlug: "kasper_zijl", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
-        appearances: [
-          { position: 19, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 30, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-          { position: 47, pilot: "Alessio Viali", pilotSlug: "alessio_viali", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
     ],
@@ -4201,21 +4201,21 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.52%",
     byEvent: [
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
-        appearances: [
-          { position: 2, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 14, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-          { position: 24, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2024-05-04",
         eventName: "Dutch Pauper League – 3° Leg – 2024",
         appearances: [
           { position: 2, pilot: "Mark Bosma", pilotSlug: "mark_bosma", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
           { position: 5, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
           { position: 36, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 2, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 14, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 24, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
     ],
@@ -4227,31 +4227,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.52%",
     byEvent: [
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 38, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 33, pilot: "Michael smit", pilotSlug: "michael_smit", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
-        appearances: [
-          { position: 50, pilot: "Teun Fekkes", pilotSlug: "teun_fekkes", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
-        appearances: [
-          { position: 57, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 52, pilot: "Teun Fekkes", pilotSlug: "teun_fekkes", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
         ],
       },
       {
@@ -4262,10 +4241,31 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
         appearances: [
-          { position: 52, pilot: "Teun Fekkes", pilotSlug: "teun_fekkes", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 57, pilot: "Jinja Kinyak", pilotSlug: "jinja_kinyak", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        appearances: [
+          { position: 50, pilot: "Teun Fekkes", pilotSlug: "teun_fekkes", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 33, pilot: "Michael smit", pilotSlug: "michael_smit", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 38, pilot: "Gino De Guzman", pilotSlug: "gino_de_guzman", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
     ],
@@ -4277,17 +4277,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.43%",
     byEvent: [
       {
-        eventSlug: "2025-11-01",
-        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 43, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-12-13",
-        eventName: "Dutch Pauper League – 9° Leg – 2025",
-        appearances: [
-          { position: 52, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+          { position: 17, pilot: "Odile Strik", pilotSlug: "odile_strik", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -4299,10 +4292,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2025-12-13",
+        eventName: "Dutch Pauper League – 9° Leg – 2025",
         appearances: [
-          { position: 17, pilot: "Odile Strik", pilotSlug: "odile_strik", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 52, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2025-12-13", eventName: "Dutch Pauper League – 9° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-11-01",
+        eventName: "Dutch Pauper League – 8° Leg – 2025",
+        appearances: [
+          { position: 43, pilot: "Fernando Tong", pilotSlug: "fernando_tong", eventSlug: "2025-11-01", eventName: "Dutch Pauper League – 8° Leg – 2025" },
         ],
       },
     ],
@@ -4314,10 +4314,12 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.43%",
     byEvent: [
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 3, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 3, pilot: "Floris Stapel", pilotSlug: "floris_stapel", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 11, pilot: "Thijs Deckers", pilotSlug: "thijs_deckers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 42, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -4328,12 +4330,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 3, pilot: "Floris Stapel", pilotSlug: "floris_stapel", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 11, pilot: "Thijs Deckers", pilotSlug: "thijs_deckers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
-          { position: 42, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 3, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
     ],
@@ -4345,18 +4345,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.43%",
     byEvent: [
       {
-        eventSlug: "2025-06-14",
-        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        eventSlug: "2025-09-06",
+        eventName: "Dutch Pauper League – 6° Leg – 2025",
         appearances: [
-          { position: 7, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-          { position: 21, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
-        ],
-      },
-      {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
-        appearances: [
-          { position: 6, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 43, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
         ],
       },
       {
@@ -4367,10 +4359,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-09-06",
-        eventName: "Dutch Pauper League – 6° Leg – 2025",
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
         appearances: [
-          { position: 43, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-09-06", eventName: "Dutch Pauper League – 6° Leg – 2025" },
+          { position: 6, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2025-06-14",
+        eventName: "Dutch Pauper League – 3° Leg – 2025",
+        appearances: [
+          { position: 7, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
+          { position: 21, pilot: "Jan Rijnbeek", pilotSlug: "jan_rijnbeek", eventSlug: "2025-06-14", eventName: "Dutch Pauper League – 3° Leg – 2025" },
         ],
       },
     ],
@@ -4382,11 +4382,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.35%",
     byEvent: [
       {
-        eventSlug: "2024-03-02",
-        eventName: "Dutch Pauper League – 1° Leg – 2024",
+        eventSlug: "2024-05-04",
+        eventName: "Dutch Pauper League – 3° Leg – 2024",
         appearances: [
-          { position: 2, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
-          { position: 18, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 9, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
         ],
       },
       {
@@ -4397,10 +4396,11 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2024-05-04",
-        eventName: "Dutch Pauper League – 3° Leg – 2024",
+        eventSlug: "2024-03-02",
+        eventName: "Dutch Pauper League – 1° Leg – 2024",
         appearances: [
-          { position: 9, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+          { position: 2, pilot: "Nicolas Bordenabe", pilotSlug: "nicolas_bordenabe", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
+          { position: 18, pilot: "Sam Ye", pilotSlug: "sam_ye", eventSlug: "2024-03-02", eventName: "Dutch Pauper League – 1° Leg – 2024" },
         ],
       },
     ],
@@ -4412,17 +4412,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.35%",
     byEvent: [
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 30, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 14, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+          { position: 23, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -4433,10 +4426,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
         appearances: [
-          { position: 23, pilot: "Stefan Vlijm", pilotSlug: "stefan_vlijm", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 14, pilot: "Raymond Anderson", pilotSlug: "raymond_anderson", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 30, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
     ],
@@ -4448,19 +4448,19 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.35%",
     byEvent: [
       {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
-        appearances: [
-          { position: 11, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-          { position: 35, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2024-11-02",
         eventName: "Dutch Pauper League – 9° Leg – 2024",
         appearances: [
           { position: 2, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
           { position: 9, pilot: "Robbert", pilotSlug: "robbert", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        appearances: [
+          { position: 11, pilot: "Tim Laros", pilotSlug: "tim_laros", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 35, pilot: "Lucas Feliciano", pilotSlug: "lucas_feliciano", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
         ],
       },
     ],
@@ -4472,10 +4472,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        eventSlug: "2024-12-07",
+        eventName: "Dutch Pauper League – 10° Leg – 2024",
         appearances: [
-          { position: 15, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
+          { position: 11, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
         ],
       },
       {
@@ -4486,10 +4486,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2024-12-07",
-        eventName: "Dutch Pauper League – 10° Leg – 2024",
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
         appearances: [
-          { position: 11, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-12-07", eventName: "Dutch Pauper League – 10° Leg – 2024" },
+          { position: 15, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
     ],
@@ -4501,10 +4501,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2025-05-03",
+        eventName: "Dutch Pauper League – 2° Leg – 2025",
         appearances: [
-          { position: 19, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 40, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
         ],
       },
       {
@@ -4515,10 +4515,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-05-03",
-        eventName: "Dutch Pauper League – 2° Leg – 2025",
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
         appearances: [
-          { position: 40, pilot: "Michael Joseph Purcell", pilotSlug: "michael_joseph_purcell", eventSlug: "2025-05-03", eventName: "Dutch Pauper League – 2° Leg – 2025" },
+          { position: 19, pilot: "Max Roovers", pilotSlug: "max_roovers", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
     ],
@@ -4530,10 +4530,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2026-04-11",
-        eventName: "Dutch Pauper League – 1° Leg – 2026",
+        eventSlug: "2026-06-06",
+        eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
-          { position: 2, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+          { position: 32, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
         ],
       },
       {
@@ -4544,10 +4544,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-06-06",
-        eventName: "Dutch Pauper League – 3° Leg – 2026",
+        eventSlug: "2026-04-11",
+        eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
-          { position: 32, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+          { position: 2, pilot: "Jelle Zwaan", pilotSlug: "jelle_zwaan", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
         ],
       },
     ],
@@ -4559,18 +4559,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        appearances: [
+          { position: 58, pilot: "tijn mercx", pilotSlug: "tijn_mercx", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+        ],
+      },
+      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
           { position: 20, pilot: "Frides van de Ven", pilotSlug: "frides_van_de_ven", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
           { position: 68, pilot: "tijn mercx", pilotSlug: "tijn_mercx", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
-        ],
-      },
-      {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 58, pilot: "tijn mercx", pilotSlug: "tijn_mercx", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
     ],
@@ -4582,10 +4582,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2024-08-03",
-        eventName: "Dutch Pauper League – 6° Leg – 2024",
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
-          { position: 27, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
+          { position: 11, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
       {
@@ -4596,10 +4596,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        eventSlug: "2024-08-03",
+        eventName: "Dutch Pauper League – 6° Leg – 2024",
         appearances: [
-          { position: 11, pilot: "Roberto van den Elzen", pilotSlug: "roberto_van_den_elzen", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+          { position: 27, pilot: "Ettore Cerracchio", pilotSlug: "ettore_cerracchio", eventSlug: "2024-08-03", eventName: "Dutch Pauper League – 6° Leg – 2024" },
         ],
       },
     ],
@@ -4611,18 +4611,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2026-05-02",
-        eventName: "Dutch Pauper League – 2° Leg – 2026",
-        appearances: [
-          { position: 2, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
-        ],
-      },
-      {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
         appearances: [
           { position: 51, pilot: "Alexander Hamilton", pilotSlug: "alexander_hamilton", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
           { position: 55, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-06-06", eventName: "Dutch Pauper League – 3° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-05-02",
+        eventName: "Dutch Pauper League – 2° Leg – 2026",
+        appearances: [
+          { position: 2, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
         ],
       },
     ],
@@ -4634,10 +4634,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        eventSlug: "2025-07-05",
+        eventName: "Dutch Pauper League – 4° Leg – 2025",
         appearances: [
-          { position: 6, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
+          { position: 43, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
         ],
       },
       {
@@ -4648,10 +4648,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2025-07-05",
-        eventName: "Dutch Pauper League – 4° Leg – 2025",
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
         appearances: [
-          { position: 43, pilot: "Toon de Vet", pilotSlug: "toon_de_vet", eventSlug: "2025-07-05", eventName: "Dutch Pauper League – 4° Leg – 2025" },
+          { position: 6, pilot: "Davy Baardink", pilotSlug: "davy_baardink", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
         ],
       },
     ],
@@ -4663,10 +4663,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
         appearances: [
-          { position: 22, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+          { position: 118, pilot: "Camille Paquay", pilotSlug: "camille_paquay", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
       {
@@ -4677,10 +4677,10 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
         ],
       },
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
         appearances: [
-          { position: 118, pilot: "Camille Paquay", pilotSlug: "camille_paquay", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+          { position: 22, pilot: "Gianvito Taneburgo", pilotSlug: "gianvito_taneburgo", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
     ],
@@ -4692,18 +4692,18 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.26%",
     byEvent: [
       {
-        eventSlug: "2024-07-06",
-        eventName: "Dutch Pauper League – 5° Leg – 2024",
-        appearances: [
-          { position: 25, pilot: "Marcos Garcia", pilotSlug: "marcos_garcia", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2025-08-02",
         eventName: "Dutch Pauper League – 5° Leg – 2025",
         appearances: [
           { position: 37, pilot: "Phil Kalter", pilotSlug: "phil_kalter", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
           { position: 43, pilot: "Liam Wyatt", pilotSlug: "liam_wyatt", eventSlug: "2025-08-02", eventName: "Dutch Pauper League – 5° Leg – 2025" },
+        ],
+      },
+      {
+        eventSlug: "2024-07-06",
+        eventName: "Dutch Pauper League – 5° Leg – 2024",
+        appearances: [
+          { position: 25, pilot: "Marcos Garcia", pilotSlug: "marcos_garcia", eventSlug: "2024-07-06", eventName: "Dutch Pauper League – 5° Leg – 2024" },
         ],
       },
     ],
@@ -4715,17 +4715,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.17%",
     byEvent: [
       {
-        eventSlug: "2024-11-02",
-        eventName: "Dutch Pauper League – 9° Leg – 2024",
-        appearances: [
-          { position: 12, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
           { position: 55, pilot: "Jasper vd Hammen", pilotSlug: "jasper_vd_hammen", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2024-11-02",
+        eventName: "Dutch Pauper League – 9° Leg – 2024",
+        appearances: [
+          { position: 12, pilot: "Tijmen van der Kamp", pilotSlug: "tijmen_van_der_kamp", eventSlug: "2024-11-02", eventName: "Dutch Pauper League – 9° Leg – 2024" },
         ],
       },
     ],
@@ -4737,17 +4737,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.17%",
     byEvent: [
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 81, pilot: "Yuri Stevens van Swaay", pilotSlug: "yuri_stevens_van_swaay", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-        ],
-      },
-      {
         eventSlug: "2026-04-11",
         eventName: "Dutch Pauper League – 1° Leg – 2026",
         appearances: [
           { position: 58, pilot: "Tobias van Kersbergen", pilotSlug: "tobias_van_kersbergen", eventSlug: "2026-04-11", eventName: "Dutch Pauper League – 1° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
+        appearances: [
+          { position: 81, pilot: "Yuri Stevens van Swaay", pilotSlug: "yuri_stevens_van_swaay", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
     ],
@@ -4759,17 +4759,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.17%",
     byEvent: [
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
-        appearances: [
-          { position: 16, pilot: "L.S. Driessen", pilotSlug: "ls_driessen", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2024-05-04",
         eventName: "Dutch Pauper League – 3° Leg – 2024",
         appearances: [
           { position: 26, pilot: "Tom de Ruiter", pilotSlug: "tom_de_ruiter", eventSlug: "2024-05-04", eventName: "Dutch Pauper League – 3° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 16, pilot: "L.S. Driessen", pilotSlug: "ls_driessen", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
     ],
@@ -4781,17 +4781,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.17%",
     byEvent: [
       {
-        eventSlug: "2024-04-13",
-        eventName: "Dutch Pauper League – 2° Leg – 2024",
-        appearances: [
-          { position: 32, pilot: "Pablo Pirata", pilotSlug: "pablo_pirata", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2024-05-31",
         eventName: "Dutch Pauper League – 4° Leg – 2024",
         appearances: [
           { position: 34, pilot: "Pablo Pirata", pilotSlug: "pablo_pirata", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-04-13",
+        eventName: "Dutch Pauper League – 2° Leg – 2024",
+        appearances: [
+          { position: 32, pilot: "Pablo Pirata", pilotSlug: "pablo_pirata", eventSlug: "2024-04-13", eventName: "Dutch Pauper League – 2° Leg – 2024" },
         ],
       },
     ],
@@ -4803,17 +4803,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.17%",
     byEvent: [
       {
-        eventSlug: "2026-01-17",
-        eventName: "Stroopwafel IPT",
-        appearances: [
-          { position: 77, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas_jan_gorter", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
-        ],
-      },
-      {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
         appearances: [
           { position: 10, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas_jan_gorter", eventSlug: "2026-05-02", eventName: "Dutch Pauper League – 2° Leg – 2026" },
+        ],
+      },
+      {
+        eventSlug: "2026-01-17",
+        eventName: "Stroopwafel IPT",
+        appearances: [
+          { position: 77, pilot: "Klaas-Jan Gorter", pilotSlug: "klaas_jan_gorter", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
         ],
       },
     ],
@@ -4841,17 +4841,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.17%",
     byEvent: [
       {
-        eventSlug: "2024-05-31",
-        eventName: "Dutch Pauper League – 4° Leg – 2024",
-        appearances: [
-          { position: 36, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
-        ],
-      },
-      {
         eventSlug: "2024-09-07",
         eventName: "Dutch Pauper League – 7° Leg – 2024",
         appearances: [
           { position: 20, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-09-07", eventName: "Dutch Pauper League – 7° Leg – 2024" },
+        ],
+      },
+      {
+        eventSlug: "2024-05-31",
+        eventName: "Dutch Pauper League – 4° Leg – 2024",
+        appearances: [
+          { position: 36, pilot: "Mirco Bonati", pilotSlug: "mirco_bonati", eventSlug: "2024-05-31", eventName: "Dutch Pauper League – 4° Leg – 2024" },
         ],
       },
     ],
@@ -4863,17 +4863,17 @@ export const ARCHETYPE_DETAILS: Record<string, ArchetypeDetail> = {
     percentage: "0.17%",
     byEvent: [
       {
-        eventSlug: "2025-10-04",
-        eventName: "Dutch Pauper League – 7° Leg – 2025",
-        appearances: [
-          { position: 11, pilot: "Fernando Gómez-Acebo", pilotSlug: "fernando_gomez_acebo", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
-        ],
-      },
-      {
         eventSlug: "2026-01-17",
         eventName: "Stroopwafel IPT",
         appearances: [
           { position: 69, pilot: "Gianluca Ramaccia", pilotSlug: "gianluca_ramaccia", eventSlug: "2026-01-17", eventName: "Stroopwafel IPT" },
+        ],
+      },
+      {
+        eventSlug: "2025-10-04",
+        eventName: "Dutch Pauper League – 7° Leg – 2025",
+        appearances: [
+          { position: 11, pilot: "Fernando Gómez-Acebo", pilotSlug: "fernando_gomez_acebo", eventSlug: "2025-10-04", eventName: "Dutch Pauper League – 7° Leg – 2025" },
         ],
       },
     ],

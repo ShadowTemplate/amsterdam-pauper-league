@@ -2723,7 +2723,7 @@ export const decks: Deck[] = [
   {
     "id": "i42uxy1vu88yv594a4ccbln4",
     "url": "https://dutchpauperleague.nl/decks/i42uxy1vu88yv594a4ccbln4",
-    "pilotName": "Johannes Theiss",
+    "pilotName": "Johannes Theiß",
     "mainDeck": [
       {"quantity": 4, "name": "Sneaky Snacker"},
       {"quantity": 2, "name": "Gurmag Angler"},
