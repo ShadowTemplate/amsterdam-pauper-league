@@ -19,7 +19,11 @@ EVENTS_DIR = Path("src/lib/data/events")
 
 
 def build_event_name_to_date_mapping() -> dict:
-    """Build mapping from event name to date by reading events directory."""
+    """Build mapping from event name to date by reading events directory.
+    Raises if two event files share the same name - that's a data error
+    (an event name must uniquely identify one date) and silently picking
+    one would corrupt deck output for the other.
+    """
     mapping = {}
 
     for event_file in sorted(EVENTS_DIR.glob("*.ts")):
@@ -33,6 +37,11 @@ def build_event_name_to_date_mapping() -> dict:
         match = re.search(r'name:\s*"([^"]+)"', content)
         if match:
             event_name = match.group(1)
+            if event_name in mapping:
+                raise ValueError(
+                    f"Duplicate event name {event_name!r}: "
+                    f"{mapping[event_name]}.ts and {date}.ts both use it"
+                )
             mapping[event_name] = date
 
     return mapping

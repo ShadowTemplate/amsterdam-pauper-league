@@ -1,0 +1,14 @@
+{
+  "2024": {
+    "awards": [
+      { "playerSlug": "bram_deppenbroek", "flight": true, "bye": true },
+      { "playerSlug": "nicolas_komanski", "flight": true, "bye": true }
+    ]
+  },
+  "2025": {
+    "awards": [
+      { "playerSlug": "bram_deppenbroek", "flight": true, "bye": true },
+      { "playerSlug": "jan_rijnbeek", "flight": true, "bye": true }
+    ]
+  }
+}

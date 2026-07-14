@@ -103,6 +103,38 @@ def load_standings_csv(filepath: Path) -> list:
     return standings
 
 
+def extract_json_from_ts(ts_content: str, export_name: str) -> dict:
+    """Extract JSON data from a TypeScript export statement using regex-based parsing.
+    Handles unquoted property names and trailing commas. Strips spread operators
+    (e.g. `...event`) - fields only present via a spread won't be in the result,
+    so parse the export that literally contains the field you need.
+    """
+    # Look for pattern: export const <export_name>: ... = { ... } or [ ... ];
+    pattern = rf'export const {export_name}:\s*\w+(?:\[\])?\s*=\s*([\[\{{].*?[\]\}}]);'
+    match = re.search(pattern, ts_content, re.DOTALL)
+
+    if not match:
+        return None
+
+    json_str = match.group(1)
+
+    # Convert TypeScript object to valid JSON:
+    # 1. Add quotes around unquoted property names (only at line start or after { or ,)
+    json_str = re.sub(r'([,{]\s*)([a-zA-Z_]\w*):', r'\1"\2":', json_str)
+    json_str = re.sub(r'^(\s*)([a-zA-Z_]\w*):', r'\1"\2":', json_str, flags=re.MULTILINE)
+    # 2. Remove spread operator (...) or other TypeScript-only syntax
+    json_str = re.sub(r'\.\.\.\w+,?', '', json_str)
+    # 3. Remove trailing/leading commas left behind (incl. by spread removal)
+    json_str = re.sub(r',(\s*[}\]])', r'\1', json_str)
+    json_str = re.sub(r'([{\[]\s*),', r'\1', json_str)
+
+    try:
+        return json.loads(json_str)
+    except json.JSONDecodeError as e:
+        print(f"  ❌ Failed to parse JSON: {e}")
+        return None
+
+
 def get_venue(event_name: str) -> str:
     """Determine venue based on event name.
     Rule: Stroopwafel IPT events are at StayOkay Oost Hostel, all others at Pondok.

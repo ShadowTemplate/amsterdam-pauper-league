@@ -1,4 +1,5 @@
 import type { Deck } from "@/types";
+import { getEventDetail } from "@/lib/mock-data";
 
 // Import all deck files
 import { decks as decks20240302 } from "@/lib/data/decks/2024-03-02";
@@ -57,16 +58,27 @@ const allDeckArrays = [
   { eventSlug: "2026-06-06", decks: decks20260606 },
 ];
 
+type DeckWithEvent = Deck & { eventSlug: string; archetype: string };
+
+// Deck files no longer store archetype (it's derived, not source data) - look it up
+// from the event's standings, matched by pilot name, so every deck ends up with one.
+function archetypeFor(eventSlug: string, pilotName: string): string {
+  const standing = getEventDetail(eventSlug)?.standings.find(
+    s => s.player.toLowerCase() === pilotName.toLowerCase()
+  );
+  return standing?.deck ?? "Unknown";
+}
+
 // Flatten all decks with event information
-const allDecks = allDeckArrays.flatMap(({ eventSlug, decks }) =>
-  decks.map(d => ({ ...d, eventSlug }))
+const allDecks: DeckWithEvent[] = allDeckArrays.flatMap(({ eventSlug, decks }) =>
+  decks.map(d => ({ ...d, eventSlug, archetype: archetypeFor(eventSlug, d.pilotName) }))
 );
 
-export function getAllDecks(): (Deck & { eventSlug: string })[] {
+export function getAllDecks(): DeckWithEvent[] {
   return allDecks;
 }
 
-export function getDeck(id: string): (Deck & { eventSlug: string }) | undefined {
+export function getDeck(id: string): DeckWithEvent | undefined {
   return allDecks.find(d => d.id === id);
 }
 
@@ -76,7 +88,7 @@ export function getStaticDeckPaths() {
   }));
 }
 
-export function findDeckByEventAndPilot(eventSlug: string, pilotName: string, archetypeName: string): (Deck & { eventSlug: string }) | undefined {
+export function findDeckByEventAndPilot(eventSlug: string, pilotName: string, archetypeName: string): DeckWithEvent | undefined {
   return allDecks.find(
     d => d.eventSlug === eventSlug &&
          d.pilotName.toLowerCase() === pilotName.toLowerCase() &&
@@ -84,7 +96,7 @@ export function findDeckByEventAndPilot(eventSlug: string, pilotName: string, ar
   );
 }
 
-export function getDecksByArchetype(archetypeSlug: string): (Deck & { eventSlug: string })[] {
+export function getDecksByArchetype(archetypeSlug: string): DeckWithEvent[] {
   // Convert slug to archetype name (e.g., "mono-r-madness" -> find decks with "MonoR Madness")
   return allDecks.filter(d => {
     const deckSlug = d.archetype
