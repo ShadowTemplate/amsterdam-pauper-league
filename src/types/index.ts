@@ -41,6 +41,11 @@ export interface DeckCard {
   name: string;
 }
 
+export interface CardImage {
+  front: string;
+  back?: string;
+}
+
 export interface Deck {
   id: string;
   url: string;

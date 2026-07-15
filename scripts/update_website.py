@@ -10,8 +10,10 @@ Pipeline (each step's output feeds later steps - order matters):
   4. generate_archetypes.py
   5. generate_decks.py           (needs events/ from step 2)
   6. generate_decks_lib.py       (needs src/lib/data/decks/ from step 5)
-  7. generate_seasons.py         (needs events/ from step 2)
-  8. generate_data_layer.py      (needs events/ from step 2, seasons/ from step 7)
+  7. download_card_images.py     (needs src/lib/data/decks/ from step 5, hits the Scryfall API)
+  8. generate_card_images.py     (needs data/scryfall/manifest.json from step 7)
+  9. generate_seasons.py         (needs events/ from step 2)
+  10. generate_data_layer.py     (needs events/ from step 2, seasons/ from step 9)
 
 Not part of this pipeline:
   - convert_past_event_decks.py is a one-off backfill script for historical
@@ -38,6 +40,8 @@ STEPS = [
     "generate_archetypes.py",
     "generate_decks.py",
     "generate_decks_lib.py",
+    "download_card_images.py",
+    "generate_card_images.py",
     "generate_seasons.py",
     "generate_data_layer.py",
 ]

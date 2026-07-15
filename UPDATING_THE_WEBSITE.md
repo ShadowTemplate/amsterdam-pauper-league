@@ -94,10 +94,22 @@ This runs, in order:
    name instead of silently mis-mapping).
 6. **`generate_decks_lib.py`** - rebuilds `src/lib/decks.ts`, wiring up
    every deck-file import automatically.
-7. **`generate_seasons.py`** - rebuilds `src/lib/data/seasons/{year}.ts`
+7. **`download_card_images.py`** - resolves every unique card name across all
+   decks against the Scryfall API (first/oldest printing), downloading
+   preview images to `public/scryfall/` and recording them in
+   `data/scryfall/manifest.json`. Idempotent - only newly-seen card names
+   hit the network on a re-run.
+8. **`generate_card_images.py`** - rebuilds `src/lib/data/card-images.ts`
+   from `data/scryfall/manifest.json`.
+9. **`generate_seasons.py`** - rebuilds `src/lib/data/seasons/{year}.ts`
    (points, stats, byesUnlocked) from events + `seasons_info.json`.
-8. **`generate_data_layer.py`** - rebuilds `src/lib/data-layer.ts`, wiring up
-   every event/season import automatically.
+10. **`generate_data_layer.py`** - rebuilds `src/lib/data-layer.ts`, wiring up
+    every event/season import automatically.
+
+Card preview images (`public/scryfall/`) and their manifest
+(`data/scryfall/manifest.json`) are committed to the repo, since the GitHub
+Pages deploy workflow only runs `npm run build` - it never calls Python or
+hits the Scryfall API.
 
 Each step reads the *current state* of `data/` and `src/lib/data/`, so
 re-running the whole pipeline any time is always safe and idempotent.
