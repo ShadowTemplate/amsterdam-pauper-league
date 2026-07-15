@@ -64,9 +64,10 @@ def js_str(s) -> str:
 
 def extract_event_name(filename: str) -> str:
     """Extract event name from filename.
-    E.g., 'archetypes_Dutch Pauper League – 1° Leg – 2024.json' -> 'Dutch Pauper League – 1° Leg – 2024'
+    E.g., 'Dutch Pauper League – 1° Leg – 2024.json' (archetypes) -> 'Dutch Pauper League – 1° Leg – 2024'
     E.g., 'standings_Dutch Pauper League – 1° Leg – 2024_2024-03-02.csv' -> 'Dutch Pauper League – 1° Leg – 2024'
-    Removes prefix (archetypes_, standings_, players_), suffix (.json, .csv), and date suffix (_YYYY-MM-DD)
+    Removes prefix (archetypes_, standings_, players_ - no-op if absent), suffix
+    (.json, .csv), and date suffix (_YYYY-MM-DD - no-op if absent)
     """
     # Remove prefix (archetypes_, standings_, players_) and suffix (.json, .csv)
     name = re.sub(r'^(archetypes_|standings_|players_)', '', filename)

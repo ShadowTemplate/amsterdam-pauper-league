@@ -44,7 +44,7 @@ def main():
 
         # Find corresponding files - need to find the matching files with same date
         date_suffix = f"_{event_slug}"
-        archetypes_file = ARCHETYPES_DIR / f"archetypes_{event_name}{date_suffix}.json"
+        archetypes_file = ARCHETYPES_DIR / f"{event_name}.json"
         players_file = (TOPDECK_DIR / "players") / f"{event_name}{date_suffix}.csv"
 
         if not archetypes_file.exists():

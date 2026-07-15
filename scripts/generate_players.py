@@ -307,7 +307,7 @@ def main():
 
         # Find matching archetype and player files
         date_suffix = f"_{event_slug}"
-        archetypes_file = ARCHETYPES_DIR / f"archetypes_{event_name}{date_suffix}.json"
+        archetypes_file = ARCHETYPES_DIR / f"{event_name}.json"
         players_file = PLAYERS_DIR / f"{event_name}{date_suffix}.csv"
 
         if not archetypes_file.exists() or not players_file.exists():
