@@ -368,10 +368,79 @@ def main():
         slug = player['slug']
         info = player_details[slug]
 
+        # Tally archetypes played across all events (one deck per event participation)
+        archetype_counts = defaultdict(lambda: {'name': '', 'count': 0})
+        for result in info.get('results', []):
+            archetype_counts[result['deckSlug']]['name'] = result['deck']
+            archetype_counts[result['deckSlug']]['count'] += 1
+
+        sorted_archetypes = sorted(
+            archetype_counts.items(),
+            key=lambda item: (-item[1]['count'], item[1]['name'].lower())
+        )
+
+        # Tally head-to-head record against every opponent faced (byes excluded,
+        # since a bye has no opponent slug)
+        opponent_stats = defaultdict(lambda: {'name': '', 'wins': 0, 'losses': 0, 'draws': 0})
+        for result in info.get('results', []):
+            for round_data in result['rounds']:
+                opponent_slug = round_data['opponentPilotSlug']
+                if not opponent_slug:
+                    continue
+                opponent_stats[opponent_slug]['name'] = round_data['opponentPilot']
+                result_type = round_data['result']
+                if result_type == 'Win':
+                    opponent_stats[opponent_slug]['wins'] += 1
+                elif result_type == 'Loss':
+                    opponent_stats[opponent_slug]['losses'] += 1
+                elif result_type == 'Draw':
+                    opponent_stats[opponent_slug]['draws'] += 1
+
+        # The rival is the most-played opponent, but only if they hold sole
+        # possession of the top spot - a tie means no single rival stands out
+        rival = None
+        if opponent_stats:
+            games_played = {
+                opp_slug: s['wins'] + s['losses'] + s['draws']
+                for opp_slug, s in opponent_stats.items()
+            }
+            max_games = max(games_played.values())
+            top_opponents = [opp_slug for opp_slug, games in games_played.items() if games == max_games]
+            if len(top_opponents) == 1:
+                rival_slug = top_opponents[0]
+                rival_info = opponent_stats[rival_slug]
+                rival_games = max_games
+                win_rate = f"{rival_info['wins'] / rival_games * 100:.2f}%" if rival_games > 0 else "0%"
+                rival = {
+                    'slug': rival_slug,
+                    'name': rival_info['name'],
+                    'gamesPlayed': rival_games,
+                    'wins': rival_info['wins'],
+                    'losses': rival_info['losses'],
+                    'draws': rival_info['draws'],
+                    'winRate': win_rate,
+                }
+
         output_lines.append(f"  {js_str(slug)}: {{")
         output_lines.append(f"    slug: {js_str(slug)},")
         output_lines.append(f"    name: {js_str(info['name'])},")
         output_lines.append(f"    stats: {{ wins: {info['stats']['wins']}, losses: {info['stats']['losses']}, draws: {info['stats']['draws']}, byes: {info['stats']['byes']} }},")
+        output_lines.append(f"    archetypes: [")
+
+        for deck_slug, archetype_info in sorted_archetypes:
+            output_lines.append(f"      {{ name: {js_str(archetype_info['name'])}, slug: {js_str(deck_slug)}, count: {archetype_info['count']} }},")
+
+        output_lines.append(f"    ],")
+
+        if rival:
+            output_lines.append(
+                f"    rival: {{ name: {js_str(rival['name'])}, slug: {js_str(rival['slug'])}, "
+                f"gamesPlayed: {rival['gamesPlayed']}, wins: {rival['wins']}, losses: {rival['losses']}, "
+                f"draws: {rival['draws']}, winRate: {js_str(rival['winRate'])} }},"
+            )
+        else:
+            output_lines.append(f"    rival: null,")
+
         output_lines.append(f"    results: [")
 
         # Sort results by event date in reverse chronological order (newest first)

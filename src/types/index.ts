@@ -146,10 +146,28 @@ export interface PlayerEventResult {
   rounds: RoundResult[];
 }
 
+export interface PlayerArchetypeSummary {
+  name: string;
+  slug: string;
+  count: number;
+}
+
+export interface PlayerRival {
+  name: string;
+  slug: string;
+  gamesPlayed: number;
+  wins: number;
+  losses: number;
+  draws: number;
+  winRate: string; // e.g. "62.50%"
+}
+
 export interface PlayerDetail {
   slug: string;
   name: string;
   stats: PlayerStats;
+  archetypes: PlayerArchetypeSummary[];
+  rival: PlayerRival | null;
   results: PlayerEventResult[];
 }
 
