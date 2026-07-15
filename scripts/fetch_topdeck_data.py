@@ -26,6 +26,11 @@ Notes:
     their placement - verified card-for-card, quantity-for-quantity identical to what
     download_topdeck_decks.py used to scrape from individual deck pages, so there's no
     need to hit topdeck.gg per-deck at all.
+  - Player names are run through utils.strip_pronoun_suffix (the same helper
+    generate_players.py already relies on) before being written anywhere - some players
+    type a pronoun tag straight into the topdeck.gg "Name" field (e.g. "Max Roovers
+    He/They"), and leaving that in would make the players CSV disagree with the
+    standings CSV / decks.json / archetypes.json, which all key off the same name.
   - The players CSV's Email/Tags columns come from the staff-only /attendees endpoint,
     which only succeeds (200) for tournaments this API key organizes - it 403s for
     others. When it's unavailable, the players CSV is still written correctly (Player
@@ -61,6 +66,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+
+from utils import strip_pronoun_suffix
 
 API_BASE = "https://topdeck.gg/api/v2"
 CLASSIFIER_URL = "http://masadora.ddns.net:8913"
@@ -175,7 +182,7 @@ def fetch_tournament(session, tid: str, event_name: str, date_str: str, force: b
     row_by_id = {}
     deck_entries = []
     for s in standings:
-        name = s["name"].strip()
+        name = strip_pronoun_suffix(s["name"].strip())
         standings_rows.append([
             str(s["standing"]), name, str(s["points"]),
             fmt_pct(s["opponentWinRate"]), fmt_pct(s["gameWinRate"]), fmt_pct(s["opponentGameWinRate"]),
