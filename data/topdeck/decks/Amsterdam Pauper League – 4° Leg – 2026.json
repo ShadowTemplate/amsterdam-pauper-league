@@ -4509,6 +4509,91 @@
       ]
     },
     {
+      "id": "xzxxxPRgMRMUmWf8MNQMTH9rnOz2",
+      "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/xzxxxPRgMRMUmWf8MNQMTH9rnOz2",
+      "pilotName": "Tobias van Kersbergen",
+      "mainDeck": [
+        {
+          "quantity": 4,
+          "name": "Faerie Miscreant"
+        },
+        {
+          "quantity": 4,
+          "name": "Faerie Seer"
+        },
+        {
+          "quantity": 2,
+          "name": "Harrier Strix"
+        },
+        {
+          "quantity": 4,
+          "name": "Humbling Elder"
+        },
+        {
+          "quantity": 4,
+          "name": "Moon-Circuit Hacker"
+        },
+        {
+          "quantity": 4,
+          "name": "Spellstutter Sprite"
+        },
+        {
+          "quantity": 4,
+          "name": "Ninja of the Deep Hours"
+        },
+        {
+          "quantity": 4,
+          "name": "Of One Mind"
+        },
+        {
+          "quantity": 1,
+          "name": "Dispel"
+        },
+        {
+          "quantity": 4,
+          "name": "Counterspell"
+        },
+        {
+          "quantity": 4,
+          "name": "Snap"
+        },
+        {
+          "quantity": 3,
+          "name": "Unable to Scream"
+        },
+        {
+          "quantity": 18,
+          "name": "Island"
+        }
+      ],
+      "sideboard": [
+        {
+          "quantity": 3,
+          "name": "Annul"
+        },
+        {
+          "quantity": 2,
+          "name": "Blue Elemental Blast"
+        },
+        {
+          "quantity": 3,
+          "name": "Envelop"
+        },
+        {
+          "quantity": 3,
+          "name": "Hydroblast"
+        },
+        {
+          "quantity": 2,
+          "name": "Relic of Progenitus"
+        },
+        {
+          "quantity": 2,
+          "name": "Bind the Monster"
+        }
+      ]
+    },
+    {
       "id": "yBFaRmnZHscRxAcfwmLqvWDPUpk2",
       "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/yBFaRmnZHscRxAcfwmLqvWDPUpk2",
       "pilotName": "Alexander Hamilton",
