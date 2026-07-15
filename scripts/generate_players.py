@@ -12,15 +12,40 @@ from pathlib import Path
 from collections import defaultdict
 from utils import (
     normalize_slug, js_str, extract_event_name, extract_date_from_filename,
-    load_archetypes_json, load_players_csv, load_standings_csv
+    load_archetypes_json, load_players_csv, load_standings_csv, strip_pronoun_suffix
 )
 
 TOPDECK_DIR = Path("data/topdeck")
 STANDINGS_DIR = TOPDECK_DIR / "standings"
 PLAYERS_DIR = TOPDECK_DIR / "players"
 ROUNDS_DIR = TOPDECK_DIR / "rounds"
+DECKS_DIR = TOPDECK_DIR / "decks"
 ARCHETYPES_DIR = Path("data/archetypes")
 OUTPUT_FILE = Path("src/lib/data/players.ts")
+
+
+def build_card_to_players_map() -> dict:
+    """Scan every deck JSON file and map each card name to the set of player
+    slugs who have played it (mainDeck or sideboard, in any deck/event).
+    Used to find "pet cards" - cards played by exactly one player."""
+    card_to_players = defaultdict(set)
+
+    for deck_file in sorted(DECKS_DIR.glob("*.json")):
+        with open(deck_file, 'r', encoding='utf-8-sig') as f:
+            data = json.load(f)
+
+        for deck in data.get('decks', []):
+            pilot_name = strip_pronoun_suffix(deck.get('pilotName', '').strip())
+            if not pilot_name:
+                continue
+            pilot_slug = normalize_slug(pilot_name)
+
+            for card in deck.get('mainDeck', []) + deck.get('sideboard', []):
+                card_name = card.get('name', '').strip()
+                if card_name:
+                    card_to_players[card_name].add(pilot_slug)
+
+    return card_to_players
 
 
 def find_round_files_for_event(event_name: str) -> dict:
@@ -341,6 +366,15 @@ def main():
     print(f"\nBuilding player details from {len(events_data)} events...")
     player_details = build_player_details(events_data)
 
+    print("Scanning deck lists for pet cards...")
+    card_to_players = build_card_to_players_map()
+    pet_cards_by_slug = defaultdict(list)
+    for card_name, player_slugs in card_to_players.items():
+        if len(player_slugs) == 1:
+            pet_cards_by_slug[next(iter(player_slugs))].append(card_name)
+    for pet_cards in pet_cards_by_slug.values():
+        pet_cards.sort(key=str.lower)
+
     # Convert to list of player slugs
     players_list = sorted([
         {'slug': slug, 'name': info['name']}
@@ -431,6 +465,7 @@ def main():
             output_lines.append(f"      {{ name: {js_str(archetype_info['name'])}, slug: {js_str(deck_slug)}, count: {archetype_info['count']} }},")
 
         output_lines.append(f"    ],")
+        output_lines.append(f"    petCards: [{', '.join(js_str(c) for c in pet_cards_by_slug.get(slug, []))}],")
 
         if rival:
             output_lines.append(

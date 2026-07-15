@@ -292,6 +292,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 2 },
       { name: "Monster Tron", slug: "monster_tron", count: 1 },
     ],
+    petCards: ["Hidden Grotto"],
     rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
     results: [
       {
@@ -351,6 +352,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Bogles", slug: "bogles", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -386,6 +388,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoW Heroic", slug: "monow_heroic", count: 1 },
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: ["Pyromatics"],
     rival: null,
     results: [
       {
@@ -641,6 +644,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
     ],
+    petCards: ["Jolted Awake"],
     rival: { name: "Koen Zuidberg", slug: "koen_zuidberg", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -734,6 +738,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -763,6 +768,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Tribe", slug: "boros_tribe", count: 1 },
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Banishing Knack", "It'll Quench Ya!", "Pop Quiz", "Vedalken Engineer", "Zuko's Exile"],
     rival: null,
     results: [
       {
@@ -806,6 +812,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -833,6 +840,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Walls", slug: "walls", count: 5 },
     ],
+    petCards: [],
     rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -926,6 +934,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
     ],
+    petCards: ["Shrivel"],
     rival: null,
     results: [
       {
@@ -963,6 +972,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoB Control", slug: "monob_control", count: 1 },
     ],
+    petCards: ["Chittering Rats", "Corrupt", "Gray Merchant of Asphodel", "Phyrexian Rager", "Wrench Mind"],
     rival: null,
     results: [
       {
@@ -990,6 +1000,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1015,6 +1026,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1045,6 +1057,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Brew", slug: "brew", count: 3 },
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: ["Arcane Teachings", "Coiling Oracle", "Fire Whip", "Gift of the Viper", "Lowland Basilisk", "Marsh Viper", "Sabertooth Cobra", "Terminal Agony"],
     rival: { name: "Mirco Bonati", slug: "mirco_bonati", gamesPlayed: 4, wins: 0, losses: 3, draws: 1, winRate: "0.00%" },
     results: [
       {
@@ -1182,6 +1195,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1316,6 +1330,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1343,6 +1358,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1371,6 +1387,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1398,6 +1415,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1440,6 +1458,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1467,6 +1486,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 9 },
       { name: "MonoU Terror", slug: "monou_terror", count: 5 },
     ],
+    petCards: [],
     rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 6, wins: 2, losses: 0, draws: 4, winRate: "33.33%" },
     results: [
       {
@@ -1702,6 +1722,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1730,6 +1751,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -1760,6 +1782,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: ["Balemurk Leech", "Forlorn Flats", "Grand Entryway // Elegant Rotunda", "Okiba Reckoner Raid", "Return Triumphant", "Seal of Cleansing", "Slumbering Keepguard", "Snowfield Sinkhole", "Spirited Companion"],
     rival: null,
     results: [
       {
@@ -1820,6 +1843,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 1 },
       { name: "Familiars", slug: "familiars", count: 1 },
     ],
+    petCards: ["Webweaver Changeling"],
     rival: null,
     results: [
       {
@@ -1870,6 +1894,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Burn", slug: "burn", count: 1 },
       { name: "Moggwarts", slug: "moggwarts", count: 1 },
     ],
+    petCards: ["Curse of Chains"],
     rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 7, wins: 4, losses: 3, draws: 0, winRate: "57.14%" },
     results: [
       {
@@ -2232,6 +2257,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -2260,6 +2286,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew Golgari", slug: "brew_golgari", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -2285,6 +2312,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -2313,6 +2341,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Izzet Terror", slug: "izzet_terror", count: 7 },
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 3 },
     ],
+    petCards: ["Aether Spike", "Tune the Narrative"],
     rival: null,
     results: [
       {
@@ -2483,6 +2512,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Terror", slug: "monou_terror", count: 2 },
       { name: "Spy Walls", slug: "spy_walls", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -2592,6 +2622,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 3 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -2654,6 +2685,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -2760,6 +2792,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Familiars", slug: "familiars", count: 1 },
     ],
+    petCards: ["Loyal Sentry"],
     rival: null,
     results: [
       {
@@ -2787,6 +2820,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
     ],
+    petCards: [],
     rival: { name: "Ben van Wijk", slug: "ben_van_wijk", gamesPlayed: 2, wins: 1, losses: 0, draws: 1, winRate: "50.00%" },
     results: [
       {
@@ -2847,6 +2881,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -2878,6 +2913,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Moggwarts", slug: "moggwarts", count: 1 },
       { name: "Naya Gates", slug: "naya_gates", count: 1 },
     ],
+    petCards: ["Ainok Wayfarer"],
     rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
       {
@@ -3048,6 +3084,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -3076,6 +3113,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -3103,6 +3141,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -3129,6 +3168,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -3157,6 +3197,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -3185,6 +3226,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -3213,6 +3255,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 8 },
       { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
     ],
+    petCards: ["Eroded Canyon", "Peculiar Lighthouse", "Raven of Fell Omens"],
     rival: null,
     results: [
       {
@@ -3388,6 +3431,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Raven de Bruin", slug: "raven_de_bruin", gamesPlayed: 3, wins: 2, losses: 0, draws: 1, winRate: "66.67%" },
     results: [
       {
@@ -3561,6 +3605,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -3595,6 +3640,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: ["Curfew", "Goldhound", "Improvised Club"],
     rival: null,
     results: [
       {
@@ -3945,6 +3991,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Spy Walls", slug: "spy_walls", count: 3 },
       { name: "Walls", slug: "walls", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Rob Nolle", slug: "rob_nolle", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -4020,6 +4067,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4049,6 +4097,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 2 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: ["Rooftop Percher"],
     rival: { name: "Thijs", slug: "thijs", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -4110,6 +4159,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Fangren Tron", slug: "fangren_tron", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4138,6 +4188,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4174,6 +4225,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4504,6 +4556,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Infect", slug: "infect", count: 1 },
     ],
+    petCards: ["Llanowar Augur", "Spider Umbra"],
     rival: null,
     results: [
       {
@@ -4529,6 +4582,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Annihilating Glare", "Ashnod's Intervention", "Bone Splinters", "Dead Revels", "Deadly Precision", "Lash of the Balrog", "Nocturnal Feeder", "Savor"],
     rival: null,
     results: [
       {
@@ -4557,6 +4611,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Bogles", slug: "bogles", count: 1 },
     ],
+    petCards: ["Electrify"],
     rival: null,
     results: [
       {
@@ -4584,6 +4639,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4611,6 +4667,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4638,6 +4695,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Altar Tron", slug: "altar_tron", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4663,6 +4721,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4692,6 +4751,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Dredge", slug: "monor_dredge", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -4736,6 +4796,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoW Heroic", slug: "monow_heroic", count: 2 },
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: ["Armored Armadillo", "Lightwheel Enhancements", "Sandstone Bridge", "Solid Footing"],
     rival: null,
     results: [
       {
@@ -4868,6 +4929,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
       { name: "Walls", slug: "walls", count: 1 },
     ],
+    petCards: ["Ardent Recruit", "Burning Sun's Fury", "Court Homunculus", "Dimir Guildgate", "Halo Hopper", "Martyr's Soul"],
     rival: { name: "Jelle Zwaan", slug: "jelle_zwaan", gamesPlayed: 3, wins: 0, losses: 2, draws: 1, winRate: "0.00%" },
     results: [
       {
@@ -5091,6 +5153,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Cycling Storm", slug: "cycling_storm", count: 2 },
       { name: "Poison Storm", slug: "poison_storm", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Francesco Simonetto", slug: "francesco_simonetto", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -5202,6 +5265,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Burn", slug: "burn", count: 2 },
       { name: "MonoR Madness", slug: "monor_madness", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -5283,6 +5347,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -5408,6 +5473,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Burn", slug: "burn", count: 3 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 2 },
     ],
+    petCards: ["Essence Harvest", "Glaze Fiend", "Priest of Yawgmoth"],
     rival: { name: "Tim Laros", slug: "tim_laros", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -5630,6 +5696,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 2 },
     ],
+    petCards: ["Bant Sureblade", "Barkshell Blessing", "Blossoming Sands", "Cathar Commando", "Centaur Healer", "Crystallization", "Electro's Bolt", "Faithful Watchdog", "Grizzled Leotau", "Helpful Hunter", "Naya Hushblade", "Obsessive Search", "Pumpkin Bombardment", "Refute", "Shield of the Oversoul", "Spider-Islanders", "Swiftwater Cliffs", "Valeron Outlander", "Whoosh!"],
     rival: null,
     results: [
       {
@@ -5673,6 +5740,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Eldrazi Spawn", slug: "eldrazi_spawn", count: 1 },
     ],
+    petCards: ["Bequeathal", "Drix Fatemaker", "Wild Ride"],
     rival: null,
     results: [
       {
@@ -5701,6 +5769,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -5729,6 +5798,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 1 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -5771,6 +5841,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Dredge", slug: "monor_dredge", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -5805,6 +5876,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
     ],
+    petCards: ["Banehound", "Captured Sunlight", "Cram Session", "Deny Reality", "Grave Scrabbler", "Guerrilla Gorilla", "Night Market", "Ornithopter of Paradise", "Slippery Karst", "Spore Frog", "Tilling Treefolk", "Vessel of Nascency"],
     rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -6184,6 +6256,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Poison Storm", slug: "poison_storm", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -6275,6 +6348,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: ["Wirewood Pride"],
     rival: null,
     results: [
       {
@@ -6302,6 +6376,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -6333,6 +6408,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
       { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
     ],
+    petCards: ["Architects of Will", "Grisly Survivor"],
     rival: null,
     results: [
       {
@@ -6427,6 +6503,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: ["Vincent's Limit Break"],
     rival: null,
     results: [
       {
@@ -6678,6 +6755,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Ferocious Werefox", "Gnarlback Rhino", "Longstalk Brawl", "Ranger's Guile"],
     rival: null,
     results: [
       {
@@ -6706,6 +6784,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -6737,6 +6816,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Brew", slug: "brew", count: 3 },
       { name: "Burn", slug: "burn", count: 1 },
     ],
+    petCards: ["Unsummon"],
     rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 4, wins: 3, losses: 1, draws: 0, winRate: "75.00%" },
     results: [
       {
@@ -6973,6 +7053,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 14 },
     ],
+    petCards: [],
     rival: { name: "Tom de Ruiter", slug: "tom_de_ruiter", gamesPlayed: 4, wins: 2, losses: 2, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -7209,6 +7290,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -7235,6 +7317,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Boros Synth", slug: "boros_synth", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -7281,6 +7364,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -7324,6 +7408,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Madness", slug: "monor_madness", count: 3 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: ["Stormshriek Feral // Flush Out"],
     rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
       {
@@ -7401,6 +7486,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
     ],
+    petCards: ["Reap and Sow", "Sabotender", "Summon: Fat Chocobo"],
     rival: null,
     results: [
       {
@@ -7428,6 +7514,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: ["Disintegrate", "Erebor Flamesmith", "Fireball", "Firebrand Archer"],
     rival: null,
     results: [
       {
@@ -7456,6 +7543,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
     ],
+    petCards: ["Feed the Clan"],
     rival: null,
     results: [
       {
@@ -7484,6 +7572,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -7511,6 +7600,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Ettore Cerracchio", slug: "ettore_cerracchio", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -7593,6 +7683,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Synth", slug: "boros_synth", count: 1 },
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
     results: [
       {
@@ -7939,6 +8030,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Golgari Dredge", slug: "golgari_dredge", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -7965,6 +8057,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 4 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8042,6 +8135,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Mardu Synth", slug: "mardu_synth", count: 1 },
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8086,6 +8180,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Backup Agent", "Brightspear Zealot", "Cliffhaven Kitesail", "Cosmium Blast", "Deadly Riposte", "Detained by Legionnaires", "Dockworker Drone", "Enduring Bondwarden", "Eriette's Lullaby", "Family Reunion", "Feat of Resistance", "Flare of Faith", "Flight-Deck Coordinator", "Hardened Escort", "Hedgewitch's Mask", "Irontread Crusher", "Knight Luminary", "Kor Celebrant", "Lifecreed Duo", "Lightfoot Technique", "Marketwatch Phantom", "Poised Practitioner", "Renegade Freighter", "Shield Mate", "Standing Troops", "Summary Judgment", "Thousand Moons Infantry", "Traveling Minister", "Unruly Mob", "You Hear Something on Watch", "You're Ambushed on the Road"],
     rival: null,
     results: [
       {
@@ -8114,6 +8209,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 4 },
     ],
+    petCards: [],
     rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -8190,6 +8286,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Petitioners Mill", slug: "petitioners_mill", count: 1 },
     ],
+    petCards: ["Bellowing Crier"],
     rival: null,
     results: [
       {
@@ -8217,6 +8314,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8245,6 +8343,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Rakdos Ally", slug: "rakdos_ally", count: 1 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: ["Akoum Battlesinger", "Akoum Flameseeker", "Battlefield Medic", "Blightning", "Bojuka Brigand", "Curtain of Light", "Demon's Disciple", "Goblin Freerunner", "Heal", "Highland Berserker", "Kalastria Healer", "Leonin Elder", "Marauding Blight-Priest", "Masterful Flourish", "Misery Charm", "Ondu Champion", "Profane Prayers", "Rapier Wit", "Scouring Sands", "Soul Warden", "Soul's Attendant", "Surge of Zeal", "Vile Deacon"],
     rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
     results: [
       {
@@ -8340,6 +8439,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: ["Fire of Orthanc"],
     rival: null,
     results: [
       {
@@ -8483,6 +8583,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Azorius Gates", slug: "azorius_gates", count: 6 },
       { name: "Selesnya Gates", slug: "selesnya_gates", count: 4 },
     ],
+    petCards: ["Disciple of the Sun", "Holy Cow", "Open the Gates"],
     rival: { name: "Floris Heins", slug: "floris_heins", gamesPlayed: 3, wins: 2, losses: 0, draws: 1, winRate: "66.67%" },
     results: [
       {
@@ -8656,6 +8757,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8684,6 +8786,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Burn", slug: "burn", count: 1 },
       { name: "MonoR Rally", slug: "monor_rally", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8730,6 +8833,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Flicker Tron", slug: "flicker_tron", count: 6 },
       { name: "Poison Storm", slug: "poison_storm", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8869,6 +8973,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Moggwarts", slug: "moggwarts", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8896,6 +9001,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Familiars", slug: "familiars", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -8924,6 +9030,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
     ],
+    petCards: ["Stitched Drake"],
     rival: null,
     results: [
       {
@@ -8984,6 +9091,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9012,6 +9120,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Turbofog", slug: "turbofog", count: 1 },
     ],
+    petCards: ["Dream Fracture", "Jace's Erasure"],
     rival: null,
     results: [
       {
@@ -9039,6 +9148,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9066,6 +9176,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9109,6 +9220,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9137,6 +9249,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 3 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
     ],
+    petCards: [],
     rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -9243,6 +9356,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: ["Serpentine Curve"],
     rival: null,
     results: [
       {
@@ -9270,6 +9384,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9297,6 +9412,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Burn", slug: "burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9325,6 +9441,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: ["Terrarion"],
     rival: null,
     results: [
       {
@@ -9352,6 +9469,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9377,6 +9495,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9405,6 +9524,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9433,6 +9553,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9461,6 +9582,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Burn", slug: "burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9495,6 +9617,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Bogles", slug: "bogles", count: 1 },
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
     ],
+    petCards: ["Wither and Bloom"],
     rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 7, wins: 3, losses: 4, draws: 0, winRate: "42.86%" },
     results: [
       {
@@ -9775,6 +9898,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9803,6 +9927,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9831,6 +9956,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -9861,6 +9987,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Golgari Dredge", slug: "golgari_dredge", count: 1 },
       { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
     ],
+    petCards: ["Ancestral Anger", "Assault Strobe", "Crackling Cyclops", "Crash Through", "Festival Crasher", "Ghitu Amplifier", "Raze the Effigy", "Underworld Rage-Hound"],
     rival: { name: "Noah Westerweel", slug: "noah_westerweel", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -9935,6 +10062,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Terror", slug: "monou_terror", count: 3 },
       { name: "Boros Synth", slug: "boros_synth", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10010,6 +10138,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Synth", slug: "boros_synth", count: 2 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10119,6 +10248,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Gardens", slug: "jund_gardens", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10146,6 +10276,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10174,6 +10305,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Naya Turbo Emblem", slug: "naya_turbo_emblem", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -10219,6 +10351,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
       { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10357,6 +10490,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10388,6 +10522,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Monster Tron", slug: "monster_tron", count: 1 },
       { name: "Walls", slug: "walls", count: 1 },
     ],
+    petCards: ["Bloodrite Invoker", "Izzet Charm", "Repopulate", "Thriving Bluff", "Vine Trellis"],
     rival: { name: "Iain Ligthart", slug: "iain_ligthart", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
       {
@@ -10498,6 +10633,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Birthday Escape", "Claim the Precious", "Deceive the Messenger", "Dreadful as the Storm", "Dunland Crebain", "Easterling Vanguard", "Pelargir Survivor", "Sam's Desperate Rescue", "Soothing of Sméagol", "The Black Breath", "Uruk-hai Berserker"],
     rival: null,
     results: [
       {
@@ -10526,6 +10662,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Mardu Synth", slug: "mardu_synth", count: 2 },
       { name: "Slivers", slug: "slivers", count: 1 },
     ],
+    petCards: ["Bladeback Sliver", "Crypt Sliver", "Gemhide Sliver", "Heart Sliver", "Horned Sliver", "Hunter Sliver", "Striking Sliver", "Winged Sliver"],
     rival: null,
     results: [
       {
@@ -10666,6 +10803,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10694,6 +10832,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Bogles", slug: "bogles", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10719,6 +10858,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Bogles", slug: "bogles", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -10746,6 +10886,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Eaten Alive", "Perilous Myr", "Qarsi Sadist", "Serrated Scorpion"],
     rival: null,
     results: [
       {
@@ -10772,6 +10913,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Control", slug: "dimir_control", count: 3 },
       { name: "Brew", slug: "brew", count: 2 },
     ],
+    petCards: ["Mind Sculpt", "Vicious Rumors"],
     rival: null,
     results: [
       {
@@ -10871,6 +11013,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 1 },
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
     ],
+    petCards: ["Circle of Protection: Black", "Ethereal Haze", "Slitherhead", "Visionary's Dance"],
     rival: null,
     results: [
       {
@@ -11226,6 +11369,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Burn", slug: "burn", count: 1 },
       { name: "Monster Tron", slug: "monster_tron", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11269,6 +11413,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11295,6 +11440,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11322,6 +11468,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11349,6 +11496,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11377,6 +11525,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Madness", slug: "monor_madness", count: 2 },
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
     ],
+    petCards: ["Pharika's Libation"],
     rival: null,
     results: [
       {
@@ -11435,6 +11584,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoG Tron", slug: "monog_tron", count: 1 },
     ],
+    petCards: ["Abundant Harvest", "Broken Wings", "Slavering Branchsnapper"],
     rival: null,
     results: [
       {
@@ -11461,6 +11611,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: ["Hinterland Sanctifier"],
     rival: null,
     results: [
       {
@@ -11489,6 +11640,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Orzhov Blade", slug: "orzhov_blade", count: 2 },
     ],
+    petCards: ["Sunlit Marsh"],
     rival: null,
     results: [
       {
@@ -11530,6 +11682,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Burn", slug: "burn", count: 2 },
       { name: "MonoR Rally", slug: "monor_rally", count: 2 },
     ],
+    petCards: [],
     rival: { name: "Eef vV", slug: "eef_vv", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
     results: [
       {
@@ -11608,6 +11761,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 4 },
     ],
+    petCards: [],
     rival: { name: "Max Mercx", slug: "max_mercx", gamesPlayed: 2, wins: 0, losses: 1, draws: 1, winRate: "0.00%" },
     results: [
       {
@@ -11681,6 +11835,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11709,6 +11864,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Slivers", slug: "slivers", count: 1 },
     ],
+    petCards: ["Quick Sliver"],
     rival: null,
     results: [
       {
@@ -11736,6 +11892,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11764,6 +11921,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Poison Storm", slug: "poison_storm", count: 1 },
     ],
+    petCards: ["Teach by Example"],
     rival: null,
     results: [
       {
@@ -11792,6 +11950,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -11822,6 +11981,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Azorius Glitters", slug: "azorius_glitters", count: 1 },
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Iain Ligthart", slug: "iain_ligthart", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
     results: [
       {
@@ -11957,6 +12117,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Glitters", slug: "boros_glitters", count: 2 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12127,6 +12288,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoB Ponza", slug: "monob_ponza", count: 1 },
     ],
+    petCards: ["Befoul", "Dusk Legion Zealot", "Icequake", "Read the Bones"],
     rival: null,
     results: [
       {
@@ -12154,6 +12316,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew Golgari", slug: "brew_golgari", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12184,6 +12347,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: ["Aqueous Form", "Aspirant's Ascent", "Bone Saw", "Cartouche of Knowledge", "Chained Throatseeker", "Corpse Cur", "Distortion Strike", "Echoing Return", "Eel Umbra", "Enter the Enigma", "Fate Transfer", "Foundry Inspector", "Fuel for the Cause", "Imprisoned in the Moon", "Magmakin Artillerist", "Mesmerizing Dose", "Mocking Sprite", "Moonsnare Prototype", "Neurok Stealthsuit", "Ophidian Eye", "Petrifying Meddler", "Phyrexian Digester", "Planar Incision", "Resculpt", "Slip Through Space", "The Surgical Bay", "Thrummingbird", "Traveler's Cloak", "Wings of Velis Vel"],
     rival: { name: "Max Mercx", slug: "max_mercx", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -12262,6 +12426,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12305,6 +12470,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Orzhov Blade", slug: "orzhov_blade", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12332,6 +12498,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Infect", slug: "infect", count: 1 },
     ],
+    petCards: ["Commune with Beavers", "Relic's Roar", "Shadow Rift"],
     rival: null,
     results: [
       {
@@ -12359,6 +12526,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12422,6 +12590,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12482,6 +12651,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12510,6 +12680,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
       { name: "Mardu Synth", slug: "mardu_synth", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12589,6 +12760,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Brew", slug: "brew", count: 1 },
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: ["Dizzy Spell", "Snapback", "Thoughtpicker Witch", "Urborg Repossession"],
     rival: null,
     results: [
       {
@@ -12680,6 +12852,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12721,6 +12894,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Walls", slug: "walls", count: 1 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: ["Arctic Treeline", "Bonebind Orator", "Burning Curiosity", "Death Speakers", "Early Frost", "How to Start a Riot", "Preemptive Strike", "Pyrite Spellbomb", "Rift Sower", "Smoldering Crater", "Tin Street Hooligan", "Whitemane Lion"],
     rival: null,
     results: [
       {
@@ -13103,6 +13277,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
       { name: "MonoR Tron", slug: "monor_tron", count: 2 },
     ],
+    petCards: ["Builder's Bane", "Filigree Familiar", "The Modern Age // Vector Glider"],
     rival: { name: "Lucas Feliciano", slug: "lucas_feliciano", gamesPlayed: 3, wins: 0, losses: 2, draws: 1, winRate: "0.00%" },
     results: [
       {
@@ -13245,6 +13420,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "Poison Storm", slug: "poison_storm", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 1, draws: 1, winRate: "0.00%" },
     results: [
       {
@@ -13288,6 +13464,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Familiars", slug: "familiars", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13316,6 +13493,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13343,6 +13521,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13372,6 +13551,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Golgari Dredge", slug: "golgari_dredge", count: 1 },
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13426,6 +13606,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
     ],
+    petCards: ["Final Flourish", "Grapple with Death", "Sarulf's Packmate"],
     rival: null,
     results: [
       {
@@ -13699,6 +13880,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: ["Bone Shards"],
     rival: null,
     results: [
       {
@@ -13725,6 +13907,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13754,6 +13937,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -13812,6 +13996,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13837,6 +14022,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13880,6 +14066,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -13910,6 +14097,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: ["Anchovy & Banana Pizza", "Foundry Helix"],
     rival: null,
     results: [
       {
@@ -13992,6 +14180,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: ["Mardu Devotee"],
     rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 6, wins: 5, losses: 1, draws: 0, winRate: "83.33%" },
     results: [
       {
@@ -14279,6 +14468,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: ["\"Name Sticker\" Goblin"],
     rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 5, wins: 3, losses: 2, draws: 0, winRate: "60.00%" },
     results: [
       {
@@ -14547,6 +14737,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 4 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
     ],
+    petCards: ["Vineshaper Prodigy"],
     rival: null,
     results: [
       {
@@ -14652,6 +14843,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -14701,6 +14893,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Synth", slug: "boros_synth", count: 1 },
       { name: "Naya Gates", slug: "naya_gates", count: 1 },
     ],
+    petCards: ["Phantom Interference"],
     rival: null,
     results: [
       {
@@ -14970,6 +15163,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoW Heroic", slug: "monow_heroic", count: 1 },
     ],
+    petCards: ["Dig Site Inventory"],
     rival: null,
     results: [
       {
@@ -14998,6 +15192,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Mardu Synth", slug: "mardu_synth", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15026,6 +15221,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15054,6 +15250,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15083,6 +15280,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Stompy", slug: "stompy", count: 2 },
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: ["Aspect of Hydra", "Garruk's Companion", "Groundswell", "Marsh Boa", "Prey's Vengeance", "River Boa", "Skarrgan Pit-Skulk", "Skophos Reaver"],
     rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -15143,6 +15341,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15170,6 +15369,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15198,6 +15398,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Slivers", slug: "slivers", count: 1 },
     ],
+    petCards: ["Metallic Sliver", "Universal Automaton"],
     rival: null,
     results: [
       {
@@ -15223,6 +15424,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Burn", slug: "burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15251,6 +15453,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Dimir Terror", slug: "dimir_terror", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15294,6 +15497,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15323,6 +15527,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Madness", slug: "monor_madness", count: 2 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15383,6 +15588,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Reckless Fireweaver"],
     rival: null,
     results: [
       {
@@ -15410,6 +15616,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15455,6 +15662,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 4, wins: 3, losses: 1, draws: 0, winRate: "75.00%" },
     results: [
       {
@@ -15642,6 +15850,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Orzhov Blade", slug: "orzhov_blade", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15685,6 +15894,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -15728,6 +15938,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Golgari Dredge", slug: "golgari_dredge", count: 2 },
     ],
+    petCards: [],
     rival: { name: "Roberto van den Elzen", slug: "roberto_van_den_elzen", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -15778,6 +15989,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -16000,6 +16212,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -16036,6 +16249,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
       { name: "Turbofog", slug: "turbofog", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -16253,6 +16467,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Bogles", slug: "bogles", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -16280,6 +16495,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Akki Ember-Keeper", "Akroan Crusader", "Deadeye Duelist", "Dragon Mantle", "Echoing Ruin", "Explosive Entry", "Kami's Flare", "Karametra's Blessing", "Lucky Offering", "Quick Draw", "Rodeo Pyromancers", "Tenth District Legionnaire", "The Shattered States Era", "Voltage Surge", "Witch's Mark"],
     rival: null,
     results: [
       {
@@ -16308,6 +16524,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: ["Run Afoul"],
     rival: null,
     results: [
       {
@@ -16352,6 +16569,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -16381,6 +16599,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "White Weenie", slug: "white_weenie", count: 3 },
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
     ],
+    petCards: ["The Autonomous Furnace"],
     rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 7, wins: 5, losses: 2, draws: 0, winRate: "71.43%" },
     results: [
       {
@@ -16663,6 +16882,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Madness", slug: "monor_madness", count: 3 },
       { name: "MonoU Terror", slug: "monou_terror", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -16807,6 +17027,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 2 },
       { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
     results: [
       {
@@ -16953,6 +17174,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 1 },
       { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 6, wins: 1, losses: 4, draws: 1, winRate: "16.67%" },
     results: [
       {
@@ -17185,6 +17407,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -17218,6 +17441,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -17326,6 +17550,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Goblins", slug: "goblins", count: 2 },
       { name: "White Weenie", slug: "white_weenie", count: 2 },
     ],
+    petCards: ["Goblin Sledder", "Mogg War Marshal", "Voracious Vermin"],
     rival: { name: "Noah Westerweel", slug: "noah_westerweel", gamesPlayed: 4, wins: 2, losses: 1, draws: 1, winRate: "50.00%" },
     results: [
       {
@@ -17531,6 +17756,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -17558,6 +17784,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -17586,6 +17813,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Brew", slug: "brew", count: 1 },
     ],
+    petCards: ["Evil Presence", "Mire Boa", "Tainted Well"],
     rival: null,
     results: [
       {
@@ -17613,6 +17841,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -17659,6 +17888,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Familiars", slug: "familiars", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -17744,6 +17974,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -17976,6 +18207,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -18004,6 +18236,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: ["Foul-Tongue Shriek"],
     rival: null,
     results: [
       {
@@ -18051,6 +18284,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
     ],
+    petCards: ["Bitter Reunion", "Kabira Crossroads"],
     rival: null,
     results: [
       {
@@ -18226,6 +18460,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -18269,6 +18504,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Altar Tron", slug: "altar_tron", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -18299,6 +18535,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -18440,6 +18677,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 2 },
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -18535,6 +18773,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -18612,6 +18851,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Monster Tron", slug: "monster_tron", count: 3 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
     ],
+    petCards: ["Warped Tusker"],
     rival: null,
     results: [
       {
@@ -18692,6 +18932,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Familiars", slug: "familiars", count: 1 },
       { name: "Turbofog", slug: "turbofog", count: 1 },
     ],
+    petCards: ["Embrace the Paradox"],
     rival: null,
     results: [
       {
@@ -18798,6 +19039,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
     ],
+    petCards: ["Compulsive Research"],
     rival: null,
     results: [
       {
@@ -18826,6 +19068,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Poison Storm", slug: "poison_storm", count: 2 },
       { name: "Burn", slug: "burn", count: 1 },
     ],
+    petCards: ["Carnivorous Canopy", "Ghitu Lavarunner", "Needle Drop", "Nightscape Familiar", "Shard Volley"],
     rival: { name: "Nigel Stikker", slug: "nigel_stikker", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -18885,6 +19128,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -18915,6 +19159,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Vincent Zwinkels", slug: "vincent_zwinkels", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -19008,6 +19253,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Cat-Food Combo", slug: "cat_food_combo", count: 1 },
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: ["Clockwork Fox", "Crossover Collaboration", "Golden Egg", "Tolarian Winds", "Voracious Varmint"],
     rival: null,
     results: [
       {
@@ -19085,6 +19331,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
       { name: "Walls", slug: "walls", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -19143,6 +19390,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -19189,6 +19437,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Burn", slug: "burn", count: 1 },
       { name: "Monster Tron", slug: "monster_tron", count: 1 },
     ],
+    petCards: ["Deeproot Warrior", "Giltgrove Stalker", "Jade Bearer", "Lush Oasis", "Merfolk Secretkeeper", "Mist-Cloaked Herald", "River Heralds' Boon", "Slither Blade", "Triton Shorestalker"],
     rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -19281,6 +19530,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "White Weenie", slug: "white_weenie", count: 4 },
       { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -19374,6 +19624,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -19411,6 +19662,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
       { name: "Turbofog", slug: "turbofog", count: 1 },
     ],
+    petCards: ["Blow Your House Down", "Earth Rift", "Fierce Empath", "Junkblade Bruiser", "Keep Watch", "Penumbra Spider", "Reverent Silence", "Rimewood Falls", "Run Away Together", "Temporal Spring", "Thunderhead Gunner", "Vitalize"],
     rival: { name: "Rob Lamers", slug: "rob_lamers", gamesPlayed: 7, wins: 2, losses: 5, draws: 0, winRate: "28.57%" },
     results: [
       {
@@ -19792,6 +20044,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Eldrazi Spawn", slug: "eldrazi_spawn", count: 2 },
       { name: "Bogles", slug: "bogles", count: 1 },
     ],
+    petCards: ["Bleeding Woods", "Echoing Courage", "Favor of the Overbeing", "Feldon's Cane", "Forked Bolt", "Might of the Masses", "Mob Justice", "Selesnya Sanctuary", "Spawning Breath"],
     rival: null,
     results: [
       {
@@ -19858,6 +20111,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
       { name: "MonoG Tron", slug: "monog_tron", count: 1 },
     ],
+    petCards: ["Unfathomable Truths"],
     rival: { name: "Robbert", slug: "robbert", gamesPlayed: 6, wins: 4, losses: 1, draws: 1, winRate: "66.67%" },
     results: [
       {
@@ -20177,6 +20431,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 2 },
       { name: "Elves", slug: "elves", count: 1 },
     ],
+    petCards: ["Deceptive Landscape", "Honorable Scout", "Implement of Ferocity", "Page, Loose Leaf"],
     rival: { name: "Francesco Simonetto", slug: "francesco_simonetto", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
     results: [
       {
@@ -20380,6 +20635,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: ["Beckon Apparition", "Blood Pet", "Botanical Plaza", "Break the Spell", "Canyon Crawler", "Chatter of the Squirrel", "Cloakwood Swarmkeeper", "Compassionate Healer", "Entourage of Trest", "Fortify", "Last Gasp", "Merrow Skyswimmer", "Raise the Alarm", "Saproling Migration", "Scatter the Seeds", "Selesnya Evangel", "Siege Wurm", "Sprout Swarm", "Sprouting Renewal", "Sun-Dappled Celebrant", "Sundering Growth", "Worthy Cost"],
     rival: null,
     results: [
       {
@@ -20458,6 +20714,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 3 },
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
     ],
+    petCards: [],
     rival: { name: "Robbert", slug: "robbert", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -20544,6 +20801,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -20580,6 +20838,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Orzhov Blade", slug: "orzhov_blade", count: 1 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
+    petCards: ["Disenchant", "Divine Offering", "Mage Tower Referee", "Voidpouncer"],
     rival: null,
     results: [
       {
@@ -20825,6 +21084,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "One Land Spy", slug: "one_land_spy", count: 1 },
     ],
+    petCards: ["Etherium Spinner", "Natural State", "Steelfin Whale", "Tooth of Chiss-Goria"],
     rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 6, wins: 0, losses: 6, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -21109,6 +21369,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Burn", slug: "burn", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -21139,6 +21400,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Tribe", slug: "boros_tribe", count: 2 },
       { name: "Inside Out", slug: "inside_out", count: 2 },
     ],
+    petCards: ["Dimension X", "Lonely Arroyo"],
     rival: { name: "Ben van Wijk", slug: "ben_van_wijk", gamesPlayed: 6, wins: 0, losses: 2, draws: 4, winRate: "0.00%" },
     results: [
       {
@@ -21502,6 +21764,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: ["Ringing Strike Mastery", "Saiba Cryptomancer"],
     rival: null,
     results: [
       {
@@ -21530,6 +21793,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Burn", slug: "burn", count: 2 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -21573,6 +21837,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -21600,6 +21865,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Goblins", slug: "goblins", count: 1 },
     ],
+    petCards: ["Devoted Duelist", "Discerning Peddler", "Fire-Rim Form", "Forgotten Cave", "Jackal Familiar", "Prickly Pair", "Raging Goblin", "Shock Brigade", "Yuyan Archers"],
     rival: null,
     results: [
       {
@@ -21630,6 +21896,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
       { name: "Spy Elves", slug: "spy_elves", count: 2 },
     ],
+    petCards: ["Nomadic Elf", "Sylvan Ranger"],
     rival: null,
     results: [
       {
@@ -21771,6 +22038,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "Naya Gates", slug: "naya_gates", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -21879,6 +22147,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
+    petCards: ["Emerald Charm"],
     rival: { name: "Floris Heins", slug: "floris_heins", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
@@ -21942,6 +22211,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Dimir Terror", slug: "dimir_terror", count: 2 },
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
+    petCards: ["Vivien's Grizzly"],
     rival: null,
     results: [
       {
@@ -22174,6 +22444,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -22201,6 +22472,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -22232,6 +22504,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Elves", slug: "elves", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Raven de Bruin", slug: "raven_de_bruin", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -22392,6 +22665,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Bogles", slug: "bogles", count: 2 },
       { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
     ],
+    petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -22501,6 +22775,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Walls", slug: "walls", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -22530,6 +22805,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -22623,6 +22899,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 4 },
       { name: "Altar Tron", slug: "altar_tron", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -22810,6 +23087,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
     ],
+    petCards: ["Memory Lapse"],
     rival: null,
     results: [
       {
@@ -22838,6 +23116,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 2 },
       { name: "Esper Affinity", slug: "esper_affinity", count: 1 },
     ],
+    petCards: ["Ebony Charm", "Nightblade Brigade"],
     rival: null,
     results: [
       {
@@ -22898,6 +23177,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
     ],
+    petCards: [],
     rival: null,
     results: [
       {

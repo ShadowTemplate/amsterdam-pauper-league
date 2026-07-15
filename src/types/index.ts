@@ -167,6 +167,8 @@ export interface PlayerDetail {
   name: string;
   stats: PlayerStats;
   archetypes: PlayerArchetypeSummary[];
+  /** Cards this player has played that no other player has ever played. */
+  petCards: string[];
   rival: PlayerRival | null;
   results: PlayerEventResult[];
 }

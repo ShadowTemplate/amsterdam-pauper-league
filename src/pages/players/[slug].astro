@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import CardName from "@/components/CardName.astro";
 import { PLAYERS, getPlayerDetail } from "@/lib/data-layer";
 import { findDeckByEventAndPilot } from "@/lib/decks";
 import { formatDate } from "@/lib/utils";
@@ -68,6 +69,23 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
                   >
                     {archetype.count}x {archetype.name}
                   </a>
+                </>
+              ))}
+            </p>
+          </div>
+        )}
+
+        <!-- Pet cards -->
+        {detail.petCards.length > 0 && (
+          <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-1">Pet cards: {detail.petCards.length}</h2>
+            <p class="text-sm text-muted-foreground">
+              {detail.petCards.map((card, i) => (
+                <>
+                  {i > 0 && <span class="mx-2">&bull;</span>}
+                  <span class="whitespace-nowrap">
+                    <CardName name={card} />
+                  </span>
                 </>
               ))}
             </p>
