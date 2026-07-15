@@ -44,17 +44,9 @@ Notes:
     playing, e.g. 0-0) is actually plausible: even there it's been the real score
     only once ever (out of 42), and never in an earlier round. Fix the score by hand
     if a warned draw turns out to be one - compare against topdeck.gg.
-  - Also writes a placeholder data/archetypes/{Event Name}.json (every deck ID mapped
-    to "Unknown") if that file doesn't already exist, so there's a file ready to hand-tag
-    archetypes into. This check ignores --force - --force only re-fetches topdeck.gg data,
-    it never touches (or overwrites) archetype tagging, since that's hand-curated work.
-  - Before falling back to that placeholder, the deck list is POSTed to the archetype
-    classifier at masadora.ddns.net:8913 (same endpoint/payload shape as the old manual
-    curl workflow). That endpoint is unreliable (it's a home server, can be offline or
-    error), so any failure - timeout, connection error, non-200, unexpected response
-    shape - is caught and just falls back to the "Unknown" skeleton; it never blocks the
-    rest of the pipeline. Only classified deck IDs overwrite their placeholder entry, so
-    a partial response still improves on all-Unknown.
+  - Archetype tagging (data/archetypes/{Event Name}.json) is NOT handled here anymore -
+    run scripts/fetch_archetypes_data.py afterwards to seed/classify archetypes for any
+    newly-written decks.json.
 """
 
 import argparse
@@ -70,11 +62,8 @@ import requests
 from utils import strip_pronoun_suffix
 
 API_BASE = "https://topdeck.gg/api/v2"
-CLASSIFIER_URL = "http://masadora.ddns.net:8913"
-CLASSIFIER_TIMEOUT = 60  # seconds - unreliable home server, don't hang the pipeline on it
 SECRETS_FILE = Path("data/secrets.json")
 TOPDECK_DIR = Path("data/topdeck")
-ARCHETYPES_DIR = Path("data/archetypes")
 TZ = ZoneInfo("Europe/Amsterdam")
 
 
@@ -106,27 +95,6 @@ def round_csv_filename(event_name: str, round_num: int) -> str:
 
 def deck_section_to_list(section):
     return [{"quantity": info["count"], "name": name} for name, info in (section or {}).items()]
-
-
-def classify_archetypes(event_name: str, deck_entries: list) -> dict | None:
-    """POST decks to the (unreliable) archetype classifier. Returns {deck_id: archetype}
-    on success, or None on any failure - network error, timeout, non-200, or a response
-    that isn't the expected {id: archetype} mapping (e.g. the classifier's own
-    {"error": "..."} shape). Callers should fall back to the "Unknown" placeholder."""
-    payload = {"event": event_name, "decks": deck_entries}
-    try:
-        resp = requests.post(CLASSIFIER_URL, json=payload, timeout=CLASSIFIER_TIMEOUT)
-        resp.raise_for_status()
-        data = resp.json()
-    except (requests.RequestException, ValueError) as e:
-        print(f"  ⚠️  Archetype classifier unavailable ({e}) - leaving placeholder Unknowns")
-        return None
-
-    if not isinstance(data, dict) or "error" in data:
-        print(f"  ⚠️  Archetype classifier returned an error ({data}) - leaving placeholder Unknowns")
-        return None
-
-    return data
 
 
 def write_csv(path: Path, header, rows, *, bom: bool, crlf: bool, quote_all: bool):
@@ -224,26 +192,6 @@ def fetch_tournament(session, tid: str, event_name: str, date_str: str, force: b
     with open(decks_path, 'w', encoding='utf-8') as f:
         json.dump({"event": event_name, "decks": deck_entries}, f, indent=2, ensure_ascii=False)
     print(f"  ✅ {decks_path} ({len(deck_entries)} decks)")
-
-    archetypes_path = ARCHETYPES_DIR / f"{event_name}.json"
-    if archetypes_path.exists():
-        print(f"  ⏭  {archetypes_path} already exists, leaving it alone")
-    else:
-        archetypes = {s["id"]: "Unknown" for s in standings}
-        classified = classify_archetypes(event_name, deck_entries)
-        if classified:
-            for deck_id, archetype in classified.items():
-                if deck_id in archetypes and archetype:
-                    archetypes[deck_id] = archetype
-        archetypes_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(archetypes_path, 'w', encoding='utf-8') as f:
-            json.dump(archetypes, f, indent=2, sort_keys=True)
-        classified_count = sum(1 for v in archetypes.values() if v != "Unknown")
-        if classified_count:
-            print(f"  ✅ {archetypes_path} ({classified_count}/{len(archetypes)} classified"
-                  f"{', rest left as Unknown - tag by hand' if classified_count < len(archetypes) else ''})")
-        else:
-            print(f"  ✅ {archetypes_path} (placeholder, {len(archetypes)} decks - tag archetypes by hand)")
 
     rounds = api_get(session, f"/tournaments/{tid}/rounds") or []
     last_round_num = max((r["round"] for r in rounds), default=None)

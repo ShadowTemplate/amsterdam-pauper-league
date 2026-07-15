@@ -77,6 +77,12 @@
     "released_at": "2024-06-14",
     "set": "mh3"
   },
+  "Aethertow": {
+    "front": "/scryfall/72a656e7-9c1c-40b6-91fe-0098f72d8384.jpg",
+    "id": "72a656e7-9c1c-40b6-91fe-0098f72d8384",
+    "released_at": "2008-05-02",
+    "set": "shm"
+  },
   "Agony Warp": {
     "front": "/scryfall/e246294f-7614-48e9-a655-647faf0bf697.jpg",
     "id": "e246294f-7614-48e9-a655-647faf0bf697",
@@ -809,6 +815,12 @@
     "released_at": "2020-09-25",
     "set": "znr"
   },
+  "Brokers Hideout": {
+    "front": "/scryfall/989b299b-daa9-4bda-94e2-9a2f0e8f2bce.jpg",
+    "id": "989b299b-daa9-4bda-94e2-9a2f0e8f2bce",
+    "released_at": "2022-04-29",
+    "set": "snc"
+  },
   "Brood Birthing": {
     "front": "/scryfall/0e44f7ff-1cfa-4bc4-a0f7-9d71ba48a97a.jpg",
     "id": "0e44f7ff-1cfa-4bc4-a0f7-9d71ba48a97a",
@@ -934,6 +946,12 @@
     "id": "2ef878cb-27b6-47d8-ad11-bd20529b0e7e",
     "released_at": "2023-06-23",
     "set": "ltr"
+  },
+  "Castigate": {
+    "front": "/scryfall/8114941e-71b8-4310-8c2a-bee7f940b724.jpg",
+    "id": "8114941e-71b8-4310-8c2a-bee7f940b724",
+    "released_at": "2006-01-01",
+    "set": "pal06"
   },
   "Cathar Commando": {
     "front": "/scryfall/98cbc1c2-b76e-4da3-aa43-00e10b2ce532.jpg",
@@ -3367,6 +3385,12 @@
     "released_at": "2020-11-20",
     "set": "cmr"
   },
+  "Indoctrination Attendant": {
+    "front": "/scryfall/d051bfc7-b402-444d-896e-c3a9562cdb0d.jpg",
+    "id": "d051bfc7-b402-444d-896e-c3a9562cdb0d",
+    "released_at": "2023-02-10",
+    "set": "one"
+  },
   "Infectious Inquiry": {
     "front": "/scryfall/0a10f284-b043-4307-bdc7-6dad47cc9221.jpg",
     "id": "0a10f284-b043-4307-bdc7-6dad47cc9221",
@@ -3564,6 +3588,12 @@
     "id": "1cc6a5e6-0b73-4488-8954-4b168ce7106d",
     "released_at": "2010-02-05",
     "set": "wwk"
+  },
+  "Kick in the Door": {
+    "front": "/scryfall/222102d0-fed3-41fd-87b0-f6d22766d7fd.jpg",
+    "id": "222102d0-fed3-41fd-87b0-f6d22766d7fd",
+    "released_at": "2021-07-23",
+    "set": "afr"
   },
   "Kiln Fiend": {
     "front": "/scryfall/0c584268-67c3-411b-a26c-aee3adf23872.jpg",
@@ -5368,6 +5398,12 @@
     "released_at": "2008-05-02",
     "set": "shm"
   },
+  "Rite of Flame": {
+    "front": "/scryfall/c062caf7-f0eb-44db-9f74-e6711a13fada.jpg",
+    "id": "c062caf7-f0eb-44db-9f74-e6711a13fada",
+    "released_at": "2006-07-21",
+    "set": "csp"
+  },
   "River Boa": {
     "front": "/scryfall/2e9d5aaf-b7e8-4676-aec8-7d29a0169a2c.jpg",
     "id": "2e9d5aaf-b7e8-4676-aec8-7d29a0169a2c",
@@ -5926,6 +5962,12 @@
     "released_at": "2005-10-07",
     "set": "rav"
   },
+  "Sigil of Sleep": {
+    "front": "/scryfall/a31f3c70-e2c3-479e-8d22-2fd1429e9857.jpg",
+    "id": "a31f3c70-e2c3-479e-8d22-2fd1429e9857",
+    "released_at": "1999-06-07",
+    "set": "uds"
+  },
   "Sign in Blood": {
     "front": "/scryfall/1975ed97-acb8-4bb6-804a-e5da725d876e.jpg",
     "id": "1975ed97-acb8-4bb6-804a-e5da725d876e",
@@ -5949,6 +5991,12 @@
     "id": "42583850-ba5c-4a71-8717-406b5c6d048f",
     "released_at": "2021-04-23",
     "set": "stx"
+  },
+  "Simian Spirit Guide": {
+    "front": "/scryfall/5d7f701c-dcdc-4067-8d00-b4b7aadee9ba.jpg",
+    "id": "5d7f701c-dcdc-4067-8d00-b4b7aadee9ba",
+    "released_at": "2007-02-02",
+    "set": "plc"
   },
   "Simic Growth Chamber": {
     "front": "/scryfall/407d0a0c-a6be-4bd5-8355-1715698c6bde.jpg",
@@ -6367,6 +6415,12 @@
   "Steelfin Whale": {
     "front": "/scryfall/7e7ca8b6-d7e0-4af2-a578-bf45a8731c19.jpg",
     "id": "7e7ca8b6-d7e0-4af2-a578-bf45a8731c19",
+    "released_at": "2021-06-18",
+    "set": "mh2"
+  },
+  "Step Through": {
+    "front": "/scryfall/716534cb-aa89-4de7-9aa5-8d8aa4422a6a.jpg",
+    "id": "716534cb-aa89-4de7-9aa5-8d8aa4422a6a",
     "released_at": "2021-06-18",
     "set": "mh2"
   },
@@ -6919,6 +6973,12 @@
     "id": "09666671-601e-4fca-bdfb-fb288bf2672c",
     "released_at": "2012-02-03",
     "set": "dka"
+  },
+  "Trailblazer's Torch": {
+    "front": "/scryfall/0c4f76ae-e93b-4ca1-ac62-753707f6319e.jpg",
+    "id": "0c4f76ae-e93b-4ca1-ac62-753707f6319e",
+    "released_at": "2022-06-10",
+    "set": "clb"
   },
   "Tramway Station": {
     "front": "/scryfall/e0532304-da6d-45cd-b1e6-4779d3f3b2bc.jpg",
@@ -7555,5 +7615,11 @@
     "id": "9090b055-3406-4fed-a8c6-3f6353a9600e",
     "released_at": "2025-11-21",
     "set": "tla"
+  },
+  "_____ Goblin": {
+    "front": "/scryfall/5819e3f3-da49-4003-88ce-f3b7bb495787.jpg",
+    "id": "5819e3f3-da49-4003-88ce-f3b7bb495787",
+    "released_at": "2022-10-07",
+    "set": "unf"
   }
 }

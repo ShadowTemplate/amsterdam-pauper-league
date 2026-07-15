@@ -1686,7 +1686,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 33,
-        deckId: "b87lvko301ze1ph6a33xmnjf",
+        deckId: "mh2hukc7cp97extjtp8kmyod",
         deck: "MonoU Terror",
         deckSlug: "monou_terror",
         rounds: [
@@ -5876,7 +5876,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
     ],
-    petCards: ["Banehound", "Captured Sunlight", "Cram Session", "Deny Reality", "Grave Scrabbler", "Guerrilla Gorilla", "Night Market", "Ornithopter of Paradise", "Slippery Karst", "Spore Frog", "Tilling Treefolk", "Vessel of Nascency"],
+    petCards: ["Aethertow", "Banehound", "Captured Sunlight", "Cram Session", "Deny Reality", "Grave Scrabbler", "Guerrilla Gorilla", "Night Market", "Ornithopter of Paradise", "Slippery Karst", "Spore Frog", "Step Through", "Tilling Treefolk", "Vessel of Nascency"],
     rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -6217,7 +6217,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 26,
-        deckId: "Xopd3GyttdWVeaJPcGZXV0A7qi92",
+        deckId: "u7xdvv4rkz3pkxk0ld92rhz6",
         deck: "Familiars",
         deckSlug: "familiars",
         rounds: [
@@ -6327,7 +6327,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 24,
-        deckId: "df1yge4b8oi6ks3zp4jb0mno",
+        deckId: "c8rehgeqrvv61iy9an37ylks",
         deck: "Azorius Glitters",
         deckSlug: "azorius_glitters",
         rounds: [
@@ -7371,7 +7371,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 20,
-        deckId: "a4oub6nwlv3ggzipw46jwpsn",
+        deckId: "mbixg377mep8iqrqciavdos1",
         deck: "Dimir Faeries",
         deckSlug: "dimir_faeries",
         rounds: [
@@ -10305,7 +10305,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Naya Turbo Emblem", slug: "naya_turbo_emblem", count: 1 },
     ],
-    petCards: [],
+    petCards: ["_____ Goblin", "Kick in the Door", "Rite of Flame", "Simian Spirit Guide", "Trailblazer's Torch"],
     rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
@@ -10328,7 +10328,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 28,
-        deckId: "dorvhzzfvpsdbecqvym9i3f1",
+        deckId: "m6zj1678ikr1ljlzbfbqi6h9",
         deck: "Naya Turbo Emblem",
         deckSlug: "naya_turbo_emblem",
         rounds: [
@@ -10454,7 +10454,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 17,
-        deckId: "ilmuxbvsoq9mo3vbpliah77o",
+        deckId: "ulb2qqtpvjx4cpy4f9vyax03",
         deck: "Dimir Faeries",
         deckSlug: "dimir_faeries",
         rounds: [
@@ -11332,7 +11332,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 23,
-        deckId: "AT81NVr1HlVmMnXl4luvUorE8Zk1",
+        deckId: "h12wh0npigy1x0w2yq4rcp5m",
         deck: "Dimir Faeries",
         deckSlug: "dimir_faeries",
         rounds: [
@@ -11640,7 +11640,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Orzhov Blade", slug: "orzhov_blade", count: 2 },
     ],
-    petCards: ["Sunlit Marsh"],
+    petCards: [],
     rival: null,
     results: [
       {
@@ -12267,7 +12267,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 19,
-        deckId: "w2yuhishz4g1rkojhtdycfyf",
+        deckId: "i7g7th4hdopeu51nxexn2i3e",
         deck: "Boros Glitters",
         deckSlug: "boros_glitters",
         rounds: [
@@ -12894,7 +12894,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Walls", slug: "walls", count: 1 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
-    petCards: ["Arctic Treeline", "Bonebind Orator", "Burning Curiosity", "Death Speakers", "Early Frost", "How to Start a Riot", "Preemptive Strike", "Pyrite Spellbomb", "Rift Sower", "Smoldering Crater", "Tin Street Hooligan", "Whitemane Lion"],
+    petCards: ["Arctic Treeline", "Bonebind Orator", "Burning Curiosity", "Castigate", "Death Speakers", "Early Frost", "How to Start a Riot", "Indoctrination Attendant", "Preemptive Strike", "Pyrite Spellbomb", "Rift Sower", "Smoldering Crater", "Tin Street Hooligan", "Whitemane Lion"],
     rival: null,
     results: [
       {
@@ -13254,7 +13254,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 18,
-        deckId: "sst2e8pkfefmcpcac7hj42n5",
+        deckId: "ye1h5qum0opeicsa5cibcs80",
         deck: "Orzhov Blade",
         deckSlug: "orzhov_blade",
         rounds: [
@@ -13420,7 +13420,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "Poison Storm", slug: "poison_storm", count: 1 },
     ],
-    petCards: [],
+    petCards: ["Sigil of Sleep"],
     rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 1, draws: 1, winRate: "0.00%" },
     results: [
       {
@@ -13443,7 +13443,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 13,
-        deckId: "u6cdfg6x86967galw7mb15su",
+        deckId: "fhlxehxyjd9nztyqcx082vx7",
         deck: "MonoU Faeries",
         deckSlug: "monou_faeries",
         rounds: [
@@ -13845,7 +13845,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 31,
-        deckId: "u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
+        deckId: "vejolx31wnrcmqreyvzgvc1c",
         deck: "Boros Glitters",
         deckSlug: "boros_glitters",
         rounds: [
@@ -14097,7 +14097,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
-    petCards: ["Anchovy & Banana Pizza", "Foundry Helix"],
+    petCards: ["Anchovy & Banana Pizza"],
     rival: null,
     results: [
       {
@@ -14426,7 +14426,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 14,
-        deckId: "zheci5cljvm4xd34pf4bxxnd",
+        deckId: "v92vpjebqzjmaew59l1yfqxb",
         deck: "Azorius Glitters",
         deckSlug: "azorius_glitters",
         rounds: [
@@ -15320,7 +15320,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 32,
-        deckId: "zeaagktrx129mwo322rdue1r",
+        deckId: "xlxj1fzhdsxnozvbi0ifkt0z",
         deck: "Stompy",
         deckSlug: "stompy",
         rounds: [
@@ -17371,7 +17371,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 21,
-        deckId: "hyn7rkxvm0bjljt8q0hf5zh2",
+        deckId: "oud0q4gpq0omadj52cfgvqm3",
         deck: "Moggwarts",
         deckSlug: "moggwarts",
         rounds: [
@@ -18284,7 +18284,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
     ],
-    petCards: ["Bitter Reunion", "Kabira Crossroads"],
+    petCards: ["Bitter Reunion", "Brokers Hideout", "Kabira Crossroads"],
     rival: null,
     results: [
       {
@@ -18438,7 +18438,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 22,
-        deckId: "k70Ar8wnHcRcDGN7hKwhV96S5ml2",
+        deckId: "v9fmc46e0sq4t5xvbohxmp02",
         deck: "Familiars",
         deckSlug: "familiars",
         rounds: [
@@ -20022,7 +20022,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 15,
-        deckId: "jq3MPltEh3gT3UnxatUV5wsHLv82",
+        deckId: "e1d8sqo2q9x2fmq87tkr04ot",
         deck: "Temur Ponza",
         deckSlug: "temur_ponza",
         rounds: [
@@ -20765,7 +20765,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 29,
-        deckId: "rwsbvbqyrbeejmmk13xpjpcb",
+        deckId: "g13eg8edrz8dwhusljn19qh9",
         deck: "Gruul Ponza",
         deckSlug: "gruul_ponza",
         rounds: [
@@ -22408,7 +22408,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 25,
-        deckId: "v12ywx0oys9qyx28wwd94wjd",
+        deckId: "v10ggi8dko4hzyklabakh15r",
         deck: "Dimir Terror",
         deckSlug: "dimir_terror",
         rounds: [
@@ -22876,7 +22876,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventSlug: "2024-04-13",
         eventName: "Dutch Pauper League – 2° Leg – 2024",
         position: 27,
-        deckId: "h4zh150zrunpy2nygrt281xl",
+        deckId: "d144y2kfubud4r398stamfq6",
         deck: "Bogles",
         deckSlug: "bogles",
         rounds: [

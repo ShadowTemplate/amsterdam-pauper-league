@@ -6,20 +6,21 @@ data/ input into everything under src/lib/data/ and src/lib/data-layer.ts.
 Pipeline (each step's output feeds later steps - order matters):
   1. fetch_topdeck_data.py       (fetches any new completed event from the topdeck.gg API -
                                    auto-discovers, skips events already in data/topdeck/)
-  2. generate_events.py
-  3. generate_players.py
-  4. generate_archetypes.py
-  5. generate_decks.py           (needs events/ from step 2)
-  6. generate_decks_lib.py       (needs src/lib/data/decks/ from step 5)
-  7. download_card_images.py     (needs src/lib/data/decks/ from step 5, hits the Scryfall API)
-  8. generate_card_images.py     (needs data/scryfall/manifest.json from step 7)
-  9. generate_seasons.py         (needs events/ from step 2)
-  10. generate_data_layer.py     (needs events/ from step 2, seasons/ from step 9)
+  2. fetch_archetypes_data.py    (seeds/classifies data/archetypes/{Event Name}.json for any
+                                   decks.json from step 1 that doesn't have one yet)
+  3. generate_events.py
+  4. generate_players.py
+  5. generate_archetypes.py
+  6. generate_decks.py           (needs events/ from step 3)
+  7. generate_decks_lib.py       (needs src/lib/data/decks/ from step 6)
+  8. download_card_images.py     (needs src/lib/data/decks/ from step 6, hits the Scryfall API)
+  9. generate_card_images.py     (needs data/scryfall/manifest.json from step 8)
+  10. generate_seasons.py        (needs events/ from step 3)
+  11. generate_data_layer.py     (needs events/ from step 3, seasons/ from step 10)
 
-Note: step 1 auto-creates a placeholder data/archetypes/{Event Name}.json (every
-deck mapped to "Unknown") for any newly-fetched event that doesn't have one yet,
-so a brand new event will get published with "Unknown" archetypes until someone
-tags it by hand and re-runs this pipeline.
+Note: step 2 seeds every deck as "Unknown" and tries the (unreliable) archetype
+classifier to improve on that; whatever's left "Unknown" needs hand-tagging and a
+pipeline re-run to pick up the correction - it's never overwritten automatically.
 
 Not part of this pipeline:
   - convert_past_event_decks.py is a one-off backfill script for historical
@@ -37,6 +38,7 @@ SCRIPTS_DIR = Path(__file__).parent
 
 STEPS = [
     "fetch_topdeck_data.py",
+    "fetch_archetypes_data.py",
     "generate_events.py",
     "generate_players.py",
     "generate_archetypes.py",
