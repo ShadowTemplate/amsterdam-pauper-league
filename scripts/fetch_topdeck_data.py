@@ -34,9 +34,11 @@ Notes:
     so this never blocks the pipeline.
   - Draws are reported by the API with no game score (winner_games/loser_games are
     null) - historically 236/237 draws in this league were played out 1-1, so that's
-    the default assumed here. A warning is printed for every draw so a top-table
-    intentional draw (players agreeing to an "ID" without playing, e.g. 0-0) can be
-    fixed by hand if needed - compare against the round pairings on topdeck.gg.
+    the default assumed here. A warning is only printed for last-round draws, since
+    that's where an intentional draw (an "ID" - players agreeing to draw without
+    playing, e.g. 0-0) is actually plausible: even there it's been the real score
+    only once ever (out of 42), and never in an earlier round. Fix the score by hand
+    if a warned draw turns out to be one - compare against topdeck.gg.
   - Also writes a placeholder data/archetypes/{Event Name}.json (every deck ID mapped
     to "Unknown") if that file doesn't already exist, so there's a file ready to hand-tag
     archetypes into. This check ignores --force - --force only re-fetches topdeck.gg data,
@@ -99,16 +101,17 @@ def write_csv(path: Path, header, rows, *, bom: bool, crlf: bool, quote_all: boo
         writer.writerows(rows)
 
 
-def resolve_winner(table, p0, p1, event_name, round_num, table_idx):
+def resolve_winner(table, p0, p1, event_name, round_num, table_idx, is_last_round):
     winner_id = table.get("winner_id")
     winner_name = table.get("winner")
     winner_games, loser_games = table.get("winner_games"), table.get("loser_games")
 
     if winner_name == "Draw" or winner_id == "Draw":
-        print(f"  ⚠️  Round {round_num} Table {table_idx}: draw between "
-              f"{p0['name'].strip()} and {p1['name'].strip()} - the API doesn't report a "
-              f"game score for draws, defaulting to 1-1. If this was an intentional draw "
-              f"(ID) rather than a played match, fix the score by hand.")
+        if is_last_round:
+            print(f"  ⚠️  Round {round_num} Table {table_idx}: draw between "
+                  f"{p0['name'].strip()} and {p1['name'].strip()} - the API doesn't report a "
+                  f"game score for draws, defaulting to 1-1. This is the last round, where an "
+                  f"intentional draw (ID) is most likely - if this was one, fix the score by hand.")
         return 1, 1
 
     if winner_id == p0.get("id"):
@@ -196,8 +199,10 @@ def fetch_tournament(session, tid: str, event_name: str, date_str: str, force: b
         print(f"  ✅ {archetypes_path} (placeholder, {len(placeholder)} decks - tag archetypes by hand)")
 
     rounds = api_get(session, f"/tournaments/{tid}/rounds") or []
+    last_round_num = max((r["round"] for r in rounds), default=None)
     for round_obj in rounds:
         round_num = round_obj["round"]
+        is_last_round = round_num == last_round_num
         rows = []
         for idx, table in enumerate(round_obj["tables"], start=1):
             players = table["players"]
@@ -206,7 +211,7 @@ def fetch_tournament(session, tid: str, event_name: str, date_str: str, force: b
                 rows.append([str(idx), p0["name"].strip(), "-", "-", "-"])
                 continue
             p1 = players[1]
-            p0_wins, p1_wins = resolve_winner(table, p0, p1, event_name, round_num, idx)
+            p0_wins, p1_wins = resolve_winner(table, p0, p1, event_name, round_num, idx, is_last_round)
             rows.append([str(idx), p0["name"].strip(), str(p0_wins), p1["name"].strip(), str(p1_wins)])
 
         round_path = TOPDECK_DIR / "rounds" / round_csv_filename(event_name, round_num)

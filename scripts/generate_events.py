@@ -36,7 +36,7 @@ def main():
         event_name = extract_event_name(standings_file.name)
         event_slug = extract_date_from_filename(standings_file.name)
 
-        print(f"\nProcessing: {event_name}...", end=' ', flush=True)
+        print(f"Processing: {event_name}...", end=' ', flush=True)
 
         if not event_slug:
             print(f"❌ Could not extract date from filename")
