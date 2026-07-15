@@ -42,7 +42,7 @@ src/
 ├── layouts/        # Layout components
 ├── components/     # Astro components
 ├── styles/         # CSS (Tailwind v4 syntax)
-├── lib/            # Utilities and data (mock-data.ts)
+├── lib/            # Utilities and data (data-layer.ts)
 └── types/          # TypeScript types
 public/             # Static assets (CNAME for custom domain)
 ```

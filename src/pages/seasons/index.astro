@@ -1,3 +1,5 @@
 ---
-return Astro.redirect("/seasons/2026", 302);
+import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
+
+return Astro.redirect(`/seasons/${CURRENT_SEASON_YEAR}`, 302);
 ---

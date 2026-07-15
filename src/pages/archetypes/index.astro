@@ -1,7 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import ArchetypeSearch from "@/components/ArchetypeSearch.astro";
-import { ARCHETYPES } from "@/lib/mock-data";
+import { ARCHETYPES } from "@/lib/data-layer";
 
 const archetypes = ARCHETYPES;
 const totalDecks = archetypes.reduce((sum, a) => sum + a.count, 0);

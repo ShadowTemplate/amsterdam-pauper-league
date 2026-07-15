@@ -1,7 +1,9 @@
 ---
+import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
+
 const navLinks = [
-  { href: "/seasons/2026", label: "Seasons" },
-  { href: "/events/2026", label: "Events" },
+  { href: `/seasons/${CURRENT_SEASON_YEAR}`, label: "Seasons" },
+  { href: `/events/${CURRENT_SEASON_YEAR}`, label: "Events" },
   { href: "/players", label: "Players" },
   { href: "/archetypes", label: "Archetypes" },
   { href: "/faq", label: "FAQ" },

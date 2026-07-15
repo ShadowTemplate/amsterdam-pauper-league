@@ -1,0 +1,24 @@
+{
+  "2024": {
+    "awards": [
+      { "playerSlug": "bram_deppenbroek", "flight": true, "bye": true },
+      { "playerSlug": "nicolas_komanski", "flight": true, "bye": true }
+    ],
+    "status": "completed",
+    "bestOfCap": null
+  },
+  "2025": {
+    "awards": [
+      { "playerSlug": "bram_deppenbroek", "flight": true, "bye": true },
+      { "playerSlug": "jan_rijnbeek", "flight": true, "bye": true }
+    ],
+    "status": "completed",
+    "bestOfCap": null
+  },
+  "2026": {
+    "awards": [
+    ],
+    "status": "ongoing",
+    "bestOfCap": 7
+  }
+}
