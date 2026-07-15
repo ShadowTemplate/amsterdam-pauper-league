@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import CardName from "@/components/CardName.astro";
 import { getDeck, getStaticDeckPaths } from "@/lib/decks";
 import { PLAYERS, getEvent } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
@@ -75,7 +76,7 @@ const totalCards = mainDeckTotal + sideboardTotal;
               {deck.mainDeck.map((card) => (
                 <tr class="hover:bg-muted/50">
                   <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
-                  <td>{card.name}</td>
+                  <td><CardName name={card.name} /></td>
                 </tr>
               ))}
             </tbody>
@@ -93,7 +94,7 @@ const totalCards = mainDeckTotal + sideboardTotal;
                 {deck.sideboard.map((card) => (
                   <tr class="hover:bg-muted/50">
                     <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
-                    <td>{card.name}</td>
+                    <td><CardName name={card.name} /></td>
                   </tr>
                 ))}
               </tbody>

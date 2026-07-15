@@ -1,0 +1,134 @@
+{/*
+  Shared floating preview shown by any element with a data-card-front
+  attribute (see CardName.astro). One instance per page, included once in
+  the root layout: desktop hovers/focuses a trigger to preview it, touch
+  devices tap a trigger to pin/unpin it; tapping outside dismisses it.
+*/}
+<div id="card-preview-popup" class="card-preview-popup" hidden>
+  <img class="card-preview-img" data-face="front" alt="" />
+  <img class="card-preview-img" data-face="back" alt="" hidden />
+</div>
+
+<style>
+  .card-preview-popup {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    gap: 0.5rem;
+    top: 0;
+    left: 0;
+  }
+
+  .card-preview-img {
+    width: 220px;
+    max-width: 42vw;
+    aspect-ratio: 63 / 88;
+    object-fit: cover;
+    border-radius: 4.5% / 3.2%;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.55);
+    background: var(--muted);
+  }
+</style>
+
+<script>
+  const popup = document.getElementById("card-preview-popup") as HTMLElement;
+  const frontImg = popup.querySelector('[data-face="front"]') as HTMLImageElement;
+  const backImg = popup.querySelector('[data-face="back"]') as HTMLImageElement;
+
+  // Set once a trigger is clicked/tapped; keeps the preview open through
+  // mouseout so touch taps (and desktop "click to pin") don't auto-dismiss.
+  let pinnedTrigger: HTMLElement | null = null;
+
+  function triggerOf(target: EventTarget | null): HTMLElement | null {
+    return target instanceof Element ? target.closest<HTMLElement>("[data-card-front]") : null;
+  }
+
+  function showPreview(trigger: HTMLElement) {
+    const front = trigger.dataset.cardFront;
+    const back = trigger.dataset.cardBack;
+    if (!front) return;
+
+    frontImg.src = front;
+    frontImg.hidden = false;
+    if (back) {
+      backImg.src = back;
+      backImg.hidden = false;
+    } else {
+      backImg.hidden = true;
+      backImg.removeAttribute("src");
+    }
+
+    popup.hidden = false;
+    positionPopup(trigger);
+  }
+
+  function hidePreview() {
+    popup.hidden = true;
+    pinnedTrigger = null;
+  }
+
+  function positionPopup(trigger: HTMLElement) {
+    const rect = trigger.getBoundingClientRect();
+    const popupRect = popup.getBoundingClientRect();
+    const margin = 12;
+
+    let left = rect.right + margin;
+    if (left + popupRect.width > window.innerWidth - margin) {
+      left = rect.left - popupRect.width - margin;
+    }
+    left = Math.min(Math.max(margin, left), Math.max(margin, window.innerWidth - popupRect.width - margin));
+
+    let top = rect.top - (popupRect.height - rect.height) / 2;
+    top = Math.min(Math.max(margin, top), Math.max(margin, window.innerHeight - popupRect.height - margin));
+
+    popup.style.left = `${left}px`;
+    popup.style.top = `${top}px`;
+  }
+
+  const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+
+  if (hoverCapable) {
+    document.addEventListener("mouseover", (e) => {
+      const trigger = triggerOf(e.target);
+      if (trigger) showPreview(trigger);
+    });
+    document.addEventListener("mouseout", (e) => {
+      const trigger = triggerOf(e.target);
+      if (trigger && trigger !== pinnedTrigger) hidePreview();
+    });
+    document.addEventListener("focusin", (e) => {
+      const trigger = triggerOf(e.target);
+      if (trigger) showPreview(trigger);
+    });
+    document.addEventListener("focusout", (e) => {
+      const trigger = triggerOf(e.target);
+      if (trigger && trigger !== pinnedTrigger) hidePreview();
+    });
+  }
+
+  document.addEventListener("click", (e) => {
+    const trigger = triggerOf(e.target);
+    if (trigger) {
+      if (pinnedTrigger === trigger) {
+        hidePreview();
+      } else {
+        pinnedTrigger = trigger;
+        showPreview(trigger);
+      }
+      e.stopPropagation();
+      return;
+    }
+    if (!popup.hidden) hidePreview();
+  });
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (pinnedTrigger) positionPopup(pinnedTrigger);
+    },
+    true,
+  );
+  window.addEventListener("resize", () => {
+    if (pinnedTrigger) positionPopup(pinnedTrigger);
+  });
+</script>

@@ -1,0 +1,23 @@
+---
+import { CARD_IMAGES } from "@/lib/data/card-images";
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+const image = CARD_IMAGES[name];
+---
+
+{image ? (
+  <span
+    class="card-preview-trigger cursor-default underline decoration-dotted decoration-muted-foreground underline-offset-4 hover:text-primary"
+    data-card-front={image.front}
+    data-card-back={image.back}
+    tabindex="0"
+    role="button"
+    aria-label={`Preview ${name}`}
+  >{name}</span>
+) : (
+  name
+)}

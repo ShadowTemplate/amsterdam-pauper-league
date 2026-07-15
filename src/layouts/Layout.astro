@@ -1,6 +1,7 @@
 ---
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import CardPreviewPopup from "@/components/CardPreviewPopup.astro";
 import "@/styles/globals.css";
 
 interface Props {
@@ -27,5 +28,6 @@ const {
     <Header />
     <slot />
     <Footer />
+    <CardPreviewPopup />
   </body>
 </html>
