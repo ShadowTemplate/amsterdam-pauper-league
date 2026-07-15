@@ -57,7 +57,7 @@ export const eventDetail: EventDetail = {
     { position: 40, player: "Michael Joseph Purcell", playerSlug: "michael_joseph_purcell", deck: "MonoR Tron", deckSlug: "monor_tron", omwPercentage: "49.94%", matchPoints: 6 },
     { position: 41, player: "Arne Klarenberg", playerSlug: "arne_klarenberg", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "45.26%", matchPoints: 6 },
     { position: 42, player: "Mark Coehoorn", playerSlug: "mark_coehoorn", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "44.39%", matchPoints: 6 },
-    { position: 43, player: "Abe Mulder", playerSlug: "abe_mulder", deck: "Brew", deckSlug: "brew", omwPercentage: "44.39%", matchPoints: 6 },
+    { position: 43, player: "Abe Mulder", playerSlug: "abe_mulder", deck: "MonoR Dredge", deckSlug: "monor_dredge", omwPercentage: "44.39%", matchPoints: 6 },
     { position: 44, player: "Roberto Schiavone", playerSlug: "roberto_schiavone", deck: "Dimir Faeries", deckSlug: "dimir_faeries", omwPercentage: "40.69%", matchPoints: 5 },
     { position: 45, player: "Douwe Kasemier", playerSlug: "douwe_kasemier", deck: "MonoU High Tide", deckSlug: "monou_high_tide", omwPercentage: "44.39%", matchPoints: 4 },
     { position: 46, player: "Blom Bezemer", playerSlug: "blom_bezemer", deck: "Brew", deckSlug: "brew", omwPercentage: "51.85%", matchPoints: 3 },
@@ -68,7 +68,7 @@ export const eventDetail: EventDetail = {
   ],
   meta: [
     { archetype: "Rakdos Burn", archetypeSlug: "rakdos_burn", count: 6, percentage: "12.00%" },
-    { archetype: "Brew", archetypeSlug: "brew", count: 5, percentage: "10.00%" },
+    { archetype: "Brew", archetypeSlug: "brew", count: 4, percentage: "8.00%" },
     { archetype: "Gruul Ramp", archetypeSlug: "gruul_ramp", count: 3, percentage: "6.00%" },
     { archetype: "MonoU Faeries", archetypeSlug: "monou_faeries", count: 3, percentage: "6.00%" },
     { archetype: "Dimir Faeries", archetypeSlug: "dimir_faeries", count: 3, percentage: "6.00%" },
@@ -89,6 +89,7 @@ export const eventDetail: EventDetail = {
     { archetype: "Jeskai Ephemerate", archetypeSlug: "jeskai_ephemerate", count: 1, percentage: "2.00%" },
     { archetype: "Familiars", archetypeSlug: "familiars", count: 1, percentage: "2.00%" },
     { archetype: "MonoR Tron", archetypeSlug: "monor_tron", count: 1, percentage: "2.00%" },
+    { archetype: "MonoR Dredge", archetypeSlug: "monor_dredge", count: 1, percentage: "2.00%" },
     { archetype: "Poison Storm", archetypeSlug: "poison_storm", count: 1, percentage: "2.00%" },
   ],
 };
