@@ -54,6 +54,44 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
           </div>
         </div>
 
+        <!-- Archetypes recap -->
+        {detail.archetypes.length > 0 && (
+          <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-1">Archetypes played: {detail.archetypes.length}</h2>
+            <p class="text-sm text-muted-foreground">
+              {detail.archetypes.map((archetype, i) => (
+                <>
+                  {i > 0 && <span class="mx-2">&bull;</span>}
+                  <a
+                    href={`/archetypes/${archetype.slug}`}
+                    class="hover:underline underline-offset-4 whitespace-nowrap"
+                  >
+                    {archetype.count}x {archetype.name}
+                  </a>
+                </>
+              ))}
+            </p>
+          </div>
+        )}
+
+        <!-- Rival -->
+        {detail.rival && (
+          <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-1">
+              Rival:{" "}
+              <a
+                href={`/players/${detail.rival.slug}`}
+                class="hover:underline underline-offset-4"
+              >
+                {detail.rival.name}
+              </a>
+            </h2>
+            <p class="text-sm text-muted-foreground">
+              {detail.rival.gamesPlayed} games &bull; {detail.rival.winRate} win rate ({detail.rival.wins}-{detail.rival.losses}-{detail.rival.draws})
+            </p>
+          </div>
+        )}
+
         <!-- Results per event -->
         {detail.results.map((result) => (
           <section class="mb-8">

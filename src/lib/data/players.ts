@@ -288,6 +288,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "aartos_locos",
     name: "Aartos Locos",
     stats: { wins: 7, losses: 8, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 2 },
+      { name: "Monster Tron", slug: "monster_tron", count: 1 },
+    ],
+    rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -343,6 +348,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "abby",
     name: "Abby",
     stats: { wins: 0, losses: 5, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-04",
@@ -366,6 +375,18 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "abe_mulder",
     name: "Abe Mulder",
     stats: { wins: 49, losses: 38, draws: 5, byes: 0 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 4 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 3 },
+      { name: "Moggwarts", slug: "moggwarts", count: 2 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+      { name: "MonoW Heroic", slug: "monow_heroic", count: 1 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -615,6 +636,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "alessio_viali",
     name: "Alessio Viali",
     stats: { wins: 9, losses: 21, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Esper Blade", slug: "esper_blade", count: 2 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
+    ],
+    rival: { name: "Koen Zuidberg", slug: "koen_zuidberg", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -704,6 +732,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "alexander_boon",
     name: "Alexander Boon",
     stats: { wins: 3, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -728,6 +760,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "alexander_hamilton",
     name: "Alexander Hamilton",
     stats: { wins: 4, losses: 6, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Boros Tribe", slug: "boros_tribe", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -767,6 +804,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "alice_lenting",
     name: "Alice Lenting",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -790,6 +831,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "andrea_passaro",
     name: "Andrea Passaro",
     stats: { wins: 20, losses: 11, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Walls", slug: "walls", count: 5 },
+    ],
+    rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -878,6 +923,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "andrey_petukhov",
     name: "Andrey Petukhov",
     stats: { wins: 1, losses: 3, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-08-03",
@@ -911,6 +961,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "annemarije_boersma",
     name: "Annemarije Boersma",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoB Control", slug: "monob_control", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -934,6 +988,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "antonio_liguori",
     name: "Antonio Liguori",
     stats: { wins: 1, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -955,6 +1013,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "arne_de_greef",
     name: "Arne De Greef",
     stats: { wins: 2, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -979,6 +1041,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "arne_klarenberg",
     name: "Arne Klarenberg",
     stats: { wins: 8, losses: 31, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 4 },
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: { name: "Mirco Bonati", slug: "mirco_bonati", gamesPlayed: 4, wins: 0, losses: 3, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -1108,6 +1176,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ashley_bits",
     name: "Ashley Bits",
     stats: { wins: 19, losses: 23, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 3 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+      { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -1238,6 +1314,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "aurora_polak",
     name: "Aurora Polak",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -1261,6 +1341,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "axel_quasten",
     name: "Axel Quasten",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1285,6 +1369,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "bas_hendriks",
     name: "Bas Hendriks",
     stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Spy Walls", slug: "spy_walls", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -1308,6 +1396,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "bauke_ham",
     name: "Bauke Ham",
     stats: { wins: 6, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-10-05",
@@ -1346,6 +1438,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ben_luis_hack",
     name: "Ben Luis Hack",
     stats: { wins: 1, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1368,6 +1464,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ben_van_wijk",
     name: "Ben van Wijk",
     stats: { wins: 38, losses: 36, draws: 9, byes: 1 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 9 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 5 },
+    ],
+    rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 6, wins: 2, losses: 0, draws: 4, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1599,6 +1700,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "benjamin_haude",
     name: "Benjamin Haude",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1623,6 +1728,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "benjamin_mul",
     name: "Benjamin Mul",
     stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1647,6 +1756,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "blom_bezemer",
     name: "Blom Bezemer",
     stats: { wins: 6, losses: 11, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -1702,6 +1817,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "boris_romero",
     name: "boris romero",
     stats: { wins: 4, losses: 7, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+      { name: "Familiars", slug: "familiars", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1742,6 +1862,16 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "bram_deppenbroek",
     name: "Bram Deppenbroek",
     stats: { wins: 91, losses: 37, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 9 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 3 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 3 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Moggwarts", slug: "moggwarts", count: 1 },
+    ],
+    rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 7, wins: 4, losses: 3, draws: 0, winRate: "57.14%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -2100,6 +2230,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "cameron_sidhu",
     name: "Cameron Sidhu",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2124,6 +2258,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "camille_paquay",
     name: "Camille Paquay",
     stats: { wins: 0, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew Golgari", slug: "brew_golgari", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2145,6 +2283,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "catalin_apostol",
     name: "Catalin Apostol",
     stats: { wins: 3, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-09-07",
@@ -2168,6 +2310,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "clemens_gerteiser",
     name: "Clemens Gerteiser",
     stats: { wins: 29, losses: 21, draws: 7, byes: 0 },
+    archetypes: [
+      { name: "Izzet Terror", slug: "izzet_terror", count: 7 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 3 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -2332,6 +2479,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "collin_bos",
     name: "Collin Bos",
     stats: { wins: 16, losses: 20, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 2 },
+      { name: "Spy Walls", slug: "spy_walls", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -2437,6 +2590,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "dalilla_bezoen",
     name: "Dalilla Bezoen",
     stats: { wins: 6, losses: 11, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 3 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -2492,6 +2649,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "danila",
     name: "Danila",
     stats: { wins: 18, losses: 13, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 3 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-12-07",
@@ -2594,6 +2758,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "davey_barendregt",
     name: "Davey Barendregt",
     stats: { wins: 1, losses: 3, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Familiars", slug: "familiars", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -2617,6 +2785,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "david_horvath",
     name: "David Horvath",
     stats: { wins: 11, losses: 6, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
+    ],
+    rival: { name: "Ben van Wijk", slug: "ben_van_wijk", gamesPlayed: 2, wins: 1, losses: 0, draws: 1, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2673,6 +2845,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "davide_caviglia",
     name: "Davide Caviglia",
     stats: { wins: 1, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -2694,6 +2870,16 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "davy_baardink",
     name: "Davy Baardink",
     stats: { wins: 26, losses: 26, draws: 6, byes: 1 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
+      { name: "Dimir Control", slug: "dimir_control", count: 1 },
+      { name: "Golgari Dredge", slug: "golgari_dredge", count: 1 },
+      { name: "Inside Out", slug: "inside_out", count: 1 },
+      { name: "Moggwarts", slug: "moggwarts", count: 1 },
+      { name: "Naya Gates", slug: "naya_gates", count: 1 },
+    ],
+    rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2025-10-04",
@@ -2860,6 +3046,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "dennis_puetz",
     name: "Dennis Puetz",
     stats: { wins: 1, losses: 6, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2884,6 +3074,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "derin_unver",
     name: "Derin Ünver",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -2907,6 +3101,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "diego_cath",
     name: "Diego Cath",
     stats: { wins: 1, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-03-02",
@@ -2929,6 +3127,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "diego_orlandini",
     name: "Diego Orlandini",
     stats: { wins: 2, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2953,6 +3155,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "donato_bliek",
     name: "Donato Bliek",
     stats: { wins: 2, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2977,6 +3183,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "douwe_kasemier",
     name: "Douwe Kasemier",
     stats: { wins: 1, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-05-03",
@@ -3000,6 +3210,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "dylan_holly",
     name: "Dylan Holly",
     stats: { wins: 33, losses: 26, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 8 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -3168,6 +3383,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "dylan_van_gelder",
     name: "Dylan van Gelder",
     stats: { wins: 25, losses: 31, draws: 3, byes: 3 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 4 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 4 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+    ],
+    rival: { name: "Raven de Bruin", slug: "raven_de_bruin", gamesPlayed: 3, wins: 2, losses: 0, draws: 1, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -3337,6 +3559,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "edwin_bouwer",
     name: "Edwin bouwer",
     stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -3360,6 +3586,18 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "eef_vv",
     name: "Eef vV",
     stats: { wins: 71, losses: 54, draws: 2, byes: 1 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 6 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 5 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 2 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 2 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 2 },
+      { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -3705,6 +3943,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "elles_dijkhuizen",
     name: "Elles Dijkhuizen",
     stats: { wins: 11, losses: 12, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "One Land Spy", slug: "one_land_spy", count: 2 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Walls", slug: "walls", count: 1 },
+    ],
+    rival: { name: "Rob Nolle", slug: "rob_nolle", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-11-01",
@@ -3776,6 +4020,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "emanuele_rolando",
     name: "Emanuele Rolando",
     stats: { wins: 2, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -3800,6 +4048,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "emmanuel_blazquez",
     name: "Emmanuel Blazquez",
     stats: { wins: 8, losses: 8, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 2 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: { name: "Thijs", slug: "thijs", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -3857,6 +4110,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "erik_de_waard",
     name: "Erik de Waard",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -3881,6 +4138,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ernesto_jacopo_varriale",
     name: "Ernesto Jacopo Varriale",
     stats: { wins: 6, losses: 1, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -3905,6 +4166,19 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ettore_cerracchio",
     name: "Ettore Cerracchio",
     stats: { wins: 57, losses: 48, draws: 14, byes: 0 },
+    archetypes: [
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 7 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
+      { name: "Spy Walls", slug: "spy_walls", count: 3 },
+      { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
+      { name: "Goblins", slug: "goblins", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+      { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4231,6 +4505,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "evert",
     name: "Evert",
     stats: { wins: 1, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Infect", slug: "infect", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -4252,6 +4530,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "fc_jonkman",
     name: "F.C Jonkman",
     stats: { wins: 2, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4276,6 +4558,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "fedde_vlietstra",
     name: "Fedde Vlietstra",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -4299,6 +4585,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "fedor_manukovskii",
     name: "Fedor Manukovskii",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -4322,6 +4612,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "felipe_inza",
     name: "Felipe Inza",
     stats: { wins: 3, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -4345,6 +4639,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "felipe_martins",
     name: "Felipe Martins",
     stats: { wins: 1, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Altar Tron", slug: "altar_tron", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -4366,6 +4664,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "felix_watermann",
     name: "Felix Watermann",
     stats: { wins: 5, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4390,6 +4692,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "fernando_gomez_acebo",
     name: "Fernando Gómez-Acebo",
     stats: { wins: 7, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Dredge", slug: "monor_dredge", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -4428,6 +4735,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "fernando_tong",
     name: "Fernando Tong",
     stats: { wins: 11, losses: 26, draws: 6, byes: 1 },
+    archetypes: [
+      { name: "White Weenie", slug: "white_weenie", count: 4 },
+      { name: "MonoW Heroic", slug: "monow_heroic", count: 2 },
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -4549,6 +4862,17 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "floris_heins",
     name: "Floris Heins",
     stats: { wins: 47, losses: 28, draws: 5, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 2 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+      { name: "Walls", slug: "walls", count: 1 },
+    ],
+    rival: { name: "Jelle Zwaan", slug: "jelle_zwaan", gamesPlayed: 3, wins: 0, losses: 2, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -4766,6 +5090,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "floris_stapel",
     name: "Floris Stapel",
     stats: { wins: 17, losses: 20, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Ruby Storm", slug: "ruby_storm", count: 3 },
+      { name: "Cycling Storm", slug: "cycling_storm", count: 2 },
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: { name: "Francesco Simonetto", slug: "francesco_simonetto", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -4872,6 +5202,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "francesco_agnesi",
     name: "Francesco Agnesi",
     stats: { wins: 14, losses: 11, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 2 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4944,6 +5279,15 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "francesco_bernardi",
     name: "Francesco Bernardi",
     stats: { wins: 12, losses: 23, draws: 5, byes: 1 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
+      { name: "Bogles", slug: "bogles", count: 1 },
+      { name: "Boros Synth", slug: "boros_synth", count: 1 },
+      { name: "Jeskai Glitters", slug: "jeskai_glitters", count: 1 },
+      { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -5062,6 +5406,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "francesco_simonetto",
     name: "Francesco Simonetto",
     stats: { wins: 29, losses: 50, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 5 },
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Burn", slug: "burn", count: 3 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 2 },
+    ],
+    rival: { name: "Tim Laros", slug: "tim_laros", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -5280,6 +5631,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "frank_kortsmit",
     name: "Frank Kortsmit",
     stats: { wins: 4, losses: 6, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -5319,6 +5674,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "frides_van_de_ven",
     name: "Frides van de Ven",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Eldrazi Spawn", slug: "eldrazi_spawn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -5343,6 +5702,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "gabriele_maria_giardino",
     name: "Gabriele Maria Giardino",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-11-01",
@@ -5366,6 +5729,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "giacco",
     name: "Giacco",
     stats: { wins: 3, losses: 7, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -5404,6 +5772,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "gianluca_ramaccia",
     name: "Gianluca Ramaccia",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Dredge", slug: "monor_dredge", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -5427,6 +5799,18 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "gianvito_taneburgo",
     name: "Gianvito Taneburgo",
     stats: { wins: 65, losses: 58, draws: 11, byes: 1 },
+    archetypes: [
+      { name: "Altar Tron", slug: "altar_tron", count: 10 },
+      { name: "Spy Walls", slug: "spy_walls", count: 4 },
+      { name: "Brew", slug: "brew", count: 2 },
+      { name: "Familiars", slug: "familiars", count: 2 },
+      { name: "Brew Golgari", slug: "brew_golgari", count: 1 },
+      { name: "Golgari TortEx", slug: "golgari_tortex", count: 1 },
+      { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
+      { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 1 },
+    ],
+    rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -5799,6 +6183,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "gino_de_guzman",
     name: "Gino De Guzman",
     stats: { wins: 7, losses: 18, draws: 4, byes: 1 },
+    archetypes: [
+      { name: "Azorius Glitters", slug: "azorius_glitters", count: 2 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Poison Storm", slug: "poison_storm", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-08-03",
@@ -5886,6 +6277,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "giovanni_allovio",
     name: "Giovanni Allovio",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -5909,6 +6304,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "gus_vanpoucke",
     name: "Gus Vanpoucke",
     stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -5933,6 +6332,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "guus_hinrichs",
     name: "Guus Hinrichs",
     stats: { wins: 13, losses: 15, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Cycling Storm", slug: "cycling_storm", count: 2 },
+      { name: "Bogles", slug: "bogles", count: 1 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -6020,6 +6426,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "harm_steenbakkers",
     name: "Harm steenbakkers",
     stats: { wins: 45, losses: 41, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 11 },
+      { name: "Bogles", slug: "bogles", count: 2 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -6267,6 +6680,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "haron_tuin",
     name: "Haron Tuin",
     stats: { wins: 5, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -6291,6 +6708,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "hayden_dubock",
     name: "Hayden Dubock",
     stats: { wins: 6, losses: 1, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -6315,6 +6736,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "hidde_van_t_verlaat",
     name: "Hidde van 't Verlaat",
     stats: { wins: 49, losses: 33, draws: 2, byes: 1 },
+    archetypes: [
+      { name: "Azorius Gates", slug: "azorius_gates", count: 6 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 4 },
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Burn", slug: "burn", count: 1 },
+    ],
+    rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 4, wins: 3, losses: 1, draws: 0, winRate: "75.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -6547,6 +6975,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "iain_ligthart",
     name: "Iain Ligthart",
     stats: { wins: 51, losses: 30, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 14 },
+    ],
+    rival: { name: "Tom de Ruiter", slug: "tom_de_ruiter", gamesPlayed: 4, wins: 2, losses: 2, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -6779,6 +7211,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ido_levy",
     name: "Ido levy",
     stats: { wins: 1, losses: 3, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -6801,6 +7237,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ijsbrand",
     name: "IJsbrand",
     stats: { wins: 4, losses: 9, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Boros Synth", slug: "boros_synth", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -6842,6 +7282,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ingo_van_den_bersselaar",
     name: "Ingo van den Bersselaar",
     stats: { wins: 6, losses: 4, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+    ],
+    rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2024-04-13",
@@ -6880,6 +7325,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "irshaad",
     name: "Irshaad",
     stats: { wins: 7, losses: 19, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 3 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -6953,6 +7403,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "iskander_waldorp",
     name: "Iskander Waldorp",
     stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -6976,6 +7430,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ivan_kors",
     name: "Ivan Kors",
     stats: { wins: 2, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7000,6 +7458,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "j_van_t",
     name: "J van T",
     stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -7024,6 +7486,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jack_schuurbiers",
     name: "Jack Schuurbiers",
     stats: { wins: 1, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -7046,6 +7512,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jamie_march",
     name: "Jamie March",
     stats: { wins: 16, losses: 10, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: { name: "Ettore Cerracchio", slug: "ettore_cerracchio", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -7119,6 +7590,15 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jan_rijnbeek",
     name: "Jan Rijnbeek",
     stats: { wins: 72, losses: 42, draws: 10, byes: 1 },
+    archetypes: [
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 9 },
+      { name: "Fangren Tron", slug: "fangren_tron", count: 4 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
+      { name: "Boros Synth", slug: "boros_synth", count: 1 },
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7461,6 +7941,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jari_van_schaik",
     name: "Jari Van Schaik",
     stats: { wins: 2, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Golgari Dredge", slug: "golgari_dredge", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-03-02",
@@ -7483,6 +7967,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jarno_polhuijs",
     name: "jarno polhuijs",
     stats: { wins: 15, losses: 6, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 4 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7555,6 +8043,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jaron_polhuijs",
     name: "Jaron Polhuijs",
     stats: { wins: 3, losses: 9, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Mardu Synth", slug: "mardu_synth", count: 1 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7595,6 +8088,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jasper_jonkman",
     name: "Jasper jonkman",
     stats: { wins: 0, losses: 6, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7619,6 +8116,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jasper_roelfsema",
     name: "Jasper Roelfsema",
     stats: { wins: 9, losses: 12, draws: 3, byes: 1 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 4 },
+    ],
+    rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7691,6 +8192,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jasper_vd_hammen",
     name: "Jasper vd Hammen",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Petitioners Mill", slug: "petitioners_mill", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -7714,6 +8219,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "javier_carrillo_delgado",
     name: "Javier Carrillo Delgado",
     stats: { wins: 1, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7736,6 +8245,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jeff_wade",
     name: "Jeff Wade",
     stats: { wins: 7, losses: 24, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Rakdos Ally", slug: "rakdos_ally", count: 1 },
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7825,6 +8340,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jelle_schneider",
     name: "Jelle Schneider",
     stats: { wins: 33, losses: 14, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 5 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -7963,6 +8484,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jelle_zwaan",
     name: "Jelle Zwaan",
     stats: { wins: 43, losses: 15, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Azorius Gates", slug: "azorius_gates", count: 6 },
+      { name: "Selesnya Gates", slug: "selesnya_gates", count: 4 },
+    ],
+    rival: { name: "Floris Heins", slug: "floris_heins", gamesPlayed: 3, wins: 2, losses: 0, draws: 1, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -8132,6 +8658,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jerryt_boersen",
     name: "Jerryt Boersen",
     stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -8155,6 +8685,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jerwin_pouwelse",
     name: "Jerwin Pouwelse",
     stats: { wins: 4, losses: 9, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -8196,6 +8731,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jinja_kinyak",
     name: "Jinja Kinyak",
     stats: { wins: 4, losses: 39, draws: 2, byes: 3 },
+    archetypes: [
+      { name: "Flicker Tron", slug: "flicker_tron", count: 6 },
+      { name: "Poison Storm", slug: "poison_storm", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -8331,6 +8871,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "job_ortmans",
     name: "Job Ortmans",
     stats: { wins: 1, losses: 4, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Moggwarts", slug: "moggwarts", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -8354,6 +8898,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "johan",
     name: "Johan",
     stats: { wins: 1, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Familiars", slug: "familiars", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -8377,6 +8925,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "johan_boesveld",
     name: "Johan Boesveld",
     stats: { wins: 8, losses: 8, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -8433,6 +8986,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "johannes_theiss",
     name: "Johannes Theiß",
     stats: { wins: 2, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8457,6 +9014,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "john_buckley",
     name: "John Buckley",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Turbofog", slug: "turbofog", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -8480,6 +9041,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jona_dijksterhuis",
     name: "Jona Dijksterhuis",
     stats: { wins: 2, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-11-02",
@@ -8502,6 +9067,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jonathan",
     name: "Jonathan",
     stats: { wins: 9, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8541,6 +9111,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "joris_dral",
     name: "Joris Dral",
     stats: { wins: 1, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -8564,6 +9138,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jort_bakker",
     name: "Jort Bakker",
     stats: { wins: 17, losses: 14, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 3 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
+    ],
+    rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2025-08-02",
@@ -8666,6 +9245,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jose_jimenez_guerrero",
     name: "Jose Jiménez Guerrero",
     stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -8689,6 +9272,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "juan_ascanio",
     name: "Juan Ascanio",
     stats: { wins: 2, losses: 2, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -8712,6 +9299,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "julian_dornebusch",
     name: "Julian Dornebusch",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8736,6 +9327,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "julius_siemes",
     name: "Julius Siemes",
     stats: { wins: 0, losses: 5, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-08-03",
@@ -8759,6 +9354,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jurre_berkhout",
     name: "Jurre Berkhout",
     stats: { wins: 2, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -8780,6 +9379,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "jorg_vondenhoff",
     name: "Jörg Vondenhoff",
     stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8804,6 +9407,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "kai_schutte",
     name: "Kai Schutte",
     stats: { wins: 3, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8828,6 +9435,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "kai_schafer",
     name: "Kai Schäfer",
     stats: { wins: 6, losses: 1, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8852,6 +9463,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "karl_niklas",
     name: "Karl Niklas",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8875,6 +9490,18 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "kasper_zijl",
     name: "Kasper Zijl",
     stats: { wins: 50, losses: 44, draws: 5, byes: 0 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 4 },
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 3 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 2 },
+      { name: "Mardu Synth", slug: "mardu_synth", count: 2 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 2 },
+      { name: "Bogles", slug: "bogles", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Esper Blade", slug: "esper_blade", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+    ],
+    rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 7, wins: 3, losses: 4, draws: 0, winRate: "42.86%" },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -9151,6 +9778,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "katie_berlin",
     name: "Katie Berlin",
     stats: { wins: 2, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9175,6 +9806,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "kevin_van_hengst",
     name: "Kevin van Hengst",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -9199,6 +9834,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "kieran_edwards",
     name: "Kieran Edwards",
     stats: { wins: 5, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9223,6 +9862,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "klaas_jan_gorter",
     name: "Klaas-Jan Gorter",
     stats: { wins: 14, losses: 7, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoR Blitz", slug: "monor_blitz", count: 2 },
+      { name: "Golgari Dredge", slug: "golgari_dredge", count: 1 },
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
+    ],
+    rival: { name: "Noah Westerweel", slug: "noah_westerweel", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -9292,6 +9937,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "koen_de_vos",
     name: "Koen de Vos",
     stats: { wins: 12, losses: 9, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 3 },
+      { name: "Boros Synth", slug: "boros_synth", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -9361,6 +10011,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "koen_zuidberg",
     name: "Koen Zuidberg",
     stats: { wins: 14, losses: 20, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Azorius Gates", slug: "azorius_gates", count: 3 },
+      { name: "Boros Synth", slug: "boros_synth", count: 2 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -9466,6 +10122,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ls_driessen",
     name: "L.S. Driessen",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Jund Gardens", slug: "jund_gardens", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-04-13",
@@ -9489,6 +10149,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "lars_broekhof",
     name: "Lars Broekhof",
     stats: { wins: 2, losses: 2, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9512,6 +10176,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "laurent_paardekooper",
     name: "Laurent Paardekooper",
     stats: { wins: 3, losses: 9, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Naya Turbo Emblem", slug: "naya_turbo_emblem", count: 1 },
+    ],
+    rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-05-31",
@@ -9551,6 +10220,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "leo_rodrigo_heran_balbuena",
     name: "Leo Rodrigo Heran Balbuena",
     stats: { wins: 21, losses: 21, draws: 3, byes: 2 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 4 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
+      { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -9685,6 +10360,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "leo_weiler",
     name: "Leo Weiler",
     stats: { wins: 0, losses: 6, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9709,6 +10388,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "leonardo_paternotte",
     name: "Leonardo Paternotte",
     stats: { wins: 20, losses: 14, draws: 4, byes: 1 },
+    archetypes: [
+      { name: "Spy Walls", slug: "spy_walls", count: 3 },
+      { name: "Boros Bully", slug: "boros_bully", count: 1 },
+      { name: "Monster Tron", slug: "monster_tron", count: 1 },
+      { name: "Walls", slug: "walls", count: 1 },
+    ],
+    rival: { name: "Iain Ligthart", slug: "iain_ligthart", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -9815,6 +10501,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "leonidas_faliagkas",
     name: "Leonidas Faliagkas",
     stats: { wins: 0, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -9836,6 +10526,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "liam_wyatt",
     name: "Liam Wyatt",
     stats: { wins: 21, losses: 25, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 3 },
+      { name: "Affinity", slug: "affinity", count: 2 },
+      { name: "Mardu Synth", slug: "mardu_synth", count: 2 },
+      { name: "Slivers", slug: "slivers", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -9972,6 +10669,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "lisa_marie_bliek",
     name: "Lisa-Marie Bliek",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9996,6 +10697,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "lisa_marie_van_barneveld",
     name: "Lisa-Marie van Barneveld",
     stats: { wins: 1, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -10017,6 +10722,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "lorenzo_vitale",
     name: "Lorenzo Vitale",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -10040,6 +10749,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "lot_rossmark",
     name: "Lot Rossmark",
     stats: { wins: 1, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -10061,6 +10774,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "lotte_klomp",
     name: "Lotte Klomp",
     stats: { wins: 9, losses: 22, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 5 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -10150,6 +10867,16 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "lucas_feliciano",
     name: "Lucas Feliciano",
     stats: { wins: 51, losses: 58, draws: 13, byes: 1 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 7 },
+      { name: "Jund Gleezard", slug: "jund_gleezard", count: 5 },
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 4 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
+      { name: "Boros Bully", slug: "boros_bully", count: 1 },
+      { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 1 },
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -10500,6 +11227,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "luiz_francisco_scudelari_de_macedo",
     name: "Luiz Francisco Scudelari de Macedo",
     stats: { wins: 4, losses: 7, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Monster Tron", slug: "monster_tron", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -10539,6 +11271,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "luka_pasalic",
     name: "Luka Pasalic",
     stats: { wins: 2, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10561,6 +11297,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "luka_strganac",
     name: "luka strganac",
     stats: { wins: 1, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -10584,6 +11324,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "maarten",
     name: "Maarten",
     stats: { wins: 1, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -10607,6 +11351,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "maarten_van_der_weide",
     name: "Maarten Van der weide",
     stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -10630,6 +11378,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "maeve_powlick",
     name: "Maeve Powlick",
     stats: { wins: 2, losses: 13, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 2 },
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -10684,6 +11437,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "manas_weesing",
     name: "Manas weesing",
     stats: { wins: 0, losses: 4, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "MonoG Tron", slug: "monog_tron", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -10706,6 +11463,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marc_bosserhoff",
     name: "Marc Bosserhoff",
     stats: { wins: 2, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10730,6 +11491,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marc_van_doorn",
     name: "Marc Van Doorn",
     stats: { wins: 2, losses: 6, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Orzhov Blade", slug: "orzhov_blade", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -10766,6 +11531,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marcel_hogewoning",
     name: "Marcel Hogewoning",
     stats: { wins: 16, losses: 11, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 2 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 2 },
+    ],
+    rival: { name: "Eef vV", slug: "eef_vv", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -10840,6 +11610,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marco_giocondo_mignone",
     name: "Marco Giocondo Mignone",
     stats: { wins: 5, losses: 15, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 4 },
+    ],
+    rival: { name: "Max Mercx", slug: "max_mercx", gamesPlayed: 2, wins: 0, losses: 1, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -10909,6 +11683,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marco_lazzari",
     name: "Marco Lazzari",
     stats: { wins: 5, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10933,6 +11711,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marcos_garcia",
     name: "Marcos Garcia",
     stats: { wins: 1, losses: 4, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Slivers", slug: "slivers", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-07-06",
@@ -10956,6 +11738,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mario_giordano",
     name: "Mario Giordano",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10980,6 +11766,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marius_bergwerff",
     name: "Marius Bergwerff",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -11004,6 +11794,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mark",
     name: "Mark",
     stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -11027,6 +11821,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mark_bosma",
     name: "Mark Bosma",
     stats: { wins: 17, losses: 20, draws: 4, byes: 1 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 3 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 3 },
+      { name: "Azorius Glitters", slug: "azorius_glitters", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+    ],
+    rival: { name: "Iain Ligthart", slug: "iain_ligthart", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -11156,6 +11957,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mark_coehoorn",
     name: "Mark Coehoorn",
     stats: { wins: 31, losses: 26, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 7 },
+      { name: "Boros Glitters", slug: "boros_glitters", count: 2 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-05-03",
@@ -11322,6 +12129,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mart_wessel_ordelmans",
     name: "Mart Wessel Ordelmans",
     stats: { wins: 1, losses: 4, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "MonoB Ponza", slug: "monob_ponza", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -11345,6 +12156,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "martijn_siemes",
     name: "Martijn Siemes",
     stats: { wins: 0, losses: 4, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Brew Golgari", slug: "brew_golgari", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-08-03",
@@ -11368,6 +12183,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "marvin_schippmann",
     name: "Marvin Schippmann",
     stats: { wins: 6, losses: 18, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Altar Tron", slug: "altar_tron", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: { name: "Max Mercx", slug: "max_mercx", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -11441,6 +12263,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mathieu_zwaan",
     name: "Mathieu Zwaan",
     stats: { wins: 4, losses: 7, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -11480,6 +12307,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mathijs_de_wilde",
     name: "Mathijs de Wilde",
     stats: { wins: 3, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Orzhov Blade", slug: "orzhov_blade", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -11503,6 +12334,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "matis_violin",
     name: "Matis Violin",
     stats: { wins: 0, losses: 5, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Infect", slug: "infect", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -11526,6 +12361,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "matteo_bellante",
     name: "Matteo Bellante",
     stats: { wins: 7, losses: 11, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -11583,6 +12422,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mattia_paglino",
     name: "Mattia Paglino",
     stats: { wins: 11, losses: 7, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Elves", slug: "elves", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -11639,6 +12484,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "max_bosma",
     name: "Max Bosma",
     stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -11662,6 +12511,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "max_mercx",
     name: "Max Mercx",
     stats: { wins: 9, losses: 11, draws: 6, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
+      { name: "Mardu Synth", slug: "mardu_synth", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -11735,6 +12589,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "max_moriette_sala",
     name: "Max Moriette-Sala",
     stats: { wins: 9, losses: 20, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 3 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -11822,6 +12682,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "max_power",
     name: "Max Power",
     stats: { wins: 0, losses: 2, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -11843,6 +12707,26 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "max_roovers",
     name: "Max Roovers",
     stats: { wins: 79, losses: 55, draws: 4, byes: 1 },
+    archetypes: [
+      { name: "Boros Bully", slug: "boros_bully", count: 3 },
+      { name: "Elves", slug: "elves", count: 3 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 2 },
+      { name: "Ruby Storm", slug: "ruby_storm", count: 2 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Familiars", slug: "familiars", count: 1 },
+      { name: "Fangren Tron", slug: "fangren_tron", count: 1 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+      { name: "MonoR Tron", slug: "monor_tron", count: 1 },
+      { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
+      { name: "MonoW Heroic", slug: "monow_heroic", count: 1 },
+      { name: "Orzhov Blade", slug: "orzhov_blade", count: 1 },
+      { name: "Walls", slug: "walls", count: 1 },
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -12219,6 +13103,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "michael_joseph_purcell",
     name: "Michael Joseph Purcell",
     stats: { wins: 25, losses: 21, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 4 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
+      { name: "MonoR Tron", slug: "monor_tron", count: 2 },
+    ],
+    rival: { name: "Lucas Feliciano", slug: "lucas_feliciano", gamesPlayed: 3, wins: 0, losses: 2, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -12356,6 +13246,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "michael_smit",
     name: "Michael smit",
     stats: { wins: 4, losses: 7, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "Poison Storm", slug: "poison_storm", count: 1 },
+    ],
+    rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 1, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-07-06",
@@ -12395,6 +13290,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "michele_papucci",
     name: "Michele Papucci",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Familiars", slug: "familiars", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -12419,6 +13318,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "michele_violin",
     name: "Michele Violin",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -12442,6 +13345,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mick",
     name: "Mick",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12466,6 +13373,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mikhail_kulikov",
     name: "Mikhail Kulikov",
     stats: { wins: 7, losses: 4, draws: 2, byes: 1 },
+    archetypes: [
+      { name: "Golgari Dredge", slug: "golgari_dredge", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -12507,6 +13419,19 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mirco_bonati",
     name: "Mirco Bonati",
     stats: { wins: 32, losses: 42, draws: 18, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 6 },
+      { name: "Dimir Terror", slug: "dimir_terror", count: 2 },
+      { name: "Jund Cascade", slug: "jund_cascade", count: 2 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
+      { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -12776,6 +13701,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "mitch_van_der_heijden",
     name: "Mitch van der Heijden",
     stats: { wins: 2, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12798,6 +13727,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "morgan_fussell",
     name: "Morgan Fussell",
     stats: { wins: 5, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12822,6 +13755,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "morgan_privitera",
     name: "Morgan Privitera",
     stats: { wins: 3, losses: 11, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12876,6 +13814,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "moss",
     name: "Moss",
     stats: { wins: 0, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -12896,6 +13838,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "natalie_zuidberg",
     name: "Natalie Zuidberg",
     stats: { wins: 5, losses: 6, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-11-01",
@@ -12935,6 +13882,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "neil",
     name: "Neil",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12959,6 +13910,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "nicola_gnasso",
     name: "Nicola Gnasso",
     stats: { wins: 10, losses: 8, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Orzhov Blade", slug: "orzhov_blade", count: 2 },
+      { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -13028,6 +13985,19 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "nicolas_bordenabe",
     name: "Nicolas Bordenabe",
     stats: { wins: 56, losses: 38, draws: 5, byes: 1 },
+    archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 6 },
+      { name: "Jeskai Glitters", slug: "jeskai_glitters", count: 2 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 2 },
+      { name: "Azorius Glitters", slug: "azorius_glitters", count: 1 },
+      { name: "Boros Synth", slug: "boros_synth", count: 1 },
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+      { name: "Mardu Synth", slug: "mardu_synth", count: 1 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+      { name: "Spy Walls", slug: "spy_walls", count: 1 },
+    ],
+    rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 6, wins: 5, losses: 1, draws: 0, winRate: "83.33%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -13305,6 +14275,16 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "nicolas_komanski",
     name: "Nicolas Komanski",
     stats: { wins: 62, losses: 27, draws: 5, byes: 2 },
+    archetypes: [
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 5 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 3 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 2 },
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 5, wins: 3, losses: 2, draws: 0, winRate: "60.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -13568,6 +14548,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "nigel_stikker",
     name: "Nigel Stikker",
     stats: { wins: 17, losses: 15, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 4 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -13669,6 +14654,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "noah_van_duren",
     name: "Noah van Duren",
     stats: { wins: 5, losses: 7, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -13710,6 +14699,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "noah_westerweel",
     name: "Noah Westerweel",
     stats: { wins: 44, losses: 40, draws: 13, byes: 1 },
+    archetypes: [
+      { name: "Flicker Tron", slug: "flicker_tron", count: 11 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 2 },
+      { name: "Boros Bully", slug: "boros_bully", count: 1 },
+      { name: "Boros Synth", slug: "boros_synth", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -13975,6 +14972,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "odile_strik",
     name: "Odile Strik",
     stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoW Heroic", slug: "monow_heroic", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -13999,6 +15000,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "oscar_francisco",
     name: "Oscar Francisco",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Mardu Synth", slug: "mardu_synth", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14023,6 +15028,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "oscar_jocque",
     name: "Oscar Jocqué",
     stats: { wins: 5, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14047,6 +15056,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "owenp",
     name: "OwenP",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14071,6 +15084,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "pablo_pirata",
     name: "Pablo Pirata",
     stats: { wins: 4, losses: 14, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Stompy", slug: "stompy", count: 2 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -14127,6 +15145,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "panagiotis_lantavos_stratigakis",
     name: "Panagiotis Lantavos-Stratigakis",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-04",
@@ -14150,6 +15172,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "patrick_heijna",
     name: "Patrick Heijna",
     stats: { wins: 3, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14174,6 +15200,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "phil_kalter",
     name: "Phil Kalter",
     stats: { wins: 2, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Slivers", slug: "slivers", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -14195,6 +15225,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "phillip_drage",
     name: "phillip drage",
     stats: { wins: 6, losses: 0, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14219,6 +15253,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "pim_rutgers",
     name: "Pim Rutgers",
     stats: { wins: 6, losses: 6, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Dimir Terror", slug: "dimir_terror", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -14258,6 +15296,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "potestasnecis",
     name: "PotestasNecis",
     stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14282,6 +15324,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "quint_marcelis",
     name: "Quint Marcelis",
     stats: { wins: 11, losses: 8, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 2 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -14338,6 +15385,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "quinten_brouwer",
     name: "Quinten Brouwer",
     stats: { wins: 1, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -14361,6 +15412,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "quinten_hogenes",
     name: "Quinten Hogenes",
     stats: { wins: 4, losses: 5, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -14398,6 +15453,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "raaayyyyyyyyyy",
     name: "Raaayyyyyyyyyy",
     stats: { wins: 37, losses: 24, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Golgari Dredge", slug: "golgari_dredge", count: 7 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 4, wins: 3, losses: 1, draws: 0, winRate: "75.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -14580,6 +15643,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ramon_facchin",
     name: "Ramon Facchin",
     stats: { wins: 6, losses: 6, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Orzhov Blade", slug: "orzhov_blade", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -14619,6 +15687,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ramsey_zdiri",
     name: "Ramsey Zdiri",
     stats: { wins: 5, losses: 6, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-11-01",
@@ -14658,6 +15730,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rasjied_sloot",
     name: "rasjied sloot",
     stats: { wins: 7, losses: 7, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Golgari Dredge", slug: "golgari_dredge", count: 2 },
+    ],
+    rival: { name: "Roberto van den Elzen", slug: "roberto_van_den_elzen", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -14699,6 +15775,15 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "raven_de_bruin",
     name: "Raven de Bruin",
     stats: { wins: 43, losses: 34, draws: 3, byes: 1 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 5 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 2 },
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -14917,6 +16002,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ravi_breugom",
     name: "Ravi Breugom",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "One Land Spy", slug: "one_land_spy", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14940,6 +16029,18 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "raymond_anderson",
     name: "Raymond Anderson",
     stats: { wins: 31, losses: 41, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "White Weenie", slug: "white_weenie", count: 3 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 2 },
+      { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
+      { name: "Golgari Food Pestilence", slug: "golgari_food_pestilence", count: 1 },
+      { name: "Moggwarts", slug: "moggwarts", count: 1 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+      { name: "Turbofog", slug: "turbofog", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -15153,6 +16254,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "renee_zwolle",
     name: "Renee Zwolle",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -15176,6 +16281,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rizi",
     name: "Rizi",
     stats: { wins: 1, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -15199,6 +16308,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "roald_landheer",
     name: "Roald Landheer",
     stats: { wins: 7, losses: 6, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -15239,6 +16353,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rob_kerlin",
     name: "Rob Kerlin",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -15262,6 +16380,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rob_lamers",
     name: "Rob Lamers",
     stats: { wins: 52, losses: 44, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 13 },
+      { name: "White Weenie", slug: "white_weenie", count: 3 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+    ],
+    rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 7, wins: 5, losses: 2, draws: 0, winRate: "71.43%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -15538,6 +16662,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rob_nolle",
     name: "Rob Nolle",
     stats: { wins: 24, losses: 26, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Izzet Terror", slug: "izzet_terror", count: 3 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 3 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -15675,6 +16805,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rob_vermaas",
     name: "Rob Vermaas",
     stats: { wins: 29, losses: 17, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 2 },
+      { name: "MonoU High Tide", slug: "monou_high_tide", count: 2 },
+      { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
+    ],
+    rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -15811,6 +16948,17 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "robbert",
     name: "Robbert",
     stats: { wins: 36, losses: 36, draws: 9, byes: 0 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 3 },
+      { name: "Elves", slug: "elves", count: 3 },
+      { name: "Moggwarts", slug: "moggwarts", count: 3 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+      { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 1 },
+      { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
+    ],
+    rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 6, wins: 1, losses: 4, draws: 1, winRate: "16.67%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -16039,6 +17187,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "robert_kropholler",
     name: "Robert Kropholler",
     stats: { wins: 1, losses: 6, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -16063,6 +17215,15 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "roberto_schiavone",
     name: "Roberto Schiavone",
     stats: { wins: 11, losses: 19, draws: 5, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+      { name: "Elves", slug: "elves", count: 1 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -16165,6 +17326,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "roberto_van_den_elzen",
     name: "Roberto van den Elzen",
     stats: { wins: 45, losses: 24, draws: 5, byes: 0 },
+    archetypes: [
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 8 },
+      { name: "Goblins", slug: "goblins", count: 2 },
+      { name: "White Weenie", slug: "white_weenie", count: 2 },
+    ],
+    rival: { name: "Noah Westerweel", slug: "noah_westerweel", gamesPlayed: 4, wins: 2, losses: 1, draws: 1, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -16366,6 +17533,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "romke_postma",
     name: "Romke Postma",
     stats: { wins: 1, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -16389,6 +17560,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ross_mckendrick",
     name: "Ross McKendrick",
     stats: { wins: 6, losses: 0, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -16413,6 +17588,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rowan_groen",
     name: "Rowan Groen",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -16436,6 +17615,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "ruben_drabbels",
     name: "ruben drabbels",
     stats: { wins: 8, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -16476,6 +17659,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "rufus_ang",
     name: "Rufus Ang",
     stats: { wins: 7, losses: 13, draws: 4, byes: 0 },
+    archetypes: [
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 2 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Familiars", slug: "familiars", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -16547,6 +17736,20 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "sam_ye",
     name: "Sam Ye",
     stats: { wins: 48, losses: 31, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 2 },
+      { name: "Azorius Glitters", slug: "azorius_glitters", count: 2 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
+      { name: "Boros Synth", slug: "boros_synth", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
+      { name: "Jeskai Glitters", slug: "jeskai_glitters", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -16775,6 +17978,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "samuel_schumacher",
     name: "Samuel Schumacher",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-04-13",
@@ -16798,6 +18005,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "sebastian_diaz",
     name: "Sebastian Diaz",
     stats: { wins: 6, losses: 6, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -16837,6 +18049,14 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "simon_isphording",
     name: "Simon Isphording",
     stats: { wins: 34, losses: 26, draws: 2, byes: 1 },
+    archetypes: [
+      { name: "Familiars", slug: "familiars", count: 4 },
+      { name: "Elves", slug: "elves", count: 3 },
+      { name: "Boros Moxite", slug: "boros_moxite", count: 1 },
+      { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -17007,6 +18227,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "simone_gottardi",
     name: "Simone Gottardi",
     stats: { wins: 3, losses: 7, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-07-06",
@@ -17046,6 +18271,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "sjef_van_schie",
     name: "Sjef van Schie",
     stats: { wins: 1, losses: 5, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Altar Tron", slug: "altar_tron", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -17069,6 +18298,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "soufian_hriz",
     name: "soufian hriz",
     stats: { wins: 27, losses: 20, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 5 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -17204,6 +18440,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "stefan_gussenhoven",
     name: "Stefan Gussenhoven",
     stats: { wins: 18, losses: 13, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
+      { name: "MonoU High Tide", slug: "monou_high_tide", count: 2 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -17292,6 +18534,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "stefan_pouwelse",
     name: "Stefan Pouwelse",
     stats: { wins: 12, losses: 13, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+      { name: "Spy Walls", slug: "spy_walls", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -17364,6 +18613,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "stefan_van_der_list",
     name: "Stefan van der List",
     stats: { wins: 16, losses: 6, draws: 3, byes: 1 },
+    archetypes: [
+      { name: "Monster Tron", slug: "monster_tron", count: 3 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -17437,6 +18691,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "stefan_vlijm",
     name: "Stefan Vlijm",
     stats: { wins: 14, losses: 15, draws: 6, byes: 0 },
+    archetypes: [
+      { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 2 },
+      { name: "Familiars", slug: "familiars", count: 1 },
+      { name: "Turbofog", slug: "turbofog", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -17539,6 +18800,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "sven_van_dijk",
     name: "Sven van Dijk",
     stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -17562,6 +18827,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "teun_fekkes",
     name: "Teun Fekkes",
     stats: { wins: 4, losses: 13, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Poison Storm", slug: "poison_storm", count: 2 },
+      { name: "Burn", slug: "burn", count: 1 },
+    ],
+    rival: { name: "Nigel Stikker", slug: "nigel_stikker", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-09-06",
@@ -17617,6 +18887,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "teun_sprikkelman",
     name: "Teun Sprikkelman",
     stats: { wins: 0, losses: 5, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -17640,6 +18914,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "thijs",
     name: "Thijs",
     stats: { wins: 10, losses: 20, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 2 },
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: { name: "Vincent Zwinkels", slug: "vincent_zwinkels", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -17727,6 +19008,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "thijs_deckers",
     name: "Thijs Deckers",
     stats: { wins: 13, losses: 10, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Ruby Storm", slug: "ruby_storm", count: 2 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Spy Walls", slug: "spy_walls", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -17798,6 +19085,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "thomas_gates",
     name: "Thomas Gates",
     stats: { wins: 2, losses: 13, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+      { name: "Walls", slug: "walls", count: 1 },
+    ],
+    rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-10-04",
@@ -17851,6 +19144,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "thomas_isphording",
     name: "Thomas Isphording",
     stats: { wins: 10, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -17891,6 +19189,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "thomas_tates",
     name: "Thomas Tates",
     stats: { wins: 6, losses: 20, draws: 3, byes: 1 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Monster Tron", slug: "monster_tron", count: 1 },
+    ],
+    rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-04-11",
@@ -17978,6 +19282,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "thomas_wood",
     name: "Thomas Wood",
     stats: { wins: 14, losses: 17, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "White Weenie", slug: "white_weenie", count: 4 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -18067,6 +19376,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tiff_kraan",
     name: "Tiff Kraan",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -18091,6 +19404,19 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tijmen_van_der_kamp",
     name: "Tijmen van der Kamp",
     stats: { wins: 72, losses: 59, draws: 8, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 9 },
+      { name: "Affinity", slug: "affinity", count: 3 },
+      { name: "Temur Ponza", slug: "temur_ponza", count: 3 },
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
+      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+      { name: "Mardu Synth", slug: "mardu_synth", count: 1 },
+      { name: "Petitioners Mill", slug: "petitioners_mill", count: 1 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
+      { name: "Turbofog", slug: "turbofog", count: 1 },
+    ],
+    rival: { name: "Rob Lamers", slug: "rob_lamers", gamesPlayed: 7, wins: 2, losses: 5, draws: 0, winRate: "28.57%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -18467,6 +19793,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tijn_mercx",
     name: "tijn mercx",
     stats: { wins: 4, losses: 15, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "Eldrazi Spawn", slug: "eldrazi_spawn", count: 2 },
+      { name: "Bogles", slug: "bogles", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -18524,6 +19855,15 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tim_bunnik",
     name: "Tim Bunnik",
     stats: { wins: 70, losses: 41, draws: 3, byes: 0 },
+    archetypes: [
+      { name: "Flicker Tron", slug: "flicker_tron", count: 5 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 5 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 4 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+      { name: "MonoG Tron", slug: "monog_tron", count: 1 },
+    ],
+    rival: { name: "Robbert", slug: "robbert", gamesPlayed: 6, wins: 4, losses: 1, draws: 1, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -18835,6 +20175,15 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tim_laros",
     name: "Tim Laros",
     stats: { wins: 35, losses: 34, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 3 },
+      { name: "Cycling Storm", slug: "cycling_storm", count: 2 },
+      { name: "Esper Blade", slug: "esper_blade", count: 2 },
+      { name: "Golgari Dredge", slug: "golgari_dredge", count: 2 },
+      { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 2 },
+      { name: "Elves", slug: "elves", count: 1 },
+    ],
+    rival: { name: "Francesco Simonetto", slug: "francesco_simonetto", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -19032,6 +20381,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tim_swillens",
     name: "Tim Swillens",
     stats: { wins: 2, losses: 23, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 2 },
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 1 },
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -19105,6 +20460,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tim_zemack",
     name: "Tim Zemack",
     stats: { wins: 11, losses: 14, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 3 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
+    ],
+    rival: { name: "Robbert", slug: "robbert", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-09-07",
@@ -19187,6 +20547,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "timo_vogelfanger",
     name: "Timo Vogelfänger",
     stats: { wins: 3, losses: 3, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -19211,6 +20575,18 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tobias_van_kersbergen",
     name: "Tobias van Kersbergen",
     stats: { wins: 38, losses: 35, draws: 13, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 4 },
+      { name: "Boros Bully", slug: "boros_bully", count: 2 },
+      { name: "Brew", slug: "brew", count: 2 },
+      { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
+      { name: "Boros Synth", slug: "boros_synth", count: 1 },
+      { name: "Esper Affinity", slug: "esper_affinity", count: 1 },
+      { name: "Esper Blade", slug: "esper_blade", count: 1 },
+      { name: "Orzhov Blade", slug: "orzhov_blade", count: 1 },
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -19444,6 +20820,18 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tom_de_ruiter",
     name: "Tom de Ruiter",
     stats: { wins: 54, losses: 39, draws: 10, byes: 0 },
+    archetypes: [
+      { name: "Affinity", slug: "affinity", count: 8 },
+      { name: "Boros Synth", slug: "boros_synth", count: 2 },
+      { name: "Burn", slug: "burn", count: 1 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+      { name: "Esper Blade", slug: "esper_blade", count: 1 },
+      { name: "Jund Gardens", slug: "jund_gardens", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 1 },
+    ],
+    rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 6, wins: 0, losses: 6, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -19724,6 +21112,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tomas_gonzalez",
     name: "Tomas Gonzalez",
     stats: { wins: 4, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -19748,6 +21140,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "toon_de_vet",
     name: "Toon de Vet",
     stats: { wins: 58, losses: 55, draws: 18, byes: 1 },
+    archetypes: [
+      { name: "Familiars", slug: "familiars", count: 18 },
+      { name: "Boros Tribe", slug: "boros_tribe", count: 2 },
+      { name: "Inside Out", slug: "inside_out", count: 2 },
+    ],
+    rival: { name: "Ben van Wijk", slug: "ben_van_wijk", gamesPlayed: 6, wins: 0, losses: 2, draws: 4, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -20107,6 +21505,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "tristan_tai",
     name: "Tristan Tai",
     stats: { wins: 2, losses: 3, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -20131,6 +21533,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "vanessa_weber",
     name: "Vanessa Weber",
     stats: { wins: 3, losses: 9, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Burn", slug: "burn", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -20170,6 +21576,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "vilius_peteraitis",
     name: "Vilius Peteraitis",
     stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-11-01",
@@ -20193,6 +21603,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "vince_kors",
     name: "Vince kors",
     stats: { wins: 3, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -20217,6 +21631,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "vincent_zwinkels",
     name: "Vincent Zwinkels",
     stats: { wins: 18, losses: 28, draws: 1, byes: 1 },
+    archetypes: [
+      { name: "Elves", slug: "elves", count: 4 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
+      { name: "One Land Spy", slug: "one_land_spy", count: 2 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -20352,6 +21772,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "vinicius_duarte",
     name: "vinicius duarte",
     stats: { wins: 18, losses: 13, draws: 4, byes: 1 },
+    archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 4 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "Naya Gates", slug: "naya_gates", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -20455,6 +21881,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "vitaly_svetlov",
     name: "Vitaly Svetlov",
     stats: { wins: 7, losses: 11, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
+      { name: "Affinity", slug: "affinity", count: 1 },
+    ],
+    rival: { name: "Floris Heins", slug: "floris_heins", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -20511,6 +21942,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "vlad_alexandru_negar",
     name: "Vlad-Alexandru Negară",
     stats: { wins: 43, losses: 33, draws: 5, byes: 0 },
+    archetypes: [
+      { name: "Walls", slug: "walls", count: 8 },
+      { name: "Moggwarts", slug: "moggwarts", count: 3 },
+      { name: "Dimir Terror", slug: "dimir_terror", count: 2 },
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -20739,6 +22177,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "wesley_choong",
     name: "Wesley Choong",
     stats: { wins: 2, losses: 2, draws: 2, byes: 0 },
+    archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -20762,6 +22204,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "wilson",
     name: "Wilson",
     stats: { wins: 4, losses: 2, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -20786,6 +22232,13 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "wouter_hordijk",
     name: "Wouter Hordijk",
     stats: { wins: 14, losses: 39, draws: 2, byes: 2 },
+    archetypes: [
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 5 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 2 },
+      { name: "Elves", slug: "elves", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: { name: "Raven de Bruin", slug: "raven_de_bruin", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -20940,6 +22393,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "yannic_van_heereveld",
     name: "Yannic van Heereveld",
     stats: { wins: 13, losses: 21, draws: 3, byes: 1 },
+    archetypes: [
+      { name: "MonoU Terror", slug: "monou_terror", count: 3 },
+      { name: "Bogles", slug: "bogles", count: 2 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+    ],
+    rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-04-11",
@@ -21045,6 +22504,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "yaro_kraneveld",
     name: "Yaro Kraneveld",
     stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Walls", slug: "walls", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-07-05",
@@ -21068,6 +22531,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "yasmin_saciri",
     name: "Yasmin Saciri",
     stats: { wins: 12, losses: 17, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "Bogles", slug: "bogles", count: 3 },
+      { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
+      { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -21155,6 +22624,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "youri_bakker",
     name: "Youri Bakker",
     stats: { wins: 32, losses: 29, draws: 5, byes: 0 },
+    archetypes: [
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 6 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 4 },
+      { name: "Altar Tron", slug: "altar_tron", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -21338,6 +22813,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "youri_van_der_zee",
     name: "Youri van der Zee",
     stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -21361,6 +22840,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "yuri_stevens_van_swaay",
     name: "Yuri Stevens van Swaay",
     stats: { wins: 5, losses: 11, draws: 2, byes: 1 },
+    archetypes: [
+      { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 2 },
+      { name: "Esper Affinity", slug: "esper_affinity", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -21417,6 +22901,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     slug: "zephyr",
     name: "Zephyr",
     stats: { wins: 2, losses: 4, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+    ],
+    rival: null,
     results: [
       {
         eventSlug: "2024-05-04",
