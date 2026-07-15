@@ -60,8 +60,8 @@ export const eventDetail: EventDetail = {
     { position: 43, player: "Floris Stapel", playerSlug: "floris_stapel", deck: "Ruby Storm", deckSlug: "ruby_storm", omwPercentage: "55.56%", matchPoints: 4 },
     { position: 44, player: "Irshaad", playerSlug: "irshaad", deck: "MonoR Madness", deckSlug: "monor_madness", omwPercentage: "56.43%", matchPoints: 3 },
     { position: 45, player: "Eef vV", playerSlug: "eef_vv", deck: "MonoR Rally", deckSlug: "monor_rally", omwPercentage: "52.72%", matchPoints: 3 },
-    { position: 46, player: "Tim Swillens", playerSlug: "tim_swillens", deck: "Brew", deckSlug: "brew", omwPercentage: "37.91%", matchPoints: 0 },
-    { position: 47, player: "Mirco Bonati", playerSlug: "mirco_bonati", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "40.19%", matchPoints: 1 },
+    { position: 46, player: "Mirco Bonati", playerSlug: "mirco_bonati", deck: "Dimir Terror", deckSlug: "dimir_terror", omwPercentage: "40.19%", matchPoints: 1 },
+    { position: 47, player: "Tim Swillens", playerSlug: "tim_swillens", deck: "Brew", deckSlug: "brew", omwPercentage: "37.91%", matchPoints: 0 },
   ],
   meta: [
     { archetype: "MonoU Faeries", archetypeSlug: "monou_faeries", count: 4, percentage: "8.51%" },

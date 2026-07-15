@@ -13612,7 +13612,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
-        position: 47,
+        position: 46,
         deckId: "u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
         deck: "Dimir Terror",
         deckSlug: "dimir_terror",
@@ -20641,7 +20641,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
-        position: 46,
+        position: 47,
         deckId: "U6PRugzMmoOutqxeQIKPDK8Ys7I2",
         deck: "Brew",
         deckSlug: "brew",
