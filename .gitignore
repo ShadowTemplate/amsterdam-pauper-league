@@ -43,6 +43,7 @@ next-env.d.ts
 
 .bkp_pages
 scripts/__pycache__/*
+data/secrets.json
 
 # astro
 .astro/settings.json
