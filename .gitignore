@@ -47,3 +47,5 @@ data/secrets.json
 
 # astro
 .astro/settings.json
+
+old_stuff/*
