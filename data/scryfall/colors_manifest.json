@@ -12,10 +12,7 @@
   "Abrade": [
     "R"
   ],
-  "Abraded Bluffs": [
-    "W",
-    "R"
-  ],
+  "Abraded Bluffs": [],
   "Abundant Growth": [
     "G"
   ],
@@ -84,12 +81,9 @@
   "Anchovy & Banana Pizza": [
     "B"
   ],
-  "Ancient Den": [
-    "W"
-  ],
+  "Ancient Den": [],
   "Ancient Grudge": [
-    "R",
-    "G"
+    "R"
   ],
   "Ancient Stirrings": [
     "G"
@@ -134,10 +128,7 @@
     "U",
     "B"
   ],
-  "Arctic Treeline": [
-    "W",
-    "G"
-  ],
+  "Arctic Treeline": [],
   "Ardent Elementalist": [
     "R"
   ],
@@ -181,7 +172,6 @@
     "W"
   ],
   "Avacyn's Pilgrim": [
-    "W",
     "G"
   ],
   "Avenging Hunter": [
@@ -190,14 +180,8 @@
   "Axebane Guardian": [
     "G"
   ],
-  "Azorius Chancery": [
-    "W",
-    "U"
-  ],
-  "Azorius Guildgate": [
-    "W",
-    "U"
-  ],
+  "Azorius Chancery": [],
+  "Azorius Guildgate": [],
   "Azure Fleet Admiral": [
     "U"
   ],
@@ -231,13 +215,9 @@
     "W",
     "G"
   ],
-  "Barren Moor": [
-    "B"
-  ],
+  "Barren Moor": [],
   "Basilisk Gate": [],
-  "Basking Broodscale": [
-    "G"
-  ],
+  "Basking Broodscale": [],
   "Battle Screech": [
     "W"
   ],
@@ -288,9 +268,7 @@
   "Bitter Reunion": [
     "R"
   ],
-  "Black Dragon Gate": [
-    "B"
-  ],
+  "Black Dragon Gate": [],
   "Black Mage's Rod": [
     "B"
   ],
@@ -303,10 +281,7 @@
   "Blanchwood Prowler": [
     "G"
   ],
-  "Bleeding Woods": [
-    "R",
-    "G"
-  ],
+  "Bleeding Woods": [],
   "Blight Mamba": [
     "G"
   ],
@@ -338,10 +313,7 @@
   "Blossombind": [
     "U"
   ],
-  "Blossoming Sands": [
-    "W",
-    "G"
-  ],
+  "Blossoming Sands": [],
   "Blow Your House Down": [
     "R"
   ],
@@ -351,9 +323,7 @@
   "Boarding Party": [
     "R"
   ],
-  "Bojuka Bog": [
-    "B"
-  ],
+  "Bojuka Bog": [],
   "Bojuka Brigand": [
     "B"
   ],
@@ -374,22 +344,10 @@
   "Boomerang": [
     "U"
   ],
-  "Boros Garrison": [
-    "W",
-    "R"
-  ],
-  "Botanical Plaza": [
-    "W",
-    "G"
-  ],
-  "Boulderbranch Golem": [
-    "G"
-  ],
-  "Bountiful Landscape": [
-    "U",
-    "R",
-    "G"
-  ],
+  "Boros Garrison": [],
+  "Botanical Plaza": [],
+  "Boulderbranch Golem": [],
+  "Bountiful Landscape": [],
   "Brainstorm": [
     "U"
   ],
@@ -411,10 +369,7 @@
   "Bring the Ending": [
     "U"
   ],
-  "Bristling Backwoods": [
-    "R",
-    "G"
-  ],
+  "Bristling Backwoods": [],
   "Broken Wings": [
     "G"
   ],
@@ -426,8 +381,7 @@
     "R"
   ],
   "Bump in the Night": [
-    "B",
-    "R"
+    "B"
   ],
   "Burning Curiosity": [
     "R"
@@ -540,18 +494,14 @@
   "Circular Logic": [
     "U"
   ],
-  "Citadel Gate": [
-    "W"
-  ],
+  "Citadel Gate": [],
   "Claim the Precious": [
     "B"
   ],
   "Cleansing Wildfire": [
     "R"
   ],
-  "Cliffgate": [
-    "R"
-  ],
+  "Cliffgate": [],
   "Cliffhaven Kitesail": [],
   "Cloakwood Swarmkeeper": [
     "G"
@@ -602,18 +552,11 @@
   "Consider": [
     "U"
   ],
-  "Contaminated Aquifer": [
-    "U",
-    "B"
-  ],
+  "Contaminated Aquifer": [],
   "Contaminated Ground": [
     "B"
   ],
-  "Contaminated Landscape": [
-    "W",
-    "U",
-    "B"
-  ],
+  "Contaminated Landscape": [],
   "Contentious Plan": [
     "U"
   ],
@@ -714,10 +657,7 @@
   "Dark-Dweller Oracle": [
     "R"
   ],
-  "Darkmoss Bridge": [
-    "B",
-    "G"
-  ],
+  "Darkmoss Bridge": [],
   "Darkness": [
     "B"
   ],
@@ -746,11 +686,7 @@
   "Deceive the Messenger": [
     "U"
   ],
-  "Deceptive Landscape": [
-    "W",
-    "B",
-    "G"
-  ],
+  "Deceptive Landscape": [],
   "Deem Inferior": [
     "U"
   ],
@@ -808,18 +744,9 @@
     "U",
     "B"
   ],
-  "Dimension X": [
-    "W",
-    "R"
-  ],
-  "Dimir Aqueduct": [
-    "U",
-    "B"
-  ],
-  "Dimir Guildgate": [
-    "U",
-    "B"
-  ],
+  "Dimension X": [],
+  "Dimir Aqueduct": [],
+  "Dimir Guildgate": [],
   "Dimir House Guard": [
     "B"
   ],
@@ -839,10 +766,7 @@
   "Disintegrate": [
     "R"
   ],
-  "Dismal Backwater": [
-    "U",
-    "B"
-  ],
+  "Dismal Backwater": [],
   "Dispel": [
     "U"
   ],
@@ -897,16 +821,11 @@
   "Drix Fatemaker": [
     "G"
   ],
-  "Drossforge Bridge": [
-    "B",
-    "R"
-  ],
+  "Drossforge Bridge": [],
   "Drown in Sorrow": [
     "B"
   ],
-  "Drownyard Lurker": [
-    "U"
-  ],
+  "Drownyard Lurker": [],
   "Dunland Crebain": [
     "B"
   ],
@@ -958,9 +877,7 @@
   "Eel Umbra": [
     "U"
   ],
-  "Eldrazi Repurposer": [
-    "G"
-  ],
+  "Eldrazi Repurposer": [],
   "Electric Revelation": [
     "R"
   ],
@@ -980,7 +897,6 @@
     "G"
   ],
   "Elves of Deep Shadow": [
-    "B",
     "G"
   ],
   "Elvish Mystic": [
@@ -1030,10 +946,7 @@
   "Eriette's Lullaby": [
     "W"
   ],
-  "Eroded Canyon": [
-    "U",
-    "R"
-  ],
+  "Eroded Canyon": [],
   "Escape Tunnel": [],
   "Essence Harvest": [
     "B"
@@ -1114,9 +1027,7 @@
   "Fang Dragon // Forktail Sweep": [
     "R"
   ],
-  "Fanged Flames": [
-    "R"
-  ],
+  "Fanged Flames": [],
   "Fangren Marauder": [
     "G"
   ],
@@ -1224,24 +1135,13 @@
   "Force Spike": [
     "U"
   ],
-  "Foreboding Landscape": [
-    "U",
-    "B",
-    "G"
-  ],
-  "Forest": [
-    "G"
-  ],
-  "Forgotten Cave": [
-    "R"
-  ],
+  "Foreboding Landscape": [],
+  "Forest": [],
+  "Forgotten Cave": [],
   "Forked Bolt": [
     "R"
   ],
-  "Forlorn Flats": [
-    "W",
-    "B"
-  ],
+  "Forlorn Flats": [],
   "Fortify": [
     "W"
   ],
@@ -1308,28 +1208,18 @@
   "Geomancer's Gambit": [
     "R"
   ],
-  "Geothermal Bog": [
-    "B",
-    "R"
-  ],
-  "Geothermal Crevice": [
-    "B",
-    "R",
-    "G"
-  ],
+  "Geothermal Bog": [],
+  "Geothermal Crevice": [],
   "Ghastly Demise": [
     "B"
   ],
   "Ghitu Amplifier": [
-    "U",
     "R"
   ],
   "Ghitu Lavarunner": [
     "R"
   ],
-  "Ghostfire": [
-    "R"
-  ],
+  "Ghostfire": [],
   "Ghostly Flicker": [
     "U"
   ],
@@ -1348,17 +1238,12 @@
   "Giltgrove Stalker": [
     "G"
   ],
-  "Gingerbread Cabin": [
-    "G"
-  ],
+  "Gingerbread Cabin": [],
   "Gingerbrute": [],
   "Gixian Infiltrator": [
     "B"
   ],
-  "Glacial Floodplain": [
-    "W",
-    "U"
-  ],
+  "Glacial Floodplain": [],
   "Gladecover Scout": [
     "G"
   ],
@@ -1427,18 +1312,12 @@
   "Goldhound": [
     "R"
   ],
-  "Goldmire Bridge": [
-    "W",
-    "B"
-  ],
+  "Goldmire Bridge": [],
   "Golem Foundry": [],
   "Golgari Brownscale": [
     "G"
   ],
-  "Golgari Rot Farm": [
-    "B",
-    "G"
-  ],
+  "Golgari Rot Farm": [],
   "Goliath Paladin": [
     "W"
   ],
@@ -1461,9 +1340,7 @@
   "Gray Merchant of Asphodel": [
     "B"
   ],
-  "Great Furnace": [
-    "R"
-  ],
+  "Great Furnace": [],
   "Greatsword of Tyr": [
     "W"
   ],
@@ -1487,10 +1364,7 @@
     "U",
     "G"
   ],
-  "Gruul Turf": [
-    "R",
-    "G"
-  ],
+  "Gruul Turf": [],
   "Guardian Naga": [
     "W"
   ],
@@ -1531,10 +1405,7 @@
   ],
   "Haunted Cloak": [],
   "Haunted Fengraf": [],
-  "Haunted Mire": [
-    "B",
-    "G"
-  ],
+  "Haunted Mire": [],
   "Haunting Misery": [
     "B"
   ],
@@ -1560,9 +1431,7 @@
   "Heritage Reclamation": [
     "G"
   ],
-  "Hickory Woodlot": [
-    "G"
-  ],
+  "Hickory Woodlot": [],
   "Hidden Grotto": [],
   "Hidden Spider": [
     "G"
@@ -1576,10 +1445,7 @@
   "Highland Berserker": [
     "R"
   ],
-  "Highland Forest": [
-    "R",
-    "G"
-  ],
+  "Highland Forest": [],
   "Highway Robbery": [
     "R"
   ],
@@ -1633,10 +1499,7 @@
   "Hyena Umbra": [
     "W"
   ],
-  "Ice Tunnel": [
-    "U",
-    "B"
-  ],
+  "Ice Tunnel": [],
   "Icequake": [
     "B"
   ],
@@ -1645,25 +1508,16 @@
   "Ideas Unbound": [
     "U"
   ],
-  "Idyllic Beachfront": [
-    "W",
-    "U"
-  ],
-  "Idyllic Grange": [
-    "W"
-  ],
+  "Idyllic Beachfront": [],
+  "Idyllic Grange": [],
   "Illvoi Galeblade": [
     "U"
   ],
   "Impact Tremors": [
     "R"
   ],
-  "Implement of Combustion": [
-    "R"
-  ],
-  "Implement of Ferocity": [
-    "G"
-  ],
+  "Implement of Combustion": [],
+  "Implement of Ferocity": [],
   "Imposing Vantasaur": [
     "W"
   ],
@@ -1706,9 +1560,7 @@
     "R"
   ],
   "Irontread Crusher": [],
-  "Island": [
-    "U"
-  ],
+  "Island": [],
   "It'll Quench Ya!": [
     "U"
   ],
@@ -1729,10 +1581,7 @@
   "Jade Bearer": [
     "G"
   ],
-  "Jagged Barrens": [
-    "B",
-    "R"
-  ],
+  "Jagged Barrens": [],
   "Jaspera Sentinel": [
     "G"
   ],
@@ -1753,9 +1602,7 @@
     "R",
     "G"
   ],
-  "Kabira Crossroads": [
-    "W"
-  ],
+  "Kabira Crossroads": [],
   "Kaervek's Torch": [
     "R"
   ],
@@ -1777,9 +1624,7 @@
   "Kessig Flamebreather": [
     "R"
   ],
-  "Khalni Garden": [
-    "G"
-  ],
+  "Khalni Garden": [],
   "Kick in the Door": [
     "R"
   ],
@@ -1889,23 +1734,15 @@
   "Lone Missionary": [
     "W"
   ],
-  "Lonely Arroyo": [
-    "W",
-    "U"
-  ],
-  "Lonely Sandbar": [
-    "U"
-  ],
+  "Lonely Arroyo": [],
+  "Lonely Sandbar": [],
   "Longstalk Brawl": [
     "G"
   ],
   "Loran's Escape": [
     "W"
   ],
-  "Lorehold Campus": [
-    "W",
-    "R"
-  ],
+  "Lorehold Campus": [],
   "Lose Focus": [
     "U"
   ],
@@ -1928,10 +1765,7 @@
   "Lunarch Veteran // Luminous Phantom": [
     "W"
   ],
-  "Lush Oasis": [
-    "U",
-    "G"
-  ],
+  "Lush Oasis": [],
   "Lórien Revealed": [
     "U"
   ],
@@ -1957,9 +1791,7 @@
     "R",
     "G"
   ],
-  "Manor Gate": [
-    "G"
-  ],
+  "Manor Gate": [],
   "Many Partings": [
     "G"
   ],
@@ -1967,9 +1799,7 @@
     "B"
   ],
   "Mardu Devotee": [
-    "W",
-    "B",
-    "R"
+    "W"
   ],
   "Marketwatch Phantom": [
     "W"
@@ -2066,10 +1896,7 @@
   "Mist-Cloaked Herald": [
     "U"
   ],
-  "Mistvault Bridge": [
-    "U",
-    "B"
-  ],
+  "Mistvault Bridge": [],
   "Mnemonic Wall": [
     "U"
   ],
@@ -2091,16 +1918,12 @@
   "Molten Rain": [
     "R"
   ],
-  "Molten Tributary": [
-    "U",
-    "R"
-  ],
+  "Molten Tributary": [],
   "Moment's Peace": [
     "G"
   ],
   "Momentary Blink": [
-    "W",
-    "U"
+    "W"
   ],
   "Monstrous Carabid": [
     "B",
@@ -2118,15 +1941,11 @@
   "Mortician Beetle": [
     "B"
   ],
-  "Mortuary Mire": [
-    "B"
-  ],
+  "Mortuary Mire": [],
   "Mothdust Changeling": [
     "U"
   ],
-  "Mountain": [
-    "R"
-  ],
+  "Mountain": [],
   "Muddle the Mixture": [
     "U"
   ],
@@ -2158,8 +1977,7 @@
     "U"
   ],
   "Mystical Teachings": [
-    "U",
-    "B"
+    "U"
   ],
   "Nadier's Nightblade": [
     "B"
@@ -2198,9 +2016,7 @@
   "Nettle Sentinel": [
     "G"
   ],
-  "Neurok Stealthsuit": [
-    "U"
-  ],
+  "Neurok Stealthsuit": [],
   "Nezumi Linkbreaker": [
     "B"
   ],
@@ -2217,9 +2033,7 @@
   "Nightshade Dryad": [
     "G"
   ],
-  "Nihil Spellbomb": [
-    "B"
-  ],
+  "Nihil Spellbomb": [],
   "Ninja of the Deep Hours": [
     "U"
   ],
@@ -2284,10 +2098,7 @@
   "Oroku Saki, Shredder Rising": [
     "B"
   ],
-  "Orzhov Basilica": [
-    "W",
-    "B"
-  ],
+  "Orzhov Basilica": [],
   "Otherworldly Gaze": [
     "U"
   ],
@@ -2310,13 +2121,8 @@
   "Pay No Heed": [
     "W"
   ],
-  "Peat Bog": [
-    "B"
-  ],
-  "Peculiar Lighthouse": [
-    "U",
-    "R"
-  ],
+  "Peat Bog": [],
+  "Peculiar Lighthouse": [],
   "Peer Through Depths": [
     "U"
   ],
@@ -2333,11 +2139,7 @@
   "Perigee Beckoner": [
     "B"
   ],
-  "Perilous Landscape": [
-    "W",
-    "U",
-    "R"
-  ],
+  "Perilous Landscape": [],
   "Perilous Myr": [],
   "Persistent Petitioners": [
     "U"
@@ -2348,9 +2150,7 @@
   "Petals of Insight": [
     "U"
   ],
-  "Petrifying Meddler": [
-    "U"
-  ],
+  "Petrifying Meddler": [],
   "Phantom Interference": [
     "U"
   ],
@@ -2380,9 +2180,7 @@
   "Plagued Rusalka": [
     "B"
   ],
-  "Plains": [
-    "W"
-  ],
+  "Plains": [],
   "Planar Incision": [
     "U"
   ],
@@ -2392,9 +2190,7 @@
   "Poised Practitioner": [
     "W"
   ],
-  "Polluted Mire": [
-    "B"
-  ],
+  "Polluted Mire": [],
   "Pond Prophet": [
     "U",
     "G"
@@ -2460,9 +2256,7 @@
   "Putrid Goblin": [
     "B"
   ],
-  "Pyrite Spellbomb": [
-    "R"
-  ],
+  "Pyrite Spellbomb": [],
   "Pyroblast": [
     "R"
   ],
@@ -2472,10 +2266,7 @@
   "Qarsi Sadist": [
     "B"
   ],
-  "Quandrix Campus": [
-    "U",
-    "G"
-  ],
+  "Quandrix Campus": [],
   "Quick Draw": [
     "R"
   ],
@@ -2486,10 +2277,7 @@
     "G"
   ],
   "Radiant Fountain": [],
-  "Radiant Grove": [
-    "W",
-    "G"
-  ],
+  "Radiant Grove": [],
   "Raffine's Informant": [
     "W"
   ],
@@ -2499,16 +2287,12 @@
   "Raise the Alarm": [
     "W"
   ],
-  "Rakdos Carnarium": [
-    "B",
-    "R"
-  ],
+  "Rakdos Carnarium": [],
   "Rally at the Hornburg": [
     "R"
   ],
   "Rally the Peasants": [
-    "W",
-    "R"
+    "W"
   ],
   "Ram Through": [
     "G"
@@ -2542,8 +2326,7 @@
     "B"
   ],
   "Ray of Revelation": [
-    "W",
-    "G"
+    "W"
   ],
   "Raze": [
     "R"
@@ -2551,14 +2334,8 @@
   "Raze the Effigy": [
     "R"
   ],
-  "Razortide Bridge": [
-    "W",
-    "U"
-  ],
-  "Razortrap Gorge": [
-    "B",
-    "R"
-  ],
+  "Razortide Bridge": [],
+  "Razortrap Gorge": [],
   "Reach Through Mists": [
     "U"
   ],
@@ -2605,12 +2382,8 @@
   "Relic's Roar": [
     "U"
   ],
-  "Remote Farm": [
-    "W"
-  ],
-  "Remote Isle": [
-    "U"
-  ],
+  "Remote Farm": [],
+  "Remote Isle": [],
   "Remove Enchantments": [
     "W"
   ],
@@ -2654,10 +2427,7 @@
   "Rift Sower": [
     "G"
   ],
-  "Rimewood Falls": [
-    "U",
-    "G"
-  ],
+  "Rimewood Falls": [],
   "Ringing Strike Mastery": [
     "U"
   ],
@@ -2692,10 +2462,7 @@
   "Rubblebelt Maverick": [
     "G"
   ],
-  "Rugged Highlands": [
-    "R",
-    "G"
-  ],
+  "Rugged Highlands": [],
   "Rumble Arena": [],
   "Run Afoul": [
     "G"
@@ -2707,10 +2474,7 @@
   "Rust": [
     "G"
   ],
-  "Rustvale Bridge": [
-    "W",
-    "R"
-  ],
+  "Rustvale Bridge": [],
   "Sabertooth Cobra": [
     "G"
   ],
@@ -2741,21 +2505,15 @@
   "Sam's Desperate Rescue": [
     "B"
   ],
-  "Sandstone Bridge": [
-    "W"
-  ],
-  "Sandstone Needle": [
-    "R"
-  ],
+  "Sandstone Bridge": [],
+  "Sandstone Needle": [],
   "Sandstorm": [
     "G"
   ],
   "Sandstorm Eidolon": [
     "R"
   ],
-  "Saprazzan Skerry": [
-    "U"
-  ],
+  "Saprazzan Skerry": [],
   "Saproling Migration": [
     "G"
   ],
@@ -2787,23 +2545,15 @@
     "G"
   ],
   "Scholar of Athreos": [
-    "W",
-    "B"
+    "W"
   ],
   "Scour from Existence": [],
-  "Scoured Barrens": [
-    "W",
-    "B"
-  ],
+  "Scoured Barrens": [],
   "Scouring Sands": [
     "R"
   ],
-  "Scrapwork Mutt": [
-    "R"
-  ],
-  "Sea Gate": [
-    "U"
-  ],
+  "Scrapwork Mutt": [],
+  "Sea Gate": [],
   "Sea Gate Oracle": [
     "U"
   ],
@@ -2822,44 +2572,28 @@
   "Searing Blaze": [
     "R"
   ],
-  "Seat of the Synod": [
-    "U"
-  ],
-  "Secluded Steppe": [
-    "W"
-  ],
+  "Seat of the Synod": [],
+  "Secluded Steppe": [],
   "Secret Door": [
     "U"
   ],
   "Seeker of the Way": [
     "W"
   ],
-  "Seething Landscape": [
-    "U",
-    "B",
-    "R"
-  ],
+  "Seething Landscape": [],
   "Seething Song": [
     "R"
   ],
   "Seize the Storm": [
     "R"
   ],
-  "Sejiri Steppe": [
-    "W"
-  ],
+  "Sejiri Steppe": [],
   "Selesnya Evangel": [
     "W",
     "G"
   ],
-  "Selesnya Guildgate": [
-    "W",
-    "G"
-  ],
-  "Selesnya Sanctuary": [
-    "W",
-    "G"
-  ],
+  "Selesnya Guildgate": [],
+  "Selesnya Sanctuary": [],
   "Self-Assembler": [],
   "Sentinel Sliver": [
     "W"
@@ -2892,22 +2626,14 @@
   "Shard Volley": [
     "R"
   ],
-  "Shattered Landscape": [
-    "W",
-    "B",
-    "R"
-  ],
+  "Shattered Landscape": [],
   "Shattering Pulse": [
     "R"
   ],
   "Shelob's Ambush": [
     "B"
   ],
-  "Sheltering Landscape": [
-    "W",
-    "R",
-    "G"
-  ],
+  "Sheltering Landscape": [],
   "Shenanigans": [
     "R"
   ],
@@ -2955,21 +2681,12 @@
   "Silhana Ledgewalker": [
     "G"
   ],
-  "Silverbluff Bridge": [
-    "U",
-    "R"
-  ],
-  "Silverquill Campus": [
-    "W",
-    "B"
-  ],
+  "Silverbluff Bridge": [],
+  "Silverquill Campus": [],
   "Simian Spirit Guide": [
     "R"
   ],
-  "Simic Growth Chamber": [
-    "U",
-    "G"
-  ],
+  "Simic Growth Chamber": [],
   "Sinew Sliver": [
     "W"
   ],
@@ -2992,26 +2709,19 @@
     "W",
     "U"
   ],
-  "Slagwoods Bridge": [
-    "R",
-    "G"
-  ],
+  "Slagwoods Bridge": [],
   "Slavering Branchsnapper": [
     "G"
   ],
   "Sleep of the Dead": [
     "U"
   ],
-  "Slip Through Space": [
-    "U"
-  ],
+  "Slip Through Space": [],
   "Slippery Bogle": [
     "U",
     "G"
   ],
-  "Slippery Karst": [
-    "G"
-  ],
+  "Slippery Karst": [],
   "Slither Blade": [
     "U"
   ],
@@ -3031,9 +2741,7 @@
   "Smoke Shroud": [
     "U"
   ],
-  "Smoldering Crater": [
-    "R"
-  ],
+  "Smoldering Crater": [],
   "Snakeskin Veil": [
     "G"
   ],
@@ -3053,25 +2761,12 @@
     "U",
     "B"
   ],
-  "Snow-Covered Forest": [
-    "G"
-  ],
-  "Snow-Covered Island": [
-    "U"
-  ],
-  "Snow-Covered Mountain": [
-    "R"
-  ],
-  "Snow-Covered Plains": [
-    "W"
-  ],
-  "Snow-Covered Swamp": [
-    "B"
-  ],
-  "Snowfield Sinkhole": [
-    "W",
-    "B"
-  ],
+  "Snow-Covered Forest": [],
+  "Snow-Covered Island": [],
+  "Snow-Covered Mountain": [],
+  "Snow-Covered Plains": [],
+  "Snow-Covered Swamp": [],
+  "Snowfield Sinkhole": [],
   "Snuff Out": [
     "B"
   ],
@@ -3093,10 +2788,7 @@
   "Soul's Attendant": [
     "W"
   ],
-  "Soured Springs": [
-    "U",
-    "B"
-  ],
+  "Soured Springs": [],
   "Sovereign's Bite": [
     "B"
   ],
@@ -3246,10 +2938,7 @@
   "Sunlance": [
     "W"
   ],
-  "Sunlit Marsh": [
-    "W",
-    "B"
-  ],
+  "Sunlit Marsh": [],
   "Sunscape Familiar": [
     "W"
   ],
@@ -3266,16 +2955,11 @@
   "Suture Priest": [
     "W"
   ],
-  "Swamp": [
-    "B"
-  ],
+  "Swamp": [],
   "Swarm, Being of Bees": [
     "B"
   ],
-  "Swiftwater Cliffs": [
-    "U",
-    "R"
-  ],
+  "Swiftwater Cliffs": [],
   "Swirling Sandstorm": [
     "R"
   ],
@@ -3295,10 +2979,7 @@
   "Tangle": [
     "G"
   ],
-  "Tangled Islet": [
-    "U",
-    "G"
-  ],
+  "Tangled Islet": [],
   "Tattered Mummy": [
     "B"
   ],
@@ -3335,9 +3016,7 @@
     "R"
   ],
   "Terrarion": [],
-  "The Autonomous Furnace": [
-    "R"
-  ],
+  "The Autonomous Furnace": [],
   "The Black Breath": [
     "B"
   ],
@@ -3350,9 +3029,7 @@
   "The Shattered States Era": [
     "R"
   ],
-  "The Surgical Bay": [
-    "U"
-  ],
+  "The Surgical Bay": [],
   "Thermo-Alchemist": [
     "R"
   ],
@@ -3371,10 +3048,7 @@
   "Thornscape Familiar": [
     "G"
   ],
-  "Thornwood Falls": [
-    "U",
-    "G"
-  ],
+  "Thornwood Falls": [],
   "Thought Scour": [
     "U"
   ],
@@ -3397,18 +3071,10 @@
     "W",
     "R"
   ],
-  "Thriving Bluff": [
-    "R"
-  ],
-  "Thriving Grove": [
-    "G"
-  ],
-  "Thriving Heath": [
-    "W"
-  ],
-  "Thriving Isle": [
-    "U"
-  ],
+  "Thriving Bluff": [],
+  "Thriving Grove": [],
+  "Thriving Heath": [],
+  "Thriving Isle": [],
   "Thrummingbird": [
     "U"
   ],
@@ -3422,11 +3088,9 @@
     "G"
   ],
   "Tin Street Hooligan": [
-    "R",
-    "G"
+    "R"
   ],
   "Tinder Wall": [
-    "R",
     "G"
   ],
   "Tireless Tribe": [
@@ -3462,27 +3126,16 @@
     "B"
   ],
   "Trailblazer's Torch": [],
-  "Tramway Station": [
-    "B",
-    "R"
-  ],
-  "Tranquil Landscape": [
-    "W",
-    "U",
-    "G"
-  ],
-  "Tranquil Thicket": [
-    "G"
-  ],
+  "Tramway Station": [],
+  "Tranquil Landscape": [],
+  "Tranquil Thicket": [],
   "Traveler's Cloak": [
     "U"
   ],
   "Traveling Minister": [
     "W"
   ],
-  "Tree of Tales": [
-    "G"
-  ],
+  "Tree of Tales": [],
   "Trespasser's Curse": [
     "B"
   ],
@@ -3504,11 +3157,7 @@
   "Turn Aside": [
     "U"
   ],
-  "Twisted Landscape": [
-    "B",
-    "R",
-    "G"
-  ],
+  "Twisted Landscape": [],
   "Ulamog's Crusher": [],
   "Unable to Scream": [
     "U"
@@ -3522,9 +3171,7 @@
   "Unexpected Fangs": [
     "B"
   ],
-  "Unfathomable Truths": [
-    "U"
-  ],
+  "Unfathomable Truths": [],
   "Union of the Third Path": [
     "W"
   ],
@@ -3539,8 +3186,7 @@
     "U"
   ],
   "Urborg Repossession": [
-    "B",
-    "G"
+    "B"
   ],
   "Uruk-hai Berserker": [
     "B"
@@ -3573,9 +3219,7 @@
   "Vapor Snag": [
     "U"
   ],
-  "Vault of Whispers": [
-    "B"
-  ],
+  "Vault of Whispers": [],
   "Vedalken Engineer": [
     "U"
   ],
@@ -3601,7 +3245,6 @@
     "G"
   ],
   "Vineshaper Prodigy": [
-    "U",
     "G"
   ],
   "Viridian Longbow": [],
@@ -3633,13 +3276,8 @@
   "Vivisurgeon's Insight": [
     "U"
   ],
-  "Voidpouncer": [
-    "R"
-  ],
-  "Volatile Fjord": [
-    "U",
-    "R"
-  ],
+  "Voidpouncer": [],
+  "Volatile Fjord": [],
   "Volcanic Spite": [
     "R"
   ],
@@ -3661,9 +3299,7 @@
   "Wall of Roots": [
     "G"
   ],
-  "Warped Tusker": [
-    "G"
-  ],
+  "Warped Tusker": [],
   "Waterbending Lesson": [
     "U"
   ],
@@ -3699,10 +3335,7 @@
   "Wilt": [
     "G"
   ],
-  "Wind-Scarred Crag": [
-    "W",
-    "R"
-  ],
+  "Wind-Scarred Crag": [],
   "Winding Way": [
     "G"
   ],
@@ -3715,9 +3348,7 @@
   "Wirewood Pride": [
     "G"
   ],
-  "Witch's Cottage": [
-    "B"
-  ],
+  "Witch's Cottage": [],
   "Witch's Mark": [
     "R"
   ],
@@ -3725,14 +3356,8 @@
     "B"
   ],
   "Wizard's Rockets": [],
-  "Wooded Ridgeline": [
-    "R",
-    "G"
-  ],
-  "Woodland Chasm": [
-    "B",
-    "G"
-  ],
+  "Wooded Ridgeline": [],
+  "Woodland Chasm": [],
   "World Map": [],
   "Worthy Cost": [
     "B"
@@ -3746,13 +3371,8 @@
   "Wrenn's Resolve": [
     "R"
   ],
-  "Wretched Gryff": [
-    "U"
-  ],
-  "Writhing Chrysalis": [
-    "R",
-    "G"
-  ],
+  "Wretched Gryff": [],
+  "Writhing Chrysalis": [],
   "Yip Yip!": [
     "W"
   ],

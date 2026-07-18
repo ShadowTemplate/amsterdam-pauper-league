@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 r"""
-Fetch each card's color identity (W/U/B/R/G) from Scryfall for every unique
-card name that appears in src/lib/data/decks/*.ts, writing:
+Fetch each card's casting-cost colors (W/U/B/R/G) from Scryfall for every
+unique card name that appears in src/lib/data/decks/*.ts, writing:
   data/scryfall/colors_manifest.json - maps the exact deck-list name string to
-  its color identity, e.g. "Lightning Bolt" -> ["R"].
+  the colors in its mana cost, e.g. "Lightning Bolt" -> ["R"].
+
+Uses Scryfall's "colors" field (colors actually printed in the mana cost),
+not "color_identity" (which also picks up colors from abilities elsewhere on
+the card, e.g. a land's cycling cost) - so lands and other cards with no mana
+cost always resolve to [].
 
 Uses Scryfall's /cards/collection endpoint (up to 75 exact names per request)
 for speed, falling back to a fuzzy /cards/named lookup for any name that
@@ -67,8 +72,17 @@ def error_detail(resp: requests.Response) -> str:
         return resp.text
 
 
-def color_identity(card: dict) -> list:
-    return [c for c in COLOR_ORDER if c in card.get("color_identity", [])]
+def card_colors(card: dict) -> list:
+    # Transform cards (e.g. Delver of Secrets) have no top-level "colors" -
+    # it only lives on the front face in card_faces. Split/adventure/flip
+    # cards already get it merged at the top level by Scryfall.
+    if "colors" in card:
+        colors = card["colors"]
+    elif card.get("card_faces"):
+        colors = card["card_faces"][0].get("colors", [])
+    else:
+        colors = []
+    return [c for c in COLOR_ORDER if c in colors]
 
 
 def fetch_collection(names: list) -> tuple:
@@ -87,7 +101,7 @@ def fetch_collection(names: list) -> tuple:
         for n in batch:
             card = by_name.get(n.lower())
             if card:
-                found[n] = color_identity(card)
+                found[n] = card_colors(card)
             else:
                 not_found.append(n)
     return found, not_found
@@ -97,7 +111,7 @@ def fetch_fuzzy(name: str) -> list:
     resp = api_get(f"{API_BASE}/cards/named", params={"fuzzy": name})
     if resp.status_code != 200:
         raise LookupError(error_detail(resp))
-    return color_identity(resp.json())
+    return card_colors(resp.json())
 
 
 def load_manifest() -> dict:

@@ -3,7 +3,7 @@ import { CARD_COLORS } from "@/lib/data/card-colors";
 
 const COLOR_ORDER: ManaColor[] = ["W", "U", "B", "R", "G"];
 
-/** Colors played by a deck's main deck, derived from each card's color identity. */
+/** Colors played by a deck's main deck, derived from each spell's casting-cost colors. */
 export function getDeckColors(deck: Pick<Deck, "mainDeck">): ManaColor[] {
   const colors = new Set<ManaColor>();
   for (const card of deck.mainDeck) {
