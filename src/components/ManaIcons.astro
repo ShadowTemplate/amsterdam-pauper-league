@@ -1,0 +1,19 @@
+---
+import type { Deck } from "@/types";
+import { getDeckColors } from "@/lib/mana";
+
+interface Props {
+  deck: Pick<Deck, "mainDeck">;
+}
+
+const { deck } = Astro.props;
+const colors = getDeckColors(deck);
+---
+
+{colors.length > 0 && (
+  <span class="inline-flex items-center gap-0.5 align-middle ml-1.5">
+    {colors.map((c) => (
+      <img src={`/mana/${c}.png`} alt={c} title={c} class="w-4 h-4" />
+    ))}
+  </span>
+)}

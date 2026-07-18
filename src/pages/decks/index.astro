@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { getAllDecks } from "@/lib/decks";
 import { getEvent, PLAYERS } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
+import ManaIcons from "@/components/ManaIcons.astro";
 
 const allDecks = getAllDecks();
 
@@ -73,6 +74,7 @@ const title = "Decks – Amsterdam Pauper League";
                           <a href={`/decks/${deck.id}`} class="hover:underline underline-offset-4 text-foreground">
                             {deck.archetype}
                           </a>
+                          <ManaIcons deck={deck} />
                         </td>
                         <td class="py-1.5 border-b border-border text-muted-foreground">
                           {playerSlug ? (

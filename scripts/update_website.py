@@ -15,8 +15,10 @@ Pipeline (each step's output feeds later steps - order matters):
   7. generate_decks_lib.py       (needs src/lib/data/decks/ from step 6)
   8. download_card_images.py     (needs src/lib/data/decks/ from step 6, hits the Scryfall API)
   9. generate_card_images.py     (needs data/scryfall/manifest.json from step 8)
-  10. generate_seasons.py        (needs events/ from step 3)
-  11. generate_data_layer.py     (needs events/ from step 3, seasons/ from step 10)
+  10. fetch_card_colors.py       (needs src/lib/data/decks/ from step 6, hits the Scryfall API)
+  11. generate_card_colors.py    (needs data/scryfall/colors_manifest.json from step 10)
+  12. generate_seasons.py        (needs events/ from step 3)
+  13. generate_data_layer.py     (needs events/ from step 3, seasons/ from step 12)
 
 Note: step 2 seeds every deck as "Unknown" and tries the (unreliable) archetype
 classifier to improve on that; whatever's left "Unknown" needs hand-tagging and a
@@ -46,6 +48,8 @@ STEPS = [
     "generate_decks_lib.py",
     "download_card_images.py",
     "generate_card_images.py",
+    "fetch_card_colors.py",
+    "generate_card_colors.py",
     "generate_seasons.py",
     "generate_data_layer.py",
 ]

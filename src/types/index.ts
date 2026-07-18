@@ -46,6 +46,8 @@ export interface CardImage {
   back?: string;
 }
 
+export type ManaColor = "W" | "U" | "B" | "R" | "G";
+
 export interface Deck {
   id: string;
   url: string;

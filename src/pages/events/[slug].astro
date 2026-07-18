@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { EVENTS, getEventDetail, getEvent } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
 import { findDeckByEventAndPilot } from "@/lib/decks";
+import ManaIcons from "@/components/ManaIcons.astro";
 
 export function getStaticPaths() {
   return EVENTS.map((e) => ({ params: { slug: e.slug } }));
@@ -51,7 +52,9 @@ const title = `${event.name} – Amsterdam Pauper League`;
               </tr>
             </thead>
             <tbody>
-              {detail.standings.map((s) => (
+              {detail.standings.map((s) => {
+                const deck = findDeckByEventAndPilot(slug, s.player, s.deck);
+                return (
                 <tr class="hover:bg-muted/50">
                   <td class="py-3 px-4 border-b border-border font-mono">{s.position}</td>
                   <td class="py-3 px-4 border-b border-border">
@@ -60,23 +63,22 @@ const title = `${event.name} – Amsterdam Pauper League`;
                     </a>
                   </td>
                   <td class="py-3 px-4 border-b border-border">
-                    {(() => {
-                      const deck = findDeckByEventAndPilot(slug, s.player, s.deck);
-                      return deck ? (
-                        <a href={`/decks/${deck.id}`} class="hover:underline underline-offset-4 text-foreground">
-                          {s.deck}
-                        </a>
-                      ) : (
-                        <a href={`/archetypes/${s.deckSlug}`} class="hover:underline underline-offset-4 text-foreground">
-                          {s.deck}
-                        </a>
-                      );
-                    })()}
+                    {deck ? (
+                      <a href={`/decks/${deck.id}`} class="hover:underline underline-offset-4 text-foreground">
+                        {s.deck}
+                      </a>
+                    ) : (
+                      <a href={`/archetypes/${s.deckSlug}`} class="hover:underline underline-offset-4 text-foreground">
+                        {s.deck}
+                      </a>
+                    )}
+                    {deck && <ManaIcons deck={deck} />}
                   </td>
                   <td class="py-3 px-4 border-b border-border font-mono">{s.omwPercentage}</td>
                   <td class="py-3 px-4 border-b border-border font-mono">{s.matchPoints}</td>
                 </tr>
-              ))}
+                );
+              })}
             </tbody>
           </table>
         </div>
