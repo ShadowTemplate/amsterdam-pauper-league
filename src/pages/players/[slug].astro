@@ -4,6 +4,7 @@ import CardName from "@/components/CardName.astro";
 import { PLAYERS, getPlayerDetail } from "@/lib/data-layer";
 import { findDeckByEventAndPilot } from "@/lib/decks";
 import { formatDate } from "@/lib/utils";
+import ManaIcons from "@/components/ManaIcons.astro";
 
 export function getStaticPaths() {
   return PLAYERS.map((p) => ({ params: { slug: p.slug } }));
@@ -111,7 +112,9 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
         )}
 
         <!-- Results per event -->
-        {detail.results.map((result) => (
+        {detail.results.map((result) => {
+          const deck = findDeckByEventAndPilot(result.eventSlug, player.name, result.deck);
+          return (
           <section class="mb-8">
             <h2 class="text-xl font-semibold mb-1">
               <a
@@ -124,24 +127,22 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
             <p class="text-sm text-muted-foreground mb-3">
               {formatDate(result.eventSlug)} &bull;{" "}
               {result.position}th &bull;{" "}
-              {(() => {
-                const deck = findDeckByEventAndPilot(result.eventSlug, player.name, result.deck);
-                return deck ? (
-                  <a
-                    href={`/decks/${deck.id}`}
-                    class="hover:underline underline-offset-4 text-muted-foreground"
-                  >
-                    {result.deck}
-                  </a>
-                ) : (
-                  <a
-                    href={`/archetypes/${result.deckSlug}`}
-                    class="hover:underline underline-offset-4 text-muted-foreground"
-                  >
-                    {result.deck}
-                  </a>
-                );
-              })()}
+              {deck ? (
+                <a
+                  href={`/decks/${deck.id}`}
+                  class="hover:underline underline-offset-4 text-muted-foreground"
+                >
+                  {result.deck}
+                </a>
+              ) : (
+                <a
+                  href={`/archetypes/${result.deckSlug}`}
+                  class="hover:underline underline-offset-4 text-muted-foreground"
+                >
+                  {result.deck}
+                </a>
+              )}
+              {deck && <ManaIcons deck={deck} />}
             </p>
             <div class="w-full overflow-x-auto">
               <table class="w-full text-sm border-collapse table-fixed">
@@ -162,14 +163,19 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
                         <td class="py-3 px-4 border-b border-border">
                           {(() => {
                             const opponentDeck = findDeckByEventAndPilot(result.eventSlug, r.opponentPilot, r.opponentDeck);
-                            return opponentDeck ? (
-                              <a href={`/decks/${opponentDeck.id}`} class="hover:underline underline-offset-4">
-                                {r.opponentDeck}
-                              </a>
-                            ) : (
-                              <a href={`/archetypes/${r.opponentDeckSlug}`} class="hover:underline underline-offset-4">
-                                {r.opponentDeck}
-                              </a>
+                            return (
+                              <>
+                                {opponentDeck ? (
+                                  <a href={`/decks/${opponentDeck.id}`} class="hover:underline underline-offset-4">
+                                    {r.opponentDeck}
+                                  </a>
+                                ) : (
+                                  <a href={`/archetypes/${r.opponentDeckSlug}`} class="hover:underline underline-offset-4">
+                                    {r.opponentDeck}
+                                  </a>
+                                )}
+                                {opponentDeck && <ManaIcons deck={opponentDeck} />}
+                              </>
                             );
                           })()}
                         </td>
@@ -190,7 +196,8 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
               </table>
             </div>
           </section>
-        ))}
+          );
+        })}
       </>
     ) : (
       <p class="text-muted-foreground">
