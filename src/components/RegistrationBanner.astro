@@ -1,0 +1,26 @@
+---
+import { EVENTS } from "@/lib/data-layer";
+
+const nextEvent = EVENTS
+  .filter((e) => e.status === "upcoming" && e.registrationUrl)
+  .sort((a, b) => b.date.localeCompare(a.date))[0];
+---
+
+{
+  nextEvent && (
+    <div class="w-full bg-primary/10 border-b border-primary/20">
+      <div class="mx-auto max-w-screen-lg px-4 py-2.5 text-sm text-center">
+        →{" "}
+        <a
+          href={nextEvent.registrationUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline underline-offset-4 hover:opacity-80 transition"
+        >
+          Registration for <strong>{nextEvent.name}</strong> is open!
+        </a>{" "}
+        ←
+      </div>
+    </div>
+  )
+}

@@ -1,16 +1,20 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import PrizesCard from "@/components/PrizesCard.astro";
-import { getLeagueSeason } from "@/lib/data-layer";
+import RegistrationBanner from "@/components/RegistrationBanner.astro";
+import { EVENTS, getLeagueSeason } from "@/lib/data-layer";
 import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
 
 const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 16);
+const hasOpenRegistration = EVENTS.some((e) => e.status === "upcoming" && e.registrationUrl);
 ---
 
 <Layout title="Amsterdam Pauper League">
   <main class="flex-1">
+    <RegistrationBanner />
+
     <!-- Hero -->
-    <section class="relative mx-auto flex w-full flex-col items-center justify-center pt-14 pb-6 text-center px-4">
+    <section class:list={["relative mx-auto flex w-full flex-col items-center justify-center pb-6 text-center px-4", hasOpenRegistration ? "pt-10" : "pt-14"]}>
       <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mb-6">
         Amsterdam Pauper League
       </h1>
