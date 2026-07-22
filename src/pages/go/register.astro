@@ -1,0 +1,46 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { EVENTS } from "@/lib/data-layer";
+
+const openRegistrationEvents = EVENTS.filter(
+  (e) => e.status === "upcoming" && e.registrationUrl,
+).sort((a, b) => b.date.localeCompare(a.date));
+
+const destination = openRegistrationEvents[0]?.registrationUrl;
+---
+
+{
+  destination ? (
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content={`0;url=${destination}`} />
+        <meta name="robots" content="noindex" />
+        <title>Redirecting to registration…</title>
+      </head>
+      <body>
+        <p>
+          Redirecting to <a href={destination}>event registration</a>…
+        </p>
+        <script define:vars={{ destination }}>
+          window.location.replace(destination);
+        </script>
+      </body>
+    </html>
+  ) : (
+    <Layout title="Registration – Amsterdam Pauper League">
+      <main class="flex-1 flex flex-col items-center justify-center py-24 px-4 text-center">
+        <h1 class="text-3xl font-bold font-mono mb-4">No open registration</h1>
+        <p class="text-muted-foreground mb-8">
+          There isn't an event with open registration right now. Check back soon.
+        </p>
+        <a
+          href="/events"
+          class="bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition"
+        >
+          View events
+        </a>
+      </main>
+    </Layout>
+  )
+}
