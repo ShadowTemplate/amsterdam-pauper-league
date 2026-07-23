@@ -129,6 +129,18 @@ const faqs = [
         Everything you need to know about the Amsterdam Pauper League.
       </p>
 
+      <nav aria-label="Table of contents" class="mb-10 w-fit max-w-full border border-border rounded-xl p-5">
+        <ol class="space-y-2">
+          {faqs.map(({ id, title }, index) => (
+            <li>
+              <a href={`#${id}`} class="text-sm hover:underline underline-offset-4 text-foreground">
+                <span class="text-muted-foreground font-mono mr-2">{index + 1}.</span>{title}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+
       {faqs.map(({ id, title, content }, index) => (
         <section id={id} class:list={["py-8 scroll-mt-20", index < faqs.length - 1 && "border-b border-border"]}>
           <h2 class="text-2xl font-bold mb-4 group">
