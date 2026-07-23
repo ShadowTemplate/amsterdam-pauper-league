@@ -23,6 +23,14 @@ const title = `${deck.archetype} by ${deck.pilotName} – Amsterdam Pauper Leagu
 const mainDeckTotal = deck.mainDeck.reduce((sum, card) => sum + card.quantity, 0);
 const sideboardTotal = deck.sideboard.reduce((sum, card) => sum + card.quantity, 0);
 const totalCards = mainDeckTotal + sideboardTotal;
+
+const mainDeckText = deck.mainDeck.map((card) => `${card.quantity} ${card.name}`).join("\n");
+const sideboardText = deck.sideboard.map((card) => `${card.quantity} ${card.name}`).join("\n");
+const deckText = sideboardText ? `${mainDeckText}\n\n${sideboardText}` : mainDeckText;
+const topDeckText = sideboardText
+  ? `~Mainboard\n${mainDeckText}\n\n~Sideboard\n${sideboardText}`
+  : `~Mainboard\n${mainDeckText}`;
+const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>|]/g, "").trim() + ".txt";
 ---
 
 <Layout title={title}>
@@ -63,6 +71,92 @@ const totalCards = mainDeckTotal + sideboardTotal;
           {formatDate(event.date)} @ {event.venue}
         </p>
       )}
+      <div class="flex flex-wrap gap-2">
+        <button
+          class="deck-download-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+          data-filename={deckFileName}
+          data-content={deckText}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span class="deck-download-btn-label">Download (.txt)</span>
+        </button>
+        <button
+          class="deck-download-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+          data-filename={deckFileName}
+          data-content={topDeckText}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span class="deck-download-btn-label">Download (TopDeck)</span>
+        </button>
+        <button
+          class="deck-copy-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+          data-content={deckText}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+          </svg>
+          <span class="deck-copy-btn-label">Copy to Clipboard (.txt)</span>
+        </button>
+        <button
+          class="deck-copy-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+          data-content={topDeckText}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+          </svg>
+          <span class="deck-copy-btn-label">Copy to Clipboard (TopDeck)</span>
+        </button>
+      </div>
     </div>
 
     <!-- Deck Lists Grid -->
@@ -105,3 +199,44 @@ const totalCards = mainDeckTotal + sideboardTotal;
     </div>
   </div>
 </Layout>
+
+<script>
+  document.querySelectorAll<HTMLElement>(".deck-download-btn").forEach((btn) => {
+    const label = btn.querySelector<HTMLElement>(".deck-download-btn-label");
+    const originalLabel = label?.textContent ?? "";
+    btn.addEventListener("click", () => {
+      const content = btn.dataset.content ?? "";
+      const filename = btn.dataset.filename ?? "deck.txt";
+      const blob = new Blob([content], { type: "text/plain" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+      if (label) {
+        label.textContent = "Downloaded!";
+        setTimeout(() => {
+          label.textContent = originalLabel;
+        }, 1500);
+      }
+    });
+  });
+
+  document.querySelectorAll<HTMLElement>(".deck-copy-btn").forEach((btn) => {
+    const label = btn.querySelector<HTMLElement>(".deck-copy-btn-label");
+    const originalLabel = label?.textContent ?? "";
+    btn.addEventListener("click", async () => {
+      const content = btn.dataset.content ?? "";
+      await navigator.clipboard.writeText(content);
+      if (label) {
+        label.textContent = "Copied!";
+        setTimeout(() => {
+          label.textContent = originalLabel;
+        }, 1500);
+      }
+    });
+  });
+</script>
