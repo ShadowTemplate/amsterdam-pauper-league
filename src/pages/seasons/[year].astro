@@ -1,8 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { EVENTS, getLeagueSeason } from "@/lib/data-layer";
+import { EVENTS, getLeagueSeason, getSeasonMeta } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
 import { CURRENT_SEASON_YEAR, AVAILABLE_YEARS } from "@/lib/current-season";
+import MetagamePie from "@/components/MetagamePie.astro";
 
 export function getStaticPaths() {
   return AVAILABLE_YEARS.map((year) => ({ params: { year: String(year) } }));
@@ -13,6 +14,7 @@ const currentYear = parseInt(year);
 
 const season = getLeagueSeason(currentYear) ?? getLeagueSeason(CURRENT_SEASON_YEAR)!;
 const availableYears = AVAILABLE_YEARS;
+const seasonMeta = getSeasonMeta(currentYear);
 
 const nextEvent = EVENTS.filter((e) => e.status === "upcoming")
   .sort((a, b) => a.date.localeCompare(b.date))[0];
@@ -177,6 +179,9 @@ const { stats } = season;
 
       </div>
     </div>
+
+    <!-- Metagame -->
+    <MetagamePie meta={seasonMeta} title="Season Metagame" />
 
     <!-- Standings table -->
     <h2 class="text-xl font-semibold mb-4">Standings</h2>
