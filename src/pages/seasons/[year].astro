@@ -1,8 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { EVENTS, getLeagueSeason } from "@/lib/data-layer";
+import { EVENTS, getLeagueSeason, getSeasonMeta } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
 import { CURRENT_SEASON_YEAR, AVAILABLE_YEARS } from "@/lib/current-season";
+import MetagamePie from "@/components/MetagamePie.astro";
 
 export function getStaticPaths() {
   return AVAILABLE_YEARS.map((year) => ({ params: { year: String(year) } }));
@@ -13,6 +14,7 @@ const currentYear = parseInt(year);
 
 const season = getLeagueSeason(currentYear) ?? getLeagueSeason(CURRENT_SEASON_YEAR)!;
 const availableYears = AVAILABLE_YEARS;
+const seasonMeta = getSeasonMeta(currentYear);
 
 const nextEvent = EVENTS.filter((e) => e.status === "upcoming")
   .sort((a, b) => a.date.localeCompare(b.date))[0];
@@ -55,7 +57,7 @@ const { stats } = season;
     {currentYear === CURRENT_SEASON_YEAR && nextEvent && (
       <section class="mb-8">
         <h2 class="text-xl font-semibold mb-4">Next Event</h2>
-        <ul class="border border-border divide-y divide-border">
+        <ul class="border border-border rounded-xl divide-y divide-border overflow-hidden">
           <li class="flex items-center justify-between py-3 px-4">
             <div>
               <div class="font-medium">{nextEvent.name}</div>
@@ -93,7 +95,7 @@ const { stats } = season;
         <h2 class="text-xl font-semibold mb-4">Past Events</h2>
         <div class="grid gap-4 sm:grid-cols-2">
           {recentEvents.map((event) => (
-            <a href={`/events/${event.slug}`} class="block border border-border p-4 hover:bg-muted/50 transition-colors">
+            <a href={`/events/${event.slug}`} class="block border border-border rounded-xl p-4 hover:bg-muted/50 transition-colors">
               <div class="font-semibold mb-1">{event.name}</div>
               <div class="text-sm text-muted-foreground mb-3">
                 {formatDate(event.date)} @ {event.venue}
@@ -132,18 +134,18 @@ const { stats } = season;
 
       <!-- Left: stacked stat cards -->
       <div class="grid grid-cols-2 gap-3 sm:flex sm:flex-col sm:gap-4">
-        <div class="flex-1 border border-border p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
+        <div class="flex-1 border border-border rounded-xl p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
           <div class="text-2xl sm:text-3xl font-bold font-mono" data-count={stats.uniquePlayers}>{stats.uniquePlayers}</div>
           <div class="text-sm text-muted-foreground">unique players</div>
         </div>
-        <div class="flex-1 border border-border p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
+        <div class="flex-1 border border-border rounded-xl p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
           <div class="text-2xl sm:text-3xl font-bold font-mono" data-count={stats.averagePlayers}>{stats.averagePlayers}</div>
           <div class="text-sm text-muted-foreground">average players</div>
         </div>
       </div>
 
       <!-- Right: progress bars -->
-      <div class="border border-border p-6 flex flex-col justify-center gap-8">
+      <div class="border border-border rounded-xl p-6 flex flex-col justify-center gap-8">
 
         <!-- Legs played -->
         <div>
@@ -281,6 +283,11 @@ const { stats } = season;
         </svg>
         Paupergeddon bye
       </span>
+    </div>
+
+    <!-- Metagame -->
+    <div class="mt-8">
+      <MetagamePie meta={seasonMeta} title="Metagame" />
     </div>
   </div>
 </Layout>

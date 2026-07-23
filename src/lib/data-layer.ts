@@ -1,6 +1,7 @@
 import type {
   Event,
   EventDetail,
+  EventMetaEntry,
   LeagueSeason,
   Archetype,
   ArchetypeDetail,
@@ -132,6 +133,28 @@ export function getEvent(slug: string): Event | undefined {
 
 export function getEventDetail(slug: string): EventDetail | undefined {
   return EVENT_DETAILS[slug];
+}
+
+export function getSeasonMeta(year: number): EventMetaEntry[] {
+  const prefix = `${year}-`;
+  const counts = new Map<string, { archetype: string; count: number }>();
+
+  for (const [slug, detail] of Object.entries(EVENT_DETAILS)) {
+    if (!slug.startsWith(prefix)) continue;
+    for (const m of detail.meta) {
+      const existing = counts.get(m.archetypeSlug);
+      if (existing) existing.count += m.count;
+      else counts.set(m.archetypeSlug, { archetype: m.archetype, count: m.count });
+    }
+  }
+
+  const total = [...counts.values()].reduce((sum, c) => sum + c.count, 0);
+  return [...counts.entries()].map(([archetypeSlug, { archetype, count }]) => ({
+    archetype,
+    archetypeSlug,
+    count,
+    percentage: total > 0 ? `${((count / total) * 100).toFixed(2)}%` : "0.00%",
+  }));
 }
 
 export function getArchetypeDetail(slug: string): ArchetypeDetail | undefined {

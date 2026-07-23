@@ -45,7 +45,7 @@ const eventsForYear = EVENTS.filter((e) => e.date.startsWith(year)).sort(
 
     <!-- Events list -->
     <div id="events-container">
-      <ul class="border border-border divide-y divide-border">
+      <ul class="border border-border rounded-xl divide-y divide-border overflow-hidden">
         {eventsForYear.map((event) => (
           <li>
             {event.status === "upcoming" ? (
