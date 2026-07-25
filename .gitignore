@@ -43,13 +43,18 @@ next-env.d.ts
 
 .bkp_pages
 scripts/__pycache__/*
-tools/obs-label-generator/obs_label_generator/__pycache__/*
 data/secrets.json
 
 # astro
 .astro/settings.json
 
+.idea/
 old_stuff/*
+
+tools/obs-label-generator/obs_label_generator/__pycache__/*
+tools/leg-helper/leg_helper/__pycache__/*
+
+tools/venv
 tool/obs-label-generator/obs_label_generator/obs_apl/
 tools/obs-label-generator/obs_label_generator/obs_apl/system_key.txt
 tools/obs-label-generator/obs_label_generator/obs_apl/gen_event.txt
