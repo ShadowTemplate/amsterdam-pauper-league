@@ -1,0 +1,1 @@
+-e git+https://github.com/Pauperformance/pauperformance-bot.git#egg=pauperformance-bot
