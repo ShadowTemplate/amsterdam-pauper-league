@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import CardName from "@/components/CardName.astro";
+import CardImageTile from "@/components/CardImageTile.astro";
 import { getDeck, getStaticDeckPaths } from "@/lib/decks";
 import { PLAYERS, getEvent } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
@@ -79,126 +80,167 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
           {formatDate(event.date)} @ {event.venue}
         </p>
       )}
-      <div class="flex flex-wrap gap-2">
-        <button
-          class="deck-download-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
-          data-filename={deckFileName}
-          data-content={deckText}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-sm font-medium text-muted-foreground">View:</span>
+        <div class="deck-view-toggle inline-flex rounded-lg border border-border p-0.5 text-sm" role="group" aria-label="Deck list view">
+          <button
+            type="button"
+            class="deck-view-btn rounded-md px-3 py-1 transition-colors"
+            data-view="text"
+            aria-pressed="true"
           >
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="7 10 12 15 17 10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
-          <span class="deck-download-btn-label">Download (.txt)</span>
-        </button>
-        <button
-          class="deck-download-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
-          data-filename={deckFileName}
-          data-content={topDeckText}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            Text
+          </button>
+          <button
+            type="button"
+            class="deck-view-btn rounded-md px-3 py-1 transition-colors"
+            data-view="visual"
+            aria-pressed="false"
           >
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="7 10 12 15 17 10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
-          <span class="deck-download-btn-label">Download (TopDeck)</span>
-        </button>
-        <button
-          class="deck-copy-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
-          data-content={deckText}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            Visual
+          </button>
+        </div>
+        <div class="deck-group-toggle inline-flex rounded-lg border border-border p-0.5 text-sm" role="group" aria-label="Deck list grouping">
+          <button
+            type="button"
+            class="deck-group-btn rounded-md px-3 py-1 transition-colors"
+            data-group="grouped"
+            aria-pressed="true"
           >
-            <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
-            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-          </svg>
-          <span class="deck-copy-btn-label">Copy to Clipboard (.txt)</span>
-        </button>
-        <button
-          class="deck-copy-btn inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
-          data-content={topDeckText}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            Grouped
+          </button>
+          <button
+            type="button"
+            class="deck-group-btn rounded-md px-3 py-1 transition-colors"
+            data-group="ungrouped"
+            aria-pressed="false"
           >
-            <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
-            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-          </svg>
-          <span class="deck-copy-btn-label">Copy to Clipboard (TopDeck)</span>
-        </button>
+            Ungrouped
+          </button>
+        </div>
+        <span class="ml-2 text-sm font-medium text-muted-foreground">Export:</span>
+        <div class="relative inline-block">
+          <button
+            type="button"
+            class="deck-download-toggle inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            <span class="deck-download-toggle-label">Download</span>
+            <svg
+              class="deck-download-chevron transition-transform"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="deck-download-menu absolute left-0 top-full z-20 mt-1 min-w-[10rem] overflow-hidden rounded-lg border border-border bg-background py-1 shadow-lg" role="menu" hidden>
+            <button
+              class="deck-download-btn flex w-full items-center px-3 py-1.5 text-left text-sm text-muted-foreground hover:bg-muted hover:text-foreground"
+              data-filename={deckFileName}
+              data-content={deckText}
+              role="menuitem"
+            >
+              <span class="deck-download-btn-label">MTGO (.txt)</span>
+            </button>
+            <button
+              class="deck-download-btn flex w-full items-center px-3 py-1.5 text-left text-sm text-muted-foreground hover:bg-muted hover:text-foreground"
+              data-filename={deckFileName}
+              data-content={topDeckText}
+              role="menuitem"
+            >
+              <span class="deck-download-btn-label">TopDeck (.txt)</span>
+            </button>
+          </div>
+        </div>
+        <div class="relative inline-block">
+          <button
+            type="button"
+            class="deck-copy-toggle inline-flex items-center gap-1.5 text-sm border border-border rounded-lg px-3 py-1.5 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+            </svg>
+            <span class="deck-copy-toggle-label">Copy to Clipboard</span>
+            <svg
+              class="deck-copy-chevron transition-transform"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="deck-copy-menu absolute left-0 top-full z-20 mt-1 min-w-[10rem] overflow-hidden rounded-lg border border-border bg-background py-1 shadow-lg" role="menu" hidden>
+            <button
+              class="deck-copy-btn flex w-full items-center px-3 py-1.5 text-left text-sm text-muted-foreground hover:bg-muted hover:text-foreground"
+              data-content={deckText}
+              role="menuitem"
+            >
+              <span class="deck-copy-btn-label">MTGO</span>
+            </button>
+            <button
+              class="deck-copy-btn flex w-full items-center px-3 py-1.5 text-left text-sm text-muted-foreground hover:bg-muted hover:text-foreground"
+              data-content={topDeckText}
+              role="menuitem"
+            >
+              <span class="deck-copy-btn-label">TopDeck</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- Deck Lists Grid -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <!-- Deck Lists Grid: Text view -->
+    <div class="deck-view-panel grid grid-cols-1 lg:grid-cols-2 gap-8" data-view-panel="text">
       <!-- Main Deck -->
       <section>
         <h2 class="text-xl font-semibold mb-4">Main Deck ({mainDeckTotal} cards)</h2>
-        <div class="w-full overflow-x-auto space-y-4">
-          {mainDeckGroups.map((group) => (
-            <div>
-              <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
-                {pluralizeType(group.type)} ({group.count})
-              </h3>
-              <table class="w-full text-sm border-collapse">
-                <tbody>
-                  {group.cards.map((card) => (
-                    <tr class="hover:bg-muted/50">
-                      <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
-                      <td><CardName name={card.name} /></td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <!-- Sideboard -->
-      {deck.sideboard.length > 0 && (
-        <section>
-          <h2 class="text-xl font-semibold mb-4">Sideboard ({sideboardTotal} cards)</h2>
-          <div class="w-full overflow-x-auto space-y-4">
-            {sideboardGroups.map((group) => (
+        <div class="w-full overflow-x-auto">
+          <div class="deck-group-panel space-y-4" data-group-panel="grouped">
+            {mainDeckGroups.map((group) => (
               <div>
                 <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
                   {pluralizeType(group.type)} ({group.count})
@@ -216,13 +258,229 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
               </div>
             ))}
           </div>
+          <div class="deck-group-panel" data-group-panel="ungrouped" hidden>
+            <table class="w-full text-sm border-collapse">
+              <tbody>
+                {deck.mainDeck.map((card) => (
+                  <tr class="hover:bg-muted/50">
+                    <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
+                    <td><CardName name={card.name} /></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sideboard -->
+      {deck.sideboard.length > 0 && (
+        <section>
+          <h2 class="text-xl font-semibold mb-4">Sideboard ({sideboardTotal} cards)</h2>
+          <div class="w-full overflow-x-auto">
+            <div class="deck-group-panel space-y-4" data-group-panel="grouped">
+              {sideboardGroups.map((group) => (
+                <div>
+                  <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
+                    {pluralizeType(group.type)} ({group.count})
+                  </h3>
+                  <table class="w-full text-sm border-collapse">
+                    <tbody>
+                      {group.cards.map((card) => (
+                        <tr class="hover:bg-muted/50">
+                          <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
+                          <td><CardName name={card.name} /></td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ))}
+            </div>
+            <div class="deck-group-panel" data-group-panel="ungrouped" hidden>
+              <table class="w-full text-sm border-collapse">
+                <tbody>
+                  {deck.sideboard.map((card) => (
+                    <tr class="hover:bg-muted/50">
+                      <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
+                      <td><CardName name={card.name} /></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
+
+    <!-- Deck Lists Grid: Visual view -->
+    <div class="deck-view-panel space-y-8" data-view-panel="visual" hidden>
+      <!-- Main Deck -->
+      <section>
+        <h2 class="text-xl font-semibold mb-4">Main Deck ({mainDeckTotal} cards)</h2>
+        <div class="deck-group-panel space-y-6" data-group-panel="grouped">
+          {mainDeckGroups.map((group) => (
+            <div>
+              <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">
+                {pluralizeType(group.type)} ({group.count})
+              </h3>
+              <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+                {group.cards.map((card) => (
+                  <CardImageTile name={card.name} quantity={card.quantity} />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        <div class="deck-group-panel" data-group-panel="ungrouped" hidden>
+          <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+            {deck.mainDeck.map((card) => (
+              <CardImageTile name={card.name} quantity={card.quantity} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Sideboard -->
+      {deck.sideboard.length > 0 && (
+        <section>
+          <h2 class="text-xl font-semibold mb-4">Sideboard ({sideboardTotal} cards)</h2>
+          <div class="deck-group-panel space-y-6" data-group-panel="grouped">
+            {sideboardGroups.map((group) => (
+              <div>
+                <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">
+                  {pluralizeType(group.type)} ({group.count})
+                </h3>
+                <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+                  {group.cards.map((card) => (
+                    <CardImageTile name={card.name} quantity={card.quantity} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="deck-group-panel" data-group-panel="ungrouped" hidden>
+            <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+              {deck.sideboard.map((card) => (
+                <CardImageTile name={card.name} quantity={card.quantity} />
+              ))}
+            </div>
+          </div>
         </section>
       )}
     </div>
   </div>
 </Layout>
 
+<style>
+  @keyframes deck-toggle-flash {
+    0% {
+      background-color: var(--primary);
+      color: var(--primary-foreground);
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+
+  .deck-toggle-flash {
+    animation: deck-toggle-flash 2.2s ease-out;
+  }
+</style>
+
 <script>
+  const downloadToggle = document.querySelector<HTMLButtonElement>(".deck-download-toggle");
+  const downloadMenu = document.querySelector<HTMLElement>(".deck-download-menu");
+  const downloadChevron = document.querySelector<HTMLElement>(".deck-download-chevron");
+
+  function closeDownloadMenu() {
+    if (!downloadMenu || !downloadToggle) return;
+    downloadMenu.hidden = true;
+    downloadToggle.setAttribute("aria-expanded", "false");
+    downloadChevron?.classList.remove("rotate-180");
+  }
+
+  if (downloadToggle && downloadMenu) {
+    downloadToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = !downloadMenu.hidden;
+      if (isOpen) {
+        closeDownloadMenu();
+      } else {
+        closeCopyMenu();
+        downloadMenu.hidden = false;
+        downloadToggle.setAttribute("aria-expanded", "true");
+        downloadChevron?.classList.add("rotate-180");
+      }
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!downloadMenu.hidden && !downloadMenu.contains(e.target as Node) && e.target !== downloadToggle) {
+        closeDownloadMenu();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeDownloadMenu();
+    });
+  }
+
+  const copyToggle = document.querySelector<HTMLButtonElement>(".deck-copy-toggle");
+  const copyMenu = document.querySelector<HTMLElement>(".deck-copy-menu");
+  const copyChevron = document.querySelector<HTMLElement>(".deck-copy-chevron");
+
+  function closeCopyMenu() {
+    if (!copyMenu || !copyToggle) return;
+    copyMenu.hidden = true;
+    copyToggle.setAttribute("aria-expanded", "false");
+    copyChevron?.classList.remove("rotate-180");
+  }
+
+  if (copyToggle && copyMenu) {
+    copyToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = !copyMenu.hidden;
+      if (isOpen) {
+        closeCopyMenu();
+      } else {
+        closeDownloadMenu();
+        copyMenu.hidden = false;
+        copyToggle.setAttribute("aria-expanded", "true");
+        copyChevron?.classList.add("rotate-180");
+      }
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!copyMenu.hidden && !copyMenu.contains(e.target as Node) && e.target !== copyToggle) {
+        closeCopyMenu();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeCopyMenu();
+    });
+  }
+
+  function flashLabel(label: HTMLElement | null, message: string) {
+    if (!label) return;
+    const originalLabel = label.textContent ?? "";
+    label.textContent = message;
+    setTimeout(() => {
+      label.textContent = originalLabel;
+    }, 2200);
+  }
+
+  function flashHighlight(toggle: HTMLElement | null) {
+    if (!toggle) return;
+    toggle.classList.remove("deck-toggle-flash");
+    void toggle.offsetWidth;
+    toggle.classList.add("deck-toggle-flash");
+  }
+
+  const downloadToggleLabel = document.querySelector<HTMLElement>(".deck-download-toggle-label");
+  const copyToggleLabel = document.querySelector<HTMLElement>(".deck-copy-toggle-label");
+
   document.querySelectorAll<HTMLElement>(".deck-download-btn").forEach((btn) => {
     const label = btn.querySelector<HTMLElement>(".deck-download-btn-label");
     const originalLabel = label?.textContent ?? "";
@@ -238,11 +496,14 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
       a.click();
       a.remove();
       URL.revokeObjectURL(url);
+      closeDownloadMenu();
+      flashLabel(downloadToggleLabel, "Downloaded!");
+      flashHighlight(downloadToggle);
       if (label) {
         label.textContent = "Downloaded!";
         setTimeout(() => {
           label.textContent = originalLabel;
-        }, 1500);
+        }, 2200);
       }
     });
   });
@@ -252,13 +513,67 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
     const originalLabel = label?.textContent ?? "";
     btn.addEventListener("click", async () => {
       const content = btn.dataset.content ?? "";
-      await navigator.clipboard.writeText(content);
+      let succeeded = true;
+      try {
+        await navigator.clipboard.writeText(content);
+      } catch {
+        succeeded = false;
+      }
+      closeCopyMenu();
+      flashLabel(copyToggleLabel, succeeded ? "Copied!" : "Copy failed");
+      flashHighlight(copyToggle);
       if (label) {
-        label.textContent = "Copied!";
+        label.textContent = succeeded ? "Copied!" : "Copy failed";
         setTimeout(() => {
           label.textContent = originalLabel;
-        }, 1500);
+        }, 2200);
       }
     });
   });
+
+  const VIEW_STORAGE_KEY = "deckListView";
+  const viewButtons = document.querySelectorAll<HTMLButtonElement>(".deck-view-btn");
+  const viewPanels = document.querySelectorAll<HTMLElement>(".deck-view-panel");
+
+  function setView(view: string) {
+    viewButtons.forEach((btn) => {
+      const active = btn.dataset.view === view;
+      btn.setAttribute("aria-pressed", String(active));
+      btn.classList.toggle("bg-primary", active);
+      btn.classList.toggle("text-primary-foreground", active);
+    });
+    viewPanels.forEach((panel) => {
+      panel.hidden = panel.dataset.viewPanel !== view;
+    });
+    localStorage.setItem(VIEW_STORAGE_KEY, view);
+  }
+
+  viewButtons.forEach((btn) => {
+    btn.addEventListener("click", () => setView(btn.dataset.view ?? "text"));
+  });
+
+  setView(localStorage.getItem(VIEW_STORAGE_KEY) ?? "text");
+
+  const GROUP_STORAGE_KEY = "deckListGrouping";
+  const groupButtons = document.querySelectorAll<HTMLButtonElement>(".deck-group-btn");
+  const groupPanels = document.querySelectorAll<HTMLElement>(".deck-group-panel");
+
+  function setGrouping(grouping: string) {
+    groupButtons.forEach((btn) => {
+      const active = btn.dataset.group === grouping;
+      btn.setAttribute("aria-pressed", String(active));
+      btn.classList.toggle("bg-primary", active);
+      btn.classList.toggle("text-primary-foreground", active);
+    });
+    groupPanels.forEach((panel) => {
+      panel.hidden = panel.dataset.groupPanel !== grouping;
+    });
+    localStorage.setItem(GROUP_STORAGE_KEY, grouping);
+  }
+
+  groupButtons.forEach((btn) => {
+    btn.addEventListener("click", () => setGrouping(btn.dataset.group ?? "grouped"));
+  });
+
+  setGrouping(localStorage.getItem(GROUP_STORAGE_KEY) ?? "grouped");
 </script>
