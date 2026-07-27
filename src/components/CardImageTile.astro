@@ -8,6 +8,14 @@ interface Props {
 
 const { name, quantity } = Astro.props;
 const image = CARD_IMAGES[name];
+const MAX_STACK_LAYERS = 3;
+const ROTATION_STEP = 8;
+const SHIFT_STEP = 7;
+const stackLayers = image ? Math.min(Math.max(quantity - 1, 0), MAX_STACK_LAYERS) : 0;
+const stackCards = Array.from({ length: stackLayers }, (_, i) => {
+  const depth = stackLayers - i;
+  return { rotate: depth * ROTATION_STEP, shift: depth * SHIFT_STEP };
+});
 ---
 
 <div
@@ -18,26 +26,51 @@ const image = CARD_IMAGES[name];
   role={image ? "button" : undefined}
   aria-label={image ? `Preview ${name}` : undefined}
 >
-  <div class="relative rounded-[4.5%/3.2%] overflow-hidden bg-muted">
-    {image ? (
-      <img
-        src={image.front}
-        alt={name}
-        loading="lazy"
-        class="block w-full aspect-[63/88] object-cover"
-      />
-    ) : (
-      <div class="flex items-center justify-center text-center w-full aspect-[63/88] p-1.5 text-[11px] leading-tight text-muted-foreground border border-dashed border-border">
-        {name}
+  <div class="relative">
+    {stackLayers > 0 && (
+      <div
+        class="pointer-events-none absolute overflow-hidden"
+        style={{ top: "-50px", left: "-50px", right: "-50px", bottom: "0px" }}
+        aria-hidden="true"
+      >
+        {stackCards.map(({ rotate, shift }) => (
+          <div
+            class="absolute overflow-hidden rounded-[4.5%/3.2%] shadow-sm"
+            style={{
+              top: "50px",
+              left: "50px",
+              right: "50px",
+              bottom: "0px",
+              transform: `translate(${-shift}px, ${-shift}px) rotate(${rotate}deg)`,
+              transformOrigin: "bottom left",
+            }}
+          >
+            <img src={image!.front} alt="" loading="lazy" class="absolute inset-0 w-full h-full object-cover" />
+          </div>
+        ))}
       </div>
     )}
-    <span class="absolute bottom-1 left-1 rounded bg-black/75 px-1.5 py-0.5 text-xs font-mono font-semibold text-white">
-      ×{quantity}
-    </span>
+    <div class="relative rounded-[4.5%/3.2%] overflow-hidden bg-muted shadow-md">
+      {image ? (
+        <img
+          src={image.front}
+          alt={name}
+          loading="lazy"
+          class="block w-full aspect-[63/88] object-cover"
+        />
+      ) : (
+        <div class="flex items-center justify-center text-center w-full aspect-[63/88] p-1.5 text-[11px] leading-tight text-muted-foreground border border-dashed border-border">
+          {name}
+        </div>
+      )}
+      <span class="absolute bottom-1 left-1 rounded bg-black/75 px-1.5 py-0.5 text-xs font-mono font-semibold text-white">
+        ×{quantity}
+      </span>
+    </div>
   </div>
   {image && (
     <p
-      class="mt-1 text-sm text-center leading-tight cursor-default underline decoration-dotted decoration-muted-foreground underline-offset-4 hover:text-primary"
+      class="mt-1.5 text-sm text-center leading-tight cursor-default underline decoration-dotted decoration-muted-foreground underline-offset-4 hover:text-primary"
     >{name}</p>
   )}
 </div>

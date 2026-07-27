@@ -322,10 +322,10 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
         <div class="deck-group-panel space-y-6" data-group-panel="grouped">
           {mainDeckGroups.map((group) => (
             <div>
-              <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">
+              <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-4">
                 {pluralizeType(group.type)} ({group.count})
               </h3>
-              <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+              <div class="grid gap-x-14 gap-y-8" style="grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));">
                 {group.cards.map((card) => (
                   <CardImageTile name={card.name} quantity={card.quantity} />
                 ))}
@@ -334,7 +334,7 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
           ))}
         </div>
         <div class="deck-group-panel" data-group-panel="ungrouped" hidden>
-          <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+          <div class="grid gap-x-14 gap-y-8" style="grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));">
             {deck.mainDeck.map((card) => (
               <CardImageTile name={card.name} quantity={card.quantity} />
             ))}
@@ -349,10 +349,10 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
           <div class="deck-group-panel space-y-6" data-group-panel="grouped">
             {sideboardGroups.map((group) => (
               <div>
-                <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">
+                <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-4">
                   {pluralizeType(group.type)} ({group.count})
                 </h3>
-                <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+                <div class="grid gap-x-14 gap-y-8" style="grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));">
                   {group.cards.map((card) => (
                     <CardImageTile name={card.name} quantity={card.quantity} />
                   ))}
@@ -361,7 +361,7 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
             ))}
           </div>
           <div class="deck-group-panel" data-group-panel="ungrouped" hidden>
-            <div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+            <div class="grid gap-x-14 gap-y-8" style="grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));">
               {deck.sideboard.map((card) => (
                 <CardImageTile name={card.name} quantity={card.quantity} />
               ))}
