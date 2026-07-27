@@ -385,7 +385,7 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
   }
 
   .deck-toggle-flash {
-    animation: deck-toggle-flash 2.2s ease-out;
+    animation: deck-toggle-flash 1.6s ease-out;
   }
 </style>
 
@@ -468,7 +468,7 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
     label.textContent = message;
     setTimeout(() => {
       label.textContent = originalLabel;
-    }, 2200);
+    }, 1600);
   }
 
   function flashHighlight(toggle: HTMLElement | null) {
@@ -503,7 +503,7 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
         label.textContent = "Downloaded!";
         setTimeout(() => {
           label.textContent = originalLabel;
-        }, 2200);
+        }, 1600);
       }
     });
   });
@@ -526,7 +526,7 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
         label.textContent = succeeded ? "Copied!" : "Copy failed";
         setTimeout(() => {
           label.textContent = originalLabel;
-        }, 2200);
+        }, 1600);
       }
     });
   });
