@@ -80,11 +80,15 @@ def has_images(print_obj: dict) -> bool:
 
 
 def fetch_first_printing(card: dict) -> dict:
-    """All prints of `card`, sorted by release date ascending - the first
-    entry with usable images is the card's first printing. Prefers a paper
-    printing over a digital-only (Arena/MTGO) one when both exist."""
+    """All English prints of `card`, sorted by release date ascending - the
+    first entry with usable images is the card's first English printing.
+    Prefers a paper printing over a digital-only (Arena/MTGO) one when both
+    exist. Some old cards were originally sold in several languages at once
+    and Scryfall indexes each language as its own printing, so without a
+    language filter the "first" print by release date can be a non-English
+    one (e.g. Italian) - restricting to lang:en avoids that."""
     resp = api_get(f"{API_BASE}/cards/search", params={
-        "q": f'!"{card["name"]}"',
+        "q": f'!"{card["name"]}" lang:en',
         "unique": "prints",
         "order": "released",
         "dir": "asc",
@@ -95,7 +99,7 @@ def fetch_first_printing(card: dict) -> dict:
     prints = resp.json().get("data", [])
     candidates = [p for p in prints if has_images(p)]
     if not candidates:
-        raise LookupError(f"no printing with images found for {card['name']!r}")
+        raise LookupError(f"no English printing with images found for {card['name']!r}")
 
     paper = [p for p in candidates if not p.get("digital")]
     return paper[0] if paper else candidates[0]

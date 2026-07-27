@@ -1,0 +1,43 @@
+---
+import { CARD_IMAGES } from "@/lib/data/card-images";
+
+interface Props {
+  name: string;
+  quantity: number;
+}
+
+const { name, quantity } = Astro.props;
+const image = CARD_IMAGES[name];
+---
+
+<div
+  class="card-tile"
+  data-card-front={image?.front}
+  data-card-back={image?.back}
+  tabindex={image ? 0 : undefined}
+  role={image ? "button" : undefined}
+  aria-label={image ? `Preview ${name}` : undefined}
+>
+  <div class="relative rounded-[4.5%/3.2%] overflow-hidden bg-muted">
+    {image ? (
+      <img
+        src={image.front}
+        alt={name}
+        loading="lazy"
+        class="block w-full aspect-[63/88] object-cover"
+      />
+    ) : (
+      <div class="flex items-center justify-center text-center w-full aspect-[63/88] p-1.5 text-[11px] leading-tight text-muted-foreground border border-dashed border-border">
+        {name}
+      </div>
+    )}
+    <span class="absolute bottom-1 left-1 rounded bg-black/75 px-1.5 py-0.5 text-xs font-mono font-semibold text-white">
+      ×{quantity}
+    </span>
+  </div>
+  {image && (
+    <p
+      class="mt-1 text-sm text-center leading-tight cursor-default underline decoration-dotted decoration-muted-foreground underline-offset-4 hover:text-primary"
+    >{name}</p>
+  )}
+</div>
