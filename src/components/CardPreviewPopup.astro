@@ -1,10 +1,19 @@
 {/*
   Shared floating preview shown by any element with a data-card-front
   attribute (see CardName.astro). One instance per page, included once in
-  the root layout: desktop hovers/focuses a trigger to preview it, touch
-  devices tap a trigger to pin/unpin it; tapping outside dismisses it.
+  the root layout: desktop hovers/focuses a trigger to preview it in a small
+  floating box, touch devices tap a trigger to open a near-fullscreen
+  overlay instead (a small floating preview isn't a meaningful "zoom in" on
+  mobile, especially over cards already shown as images in the visual deck
+  view); tapping outside or the close button dismisses it.
 */}
 <div id="card-preview-popup" class="card-preview-popup" hidden>
+  <button type="button" class="card-preview-close" aria-label="Close preview">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </svg>
+  </button>
   <img class="card-preview-img" data-face="front" alt="" />
   <img class="card-preview-img" data-face="back" alt="" hidden />
 </div>
@@ -28,12 +37,54 @@
     box-shadow: 0 10px 30px rgb(0 0 0 / 0.55);
     background: var(--muted);
   }
+
+  .card-preview-close {
+    display: none;
+  }
+
+  /* Touch devices: near-fullscreen overlay instead of a small floating box. */
+  .card-preview-popup.is-fullscreen {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2.5rem 1.25rem;
+    background: rgb(0 0 0 / 0.8);
+  }
+
+  .card-preview-popup.is-fullscreen .card-preview-img {
+    width: min(88vw, 420px);
+    max-width: none;
+  }
+
+  .card-preview-popup.is-fullscreen .card-preview-close {
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 9999px;
+    background: rgb(255 255 255 / 0.15);
+    color: white;
+    cursor: pointer;
+  }
 </style>
 
 <script>
   const popup = document.getElementById("card-preview-popup") as HTMLElement;
   const frontImg = popup.querySelector('[data-face="front"]') as HTMLImageElement;
   const backImg = popup.querySelector('[data-face="back"]') as HTMLImageElement;
+  const closeBtn = popup.querySelector(".card-preview-close") as HTMLButtonElement;
+
+  const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
   // Set once a trigger is clicked/tapped; keeps the preview open through
   // mouseout so touch taps (and desktop "click to pin") don't auto-dismiss.
@@ -59,7 +110,15 @@
     }
 
     popup.hidden = false;
-    positionPopup(trigger);
+
+    if (hoverCapable) {
+      popup.classList.remove("is-fullscreen");
+      positionPopup(trigger);
+    } else {
+      popup.classList.add("is-fullscreen");
+      popup.style.left = "";
+      popup.style.top = "";
+    }
   }
 
   function hidePreview() {
@@ -85,7 +144,10 @@
     popup.style.top = `${top}px`;
   }
 
-  const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  closeBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    hidePreview();
+  });
 
   if (hoverCapable) {
     document.addEventListener("mouseover", (e) => {
@@ -121,14 +183,16 @@
     if (!popup.hidden) hidePreview();
   });
 
-  window.addEventListener(
-    "scroll",
-    () => {
+  if (hoverCapable) {
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (pinnedTrigger) positionPopup(pinnedTrigger);
+      },
+      true,
+    );
+    window.addEventListener("resize", () => {
       if (pinnedTrigger) positionPopup(pinnedTrigger);
-    },
-    true,
-  );
-  window.addEventListener("resize", () => {
-    if (pinnedTrigger) positionPopup(pinnedTrigger);
-  });
+    });
+  }
 </script>
