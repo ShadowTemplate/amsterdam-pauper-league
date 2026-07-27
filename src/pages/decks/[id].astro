@@ -4,6 +4,7 @@ import CardName from "@/components/CardName.astro";
 import { getDeck, getStaticDeckPaths } from "@/lib/decks";
 import { PLAYERS, getEvent } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
+import { groupCardsByType } from "@/lib/card-types";
 
 export function getStaticPaths() {
   return getStaticDeckPaths();
@@ -23,6 +24,13 @@ const title = `${deck.archetype} by ${deck.pilotName} – Amsterdam Pauper Leagu
 const mainDeckTotal = deck.mainDeck.reduce((sum, card) => sum + card.quantity, 0);
 const sideboardTotal = deck.sideboard.reduce((sum, card) => sum + card.quantity, 0);
 const totalCards = mainDeckTotal + sideboardTotal;
+
+const mainDeckGroups = groupCardsByType(deck.mainDeck);
+const sideboardGroups = groupCardsByType(deck.sideboard);
+
+function pluralizeType(type: string): string {
+  return type === "Sorcery" ? "Sorceries" : `${type}s`;
+}
 
 const mainDeckText = deck.mainDeck.map((card) => `${card.quantity} ${card.name}`).join("\n");
 const sideboardText = deck.sideboard.map((card) => `${card.quantity} ${card.name}`).join("\n");
@@ -164,17 +172,24 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
       <!-- Main Deck -->
       <section>
         <h2 class="text-xl font-semibold mb-4">Main Deck ({mainDeckTotal} cards)</h2>
-        <div class="w-full overflow-x-auto">
-          <table class="w-full text-sm border-collapse">
-            <tbody>
-              {deck.mainDeck.map((card) => (
-                <tr class="hover:bg-muted/50">
-                  <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
-                  <td><CardName name={card.name} /></td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div class="w-full overflow-x-auto space-y-4">
+          {mainDeckGroups.map((group) => (
+            <div>
+              <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
+                {pluralizeType(group.type)} ({group.count})
+              </h3>
+              <table class="w-full text-sm border-collapse">
+                <tbody>
+                  {group.cards.map((card) => (
+                    <tr class="hover:bg-muted/50">
+                      <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
+                      <td><CardName name={card.name} /></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -182,17 +197,24 @@ const deckFileName = `${deck.pilotName} - ${deck.archetype}`.replace(/[\\/:*?"<>
       {deck.sideboard.length > 0 && (
         <section>
           <h2 class="text-xl font-semibold mb-4">Sideboard ({sideboardTotal} cards)</h2>
-          <div class="w-full overflow-x-auto">
-            <table class="w-full text-sm border-collapse">
-              <tbody>
-                {deck.sideboard.map((card) => (
-                  <tr class="hover:bg-muted/50">
-                    <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
-                    <td><CardName name={card.name} /></td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div class="w-full overflow-x-auto space-y-4">
+            {sideboardGroups.map((group) => (
+              <div>
+                <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
+                  {pluralizeType(group.type)} ({group.count})
+                </h3>
+                <table class="w-full text-sm border-collapse">
+                  <tbody>
+                    {group.cards.map((card) => (
+                      <tr class="hover:bg-muted/50">
+                        <td class="py-1 font-mono font-medium w-6">{card.quantity}</td>
+                        <td><CardName name={card.name} /></td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ))}
           </div>
         </section>
       )}
