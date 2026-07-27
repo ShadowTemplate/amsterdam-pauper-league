@@ -48,6 +48,17 @@ export interface CardImage {
 
 export type ManaColor = "W" | "U" | "B" | "R" | "G";
 
+export type CardType =
+  | "Land"
+  | "Planeswalker"
+  | "Battle"
+  | "Creature"
+  | "Artifact"
+  | "Enchantment"
+  | "Instant"
+  | "Sorcery"
+  | "Other";
+
 export interface Deck {
   id: string;
   url: string;

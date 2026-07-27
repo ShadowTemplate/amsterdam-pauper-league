@@ -42,10 +42,16 @@ src/
 ├── layouts/        # Layout components
 ├── components/     # Astro components
 ├── styles/         # CSS (Tailwind v4 syntax)
-├── lib/            # Utilities and data (data-layer.ts)
+├── lib/            # Utilities and data (data-layer.ts, src/lib/data/*)
 └── types/          # TypeScript types
 public/             # Static assets (CNAME for custom domain)
+scripts/            # Python pipeline that generates src/lib/data/ from data/
+data/               # Raw/cached input for the scripts/ pipeline (topdeck.gg
+                    # exports, archetypes, Scryfall manifests)
 ```
+
+`src/lib/data/` is entirely generated - see [UPDATING_THE_WEBSITE.md](UPDATING_THE_WEBSITE.md)
+for how to run the pipeline after a new event.
 
 ## Key Features
 
