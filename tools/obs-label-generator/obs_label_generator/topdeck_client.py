@@ -51,3 +51,6 @@ class TopdeckClient:
 
     def get_standings(self, tid):
         return self._get(f"/tournaments/{tid}/standings")
+
+    def get_attendees(self, tid):
+        return self._get(f"/tournaments/{tid}/attendees")

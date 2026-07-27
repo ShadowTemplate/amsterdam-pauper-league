@@ -66,11 +66,11 @@ def player_to_classifier_deck(tid, player):
     """Build the {id, url, pilotName, mainDeck, sideboard} shape the archetype
     classifier expects (verified live against masadora.ddns.net:8913 - the older
     {id, cards: {mainboard, sideboard}} shape this used to send now gets a 500),
-    straight from a /standings player entry's structured deckObj."""
+    straight from a /attendees player entry's structured deckObj."""
     deck_obj = player["deckObj"]
     return {
-        "id": player["id"],
-        "url": f"https://topdeck.gg/deck/{tid}/{player['id']}",
+        "id": player["uid"],
+        "url": f"https://topdeck.gg/deck/{tid}/{player['uid']}",
         "pilotName": player["name"],
         "mainDeck": _deck_section_to_list(deck_obj.get("Mainboard")),
         "sideboard": _deck_section_to_list(deck_obj.get("Sideboard")),
@@ -92,40 +92,26 @@ def placeholder_deck(tid, player_id, player_name):
 
 
 def ensure_decks_captured(client, tid, tournament_name):
-    input(
-        f"Enable 'Show Decks' for '{tournament_name}' in the topdeck.gg dashboard, "
-        "then press Enter to continue..."
-    )
-
     while True:
         try:
-            standings = client.get_standings(tid)
+            attendees = client.get_attendees(tid)
         except TopdeckApiError as exc:
             print(exc)
-            input("Retry checking decklist visibility? Press Enter to retry...")
-            continue
-
-        visible_count = sum(1 for p in standings if p.get("deckObj"))
-        if standings and visible_count == 0:
-            print(
-                "No decklists are visible at all — did 'Show Decks' actually get "
-                "enabled for this event?"
-            )
-            input("Enable it, then press Enter to retry...")
+            input("Retry fetching attendees? Press Enter to retry...")
             continue
         break
 
     decks = {}
     missing_names = []
-    for player in standings:
+    for player in attendees:
         if player.get("deckObj"):
             try:
-                decks[player["id"]] = player_to_classifier_deck(tid, player)
+                decks[player["uid"]] = player_to_classifier_deck(tid, player)
                 continue
             except (KeyError, TypeError) as exc:
                 print(f"Could not parse decklist for {player['name']}: {exc}")
         missing_names.append(player["name"])
-        decks[player["id"]] = placeholder_deck(tid, player["id"], player["name"])
+        decks[player["uid"]] = placeholder_deck(tid, player["uid"], player["name"])
 
     if missing_names:
         print(
@@ -135,26 +121,4 @@ def ensure_decks_captured(client, tid, tournament_name):
 
     save_cached_decks(tid, decks)
     print(f"Captured {len(decks)} decks for '{tournament_name}'.")
-
-    input("Disable 'Show Decks' now, then press Enter to continue...")
-
-    while True:
-        try:
-            standings = client.get_standings(tid)
-        except TopdeckApiError as exc:
-            print(exc)
-            input("Retry checking decklist visibility? Press Enter to retry...")
-            continue
-
-        still_visible = [p["name"] for p in standings if p.get("deckObj")]
-        if still_visible:
-            print(
-                f"Decklists still publicly visible for: {', '.join(still_visible)} — "
-                "please confirm you disabled Show Decks."
-            )
-            input("Press Enter to re-check...")
-            continue
-        break
-
-    print("Confirmed: decklists are hidden again.")
     return decks
