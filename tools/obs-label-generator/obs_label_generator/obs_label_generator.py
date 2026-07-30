@@ -113,8 +113,11 @@ def generate_obs_label(client, tid, config, decks, archetypes):
         out_f.write(tournament_name)
     curr_round = len(data["rounds"])
     print(f"Round in progress: {curr_round}")
+    round_label = "Round " + str(curr_round)
     with open(os.path.join(OBS_DIR, "gen_round.txt"), "w") as out_f:
-        out_f.write("Round " + str(curr_round))
+        out_f.write(round_label)
+    with open(os.path.join(OBS_DIR, "gen_event_round.txt"), "w") as out_f:
+        out_f.write(tournament_name + " | " + round_label)
     round_data = data["rounds"][curr_round - 1]
     print()
 
