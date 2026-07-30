@@ -117,7 +117,7 @@ def generate_obs_label(client, tid, config, decks, archetypes):
     with open(os.path.join(OBS_DIR, "gen_round.txt"), "w") as out_f:
         out_f.write(round_label)
     with open(os.path.join(OBS_DIR, "gen_event_round.txt"), "w") as out_f:
-        out_f.write(tournament_name + " | " + round_label)
+        out_f.write(tournament_name + " – " + round_label)
     round_data = data["rounds"][curr_round - 1]
     print()
 
