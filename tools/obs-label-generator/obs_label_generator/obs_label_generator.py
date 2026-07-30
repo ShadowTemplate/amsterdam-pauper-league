@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 from time import sleep
 
@@ -106,7 +107,7 @@ def generate_obs_label(client, tid, config, decks, archetypes):
     print("Loading live tournament information...")
     data = client.get_tournament(tid)
     tournament_name = data["data"]["name"]
-    tournament_name = tournament_name.replace("Dutch Pauper League", "DPL")
+    tournament_name = tournament_name.replace("Amsterdam Pauper League", "APL")
     print(f"Tournament name: {tournament_name}")
     with open(os.path.join(OBS_DIR, "gen_event.txt"), "w") as out_f:
         out_f.write(tournament_name)
