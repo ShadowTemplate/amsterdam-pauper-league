@@ -1,0 +1,15 @@
+[Unit]
+Description=OBS Label Generator for Amsterdam Pauper League streams
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=PYTHONUNBUFFERED=1
+WorkingDirectory=/home/ubuntu/Desktop/amsterdam-pauper-league/tools/obs-label-generator/obs_label_generator
+ExecStart=/home/ubuntu/Desktop/amsterdam-pauper-league/tools/.venv/bin/python3 obs_label_generator.py
+Restart=on-failure
+RestartSec=15
+
+[Install]
+WantedBy=default.target

@@ -7,6 +7,7 @@ PLAYERS_DIR = posix_path("..", "..", "..", "data", "topdeck", "players")
 LEG_FILE_PATTERN = re.compile(r"(\d+)° Leg – (\d{4})_")
 UPCOMING_LEG_NUMBER = 5
 UPCOMING_LEG_YEAR = 2026
+EMAIL_TO_BATCH = 75  # send emails in chunks to avoid spam/soft-ban
 
 # these people have explicitly asked to not receive emails anymore
 BCC_WHITELIST = [
@@ -15,8 +16,21 @@ BCC_WHITELIST = [
     "diegoc@uc.cl",
     "vincentdzv@gmail.com",
     "peteraitis.vilius@gmail.com",
-    "mart.w.ordelmans@gmail.com"
+    "mart.w.ordelmans@gmail.com",
+    "marcos.asgarcia@gmail.com",
+    "ramsey.zdiri@gmail.com",
 ]
+
+def print_in_batches(emails):
+    emails = list(emails)
+    total_batches = (len(emails) + EMAIL_TO_BATCH - 1) // EMAIL_TO_BATCH
+    for index in range(0, len(emails), EMAIL_TO_BATCH):
+        batch = emails[index:index + EMAIL_TO_BATCH]
+        batch_number = index // EMAIL_TO_BATCH + 1
+        print(f"--- batch {batch_number}/{total_batches} "
+              f"({len(batch)} recipients) ---")
+        print(", ".join(batch))
+
 
 def get_leg_files():
     leg_files = {}
@@ -43,7 +57,7 @@ def get_players_db():
 
 def get_upcoming_leg_bccs():
     players = get_players_db()
-    print("\nREMEMBER TO SET RECIPIENTS AS BCC!")
+    print(f"\nREMEMBER TO SET RECIPIENTS AS BCC AND SPLIT IN CHUNKS OF {EMAIL_TO_BATCH} RECIPIENTS!")
     registered_for_upcoming_leg = set()
     registered_for_upcoming_leg_without_decklist = set()
     all_legs = get_leg_files()
@@ -70,10 +84,10 @@ def get_upcoming_leg_bccs():
             pass
     print(f"Missing {len(missing)} players for upcoming leg:")
     print(f"APL - {UPCOMING_LEG_NUMBER}° leg - {UPCOMING_LEG_YEAR} - Registration reminder")
-    print(", ".join(missing))
+    print_in_batches(missing)
     print()
     print(f"APL - {UPCOMING_LEG_NUMBER}° leg - {UPCOMING_LEG_YEAR} - Decklist submission reminder + Food note")
-    print(", ".join(registered_for_upcoming_leg))
+    print_in_batches(registered_for_upcoming_leg)
     print("\nREMEMBER TO SET RECIPIENTS AS BCC!")
 
 
