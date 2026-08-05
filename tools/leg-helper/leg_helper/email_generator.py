@@ -51,7 +51,8 @@ def get_players_db():
             next(reader, None)
             for row in reader:
                 name, email, deck = row[0:3]
-                players[email] = name
+                if "missingplayer.com" not in email:
+                    players[email] = name
     return players
 
 
