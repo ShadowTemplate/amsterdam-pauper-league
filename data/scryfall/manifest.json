@@ -443,6 +443,12 @@
     "released_at": "2008-05-02",
     "set": "shm"
   },
+  "Barrels of Blasting Jelly": {
+    "front": "/scryfall/4fd83083-3779-41f0-90a0-a00e3270e4e6.jpg",
+    "id": "4fd83083-3779-41f0-90a0-a00e3270e4e6",
+    "released_at": "2025-11-21",
+    "set": "tla"
+  },
   "Barren Moor": {
     "front": "/scryfall/45be3811-a223-4c45-9b24-0317f2d53c60.jpg",
     "id": "45be3811-a223-4c45-9b24-0317f2d53c60",
@@ -1058,6 +1064,12 @@
   "Circle of Protection: Red": {
     "front": "/scryfall/b3dd94c5-42f6-4148-be6e-2a3a4226cc0e.jpg",
     "id": "b3dd94c5-42f6-4148-be6e-2a3a4226cc0e",
+    "released_at": "1993-08-05",
+    "set": "lea"
+  },
+  "Circle of Protection: White": {
+    "front": "/scryfall/92df19c9-e127-42d9-8dd2-7fa5a7095428.jpg",
+    "id": "92df19c9-e127-42d9-8dd2-7fa5a7095428",
     "released_at": "1993-08-05",
     "set": "lea"
   },
@@ -1945,6 +1957,12 @@
     "released_at": "2026-04-24",
     "set": "sos"
   },
+  "Elite Interceptor // Rejoinder": {
+    "front": "/scryfall/2970683e-e69c-42cb-a067-34abd56fb42b.jpg",
+    "id": "2970683e-e69c-42cb-a067-34abd56fb42b",
+    "released_at": "2026-04-24",
+    "set": "sos"
+  },
   "Elven Farsight": {
     "front": "/scryfall/73d135b2-d2b8-499c-84d9-824370c19ccc.jpg",
     "id": "73d135b2-d2b8-499c-84d9-824370c19ccc",
@@ -2671,6 +2689,12 @@
     "released_at": "1993-08-05",
     "set": "lea"
   },
+  "Giant's Boulder": {
+    "front": "/scryfall/ce254758-c928-4b43-a952-13fac1845668.jpg",
+    "id": "ce254758-c928-4b43-a952-13fac1845668",
+    "released_at": "2026-08-14",
+    "set": "hob"
+  },
   "Gift of the Viper": {
     "front": "/scryfall/17fa0b62-d474-4dc7-9631-9d0a9d99e5e2.jpg",
     "id": "17fa0b62-d474-4dc7-9631-9d0a9d99e5e2",
@@ -2778,6 +2802,12 @@
     "id": "416148c8-13d3-46d3-ac93-6eb7cbab2881",
     "released_at": "2011-09-30",
     "set": "isd"
+  },
+  "Go Forth": {
+    "front": "/scryfall/e4ed67f0-85cc-4b1d-b745-e13e5bea3397.jpg",
+    "id": "e4ed67f0-85cc-4b1d-b745-e13e5bea3397",
+    "released_at": "2024-11-15",
+    "set": "j25"
   },
   "Go for the Throat": {
     "front": "/scryfall/a3109aaa-b1e9-4c68-85f0-7515c8eeadc3.jpg",
@@ -3505,6 +3535,12 @@
     "released_at": "2021-02-05",
     "set": "khm"
   },
+  "Jedit Ojanen": {
+    "front": "/scryfall/97b80124-2b59-425c-93cc-9b032e631c6e.jpg",
+    "id": "97b80124-2b59-425c-93cc-9b032e631c6e",
+    "released_at": "1994-06-01",
+    "set": "leg"
+  },
   "Jewel Thief": {
     "front": "/scryfall/736e498e-1245-40c1-96a4-c9bcfd1cfe1f.jpg",
     "id": "736e498e-1245-40c1-96a4-c9bcfd1cfe1f",
@@ -3896,6 +3932,12 @@
     "id": "988e44c5-4632-4ebb-b6ae-c3886e49d637",
     "released_at": "2024-04-19",
     "set": "otj"
+  },
+  "Lys Alana Huntmaster": {
+    "front": "/scryfall/8d21f992-f982-415e-9d77-d11d8c931741.jpg",
+    "id": "8d21f992-f982-415e-9d77-d11d8c931741",
+    "released_at": "2007-10-12",
+    "set": "lrw"
   },
   "Lórien Revealed": {
     "front": "/scryfall/0ce44270-a684-4489-9077-521456e6dfaa.jpg",
@@ -4852,6 +4894,12 @@
     "released_at": "2003-02-03",
     "set": "lgn"
   },
+  "Plunder the Trollshaws": {
+    "front": "/scryfall/afb73190-b9bd-4744-a011-a37cd9c0148d.jpg",
+    "id": "afb73190-b9bd-4744-a011-a37cd9c0148d",
+    "released_at": "2026-08-14",
+    "set": "hob"
+  },
   "Poised Practitioner": {
     "front": "/scryfall/bb25366d-a647-4c5e-bcc7-7e54659aacbd.jpg",
     "id": "bb25366d-a647-4c5e-bcc7-7e54659aacbd",
@@ -5620,6 +5668,12 @@
     "released_at": "2014-02-07",
     "set": "bng"
   },
+  "Savage Land Dinosaur": {
+    "front": "/scryfall/562bd376-3fba-4de0-b9fc-183004b03732.jpg",
+    "id": "562bd376-3fba-4de0-b9fc-183004b03732",
+    "released_at": "2026-06-26",
+    "set": "msh"
+  },
   "Savor": {
     "front": "/scryfall/1397f689-dca1-4d35-864b-92c5606afb9a.jpg",
     "id": "1397f689-dca1-4d35-864b-92c5606afb9a",
@@ -5715,6 +5769,12 @@
     "id": "b2ba91ee-1f8e-47db-bb2d-bbb62039db17",
     "released_at": "2007-02-02",
     "set": "plc"
+  },
+  "Seal of Strength": {
+    "front": "/scryfall/57650f78-3bf0-485a-bba8-7e7e14e47508.jpg",
+    "id": "57650f78-3bf0-485a-bba8-7e7e14e47508",
+    "released_at": "2000-02-14",
+    "set": "nem"
   },
   "Searing Blaze": {
     "front": "/scryfall/301f13dd-39b8-4a93-9c05-3dc4fa1f1c75.jpg",
@@ -6490,6 +6550,12 @@
     "released_at": "2013-07-19",
     "set": "m14"
   },
+  "Structural Distortion": {
+    "front": "/scryfall/a7895890-a774-4c7c-9f15-78b8aadfd9ef.jpg",
+    "id": "a7895890-a774-4c7c-9f15-78b8aadfd9ef",
+    "released_at": "2016-04-08",
+    "set": "soi"
+  },
   "Sudden Spinnerets": {
     "front": "/scryfall/3730996a-96d2-4311-a4dc-0045a2f8ccc9.jpg",
     "id": "3730996a-96d2-4311-a4dc-0045a2f8ccc9",
@@ -6914,6 +6980,13 @@
     "released_at": "2023-11-17",
     "set": "lci"
   },
+  "Tithing Blade // Consuming Sepulcher": {
+    "back": "/scryfall/dbaa9a2d-e9fd-4746-a26c-f99ae731f024_back.jpg",
+    "front": "/scryfall/dbaa9a2d-e9fd-4746-a26c-f99ae731f024.jpg",
+    "id": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024",
+    "released_at": "2023-11-17",
+    "set": "lci"
+  },
   "Tolarian Terror": {
     "front": "/scryfall/42f01cba-43d4-46ad-b7a5-d7631b0e1347.jpg",
     "id": "42f01cba-43d4-46ad-b7a5-d7631b0e1347",
@@ -6997,6 +7070,12 @@
     "id": "afcb7cef-8aeb-4c84-88e9-6df17768e292",
     "released_at": "2002-10-07",
     "set": "ons"
+  },
+  "Tranquility": {
+    "front": "/scryfall/774cc5a6-3a69-4812-add4-eb5eb6389238.jpg",
+    "id": "774cc5a6-3a69-4812-add4-eb5eb6389238",
+    "released_at": "1993-08-05",
+    "set": "lea"
   },
   "Traveler's Cloak": {
     "front": "/scryfall/977f0f82-0542-40c9-9a48-73077941dbd1.jpg",

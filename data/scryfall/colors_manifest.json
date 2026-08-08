@@ -215,6 +215,7 @@
     "W",
     "G"
   ],
+  "Barrels of Blasting Jelly": [],
   "Barren Moor": [],
   "Basilisk Gate": [],
   "Basking Broodscale": [],
@@ -486,6 +487,9 @@
     "W"
   ],
   "Circle of Protection: Red": [
+    "W"
+  ],
+  "Circle of Protection: White": [
     "W"
   ],
   "Circle of the Land Druid": [
@@ -893,6 +897,9 @@
   "Elite Interceptor": [
     "W"
   ],
+  "Elite Interceptor // Rejoinder": [
+    "W"
+  ],
   "Elven Farsight": [
     "G"
   ],
@@ -1226,6 +1233,7 @@
   "Giant Growth": [
     "G"
   ],
+  "Giant's Boulder": [],
   "Gift of the Viper": [
     "G"
   ],
@@ -1272,6 +1280,9 @@
     "G"
   ],
   "Gnaw to the Bone": [
+    "G"
+  ],
+  "Go Forth": [
     "G"
   ],
   "Go for the Throat": [
@@ -1585,6 +1596,10 @@
   "Jaspera Sentinel": [
     "G"
   ],
+  "Jedit Ojanen": [
+    "W",
+    "U"
+  ],
   "Jewel Thief": [
     "G"
   ],
@@ -1766,6 +1781,9 @@
     "W"
   ],
   "Lush Oasis": [],
+  "Lys Alana Huntmaster": [
+    "G"
+  ],
   "Lórien Revealed": [
     "U"
   ],
@@ -2187,6 +2205,9 @@
   "Plated Sliver": [
     "W"
   ],
+  "Plunder the Trollshaws": [
+    "U"
+  ],
   "Poised Practitioner": [
     "W"
   ],
@@ -2529,6 +2550,9 @@
   "Satyr Wayfinder": [
     "G"
   ],
+  "Savage Land Dinosaur": [
+    "G"
+  ],
   "Savor": [
     "B"
   ],
@@ -2567,6 +2591,9 @@
     "R"
   ],
   "Seal of Primordium": [
+    "G"
+  ],
+  "Seal of Strength": [
     "G"
   ],
   "Searing Blaze": [
@@ -2910,6 +2937,9 @@
   "Striking Sliver": [
     "R"
   ],
+  "Structural Distortion": [
+    "R"
+  ],
   "Sudden Spinnerets": [
     "G"
   ],
@@ -3099,6 +3129,9 @@
   "Tithing Blade": [
     "B"
   ],
+  "Tithing Blade // Consuming Sepulcher": [
+    "B"
+  ],
   "Tolarian Terror": [
     "U"
   ],
@@ -3129,6 +3162,9 @@
   "Tramway Station": [],
   "Tranquil Landscape": [],
   "Tranquil Thicket": [],
+  "Tranquility": [
+    "G"
+  ],
   "Traveler's Cloak": [
     "U"
   ],

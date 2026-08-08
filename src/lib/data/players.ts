@@ -33,8 +33,10 @@ export const PLAYERS: Player[] = [
   { slug: "collin_bos", name: "Collin Bos" },
   { slug: "dalilla_bezoen", name: "Dalilla Bezoen" },
   { slug: "danila", name: "Danila" },
+  { slug: "daphne_van_beusichem", name: "Daphne van Beusichem" },
   { slug: "davey_barendregt", name: "Davey Barendregt" },
   { slug: "david_horvath", name: "David Horvath" },
+  { slug: "david_roozendaal", name: "David Roozendaal" },
   { slug: "davide_caviglia", name: "Davide Caviglia" },
   { slug: "davy_baardink", name: "Davy Baardink" },
   { slug: "dennis_puetz", name: "Dennis Puetz" },
@@ -163,6 +165,7 @@ export const PLAYERS: Player[] = [
   { slug: "mark_bosma", name: "Mark Bosma" },
   { slug: "mark_coehoorn", name: "Mark Coehoorn" },
   { slug: "mart_wessel_ordelmans", name: "Mart Wessel Ordelmans" },
+  { slug: "martijn_elbertse", name: "Martijn Elbertse" },
   { slug: "martijn_siemes", name: "Martijn Siemes" },
   { slug: "marvin_schippmann", name: "Marvin Schippmann" },
   { slug: "mathieu_zwaan", name: "Mathieu Zwaan" },
@@ -236,6 +239,7 @@ export const PLAYERS: Player[] = [
   { slug: "sebastian_diaz", name: "Sebastian Diaz" },
   { slug: "simon_isphording", name: "Simon Isphording" },
   { slug: "simone_gottardi", name: "Simone Gottardi" },
+  { slug: "simone_staderini", name: "Simone Staderini" },
   { slug: "sjef_van_schie", name: "Sjef van Schie" },
   { slug: "soufian_hriz", name: "soufian hriz" },
   { slug: "stefan_gussenhoven", name: "Stefan Gussenhoven" },
@@ -376,9 +380,9 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "abe_mulder": {
     slug: "abe_mulder",
     name: "Abe Mulder",
-    stats: { wins: 49, losses: 38, draws: 5, byes: 0 },
+    stats: { wins: 50, losses: 43, draws: 5, byes: 0 },
     archetypes: [
-      { name: "Bogles", slug: "bogles", count: 4 },
+      { name: "Bogles", slug: "bogles", count: 5 },
       { name: "Azorius Gates", slug: "azorius_gates", count: 3 },
       { name: "Moggwarts", slug: "moggwarts", count: 2 },
       { name: "Affinity", slug: "affinity", count: 1 },
@@ -389,8 +393,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
     petCards: ["Pyromatics"],
-    rival: null,
+    rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 5, wins: 3, losses: 2, draws: 0, winRate: "60.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 43,
+        deckId: "IXYpl9bnq7R9boRdpsmDtuzFM3H3",
+        deck: "Bogles",
+        deckSlug: "bogles",
+        rounds: [
+          { round: 6, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Win" },
+          { round: 5, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
+          { round: 4, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Loss" },
+          { round: 3, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
+          { round: 2, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Loss" },
+          { round: 1, opponentDeck: "MonoG Tron", opponentDeckSlug: "monog_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -638,15 +658,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "alessio_viali": {
     slug: "alessio_viali",
     name: "Alessio Viali",
-    stats: { wins: 9, losses: 21, draws: 2, byes: 0 },
+    stats: { wins: 13, losses: 22, draws: 3, byes: 0 },
     archetypes: [
       { name: "Esper Affinity", slug: "esper_affinity", count: 3 },
+      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 2 },
       { name: "Affinity", slug: "affinity", count: 1 },
-      { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
     ],
     petCards: ["Jolted Awake"],
     rival: { name: "Koen Zuidberg", slug: "koen_zuidberg", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 6,
+        deckId: "9oD33DI621bWxCiMCspqmMGcdeB3",
+        deck: "Jeskai Ephemerate",
+        deckSlug: "jeskai_ephemerate",
+        rounds: [
+          { round: 6, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Simone Staderini", opponentPilotSlug: "simone_staderini", result: "Win" },
+          { round: 5, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Mark Bosma", opponentPilotSlug: "mark_bosma", result: "Win" },
+          { round: 4, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Win" },
+          { round: 3, opponentDeck: "MonoB Control", opponentDeckSlug: "monob_control", opponentPilot: "Daphne van Beusichem", opponentPilotSlug: "daphne_van_beusichem", result: "Draw" },
+          { round: 2, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Loss" },
+          { round: 1, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -808,13 +844,29 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "alice_lenting": {
     slug: "alice_lenting",
     name: "Alice Lenting",
-    stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    stats: { wins: 5, losses: 6, draws: 1, byes: 0 },
     archetypes: [
-      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Affinity", slug: "affinity", count: 2 },
     ],
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 31,
+        deckId: "8EJey3hrIkbaHypGiGuH0JJ6BBN2",
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [
+          { round: 6, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Loss" },
+          { round: 5, opponentDeck: "MonoB Control", opponentDeckSlug: "monob_control", opponentPilot: "Daphne van Beusichem", opponentPilotSlug: "daphne_van_beusichem", result: "Win" },
+          { round: 4, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Mark Bosma", opponentPilotSlug: "mark_bosma", result: "Loss" },
+          { round: 3, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Loss" },
+          { round: 2, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas_wood", result: "Draw" },
+          { round: 1, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -972,7 +1024,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "MonoB Control", slug: "monob_control", count: 1 },
     ],
-    petCards: ["Chittering Rats", "Corrupt", "Gray Merchant of Asphodel", "Phyrexian Rager", "Wrench Mind"],
+    petCards: ["Corrupt", "Phyrexian Rager", "Wrench Mind"],
     rival: null,
     results: [
       {
@@ -1383,13 +1435,29 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "bas_hendriks": {
     slug: "bas_hendriks",
     name: "Bas Hendriks",
-    stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    stats: { wins: 7, losses: 5, draws: 0, byes: 0 },
     archetypes: [
-      { name: "Spy Walls", slug: "spy_walls", count: 1 },
+      { name: "Spy Walls", slug: "spy_walls", count: 2 },
     ],
     petCards: [],
-    rival: null,
+    rival: { name: "Abe Mulder", slug: "abe_mulder", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 23,
+        deckId: "gaofBFhyILRpoQWOrYJFuLvEatd2",
+        deck: "Spy Walls",
+        deckSlug: "spy_walls",
+        rounds: [
+          { round: 6, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Loss" },
+          { round: 5, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Win" },
+          { round: 4, opponentDeck: "Infect", opponentDeckSlug: "infect", opponentPilot: "Rob Vermaas", opponentPilotSlug: "rob_vermaas", result: "Win" },
+          { round: 3, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
+          { round: 2, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Mark Bosma", opponentPilotSlug: "mark_bosma", result: "Loss" },
+          { round: 1, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Vinícius Duarte", opponentPilotSlug: "vinicius_duarte", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -1782,7 +1850,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
     ],
-    petCards: ["Balemurk Leech", "Forlorn Flats", "Grand Entryway // Elegant Rotunda", "Okiba Reckoner Raid", "Return Triumphant", "Seal of Cleansing", "Slumbering Keepguard", "Snowfield Sinkhole", "Spirited Companion"],
+    petCards: ["Balemurk Leech", "Forlorn Flats", "Grand Entryway // Elegant Rotunda", "Okiba Reckoner Raid", "Return Triumphant", "Seal of Cleansing", "Slumbering Keepguard", "Spirited Companion"],
     rival: null,
     results: [
       {
@@ -2786,6 +2854,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
     ],
   },
+  "daphne_van_beusichem": {
+    slug: "daphne_van_beusichem",
+    name: "Daphne van Beusichem",
+    stats: { wins: 1, losses: 4, draws: 1, byes: 0 },
+    archetypes: [
+      { name: "MonoB Control", slug: "monob_control", count: 1 },
+    ],
+    petCards: [],
+    rival: null,
+    results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 38,
+        deckId: "XBXqrUj0D0hW5RTV9lgL67LUzRr2",
+        deck: "MonoB Control",
+        deckSlug: "monob_control",
+        rounds: [
+          { round: 6, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Loss" },
+          { round: 5, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Loss" },
+          { round: 4, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Loss" },
+          { round: 3, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai_ephemerate", opponentPilot: "Alessio Viali", opponentPilotSlug: "alessio_viali", result: "Draw" },
+          { round: 2, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Loss" },
+          { round: 1, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Win" },
+        ],
+      },
+    ],
+  },
   "davey_barendregt": {
     slug: "davey_barendregt",
     name: "Davey Barendregt",
@@ -2871,6 +2967,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Jeff Wade", opponentPilotSlug: "jeff_wade", result: "Win" },
           { round: 2, opponentDeck: "MonoB Sacrifice", opponentDeckSlug: "monob_sacrifice", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Draw" },
           { round: 1, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+        ],
+      },
+    ],
+  },
+  "david_roozendaal": {
+    slug: "david_roozendaal",
+    name: "David Roozendaal",
+    stats: { wins: 1, losses: 4, draws: 0, byes: 1 },
+    archetypes: [
+      { name: "White Weenie", slug: "white_weenie", count: 1 },
+    ],
+    petCards: [],
+    rival: null,
+    results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 35,
+        deckId: "bvjqZIDGm9dWhOx8xCcZcSFKscm1",
+        deck: "White Weenie",
+        deckSlug: "white_weenie",
+        rounds: [
+          { round: 6, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Ettore Cerracchio", opponentPilotSlug: "ettore_cerracchio", result: "Loss" },
+          { round: 5, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Johan Boesveld", opponentPilotSlug: "johan_boesveld", result: "Win" },
+          { round: 4, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Loss" },
+          { round: 3, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+          { round: 2, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Loss" },
+          { round: 1, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Loss" },
         ],
       },
     ],
@@ -3630,11 +3754,11 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "eef_vv": {
     slug: "eef_vv",
     name: "Eef vV",
-    stats: { wins: 71, losses: 54, draws: 2, byes: 1 },
+    stats: { wins: 74, losses: 56, draws: 3, byes: 1 },
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 8 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 5 },
-      { name: "MonoR Rally", slug: "monor_rally", count: 3 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 4 },
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 2 },
       { name: "Boros Glitters", slug: "boros_glitters", count: 1 },
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
@@ -3643,6 +3767,22 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     petCards: ["Curfew", "Goldhound", "Improvised Club"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 17,
+        deckId: "4SxREx8i42aZJhd3Vqngw8NT9bG3",
+        deck: "MonoR Rally",
+        deckSlug: "monor_rally",
+        rounds: [
+          { round: 6, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Win" },
+          { round: 5, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Win" },
+          { round: 4, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Draw" },
+          { round: 3, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Ettore Cerracchio", opponentPilotSlug: "ettore_cerracchio", result: "Win" },
+          { round: 2, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Loss" },
+          { round: 1, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -4213,10 +4353,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "ettore_cerracchio": {
     slug: "ettore_cerracchio",
     name: "Ettore Cerracchio",
-    stats: { wins: 57, losses: 48, draws: 14, byes: 0 },
+    stats: { wins: 60, losses: 51, draws: 14, byes: 0 },
     archetypes: [
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 7 },
-      { name: "Spy Walls", slug: "spy_walls", count: 4 },
+      { name: "Spy Walls", slug: "spy_walls", count: 5 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 2 },
       { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
@@ -4227,6 +4367,22 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 24,
+        deckId: "v59qRraBcfeof69e6BPV0ywHNpV2",
+        deck: "Spy Walls",
+        deckSlug: "spy_walls",
+        rounds: [
+          { round: 6, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "David Roozendaal", opponentPilotSlug: "david_roozendaal", result: "Win" },
+          { round: 5, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Win" },
+          { round: 4, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 3, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Loss" },
+          { round: 2, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Noah van Duren", opponentPilotSlug: "noah_van_duren", result: "Loss" },
+          { round: 1, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -4555,7 +4711,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     archetypes: [
       { name: "Infect", slug: "infect", count: 1 },
     ],
-    petCards: ["Llanowar Augur", "Spider Umbra"],
+    petCards: ["Spider Umbra"],
     rival: null,
     results: [
       {
@@ -4789,15 +4945,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "fernando_tong": {
     slug: "fernando_tong",
     name: "Fernando Tong",
-    stats: { wins: 11, losses: 26, draws: 6, byes: 1 },
+    stats: { wins: 13, losses: 30, draws: 6, byes: 1 },
     archetypes: [
-      { name: "White Weenie", slug: "white_weenie", count: 4 },
+      { name: "White Weenie", slug: "white_weenie", count: 5 },
       { name: "MonoW Heroic", slug: "monow_heroic", count: 2 },
       { name: "Elves", slug: "elves", count: 1 },
     ],
-    petCards: ["Armored Armadillo", "Lightwheel Enhancements", "Sandstone Bridge", "Solid Footing"],
+    petCards: ["Armored Armadillo", "Elite Interceptor // Rejoinder", "Lightwheel Enhancements", "Sandstone Bridge", "Solid Footing"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 34,
+        deckId: "ltNVvCO8AEgFzy9uaLH4fcpoPQX2",
+        deck: "White Weenie",
+        deckSlug: "white_weenie",
+        rounds: [
+          { round: 6, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Loss" },
+          { round: 5, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
+          { round: 4, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 3, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Vinícius Duarte", opponentPilotSlug: "vinicius_duarte", result: "Win" },
+          { round: 2, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan_gussenhoven", result: "Loss" },
+          { round: 1, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -5873,7 +6045,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Jund Gleezard", slug: "jund_gleezard", count: 1 },
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 1 },
     ],
-    petCards: ["Aethertow", "Banehound", "Captured Sunlight", "Cram Session", "Deny Reality", "Grave Scrabbler", "Guerrilla Gorilla", "Night Market", "Ornithopter of Paradise", "Slippery Karst", "Spore Frog", "Step Through", "Tilling Treefolk", "Vessel of Nascency"],
+    petCards: ["Aethertow", "Banehound", "Captured Sunlight", "Cram Session", "Deny Reality", "Grave Scrabbler", "Guerrilla Gorilla", "Night Market", "Ornithopter of Paradise", "Spore Frog", "Step Through", "Tilling Treefolk", "Vessel of Nascency"],
     rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
     results: [
       {
@@ -6806,16 +6978,32 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "hidde_van_t_verlaat": {
     slug: "hidde_van_t_verlaat",
     name: "Hidde van 't Verlaat",
-    stats: { wins: 49, losses: 33, draws: 2, byes: 1 },
+    stats: { wins: 51, losses: 36, draws: 3, byes: 1 },
     archetypes: [
-      { name: "Azorius Gates", slug: "azorius_gates", count: 6 },
+      { name: "Azorius Gates", slug: "azorius_gates", count: 7 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 4 },
       { name: "Brew", slug: "brew", count: 3 },
       { name: "MonoR Madness", slug: "monor_madness", count: 1 },
     ],
-    petCards: ["Unsummon"],
+    petCards: ["Circle of Protection: White", "Plunder the Trollshaws", "Unsummon"],
     rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 4, wins: 3, losses: 1, draws: 0, winRate: "75.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 30,
+        deckId: "Yt40ppxHLigql51ksgBI41gnRVE2",
+        deck: "Azorius Gates",
+        deckSlug: "azorius_gates",
+        rounds: [
+          { round: 6, opponentDeck: "MonoB Control", opponentDeckSlug: "monob_control", opponentPilot: "Daphne van Beusichem", opponentPilotSlug: "daphne_van_beusichem", result: "Win" },
+          { round: 5, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Loss" },
+          { round: 4, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai_ephemerate", opponentPilot: "Alessio Viali", opponentPilotSlug: "alessio_viali", result: "Loss" },
+          { round: 3, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas_wood", result: "Loss" },
+          { round: 2, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Draw" },
+          { round: 1, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Mark Bosma", opponentPilotSlug: "mark_bosma", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -7400,14 +7588,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "irshaad": {
     slug: "irshaad",
     name: "Irshaad",
-    stats: { wins: 7, losses: 19, draws: 0, byes: 0 },
+    stats: { wins: 8, losses: 23, draws: 0, byes: 0 },
     archetypes: [
       { name: "MonoR Madness", slug: "monor_madness", count: 3 },
+      { name: "Affinity", slug: "affinity", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
     petCards: ["Stormshriek Feral // Flush Out"],
     rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 41,
+        deckId: "BioneAJShcclAIjweTSJRYnZ2Vr2",
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [
+          { round: 5, opponentDeck: "Infect", opponentDeckSlug: "infect", opponentPilot: "Rob Vermaas", opponentPilotSlug: "rob_vermaas", result: "Loss" },
+          { round: 4, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Loss" },
+          { round: 3, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Win" },
+          { round: 2, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
+          { round: 1, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai_ephemerate", opponentPilot: "Alessio Viali", opponentPilotSlug: "alessio_viali", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -7592,14 +7796,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jamie_march": {
     slug: "jamie_march",
     name: "Jamie March",
-    stats: { wins: 16, losses: 10, draws: 0, byes: 0 },
+    stats: { wins: 20, losses: 12, draws: 0, byes: 0 },
     archetypes: [
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
-      { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
+      { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
     ],
     petCards: [],
-    rival: { name: "Ettore Cerracchio", slug: "ettore_cerracchio", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 8,
+        deckId: "KXf0lfdBqaRAUYzb3gDSYMx60Dx1",
+        deck: "MonoU Faeries",
+        deckSlug: "monou_faeries",
+        rounds: [
+          { round: 6, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Loss" },
+          { round: 5, opponentDeck: "MonoG Tron", opponentDeckSlug: "monog_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Win" },
+          { round: 4, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Win" },
+          { round: 3, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Win" },
+          { round: 2, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Max Bosma", opponentPilotSlug: "max_bosma", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -7671,9 +7891,9 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jan_rijnbeek": {
     slug: "jan_rijnbeek",
     name: "Jan Rijnbeek",
-    stats: { wins: 72, losses: 42, draws: 10, byes: 1 },
+    stats: { wins: 76, losses: 43, draws: 11, byes: 1 },
     archetypes: [
-      { name: "Golgari Gardens", slug: "golgari_gardens", count: 9 },
+      { name: "Golgari Gardens", slug: "golgari_gardens", count: 10 },
       { name: "Fangren Tron", slug: "fangren_tron", count: 4 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
       { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
@@ -7683,6 +7903,22 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 5,
+        deckId: "WRVKhcNAnZTGeLt4T2nFSktwzVb2",
+        deck: "Golgari Gardens",
+        deckSlug: "golgari_gardens",
+        rounds: [
+          { round: 6, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Win" },
+          { round: 5, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas_wood", result: "Win" },
+          { round: 3, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Max Bosma", opponentPilotSlug: "max_bosma", result: "Draw" },
+          { round: 2, opponentDeck: "MonoB Control", opponentDeckSlug: "monob_control", opponentPilot: "Daphne van Beusichem", opponentPilotSlug: "daphne_van_beusichem", result: "Win" },
+          { round: 1, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "David Roozendaal", opponentPilotSlug: "david_roozendaal", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -8428,15 +8664,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jelle_schneider": {
     slug: "jelle_schneider",
     name: "Jelle Schneider",
-    stats: { wins: 33, losses: 14, draws: 4, byes: 0 },
+    stats: { wins: 38, losses: 15, draws: 4, byes: 0 },
     archetypes: [
-      { name: "Gruul Ponza", slug: "gruul_ponza", count: 4 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 5 },
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 3 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
     petCards: ["Fire of Orthanc"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 2,
+        deckId: "KLBnaqTCPoVzPjd1a5W0UZ2aAos1",
+        deck: "Gruul Ponza",
+        deckSlug: "gruul_ponza",
+        rounds: [
+          { round: 6, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Marcel Hogewoning", opponentPilotSlug: "marcel_hogewoning", result: "Win" },
+          { round: 5, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan_gussenhoven", result: "Win" },
+          { round: 4, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Win" },
+          { round: 3, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Win" },
+          { round: 2, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Simone Staderini", opponentPilotSlug: "simone_staderini", result: "Loss" },
+          { round: 1, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -8748,13 +9000,28 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "jerryt_boersen": {
     slug: "jerryt_boersen",
     name: "Jerryt Boersen",
-    stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    stats: { wins: 6, losses: 5, draws: 0, byes: 0 },
     archetypes: [
-      { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Affinity", slug: "affinity", count: 2 },
     ],
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 32,
+        deckId: "QGEpmyzm7rbliACT77RxLF1sS7k1",
+        deck: "Affinity",
+        deckSlug: "affinity",
+        rounds: [
+          { round: 5, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Loss" },
+          { round: 4, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Loss" },
+          { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Simone Staderini", opponentPilotSlug: "simone_staderini", result: "Loss" },
+          { round: 2, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai_ephemerate", opponentPilot: "Alessio Viali", opponentPilotSlug: "alessio_viali", result: "Win" },
+          { round: 1, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -9019,14 +9286,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "johan_boesveld": {
     slug: "johan_boesveld",
     name: "Johan Boesveld",
-    stats: { wins: 8, losses: 8, draws: 3, byes: 0 },
+    stats: { wins: 9, losses: 12, draws: 3, byes: 0 },
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 2 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 1 },
     ],
-    petCards: ["Stitched Drake"],
-    rival: null,
+    petCards: ["Savage Land Dinosaur", "Stitched Drake"],
+    rival: { name: "Rob Vermaas", slug: "rob_vermaas", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 44,
+        deckId: "6J9PzHzeJgSKu00xCKjPxJoZNOQ2",
+        deck: "Gruul Ponza",
+        deckSlug: "gruul_ponza",
+        rounds: [
+          { round: 5, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "David Roozendaal", opponentPilotSlug: "david_roozendaal", result: "Loss" },
+          { round: 4, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Loss" },
+          { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Win" },
+          { round: 2, opponentDeck: "Infect", opponentDeckSlug: "infect", opponentPilot: "Rob Vermaas", opponentPilotSlug: "rob_vermaas", result: "Loss" },
+          { round: 1, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Marcel Hogewoning", opponentPilotSlug: "marcel_hogewoning", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -10902,14 +11185,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "lotte_klomp": {
     slug: "lotte_klomp",
     name: "Lotte Klomp",
-    stats: { wins: 9, losses: 22, draws: 1, byes: 0 },
+    stats: { wins: 10, losses: 26, draws: 2, byes: 0 },
     archetypes: [
+      { name: "Brew", slug: "brew", count: 3 },
       { name: "Dimir Control", slug: "dimir_control", count: 3 },
-      { name: "Brew", slug: "brew", count: 2 },
     ],
     petCards: ["Mind Sculpt", "Vicious Rumors"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 39,
+        deckId: "TX2Hl6LxzpRMlGpJW77WjIaIYD43",
+        deck: "Brew",
+        deckSlug: "brew",
+        rounds: [
+          { round: 6, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
+          { round: 5, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Loss" },
+          { round: 4, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
+          { round: 3, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Johan Boesveld", opponentPilotSlug: "johan_boesveld", result: "Loss" },
+          { round: 2, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Draw" },
+          { round: 1, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -10997,9 +11296,9 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "lucas_feliciano": {
     slug: "lucas_feliciano",
     name: "Lucas Feliciano",
-    stats: { wins: 51, losses: 58, draws: 13, byes: 1 },
+    stats: { wins: 53, losses: 60, draws: 15, byes: 1 },
     archetypes: [
-      { name: "Jund Wildfire", slug: "jund_wildfire", count: 7 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 8 },
       { name: "Jund Gleezard", slug: "jund_gleezard", count: 5 },
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 4 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 3 },
@@ -11007,9 +11306,25 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 1 },
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
     ],
-    petCards: ["Circle of Protection: Black", "Ethereal Haze", "Slitherhead", "Visionary's Dance"],
+    petCards: ["Circle of Protection: Black", "Ethereal Haze", "Slitherhead"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 27,
+        deckId: "AT81NVr1HlVmMnXl4luvUorE8Zk1",
+        deck: "Jund Wildfire",
+        deckSlug: "jund_wildfire",
+        rounds: [
+          { round: 6, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Mark Bosma", opponentPilotSlug: "mark_bosma", result: "Draw" },
+          { round: 5, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Vinícius Duarte", opponentPilotSlug: "vinicius_duarte", result: "Loss" },
+          { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Max Bosma", opponentPilotSlug: "max_bosma", result: "Loss" },
+          { round: 3, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Marcel Hogewoning", opponentPilotSlug: "marcel_hogewoning", result: "Win" },
+          { round: 2, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Win" },
+          { round: 1, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Draw" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -11358,14 +11673,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "luiz_francisco_scudelari_de_macedo": {
     slug: "luiz_francisco_scudelari_de_macedo",
     name: "Luiz Francisco Scudelari de Macedo",
-    stats: { wins: 4, losses: 7, draws: 1, byes: 0 },
+    stats: { wins: 4, losses: 10, draws: 3, byes: 0 },
     archetypes: [
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
       { name: "MonoG Tron", slug: "monog_tron", count: 1 },
       { name: "MonoR Rally", slug: "monor_rally", count: 1 },
     ],
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 45,
+        deckId: "pxAXpE7TOUbewv5lugeTVfVR5tQ2",
+        deck: "Dimir Faeries",
+        deckSlug: "dimir_faeries",
+        rounds: [
+          { round: 5, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Ettore Cerracchio", opponentPilotSlug: "ettore_cerracchio", result: "Loss" },
+          { round: 4, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Draw" },
+          { round: 3, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 2, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Draw" },
+          { round: 1, opponentDeck: "MonoB Control", opponentDeckSlug: "monob_control", opponentPilot: "Daphne van Beusichem", opponentPilotSlug: "daphne_van_beusichem", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -11671,14 +12002,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "marcel_hogewoning": {
     slug: "marcel_hogewoning",
     name: "Marcel Hogewoning",
-    stats: { wins: 16, losses: 11, draws: 0, byes: 0 },
+    stats: { wins: 20, losses: 13, draws: 0, byes: 0 },
     archetypes: [
-      { name: "MonoR Rally", slug: "monor_rally", count: 3 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 4 },
       { name: "Burn", slug: "burn", count: 1 },
     ],
     petCards: [],
-    rival: { name: "Eef vV", slug: "eef_vv", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
+    rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 11,
+        deckId: "0D5tQjeQSnbOIWXB2ucTIJt6wYk2",
+        deck: "MonoR Rally",
+        deckSlug: "monor_rally",
+        rounds: [
+          { round: 6, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 5, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Noah van Duren", opponentPilotSlug: "noah_van_duren", result: "Win" },
+          { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Win" },
+          { round: 3, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Loss" },
+          { round: 2, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Win" },
+          { round: 1, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Johan Boesveld", opponentPilotSlug: "johan_boesveld", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -11968,16 +12315,32 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "mark_bosma": {
     slug: "mark_bosma",
     name: "Mark Bosma",
-    stats: { wins: 17, losses: 20, draws: 4, byes: 1 },
+    stats: { wins: 19, losses: 22, draws: 6, byes: 1 },
     archetypes: [
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 4 },
       { name: "Affinity", slug: "affinity", count: 3 },
-      { name: "Rakdos Burn", slug: "rakdos_burn", count: 3 },
       { name: "Azorius Glitters", slug: "azorius_glitters", count: 1 },
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
     ],
     petCards: [],
-    rival: { name: "Iain Ligthart", slug: "iain_ligthart", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
+    rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 29,
+        deckId: "q6GN4qJHCPNeCoiHfQfDJ45ovGs2",
+        deck: "Rakdos Burn",
+        deckSlug: "rakdos_burn",
+        rounds: [
+          { round: 6, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Draw" },
+          { round: 5, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai_ephemerate", opponentPilot: "Alessio Viali", opponentPilotSlug: "alessio_viali", result: "Loss" },
+          { round: 4, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Win" },
+          { round: 3, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Draw" },
+          { round: 2, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Win" },
+          { round: 1, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2025-12-13",
         eventName: "Dutch Pauper League – 9° Leg – 2025",
@@ -12304,6 +12667,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
     ],
   },
+  "martijn_elbertse": {
+    slug: "martijn_elbertse",
+    name: "Martijn Elbertse",
+    stats: { wins: 4, losses: 2, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "MonoR Madness", slug: "monor_madness", count: 1 },
+    ],
+    petCards: [],
+    rival: null,
+    results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 10,
+        deckId: "ojsJhQ59wQUse49r0dPTOD3NjJY2",
+        deck: "MonoR Madness",
+        deckSlug: "monor_madness",
+        rounds: [
+          { round: 6, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Win" },
+          { round: 5, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Win" },
+          { round: 4, opponentDeck: "MonoG Tron", opponentDeckSlug: "monog_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+          { round: 3, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Win" },
+          { round: 2, opponentDeck: "Cycling Storm", opponentDeckSlug: "cycling_storm", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Win" },
+          { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Loss" },
+        ],
+      },
+    ],
+  },
   "martijn_siemes": {
     slug: "martijn_siemes",
     name: "Martijn Siemes",
@@ -12335,15 +12726,32 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "marvin_schippmann": {
     slug: "marvin_schippmann",
     name: "Marvin Schippmann",
-    stats: { wins: 6, losses: 18, draws: 1, byes: 1 },
+    stats: { wins: 7, losses: 23, draws: 1, byes: 1 },
     archetypes: [
       { name: "Brew", slug: "brew", count: 2 },
       { name: "Altar Tron", slug: "altar_tron", count: 1 },
+      { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
     petCards: ["Aqueous Form", "Aspirant's Ascent", "Bone Saw", "Cartouche of Knowledge", "Chained Throatseeker", "Corpse Cur", "Distortion Strike", "Echoing Return", "Eel Umbra", "Enter the Enigma", "Fate Transfer", "Foundry Inspector", "Fuel for the Cause", "Imprisoned in the Moon", "Magmakin Artillerist", "Mesmerizing Dose", "Mocking Sprite", "Moonsnare Prototype", "Neurok Stealthsuit", "Ophidian Eye", "Petrifying Meddler", "Phyrexian Digester", "Planar Incision", "Resculpt", "Slip Through Space", "The Surgical Bay", "Thrummingbird", "Traveler's Cloak", "Wings of Velis Vel"],
-    rival: { name: "Max Mercx", slug: "max_mercx", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
+    rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 40,
+        deckId: "pdmKPI5E90X3i8BA2K0nLSFpYYr2",
+        deck: "Flicker Tron",
+        deckSlug: "flicker_tron",
+        rounds: [
+          { round: 6, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Loss" },
+          { round: 5, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Loss" },
+          { round: 4, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
+          { round: 3, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Noah van Duren", opponentPilotSlug: "noah_van_duren", result: "Loss" },
+          { round: 2, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Marcel Hogewoning", opponentPilotSlug: "marcel_hogewoning", result: "Loss" },
+          { round: 1, opponentDeck: "Cycling Storm", opponentDeckSlug: "cycling_storm", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -12641,13 +13049,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "max_bosma": {
     slug: "max_bosma",
     name: "Max Bosma",
-    stats: { wins: 2, losses: 3, draws: 1, byes: 0 },
+    stats: { wins: 6, losses: 4, draws: 2, byes: 0 },
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 4,
+        deckId: "ksF6cyoxhOUTeRbw7jgzXf5RUpH3",
+        deck: "Jund Wildfire",
+        deckSlug: "jund_wildfire",
+        rounds: [
+          { round: 6, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 5, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Win" },
+          { round: 4, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
+          { round: 3, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Draw" },
+          { round: 2, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Vinícius Duarte", opponentPilotSlug: "vinicius_duarte", result: "Win" },
+          { round: 1, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2024-12-07",
         eventName: "Dutch Pauper League – 10° Leg – 2024",
@@ -12867,10 +13292,10 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "max_roovers": {
     slug: "max_roovers",
     name: "Max Roovers",
-    stats: { wins: 79, losses: 55, draws: 4, byes: 1 },
+    stats: { wins: 82, losses: 58, draws: 4, byes: 1 },
     archetypes: [
+      { name: "Elves", slug: "elves", count: 4 },
       { name: "Boros Bully", slug: "boros_bully", count: 3 },
-      { name: "Elves", slug: "elves", count: 3 },
       { name: "One Land Spy", slug: "one_land_spy", count: 2 },
       { name: "Ruby Storm", slug: "ruby_storm", count: 2 },
       { name: "Azorius Gates", slug: "azorius_gates", count: 1 },
@@ -12887,9 +13312,25 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Walls", slug: "walls", count: 1 },
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
-    petCards: ["Arctic Treeline", "Bonebind Orator", "Burning Curiosity", "Castigate", "Death Speakers", "Early Frost", "How to Start a Riot", "Indoctrination Attendant", "Preemptive Strike", "Pyrite Spellbomb", "Rift Sower", "Smoldering Crater", "Tin Street Hooligan", "Whitemane Lion"],
+    petCards: ["Arctic Treeline", "Bonebind Orator", "Burning Curiosity", "Castigate", "Death Speakers", "Early Frost", "How to Start a Riot", "Indoctrination Attendant", "Jedit Ojanen", "Preemptive Strike", "Pyrite Spellbomb", "Rift Sower", "Smoldering Crater", "Tin Street Hooligan", "Whitemane Lion"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 22,
+        deckId: "dFkwHr2M8aOSppCudk7vGUxKs4w1",
+        deck: "Elves",
+        deckSlug: "elves",
+        rounds: [
+          { round: 6, opponentDeck: "MonoG Tron", opponentDeckSlug: "monog_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+          { round: 5, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Win" },
+          { round: 4, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Win" },
+          { round: 3, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Martijn Elbertse", opponentPilotSlug: "martijn_elbertse", result: "Loss" },
+          { round: 2, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 1, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Simone Staderini", opponentPilotSlug: "simone_staderini", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -13264,15 +13705,32 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "michael_joseph_purcell": {
     slug: "michael_joseph_purcell",
     name: "Michael Joseph Purcell",
-    stats: { wins: 25, losses: 21, draws: 4, byes: 0 },
+    stats: { wins: 27, losses: 25, draws: 4, byes: 0 },
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 4 },
       { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
       { name: "MonoR Tron", slug: "monor_tron", count: 2 },
+      { name: "Brew", slug: "brew", count: 1 },
     ],
-    petCards: ["Builder's Bane", "Filigree Familiar", "The Modern Age // Vector Glider"],
-    rival: { name: "Lucas Feliciano", slug: "lucas_feliciano", gamesPlayed: 3, wins: 0, losses: 2, draws: 1, winRate: "0.00%" },
+    petCards: ["Barrels of Blasting Jelly", "Filigree Familiar"],
+    rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 37,
+        deckId: "E0NmWXOL1WV1kSD11m4XhxkjbAv2",
+        deck: "Brew",
+        deckSlug: "brew",
+        rounds: [
+          { round: 6, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Win" },
+          { round: 5, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
+          { round: 4, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Ettore Cerracchio", opponentPilotSlug: "ettore_cerracchio", result: "Loss" },
+          { round: 3, opponentDeck: "Cycling Storm", opponentDeckSlug: "cycling_storm", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Loss" },
+          { round: 2, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas_wood", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -13586,7 +14044,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "mirco_bonati": {
     slug: "mirco_bonati",
     name: "Mirco Bonati",
-    stats: { wins: 32, losses: 42, draws: 18, byes: 0 },
+    stats: { wins: 34, losses: 45, draws: 18, byes: 1 },
     archetypes: [
       { name: "Affinity", slug: "affinity", count: 6 },
       { name: "Dimir Terror", slug: "dimir_terror", count: 2 },
@@ -13598,10 +14056,27 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 1 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
+      { name: "MonoR Rally", slug: "monor_rally", count: 1 },
     ],
     petCards: ["Final Flourish", "Grapple with Death", "Sarulf's Packmate"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 26,
+        deckId: "u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
+        deck: "MonoR Rally",
+        deckSlug: "monor_rally",
+        rounds: [
+          { round: 6, opponentDeck: "Infect", opponentDeckSlug: "infect", opponentPilot: "Rob Vermaas", opponentPilotSlug: "rob_vermaas", result: "Win" },
+          { round: 5, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Win" },
+          { round: 4, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+          { round: 3, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Loss" },
+          { round: 2, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Loss" },
+          { round: 1, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -14160,22 +14635,38 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "nicolas_bordenabe": {
     slug: "nicolas_bordenabe",
     name: "Nicolas Bordenabe",
-    stats: { wins: 56, losses: 38, draws: 5, byes: 1 },
+    stats: { wins: 60, losses: 40, draws: 5, byes: 1 },
     archetypes: [
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 6 },
       { name: "Jeskai Glitters", slug: "jeskai_glitters", count: 2 },
       { name: "MonoR Madness", slug: "monor_madness", count: 2 },
+      { name: "Spy Walls", slug: "spy_walls", count: 2 },
       { name: "Azorius Glitters", slug: "azorius_glitters", count: 1 },
       { name: "Boros Synth", slug: "boros_synth", count: 1 },
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
       { name: "Mardu Synth", slug: "mardu_synth", count: 1 },
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 1 },
       { name: "MonoR Rally", slug: "monor_rally", count: 1 },
-      { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
     petCards: ["Mardu Devotee"],
     rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 6, wins: 5, losses: 1, draws: 0, winRate: "83.33%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 13,
+        deckId: "9u7DQobacEXErAxBiCREefzbExg2",
+        deck: "Spy Walls",
+        deckSlug: "spy_walls",
+        rounds: [
+          { round: 6, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas_wood", result: "Win" },
+          { round: 5, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Win" },
+          { round: 4, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Johan Boesveld", opponentPilotSlug: "johan_boesveld", result: "Win" },
+          { round: 3, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Loss" },
+          { round: 2, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
+          { round: 1, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -14451,18 +14942,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "nicolas_komanski": {
     slug: "nicolas_komanski",
     name: "Nicolas Komanski",
-    stats: { wins: 62, losses: 27, draws: 5, byes: 2 },
+    stats: { wins: 68, losses: 27, draws: 5, byes: 2 },
     archetypes: [
       { name: "MonoR Kuldotha", slug: "monor_kuldotha", count: 5 },
-      { name: "MonoR Madness", slug: "monor_madness", count: 4 },
+      { name: "MonoR Madness", slug: "monor_madness", count: 5 },
       { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
       { name: "Spy Walls", slug: "spy_walls", count: 2 },
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
     petCards: ["\"Name Sticker\" Goblin"],
-    rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 5, wins: 3, losses: 2, draws: 0, winRate: "60.00%" },
+    rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 1,
+        deckId: "RLHTn0MYwcSBOPby9QiqsG8wn1d2",
+        deck: "MonoR Madness",
+        deckSlug: "monor_madness",
+        rounds: [
+          { round: 6, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Max Bosma", opponentPilotSlug: "max_bosma", result: "Win" },
+          { round: 5, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Win" },
+          { round: 4, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan_gussenhoven", result: "Win" },
+          { round: 3, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Win" },
+          { round: 2, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Sam Ye", opponentPilotSlug: "sam_ye", result: "Win" },
+          { round: 1, opponentDeck: "Infect", opponentDeckSlug: "infect", opponentPilot: "Rob Vermaas", opponentPilotSlug: "rob_vermaas", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -14831,13 +15338,30 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "noah_van_duren": {
     slug: "noah_van_duren",
     name: "Noah van Duren",
-    stats: { wins: 5, losses: 7, draws: 2, byes: 0 },
+    stats: { wins: 8, losses: 9, draws: 3, byes: 0 },
     archetypes: [
       { name: "MonoU Terror", slug: "monou_terror", count: 2 },
+      { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
     ],
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 14,
+        deckId: "RQKRQgztUwdatbT9UJ7xMKkrrx22",
+        deck: "Rakdos Burn",
+        deckSlug: "rakdos_burn",
+        rounds: [
+          { round: 6, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Vinícius Duarte", opponentPilotSlug: "vinicius_duarte", result: "Draw" },
+          { round: 5, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Marcel Hogewoning", opponentPilotSlug: "marcel_hogewoning", result: "Loss" },
+          { round: 4, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
+          { round: 3, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Win" },
+          { round: 2, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Ettore Cerracchio", opponentPilotSlug: "ettore_cerracchio", result: "Win" },
+          { round: 1, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -14877,17 +15401,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "noah_westerweel": {
     slug: "noah_westerweel",
     name: "Noah Westerweel",
-    stats: { wins: 44, losses: 40, draws: 13, byes: 1 },
+    stats: { wins: 46, losses: 44, draws: 13, byes: 1 },
     archetypes: [
       { name: "Flicker Tron", slug: "flicker_tron", count: 11 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 2 },
       { name: "Boros Bully", slug: "boros_bully", count: 1 },
       { name: "Boros Synth", slug: "boros_synth", count: 1 },
+      { name: "Familiars", slug: "familiars", count: 1 },
       { name: "Naya Gates", slug: "naya_gates", count: 1 },
     ],
     petCards: ["Phantom Interference"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 36,
+        deckId: "kBX6yZadhyW9ajR7TyABLzbBDd43",
+        deck: "Familiars",
+        deckSlug: "familiars",
+        rounds: [
+          { round: 6, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Loss" },
+          { round: 5, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Loss" },
+          { round: 4, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 3, opponentDeck: "MonoG Tron", opponentDeckSlug: "monog_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Loss" },
+          { round: 2, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "David Roozendaal", opponentPilotSlug: "david_roozendaal", result: "Win" },
+          { round: 1, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -16228,7 +16769,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "raymond_anderson": {
     slug: "raymond_anderson",
     name: "Raymond Anderson",
-    stats: { wins: 31, losses: 41, draws: 4, byes: 0 },
+    stats: { wins: 34, losses: 43, draws: 5, byes: 0 },
     archetypes: [
       { name: "White Weenie", slug: "white_weenie", count: 3 },
       { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
@@ -16237,12 +16778,29 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Moggwarts", slug: "moggwarts", count: 1 },
       { name: "MonoR Rally", slug: "monor_rally", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+      { name: "Naya Gates", slug: "naya_gates", count: 1 },
       { name: "One Land Spy", slug: "one_land_spy", count: 1 },
       { name: "Spy Walls", slug: "spy_walls", count: 1 },
     ],
     petCards: [],
-    rival: null,
+    rival: { name: "Eef vV", slug: "eef_vv", gamesPlayed: 4, wins: 2, losses: 2, draws: 0, winRate: "50.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 15,
+        deckId: "2Q3QynkzgbNVKAmrYcg2YDqGQyl1",
+        deck: "Naya Gates",
+        deckSlug: "naya_gates",
+        rounds: [
+          { round: 6, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Loss" },
+          { round: 5, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Max Bosma", opponentPilotSlug: "max_bosma", result: "Loss" },
+          { round: 4, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Simone Staderini", opponentPilotSlug: "simone_staderini", result: "Win" },
+          { round: 3, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Win" },
+          { round: 2, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Win" },
+          { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Draw" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -17012,16 +17570,33 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "rob_vermaas": {
     slug: "rob_vermaas",
     name: "Rob Vermaas",
-    stats: { wins: 29, losses: 17, draws: 3, byes: 0 },
+    stats: { wins: 31, losses: 21, draws: 3, byes: 0 },
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 2 },
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 2 },
       { name: "Cycling Storm", slug: "cycling_storm", count: 1 },
+      { name: "Infect", slug: "infect", count: 1 },
     ],
-    petCards: [],
-    rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
+    petCards: ["Go Forth", "Seal of Strength"],
+    rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 33,
+        deckId: "B96mKS295xfqtVkuznGrDKScKz43",
+        deck: "Infect",
+        deckSlug: "infect",
+        rounds: [
+          { round: 6, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Mirco Bonati", opponentPilotSlug: "mirco_bonati", result: "Loss" },
+          { round: 5, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Irshaad", opponentPilotSlug: "irshaad", result: "Win" },
+          { round: 4, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
+          { round: 3, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Loss" },
+          { round: 2, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Johan Boesveld", opponentPilotSlug: "johan_boesveld", result: "Win" },
+          { round: 1, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -17536,15 +18111,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "roberto_van_den_elzen": {
     slug: "roberto_van_den_elzen",
     name: "Roberto van den Elzen",
-    stats: { wins: 45, losses: 24, draws: 5, byes: 0 },
+    stats: { wins: 47, losses: 25, draws: 8, byes: 0 },
     archetypes: [
       { name: "MonoB Sacrifice", slug: "monob_sacrifice", count: 8 },
+      { name: "White Weenie", slug: "white_weenie", count: 3 },
       { name: "Goblins", slug: "goblins", count: 2 },
-      { name: "White Weenie", slug: "white_weenie", count: 2 },
     ],
     petCards: ["Goblin Sledder", "Mogg War Marshal", "Voracious Vermin"],
     rival: { name: "Noah Westerweel", slug: "noah_westerweel", gamesPlayed: 4, wins: 2, losses: 1, draws: 1, winRate: "50.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 25,
+        deckId: "en2liKJ8OsRkG91YKPvgsepnp9C3",
+        deck: "White Weenie",
+        deckSlug: "white_weenie",
+        rounds: [
+          { round: 6, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Martijn Elbertse", opponentPilotSlug: "martijn_elbertse", result: "Loss" },
+          { round: 5, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Thomas Wood", opponentPilotSlug: "thomas_wood", result: "Draw" },
+          { round: 4, opponentDeck: "MonoB Control", opponentDeckSlug: "monob_control", opponentPilot: "Daphne van Beusichem", opponentPilotSlug: "daphne_van_beusichem", result: "Win" },
+          { round: 3, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Mark Bosma", opponentPilotSlug: "mark_bosma", result: "Draw" },
+          { round: 2, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Draw" },
+          { round: 1, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -17952,12 +18543,12 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "sam_ye": {
     slug: "sam_ye",
     name: "Sam Ye",
-    stats: { wins: 48, losses: 31, draws: 1, byes: 1 },
+    stats: { wins: 51, losses: 34, draws: 1, byes: 1 },
     archetypes: [
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 3 },
       { name: "Affinity", slug: "affinity", count: 2 },
       { name: "Azorius Glitters", slug: "azorius_glitters", count: 2 },
       { name: "Gruul Ramp", slug: "gruul_ramp", count: 2 },
-      { name: "Jund Wildfire", slug: "jund_wildfire", count: 2 },
       { name: "Boros Synth", slug: "boros_synth", count: 1 },
       { name: "Izzet Terror", slug: "izzet_terror", count: 1 },
       { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", count: 1 },
@@ -17966,8 +18557,24 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "White Weenie", slug: "white_weenie", count: 1 },
     ],
     petCards: [],
-    rival: null,
+    rival: { name: "Nicolas Komanski", slug: "nicolas_komanski", gamesPlayed: 5, wins: 1, losses: 4, draws: 0, winRate: "20.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 20,
+        deckId: "OCqs3EBE1NU9I5sretxIPyKyLKg2",
+        deck: "Jund Wildfire",
+        deckSlug: "jund_wildfire",
+        rounds: [
+          { round: 6, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Win" },
+          { round: 5, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Loss" },
+          { round: 4, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Marcel Hogewoning", opponentPilotSlug: "marcel_hogewoning", result: "Loss" },
+          { round: 3, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Win" },
+          { round: 2, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 1, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Martijn Elbertse", opponentPilotSlug: "martijn_elbertse", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2025-08-02",
         eventName: "Dutch Pauper League – 5° Leg – 2025",
@@ -18267,9 +18874,9 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "simon_isphording": {
     slug: "simon_isphording",
     name: "Simon Isphording",
-    stats: { wins: 34, losses: 26, draws: 2, byes: 1 },
+    stats: { wins: 37, losses: 29, draws: 2, byes: 1 },
     archetypes: [
-      { name: "Familiars", slug: "familiars", count: 4 },
+      { name: "Familiars", slug: "familiars", count: 5 },
       { name: "Elves", slug: "elves", count: 3 },
       { name: "Brew", slug: "brew", count: 1 },
       { name: "Flicker Tron", slug: "flicker_tron", count: 1 },
@@ -18278,6 +18885,22 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     petCards: ["Bitter Reunion", "Brokers Hideout", "Kabira Crossroads"],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 21,
+        deckId: "k70Ar8wnHcRcDGN7hKwhV96S5ml2",
+        deck: "Familiars",
+        deckSlug: "familiars",
+        rounds: [
+          { round: 6, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Win" },
+          { round: 5, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Martijn Elbertse", opponentPilotSlug: "martijn_elbertse", result: "Loss" },
+          { round: 4, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "David Roozendaal", opponentPilotSlug: "david_roozendaal", result: "Win" },
+          { round: 3, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 2, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Loss" },
+          { round: 1, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Ettore Cerracchio", opponentPilotSlug: "ettore_cerracchio", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -18488,6 +19111,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       },
     ],
   },
+  "simone_staderini": {
+    slug: "simone_staderini",
+    name: "Simone Staderini",
+    stats: { wins: 3, losses: 3, draws: 0, byes: 0 },
+    archetypes: [
+      { name: "Brew", slug: "brew", count: 1 },
+    ],
+    petCards: ["Lys Alana Huntmaster"],
+    rival: null,
+    results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 19,
+        deckId: "YNO4DIYfRKYAJRpO5LVGr9nWyuo1",
+        deck: "Brew",
+        deckSlug: "brew",
+        rounds: [
+          { round: 6, opponentDeck: "Jeskai Ephemerate", opponentDeckSlug: "jeskai_ephemerate", opponentPilot: "Alessio Viali", opponentPilotSlug: "alessio_viali", result: "Loss" },
+          { round: 5, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Loss" },
+          { round: 4, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "Raymond Anderson", opponentPilotSlug: "raymond_anderson", result: "Loss" },
+          { round: 3, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Win" },
+          { round: 2, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Win" },
+          { round: 1, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Win" },
+        ],
+      },
+    ],
+  },
   "sjef_van_schie": {
     slug: "sjef_van_schie",
     name: "Sjef van Schie",
@@ -18519,16 +19170,33 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "soufian_hriz": {
     slug: "soufian_hriz",
     name: "soufian hriz",
-    stats: { wins: 27, losses: 20, draws: 1, byes: 0 },
+    stats: { wins: 31, losses: 21, draws: 1, byes: 1 },
     archetypes: [
       { name: "MonoU Faeries", slug: "monou_faeries", count: 5 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
       { name: "Dimir Terror", slug: "dimir_terror", count: 1 },
       { name: "MonoU Terror", slug: "monou_terror", count: 1 },
+      { name: "Naya Gates", slug: "naya_gates", count: 1 },
     ],
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 3,
+        deckId: "ysNRuEfWziNdlXox7pwnWAyFHsw2",
+        deck: "Naya Gates",
+        deckSlug: "naya_gates",
+        rounds: [
+          { round: 6, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Win" },
+          { round: 5, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Simone Staderini", opponentPilotSlug: "simone_staderini", result: "Win" },
+          { round: 4, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Win" },
+          { round: 3, opponentDeck: "Infect", opponentDeckSlug: "infect", opponentPilot: "Rob Vermaas", opponentPilotSlug: "rob_vermaas", result: "Win" },
+          { round: 2, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+          { round: 1, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan_gussenhoven", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -18662,15 +19330,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "stefan_gussenhoven": {
     slug: "stefan_gussenhoven",
     name: "Stefan Gussenhoven",
-    stats: { wins: 18, losses: 13, draws: 0, byes: 0 },
+    stats: { wins: 21, losses: 16, draws: 0, byes: 0 },
     archetypes: [
-      { name: "Gruul Ponza", slug: "gruul_ponza", count: 2 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 3 },
       { name: "MonoU High Tide", slug: "monou_high_tide", count: 2 },
       { name: "Affinity", slug: "affinity", count: 1 },
     ],
     petCards: [],
     rival: null,
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 18,
+        deckId: "m6TGHb2qRyUg9k0mbk4PNuMkNKH2",
+        deck: "Gruul Ponza",
+        deckSlug: "gruul_ponza",
+        rounds: [
+          { round: 6, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Loss" },
+          { round: 5, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Jelle Schneider", opponentPilotSlug: "jelle_schneider", result: "Loss" },
+          { round: 4, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 3, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Toon de Vet", opponentPilotSlug: "toon_de_vet", result: "Win" },
+          { round: 2, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Win" },
+          { round: 1, opponentDeck: "Naya Gates", opponentDeckSlug: "naya_gates", opponentPilot: "soufian hriz", opponentPilotSlug: "soufian_hriz", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-05-02",
         eventName: "Dutch Pauper League – 2° Leg – 2026",
@@ -19515,14 +20199,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "thomas_wood": {
     slug: "thomas_wood",
     name: "Thomas Wood",
-    stats: { wins: 14, losses: 17, draws: 1, byes: 0 },
+    stats: { wins: 16, losses: 19, draws: 3, byes: 0 },
     archetypes: [
       { name: "White Weenie", slug: "white_weenie", count: 4 },
       { name: "Golgari Gardens", slug: "golgari_gardens", count: 1 },
+      { name: "Jund Wildfire", slug: "jund_wildfire", count: 1 },
     ],
     petCards: [],
-    rival: null,
+    rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 28,
+        deckId: "mRzvdLDfhsWDVydrvHRE1AVDfTA3",
+        deck: "Jund Wildfire",
+        deckSlug: "jund_wildfire",
+        rounds: [
+          { round: 6, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Loss" },
+          { round: 5, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Roberto van den Elzen", opponentPilotSlug: "roberto_van_den_elzen", result: "Draw" },
+          { round: 4, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Loss" },
+          { round: 3, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Win" },
+          { round: 2, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Draw" },
+          { round: 1, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-06-06",
         eventName: "Dutch Pauper League – 3° Leg – 2026",
@@ -19639,9 +20340,9 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tijmen_van_der_kamp": {
     slug: "tijmen_van_der_kamp",
     name: "Tijmen van der Kamp",
-    stats: { wins: 72, losses: 59, draws: 8, byes: 0 },
+    stats: { wins: 76, losses: 61, draws: 8, byes: 0 },
     archetypes: [
-      { name: "Gruul Ponza", slug: "gruul_ponza", count: 11 },
+      { name: "Gruul Ponza", slug: "gruul_ponza", count: 12 },
       { name: "Affinity", slug: "affinity", count: 3 },
       { name: "Temur Ponza", slug: "temur_ponza", count: 3 },
       { name: "Brew", slug: "brew", count: 1 },
@@ -19651,9 +20352,25 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 1 },
       { name: "Turbofog", slug: "turbofog", count: 1 },
     ],
-    petCards: ["Blow Your House Down", "Earth Rift", "Fierce Empath", "Junkblade Bruiser", "Keep Watch", "Penumbra Spider", "Reverent Silence", "Rimewood Falls", "Run Away Together", "Temporal Spring", "Thunderhead Gunner", "Vitalize"],
+    petCards: ["Blow Your House Down", "Earth Rift", "Fierce Empath", "Junkblade Bruiser", "Keep Watch", "Penumbra Spider", "Reverent Silence", "Run Away Together", "Temporal Spring", "Thunderhead Gunner", "Tranquility", "Vitalize"],
     rival: { name: "Rob Lamers", slug: "rob_lamers", gamesPlayed: 7, wins: 2, losses: 5, draws: 0, winRate: "28.57%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 7,
+        deckId: "jq3MPltEh3gT3UnxatUV5wsHLv82",
+        deck: "Gruul Ponza",
+        deckSlug: "gruul_ponza",
+        rounds: [
+          { round: 6, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan_gussenhoven", result: "Win" },
+          { round: 5, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Win" },
+          { round: 4, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 3, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Nicolas Komanski", opponentPilotSlug: "nicolas_komanski", result: "Loss" },
+          { round: 2, opponentDeck: "MonoG Tron", opponentDeckSlug: "monog_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Win" },
+          { round: 1, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Noah van Duren", opponentPilotSlug: "noah_van_duren", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -20091,18 +20808,34 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim_bunnik": {
     slug: "tim_bunnik",
     name: "Tim Bunnik",
-    stats: { wins: 70, losses: 41, draws: 3, byes: 0 },
+    stats: { wins: 74, losses: 43, draws: 3, byes: 0 },
     archetypes: [
       { name: "Flicker Tron", slug: "flicker_tron", count: 5 },
       { name: "Rakdos Burn", slug: "rakdos_burn", count: 5 },
       { name: "MonoU Terror", slug: "monou_terror", count: 4 },
       { name: "MonoU Faeries", slug: "monou_faeries", count: 3 },
+      { name: "MonoG Tron", slug: "monog_tron", count: 2 },
       { name: "Dimir Faeries", slug: "dimir_faeries", count: 1 },
-      { name: "MonoG Tron", slug: "monog_tron", count: 1 },
     ],
     petCards: ["Unfathomable Truths"],
     rival: { name: "Robbert", slug: "robbert", gamesPlayed: 6, wins: 4, losses: 1, draws: 1, winRate: "66.67%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 9,
+        deckId: "vRDl5dUGhQRB9ckDjsZkt5I75gs2",
+        deck: "MonoG Tron",
+        deckSlug: "monog_tron",
+        rounds: [
+          { round: 6, opponentDeck: "Elves", opponentDeckSlug: "elves", opponentPilot: "Max Roovers", opponentPilotSlug: "max_roovers", result: "Win" },
+          { round: 5, opponentDeck: "MonoU Faeries", opponentDeckSlug: "monou_faeries", opponentPilot: "Jamie March", opponentPilotSlug: "jamie_march", result: "Loss" },
+          { round: 4, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Martijn Elbertse", opponentPilotSlug: "martijn_elbertse", result: "Win" },
+          { round: 3, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Noah Westerweel", opponentPilotSlug: "noah_westerweel", result: "Win" },
+          { round: 2, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Loss" },
+          { round: 1, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -20412,17 +21145,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "tim_laros": {
     slug: "tim_laros",
     name: "Tim Laros",
-    stats: { wins: 35, losses: 34, draws: 1, byes: 0 },
+    stats: { wins: 36, losses: 37, draws: 1, byes: 0 },
     archetypes: [
       { name: "Esper Affinity", slug: "esper_affinity", count: 4 },
+      { name: "Cycling Storm", slug: "cycling_storm", count: 3 },
       { name: "Golgari Dredge", slug: "golgari_dredge", count: 3 },
-      { name: "Cycling Storm", slug: "cycling_storm", count: 2 },
       { name: "Golgari Gleezard", slug: "golgari_gleezard", count: 2 },
       { name: "Elves", slug: "elves", count: 1 },
     ],
     petCards: ["Deceptive Landscape", "Honorable Scout", "Implement of Ferocity", "Page, Loose Leaf"],
     rival: { name: "Francesco Simonetto", slug: "francesco_simonetto", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 42,
+        deckId: "JHDnc7YgrLOY5l08pCJJM28WIRC2",
+        deck: "Cycling Storm",
+        deckSlug: "cycling_storm",
+        rounds: [
+          { round: 4, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Vinícius Duarte", opponentPilotSlug: "vinicius_duarte", result: "Loss" },
+          { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 2, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Martijn Elbertse", opponentPilotSlug: "martijn_elbertse", result: "Loss" },
+          { round: 1, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Loss" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -21381,15 +22128,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "toon_de_vet": {
     slug: "toon_de_vet",
     name: "Toon de Vet",
-    stats: { wins: 58, losses: 55, draws: 18, byes: 1 },
+    stats: { wins: 61, losses: 57, draws: 18, byes: 2 },
     archetypes: [
-      { name: "Familiars", slug: "familiars", count: 18 },
+      { name: "Familiars", slug: "familiars", count: 19 },
       { name: "Boros Tribe", slug: "boros_tribe", count: 2 },
       { name: "Inside Out", slug: "inside_out", count: 2 },
     ],
-    petCards: ["Dimension X", "Lonely Arroyo"],
+    petCards: ["Dimension X"],
     rival: { name: "Ben van Wijk", slug: "ben_van_wijk", gamesPlayed: 6, wins: 0, losses: 2, draws: 4, winRate: "0.00%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 12,
+        deckId: "OQAgwZqyRtZEijVCnEqW37NWmlE2",
+        deck: "Familiars",
+        deckSlug: "familiars",
+        rounds: [
+          { round: 6, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Win" },
+          { round: 5, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Jerryt Boersen", opponentPilotSlug: "jerryt_boersen", result: "Win" },
+          { round: 4, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Noah van Duren", opponentPilotSlug: "noah_van_duren", result: "Loss" },
+          { round: 3, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Stefan Gussenhoven", opponentPilotSlug: "stefan_gussenhoven", result: "Loss" },
+          { round: 2, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Win" },
+          { round: 1, opponentDeck: "-", opponentDeckSlug: "", opponentPilot: "-", opponentPilotSlug: "", result: "Bye" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
@@ -22019,15 +22782,31 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
   "vinicius_duarte": {
     slug: "vinicius_duarte",
     name: "vinicius duarte",
-    stats: { wins: 18, losses: 13, draws: 4, byes: 1 },
+    stats: { wins: 21, losses: 15, draws: 5, byes: 1 },
     archetypes: [
-      { name: "Dimir Faeries", slug: "dimir_faeries", count: 4 },
+      { name: "Dimir Faeries", slug: "dimir_faeries", count: 5 },
       { name: "MonoU Faeries", slug: "monou_faeries", count: 1 },
       { name: "Naya Gates", slug: "naya_gates", count: 1 },
     ],
     petCards: [],
-    rival: null,
+    rival: { name: "Tim Laros", slug: "tim_laros", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
+      {
+        eventSlug: "2026-08-08",
+        eventName: "Amsterdam Pauper League – 5° Leg – 2026",
+        position: 16,
+        deckId: "CDpQeExwsOc91b2OrQ1MymZT1S42",
+        deck: "Dimir Faeries",
+        deckSlug: "dimir_faeries",
+        rounds: [
+          { round: 6, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Noah van Duren", opponentPilotSlug: "noah_van_duren", result: "Draw" },
+          { round: 5, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Lucas Feliciano", opponentPilotSlug: "lucas_feliciano", result: "Win" },
+          { round: 4, opponentDeck: "Cycling Storm", opponentDeckSlug: "cycling_storm", opponentPilot: "Tim Laros", opponentPilotSlug: "tim_laros", result: "Win" },
+          { round: 3, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "Fernando Tong", opponentPilotSlug: "fernando_tong", result: "Loss" },
+          { round: 2, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Max Bosma", opponentPilotSlug: "max_bosma", result: "Loss" },
+          { round: 1, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Win" },
+        ],
+      },
       {
         eventSlug: "2026-07-04",
         eventName: "Amsterdam Pauper League – 4° Leg – 2026",
