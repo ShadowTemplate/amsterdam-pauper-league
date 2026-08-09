@@ -148,6 +148,46 @@ def get_match_result(p1_wins: str, p2_wins: str, is_player1: bool) -> str:
             return "Draw"
 
 
+def build_canonical_names(events_data: dict) -> dict:
+    """Return {player_slug: display_name}, taking each player's name from the
+    most recent event they played.
+
+    Players occasionally edit their topdeck.gg profile name between legs
+    (capitalisation, accents, ...), so the same slug can show up under two
+    spellings across events. Without this, a player's displayed name would
+    be whichever event happened to be processed last - which is alphabetical
+    by filename, not chronological - and the same person could appear under
+    one name on their own page and another in an opponent's match history.
+    events_data is keyed by event date (YYYY-MM-DD), so sorting the keys
+    sorts chronologically and the newest spelling wins.
+    """
+    canonical = {}
+    for event_slug in sorted(events_data):
+        for standing in events_data[event_slug]['standings']:
+            player = standing.get('Player', '').strip()
+            if player:
+                canonical[normalize_slug(player)] = player
+    return canonical
+
+
+def apply_canonical_names(player_details: dict, canonical: dict) -> None:
+    """Rewrite every display name in player_details to the canonical spelling
+    for that slug, in place.
+
+    Run this only *after* build_player_details has finished: while it runs,
+    player_info['name'] must stay the current event's raw spelling, since
+    it's the lookup key into that event's standings and decklist maps.
+    """
+    for slug, player_info in player_details.items():
+        player_info['name'] = canonical.get(slug, player_info['name'])
+        for result in player_info.get('results', []):
+            for round_data in result['rounds']:
+                opponent_slug = round_data['opponentPilotSlug']
+                if opponent_slug:
+                    round_data['opponentPilot'] = canonical.get(
+                        opponent_slug, round_data['opponentPilot'])
+
+
 def build_player_details(events_data: dict) -> dict:
     """Build PLAYER_DETAILS from rounds and standings data."""
     player_details = defaultdict(lambda: {
@@ -365,6 +405,7 @@ def main():
 
     print(f"\nBuilding player details from {len(events_data)} events...")
     player_details = build_player_details(events_data)
+    apply_canonical_names(player_details, build_canonical_names(events_data))
 
     print("Scanning deck lists for pet cards...")
     card_to_players = build_card_to_players_map()
