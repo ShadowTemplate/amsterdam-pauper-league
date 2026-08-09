@@ -105,29 +105,51 @@ def load_best_of_cap(year: int, seasons_info: dict):
     return seasons_info.get(str(year), {}).get('bestOfCap')
 
 
+def standing_slug(standing: dict) -> str:
+    """Slug identifying the player behind a standing row. Players are keyed
+    by slug, never by display name: a player who edits their topdeck.gg
+    profile name (capitalisation, accents, ...) between legs would otherwise
+    be split into two standings entries, each holding part of their points.
+    """
+    return standing.get('playerSlug') or normalize_slug(standing['player'])
+
+
+def display_names_by_slug(events: list) -> dict:
+    """Return {slug: display_name}, taking each player's name from the most
+    recent event they appear in - `events` is chronological, so later events
+    overwrite earlier ones and the newest spelling wins."""
+    return {
+        standing_slug(standing): standing['player']
+        for event in events
+        for standing in event['standings']
+    }
+
+
 def compute_capped_points(events: list, cap: int = None) -> dict:
-    """Return {player_name: points}, where points is the sum of a player's
+    """Return {player_slug: points}, where points is the sum of a player's
     best `cap` matchPoints across the given events. Players with `cap` or
     fewer results have all of them counted. cap=None means uncapped (every
     result counts)."""
     points_per_event = defaultdict(list)
     for event in events:
         for standing in event['standings']:
-            points_per_event[standing['player']].append(standing['matchPoints'])
+            points_per_event[standing_slug(standing)].append(standing['matchPoints'])
 
     return {
-        player: sum(sorted(points, reverse=True)[:cap])
-        for player, points in points_per_event.items()
+        slug: sum(sorted(points, reverse=True)[:cap])
+        for slug, points in points_per_event.items()
     }
 
 
 def rank_players(events: list, cap: int = None) -> dict:
-    """Return {player_name: position} for the standings these events alone
+    """Return {player_slug: position} for the standings these events alone
     would produce (same points rule + tie-break rule as the real
     standings)."""
-    points_by_player = compute_capped_points(events, cap)
-    ranked = sorted(points_by_player.items(), key=lambda kv: (-kv[1], kv[0].lower()))
-    return {player: i for i, (player, _) in enumerate(ranked, start=1)}
+    points_by_slug = compute_capped_points(events, cap)
+    names = display_names_by_slug(events)
+    ranked = sorted(points_by_slug.items(),
+                    key=lambda kv: (-kv[1], names[kv[0]].lower()))
+    return {slug: i for i, (slug, _) in enumerate(ranked, start=1)}
 
 
 def compute_byes_unlocked(player_counts: list) -> int:
@@ -163,14 +185,15 @@ def build_season(year: int, seasons_info: dict) -> dict:
 
     # ── Standings: best `cap` leg results per player (all of them if no cap
     # or <= cap results) ─────────────────────────────────────────────────
-    points_by_player = compute_capped_points(past_events, cap)
+    points_by_slug = compute_capped_points(past_events, cap)
+    names_by_slug = display_names_by_slug(past_events)
 
     awards = load_awards(year, seasons_info)
     award_by_slug = {a['playerSlug']: a for a in awards}
 
     standings = []
-    for player, points in points_by_player.items():
-        slug = normalize_slug(player)
+    for slug, points in points_by_slug.items():
+        player = names_by_slug[slug]
         entry = {'player': player, 'playerSlug': slug, 'points': points}
         award = award_by_slug.get(slug)
         if award:
@@ -192,7 +215,7 @@ def build_season(year: int, seasons_info: dict) -> dict:
 
     for i, entry in enumerate(standings, start=1):
         entry['position'] = i
-        prev_position = previous_positions.get(entry['player'])
+        prev_position = previous_positions.get(entry['playerSlug'])
         if prev_position is not None:
             entry['positionChange'] = prev_position - i
 
@@ -201,7 +224,7 @@ def build_season(year: int, seasons_info: dict) -> dict:
     latest_event = max(past_events, key=lambda e: e['date']) if past_events else None
 
     stats = {
-        'uniquePlayers': len(points_by_player),
+        'uniquePlayers': len(points_by_slug),
         'averagePlayers': math.floor(sum(player_counts) / len(player_counts)) if player_counts else 0,
         'eventsCompleted': len(past_events),
         'totalEvents': len(events),
