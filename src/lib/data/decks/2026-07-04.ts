@@ -2,7 +2,7 @@ import type { Deck } from "@/types";
 
 export const decks: Deck[] = [
   {
-    "id": "2Q3QynkzgbNVKAmrYcg2YDqGQyl1",
+    "id": "py2avfl0g1y6kexae6ey5v60",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/2Q3QynkzgbNVKAmrYcg2YDqGQyl1",
     "pilotName": "Raymond Anderson",
     "mainDeck": [
@@ -41,7 +41,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "2ebaPkr3S4M6za5LYjn5OQZvDlw1",
+    "id": "i6v72juqkgtim0czy1ix3e6j",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/2ebaPkr3S4M6za5LYjn5OQZvDlw1",
     "pilotName": "Collin Bos",
     "mainDeck": [
@@ -75,7 +75,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "38CLRSsjmOfpY76P2gcdUMQZZ952",
+    "id": "s3ycg4swmxcwqf28wip09fb3",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/38CLRSsjmOfpY76P2gcdUMQZZ952",
     "pilotName": "Jose Jiménez Guerrero",
     "mainDeck": [
@@ -104,7 +104,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "4SxREx8i42aZJhd3Vqngw8NT9bG3",
+    "id": "npurq5ttque7zqi1oa14qv0v",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/4SxREx8i42aZJhd3Vqngw8NT9bG3",
     "pilotName": "Eef vV",
     "mainDeck": [
@@ -132,7 +132,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "6hVWhkOz1uXnX9db859Wk8ubeP43",
+    "id": "fmwbs5r5c5x1vew7vntda28x",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/6hVWhkOz1uXnX9db859Wk8ubeP43",
     "pilotName": "Jelle Zwaan",
     "mainDeck": [
@@ -164,7 +164,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "8EJey3hrIkbaHypGiGuH0JJ6BBN2",
+    "id": "h2ki568jx4rdm90af5658ujs",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/8EJey3hrIkbaHypGiGuH0JJ6BBN2",
     "pilotName": "Alice Lenting",
     "mainDeck": [
@@ -202,7 +202,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "9M0DnPLC7veuAqUqhfUG5GH8eSr1",
+    "id": "j85bnihigwz0wv9c5w0ragfj",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/9M0DnPLC7veuAqUqhfUG5GH8eSr1",
     "pilotName": "Aartos Locos",
     "mainDeck": [
@@ -239,7 +239,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "AT81NVr1HlVmMnXl4luvUorE8Zk1",
+    "id": "yp0n2dp58jw99b5i5xy7yslo",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/AT81NVr1HlVmMnXl4luvUorE8Zk1",
     "pilotName": "Lucas Feliciano",
     "mainDeck": [
@@ -280,7 +280,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "BioneAJShcclAIjweTSJRYnZ2Vr2",
+    "id": "4c1kzmyioz6749hgeolo8k5r",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/BioneAJShcclAIjweTSJRYnZ2Vr2",
     "pilotName": "Irshaad",
     "mainDeck": [
@@ -308,7 +308,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "CDpQeExwsOc91b2OrQ1MymZT1S42",
+    "id": "dxjqtwhw0xkkmaevfid3wxfp",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/CDpQeExwsOc91b2OrQ1MymZT1S42",
     "pilotName": "vinicius duarte",
     "mainDeck": [
@@ -338,7 +338,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "Cn8mL2l7xPQGPLu9uUOLoqeANF32",
+    "id": "qt8ooiihpefxmquyitmlf9at",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/Cn8mL2l7xPQGPLu9uUOLoqeANF32",
     "pilotName": "Raaayyyyyyyyyy",
     "mainDeck": [
@@ -365,7 +365,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "E0NmWXOL1WV1kSD11m4XhxkjbAv2",
+    "id": "84trix2hrhi3jalj8ruqztkr",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/E0NmWXOL1WV1kSD11m4XhxkjbAv2",
     "pilotName": "Michael Joseph Purcell",
     "mainDeck": [
@@ -399,7 +399,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "FJZa4ZosC2SEdml1yrMghUOa5OV2",
+    "id": "t0m8fzyhepwmurxsfhwxqn4i",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/FJZa4ZosC2SEdml1yrMghUOa5OV2",
     "pilotName": "Rob Kerlin",
     "mainDeck": [
@@ -428,7 +428,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "HRzczTOaOQWz13Q6nf9S14hYqII3",
+    "id": "3neybnzpeiuv4kn1e3mbzmqu",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/HRzczTOaOQWz13Q6nf9S14hYqII3",
     "pilotName": "Floris Stapel",
     "mainDeck": [
@@ -463,7 +463,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "IXYpl9bnq7R9boRdpsmDtuzFM3H3",
+    "id": "z5bajzacravjym1u27u4v83u",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/IXYpl9bnq7R9boRdpsmDtuzFM3H3",
     "pilotName": "Abe Mulder",
     "mainDeck": [
@@ -495,7 +495,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "JHDnc7YgrLOY5l08pCJJM28WIRC2",
+    "id": "8n433g4hpcq9oqvlxn37377s",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/JHDnc7YgrLOY5l08pCJJM28WIRC2",
     "pilotName": "Tim Laros",
     "mainDeck": [
@@ -527,7 +527,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "KLBnaqTCPoVzPjd1a5W0UZ2aAos1",
+    "id": "lp7hm4hlixnrne8dy4cz8i56",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/KLBnaqTCPoVzPjd1a5W0UZ2aAos1",
     "pilotName": "Jelle Schneider",
     "mainDeck": [
@@ -558,7 +558,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "KXf0lfdBqaRAUYzb3gDSYMx60Dx1",
+    "id": "d33cx8e3sh9nn5t0tfj1peav",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/KXf0lfdBqaRAUYzb3gDSYMx60Dx1",
     "pilotName": "Jamie March",
     "mainDeck": [
@@ -587,7 +587,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "N3U8IQEU4TNXkUPHm6jQzy6QyJ93",
+    "id": "utd07q3arqe21vztk2wqdifw",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/N3U8IQEU4TNXkUPHm6jQzy6QyJ93",
     "pilotName": "Rob Lamers",
     "mainDeck": [
@@ -615,7 +615,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "OQAgwZqyRtZEijVCnEqW37NWmlE2",
+    "id": "o6q6oaww207e9m6n19k3udkr",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/OQAgwZqyRtZEijVCnEqW37NWmlE2",
     "pilotName": "Toon de Vet",
     "mainDeck": [
@@ -653,7 +653,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "PJ3JGn2svRczecN90JLIroSaFlE2",
+    "id": "2v3tfxuwuel2dq821yixx9hy",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/PJ3JGn2svRczecN90JLIroSaFlE2",
     "pilotName": "Harm steenbakkers",
     "mainDeck": [
@@ -689,7 +689,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "QGEpmyzm7rbliACT77RxLF1sS7k1",
+    "id": "fxljip08eciql3boxqwa78c2",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/QGEpmyzm7rbliACT77RxLF1sS7k1",
     "pilotName": "Jerryt Boersen",
     "mainDeck": [
@@ -723,7 +723,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "RLHTn0MYwcSBOPby9QiqsG8wn1d2",
+    "id": "8ti2b17xo5hzbtyk81ihsrgs",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/RLHTn0MYwcSBOPby9QiqsG8wn1d2",
     "pilotName": "Nicolas Komanski",
     "mainDeck": [
@@ -750,7 +750,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "U6PRugzMmoOutqxeQIKPDK8Ys7I2",
+    "id": "997xn22eue5r6a7xjk1a1uem",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/U6PRugzMmoOutqxeQIKPDK8Ys7I2",
     "pilotName": "Tim Swillens",
     "mainDeck": [
@@ -779,7 +779,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "XI5xJhmn7pOlh6QThJtv7cB6OwY2",
+    "id": "fm2qwxhna60on3wig5wdmoh3",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/XI5xJhmn7pOlh6QThJtv7cB6OwY2",
     "pilotName": "Davey Barendregt",
     "mainDeck": [
@@ -815,7 +815,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "Xopd3GyttdWVeaJPcGZXV0A7qi92",
+    "id": "4gnhm1d4c7q2gsgaxwonob5w",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/Xopd3GyttdWVeaJPcGZXV0A7qi92",
     "pilotName": "Gianvito Taneburgo",
     "mainDeck": [
@@ -847,7 +847,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "Zj3iw1nlIRTtHrRSCvpFTYAld2Q2",
+    "id": "xfjbxjzwrduvmhzrtdbikp9h",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/Zj3iw1nlIRTtHrRSCvpFTYAld2Q2",
     "pilotName": "Stefan van der List",
     "mainDeck": [
@@ -884,7 +884,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "biuoEAg6P5O3ozzXka7cNGKFWYR2",
+    "id": "r0o0ly01o2hl6pfru6hr545u",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/biuoEAg6P5O3ozzXka7cNGKFWYR2",
     "pilotName": "Leonardo Paternotte",
     "mainDeck": [
@@ -922,7 +922,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "dFkwHr2M8aOSppCudk7vGUxKs4w1",
+    "id": "cufpswpne8vi9fufq435rhoq",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/dFkwHr2M8aOSppCudk7vGUxKs4w1",
     "pilotName": "Max Roovers",
     "mainDeck": [
@@ -950,7 +950,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "elzjMN3i6ehtzkGQfe7auxXkmvy2",
+    "id": "pxkdy2kw963v24tibbewuikc",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/elzjMN3i6ehtzkGQfe7auxXkmvy2",
     "pilotName": "Vanessa Weber",
     "mainDeck": [
@@ -982,7 +982,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "emuvdnaJ86Ps46foNQSBmwmGTh92",
+    "id": "u4tjdtqaut048tybs7qfp87q",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/emuvdnaJ86Ps46foNQSBmwmGTh92",
     "pilotName": "Dylan van Gelder",
     "mainDeck": [
@@ -1013,7 +1013,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "en2liKJ8OsRkG91YKPvgsepnp9C3",
+    "id": "6rbx99om4bokybz9xvkm9eha",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/en2liKJ8OsRkG91YKPvgsepnp9C3",
     "pilotName": "Roberto van den Elzen",
     "mainDeck": [
@@ -1046,7 +1046,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "gaofBFhyILRpoQWOrYJFuLvEatd2",
+    "id": "61uuw0u6l3nhnvgc0exfexi3",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/gaofBFhyILRpoQWOrYJFuLvEatd2",
     "pilotName": "Bas Hendriks",
     "mainDeck": [
@@ -1084,7 +1084,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "jq3MPltEh3gT3UnxatUV5wsHLv82",
+    "id": "eigd50jjsytnik9n2jpmwkl1",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/jq3MPltEh3gT3UnxatUV5wsHLv82",
     "pilotName": "Tijmen van der Kamp",
     "mainDeck": [
@@ -1123,7 +1123,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "k70Ar8wnHcRcDGN7hKwhV96S5ml2",
+    "id": "1iddktp4v2c4k77pmqck17bg",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/k70Ar8wnHcRcDGN7hKwhV96S5ml2",
     "pilotName": "Simon Isphording",
     "mainDeck": [
@@ -1151,7 +1151,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "kBX6yZadhyW9ajR7TyABLzbBDd43",
+    "id": "lbf8gbugfut5kxbom6xde9hs",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/kBX6yZadhyW9ajR7TyABLzbBDd43",
     "pilotName": "Noah Westerweel",
     "mainDeck": [
@@ -1184,7 +1184,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "ltNVvCO8AEgFzy9uaLH4fcpoPQX2",
+    "id": "jctjck6lmjo8wyepf44sez7y",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/ltNVvCO8AEgFzy9uaLH4fcpoPQX2",
     "pilotName": "Fernando Tong",
     "mainDeck": [
@@ -1216,7 +1216,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "mhhqO8qTuEOSmJVQ7eQDULAOzj82",
+    "id": "4gqqvs4rgoqto48ds8sl6yis",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/mhhqO8qTuEOSmJVQ7eQDULAOzj82",
     "pilotName": "Thijs Deckers",
     "mainDeck": [
@@ -1250,7 +1250,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "qQLEC7ELV1Z5mrqtPoRtQKjNZx73",
+    "id": "2w34x2oi8s3lfkv0ujeksi94",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/qQLEC7ELV1Z5mrqtPoRtQKjNZx73",
     "pilotName": "Stefan Pouwelse",
     "mainDeck": [
@@ -1281,7 +1281,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
+    "id": "mylr5oqzjblj8py6a8anukvg",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/u1RZ2xxzXTgLmplsaE3aqmZ1G6J3",
     "pilotName": "Mirco Bonati",
     "mainDeck": [
@@ -1316,7 +1316,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "vRDl5dUGhQRB9ckDjsZkt5I75gs2",
+    "id": "z1b5aoznjoxgx1krwjqw9e1f",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/vRDl5dUGhQRB9ckDjsZkt5I75gs2",
     "pilotName": "Tim Bunnik",
     "mainDeck": [
@@ -1352,7 +1352,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "vS51wYeoyVcyG8HVrOhMF5WdJOr2",
+    "id": "smxa9298bw0lpos8jd2s9itk",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/vS51wYeoyVcyG8HVrOhMF5WdJOr2",
     "pilotName": "Tom de Ruiter",
     "mainDeck": [
@@ -1389,7 +1389,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "xrLCwHfzn8Np5DNnZroSWD8y4UD3",
+    "id": "7mt2pjo41k5mf6nsm87v3okm",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/xrLCwHfzn8Np5DNnZroSWD8y4UD3",
     "pilotName": "Floris Heins",
     "mainDeck": [
@@ -1419,7 +1419,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "xzxxxPRgMRMUmWf8MNQMTH9rnOz2",
+    "id": "09kstamczfi6aj27iz9pv2kg",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/xzxxxPRgMRMUmWf8MNQMTH9rnOz2",
     "pilotName": "Tobias van Kersbergen",
     "mainDeck": [
@@ -1447,7 +1447,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "yBFaRmnZHscRxAcfwmLqvWDPUpk2",
+    "id": "7lrjdg1w744djf55xagldrjb",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/yBFaRmnZHscRxAcfwmLqvWDPUpk2",
     "pilotName": "Alexander Hamilton",
     "mainDeck": [
@@ -1492,7 +1492,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "ysNRuEfWziNdlXox7pwnWAyFHsw2",
+    "id": "eth2kgov9f4c41ms8napyipc",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/ysNRuEfWziNdlXox7pwnWAyFHsw2",
     "pilotName": "soufian hriz",
     "mainDeck": [
@@ -1532,7 +1532,7 @@ export const decks: Deck[] = [
     ],
   },
   {
-    "id": "zfi8nWR2mLY7dTTMWLvk0p68drm2",
+    "id": "jvjq42dhiuvggbf2ukbnwvw5",
     "url": "https://topdeck.gg/deck/amsterdam-pauper-league-4-leg-2026/zfi8nWR2mLY7dTTMWLvk0p68drm2",
     "pilotName": "Dylan Holly",
     "mainDeck": [
