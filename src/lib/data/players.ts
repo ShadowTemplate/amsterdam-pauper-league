@@ -404,7 +404,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deckSlug: "bogles",
         rounds: [
           { round: 6, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Win" },
-          { round: 5, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
+          { round: 5, opponentDeck: "Altar Tron", opponentDeckSlug: "altar_tron", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
           { round: 4, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Loss" },
           { round: 3, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Bas Hendriks", opponentPilotSlug: "bas_hendriks", result: "Loss" },
           { round: 2, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Loss" },
@@ -4377,7 +4377,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         rounds: [
           { round: 6, opponentDeck: "White Weenie", opponentDeckSlug: "white_weenie", opponentPilot: "David Roozendaal", opponentPilotSlug: "david_roozendaal", result: "Win" },
           { round: 5, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Win" },
-          { round: 4, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 4, opponentDeck: "Altar Tron", opponentDeckSlug: "altar_tron", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
           { round: 3, opponentDeck: "MonoR Rally", opponentDeckSlug: "monor_rally", opponentPilot: "Eef vV", opponentPilotSlug: "eef_vv", result: "Loss" },
           { round: 2, opponentDeck: "Rakdos Burn", opponentDeckSlug: "rakdos_burn", opponentPilot: "Noah van Duren", opponentPilotSlug: "noah_van_duren", result: "Loss" },
           { round: 1, opponentDeck: "Familiars", opponentDeckSlug: "familiars", opponentPilot: "Simon Isphording", opponentPilotSlug: "simon_isphording", result: "Loss" },
@@ -7816,7 +7816,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 5, opponentDeck: "MonoG Tron", opponentDeckSlug: "monog_tron", opponentPilot: "Tim Bunnik", opponentPilotSlug: "tim_bunnik", result: "Win" },
           { round: 4, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Tijmen van der Kamp", opponentPilotSlug: "tijmen_van_der_kamp", result: "Win" },
           { round: 3, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Luiz Francisco Scudelari de Macedo", opponentPilotSlug: "luiz_francisco_scudelari_de_macedo", result: "Win" },
-          { round: 2, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 2, opponentDeck: "Altar Tron", opponentDeckSlug: "altar_tron", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
           { round: 1, opponentDeck: "Jund Wildfire", opponentDeckSlug: "jund_wildfire", opponentPilot: "Max Bosma", opponentPilotSlug: "max_bosma", result: "Loss" },
         ],
       },
@@ -11201,7 +11201,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deck: "Brew",
         deckSlug: "brew",
         rounds: [
-          { round: 6, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
+          { round: 6, opponentDeck: "Altar Tron", opponentDeckSlug: "altar_tron", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Loss" },
           { round: 5, opponentDeck: "Spy Walls", opponentDeckSlug: "spy_walls", opponentPilot: "Nicolas Bordenabe", opponentPilotSlug: "nicolas_bordenabe", result: "Loss" },
           { round: 4, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
           { round: 3, opponentDeck: "Gruul Ponza", opponentDeckSlug: "gruul_ponza", opponentPilot: "Johan Boesveld", opponentPilotSlug: "johan_boesveld", result: "Loss" },
@@ -13710,7 +13710,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
       { name: "MonoU Terror", slug: "monou_terror", count: 4 },
       { name: "Azorius Gates", slug: "azorius_gates", count: 2 },
       { name: "MonoR Tron", slug: "monor_tron", count: 2 },
-      { name: "Brew", slug: "brew", count: 1 },
+      { name: "Altar Tron", slug: "altar_tron", count: 1 },
     ],
     petCards: ["Barrels of Blasting Jelly", "Filigree Familiar"],
     rival: null,
@@ -13720,8 +13720,8 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         eventName: "Amsterdam Pauper League – 5° Leg – 2026",
         position: 37,
         deckId: "E0NmWXOL1WV1kSD11m4XhxkjbAv2",
-        deck: "Brew",
-        deckSlug: "brew",
+        deck: "Altar Tron",
+        deckSlug: "altar_tron",
         rounds: [
           { round: 6, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Lotte Klomp", opponentPilotSlug: "lotte_klomp", result: "Win" },
           { round: 5, opponentDeck: "Bogles", opponentDeckSlug: "bogles", opponentPilot: "Abe Mulder", opponentPilotSlug: "abe_mulder", result: "Win" },
@@ -20221,7 +20221,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
           { round: 4, opponentDeck: "Golgari Gardens", opponentDeckSlug: "golgari_gardens", opponentPilot: "Jan Rijnbeek", opponentPilotSlug: "jan_rijnbeek", result: "Loss" },
           { round: 3, opponentDeck: "Azorius Gates", opponentDeckSlug: "azorius_gates", opponentPilot: "Hidde van 't Verlaat", opponentPilotSlug: "hidde_van_t_verlaat", result: "Win" },
           { round: 2, opponentDeck: "Affinity", opponentDeckSlug: "affinity", opponentPilot: "Alice Lenting", opponentPilotSlug: "alice_lenting", result: "Draw" },
-          { round: 1, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 1, opponentDeck: "Altar Tron", opponentDeckSlug: "altar_tron", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
         ],
       },
       {
@@ -21165,7 +21165,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
         deckSlug: "cycling_storm",
         rounds: [
           { round: 4, opponentDeck: "Dimir Faeries", opponentDeckSlug: "dimir_faeries", opponentPilot: "Vinícius Duarte", opponentPilotSlug: "vinicius_duarte", result: "Loss" },
-          { round: 3, opponentDeck: "Brew", opponentDeckSlug: "brew", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
+          { round: 3, opponentDeck: "Altar Tron", opponentDeckSlug: "altar_tron", opponentPilot: "Michael Joseph Purcell", opponentPilotSlug: "michael_joseph_purcell", result: "Win" },
           { round: 2, opponentDeck: "MonoR Madness", opponentDeckSlug: "monor_madness", opponentPilot: "Martijn Elbertse", opponentPilotSlug: "martijn_elbertse", result: "Loss" },
           { round: 1, opponentDeck: "Flicker Tron", opponentDeckSlug: "flicker_tron", opponentPilot: "Marvin Schippmann", opponentPilotSlug: "marvin_schippmann", result: "Loss" },
         ],
