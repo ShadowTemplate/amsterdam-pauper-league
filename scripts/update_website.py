@@ -21,6 +21,8 @@ Pipeline (each step's output feeds later steps - order matters):
   13. generate_card_types.py     (needs data/scryfall/types_manifest.json from step 12)
   14. generate_seasons.py        (needs events/ from step 3)
   15. generate_data_layer.py     (needs events/ from step 3, seasons/ from step 14)
+  16. audit_player_identity.py   (read-only recap of the player identities the pipeline
+                                   merged into one slug - never fails the pipeline)
 
 Note: step 2 seeds every deck as "Unknown" and tries the (unreliable) archetype
 classifier to improve on that; whatever's left "Unknown" needs hand-tagging and a
@@ -56,6 +58,7 @@ STEPS = [
     "generate_card_types.py",
     "generate_seasons.py",
     "generate_data_layer.py",
+    "audit_player_identity.py",
 ]
 
 
