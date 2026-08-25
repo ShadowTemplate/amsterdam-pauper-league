@@ -111,6 +111,24 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
           </div>
         )}
 
+        <!-- Worst matchup -->
+        {detail.worstMatchup && (
+          <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-1">
+              Worst matchup:{" "}
+              <a
+                href={`/archetypes/${detail.worstMatchup.slug}`}
+                class="hover:underline underline-offset-4"
+              >
+                {detail.worstMatchup.name}
+              </a>
+            </h2>
+            <p class="text-sm text-muted-foreground">
+              {detail.worstMatchup.losses} {detail.worstMatchup.losses === 1 ? "loss" : "losses"} in {detail.worstMatchup.matchesPlayed} {detail.worstMatchup.matchesPlayed === 1 ? "match" : "matches"} &bull; {detail.worstMatchup.winRate} win rate ({detail.worstMatchup.wins}-{detail.worstMatchup.losses}-{detail.worstMatchup.draws})
+            </p>
+          </div>
+        )}
+
         <!-- Results per event -->
         {detail.results.map((result) => {
           const deck = findDeckByEventAndPilot(result.eventSlug, player.name, result.deck);
