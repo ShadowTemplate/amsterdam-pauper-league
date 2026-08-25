@@ -2,64 +2,37 @@
 
 @variant dark (&:where(.dark, .dark *));
 
-/* Palette: APL proposal A.
-   ACCENT #1     #d7cf08  acid yellow  -> primary (buttons, links, focus)
-   MAIN #2       #a37ac9  purple       -> brand-2 (progress, secondary emphasis)
-   MAIN #1       #ff4e00  orange       -> brand-accent (badges, highlights)
-   MAIN #1 and ACCENT #1 are swapped relative to the deck: the acid yellow
-   carries the interface and the orange is held back for emphasis.
-   DARK NEUTRAL  #012031  deep navy    -> background, and the surface ramp below
-   LIGHT NEUTRAL #f5f3f4  off-white    -> foreground
-   Surfaces and borders are a hue-201 ramp off the dark neutral, since the
-   proposal only fixes five colours and a UI needs elevation steps too. */
-
 @layer base {
   :root {
     --radius: 0.75rem;
-    --background: #012031;
-    --foreground: #f5f3f4;
-    --card: #012031;
-    --card-foreground: #f5f3f4;
-    --popover: #032c41;
-    --popover-foreground: #f5f3f4;
-    --primary: #d7cf08;
-    --primary-foreground: #012031;
-    --secondary: #032c41;
-    --secondary-foreground: #f5f3f4;
-    --muted: #032c41;
-    --muted-foreground: #8ea6b4;
-    --accent: #063853;
-    --accent-foreground: #f5f3f4;
-    --destructive: #f2555a;
-    --destructive-foreground: #f5f3f4;
-    --border: #0e4665;
-    --input: #032c41;
-    --ring: #d7cf08;
+    --background: #112236;
+    --foreground: #e8eef8;
+    --card: #112236;
+    --card-foreground: #e8eef8;
+    --popover: #112236;
+    --popover-foreground: #e8eef8;
+    --primary: #f0c030;
+    --primary-foreground: #0d1829;
+    --secondary: #172440;
+    --secondary-foreground: #e8eef8;
+    --muted: #172440;
+    --muted-foreground: #7890b8;
+    --accent: #172440;
+    --accent-foreground: #e8eef8;
+    --destructive: #dc2626;
+    --destructive-foreground: #e8eef8;
+    --border: #2e4e7a;
+    --input: #172440;
+    --ring: #f0c030;
     --header-height: 56px;
-
-    /* The two brand colours the shadcn token set has no slot for. */
-    --brand-2: #a37ac9;
-    --brand-2-foreground: #012031;
-    --brand-accent: #ff4e00;
-    --brand-accent-foreground: #012031;
-
-    /* Win / loss / draw on the player match tables. Kept as their own scale
-       rather than folded into the brand: they encode result, not identity.
-       Retuned off Tailwind's defaults to sit on the navy ground at >=4.5:1.
-       Standings position movement does NOT use these - those arrows are on
-       the brand colours (primary / brand-accent / foreground). */
-    --positive: #4ade80;
-    --negative: #ff6b8a;
-    --neutral-result: #a9bcc7;
-
-    --sidebar: #032c41;
-    --sidebar-foreground: #f5f3f4;
-    --sidebar-primary: #d7cf08;
-    --sidebar-primary-foreground: #012031;
-    --sidebar-accent: #063853;
-    --sidebar-accent-foreground: #f5f3f4;
-    --sidebar-border: #0e4665;
-    --sidebar-ring: #d7cf08;
+    --sidebar: #172440;
+    --sidebar-foreground: #e8eef8;
+    --sidebar-primary: #f0c030;
+    --sidebar-primary-foreground: #0d1829;
+    --sidebar-accent: #1e3050;
+    --sidebar-accent-foreground: #e8eef8;
+    --sidebar-border: #1e3050;
+    --sidebar-ring: #f0c030;
   }
 }
 
@@ -83,13 +56,6 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --color-brand-2: var(--brand-2);
-  --color-brand-2-foreground: var(--brand-2-foreground);
-  --color-brand-accent: var(--brand-accent);
-  --color-brand-accent-foreground: var(--brand-accent-foreground);
-  --color-positive: var(--positive);
-  --color-negative: var(--negative);
-  --color-neutral-result: var(--neutral-result);
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
