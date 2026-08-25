@@ -496,6 +496,44 @@ def main():
                     'winRate': win_rate,
                 }
 
+        # Tally the record against every archetype faced (byes excluded, since
+        # a bye has no opponent archetype slug)
+        archetype_stats = defaultdict(lambda: {'name': '', 'wins': 0, 'losses': 0, 'draws': 0})
+        for result in info.get('results', []):
+            for round_data in result['rounds']:
+                archetype_slug = round_data['opponentDeckSlug']
+                if not archetype_slug:
+                    continue
+                archetype_stats[archetype_slug]['name'] = round_data['opponentDeck']
+                result_type = round_data['result']
+                if result_type == 'Win':
+                    archetype_stats[archetype_slug]['wins'] += 1
+                elif result_type == 'Loss':
+                    archetype_stats[archetype_slug]['losses'] += 1
+                elif result_type == 'Draw':
+                    archetype_stats[archetype_slug]['draws'] += 1
+
+        # The worst matchup is the archetype the player has lost the most
+        # matches to, but only if it holds sole possession of the top spot -
+        # a tie means no single archetype stands out
+        worst_matchup = None
+        if archetype_stats:
+            max_losses = max(s['losses'] for s in archetype_stats.values())
+            most_lost_to = [a_slug for a_slug, s in archetype_stats.items() if s['losses'] == max_losses]
+            if max_losses > 0 and len(most_lost_to) == 1:
+                worst_slug = most_lost_to[0]
+                worst_info = archetype_stats[worst_slug]
+                matches_played = worst_info['wins'] + worst_info['losses'] + worst_info['draws']
+                worst_matchup = {
+                    'slug': worst_slug,
+                    'name': worst_info['name'],
+                    'matchesPlayed': matches_played,
+                    'wins': worst_info['wins'],
+                    'losses': worst_info['losses'],
+                    'draws': worst_info['draws'],
+                    'winRate': f"{worst_info['wins'] / matches_played * 100:.2f}%",
+                }
+
         output_lines.append(f"  {js_str(slug)}: {{")
         output_lines.append(f"    slug: {js_str(slug)},")
         output_lines.append(f"    name: {js_str(info['name'])},")
@@ -516,6 +554,16 @@ def main():
             )
         else:
             output_lines.append(f"    rival: null,")
+
+        if worst_matchup:
+            output_lines.append(
+                f"    worstMatchup: {{ name: {js_str(worst_matchup['name'])}, slug: {js_str(worst_matchup['slug'])}, "
+                f"matchesPlayed: {worst_matchup['matchesPlayed']}, wins: {worst_matchup['wins']}, "
+                f"losses: {worst_matchup['losses']}, draws: {worst_matchup['draws']}, "
+                f"winRate: {js_str(worst_matchup['winRate'])} }},"
+            )
+        else:
+            output_lines.append(f"    worstMatchup: null,")
 
         output_lines.append(f"    results: [")
 

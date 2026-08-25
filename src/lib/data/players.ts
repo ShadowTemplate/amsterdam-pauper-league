@@ -298,6 +298,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Hidden Grotto"],
     rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
+    worstMatchup: { name: "MonoR Rally", slug: "monor_rally", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -358,6 +359,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-05-04",
@@ -394,6 +396,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Pyromatics"],
     rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 5, wins: 3, losses: 2, draws: 0, winRate: "60.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -666,6 +669,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Jolted Awake"],
     rival: { name: "Koen Zuidberg", slug: "koen_zuidberg", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
+    worstMatchup: { name: "Azorius Gates", slug: "azorius_gates", matchesPlayed: 5, wins: 1, losses: 4, draws: 0, winRate: "20.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -776,6 +780,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -806,6 +811,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Banishing Knack", "It'll Quench Ya!", "Pop Quiz", "Vedalken Engineer", "Zuko's Exile"],
     rival: null,
+    worstMatchup: { name: "Dimir Faeries", slug: "dimir_faeries", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -850,6 +856,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -894,6 +901,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -988,6 +996,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Shrivel"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-08-03",
@@ -1026,6 +1035,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Corrupt", "Phyrexian Rager", "Wrench Mind"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -1054,6 +1064,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -1080,6 +1091,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1111,6 +1123,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Arcane Teachings", "Coiling Oracle", "Fire Whip", "Gift of the Viper", "Lowland Basilisk", "Marsh Viper", "Sabertooth Cobra", "Terminal Agony"],
     rival: { name: "Mirco Bonati", slug: "mirco_bonati", gamesPlayed: 4, wins: 0, losses: 3, draws: 1, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -1249,6 +1262,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Brew", slug: "brew", matchesPlayed: 5, wins: 2, losses: 3, draws: 0, winRate: "40.00%" },
     results: [
       {
         eventSlug: "2025-10-04",
@@ -1384,6 +1398,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -1412,6 +1427,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1441,6 +1457,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Abe Mulder", slug: "abe_mulder", gamesPlayed: 2, wins: 2, losses: 0, draws: 0, winRate: "100.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -1485,6 +1502,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Gruul Ramp", slug: "gruul_ramp", matchesPlayed: 4, wins: 2, losses: 2, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2024-10-05",
@@ -1528,6 +1546,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1556,6 +1575,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 6, wins: 2, losses: 0, draws: 4, winRate: "33.33%" },
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 5, wins: 0, losses: 5, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1792,6 +1812,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1821,6 +1842,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1852,6 +1874,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Balemurk Leech", "Forlorn Flats", "Grand Entryway // Elegant Rotunda", "Okiba Reckoner Raid", "Return Triumphant", "Seal of Cleansing", "Slumbering Keepguard", "Spirited Companion"],
     rival: null,
+    worstMatchup: { name: "MonoB Sacrifice", slug: "monob_sacrifice", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -1913,6 +1936,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Webweaver Changeling"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -1965,6 +1989,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Curse of Chains"],
     rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 7, wins: 4, losses: 3, draws: 0, winRate: "57.14%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -2328,6 +2353,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Gruul Ramp", slug: "gruul_ramp", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2357,6 +2383,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2383,6 +2410,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-09-07",
@@ -2412,6 +2440,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Aether Spike", "Tune the Narrative"],
     rival: null,
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -2583,6 +2612,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -2693,6 +2723,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 5, wins: 1, losses: 3, draws: 1, winRate: "20.00%" },
     results: [
       {
         eventSlug: "2025-08-02",
@@ -2756,6 +2787,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
+    worstMatchup: { name: "MonoR Kuldotha", slug: "monor_kuldotha", matchesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-12-07",
@@ -2863,6 +2895,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -2891,6 +2924,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Loyal Sentry"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -2919,6 +2953,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Ben van Wijk", slug: "ben_van_wijk", gamesPlayed: 2, wins: 1, losses: 0, draws: 1, winRate: "50.00%" },
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -2980,6 +3015,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Familiars", slug: "familiars", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -3008,6 +3044,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -3040,6 +3077,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Ainok Wayfarer"],
     rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
+    worstMatchup: { name: "MonoU Faeries", slug: "monou_faeries", matchesPlayed: 5, wins: 1, losses: 4, draws: 0, winRate: "20.00%" },
     results: [
       {
         eventSlug: "2025-10-04",
@@ -3211,6 +3249,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -3240,6 +3279,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -3268,6 +3308,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-03-02",
@@ -3295,6 +3336,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -3324,6 +3366,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -3353,6 +3396,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-05-03",
@@ -3382,6 +3426,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Eroded Canyon", "Peculiar Lighthouse", "Raven of Fell Omens"],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 7, wins: 4, losses: 3, draws: 0, winRate: "57.14%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -3558,6 +3603,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Raven de Bruin", slug: "raven_de_bruin", gamesPlayed: 3, wins: 2, losses: 0, draws: 1, winRate: "66.67%" },
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -3732,6 +3778,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-12-07",
@@ -3766,6 +3813,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Curfew", "Goldhound", "Improvised Club"],
     rival: null,
+    worstMatchup: { name: "Azorius Gates", slug: "azorius_gates", matchesPlayed: 8, wins: 2, losses: 6, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -4133,6 +4181,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Rob Nolle", slug: "rob_nolle", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-11-01",
@@ -4209,6 +4258,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4239,6 +4289,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Rooftop Percher"],
     rival: { name: "Thijs", slug: "thijs", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -4301,6 +4352,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4330,6 +4382,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Ruby Storm", slug: "ruby_storm", matchesPlayed: 1, wins: 0, losses: 1, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4366,6 +4419,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -4713,6 +4767,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Spider Umbra"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -4739,6 +4794,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Annihilating Glare", "Ashnod's Intervention", "Bone Splinters", "Dead Revels", "Deadly Precision", "Lash of the Balrog", "Nocturnal Feeder", "Savor"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4768,6 +4824,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Electrify"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -4796,6 +4853,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-12-07",
@@ -4824,6 +4882,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -4852,6 +4911,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -4878,6 +4938,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -4908,6 +4969,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -4953,6 +5015,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Armored Armadillo", "Elite Interceptor // Rejoinder", "Lightwheel Enhancements", "Sandstone Bridge", "Solid Footing"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -5101,6 +5164,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Ardent Recruit", "Burning Sun's Fury", "Court Homunculus", "Dimir Guildgate", "Halo Hopper", "Martyr's Soul"],
     rival: { name: "Jelle Zwaan", slug: "jelle_zwaan", gamesPlayed: 3, wins: 0, losses: 2, draws: 1, winRate: "0.00%" },
+    worstMatchup: { name: "Gruul Ramp", slug: "gruul_ramp", matchesPlayed: 4, wins: 1, losses: 3, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -5325,6 +5389,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Francesco Simonetto", slug: "francesco_simonetto", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -5436,6 +5501,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 4, wins: 2, losses: 2, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -5518,6 +5584,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-09-06",
@@ -5644,6 +5711,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Essence Harvest", "Glaze Fiend", "Priest of Yawgmoth"],
     rival: { name: "Tim Laros", slug: "tim_laros", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
+    worstMatchup: { name: "Bogles", slug: "bogles", matchesPlayed: 6, wins: 0, losses: 5, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -5867,6 +5935,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bant Sureblade", "Barkshell Blessing", "Blossoming Sands", "Cathar Commando", "Centaur Healer", "Crystallization", "Electro's Bolt", "Faithful Watchdog", "Grizzled Leotau", "Helpful Hunter", "Naya Hushblade", "Obsessive Search", "Pumpkin Bombardment", "Refute", "Shield of the Oversoul", "Spider-Islanders", "Swiftwater Cliffs", "Valeron Outlander", "Whoosh!"],
     rival: null,
+    worstMatchup: { name: "Azorius Gates", slug: "azorius_gates", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -5911,6 +5980,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bequeathal", "Drix Fatemaker", "Wild Ride"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -5940,6 +6010,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-11-01",
@@ -5969,6 +6040,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -6012,6 +6084,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -6047,6 +6120,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Aethertow", "Banehound", "Captured Sunlight", "Cram Session", "Deny Reality", "Grave Scrabbler", "Guerrilla Gorilla", "Night Market", "Ornithopter of Paradise", "Spore Frog", "Step Through", "Tilling Treefolk", "Vessel of Nascency"],
     rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -6427,6 +6501,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-08-03",
@@ -6519,6 +6594,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Wirewood Pride"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -6547,6 +6623,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Dimir Terror", slug: "dimir_terror", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -6579,6 +6656,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Architects of Will", "Grisly Survivor"],
     rival: null,
+    worstMatchup: { name: "MonoR Kuldotha", slug: "monor_kuldotha", matchesPlayed: 4, wins: 1, losses: 3, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -6674,6 +6752,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Vincent's Limit Break"],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 8, wins: 2, losses: 5, draws: 1, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -6926,6 +7005,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Ferocious Werefox", "Gnarlback Rhino", "Longstalk Brawl", "Ranger's Guile"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -6955,6 +7035,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoR Rally", slug: "monor_rally", matchesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -6987,6 +7068,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Circle of Protection: White", "Plunder the Trollshaws", "Unsummon"],
     rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 4, wins: 3, losses: 1, draws: 0, winRate: "75.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -7240,6 +7322,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Tom de Ruiter", slug: "tom_de_ruiter", gamesPlayed: 4, wins: 2, losses: 2, draws: 0, winRate: "50.00%" },
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 6, wins: 3, losses: 3, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -7477,6 +7560,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -7504,6 +7588,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -7551,6 +7636,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-04-13",
@@ -7596,6 +7682,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Stormshriek Feral // Flush Out"],
     rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 4, wins: 1, losses: 3, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -7689,6 +7776,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Reap and Sow", "Sabotender", "Summon: Fat Chocobo"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -7717,6 +7805,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Disintegrate", "Erebor Flamesmith", "Fireball", "Firebrand Archer"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -7746,6 +7835,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Feed the Clan"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -7775,6 +7865,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoG Tron", slug: "monog_tron", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -7803,6 +7894,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -7902,6 +7994,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 10, wins: 4, losses: 4, draws: 2, winRate: "40.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -8265,6 +8358,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-03-02",
@@ -8292,6 +8386,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8370,6 +8465,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Faeries", slug: "monou_faeries", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8415,6 +8511,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Backup Agent", "Brightspear Zealot", "Cliffhaven Kitesail", "Cosmium Blast", "Deadly Riposte", "Detained by Legionnaires", "Dockworker Drone", "Enduring Bondwarden", "Eriette's Lullaby", "Family Reunion", "Feat of Resistance", "Flare of Faith", "Flight-Deck Coordinator", "Hardened Escort", "Hedgewitch's Mask", "Irontread Crusher", "Knight Luminary", "Kor Celebrant", "Lifecreed Duo", "Lightfoot Technique", "Marketwatch Phantom", "Poised Practitioner", "Renegade Freighter", "Shield Mate", "Standing Troops", "Summary Judgment", "Thousand Moons Infantry", "Traveling Minister", "Unruly Mob", "You Hear Something on Watch", "You're Ambushed on the Road"],
     rival: null,
+    worstMatchup: { name: "Brew", slug: "brew", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8444,6 +8541,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -8521,6 +8619,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bellowing Crier"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -8549,6 +8648,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -8576,6 +8676,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Akoum Battlesinger", "Akoum Flameseeker", "Battlefield Medic", "Blightning", "Bojuka Brigand", "Curtain of Light", "Demon's Disciple", "Goblin Freerunner", "Heal", "Highland Berserker", "Kalastria Healer", "Leonin Elder", "Marauding Blight-Priest", "Masterful Flourish", "Misery Charm", "Ondu Champion", "Profane Prayers", "Rapier Wit", "Scouring Sands", "Soul Warden", "Soul's Attendant", "Surge of Zeal", "Vile Deacon"],
     rival: { name: "Tim Swillens", slug: "tim_swillens", gamesPlayed: 3, wins: 1, losses: 1, draws: 1, winRate: "33.33%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -8672,6 +8773,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Fire of Orthanc"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -8832,6 +8934,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Disciple of the Sun", "Holy Cow", "Open the Gates"],
     rival: { name: "Floris Heins", slug: "floris_heins", gamesPlayed: 3, wins: 2, losses: 0, draws: 1, winRate: "66.67%" },
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 5, wins: 1, losses: 4, draws: 0, winRate: "20.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -9006,6 +9109,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -9049,6 +9153,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Brew", slug: "brew", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-04-11",
@@ -9096,6 +9201,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 6, wins: 0, losses: 6, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -9236,6 +9342,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -9264,6 +9371,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -9294,6 +9402,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Savage Land Dinosaur", "Stitched Drake"],
     rival: { name: "Rob Vermaas", slug: "rob_vermaas", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
+    worstMatchup: { name: "Dimir Faeries", slug: "dimir_faeries", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -9370,6 +9479,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9399,6 +9509,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Dream Fracture", "Jace's Erasure"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -9427,6 +9538,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-11-02",
@@ -9455,6 +9567,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9499,6 +9612,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Esper Affinity", slug: "esper_affinity", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -9528,6 +9642,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Kasper Zijl", slug: "kasper_zijl", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
+    worstMatchup: { name: "MonoU Faeries", slug: "monou_faeries", matchesPlayed: 3, wins: 0, losses: 2, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-08-02",
@@ -9635,6 +9750,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Serpentine Curve"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -9663,6 +9779,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -9691,6 +9808,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9720,6 +9838,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Terrarion"],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-08-03",
@@ -9748,6 +9867,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -9774,6 +9894,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9803,6 +9924,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9832,6 +9954,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Dimir Terror", slug: "dimir_terror", matchesPlayed: 1, wins: 0, losses: 1, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9861,6 +9984,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -9896,6 +10020,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Wither and Bloom"],
     rival: { name: "Bram Deppenbroek", slug: "bram_deppenbroek", gamesPlayed: 7, wins: 3, losses: 4, draws: 0, winRate: "42.86%" },
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 6, wins: 1, losses: 5, draws: 0, winRate: "16.67%" },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -10177,6 +10302,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10206,6 +10332,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Dimir Faeries", slug: "dimir_faeries", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-04-11",
@@ -10235,6 +10362,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10266,6 +10394,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Ancestral Anger", "Assault Strobe", "Crackling Cyclops", "Crash Through", "Festival Crasher", "Ghitu Amplifier", "Raze the Effigy", "Underworld Rage-Hound"],
     rival: { name: "Noah Westerweel", slug: "noah_westerweel", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -10341,6 +10470,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Elves", slug: "elves", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-09-06",
@@ -10417,6 +10547,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -10527,6 +10658,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Jeskai Ephemerate", slug: "jeskai_ephemerate", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-04-13",
@@ -10555,6 +10687,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10584,6 +10717,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["_____ Goblin", "Kick in the Door", "Rite of Flame", "Simian Spirit Guide", "Trailblazer's Torch"],
     rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -10630,6 +10764,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 4, wins: 1, losses: 3, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2025-04-12",
@@ -10769,6 +10904,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Gruul Ramp", slug: "gruul_ramp", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -10801,6 +10937,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bloodrite Invoker", "Izzet Charm", "Repopulate", "Thriving Bluff", "Vine Trellis"],
     rival: { name: "Iain Ligthart", slug: "iain_ligthart", gamesPlayed: 3, wins: 2, losses: 1, draws: 0, winRate: "66.67%" },
+    worstMatchup: { name: "MonoR Rally", slug: "monor_rally", matchesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -10912,6 +11049,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Birthday Escape", "Claim the Precious", "Deceive the Messenger", "Dreadful as the Storm", "Dunland Crebain", "Easterling Vanguard", "Pelargir Survivor", "Sam's Desperate Rescue", "Soothing of Sméagol", "The Black Breath", "Uruk-hai Berserker"],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-06-14",
@@ -10941,6 +11079,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bladeback Sliver", "Crypt Sliver", "Gemhide Sliver", "Heart Sliver", "Horned Sliver", "Hunter Sliver", "Striking Sliver", "Winged Sliver"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -11082,6 +11221,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -11111,6 +11251,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -11137,6 +11278,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -11165,6 +11307,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Eaten Alive", "Perilous Myr", "Qarsi Sadist", "Serrated Scorpion"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -11192,6 +11335,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Mind Sculpt", "Vicious Rumors"],
     rival: null,
+    worstMatchup: { name: "Affinity", slug: "affinity", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -11308,6 +11452,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Circle of Protection: Black", "Ethereal Haze", "Slitherhead"],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 11, wins: 1, losses: 8, draws: 2, winRate: "9.09%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -11681,6 +11826,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Elves", slug: "elves", matchesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -11740,6 +11886,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -11767,6 +11914,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -11795,6 +11943,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-10-04",
@@ -11823,6 +11972,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -11852,6 +12002,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Pharika's Libation"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -11911,6 +12062,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Abundant Harvest", "Broken Wings", "Slavering Branchsnapper"],
     rival: null,
+    worstMatchup: { name: "Brew", slug: "brew", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-12-07",
@@ -11938,6 +12090,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Hinterland Sanctifier"],
     rival: null,
+    worstMatchup: { name: "Affinity", slug: "affinity", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -11967,6 +12120,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoR Kuldotha", slug: "monor_kuldotha", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-05-31",
@@ -12009,6 +12163,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -12104,6 +12259,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Max Mercx", slug: "max_mercx", gamesPlayed: 2, wins: 0, losses: 1, draws: 1, winRate: "0.00%" },
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 4, wins: 0, losses: 3, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -12178,6 +12334,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12207,6 +12364,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Quick Sliver"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-07-06",
@@ -12235,6 +12393,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12264,6 +12423,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Teach by Example"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -12293,6 +12453,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -12324,6 +12485,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -12477,6 +12639,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 7, wins: 3, losses: 4, draws: 0, winRate: "42.86%" },
     results: [
       {
         eventSlug: "2025-05-03",
@@ -12648,6 +12811,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Befoul", "Dusk Legion Zealot", "Icequake", "Read the Bones"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -12676,6 +12840,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -12704,6 +12869,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-08-03",
@@ -12735,6 +12901,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Aqueous Form", "Aspirant's Ascent", "Bone Saw", "Cartouche of Knowledge", "Chained Throatseeker", "Corpse Cur", "Distortion Strike", "Echoing Return", "Eel Umbra", "Enter the Enigma", "Fate Transfer", "Foundry Inspector", "Fuel for the Cause", "Imprisoned in the Moon", "Magmakin Artillerist", "Mesmerizing Dose", "Mocking Sprite", "Moonsnare Prototype", "Neurok Stealthsuit", "Ophidian Eye", "Petrifying Meddler", "Phyrexian Digester", "Planar Incision", "Resculpt", "Slip Through Space", "The Surgical Bay", "Thrummingbird", "Traveler's Cloak", "Wings of Velis Vel"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -12830,6 +12997,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-12-13",
@@ -12874,6 +13042,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -12902,6 +13071,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Commune with Beavers", "Relic's Roar", "Shadow Rift"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -12930,6 +13100,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -12994,6 +13165,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -13056,6 +13228,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -13101,6 +13274,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -13180,6 +13354,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Dizzy Spell", "Snapback", "Thoughtpicker Witch", "Urborg Repossession"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -13272,6 +13447,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -13314,6 +13490,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Arctic Treeline", "Bonebind Orator", "Burning Curiosity", "Castigate", "Death Speakers", "Early Frost", "How to Start a Riot", "Indoctrination Attendant", "Jedit Ojanen", "Preemptive Strike", "Pyrite Spellbomb", "Rift Sower", "Smoldering Crater", "Tin Street Hooligan", "Whitemane Lion"],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 11, wins: 5, losses: 6, draws: 0, winRate: "45.45%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -13714,6 +13891,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Barrels of Blasting Jelly", "Filigree Familiar"],
     rival: null,
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 7, wins: 0, losses: 6, draws: 1, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -13873,6 +14051,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Sigil of Sleep"],
     rival: { name: "Gino De Guzman", slug: "gino_de_guzman", gamesPlayed: 2, wins: 0, losses: 1, draws: 1, winRate: "0.00%" },
+    worstMatchup: { name: "Affinity", slug: "affinity", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-07-06",
@@ -13917,6 +14096,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -13946,6 +14126,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-06-14",
@@ -13974,6 +14155,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14004,6 +14186,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -14060,6 +14243,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Final Flourish", "Grapple with Death", "Sarulf's Packmate"],
     rival: null,
+    worstMatchup: { name: "Affinity", slug: "affinity", matchesPlayed: 9, wins: 3, losses: 5, draws: 1, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -14350,6 +14534,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bone Shards"],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14377,6 +14562,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14407,6 +14593,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Toon de Vet", slug: "toon_de_vet", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14466,6 +14653,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-12-07",
@@ -14492,6 +14680,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-11-01",
@@ -14536,6 +14725,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -14567,6 +14757,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Anchovy & Banana Pizza"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -14650,6 +14841,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Mardu Devotee"],
     rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 6, wins: 5, losses: 1, draws: 0, winRate: "83.33%" },
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 8, wins: 4, losses: 4, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -14953,6 +15145,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["\"Name Sticker\" Goblin"],
     rival: null,
+    worstMatchup: { name: "Azorius Gates", slug: "azorius_gates", matchesPlayed: 5, wins: 1, losses: 3, draws: 1, winRate: "20.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -15238,6 +15431,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Vineshaper Prodigy"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -15345,6 +15539,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -15412,6 +15607,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Phantom Interference"],
     rival: null,
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 6, wins: 0, losses: 6, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -15698,6 +15894,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Dig Site Inventory"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -15727,6 +15924,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -15756,6 +15954,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -15785,6 +15984,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -15815,6 +16015,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Aspect of Hydra", "Garruk's Companion", "Groundswell", "Marsh Boa", "Prey's Vengeance", "River Boa", "Skarrgan Pit-Skulk", "Skophos Reaver"],
     rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -15876,6 +16077,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-05-04",
@@ -15904,6 +16106,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -15933,6 +16136,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Metallic Sliver", "Universal Automaton"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -15959,6 +16163,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -15988,6 +16193,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-05-31",
@@ -16032,6 +16238,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -16062,6 +16269,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -16123,6 +16331,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Reckless Fireweaver"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -16151,6 +16360,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Jund Wildfire", slug: "jund_wildfire", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2025-09-06",
@@ -16197,6 +16407,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 4, wins: 3, losses: 1, draws: 0, winRate: "75.00%" },
+    worstMatchup: { name: "MonoU Faeries", slug: "monou_faeries", matchesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -16385,6 +16596,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-06-06",
@@ -16429,6 +16641,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2025-11-01",
@@ -16473,6 +16686,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Roberto van den Elzen", slug: "roberto_van_den_elzen", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
+    worstMatchup: { name: "Boros Tribe", slug: "boros_tribe", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -16524,6 +16738,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Affinity", slug: "affinity", matchesPlayed: 7, wins: 2, losses: 5, draws: 0, winRate: "28.57%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -16747,6 +16962,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -16784,6 +17000,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Eef vV", slug: "eef_vv", gamesPlayed: 4, wins: 2, losses: 2, draws: 0, winRate: "50.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -17018,6 +17235,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -17046,6 +17264,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Akki Ember-Keeper", "Akroan Crusader", "Deadeye Duelist", "Dragon Mantle", "Echoing Ruin", "Explosive Entry", "Kami's Flare", "Karametra's Blessing", "Lucky Offering", "Quick Draw", "Rodeo Pyromancers", "Tenth District Legionnaire", "The Shattered States Era", "Voltage Surge", "Witch's Mark"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-05-31",
@@ -17075,6 +17294,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Run Afoul"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -17120,6 +17340,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Spy Walls", slug: "spy_walls", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -17151,6 +17372,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["The Autonomous Furnace"],
     rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 7, wins: 5, losses: 2, draws: 0, winRate: "71.43%" },
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 10, wins: 5, losses: 5, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -17434,6 +17656,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Faeries", slug: "monou_faeries", matchesPlayed: 5, wins: 1, losses: 4, draws: 0, winRate: "20.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -17580,6 +17803,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Go Forth", "Seal of Strength"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -17743,6 +17967,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Tim Bunnik", slug: "tim_bunnik", gamesPlayed: 6, wins: 1, losses: 4, draws: 1, winRate: "16.67%" },
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 10, wins: 5, losses: 5, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -17976,6 +18201,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -18010,6 +18236,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -18119,6 +18346,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Goblin Sledder", "Mogg War Marshal", "Voracious Vermin"],
     rival: { name: "Noah Westerweel", slug: "noah_westerweel", gamesPlayed: 4, wins: 2, losses: 1, draws: 1, winRate: "50.00%" },
+    worstMatchup: { name: "Affinity", slug: "affinity", matchesPlayed: 7, wins: 3, losses: 4, draws: 0, winRate: "42.86%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -18341,6 +18569,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -18369,6 +18598,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -18398,6 +18628,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Evil Presence", "Mire Boa", "Tainted Well"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -18426,6 +18657,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -18473,6 +18705,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -18558,6 +18791,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Nicolas Komanski", slug: "nicolas_komanski", gamesPlayed: 5, wins: 1, losses: 4, draws: 0, winRate: "20.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -18807,6 +19041,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-04-13",
@@ -18836,6 +19071,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Foul-Tongue Shriek"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-08-02",
@@ -18884,6 +19120,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bitter Reunion", "Brokers Hideout", "Kabira Crossroads"],
     rival: null,
+    worstMatchup: { name: "Familiars", slug: "familiars", matchesPlayed: 6, wins: 2, losses: 4, draws: 0, winRate: "33.33%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -19076,6 +19313,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-07-06",
@@ -19120,6 +19358,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Lys Alana Huntmaster"],
     rival: null,
+    worstMatchup: { name: "Naya Gates", slug: "naya_gates", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -19148,6 +19387,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Moggwarts", slug: "moggwarts", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2024-05-31",
@@ -19180,6 +19420,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Elves", slug: "elves", matchesPlayed: 4, wins: 1, losses: 3, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -19338,6 +19579,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 5, wins: 2, losses: 3, draws: 0, winRate: "40.00%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -19450,6 +19692,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -19528,6 +19771,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Warped Tusker"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -19609,6 +19853,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Embrace the Paradox"],
     rival: null,
+    worstMatchup: { name: "Rakdos Burn", slug: "rakdos_burn", matchesPlayed: 4, wins: 1, losses: 3, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -19716,6 +19961,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Compulsive Research"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-04-12",
@@ -19745,6 +19991,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Carnivorous Canopy", "Ghitu Lavarunner", "Needle Drop", "Nightscape Familiar", "Shard Volley"],
     rival: { name: "Nigel Stikker", slug: "nigel_stikker", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    worstMatchup: { name: "Elves", slug: "elves", matchesPlayed: 4, wins: 1, losses: 3, draws: 0, winRate: "25.00%" },
     results: [
       {
         eventSlug: "2025-09-06",
@@ -19805,6 +20052,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -19836,6 +20084,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Vincent Zwinkels", slug: "vincent_zwinkels", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-05-02",
@@ -19930,6 +20179,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Clockwork Fox", "Crossover Collaboration", "Golden Egg", "Tolarian Winds", "Voracious Varmint"],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -20008,6 +20258,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-10-04",
@@ -20066,6 +20317,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -20113,6 +20365,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Deeproot Warrior", "Giltgrove Stalker", "Jade Bearer", "Lush Oasis", "Merfolk Secretkeeper", "Mist-Cloaked Herald", "River Heralds' Boon", "Slither Blade", "Triton Shorestalker"],
     rival: { name: "Tijmen van der Kamp", slug: "tijmen_van_der_kamp", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -20207,6 +20460,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Jan Rijnbeek", slug: "jan_rijnbeek", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -20317,6 +20571,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Affinity", slug: "affinity", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -20354,6 +20609,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Blow Your House Down", "Earth Rift", "Fierce Empath", "Junkblade Bruiser", "Keep Watch", "Penumbra Spider", "Reverent Silence", "Run Away Together", "Temporal Spring", "Thunderhead Gunner", "Tranquility", "Vitalize"],
     rival: { name: "Rob Lamers", slug: "rob_lamers", gamesPlayed: 7, wins: 2, losses: 5, draws: 0, winRate: "28.57%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -20752,6 +21008,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Bleeding Woods", "Echoing Courage", "Favor of the Overbeing", "Feldon's Cane", "Forked Bolt", "Might of the Masses", "Mob Justice", "Selesnya Sanctuary", "Spawning Breath"],
     rival: null,
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-05-02",
@@ -20819,6 +21076,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Unfathomable Truths"],
     rival: { name: "Robbert", slug: "robbert", gamesPlayed: 6, wins: 4, losses: 1, draws: 1, winRate: "66.67%" },
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 9, wins: 2, losses: 7, draws: 0, winRate: "22.22%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -21155,6 +21413,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Deceptive Landscape", "Honorable Scout", "Implement of Ferocity", "Page, Loose Leaf"],
     rival: { name: "Francesco Simonetto", slug: "francesco_simonetto", gamesPlayed: 6, wins: 4, losses: 2, draws: 0, winRate: "66.67%" },
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 6, wins: 1, losses: 5, draws: 0, winRate: "16.67%" },
     results: [
       {
         eventSlug: "2026-08-08",
@@ -21371,6 +21630,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Beckon Apparition", "Blood Pet", "Botanical Plaza", "Break the Spell", "Canyon Crawler", "Chatter of the Squirrel", "Cloakwood Swarmkeeper", "Compassionate Healer", "Entourage of Trest", "Fortify", "Last Gasp", "Merrow Skyswimmer", "Raise the Alarm", "Saproling Migration", "Scatter the Seeds", "Selesnya Evangel", "Siege Wurm", "Sprout Swarm", "Sprouting Renewal", "Sun-Dappled Celebrant", "Sundering Growth", "Worthy Cost"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -21450,6 +21710,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Robbert", slug: "robbert", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-09-07",
@@ -21537,6 +21798,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -21574,6 +21836,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Disenchant", "Divine Offering", "Mage Tower Referee", "Voidpouncer"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -21820,6 +22083,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Etherium Spinner", "Natural State", "Steelfin Whale", "Tooth of Chiss-Goria"],
     rival: { name: "Max Roovers", slug: "max_roovers", gamesPlayed: 6, wins: 0, losses: 6, draws: 0, winRate: "0.00%" },
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 8, wins: 4, losses: 4, draws: 0, winRate: "50.00%" },
     results: [
       {
         eventSlug: "2026-07-04",
@@ -22105,6 +22369,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -22136,6 +22401,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Dimension X"],
     rival: { name: "Ben van Wijk", slug: "ben_van_wijk", gamesPlayed: 6, wins: 0, losses: 2, draws: 4, winRate: "0.00%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -22516,6 +22782,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Ringing Strike Mastery", "Saiba Cryptomancer"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-04-11",
@@ -22545,6 +22812,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-07-04",
@@ -22589,6 +22857,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-11-01",
@@ -22617,6 +22886,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Devoted Duelist", "Discerning Peddler", "Fire-Rim Form", "Forgotten Cave", "Jackal Familiar", "Prickly Pair", "Raging Goblin", "Shock Brigade", "Yuyan Archers"],
     rival: null,
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -22648,6 +22918,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Nomadic Elf", "Sylvan Ranger"],
     rival: null,
+    worstMatchup: { name: "Azorius Gates", slug: "azorius_gates", matchesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -22790,6 +23061,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Tim Laros", slug: "tim_laros", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-08-08",
@@ -22915,6 +23187,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Emerald Charm"],
     rival: { name: "Floris Heins", slug: "floris_heins", gamesPlayed: 2, wins: 1, losses: 1, draws: 0, winRate: "50.00%" },
+    worstMatchup: { name: "MonoR Madness", slug: "monor_madness", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -22979,6 +23252,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Vivien's Grizzly"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -23212,6 +23486,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-09-06",
@@ -23240,6 +23515,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -23272,6 +23548,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Raven de Bruin", slug: "raven_de_bruin", gamesPlayed: 3, wins: 0, losses: 3, draws: 0, winRate: "0.00%" },
+    worstMatchup: { name: "MonoU Faeries", slug: "monou_faeries", matchesPlayed: 7, wins: 2, losses: 5, draws: 0, winRate: "28.57%" },
     results: [
       {
         eventSlug: "2026-06-06",
@@ -23433,6 +23710,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: { name: "Gianvito Taneburgo", slug: "gianvito_taneburgo", gamesPlayed: 3, wins: 1, losses: 2, draws: 0, winRate: "33.33%" },
+    worstMatchup: { name: "MonoU Terror", slug: "monou_terror", matchesPlayed: 4, wins: 0, losses: 4, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-04-11",
@@ -23543,6 +23821,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-07-05",
@@ -23573,6 +23852,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2025-12-13",
@@ -23667,6 +23947,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: { name: "Gruul Ponza", slug: "gruul_ponza", matchesPlayed: 7, wins: 1, losses: 5, draws: 1, winRate: "14.29%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -23855,6 +24136,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Memory Lapse"],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2026-01-17",
@@ -23884,6 +24166,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: ["Ebony Charm", "Nightblade Brigade"],
     rival: null,
+    worstMatchup: { name: "Brew", slug: "brew", matchesPlayed: 2, wins: 0, losses: 2, draws: 0, winRate: "0.00%" },
     results: [
       {
         eventSlug: "2026-01-17",
@@ -23945,6 +24228,7 @@ export const PLAYER_DETAILS: Record<string, PlayerDetail> = {
     ],
     petCards: [],
     rival: null,
+    worstMatchup: null,
     results: [
       {
         eventSlug: "2024-05-04",

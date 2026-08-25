@@ -175,6 +175,16 @@ export interface PlayerRival {
   winRate: string; // e.g. "62.50%"
 }
 
+export interface PlayerWorstMatchup {
+  name: string;
+  slug: string;
+  matchesPlayed: number;
+  wins: number;
+  losses: number;
+  draws: number;
+  winRate: string; // e.g. "25.00%"
+}
+
 export interface PlayerDetail {
   slug: string;
   name: string;
@@ -183,6 +193,8 @@ export interface PlayerDetail {
   /** Cards this player has played that no other player has ever played. */
   petCards: string[];
   rival: PlayerRival | null;
+  /** Archetype this player has lost the most matches to, if one is a strict maximum. */
+  worstMatchup: PlayerWorstMatchup | null;
   results: PlayerEventResult[];
 }
 
