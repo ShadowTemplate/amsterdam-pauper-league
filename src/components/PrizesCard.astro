@@ -6,6 +6,7 @@ const MAX_PLAYERS = 74;
 const ENTRY_PER_PLAYER = 13;
 const LOCATION_PER_PLAYER = 2.5;
 const STRIPE_FEE_PER_PLAYER = 0.677;
+const TOPDECK_FEE_RATE = 0.05;
 const JUDGE = 100;
 const KNOCKOUT_PRIZE = 60;
 
@@ -13,12 +14,14 @@ function compute(n: number) {
   const entry = n * ENTRY_PER_PLAYER;
   const location = n * LOCATION_PER_PLAYER;
   const stripeFee = n * STRIPE_FEE_PER_PLAYER;
+  const topdeckFee = entry * TOPDECK_FEE_RATE;
   const taxes = (location + JUDGE) * 0.055;
-  const prizePool = entry - location - stripeFee - taxes - JUDGE - KNOCKOUT_PRIZE;
+  const prizePool = entry - location - stripeFee - topdeckFee - taxes - JUDGE - KNOCKOUT_PRIZE;
   return {
     entry,
     location,
     stripeFee,
+    topdeckFee,
     taxes,
     prizePool,
     top1:   prizePool * 0.230,
@@ -82,6 +85,10 @@ const d = compute(DEFAULT_PLAYERS);
       <span id="pz-stripe">- {fmt(d.stripeFee)}</span>
     </div>
     <div class="flex justify-between">
+      <span class="text-muted-foreground">TopDeck fees</span>
+      <span id="pz-topdeck">- {fmt(d.topdeckFee)}</span>
+    </div>
+    <div class="flex justify-between">
       <span class="text-muted-foreground">Taxes</span>
       <span id="pz-taxes">- {fmt(d.taxes)}</span>
     </div>
@@ -135,6 +142,7 @@ const d = compute(DEFAULT_PLAYERS);
   const ENTRY_PER_PLAYER = 13;
   const LOCATION_PER_PLAYER = 2.5;
   const STRIPE_FEE_PER_PLAYER = 0.677;
+  const TOPDECK_FEE_RATE = 0.05;
   const JUDGE = 100;
   const KNOCKOUT_PRIZE = 60;
 
@@ -146,12 +154,14 @@ const d = compute(DEFAULT_PLAYERS);
     const entry = n * ENTRY_PER_PLAYER;
     const location = n * LOCATION_PER_PLAYER;
     const stripeFee = n * STRIPE_FEE_PER_PLAYER;
+    const topdeckFee = entry * TOPDECK_FEE_RATE;
     const taxes = (location + JUDGE) * 0.055;
-    const prizePool = entry - location - stripeFee - taxes - JUDGE - KNOCKOUT_PRIZE;
+    const prizePool = entry - location - stripeFee - topdeckFee - taxes - JUDGE - KNOCKOUT_PRIZE;
     return {
       entry,
       location,
       stripeFee,
+      topdeckFee,
       taxes,
       prizePool,
       top1:   prizePool * 0.230,
@@ -168,6 +178,7 @@ const d = compute(DEFAULT_PLAYERS);
     document.getElementById("pz-entry")!.textContent = fmt(d.entry);
     document.getElementById("pz-location")!.textContent = `- ${fmt(d.location)}`;
     document.getElementById("pz-stripe")!.textContent = `- ${fmt(d.stripeFee)}`;
+    document.getElementById("pz-topdeck")!.textContent = `- ${fmt(d.topdeckFee)}`;
     document.getElementById("pz-taxes")!.textContent = `- ${fmt(d.taxes)}`;
     document.getElementById("pz-pool")!.textContent = fmt(d.prizePool);
     document.getElementById("pz-top1")!.textContent = fmt(d.top1);
