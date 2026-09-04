@@ -5,7 +5,7 @@ from pauperformance_bot.util.path import posix_path
 
 PLAYERS_DIR = posix_path("..", "..", "..", "data", "topdeck", "players")
 LEG_FILE_PATTERN = re.compile(r"(\d+)° Leg – (\d{4})_")
-UPCOMING_LEG_NUMBER = 5
+UPCOMING_LEG_NUMBER = 6
 UPCOMING_LEG_YEAR = 2026
 EMAIL_TO_BATCH = 75  # send emails in chunks to avoid spam/soft-ban
 
@@ -19,6 +19,8 @@ BCC_WHITELIST = [
     "mart.w.ordelmans@gmail.com",
     "marcos.asgarcia@gmail.com",
     "ramsey.zdiri@gmail.com",
+    "marcos.asgarcia@gmail.com",
+    "josevva2002@gmail.com",
 ]
 
 def print_in_batches(emails):
