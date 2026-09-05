@@ -881,6 +881,12 @@
     "released_at": "2002-02-04",
     "set": "tor"
   },
+  "Call Damage Control": {
+    "front": "/scryfall/de1ed886-c33b-4cfd-8442-944cec654a8b.jpg",
+    "id": "de1ed886-c33b-4cfd-8442-944cec654a8b",
+    "released_at": "2026-06-26",
+    "set": "msh"
+  },
   "Campfire": {
     "front": "/scryfall/ba581225-0966-4ff0-be04-1ad11f37937f.jpg",
     "id": "ba581225-0966-4ff0-be04-1ad11f37937f",
@@ -1348,6 +1354,12 @@
     "id": "1d632bef-ee93-4690-9c6d-07f70d18572a",
     "released_at": "2026-06-26",
     "set": "msc"
+  },
+  "Cry of Contrition": {
+    "front": "/scryfall/62016f24-3f40-406b-8e29-30a6545d0fc1.jpg",
+    "id": "62016f24-3f40-406b-8e29-30a6545d0fc1",
+    "released_at": "2006-02-03",
+    "set": "gpt"
   },
   "Cryogen Relic": {
     "front": "/scryfall/7bfb33b6-e2bf-498f-8c58-ae21a840cf75.jpg",
@@ -1915,6 +1927,12 @@
     "released_at": "2004-02-06",
     "set": "dst"
   },
+  "Edge of the Divinity": {
+    "front": "/scryfall/ffd079d8-b191-4f54-bb04-427b3736f745.jpg",
+    "id": "ffd079d8-b191-4f54-bb04-427b3736f745",
+    "released_at": "2008-07-25",
+    "set": "eve"
+  },
   "Eel Umbra": {
     "front": "/scryfall/ca550605-a0fc-4392-b8b6-a4f06868d9f2.jpg",
     "id": "ca550605-a0fc-4392-b8b6-a4f06868d9f2",
@@ -2082,6 +2100,12 @@
     "id": "93ddde4f-d35e-4128-8f43-d0eadbd715de",
     "released_at": "2024-02-09",
     "set": "mkm"
+  },
+  "Esper Stormblade": {
+    "front": "/scryfall/e60ac6f0-fdec-4e2c-86c6-02d36c7bbaf5.jpg",
+    "id": "e60ac6f0-fdec-4e2c-86c6-02d36c7bbaf5",
+    "released_at": "2009-04-30",
+    "set": "arb"
   },
   "Essence Harvest": {
     "front": "/scryfall/7c3fac03-a019-4faa-bc1c-09e3a394fff7.jpg",
@@ -2407,6 +2431,12 @@
     "released_at": "2021-04-23",
     "set": "stx"
   },
+  "Fists of the Demigod": {
+    "front": "/scryfall/9b28e501-fbb1-443b-a296-420716e49ab0.jpg",
+    "id": "9b28e501-fbb1-443b-a296-420716e49ab0",
+    "released_at": "2008-05-02",
+    "set": "shm"
+  },
   "Flare of Faith": {
     "front": "/scryfall/1b4354c6-ea21-46c0-93c4-744dbacbfcf4.jpg",
     "id": "1b4354c6-ea21-46c0-93c4-744dbacbfcf4",
@@ -2605,6 +2635,12 @@
     "released_at": "2024-06-14",
     "set": "mh3"
   },
+  "Gandalf, Wandering Wizard": {
+    "front": "/scryfall/1f8403a2-849c-4a59-b0ed-c8803995028d.jpg",
+    "id": "1f8403a2-849c-4a59-b0ed-c8803995028d",
+    "released_at": "2026-08-14",
+    "set": "hob"
+  },
   "Garruk's Companion": {
     "front": "/scryfall/863c9a10-d83f-415b-adf2-2d0f870410b2.jpg",
     "id": "863c9a10-d83f-415b-adf2-2d0f870410b2",
@@ -2694,6 +2730,18 @@
     "id": "ce254758-c928-4b43-a952-13fac1845668",
     "released_at": "2026-08-14",
     "set": "hob"
+  },
+  "Gift of Orzhova": {
+    "front": "/scryfall/3d759ef8-cb04-4769-9944-85793af3f6e8.jpg",
+    "id": "3d759ef8-cb04-4769-9944-85793af3f6e8",
+    "released_at": "2013-02-01",
+    "set": "gtc"
+  },
+  "Gift of the Deity": {
+    "front": "/scryfall/ee2dba5c-2f00-4a44-9093-3b845a8bf552.jpg",
+    "id": "ee2dba5c-2f00-4a44-9093-3b845a8bf552",
+    "released_at": "2008-07-25",
+    "set": "eve"
   },
   "Gift of the Viper": {
     "front": "/scryfall/17fa0b62-d474-4dc7-9631-9d0a9d99e5e2.jpg",
@@ -2983,6 +3031,12 @@
     "released_at": "2017-07-14",
     "set": "hou"
   },
+  "Grixis Grimblade": {
+    "front": "/scryfall/9dbcb812-15ad-4878-9968-cfa65a352703.jpg",
+    "id": "9dbcb812-15ad-4878-9968-cfa65a352703",
+    "released_at": "2009-04-30",
+    "set": "arb"
+  },
   "Grizzled Leotau": {
     "front": "/scryfall/2b388381-9e13-4ce7-b5b3-56a74cc23d93.jpg",
     "id": "2b388381-9e13-4ce7-b5b3-56a74cc23d93",
@@ -3151,6 +3205,12 @@
     "released_at": "2021-09-24",
     "set": "mid"
   },
+  "Helm of the Ghastlord": {
+    "front": "/scryfall/653dd5b7-1ad3-4df1-bd2a-4e6ae362a8a2.jpg",
+    "id": "653dd5b7-1ad3-4df1-bd2a-4e6ae362a8a2",
+    "released_at": "2008-05-02",
+    "set": "shm"
+  },
   "Helpful Hunter": {
     "front": "/scryfall/1b9a0e91-80b5-428f-8f08-931d0631be14.jpg",
     "id": "1b9a0e91-80b5-428f-8f08-931d0631be14",
@@ -3216,6 +3276,12 @@
     "id": "632df69e-6377-43d0-bba5-65518a320aa5",
     "released_at": "2024-11-15",
     "set": "fdn"
+  },
+  "Hissing Iguanar": {
+    "front": "/scryfall/4b8b8b90-cb6e-4910-bc40-d96b78b0d70c.jpg",
+    "id": "4b8b8b90-cb6e-4910-bc40-d96b78b0d70c",
+    "released_at": "2008-10-03",
+    "set": "ala"
   },
   "Holdout Settlement": {
     "front": "/scryfall/cf08c317-6f2d-47e3-ab5b-8af73fd3e404.jpg",
@@ -3564,6 +3630,12 @@
     "id": "0fc51899-3970-416b-b7de-fadbc9678955",
     "released_at": "2012-10-05",
     "set": "rtr"
+  },
+  "Jund Hackblade": {
+    "front": "/scryfall/61e3b73a-598b-4854-b811-2fd40fbce2d0.jpg",
+    "id": "61e3b73a-598b-4854-b811-2fd40fbce2d0",
+    "released_at": "2009-04-30",
+    "set": "arb"
   },
   "Junkblade Bruiser": {
     "front": "/scryfall/918fd89b-5ab7-4ae2-920c-faca5e9da7b9.jpg",
@@ -5068,6 +5140,12 @@
     "released_at": "2015-03-27",
     "set": "dtk"
   },
+  "Qasali Pridemage": {
+    "front": "/scryfall/75256550-bbe0-499d-909e-af10691749c2.jpg",
+    "id": "75256550-bbe0-499d-909e-af10691749c2",
+    "released_at": "2009-04-30",
+    "set": "arb"
+  },
   "Quandrix Campus": {
     "front": "/scryfall/f788da28-481b-41fa-a70c-b53db6b0f068.jpg",
     "id": "f788da28-481b-41fa-a70c-b53db6b0f068",
@@ -5109,6 +5187,12 @@
     "id": "4e64ff87-2099-4360-94f6-164277b7b514",
     "released_at": "2022-04-29",
     "set": "snc"
+  },
+  "Ragged Short Spear": {
+    "front": "/scryfall/7bf81a8b-52ad-49f5-a3d4-22613cad3a3d.jpg",
+    "id": "7bf81a8b-52ad-49f5-a3d4-22613cad3a3d",
+    "released_at": "2026-08-14",
+    "set": "hob"
   },
   "Raging Goblin": {
     "front": "/scryfall/fed57a17-7847-4e60-bc40-4452880f12a3.jpg",
@@ -5536,6 +5620,12 @@
     "released_at": "2023-11-17",
     "set": "lci"
   },
+  "Runes of the Deus": {
+    "front": "/scryfall/0a5a84c7-c27f-49a2-8ae8-cb8e34ce0766.jpg",
+    "id": "0a5a84c7-c27f-49a2-8ae8-cb8e34ce0766",
+    "released_at": "2008-05-02",
+    "set": "shm"
+  },
   "Rust": {
     "front": "/scryfall/ad4974c8-34c5-4290-b325-7586a67f6d56.jpg",
     "id": "ad4974c8-34c5-4290-b325-7586a67f6d56",
@@ -5721,6 +5811,12 @@
     "id": "0824a960-dd89-45c5-90f0-3ec9eb47d9ce",
     "released_at": "2014-09-26",
     "set": "ktk"
+  },
+  "Scourge of the Nobilis": {
+    "front": "/scryfall/6adccc97-3774-4c57-aa78-dcb9fbbe9324.jpg",
+    "id": "6adccc97-3774-4c57-aa78-dcb9fbbe9324",
+    "released_at": "2008-07-25",
+    "set": "eve"
   },
   "Scouring Sands": {
     "front": "/scryfall/273f25fc-9c9f-4b73-a28b-1461d8fcd443.jpg",
@@ -5919,6 +6015,12 @@
     "id": "43db4810-078e-487a-afef-57cbc1db0cc7",
     "released_at": "2008-02-01",
     "set": "mor"
+  },
+  "Shattered Acolyte": {
+    "front": "/scryfall/dc0517ca-b271-49a1-a286-c20f4e5b9309.jpg",
+    "id": "dc0517ca-b271-49a1-a286-c20f4e5b9309",
+    "released_at": "2026-04-24",
+    "set": "sos"
   },
   "Shattered Landscape": {
     "front": "/scryfall/b3da28c7-6e92-439d-a163-91682d4f11dc.jpg",
@@ -6183,6 +6285,12 @@
     "id": "e9940ce4-09d7-4e89-b456-e3126a83cfe1",
     "released_at": "1998-10-12",
     "set": "usg"
+  },
+  "Snakeform": {
+    "front": "/scryfall/7d96d4f2-7f19-4687-927a-5b840254a4f9.jpg",
+    "id": "7d96d4f2-7f19-4687-927a-5b840254a4f9",
+    "released_at": "2008-07-25",
+    "set": "eve"
   },
   "Snakeskin Veil": {
     "front": "/scryfall/e692c208-c171-4964-9207-43c2cbc62845.jpg",
@@ -6471,6 +6579,12 @@
     "id": "bb40de7c-1905-4615-844b-4abc231fb01e",
     "released_at": "2011-02-04",
     "set": "mbs"
+  },
+  "Steel of the Godhead": {
+    "front": "/scryfall/4adf8181-68c7-4f5a-b999-70f985b1f2ac.jpg",
+    "id": "4adf8181-68c7-4f5a-b999-70f985b1f2ac",
+    "released_at": "2008-05-02",
+    "set": "shm"
   },
   "Steelfin Whale": {
     "front": "/scryfall/7e7ca8b6-d7e0-4af2-a578-bf45a8731c19.jpg",
@@ -6777,6 +6891,12 @@
     "id": "190ca502-672d-4cc0-b6e0-b9de517058d0",
     "released_at": "2001-02-05",
     "set": "pls"
+  },
+  "Terramorphic Expanse": {
+    "front": "/scryfall/fd097ea2-0a1c-44a0-824b-d5373df513fb.jpg",
+    "id": "fd097ea2-0a1c-44a0-824b-d5373df513fb",
+    "released_at": "2006-10-06",
+    "set": "tsp"
   },
   "Terrarion": {
     "front": "/scryfall/05c4b07f-c6ed-4a92-aab3-54ee6adfb793.jpg",
@@ -7191,6 +7311,12 @@
     "released_at": "2019-06-14",
     "set": "mh1"
   },
+  "Unmake": {
+    "front": "/scryfall/338f7852-9f69-4406-b6ad-93a2574296f7.jpg",
+    "id": "338f7852-9f69-4406-b6ad-93a2574296f7",
+    "released_at": "2008-07-25",
+    "set": "eve"
+  },
   "Unruly Mob": {
     "front": "/scryfall/491c6e40-151a-4efd-980c-e6b6a1057c58.jpg",
     "id": "491c6e40-151a-4efd-980c-e6b6a1057c58",
@@ -7280,6 +7406,12 @@
     "id": "a9be1058-0668-4938-8801-e9a98464651c",
     "released_at": "2007-02-02",
     "set": "plc"
+  },
+  "Vandalize": {
+    "front": "/scryfall/48b04f7a-4fd6-47d2-b378-99c7fb0c1809.jpg",
+    "id": "48b04f7a-4fd6-47d2-b378-99c7fb0c1809",
+    "released_at": "2015-03-27",
+    "set": "dtk"
   },
   "Vapor Snag": {
     "front": "/scryfall/70305148-23bd-41dd-9de5-13cf5ae591ae.jpg",

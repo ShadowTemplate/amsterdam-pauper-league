@@ -13,7 +13,7 @@ import type {
 import { event as e20261212Event } from "@/lib/data/events/2026-12-12";
 import { event as e20261107Event } from "@/lib/data/events/2026-11-07";
 import { event as e20261003Event } from "@/lib/data/events/2026-10-03";
-import { event as e20260905Event } from "@/lib/data/events/2026-09-05";
+import { event as e20260905Event, eventDetail as e20260905Detail } from "@/lib/data/events/2026-09-05";
 import { event as e20260808Event, eventDetail as e20260808Detail } from "@/lib/data/events/2026-08-08";
 import { event as e20260704Event, eventDetail as e20260704Detail } from "@/lib/data/events/2026-07-04";
 import { event as e20260606Event, eventDetail as e20260606Detail } from "@/lib/data/events/2026-06-06";
@@ -87,6 +87,7 @@ export const EVENTS: Event[] = [
 ];
 
 export const EVENT_DETAILS: Record<string, EventDetail> = {
+  "2026-09-05": e20260905Detail,
   "2026-08-08": e20260808Detail,
   "2026-07-04": e20260704Detail,
   "2026-06-06": e20260606Detail,
