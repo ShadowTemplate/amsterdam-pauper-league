@@ -403,6 +403,9 @@
   "Cabal Ritual": [
     "B"
   ],
+  "Call Damage Control": [
+    "G"
+  ],
   "Campfire": [],
   "Candy Grapple": [
     "B"
@@ -611,6 +614,9 @@
   ],
   "Crossover Collaboration": [
     "R"
+  ],
+  "Cry of Contrition": [
+    "B"
   ],
   "Cryogen Relic": [
     "U"
@@ -878,6 +884,10 @@
   "Echoing Truth": [
     "U"
   ],
+  "Edge of the Divinity": [
+    "W",
+    "B"
+  ],
   "Eel Umbra": [
     "U"
   ],
@@ -955,6 +965,11 @@
   ],
   "Eroded Canyon": [],
   "Escape Tunnel": [],
+  "Esper Stormblade": [
+    "W",
+    "U",
+    "B"
+  ],
   "Essence Harvest": [
     "B"
   ],
@@ -1109,6 +1124,10 @@
   "First Day of Class": [
     "R"
   ],
+  "Fists of the Demigod": [
+    "B",
+    "R"
+  ],
   "Flare of Faith": [
     "W"
   ],
@@ -1197,6 +1216,9 @@
   "Galvanic Discharge": [
     "R"
   ],
+  "Gandalf, Wandering Wizard": [
+    "U"
+  ],
   "Garruk's Companion": [
     "G"
   ],
@@ -1234,6 +1256,14 @@
     "G"
   ],
   "Giant's Boulder": [],
+  "Gift of Orzhova": [
+    "W",
+    "B"
+  ],
+  "Gift of the Deity": [
+    "B",
+    "G"
+  ],
   "Gift of the Viper": [
     "G"
   ],
@@ -1364,6 +1394,11 @@
   "Grisly Survivor": [
     "B"
   ],
+  "Grixis Grimblade": [
+    "U",
+    "B",
+    "R"
+  ],
   "Grizzled Leotau": [
     "W",
     "G"
@@ -1436,6 +1471,10 @@
   "Hedgewitch's Mask": [
     "W"
   ],
+  "Helm of the Ghastlord": [
+    "U",
+    "B"
+  ],
   "Helpful Hunter": [
     "W"
   ],
@@ -1462,6 +1501,9 @@
   ],
   "Hinterland Sanctifier": [
     "W"
+  ],
+  "Hissing Iguanar": [
+    "R"
   ],
   "Holdout Settlement": [],
   "Holy Cow": [
@@ -1612,6 +1654,11 @@
   "Judge's Familiar": [
     "W",
     "U"
+  ],
+  "Jund Hackblade": [
+    "B",
+    "R",
+    "G"
   ],
   "Junkblade Bruiser": [
     "R",
@@ -2287,6 +2334,10 @@
   "Qarsi Sadist": [
     "B"
   ],
+  "Qasali Pridemage": [
+    "W",
+    "G"
+  ],
   "Quandrix Campus": [],
   "Quick Draw": [
     "R"
@@ -2301,6 +2352,9 @@
   "Radiant Grove": [],
   "Raffine's Informant": [
     "W"
+  ],
+  "Ragged Short Spear": [
+    "R"
   ],
   "Raging Goblin": [
     "R"
@@ -2492,6 +2546,10 @@
     "U"
   ],
   "Runaway Boulder": [],
+  "Runes of the Deus": [
+    "R",
+    "G"
+  ],
   "Rust": [
     "G"
   ],
@@ -2573,6 +2631,10 @@
   ],
   "Scour from Existence": [],
   "Scoured Barrens": [],
+  "Scourge of the Nobilis": [
+    "W",
+    "R"
+  ],
   "Scouring Sands": [
     "R"
   ],
@@ -2652,6 +2714,9 @@
   ],
   "Shard Volley": [
     "R"
+  ],
+  "Shattered Acolyte": [
+    "W"
   ],
   "Shattered Landscape": [],
   "Shattering Pulse": [
@@ -2769,6 +2834,10 @@
     "U"
   ],
   "Smoldering Crater": [],
+  "Snakeform": [
+    "U",
+    "G"
+  ],
   "Snakeskin Veil": [
     "G"
   ],
@@ -2896,6 +2965,10 @@
     "U"
   ],
   "Steel Sabotage": [
+    "U"
+  ],
+  "Steel of the Godhead": [
+    "W",
     "U"
   ],
   "Steelfin Whale": [
@@ -3045,6 +3118,7 @@
     "B",
     "R"
   ],
+  "Terramorphic Expanse": [],
   "Terrarion": [],
   "The Autonomous Furnace": [],
   "The Black Breath": [
@@ -3212,6 +3286,10 @@
     "W"
   ],
   "Universal Automaton": [],
+  "Unmake": [
+    "W",
+    "B"
+  ],
   "Unruly Mob": [
     "W"
   ],
@@ -3251,6 +3329,9 @@
   ],
   "Vampiric Link": [
     "B"
+  ],
+  "Vandalize": [
+    "R"
   ],
   "Vapor Snag": [
     "U"
