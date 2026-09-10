@@ -40,23 +40,23 @@ function fmt(n: number) {
 const d = compute(DEFAULT_PLAYERS);
 ---
 
-<div class="rounded-2xl bg-card border border-border/50 p-6 space-y-5">
+<div class="rounded-2xl bg-apl-orange p-6 space-y-5 text-black">
   <!-- Player count input -->
   <div class="flex items-center justify-center gap-3">
-    <label for="prizes-player-count" class="text-lg font-medium text-muted-foreground">Players:</label>
+    <label for="prizes-player-count" class="text-lg font-medium text-black/70">Players:</label>
     <div class="flex items-center gap-1">
       <button
         id="prizes-decrement"
-        class="h-[34px] w-[34px] flex items-center justify-center rounded-md border border-border bg-muted text-muted-foreground hover:bg-card hover:text-foreground transition-colors text-base leading-none"
+        class="h-[34px] w-[34px] flex items-center justify-center rounded-md bg-white text-black hover:bg-black hover:text-white transition-colors text-base leading-none"
         aria-label="Decrease player count"
       >−</button>
       <span
         id="prizes-player-count"
-        class="h-[34px] w-16 flex items-center justify-center rounded-lg border border-border bg-muted text-sm font-mono font-medium select-none"
+        class="h-[34px] w-16 flex items-center justify-center rounded-lg bg-white text-sm font-mono font-semibold select-none"
       >{DEFAULT_PLAYERS}</span>
       <button
         id="prizes-increment"
-        class="h-[34px] w-[34px] flex items-center justify-center rounded-md border border-border bg-muted text-muted-foreground hover:bg-card hover:text-foreground transition-colors text-base leading-none"
+        class="h-[34px] w-[34px] flex items-center justify-center rounded-md bg-white text-black hover:bg-black hover:text-white transition-colors text-base leading-none"
         aria-label="Increase player count"
       >+</button>
     </div>
@@ -65,75 +65,75 @@ const d = compute(DEFAULT_PLAYERS);
   <!-- Cost breakdown -->
   <div class="text-sm space-y-2">
     <div class="flex justify-between">
-      <span class="text-muted-foreground">Entry</span>
+      <span class="text-black/70">Entry</span>
       <span id="pz-entry">{fmt(d.entry)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">Location</span>
+      <span class="text-black/70">Location</span>
       <span id="pz-location">- {fmt(d.location)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">Judge</span>
+      <span class="text-black/70">Judge</span>
       <span>- {fmt(JUDGE)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">Knockout prize</span>
+      <span class="text-black/70">Knockout prize</span>
       <span>- {fmt(KNOCKOUT_PRIZE)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">Stripe fees</span>
+      <span class="text-black/70">Stripe fees</span>
       <span id="pz-stripe">- {fmt(d.stripeFee)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">TopDeck fees</span>
+      <span class="text-black/70">TopDeck fees</span>
       <span id="pz-topdeck">- {fmt(d.topdeckFee)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">Taxes</span>
+      <span class="text-black/70">Taxes</span>
       <span id="pz-taxes">- {fmt(d.taxes)}</span>
     </div>
   </div>
 
-  <div class="border-t border-border" />
+  <div class="border-t border-black/20" />
 
   <div class="flex justify-between text-sm font-bold">
     <span>Prize pool</span>
     <span id="pz-pool">{fmt(d.prizePool)}</span>
   </div>
 
-  <div class="border-t border-border" />
+  <div class="border-t border-black/20" />
 
   <!-- Payouts -->
   <div class="text-sm space-y-2">
     <div class="flex justify-between">
-      <span class="text-muted-foreground">1st <span class="text-xs">(23%)</span></span>
+      <span class="text-black/70">1st <span class="text-xs">(23%)</span></span>
       <span id="pz-top1">{fmt(d.top1)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">2nd <span class="text-xs">(15%)</span></span>
+      <span class="text-black/70">2nd <span class="text-xs">(15%)</span></span>
       <span id="pz-top2">{fmt(d.top2)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">3rd <span class="text-xs">(10%)</span></span>
+      <span class="text-black/70">3rd <span class="text-xs">(10%)</span></span>
       <span id="pz-top3">{fmt(d.top3)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">4th <span class="text-xs">(8%)</span></span>
+      <span class="text-black/70">4th <span class="text-xs">(8%)</span></span>
       <span id="pz-top4">{fmt(d.top4)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">5th–8th <span class="text-xs">(5% each)</span></span>
+      <span class="text-black/70">5th–8th <span class="text-xs">(5% each)</span></span>
       <span id="pz-top58">{fmt(d.top58)}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-muted-foreground">9th–16th <span class="text-xs">(3% each)</span></span>
+      <span class="text-black/70">9th–16th <span class="text-xs">(3% each)</span></span>
       <span id="pz-top916">{fmt(d.top916)}</span>
     </div>
   </div>
 
-  <div class="border-t border-border" />
+  <div class="border-t border-black/20" />
 
-  <p class="text-xs text-muted-foreground italic">Prizes are awarded as store credit (<a href="/faq#how-does-store-credit-work" class="underline underline-offset-4 hover:text-foreground transition-colors">learn more</a>).</p>
+  <p class="text-xs text-black/70 italic">Prizes are awarded as store credit (<a href="/faq#how-does-store-credit-work" class="underline underline-offset-4 hover:text-black transition-colors font-semibold">learn more</a>).</p>
 </div>
 
 <script>

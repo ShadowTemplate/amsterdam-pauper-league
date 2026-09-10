@@ -5,34 +5,40 @@
 @layer base {
   :root {
     --radius: 0.75rem;
-    --background: #112236;
-    --foreground: #e8eef8;
-    --card: #112236;
-    --card-foreground: #e8eef8;
-    --popover: #112236;
-    --popover-foreground: #e8eef8;
-    --primary: #f0c030;
-    --primary-foreground: #0d1829;
-    --secondary: #172440;
-    --secondary-foreground: #e8eef8;
-    --muted: #172440;
-    --muted-foreground: #7890b8;
-    --accent: #172440;
-    --accent-foreground: #e8eef8;
+    --background: #ffffff;
+    --foreground: #171717;
+    --card: #ffffff;
+    --card-foreground: #171717;
+    --popover: #ffffff;
+    --popover-foreground: #171717;
+    --primary: #ff4e00;
+    --primary-foreground: #111111;
+    --secondary: #a37ac9;
+    --secondary-foreground: #ffffff;
+    --muted: #f3f4f6;
+    --muted-foreground: #6b7280;
+    --accent: #d7cf08;
+    --accent-foreground: #171717;
     --destructive: #dc2626;
-    --destructive-foreground: #e8eef8;
-    --border: #2e4e7a;
-    --input: #172440;
-    --ring: #f0c030;
-    --header-height: 56px;
-    --sidebar: #172440;
-    --sidebar-foreground: #e8eef8;
-    --sidebar-primary: #f0c030;
-    --sidebar-primary-foreground: #0d1829;
-    --sidebar-accent: #1e3050;
-    --sidebar-accent-foreground: #e8eef8;
-    --sidebar-border: #1e3050;
-    --sidebar-ring: #f0c030;
+    --destructive-foreground: #ffffff;
+    --border: #e5e5e5;
+    --input: #f3f4f6;
+    --ring: #ff4e00;
+    --header-height: 80px;
+    --sidebar: #ffffff;
+    --sidebar-foreground: #171717;
+    --sidebar-primary: #ff4e00;
+    --sidebar-primary-foreground: #111111;
+    --sidebar-accent: #f3f4f6;
+    --sidebar-accent-foreground: #171717;
+    --sidebar-border: #e5e5e5;
+    --sidebar-ring: #ff4e00;
+
+    /* APL brand palette */
+    --apl-orange: #ff4e00;
+    --apl-purple: #a37ac9;
+    --apl-yellow: #d7cf08;
+    --apl-navy: #0d1b2a;
   }
 }
 
@@ -64,8 +70,12 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-mono: "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, monospace;
+  --color-apl-orange: var(--apl-orange);
+  --color-apl-purple: var(--apl-purple);
+  --color-apl-yellow: var(--apl-yellow);
+  --color-apl-navy: var(--apl-navy);
+  --font-sans: "Archivo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, monospace;
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
@@ -78,5 +88,19 @@
   body {
     background-color: var(--background);
     color: var(--foreground);
+    font-family: var(--font-sans);
   }
+}
+
+@keyframes apl-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-apl-marquee {
+  animation: apl-marquee 22s linear infinite;
 }

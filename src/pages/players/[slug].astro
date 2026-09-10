@@ -24,7 +24,7 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
 ---
 
 <Layout title={title}>
-  <div class="container mx-auto max-w-screen-lg px-4 py-8">
+  <div class="container mx-auto max-w-screen-2xl px-4 py-8">
     <!-- Breadcrumb -->
     <nav class="text-sm text-muted-foreground mb-4">
       <a href="/players" class="hover:underline underline-offset-4">Players</a>
@@ -37,22 +37,22 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
     {detail ? (
       <>
         <!-- Stats row -->
-        <div class="flex gap-8 mb-8">
-          <div class="text-center">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+          <div class="rounded-xl bg-apl-orange text-black text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.wins}</div>
-            <div class="text-sm text-muted-foreground">wins</div>
+            <div class="text-sm text-black/70">wins</div>
           </div>
-          <div class="text-center">
+          <div class="rounded-xl bg-apl-purple text-apl-yellow text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.losses}</div>
-            <div class="text-sm text-muted-foreground">losses</div>
+            <div class="text-sm text-apl-yellow/70">losses</div>
           </div>
-          <div class="text-center">
+          <div class="rounded-xl bg-apl-yellow text-apl-orange text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.draws}</div>
-            <div class="text-sm text-muted-foreground">draws</div>
+            <div class="text-sm text-apl-orange/70">draws</div>
           </div>
-          <div class="text-center">
+          <div class="rounded-xl bg-apl-orange text-black text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.byes}</div>
-            <div class="text-sm text-muted-foreground">byes</div>
+            <div class="text-sm text-black/70">byes</div>
           </div>
         </div>
 

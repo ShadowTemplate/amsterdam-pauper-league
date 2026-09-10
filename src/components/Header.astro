@@ -1,30 +1,30 @@
 ---
 import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
 
-const navLinks = [
+const navLinksLeft = [
   { href: `/seasons/${CURRENT_SEASON_YEAR}`, label: "Seasons" },
   { href: `/events/${CURRENT_SEASON_YEAR}`, label: "Events" },
   { href: "/players", label: "Players" },
+];
+
+const navLinksRight = [
   { href: "/archetypes", label: "Archetypes" },
   { href: "/decks", label: "Decks" },
   { href: "/faq", label: "FAQ" },
 ];
+
+const navLinks = [...navLinksLeft, ...navLinksRight];
 ---
 
-<header class="sticky top-0 z-50 w-full shadow-xs bg-background border-b border-border">
-  <div class="container mx-auto flex h-14 max-w-screen-lg items-center justify-between px-4 md:grid md:grid-cols-[1fr_auto_1fr]">
-    <!-- Logo (left) -->
-    <a href="/" class="font-bold text-lg tracking-tight hover:opacity-80 transition-opacity">
-      APL
-    </a>
-
-    <!-- Desktop nav (center) -->
-    <nav class="hidden md:flex items-center gap-6 text-sm">
+<header class="sticky top-0 z-50 w-full bg-apl-navy border-b border-white/10">
+  <div class="container mx-auto flex h-20 max-w-screen-2xl items-center justify-between px-4 md:grid md:grid-cols-[1fr_auto_1fr]">
+    <!-- Desktop nav (left) -->
+    <nav class="hidden md:flex items-center gap-6 text-base">
       {
-        navLinks.map((link) => (
+        navLinksLeft.map((link) => (
           <a
             href={link.href}
-            class="text-muted-foreground hover:text-foreground transition-colors"
+            class="text-apl-yellow hover:text-apl-orange hover:underline underline-offset-4 transition-colors"
           >
             {link.label}
           </a>
@@ -32,12 +32,31 @@ const navLinks = [
       }
     </nav>
 
-    <!-- Mobile menu button (right) -->
-    <div class="flex items-center justify-end gap-2">
+    <!-- Logo (center) -->
+    <a href="/" class="flex items-center hover:opacity-80 transition-opacity">
+      <img src="/apl-logo-white.svg" alt="Amsterdam Pauper League" width="161" height="56" class="h-14 w-auto" />
+    </a>
+
+    <!-- Desktop nav (right) -->
+    <nav class="hidden md:flex items-center justify-end gap-6 text-base">
+      {
+        navLinksRight.map((link) => (
+          <a
+            href={link.href}
+            class="text-apl-yellow hover:text-apl-orange hover:underline underline-offset-4 transition-colors"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <!-- Mobile menu button (right, shown only on mobile) -->
+    <div class="flex items-center justify-end gap-2 md:hidden">
       <button
         id="mobile-menu-btn"
         aria-label="Open menu"
-        class="md:hidden p-2 rounded-md hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+        class="p-2 rounded-md hover:bg-white/10 transition-colors text-white/80 hover:text-white"
       >
         <svg
           id="menu-icon-open"
@@ -75,13 +94,13 @@ const navLinks = [
   </div>
 
   <!-- Mobile nav -->
-  <div id="mobile-menu" class="hidden md:hidden border-t border-border bg-background">
-    <nav class="container mx-auto max-w-screen-lg px-4 py-3 flex flex-col gap-3">
+  <div id="mobile-menu" class="hidden md:hidden border-t border-white/10 bg-apl-navy">
+    <nav class="container mx-auto max-w-screen-2xl px-4 py-3 flex flex-col gap-3">
       {
         navLinks.map((link) => (
           <a
             href={link.href}
-            class="text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
+            class="text-base text-apl-yellow hover:text-apl-orange hover:underline underline-offset-4 transition-colors py-1"
           >
             {link.label}
           </a>

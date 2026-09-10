@@ -4,23 +4,28 @@ import { EVENTS } from "@/lib/data-layer";
 const nextEvent = EVENTS
   .filter((e) => e.status === "upcoming" && e.registrationUrl)
   .sort((a, b) => b.date.localeCompare(a.date))[0];
+
+const message = nextEvent ? `Registration for ${nextEvent.name} is open — apply now` : null;
 ---
 
 {
   nextEvent && (
-    <div class="w-full bg-primary/10 border-b border-primary/20">
-      <div class="mx-auto max-w-screen-lg px-4 py-2.5 text-sm text-center">
-        →{" "}
-        <a
-          href={nextEvent.registrationUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="underline underline-offset-4 hover:opacity-80 transition"
-        >
-          Registration for <strong>{nextEvent.name}</strong> is open!
-        </a>{" "}
-        ←
+    <a
+      href={nextEvent.registrationUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="block w-full overflow-hidden bg-apl-orange text-black border-b border-black/10"
+      aria-label={message ?? undefined}
+    >
+      <div class="flex whitespace-nowrap py-2.5">
+        <div class="animate-apl-marquee flex w-max shrink-0 gap-8">
+          {Array.from({ length: 16 }).map((_, i) => (
+            <span class="text-sm md:text-base font-extrabold uppercase tracking-tight px-4" aria-hidden={i >= 8 ? "true" : undefined}>
+              {message} &nbsp;•
+            </span>
+          ))}
+        </div>
       </div>
-    </div>
+    </a>
   )
 }
