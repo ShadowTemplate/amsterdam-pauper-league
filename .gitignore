@@ -64,3 +64,6 @@ tools/obs-label-generator/obs_label_generator/obs_apl/gen_p2_archetype.txt
 tools/obs-label-generator/obs_label_generator/obs_apl/gen_p2_name.txt
 tools/obs-label-generator/obs_label_generator/obs_apl/gen_round.txt
 tools/obs-label-generator/obs_label_generator/obs_apl/decks_cache/*
+
+# Claude Code
+.claude/
