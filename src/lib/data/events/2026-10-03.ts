@@ -7,4 +7,5 @@ export const event: Event = {
   venue: "Pondok",
   format: "paper",
   status: "upcoming",
+  registrationUrl: "https://topdeck.gg/tournaments/amsterdam-pauper-league-7-leg-2026",
 };
