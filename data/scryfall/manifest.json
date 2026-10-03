@@ -323,6 +323,12 @@
     "released_at": "2014-02-07",
     "set": "bng"
   },
+  "Aspect of Lamprey": {
+    "front": "/scryfall/27157f01-8aed-4485-9f0f-9e7486492e6e.jpg",
+    "id": "27157f01-8aed-4485-9f0f-9e7486492e6e",
+    "released_at": "2020-01-24",
+    "set": "thb"
+  },
   "Aspirant's Ascent": {
     "front": "/scryfall/57551332-e2a4-4e6a-9bd8-e3a9baafcd17.jpg",
     "id": "57551332-e2a4-4e6a-9bd8-e3a9baafcd17",
@@ -394,6 +400,12 @@
     "id": "2a46af75-3880-4141-b26e-19834d67e7a8",
     "released_at": "2022-04-29",
     "set": "snc"
+  },
+  "Baleful Strix": {
+    "front": "/scryfall/62090c97-7e3e-4854-bc44-c4a900133ec5.jpg",
+    "id": "62090c97-7e3e-4854-bc44-c4a900133ec5",
+    "released_at": "2012-06-01",
+    "set": "pc2"
   },
   "Balemurk Leech": {
     "front": "/scryfall/f0621b32-95c5-4f70-96cf-d46d20efc85d.jpg",
@@ -1067,6 +1079,12 @@
     "released_at": "1993-08-05",
     "set": "lea"
   },
+  "Circle of Protection: Green": {
+    "front": "/scryfall/1ae32d20-b438-4f43-b603-e8f706ecfb03.jpg",
+    "id": "1ae32d20-b438-4f43-b603-e8f706ecfb03",
+    "released_at": "1993-08-05",
+    "set": "lea"
+  },
   "Circle of Protection: Red": {
     "front": "/scryfall/b3dd94c5-42f6-4148-be6e-2a3a4226cc0e.jpg",
     "id": "b3dd94c5-42f6-4148-be6e-2a3a4226cc0e",
@@ -1433,6 +1451,12 @@
     "released_at": "2005-06-03",
     "set": "sok"
   },
+  "Cut Down": {
+    "front": "/scryfall/753db072-5d6a-4f37-8f7d-255572ecd3bd.jpg",
+    "id": "753db072-5d6a-4f37-8f7d-255572ecd3bd",
+    "released_at": "2022-09-09",
+    "set": "dmu"
+  },
   "Dai Li Indoctrination": {
     "front": "/scryfall/eca652b8-44f1-4bd9-b4bf-036eeead13aa.jpg",
     "id": "eca652b8-44f1-4bd9-b4bf-036eeead13aa",
@@ -1486,6 +1510,12 @@
     "id": "f5b2c21a-419d-4896-82e3-1b5cb32b158e",
     "released_at": "2019-01-25",
     "set": "rna"
+  },
+  "Dead Weight": {
+    "front": "/scryfall/7933987e-7b8c-4d5a-804a-708d6bb6d231.jpg",
+    "id": "7933987e-7b8c-4d5a-804a-708d6bb6d231",
+    "released_at": "2011-09-30",
+    "set": "isd"
   },
   "Deadeye Duelist": {
     "front": "/scryfall/e9a50b7a-8741-4520-8d45-8e6b128c2628.jpg",
@@ -1621,6 +1651,12 @@
     "released_at": "2024-07-05",
     "set": "acr"
   },
+  "Devoted Druid": {
+    "front": "/scryfall/820e2f07-f637-4144-b45a-0e1430dcf55e.jpg",
+    "id": "820e2f07-f637-4144-b45a-0e1430dcf55e",
+    "released_at": "2008-05-02",
+    "set": "shm"
+  },
   "Devoted Duelist": {
     "front": "/scryfall/bbf9c673-37b4-48ed-a9ea-13f8e3e6c47b.jpg",
     "id": "bbf9c673-37b4-48ed-a9ea-13f8e3e6c47b",
@@ -1704,6 +1740,12 @@
     "id": "63742780-47ee-4a66-993a-69e06c14967d",
     "released_at": "2014-09-26",
     "set": "ktk"
+  },
+  "Dispatch": {
+    "front": "/scryfall/496634f9-1271-4be7-bad5-364bb87a6962.jpg",
+    "id": "496634f9-1271-4be7-bad5-364bb87a6962",
+    "released_at": "2011-05-13",
+    "set": "nph"
   },
   "Dispel": {
     "front": "/scryfall/f178d0cc-5dd1-41ab-a2e8-218ece6f2a86.jpg",
@@ -1854,6 +1896,12 @@
     "id": "ade075fd-73ee-4d12-a2da-48e5938043af",
     "released_at": "1994-08-01",
     "set": "drk"
+  },
+  "Dwarven Mine": {
+    "front": "/scryfall/5c83074d-0c9b-4b58-94ca-d75240485579.jpg",
+    "id": "5c83074d-0c9b-4b58-94ca-d75240485579",
+    "released_at": "2019-10-04",
+    "set": "eld"
   },
   "Dwynen's Elite": {
     "front": "/scryfall/c203722b-3f16-4b6c-9b2e-18169d3f80c9.jpg",
@@ -2611,6 +2659,12 @@
     "released_at": "2018-04-27",
     "set": "dom"
   },
+  "Futurist Forge": {
+    "front": "/scryfall/a50feebf-c660-43f1-9fae-75294703b346.jpg",
+    "id": "a50feebf-c660-43f1-9fae-75294703b346",
+    "released_at": "2026-06-26",
+    "set": "msh"
+  },
   "Fyndhorn Elves": {
     "front": "/scryfall/3ba95ffa-990a-4013-98b7-5d8c0b34e9c4.jpg",
     "id": "3ba95ffa-990a-4013-98b7-5d8c0b34e9c4",
@@ -2964,6 +3018,12 @@
     "id": "ab8324aa-f356-42bc-9664-46803bc8a93b",
     "released_at": "2022-06-10",
     "set": "clb"
+  },
+  "Goliath Sphinx": {
+    "front": "/scryfall/864a792b-ad04-4892-92d9-0f6abe3759e8.jpg",
+    "id": "864a792b-ad04-4892-92d9-0f6abe3759e8",
+    "released_at": "2010-02-05",
+    "set": "wwk"
   },
   "Gorilla Shaman": {
     "front": "/scryfall/bf8b213e-31ca-4eb5-bf0b-515a0ad4fd31.jpg",
@@ -3744,6 +3804,12 @@
     "id": "975f9ea8-af2c-456f-acd0-ffa9ea0d98c1",
     "released_at": "2003-10-02",
     "set": "mrd"
+  },
+  "Kruphix's Insight": {
+    "front": "/scryfall/94e14f09-9629-443a-bc55-03152eabb2e7.jpg",
+    "id": "94e14f09-9629-443a-bc55-03152eabb2e7",
+    "released_at": "2014-05-02",
+    "set": "jou"
   },
   "Kuldotha Rebirth": {
     "front": "/scryfall/7ee07266-a95d-4cd8-9863-1664922e9490.jpg",
@@ -5350,6 +5416,12 @@
     "released_at": "1999-06-07",
     "set": "uds"
   },
+  "Reckless Charge": {
+    "front": "/scryfall/0938e686-345e-4411-b564-cf9324ec6b9d.jpg",
+    "id": "0938e686-345e-4411-b564-cf9324ec6b9d",
+    "released_at": "2001-10-01",
+    "set": "ody"
+  },
   "Reckless Fireweaver": {
     "front": "/scryfall/63ffac51-62c4-4170-85b3-a43d7cfae7d7.jpg",
     "id": "63ffac51-62c4-4170-85b3-a43d7cfae7d7",
@@ -5385,6 +5457,12 @@
     "id": "776ad9be-3309-4f1d-9f27-6219d9477662",
     "released_at": "1993-08-05",
     "set": "lea"
+  },
+  "Red Mage's Rapier": {
+    "front": "/scryfall/e0579955-75f9-47a9-8b03-e287d120826a.jpg",
+    "id": "e0579955-75f9-47a9-8b03-e287d120826a",
+    "released_at": "2025-06-13",
+    "set": "fin"
   },
   "Refurbished Familiar": {
     "front": "/scryfall/b338e078-629c-4cac-bd1d-e1f0a132728d.jpg",
@@ -5475,6 +5553,12 @@
     "id": "f5209c13-9591-48eb-8d6c-112b3bdd429a",
     "released_at": "2023-09-08",
     "set": "woe"
+  },
+  "Return to Dust": {
+    "front": "/scryfall/48185c8f-ac41-46e2-85b1-760abac914ac.jpg",
+    "id": "48185c8f-ac41-46e2-85b1-760abac914ac",
+    "released_at": "2006-10-06",
+    "set": "tsp"
   },
   "Return to Nature": {
     "front": "/scryfall/085e3129-591b-46ec-ac8b-cff428927c01.jpg",
@@ -6406,6 +6490,12 @@
     "released_at": "2010-04-23",
     "set": "roe"
   },
+  "Soul-Guide Lantern": {
+    "front": "/scryfall/7c850b94-75c9-4457-8b5e-1193352d6fcb.jpg",
+    "id": "7c850b94-75c9-4457-8b5e-1193352d6fcb",
+    "released_at": "2020-01-24",
+    "set": "thb"
+  },
   "Soured Springs": {
     "front": "/scryfall/67daa31c-d9c4-4c22-b29c-1b8a17d577e5.jpg",
     "id": "67daa31c-d9c4-4c22-b29c-1b8a17d577e5",
@@ -6790,6 +6880,12 @@
     "released_at": "2002-05-27",
     "set": "jud"
   },
+  "Sword Coast Serpent // Capsizing Wave": {
+    "front": "/scryfall/0bbfb7ae-9a32-428d-903c-99d0d8669b8d.jpg",
+    "id": "0bbfb7ae-9a32-428d-903c-99d0d8669b8d",
+    "released_at": "2022-06-10",
+    "set": "clb"
+  },
   "Sylvan Ranger": {
     "front": "/scryfall/5f73ea30-c6d2-4224-ae54-f6b89e006cf4.jpg",
     "id": "5f73ea30-c6d2-4224-ae54-f6b89e006cf4",
@@ -7063,6 +7159,12 @@
     "released_at": "2025-02-14",
     "set": "dft"
   },
+  "Tidehollow Strix": {
+    "front": "/scryfall/4aafc65d-faa8-4bfe-83ac-7714c969022b.jpg",
+    "id": "4aafc65d-faa8-4bfe-83ac-7714c969022b",
+    "released_at": "2008-10-03",
+    "set": "ala"
+  },
   "Tilling Treefolk": {
     "front": "/scryfall/8e4a10d0-214d-4e7b-9683-c84034f8f6b7.jpg",
     "id": "8e4a10d0-214d-4e7b-9683-c84034f8f6b7",
@@ -7220,6 +7322,12 @@
     "id": "f6ef4c59-ab84-4d84-b795-015b21ae3fe0",
     "released_at": "2017-04-28",
     "set": "akh"
+  },
+  "Trinket Mage": {
+    "front": "/scryfall/4c5a41ab-1840-4abb-a8bb-f0b1e7d1b450.jpg",
+    "id": "4c5a41ab-1840-4abb-a8bb-f0b1e7d1b450",
+    "released_at": "2004-06-04",
+    "set": "5dn"
   },
   "Triton Shorestalker": {
     "front": "/scryfall/881c554e-2324-41e2-89f1-db9f4017bc31.jpg",
@@ -7406,6 +7514,12 @@
     "id": "a9be1058-0668-4938-8801-e9a98464651c",
     "released_at": "2007-02-02",
     "set": "plc"
+  },
+  "Vandalblast": {
+    "front": "/scryfall/5925c559-3e3c-481b-ba95-20a405cbffce.jpg",
+    "id": "5925c559-3e3c-481b-ba95-20a405cbffce",
+    "released_at": "2012-10-05",
+    "set": "rtr"
   },
   "Vandalize": {
     "front": "/scryfall/48b04f7a-4fd6-47d2-b378-99c7fb0c1809.jpg",
@@ -7778,6 +7892,12 @@
     "id": "9d65efec-018f-485c-906c-460379b4af87",
     "released_at": "2016-07-22",
     "set": "emn"
+  },
+  "Writ of Passage": {
+    "front": "/scryfall/abd58eee-1108-49be-9ae7-da179fb081c2.jpg",
+    "id": "abd58eee-1108-49be-9ae7-da179fb081c2",
+    "released_at": "2006-05-05",
+    "set": "dis"
   },
   "Writhing Chrysalis": {
     "front": "/scryfall/f54dbeb1-51f8-40e2-912a-ec25457de5a2.jpg",
