@@ -52,7 +52,7 @@ export const eventDetail: EventDetail = {
     { position: 35, player: "Vincent Zwinkels", playerSlug: "vincent_zwinkels", deck: "Azorius Gates", deckSlug: "azorius_gates", omwPercentage: "43.20%", matchPoints: 6 },
     { position: 36, player: "Morgan Privitera", playerSlug: "morgan_privitera", deck: "Azorius Gates", deckSlug: "azorius_gates", omwPercentage: "48.15%", matchPoints: 4 },
     { position: 37, player: "Thijs", playerSlug: "thijs", deck: "MonoR Kuldotha", deckSlug: "monor_kuldotha", omwPercentage: "50.00%", matchPoints: 3 },
-    { position: 38, player: "Manas weesing", playerSlug: "manas_weesing", deck: "MonoG Tron", deckSlug: "monog_tron", omwPercentage: "44.44%", matchPoints: 3 },
+    { position: 38, player: "Manas weesing", playerSlug: "manas_weesing", deck: "Monster Tron", deckSlug: "monster_tron", omwPercentage: "44.44%", matchPoints: 3 },
     { position: 39, player: "Jinja Kinyak", playerSlug: "jinja_kinyak", deck: "Flicker Tron", deckSlug: "flicker_tron", omwPercentage: "46.30%", matchPoints: 0 },
     { position: 40, player: "Moss", playerSlug: "moss", deck: "Rakdos Burn", deckSlug: "rakdos_burn", omwPercentage: "40.74%", matchPoints: 0 },
   ],
@@ -74,7 +74,7 @@ export const eventDetail: EventDetail = {
     { archetype: "Walls", archetypeSlug: "walls", count: 1, percentage: "2.50%" },
     { archetype: "Bogles", archetypeSlug: "bogles", count: 1, percentage: "2.50%" },
     { archetype: "Cycling Storm", archetypeSlug: "cycling_storm", count: 1, percentage: "2.50%" },
-    { archetype: "MonoG Tron", archetypeSlug: "monog_tron", count: 1, percentage: "2.50%" },
+    { archetype: "Monster Tron", archetypeSlug: "monster_tron", count: 1, percentage: "2.50%" },
     { archetype: "Flicker Tron", archetypeSlug: "flicker_tron", count: 1, percentage: "2.50%" },
   ],
 };

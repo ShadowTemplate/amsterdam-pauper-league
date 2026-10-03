@@ -156,6 +156,9 @@
   "Aspect of Hydra": [
     "G"
   ],
+  "Aspect of Lamprey": [
+    "B"
+  ],
   "Aspirant's Ascent": [
     "U"
   ],
@@ -187,6 +190,10 @@
   ],
   "Backup Agent": [
     "W"
+  ],
+  "Baleful Strix": [
+    "U",
+    "B"
   ],
   "Balemurk Leech": [
     "B"
@@ -489,6 +496,9 @@
   "Circle of Protection: Blue": [
     "W"
   ],
+  "Circle of Protection: Green": [
+    "W"
+  ],
   "Circle of Protection: Red": [
     "W"
   ],
@@ -655,6 +665,9 @@
   "Curtain of Light": [
     "W"
   ],
+  "Cut Down": [
+    "B"
+  ],
   "Dai Li Indoctrination": [
     "B"
   ],
@@ -676,6 +689,9 @@
     "W"
   ],
   "Dead Revels": [
+    "B"
+  ],
+  "Dead Weight": [
     "B"
   ],
   "Deadeye Duelist": [
@@ -741,6 +757,9 @@
   "Detained by Legionnaires": [
     "W"
   ],
+  "Devoted Druid": [
+    "G"
+  ],
   "Devoted Duelist": [
     "R"
   ],
@@ -777,6 +796,9 @@
     "R"
   ],
   "Dismal Backwater": [],
+  "Dispatch": [
+    "W"
+  ],
   "Dispel": [
     "U"
   ],
@@ -848,6 +870,7 @@
   "Dust to Dust": [
     "W"
   ],
+  "Dwarven Mine": [],
   "Dwynen's Elite": [
     "G"
   ],
@@ -1204,6 +1227,9 @@
   "Fungal Infection": [
     "B"
   ],
+  "Futurist Forge": [
+    "U"
+  ],
   "Fyndhorn Elves": [
     "G"
   ],
@@ -1361,6 +1387,9 @@
   "Golgari Rot Farm": [],
   "Goliath Paladin": [
     "W"
+  ],
+  "Goliath Sphinx": [
+    "U"
   ],
   "Gorilla Shaman": [
     "R"
@@ -1710,6 +1739,9 @@
   ],
   "Krark-Clan Shaman": [
     "R"
+  ],
+  "Kruphix's Insight": [
+    "G"
   ],
   "Kuldotha Rebirth": [
     "R"
@@ -2429,6 +2461,9 @@
   "Reckless Abandon": [
     "R"
   ],
+  "Reckless Charge": [
+    "R"
+  ],
   "Reckless Fireweaver": [
     "R"
   ],
@@ -2445,6 +2480,9 @@
     "W"
   ],
   "Red Elemental Blast": [
+    "R"
+  ],
+  "Red Mage's Rapier": [
     "R"
   ],
   "Refurbished Familiar": [
@@ -2482,6 +2520,9 @@
     "U"
   ],
   "Return Triumphant": [
+    "W"
+  ],
+  "Return to Dust": [
     "W"
   ],
   "Return to Nature": [
@@ -2884,6 +2925,7 @@
   "Soul's Attendant": [
     "W"
   ],
+  "Soul-Guide Lantern": [],
   "Soured Springs": [],
   "Sovereign's Bite": [
     "B"
@@ -3066,6 +3108,9 @@
   "Swirling Sandstorm": [
     "R"
   ],
+  "Sword Coast Serpent // Capsizing Wave": [
+    "U"
+  ],
   "Sylvan Ranger": [
     "G"
   ],
@@ -3185,6 +3230,10 @@
   "Thunderhead Gunner": [
     "R"
   ],
+  "Tidehollow Strix": [
+    "U",
+    "B"
+  ],
   "Tilling Treefolk": [
     "G"
   ],
@@ -3248,6 +3297,9 @@
   "Tree of Tales": [],
   "Trespasser's Curse": [
     "B"
+  ],
+  "Trinket Mage": [
+    "U"
   ],
   "Triton Shorestalker": [
     "U"
@@ -3329,6 +3381,9 @@
   ],
   "Vampiric Link": [
     "B"
+  ],
+  "Vandalblast": [
+    "R"
   ],
   "Vandalize": [
     "R"
@@ -3489,6 +3544,9 @@
     "R"
   ],
   "Wretched Gryff": [],
+  "Writ of Passage": [
+    "U"
+  ],
   "Writhing Chrysalis": [],
   "Yip Yip!": [
     "W"
