@@ -16,8 +16,9 @@ const PAGE_SIZE = 30;
     <input
       id="player-search-input"
       type="search"
+      aria-label="Search players"
       placeholder="Search players… (Ctrl+f)"
-      class="w-full border border-border rounded-xl bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary"
+      class="w-full border border-apl-navy/20 rounded-xl bg-apl-white text-apl-navy placeholder:text-apl-navy/50 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-apl-navy"
     />
   </div>
 
@@ -50,15 +51,15 @@ const PAGE_SIZE = 30;
   <div id="player-pagination" class="flex items-center gap-2 mt-4 hidden">
     <button
       id="player-prev"
-      class="px-3 py-1 border border-border rounded-lg hover:bg-muted disabled:opacity-50"
+      class="px-3 py-1 rounded-full font-bold text-sm bg-apl-orange text-apl-yellow hover:opacity-90 transition-opacity disabled:opacity-30"
       disabled
     >
       ← Prev
     </button>
-    <span id="player-page-info" class="text-sm text-muted-foreground"></span>
+    <span id="player-page-info" class="text-sm text-muted-foreground font-mono"></span>
     <button
       id="player-next"
-      class="px-3 py-1 border border-border rounded-lg hover:bg-muted disabled:opacity-50"
+      class="px-3 py-1 rounded-full font-bold text-sm bg-apl-orange text-apl-yellow hover:opacity-90 transition-opacity disabled:opacity-30"
     >
       Next →
     </button>

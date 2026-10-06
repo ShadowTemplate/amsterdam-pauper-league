@@ -121,15 +121,15 @@ const faqs = [
 
 <Layout title="FAQ – Amsterdam Pauper League">
   <main class="flex-1">
-    <div class="container mx-auto max-w-screen-2xl px-4 py-12">
-      <h1 class="text-4xl font-bold tracking-tighter mb-2">
+    <div class="container mx-auto max-w-6xl px-6 py-8">
+      <h1 class="heading-display text-4xl md:text-5xl mb-2">
         Frequently Asked Questions
       </h1>
-      <p class="text-muted-foreground mb-8">
+      <p class="text-muted-foreground mb-6">
         Everything you need to know about the Amsterdam Pauper League.
       </p>
 
-      <nav aria-label="Table of contents" class="mb-10 w-fit max-w-full rounded-xl bg-apl-purple text-apl-yellow p-5">
+      <nav aria-label="Table of contents" class="mb-6 w-fit max-w-full rounded-xl bg-apl-orange text-apl-yellow p-5">
         <ol class="space-y-2">
           {faqs.map(({ id, title }, index) => (
             <li>
@@ -142,9 +142,9 @@ const faqs = [
       </nav>
 
       {faqs.map(({ id, title, content }, index) => (
-        <section id={id} class:list={["py-8 scroll-mt-20", index < faqs.length - 1 && "border-b border-border"]}>
+        <section id={id} class:list={["py-6 scroll-mt-20", index < faqs.length - 1 && "border-b border-border"]}>
           <h2 class="text-2xl font-bold mb-4 group">
-            {title}<a href={`#${id}`} class="inline-block ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-muted-foreground hover:text-primary text-lg font-normal" aria-label="Link to section">#</a>
+            {title}<a href={`#${id}`} class="inline-block ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-muted-foreground hover:text-foreground text-lg font-normal" aria-label="Link to section">#</a>
           </h2>
           <div class="text-muted-foreground leading-relaxed" set:html={content} />
         </section>

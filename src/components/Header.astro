@@ -16,15 +16,15 @@ const navLinksRight = [
 const navLinks = [...navLinksLeft, ...navLinksRight];
 ---
 
-<header class="sticky top-0 z-50 w-full bg-apl-navy border-b border-white/10">
-  <div class="container mx-auto flex h-20 max-w-screen-2xl items-center justify-between px-4 md:grid md:grid-cols-[1fr_auto_1fr]">
+<header class="sticky top-0 z-50 w-full bg-apl-orange border-b border-apl-navy/10">
+  <div class="container mx-auto flex h-20 max-w-6xl items-center justify-between px-6 md:grid md:grid-cols-[1fr_auto_1fr]">
     <!-- Desktop nav (left) -->
     <nav class="hidden md:flex items-center gap-6 text-base">
       {
         navLinksLeft.map((link) => (
           <a
             href={link.href}
-            class="text-apl-yellow hover:text-apl-orange hover:underline underline-offset-4 transition-colors"
+            class="text-apl-navy hover:text-apl-yellow hover:underline underline-offset-4 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-apl-navy focus-visible:ring-offset-2 focus-visible:ring-offset-apl-orange"
           >
             {link.label}
           </a>
@@ -34,7 +34,7 @@ const navLinks = [...navLinksLeft, ...navLinksRight];
 
     <!-- Logo (center) -->
     <a href="/" class="flex items-center hover:opacity-80 transition-opacity">
-      <img src="/apl-logo-white.svg" alt="Amsterdam Pauper League" width="161" height="56" class="h-14 w-auto" />
+      <img src="/apl-logo.svg" alt="Amsterdam Pauper League" width="161" height="56" class="h-14 w-auto" />
     </a>
 
     <!-- Desktop nav (right) -->
@@ -43,7 +43,7 @@ const navLinks = [...navLinksLeft, ...navLinksRight];
         navLinksRight.map((link) => (
           <a
             href={link.href}
-            class="text-apl-yellow hover:text-apl-orange hover:underline underline-offset-4 transition-colors"
+            class="text-apl-navy hover:text-apl-yellow hover:underline underline-offset-4 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-apl-navy focus-visible:ring-offset-2 focus-visible:ring-offset-apl-orange"
           >
             {link.label}
           </a>
@@ -56,7 +56,7 @@ const navLinks = [...navLinksLeft, ...navLinksRight];
       <button
         id="mobile-menu-btn"
         aria-label="Open menu"
-        class="p-2 rounded-md hover:bg-white/10 transition-colors text-white/80 hover:text-white"
+        class="p-2 rounded-md hover:bg-apl-navy/10 transition-colors text-apl-navy/80 hover:text-apl-navy focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-apl-navy focus-visible:ring-offset-2 focus-visible:ring-offset-apl-orange"
       >
         <svg
           id="menu-icon-open"
@@ -94,13 +94,13 @@ const navLinks = [...navLinksLeft, ...navLinksRight];
   </div>
 
   <!-- Mobile nav -->
-  <div id="mobile-menu" class="hidden md:hidden border-t border-white/10 bg-apl-navy">
-    <nav class="container mx-auto max-w-screen-2xl px-4 py-3 flex flex-col gap-3">
+  <div id="mobile-menu" class="hidden md:hidden border-t border-apl-navy/10 bg-apl-orange">
+    <nav class="container mx-auto max-w-6xl px-6 py-3 flex flex-col gap-3">
       {
         navLinks.map((link) => (
           <a
             href={link.href}
-            class="text-base text-apl-yellow hover:text-apl-orange hover:underline underline-offset-4 transition-colors py-1"
+            class="text-base text-apl-navy hover:text-apl-yellow hover:underline underline-offset-4 transition-colors py-1 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-apl-navy focus-visible:ring-offset-2 focus-visible:ring-offset-apl-orange"
           >
             {link.label}
           </a>

@@ -31,13 +31,13 @@ const image = CARD_IMAGES[name];
         {name}
       </div>
     )}
-    <span class="absolute bottom-1 left-1 rounded bg-black/75 px-1.5 py-0.5 text-xs font-mono font-semibold text-white">
+    <span class="absolute bottom-1 left-1 rounded bg-apl-navy/80 px-1.5 py-0.5 text-xs font-mono font-semibold text-apl-white">
       ×{quantity}
     </span>
   </div>
   {image && (
     <p
-      class="mt-1 text-sm text-center leading-tight cursor-default underline decoration-dotted decoration-muted-foreground underline-offset-4 hover:text-primary"
+      class="mt-1 text-sm text-center leading-tight cursor-default underline decoration-dotted decoration-muted-foreground underline-offset-4 text-muted-foreground hover:text-foreground"
     >{name}</p>
   )}
 </div>

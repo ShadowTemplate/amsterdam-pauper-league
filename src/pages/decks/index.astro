@@ -28,11 +28,17 @@ const title = "Decks – Amsterdam Pauper League";
 ---
 
 <Layout title={title}>
-  <div class="container mx-auto max-w-screen-2xl px-4 py-8">
-    <h1 class="text-3xl font-bold mb-2">Decks</h1>
-    <p class="text-muted-foreground mb-8">
-      Browse all decks played in the league. {allDecks.length} decks across {sortedEventSlugs.length} events.
-    </p>
+  <div class="container mx-auto max-w-6xl px-6 py-6">
+    <h1 class="heading-display text-4xl md:text-5xl mb-4">Decks</h1>
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+      <span class="inline-flex items-center gap-2 rounded-full bg-apl-orange text-apl-yellow px-4 py-1.5 text-sm font-bold">
+        <span class="font-mono">{allDecks.length}</span> decks
+      </span>
+      <span class="inline-flex items-center gap-2 rounded-full bg-apl-orange text-apl-yellow px-4 py-1.5 text-sm font-bold">
+        <span class="font-mono">{sortedEventSlugs.length}</span> events
+      </span>
+      <span class="text-muted-foreground text-sm">Browse all decks played in the league.</span>
+    </div>
 
     <!-- Events with Decks -->
     {sortedEventSlugs.map((eventSlug) => {
@@ -40,7 +46,7 @@ const title = "Decks – Amsterdam Pauper League";
       const decks = decksByEvent[eventSlug].slice().sort((a, b) => a.archetype.localeCompare(b.archetype));
 
       return (
-        <section class="mb-12">
+        <section class="mb-8">
           <h2 class="text-2xl font-semibold mb-1">
             {event ? (
               <a href={`/events/${event.slug}`} class="hover:underline underline-offset-4">

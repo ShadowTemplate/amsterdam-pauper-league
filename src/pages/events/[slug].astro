@@ -23,7 +23,7 @@ const title = `${event.name} – Amsterdam Pauper League`;
 ---
 
 <Layout title={title}>
-  <div class="container mx-auto max-w-screen-2xl px-4 py-8">
+  <div class="container mx-auto max-w-6xl px-6 py-6">
     <!-- Breadcrumb -->
     <nav class="text-sm text-muted-foreground mb-4">
       <a href="/events" class="hover:underline underline-offset-4">
@@ -32,14 +32,14 @@ const title = `${event.name} – Amsterdam Pauper League`;
       <span class="mx-2">›</span>{event.name}
     </nav>
 
-    <h1 class="text-3xl font-bold mb-2">{event.name}</h1>
-    <p class="text-muted-foreground mb-8">
+    <h1 class="heading-display text-3xl md:text-4xl mb-2">{event.name}</h1>
+    <p class="text-muted-foreground mb-6">
       {formatDate(event.date)} @ {event.venue}
     </p>
 
     <!-- Standings table -->
     {detail?.standings && detail.standings.length > 0 && (
-      <section class="mb-8">
+      <section class="mb-6">
         <h2 class="text-xl font-semibold mb-4">Standings</h2>
         <div class="w-full overflow-x-auto">
           <table class="w-full text-sm border-collapse">

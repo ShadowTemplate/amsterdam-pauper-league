@@ -2,43 +2,55 @@
 
 @variant dark (&:where(.dark, .dark *));
 
+@font-face {
+  font-family: "DeFonte Plus";
+  src: url("/fonts/defonteplus_demigras.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     --radius: 0.75rem;
-    --background: #ffffff;
-    --foreground: #171717;
-    --card: #ffffff;
-    --card-foreground: #171717;
-    --popover: #ffffff;
-    --popover-foreground: #171717;
+
+    /* Solid brand purple canvas — one of the real 5 palette colors, no invented tint. */
+    --background: #a37ac9;
+    --foreground: #012031;
+    --card: #f5f3f4;
+    --card-foreground: #012031;
+    --popover: #f5f3f4;
+    --popover-foreground: #012031;
     --primary: #ff4e00;
-    --primary-foreground: #111111;
+    --primary-foreground: #012031;
     --secondary: #a37ac9;
-    --secondary-foreground: #ffffff;
-    --muted: #f3f4f6;
-    --muted-foreground: #6b7280;
+    --secondary-foreground: #012031;
+    --muted: rgba(1, 32, 49, 0.12);
+    --muted-foreground: rgba(1, 32, 49, 0.7);
     --accent: #d7cf08;
-    --accent-foreground: #171717;
+    --accent-foreground: #a37ac9;
     --destructive: #dc2626;
-    --destructive-foreground: #ffffff;
-    --border: #e5e5e5;
-    --input: #f3f4f6;
-    --ring: #ff4e00;
+    --destructive-foreground: #012031;
+    --border: rgba(1, 32, 49, 0.25);
+    --input: #f5f3f4;
+    --ring: #012031;
     --header-height: 80px;
-    --sidebar: #ffffff;
-    --sidebar-foreground: #171717;
+    --sidebar: #f5f3f4;
+    --sidebar-foreground: #012031;
     --sidebar-primary: #ff4e00;
-    --sidebar-primary-foreground: #111111;
-    --sidebar-accent: #f3f4f6;
-    --sidebar-accent-foreground: #171717;
-    --sidebar-border: #e5e5e5;
-    --sidebar-ring: #ff4e00;
+    --sidebar-primary-foreground: #012031;
+    --sidebar-accent: rgba(1, 32, 49, 0.08);
+    --sidebar-accent-foreground: #012031;
+    --sidebar-border: rgba(1, 32, 49, 0.15);
+    --sidebar-ring: #012031;
 
     /* APL brand palette */
     --apl-orange: #ff4e00;
     --apl-purple: #a37ac9;
+    --apl-purple-light: #ddcdee;
     --apl-yellow: #d7cf08;
-    --apl-navy: #0d1b2a;
+    --apl-navy: #012031;
+    --apl-white: #f5f3f4;
   }
 }
 
@@ -72,10 +84,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
   --color-apl-orange: var(--apl-orange);
   --color-apl-purple: var(--apl-purple);
+  --color-apl-purple-light: var(--apl-purple-light);
   --color-apl-yellow: var(--apl-yellow);
   --color-apl-navy: var(--apl-navy);
-  --font-sans: "Archivo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-apl-white: var(--apl-white);
+  --font-sans: "Geist Mono", "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, monospace;
   --font-mono: "Geist Mono", "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, monospace;
+  --font-display: "DeFonte Plus", "Geist Mono", system-ui, sans-serif;
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
@@ -89,6 +104,16 @@
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  .heading-display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    line-height: 0.95;
   }
 }
 

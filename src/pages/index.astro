@@ -9,22 +9,31 @@ const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 1
 ---
 
 <Layout title="Amsterdam Pauper League">
-  <main class="flex-1 bg-white text-neutral-900">
+  <main class="flex-1 bg-background text-foreground">
+    <h1 class="sr-only">Amsterdam Pauper League</h1>
     <RegistrationBanner />
 
     <!-- Hero -->
-    <section class="mx-auto max-w-screen-2xl w-full px-4 pt-6 pb-10">
+    <section class="mx-auto max-w-6xl w-full px-6 pt-5 pb-6">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:h-[560px]">
         <!-- Left stacked cards -->
         <div class="grid grid-rows-[1fr_auto_auto] md:grid-rows-[2fr_auto_1fr] gap-3">
           <a
             href={`/seasons/${CURRENT_SEASON_YEAR}`}
-            class="group relative flex flex-col justify-between rounded-2xl bg-apl-orange text-black p-6 min-h-[160px] hover:opacity-90 transition-opacity"
+            class="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-apl-orange text-apl-navy p-6 min-h-[160px] hover:opacity-90 transition-opacity"
           >
-            <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tight leading-[0.95]">
+            <img
+              src="/favicon.svg"
+              alt=""
+              aria-hidden="true"
+              width="256"
+              height="256"
+              class="pointer-events-none absolute -right-10 -bottom-14 h-64 w-64 opacity-[0.08]"
+            />
+            <h2 class="heading-display relative text-2xl md:text-3xl">
               Season {CURRENT_SEASON_YEAR}
             </h2>
-            <span class="inline-flex items-center gap-1.5 font-bold text-sm uppercase tracking-wide">
+            <span class="relative inline-flex items-center gap-1.5 font-bold text-sm uppercase tracking-wide">
               Updated Ranking
               <svg class="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
             </span>
@@ -32,7 +41,7 @@ const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 1
 
           <a
             href="#prizes"
-            class="group flex items-center justify-between rounded-2xl bg-apl-purple text-apl-yellow px-6 py-4 font-black uppercase tracking-tight text-lg hover:opacity-90 transition-opacity"
+            class="heading-display group flex items-center justify-between rounded-2xl bg-apl-yellow text-apl-purple px-6 py-4 text-lg hover:opacity-90 transition-opacity"
           >
             Prizes
             <svg class="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
@@ -42,7 +51,7 @@ const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 1
             href="/faq"
             class="group relative flex flex-col justify-between rounded-2xl bg-apl-yellow text-apl-orange p-6 min-h-[120px] hover:opacity-90 transition-opacity"
           >
-            <h2 class="text-2xl font-black uppercase tracking-tight">Learn More</h2>
+            <h2 class="heading-display text-2xl">Learn More</h2>
             <span class="inline-flex items-center gap-1.5 font-bold text-sm uppercase tracking-wide">
               Our Story
               <svg class="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
@@ -51,9 +60,9 @@ const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 1
         </div>
 
         <!-- Right hero panel: standings -->
-        <div class="flex h-full min-h-[420px] flex-col overflow-hidden rounded-2xl bg-apl-purple text-apl-yellow md:min-h-0">
-          <div class="flex items-center justify-between px-6 py-4 border-b border-apl-yellow/20">
-            <h2 class="font-black uppercase tracking-tight text-lg">
+        <div class="flex h-full min-h-[420px] flex-col overflow-hidden rounded-2xl bg-apl-navy text-apl-orange md:min-h-0">
+          <div class="flex items-center justify-between px-6 py-4 border-b border-apl-orange/20">
+            <h2 class="heading-display text-lg">
               Season {CURRENT_SEASON_YEAR} Standings
             </h2>
             <a
@@ -69,20 +78,20 @@ const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 1
               {[top16.slice(0, 8), top16.slice(8, 16)].map((half) => (
                 <div>
                   {half.map((s) => (
-                    <div class="flex items-center py-2 px-2 border-b border-apl-yellow/20 hover:bg-white/10 text-sm">
-                      <span class="font-mono text-apl-yellow/70 w-7 shrink-0 text-center">{s.position}</span>
+                    <div class="flex items-center py-2 px-2 border-b border-apl-orange/20 hover:bg-apl-white/10 text-sm">
+                      <span class="font-mono text-apl-orange/70 w-7 shrink-0 text-center">{s.position}</span>
                       <span class="flex-1 px-2 text-left flex items-center gap-2 min-w-0">
                         {s.positionChange !== undefined && (
                           s.positionChange > 0 ? (
-                            <svg class="h-4 w-4 text-white shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Up ${s.positionChange} since last leg`}>
+                            <svg class="h-4 w-4 text-apl-orange shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Up ${s.positionChange} since last leg`}>
                               <path d="m18 15-6-6-6 6" />
                             </svg>
                           ) : s.positionChange < 0 ? (
-                            <svg class="h-4 w-4 text-apl-yellow/70 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Down ${-s.positionChange} since last leg`}>
+                            <svg class="h-4 w-4 text-apl-orange/50 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Down ${-s.positionChange} since last leg`}>
                               <path d="m6 9 6 6 6-6" />
                             </svg>
                           ) : (
-                            <svg class="h-4 w-4 text-apl-yellow/40 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title="Unchanged since last leg">
+                            <svg class="h-4 w-4 text-apl-orange/25 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title="Unchanged since last leg">
                               <path d="m9 18 6-6-6-6" />
                             </svg>
                           )
@@ -102,27 +111,27 @@ const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 1
       </div>
     </section>
 
-    <p class="mx-auto max-w-2xl px-4 pb-10 text-center text-neutral-500 md:text-lg">
+    <p class="mx-auto max-w-2xl px-6 pb-6 text-center text-muted-foreground md:text-lg">
       Welcome to the largest Pauper tournament series in the Netherlands! Compete in thrilling monthly events with our fantastic community to win amazing prizes, flight tickets and byes to Paupergeddon.
     </p>
 
-    <div class="mx-auto w-full max-w-3xl border-b border-black/10"></div>
+    <div class="mx-auto w-full max-w-3xl border-b border-apl-navy/10"></div>
 
     <!-- Quote -->
-    <blockquote class="mx-auto max-w-screen-2xl w-full px-4 pt-0 pb-6 text-center text-neutral-500 italic text-xl">
+    <blockquote class="mx-auto max-w-6xl w-full px-6 pt-0 pb-5 text-center text-muted-foreground italic text-xl">
       "Bottom feeders sometimes rise to the top."
       <footer class="mt-2 text-sm not-italic">— Chittering Rats</footer>
     </blockquote>
 
-    <div class="mx-auto w-full max-w-3xl border-b border-black/10"></div>
+    <div class="mx-auto w-full max-w-3xl border-b border-apl-navy/10"></div>
 
     <!-- Prizes -->
-    <section id="prizes" class="mx-auto pt-8 pb-6 md:px-6 md:pt-12 max-w-screen-2xl w-full px-4 text-center scroll-mt-20">
-      <div class="space-y-4 mb-8">
-        <h2 class="text-3xl font-black uppercase tracking-tight sm:text-4xl">
+    <section id="prizes" class="mx-auto pt-6 pb-5 md:pt-8 max-w-6xl w-full px-6 text-center scroll-mt-20">
+      <div class="space-y-4 mb-6">
+        <h2 class="heading-display text-3xl sm:text-4xl">
           Prizes
         </h2>
-        <p class="text-neutral-500 md:text-xl mx-auto max-w-2xl">
+        <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl">
           Leg prizes are determined based on the number of players in each event.<br />
           A portion of the entry fees is used to cover venue costs, judge
           compensation, and travel allowances to Paupergeddon.<br />
@@ -135,7 +144,7 @@ const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 1
     </section>
 
     <!-- Quote -->
-    <blockquote class="mx-auto max-w-screen-2xl w-full px-4 pt-0 pb-10 text-center text-neutral-500 italic text-xl">
+    <blockquote class="mx-auto max-w-6xl w-full px-6 pt-0 pb-6 text-center text-muted-foreground italic text-xl">
       "Wake up, my friends! There are deeds to be done and treasures to be won!"
       <footer class="mt-2 text-sm not-italic">— Inspiring Bard</footer>
     </blockquote>

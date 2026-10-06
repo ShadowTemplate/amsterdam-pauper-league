@@ -7,13 +7,12 @@ const players = PLAYERS;
 ---
 
 <Layout title="Players – Amsterdam Pauper League">
-  <div class="container mx-auto max-w-screen-2xl px-4 py-8">
-    <h1 class="text-3xl font-bold mb-2">Players</h1>
+  <div class="container mx-auto max-w-6xl px-6 py-6">
+    <h1 class="heading-display text-4xl md:text-5xl mb-4">Players</h1>
 
-    <p class="text-sm text-muted-foreground mb-6">
-      <span class="font-mono font-semibold text-foreground">{players.length}</span>{" "}
-      players in the league
-    </p>
+    <span class="inline-flex items-center gap-2 rounded-full bg-apl-orange text-apl-yellow px-4 py-1.5 text-sm font-bold mb-6">
+      <span class="font-mono">{players.length}</span> players in the league
+    </span>
 
     <PlayerSearch players={players} />
   </div>

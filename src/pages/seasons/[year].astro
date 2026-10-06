@@ -28,17 +28,20 @@ const { stats } = season;
 ---
 
 <Layout title="Tournaments – Amsterdam Pauper League">
-  <div class="container mx-auto max-w-screen-2xl px-4 py-8">
-    <h1 class="text-3xl font-bold mb-6">Seasons</h1>
+  <div class="container mx-auto max-w-6xl px-6 py-6">
+    <h1 class="heading-display text-4xl md:text-5xl mb-6">Seasons</h1>
 
     <!-- Year switcher -->
-    <div class="flex gap-4 mb-6">
+    <div class="flex gap-2 mb-6">
       {availableYears.map((y) => (
         <a
           href={`/seasons/${y}`}
-          class={currentYear === y
-            ? "font-bold underline underline-offset-4"
-            : "text-muted-foreground hover:underline underline-offset-4"}
+          class:list={[
+            "rounded-full px-4 py-1.5 text-sm font-bold transition-colors",
+            currentYear === y
+              ? "bg-apl-orange text-apl-navy"
+              : "text-muted-foreground hover:bg-muted",
+          ]}
         >
           {y}
         </a>
@@ -55,9 +58,9 @@ const { stats } = season;
 
     <!-- Next event (only for the current season) -->
     {currentYear === CURRENT_SEASON_YEAR && nextEvent && (
-      <section class="mb-8">
+      <section class="mb-6">
         <h2 class="text-xl font-semibold mb-4">Next Event</h2>
-        <div class="rounded-xl bg-apl-purple text-apl-yellow overflow-hidden">
+        <div class="rounded-xl bg-apl-orange text-apl-yellow overflow-hidden">
           <div class="flex items-center justify-between py-3 px-4">
             <div>
               <div class="font-medium">{nextEvent.name}</div>
@@ -70,7 +73,7 @@ const { stats } = season;
                 href={nextEvent.registrationUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-sm rounded-lg px-3 py-1 bg-primary text-primary-foreground hover:opacity-90 transition-colors"
+                class="text-sm rounded-lg px-3 py-1 bg-apl-yellow text-apl-navy hover:opacity-90 transition-colors"
               >
                 Register
               </a>
@@ -82,7 +85,7 @@ const { stats } = season;
           </div>
         </div>
         <div class="mt-2">
-          <a href={`/events/${year}`} class="text-sm hover:underline underline-offset-4 text-primary">
+          <a href={`/events/${year}`} class="text-sm hover:underline underline-offset-4 text-apl-navy">
             View calendar →
           </a>
         </div>
@@ -91,16 +94,16 @@ const { stats } = season;
 
     <!-- Recent events -->
     {recentEvents.length > 0 && (
-      <section class="mb-8">
+      <section class="mb-6">
         <h2 class="text-xl font-semibold mb-4">Past Events</h2>
         <div class="grid gap-4 sm:grid-cols-2">
           {recentEvents.map((event, i) => (
-            <a href={`/events/${event.slug}`} class:list={["block rounded-xl p-4 hover:opacity-90 transition-opacity", i % 2 === 0 ? "bg-apl-orange text-black" : "bg-apl-yellow text-apl-orange"]}>
+            <a href={`/events/${event.slug}`} class:list={["block rounded-xl p-4 hover:opacity-90 transition-opacity", i % 2 === 0 ? "bg-apl-orange text-apl-navy" : "bg-apl-yellow text-apl-orange"]}>
               <div class="font-semibold mb-1">{event.name}</div>
-              <div class:list={["text-sm mb-3", i % 2 === 0 ? "text-black/70" : "text-apl-orange/70"]}>
+              <div class:list={["text-sm mb-3", i % 2 === 0 ? "text-apl-navy/70" : "text-apl-orange/70"]}>
                 {formatDate(event.date)} @ {event.venue}
               </div>
-              <div class:list={["flex items-center gap-4 text-sm", i % 2 === 0 ? "text-black/70" : "text-apl-orange/70"]}>
+              <div class:list={["flex items-center gap-4 text-sm", i % 2 === 0 ? "text-apl-navy/70" : "text-apl-orange/70"]}>
                 {event.winner && (
                   <span class="flex items-center gap-1">
                     <svg class="h-[14px] w-[14px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -122,7 +125,7 @@ const { stats } = season;
           ))}
         </div>
         <div class="mt-2">
-          <a href={`/events/${year}`} class="text-sm hover:underline underline-offset-4 text-primary">
+          <a href={`/events/${year}`} class="text-sm hover:underline underline-offset-4 text-apl-navy">
             View all →
           </a>
         </div>
@@ -130,13 +133,13 @@ const { stats } = season;
     )}
 
     <!-- Stats + Progress -->
-    <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4 mb-8 items-stretch">
+    <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4 mb-6 items-stretch">
 
       <!-- Left: stacked stat cards -->
       <div class="grid grid-cols-2 gap-3 sm:flex sm:flex-col sm:gap-4">
-        <div class="flex-1 rounded-xl bg-apl-orange text-black p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
+        <div class="flex-1 rounded-xl bg-apl-orange text-apl-navy p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
           <div class="text-2xl sm:text-3xl font-bold font-mono" data-count={stats.uniquePlayers}>{stats.uniquePlayers}</div>
-          <div class="text-sm text-black/70">unique players</div>
+          <div class="text-sm text-apl-navy/70">unique players</div>
         </div>
         <div class="flex-1 rounded-xl bg-apl-yellow text-apl-orange p-3 sm:p-4 text-center w-full sm:w-40 flex flex-col items-center justify-center">
           <div class="text-2xl sm:text-3xl font-bold font-mono" data-count={stats.averagePlayers}>{stats.averagePlayers}</div>
@@ -145,16 +148,16 @@ const { stats } = season;
       </div>
 
       <!-- Right: progress bars -->
-      <div class="rounded-xl bg-apl-purple text-apl-yellow p-6 flex flex-col justify-center gap-8">
+      <div class="rounded-xl bg-apl-navy text-apl-orange p-6 flex flex-col justify-center gap-5">
 
         <!-- Legs played -->
         <div>
           <p class="font-medium text-sm mb-3">Legs played</p>
-          <div class="flex h-8 rounded-sm border border-black/20 overflow-hidden divide-x divide-black/20" data-bar={stats.eventsCompleted} data-bar-dur="300">
+          <div class="flex h-8 rounded-sm border border-apl-orange/20 overflow-hidden divide-x divide-apl-orange/20" data-bar={stats.eventsCompleted} data-bar-dur="300">
             {Array.from({ length: stats.totalEvents }, (_, i) => (
-              <div class="relative flex-1 bg-white/40">
-                <div class="bar-seg-fill absolute inset-y-0 left-0 bg-green-700" style="width:0%"></div>
-                <div class="bar-seg-num absolute inset-0 flex items-center justify-center text-xs font-mono font-bold text-black/70">
+              <div class="relative flex-1 bg-apl-white/15">
+                <div class="bar-seg-fill absolute inset-y-0 left-0 bg-apl-orange" style="width:0%"></div>
+                <div class="bar-seg-num absolute inset-0 flex items-center justify-center text-xs font-mono font-bold text-apl-white/70">
                   {i + 1}
                 </div>
               </div>
@@ -165,11 +168,11 @@ const { stats } = season;
         <!-- Byes and flight tickets unlocked -->
         <div>
           <p class="font-medium text-sm mb-3">Byes and flight tickets unlocked</p>
-          <div class="flex h-8 rounded-sm border border-black/20 overflow-hidden divide-x divide-black/20" data-bar={stats.byesUnlocked} data-bar-dur="700">
+          <div class="flex h-8 rounded-sm border border-apl-orange/20 overflow-hidden divide-x divide-apl-orange/20" data-bar={stats.byesUnlocked} data-bar-dur="700">
             {[1, 2, 3].map((n) => (
-              <div class="relative flex-1 bg-white/40">
-                <div class="bar-seg-fill absolute inset-y-0 left-0 bg-green-700" style="width:0%"></div>
-                <div class="bar-seg-num absolute inset-0 flex items-center justify-center text-xs font-mono font-bold text-black/70">
+              <div class="relative flex-1 bg-apl-white/15">
+                <div class="bar-seg-fill absolute inset-y-0 left-0 bg-apl-orange" style="width:0%"></div>
+                <div class="bar-seg-num absolute inset-0 flex items-center justify-center text-xs font-mono font-bold text-apl-white/70">
                   {n}
                 </div>
               </div>
@@ -215,17 +218,17 @@ const { stats } = season;
                 <span class="flex items-center gap-2">
                   {currentYear === CURRENT_SEASON_YEAR && (
                     s.positionChange === undefined ? (
-                      <span class="text-[10px] font-bold tracking-wider text-yellow-600 dark:text-yellow-400 shrink-0" title="New player in the season">NEW</span>
+                      <span class="text-[10px] font-bold tracking-wider rounded px-1.5 py-0.5 bg-apl-yellow text-apl-purple shrink-0" title="New player in the season">NEW</span>
                     ) : s.positionChange > 0 ? (
-                      <svg class="h-4 w-4 text-green-600 dark:text-green-400 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Up ${s.positionChange} since last leg`}>
+                      <svg class="h-4 w-4 text-apl-navy shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Up ${s.positionChange} since last leg`}>
                         <path d="m18 15-6-6-6 6" />
                       </svg>
                     ) : s.positionChange < 0 ? (
-                      <svg class="h-4 w-4 text-red-600 dark:text-red-400 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Down ${-s.positionChange} since last leg`}>
+                      <svg class="h-4 w-4 text-apl-navy/65 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title={`Down ${-s.positionChange} since last leg`}>
                         <path d="m6 9 6 6 6-6" />
                       </svg>
                     ) : (
-                      <svg class="h-4 w-4 text-muted-foreground shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title="Unchanged since last leg">
+                      <svg class="h-4 w-4 text-apl-navy/35 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" title="Unchanged since last leg">
                         <path d="m9 18 6-6-6-6" />
                       </svg>
                     )
@@ -234,17 +237,17 @@ const { stats } = season;
                     {s.player}
                   </a>
                   {currentYear < CURRENT_SEASON_YEAR && s.position === 1 && (
-                    <svg class="h-4 w-4 text-primary shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <svg class="h-4 w-4 text-apl-navy shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                       <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
                     </svg>
                   )}
                   {s.flight && (
-                    <svg class="h-[18px] w-[18px] text-primary shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <svg class="h-[18px] w-[18px] text-apl-navy shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                       <path transform="rotate(30, 12, 12)" d="M12 3 L10 11 L2 14 L10 13 L10 20 L8 22 L12 21 L16 22 L14 20 L14 13 L22 14 L14 11 Z" />
                     </svg>
                   )}
                   {s.bye && (
-                    <svg class="h-4 w-4 text-primary shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <svg class="h-4 w-4 text-apl-navy shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                       <g transform="translate(4,0)">
                         <path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0" /><path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2" /><path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8" /><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15" />
                       </g>
@@ -266,7 +269,7 @@ const { stats } = season;
     <div class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
       {currentYear === CURRENT_SEASON_YEAR && (
         <span class="flex items-center gap-2">
-          <span class="text-[10px] font-bold tracking-wider text-yellow-600 dark:text-yellow-400">NEW</span>
+          <span class="text-[10px] font-bold tracking-wider rounded px-1.5 py-0.5 bg-apl-yellow text-apl-purple">NEW</span>
           New player in the season
         </span>
       )}
@@ -334,8 +337,8 @@ const { stats } = season;
         fill.style.transition = `width ${dur}ms linear`;
         fill.style.width = "100%";
         setTimeout(() => {
-          num.classList.remove("text-black/70");
-          num.classList.add("text-white");
+          num.classList.remove("text-apl-white/70");
+          num.classList.add("text-apl-navy");
         }, dur * 0.5);
       }, i * dur);
     });

@@ -18,17 +18,20 @@ const eventsForYear = EVENTS.filter((e) => e.date.startsWith(year)).sort(
 ---
 
 <Layout title="Events – Amsterdam Pauper League">
-  <div class="container mx-auto max-w-screen-2xl px-4 py-8">
-    <h1 class="text-3xl font-bold mb-6">Events</h1>
+  <div class="container mx-auto max-w-6xl px-6 py-6">
+    <h1 class="heading-display text-4xl md:text-5xl mb-6">Events</h1>
 
     <!-- Year tabs -->
-    <div class="flex gap-4 mb-6">
+    <div class="flex gap-2 mb-6">
       {availableYears.map((y) => (
         <a
           href={`/events/${y}`}
-          class={currentYear === y
-            ? "font-bold underline underline-offset-4"
-            : "text-muted-foreground hover:underline underline-offset-4"}
+          class:list={[
+            "rounded-full px-4 py-1.5 text-sm font-bold transition-colors",
+            currentYear === y
+              ? "bg-apl-orange text-apl-navy"
+              : "text-muted-foreground hover:bg-muted",
+          ]}
         >
           {y}
         </a>
@@ -61,7 +64,7 @@ const eventsForYear = EVENTS.filter((e) => e.date.startsWith(year)).sort(
                     href={event.registrationUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-sm rounded-lg px-3 py-1 bg-primary text-primary-foreground hover:opacity-90 transition-colors"
+                    class="text-sm rounded-lg px-3 py-1 bg-apl-orange text-apl-navy hover:opacity-90 transition-colors"
                   >
                     Register
                   </a>

@@ -125,7 +125,7 @@ const META_LEGEND_ROWS = Math.max(1, Math.ceil(legendItems.length / 2));
 ---
 
 {sortedMeta.length > 0 && (
-  <section class="mb-8">
+  <section class="mb-6">
     <h2 class="text-xl font-semibold mb-4">{title}</h2>
 
     <div class="bg-card border border-border rounded-xl p-5">
@@ -208,8 +208,7 @@ const META_LEGEND_ROWS = Math.max(1, Math.ceil(legendItems.length / 2));
     pointer-events: none;
     top: 0;
     left: 0;
-    background: var(--popover);
-    border: 1px solid var(--border);
+    background: var(--apl-yellow);
     border-radius: var(--radius-md);
     padding: 0.5rem 0.75rem;
     box-shadow: 0 10px 30px rgb(0 0 0 / 0.4);
@@ -217,12 +216,13 @@ const META_LEGEND_ROWS = Math.max(1, Math.ceil(legendItems.length / 2));
 
   .meta-pie-tooltip-name {
     font-weight: 600;
-    color: var(--foreground);
+    color: var(--apl-navy);
     font-size: 0.875rem;
   }
 
   .meta-pie-tooltip-value {
-    color: var(--muted-foreground);
+    color: var(--apl-navy);
+    opacity: 0.7;
     font-size: 0.75rem;
   }
 </style>

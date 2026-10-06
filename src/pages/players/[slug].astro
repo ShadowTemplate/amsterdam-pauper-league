@@ -24,41 +24,41 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
 ---
 
 <Layout title={title}>
-  <div class="container mx-auto max-w-screen-2xl px-4 py-8">
+  <div class="container mx-auto max-w-6xl px-6 py-6">
     <!-- Breadcrumb -->
     <nav class="text-sm text-muted-foreground mb-4">
       <a href="/players" class="hover:underline underline-offset-4">Players</a>
       <span class="mx-2">›</span>{player.name}
     </nav>
 
-    <h1 class="text-3xl font-bold mb-2">{player.name}</h1>
-    <p class="text-muted-foreground mb-8">Tournament results and statistics</p>
+    <h1 class="heading-display text-3xl md:text-4xl mb-2">{player.name}</h1>
+    <p class="text-muted-foreground mb-5">Tournament results and statistics</p>
 
     {detail ? (
       <>
         <!-- Stats row -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
-          <div class="rounded-xl bg-apl-orange text-black text-center py-4">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+          <div class="rounded-xl bg-apl-orange text-apl-navy text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.wins}</div>
-            <div class="text-sm text-black/70">wins</div>
+            <div class="text-sm text-apl-navy/70">wins</div>
           </div>
-          <div class="rounded-xl bg-apl-purple text-apl-yellow text-center py-4">
+          <div class="rounded-xl bg-apl-navy text-apl-orange text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.losses}</div>
-            <div class="text-sm text-apl-yellow/70">losses</div>
+            <div class="text-sm text-apl-orange/70">losses</div>
           </div>
           <div class="rounded-xl bg-apl-yellow text-apl-orange text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.draws}</div>
             <div class="text-sm text-apl-orange/70">draws</div>
           </div>
-          <div class="rounded-xl bg-apl-orange text-black text-center py-4">
+          <div class="rounded-xl bg-apl-yellow text-apl-purple text-center py-4">
             <div class="text-3xl font-bold font-mono">{detail.stats.byes}</div>
-            <div class="text-sm text-black/70">byes</div>
+            <div class="text-sm text-apl-purple/70">byes</div>
           </div>
         </div>
 
         <!-- Archetypes recap -->
         {detail.archetypes.length > 0 && (
-          <div class="mb-8">
+          <div class="mb-5">
             <h2 class="text-xl font-semibold mb-1">Archetypes played: {detail.archetypes.length}</h2>
             <p class="text-sm text-muted-foreground">
               {detail.archetypes.map((archetype, i) => (
@@ -78,7 +78,7 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
 
         <!-- Pet cards -->
         {detail.petCards.length > 0 && (
-          <div class="mb-8">
+          <div class="mb-5">
             <h2 class="text-xl font-semibold mb-1">Pet cards: {detail.petCards.length}</h2>
             <p class="text-sm text-muted-foreground">
               {detail.petCards.map((card, i) => (
@@ -95,7 +95,7 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
 
         <!-- Rival -->
         {detail.rival && (
-          <div class="mb-8">
+          <div class="mb-5">
             <h2 class="text-xl font-semibold mb-1">
               Rival:{" "}
               <a
@@ -113,7 +113,7 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
 
         <!-- Worst matchup -->
         {detail.worstMatchup && (
-          <div class="mb-8">
+          <div class="mb-5">
             <h2 class="text-xl font-semibold mb-1">
               Worst matchup:{" "}
               <a
@@ -133,7 +133,7 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
         {detail.results.map((result) => {
           const deck = findDeckByEventAndPilot(result.eventSlug, player.name, result.deck);
           return (
-          <section class="mb-8">
+          <section class="mb-5">
             <h2 class="text-xl font-semibold mb-1">
               <a
                 href={`/events/${result.eventSlug}`}
@@ -176,7 +176,7 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
                   {[...result.rounds]
                     .sort((a, b) => b.round - a.round)
                     .map((r) => (
-                      <tr class={r.result === "Win" ? "text-green-600 dark:text-green-400" : r.result === "Loss" ? "text-red-600 dark:text-red-400" : r.result === "Draw" ? "text-yellow-500 dark:text-yellow-400" : ""}>
+                      <tr>
                         <td class="py-3 px-4 border-b border-border font-mono">{r.round}</td>
                         <td class="py-3 px-4 border-b border-border">
                           {(() => {
@@ -207,7 +207,22 @@ const playerSlugByName = Object.fromEntries(PLAYERS.map((p) => [p.name.toLowerCa
                             ) : r.opponentPilot;
                           })()}
                         </td>
-                        <td class="py-3 px-4 border-b border-border font-medium">{r.result}</td>
+                        <td class="py-3 px-4 border-b border-border">
+                          <span
+                            class:list={[
+                              "inline-block rounded px-2 py-0.5 text-xs font-bold",
+                              r.result === "Win"
+                                ? "bg-apl-orange text-apl-navy"
+                                : r.result === "Loss"
+                                  ? "bg-apl-navy text-apl-orange"
+                                  : r.result === "Draw"
+                                    ? "bg-apl-yellow text-apl-purple"
+                                    : "bg-muted text-muted-foreground",
+                            ]}
+                          >
+                            {r.result}
+                          </span>
+                        </td>
                       </tr>
                     ))}
                 </tbody>
