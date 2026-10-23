@@ -229,8 +229,8 @@
   const popup = document.getElementById("card-preview-popup") as HTMLElement;
   const panel = popup.querySelector(".card-preview-panel") as HTMLElement;
   const title = popup.querySelector(".card-preview-title") as HTMLElement;
-  const frontImg = popup.querySelector('[data-face="front"]') as HTMLImageElement;
-  const backImg = popup.querySelector('[data-face="back"]') as HTMLImageElement;
+  let frontImg = popup.querySelector('[data-face="front"]') as HTMLImageElement;
+  let backImg = popup.querySelector('[data-face="back"]') as HTMLImageElement;
   const oracleBox = popup.querySelector(".card-preview-oracle") as HTMLElement;
 
   const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
@@ -270,6 +270,26 @@
       img.onerror = () => img.replaceWith(part);
       parent.append(img);
     }
+  }
+
+  /**
+   * Replace an image with a brand-new <img>. Changing src on the existing
+   * element keeps painting the previous card until the new file arrives, so
+   * on a slow connection the wrong card showed next to this one's text; a new
+   * element shows the empty placeholder background until it has loaded.
+   */
+  function swapImage(old: HTMLImageElement, src: string, alt: string): HTMLImageElement {
+    if (old.getAttribute("src") === src) return old;
+    const img = document.createElement("img");
+    // Copy class, data-face, hidden and Astro's scoped-style attribute -
+    // everything except the image itself.
+    for (const attr of old.attributes) {
+      if (attr.name !== "src") img.setAttribute(attr.name, attr.value);
+    }
+    img.alt = alt;
+    img.src = src;
+    old.replaceWith(img);
+    return img;
   }
 
   function el(tag: string, className: string): HTMLElement {
@@ -334,11 +354,9 @@
       const name = trigger.dataset.cardName ?? "";
       title.textContent = name;
       panel.setAttribute("aria-label", name);
-      frontImg.src = front;
-      frontImg.alt = name;
+      frontImg = swapImage(frontImg, front, name);
       if (back) {
-        backImg.src = back;
-        backImg.alt = `${name} (back face)`;
+        backImg = swapImage(backImg, back, `${name} (back face)`);
         backImg.hidden = false;
       } else {
         backImg.hidden = true;
