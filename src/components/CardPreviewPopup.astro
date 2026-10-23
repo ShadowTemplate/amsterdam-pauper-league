@@ -13,7 +13,11 @@
 */}
 <div id="card-preview-popup" class="card-preview-popup" hidden>
   <div class="card-preview-panel" role="dialog" aria-modal="false">
-    <div class="card-preview-handle" aria-hidden="true"></div>
+    <button type="button" class="card-preview-handle" aria-label="Close preview">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="16" viewBox="0 0 48 16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 4 24 12 44 4" />
+      </svg>
+    </button>
     <p class="card-preview-title"></p>
     <div class="card-preview-images">
       <img class="card-preview-img" data-face="front" alt="" />
@@ -115,13 +119,20 @@
     animation: card-preview-slide-up 250ms cubic-bezier(0.32, 0.72, 0, 1);
   }
 
+  /* Downward chevron instead of a flat grab bar, hinting "swipe down to close". */
   .card-preview-popup.is-drawer .card-preview-handle {
-    display: block;
+    display: flex;
     flex-shrink: 0;
-    width: 100px;
-    height: 0.5rem;
-    border-radius: 9999px;
-    background: var(--muted);
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 1.75rem;
+    margin: -0.5rem 0 -0.5rem;
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--muted-foreground);
+    cursor: pointer;
   }
 
   .card-preview-popup.is-drawer .card-preview-title {
@@ -232,6 +243,7 @@
   let frontImg = popup.querySelector('[data-face="front"]') as HTMLImageElement;
   let backImg = popup.querySelector('[data-face="back"]') as HTMLImageElement;
   const oracleBox = popup.querySelector(".card-preview-oracle") as HTMLElement;
+  const handle = popup.querySelector(".card-preview-handle") as HTMLButtonElement;
 
   const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
   const OPEN_DELAY = 200;
@@ -387,7 +399,92 @@
     pinnedTrigger = null;
     shownTrigger = null;
     document.documentElement.style.overflow = "";
+    panel.style.transform = "";
+    panel.style.transition = "";
+    popup.style.backgroundColor = "";
   }
+
+  // Swipe down on the drawer to dismiss it. The drag only takes over when
+  // the panel is scrolled to the top, so swiping down on scrolled text first
+  // scrolls it back up, like a native bottom sheet.
+  // Same thresholds as vaul, the drawer used on pauperformance.market.
+  const DISMISS_DISTANCE = 0.25; // fraction of the panel height
+  const DISMISS_VELOCITY = 0.4; // px/ms - a quick flick also dismisses
+  let dragStartY: number | null = null;
+  let dragging = false;
+  let dragOffset = 0;
+  // Last two touch samples, for the release velocity.
+  let lastY = 0;
+  let lastTime = 0;
+  let velocity = 0;
+
+  panel.addEventListener(
+    "touchstart",
+    (e) => {
+      if (!popup.classList.contains("is-drawer") || e.touches.length !== 1) return;
+      dragStartY = e.touches[0].clientY;
+      lastY = dragStartY;
+      lastTime = e.timeStamp;
+      dragging = false;
+      dragOffset = 0;
+      velocity = 0;
+    },
+    { passive: true },
+  );
+
+  panel.addEventListener(
+    "touchmove",
+    (e) => {
+      if (dragStartY === null) return;
+      const y = e.touches[0].clientY;
+      const dy = y - dragStartY;
+      velocity = (y - lastY) / Math.max(1, e.timeStamp - lastTime);
+      lastY = y;
+      lastTime = e.timeStamp;
+      if (!dragging) {
+        // Start dragging only on a downward move from the top; otherwise let it scroll.
+        if (dy <= 0 || panel.scrollTop > 0) {
+          if (dy < 0) dragStartY = null;
+          return;
+        }
+        dragging = true;
+        panel.style.transition = "none";
+      }
+      e.preventDefault();
+      dragOffset = Math.max(0, dy);
+      panel.style.transform = `translateY(${dragOffset}px)`;
+      const progress = Math.min(1, dragOffset / panel.offsetHeight);
+      popup.style.backgroundColor = `rgb(0 0 0 / ${0.8 * (1 - progress)})`;
+    },
+    { passive: false },
+  );
+
+  function endDrag() {
+    if (dragStartY === null) return;
+    dragStartY = null;
+    if (!dragging) return;
+    dragging = false;
+    const dismiss = dragOffset > panel.offsetHeight * DISMISS_DISTANCE || velocity > DISMISS_VELOCITY;
+    panel.style.transition = "transform 200ms ease-out";
+    popup.style.transition = "background-color 200ms ease-out";
+    if (dismiss) {
+      panel.style.transform = "translateY(100%)";
+      popup.style.backgroundColor = "rgb(0 0 0 / 0)";
+      window.setTimeout(() => {
+        popup.style.transition = "";
+        hidePreview();
+      }, 200);
+    } else {
+      panel.style.transform = "";
+      popup.style.backgroundColor = "";
+      window.setTimeout(() => (popup.style.transition = ""), 200);
+    }
+  }
+
+  handle.addEventListener("click", hidePreview);
+
+  panel.addEventListener("touchend", endDrag);
+  panel.addEventListener("touchcancel", endDrag);
 
   function positionPopup(trigger: HTMLElement) {
     const rect = trigger.getBoundingClientRect();
