@@ -46,6 +46,16 @@ export interface CardImage {
   back?: string;
 }
 
+/** One face of a card's current Oracle wording (split/DFC/adventure cards have several). */
+export interface OracleFace {
+  name: string;
+  manaCost: string;
+  typeLine: string;
+  text: string;
+  /** Power/toughness, loyalty or defense, when the face has one. */
+  stats?: string;
+}
+
 export type ManaColor = "W" | "U" | "B" | "R" | "G";
 
 export type CardType =

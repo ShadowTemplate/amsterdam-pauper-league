@@ -69,13 +69,23 @@ This runs, in order:
     is what lets deck pages group the main deck/sideboard by card type.
 13. **`generate_card_types.py`** - rebuilds `src/lib/data/card-types.ts`
     from `data/scryfall/types_manifest.json`.
-14. **`generate_seasons.py`** - rebuilds `src/lib/data/seasons/{year}.ts`
+14. **`fetch_card_oracle.py`** - resolves every unique card name across all
+    decks against the Scryfall API, recording each card's current Oracle
+    wording (per face: name, mana cost, type line, rules text, P/T or
+    loyalty) in `data/scryfall/oracle_manifest.json`, and downloads any
+    mana/tap symbol SVG that text uses into `public/scryfall/symbols/`.
+    Idempotent, same as step 8; pass `--refresh` to re-fetch every card
+    after Oracle errata. The card preview popup shows this text next to the
+    image, since the wording printed on the image can be outdated.
+15. **`generate_card_oracle.py`** - rebuilds `src/lib/data/card-oracle.ts`
+    from `data/scryfall/oracle_manifest.json`.
+16. **`generate_seasons.py`** - rebuilds `src/lib/data/seasons/{year}.ts`
     (points, stats, byesUnlocked) from events + `seasons_info.json`.
-15. **`generate_data_layer.py`** - rebuilds `src/lib/data-layer.ts`, wiring up
+17. **`generate_data_layer.py`** - rebuilds `src/lib/data-layer.ts`, wiring up
     every event/season import automatically.
 
-Card preview images (`public/scryfall/`) and their manifest
-(`data/scryfall/manifest.json`) are committed to the repo, since the GitHub
+Card preview images and mana symbols (`public/scryfall/`) and their manifests
+(`data/scryfall/*.json`) are committed to the repo, since the GitHub
 Pages deploy workflow only runs `npm run build` - it never calls Python or
 hits the Scryfall API.
 

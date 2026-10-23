@@ -1,5 +1,6 @@
 ---
 import { CARD_IMAGES } from "@/lib/data/card-images";
+import { CARD_ORACLE } from "@/lib/data/card-oracle";
 
 interface Props {
   name: string;
@@ -8,12 +9,15 @@ interface Props {
 
 const { name, quantity } = Astro.props;
 const image = CARD_IMAGES[name];
+const oracle = CARD_ORACLE[name];
 ---
 
 <div
   class="card-tile"
   data-card-front={image?.front}
   data-card-back={image?.back}
+  data-card-name={image && name}
+  data-card-oracle={image && oracle && JSON.stringify(oracle)}
   tabindex={image ? 0 : undefined}
   role={image ? "button" : undefined}
   aria-label={image ? `Preview ${name}` : undefined}

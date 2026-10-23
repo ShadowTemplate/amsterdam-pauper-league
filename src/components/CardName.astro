@@ -1,5 +1,6 @@
 ---
 import { CARD_IMAGES } from "@/lib/data/card-images";
+import { CARD_ORACLE } from "@/lib/data/card-oracle";
 
 interface Props {
   name: string;
@@ -7,6 +8,7 @@ interface Props {
 
 const { name } = Astro.props;
 const image = CARD_IMAGES[name];
+const oracle = CARD_ORACLE[name];
 ---
 
 {image ? (
@@ -14,6 +16,8 @@ const image = CARD_IMAGES[name];
     class="card-preview-trigger cursor-default underline decoration-dotted decoration-muted-foreground underline-offset-4 hover:text-primary"
     data-card-front={image.front}
     data-card-back={image.back}
+    data-card-name={name}
+    data-card-oracle={oracle && JSON.stringify(oracle)}
     tabindex="0"
     role="button"
     aria-label={`Preview ${name}`}
