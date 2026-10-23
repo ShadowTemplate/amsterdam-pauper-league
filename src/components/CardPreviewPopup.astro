@@ -1,97 +1,328 @@
 {/*
-  Shared floating preview shown by any element with a data-card-front
-  attribute (see CardName.astro). One instance per page, included once in
-  the root layout: desktop hovers/focuses a trigger to preview it in a small
-  floating box, touch devices tap a trigger to open a near-fullscreen
-  overlay instead (a small floating preview isn't a meaningful "zoom in" on
-  mobile, especially over cards already shown as images in the visual deck
-  view); tapping outside or the close button dismisses it.
+  Shared card preview shown by any element with a data-card-front attribute
+  (see CardName.astro and CardImageTile.astro). One instance per page,
+  included once in the root layout. Next to the card image it shows the
+  card's current Oracle text (data-card-oracle), since the wording printed
+  on the image can be outdated.
+
+  Desktop hovers/focuses a trigger to open a floating panel beside it (after
+  a short delay, so sweeping the mouse across a list doesn't flash previews);
+  touch devices tap a trigger to open a bottom drawer instead. Clicking a
+  trigger pins the preview; clicking/tapping outside, the overlay or Escape
+  dismisses it.
 */}
 <div id="card-preview-popup" class="card-preview-popup" hidden>
-  <button type="button" class="card-preview-close" aria-label="Close preview">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <line x1="18" y1="6" x2="6" y2="18" />
-      <line x1="6" y1="6" x2="18" y2="18" />
-    </svg>
-  </button>
-  <img class="card-preview-img" data-face="front" alt="" />
-  <img class="card-preview-img" data-face="back" alt="" hidden />
+  <div class="card-preview-panel" role="dialog" aria-modal="false">
+    <div class="card-preview-handle" aria-hidden="true"></div>
+    <p class="card-preview-title"></p>
+    <div class="card-preview-images">
+      <img class="card-preview-img" data-face="front" alt="" />
+      <img class="card-preview-img" data-face="back" alt="" hidden />
+    </div>
+    <div class="card-preview-oracle"></div>
+  </div>
 </div>
 
 <style>
   .card-preview-popup {
     position: fixed;
     z-index: 100;
-    display: flex;
-    gap: 0.5rem;
     top: 0;
     left: 0;
+    pointer-events: none;
   }
 
-  .card-preview-img {
-    width: 220px;
-    max-width: 42vw;
-    aspect-ratio: 63 / 88;
-    object-fit: cover;
-    border-radius: 4.5% / 3.2%;
-    box-shadow: 0 10px 30px rgb(0 0 0 / 0.55);
-    background: var(--muted);
+  .card-preview-panel {
+    display: flex;
+    gap: 0.75rem;
+    max-width: calc(100vw - 24px);
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) - 2px);
+    background: var(--popover);
+    color: var(--popover-foreground);
+    box-shadow:
+      0 4px 6px -1px rgb(0 0 0 / 0.3),
+      0 10px 30px rgb(0 0 0 / 0.45);
+    animation: card-preview-in 150ms ease-out;
+    transform-origin: var(--card-preview-origin, left center);
   }
 
-  .card-preview-close {
+  .card-preview-handle,
+  .card-preview-title {
     display: none;
   }
 
-  /* Touch devices: near-fullscreen overlay instead of a small floating box. */
-  .card-preview-popup.is-fullscreen {
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 2.5rem 1.25rem;
-    background: rgb(0 0 0 / 0.8);
-  }
-
-  .card-preview-popup.is-fullscreen .card-preview-img {
-    width: min(88vw, 420px);
-    max-width: none;
-  }
-
-  .card-preview-popup.is-fullscreen .card-preview-close {
+  .card-preview-images {
     display: flex;
+    flex-shrink: 0;
+    gap: 0.5rem;
+    align-self: flex-start;
+  }
+
+  .card-preview-img {
+    width: 200px;
+    aspect-ratio: 63 / 88;
+    object-fit: cover;
+    border-radius: 4.5% / 3.2%;
+    background: var(--muted);
+  }
+
+  .card-preview-oracle {
+    width: 260px;
+    padding: 0.25rem 0.25rem 0.25rem 0;
+    font-size: 0.8125rem;
+    line-height: 1.45;
+  }
+
+  .card-preview-oracle:empty {
+    display: none;
+  }
+
+  @keyframes card-preview-in {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  }
+
+  /* Touch devices: bottom drawer over a dimmed overlay. */
+  .card-preview-popup.is-drawer {
+    inset: 0;
+    background: rgb(0 0 0 / 0.8);
+    pointer-events: auto;
+    animation: card-preview-fade 200ms ease-out;
+  }
+
+  .card-preview-popup.is-drawer .card-preview-panel {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: none;
+    max-height: 88vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    border: none;
+    gap: 1rem;
+    padding: 1rem 1rem calc(2rem + env(safe-area-inset-bottom));
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background: var(--background);
+    color: var(--foreground);
+    box-shadow: none;
+    animation: card-preview-slide-up 250ms cubic-bezier(0.32, 0.72, 0, 1);
+  }
+
+  .card-preview-popup.is-drawer .card-preview-handle {
+    display: block;
+    flex-shrink: 0;
+    width: 100px;
+    height: 0.5rem;
     border-radius: 9999px;
-    background: rgb(255 255 255 / 0.15);
-    color: white;
-    cursor: pointer;
+    background: var(--muted);
+  }
+
+  .card-preview-popup.is-drawer .card-preview-title {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .card-preview-popup.is-drawer .card-preview-images {
+    align-self: center;
+    justify-content: center;
+  }
+
+  .card-preview-popup.is-drawer .card-preview-img {
+    width: min(260px, 70vw);
+  }
+
+  .card-preview-popup.is-drawer .card-preview-images:has(> :nth-child(2):not([hidden])) .card-preview-img {
+    width: min(260px, calc(50vw - 1.25rem));
+  }
+
+  .card-preview-popup.is-drawer .card-preview-oracle {
+    width: 100%;
+    max-width: 420px;
+    padding: 0;
+    font-size: 0.9375rem;
+  }
+
+  @keyframes card-preview-fade {
+    from {
+      opacity: 0;
+    }
+  }
+
+  @keyframes card-preview-slide-up {
+    from {
+      transform: translateY(100%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card-preview-panel,
+    .card-preview-popup.is-drawer,
+    .card-preview-popup.is-drawer .card-preview-panel {
+      animation: none;
+    }
+  }
+
+  /* Oracle text, built in the script below (hence :global). */
+  .card-preview-oracle :global(.oracle-face + .oracle-face) {
+    margin-top: 0.625rem;
+    padding-top: 0.625rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .card-preview-oracle :global(.oracle-header) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-weight: 600;
+  }
+
+  .card-preview-oracle :global(.oracle-cost) {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .card-preview-oracle :global(.oracle-type) {
+    margin-top: 0.125rem;
+    color: var(--muted-foreground);
+    font-size: 0.9em;
+  }
+
+  .card-preview-oracle :global(.oracle-text p) {
+    margin-top: 0.375rem;
+  }
+
+  .card-preview-oracle :global(.oracle-stats) {
+    margin-top: 0.375rem;
+    text-align: right;
+    font-weight: 600;
+  }
+
+  .card-preview-oracle :global(.mana-symbol) {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.05em;
+    vertical-align: -0.125em;
   }
 </style>
 
 <script>
+  interface OracleFace {
+    name: string;
+    manaCost: string;
+    typeLine: string;
+    text: string;
+    stats?: string;
+  }
+
   const popup = document.getElementById("card-preview-popup") as HTMLElement;
+  const panel = popup.querySelector(".card-preview-panel") as HTMLElement;
+  const title = popup.querySelector(".card-preview-title") as HTMLElement;
   const frontImg = popup.querySelector('[data-face="front"]') as HTMLImageElement;
   const backImg = popup.querySelector('[data-face="back"]') as HTMLImageElement;
-  const closeBtn = popup.querySelector(".card-preview-close") as HTMLButtonElement;
+  const oracleBox = popup.querySelector(".card-preview-oracle") as HTMLElement;
 
   const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  const OPEN_DELAY = 200;
+  const CLOSE_DELAY = 100;
 
   // Set once a trigger is clicked/tapped; keeps the preview open through
   // mouseout so touch taps (and desktop "click to pin") don't auto-dismiss.
   let pinnedTrigger: HTMLElement | null = null;
+  let shownTrigger: HTMLElement | null = null;
+  let openTimer: number | undefined;
+  let closeTimer: number | undefined;
 
   function triggerOf(target: EventTarget | null): HTMLElement | null {
     return target instanceof Element ? target.closest<HTMLElement>("[data-card-front]") : null;
+  }
+
+  // Must match symbol_filename() in scripts/fetch_card_oracle.py.
+  function symbolSrc(symbol: string): string {
+    return `/scryfall/symbols/${encodeURIComponent(symbol.replace(/\//g, ""))}.svg`;
+  }
+
+  /** Append text to parent, turning {T}, {1}{U}, {W/P}... into symbol images. */
+  function appendWithSymbols(parent: HTMLElement, text: string) {
+    for (const part of text.split(/(\{[^}]+\})/)) {
+      if (!part) continue;
+      const m = part.match(/^\{([^}]+)\}$/);
+      if (!m) {
+        parent.append(part);
+        continue;
+      }
+      const img = document.createElement("img");
+      img.className = "mana-symbol";
+      img.src = symbolSrc(m[1]);
+      img.alt = part;
+      img.title = part;
+      img.onerror = () => img.replaceWith(part);
+      parent.append(img);
+    }
+  }
+
+  function el(tag: string, className: string): HTMLElement {
+    const node = document.createElement(tag);
+    node.className = className;
+    return node;
+  }
+
+  function renderOracle(raw: string | undefined) {
+    oracleBox.replaceChildren();
+    if (!raw) return;
+    let faces: OracleFace[];
+    try {
+      faces = JSON.parse(raw);
+    } catch {
+      return;
+    }
+    for (const face of faces) {
+      const faceEl = el("div", "oracle-face");
+
+      const header = el("div", "oracle-header");
+      const name = el("span", "oracle-name");
+      name.textContent = face.name;
+      header.append(name);
+      if (face.manaCost) {
+        const cost = el("span", "oracle-cost");
+        appendWithSymbols(cost, face.manaCost);
+        header.append(cost);
+      }
+      faceEl.append(header);
+
+      const type = el("div", "oracle-type");
+      type.textContent = face.typeLine;
+      faceEl.append(type);
+
+      if (face.text) {
+        const body = el("div", "oracle-text");
+        for (const line of face.text.split("\n")) {
+          const p = document.createElement("p");
+          appendWithSymbols(p, line);
+          body.append(p);
+        }
+        faceEl.append(body);
+      }
+
+      if (face.stats) {
+        const stats = el("div", "oracle-stats");
+        stats.textContent = face.stats;
+        faceEl.append(stats);
+      }
+
+      oracleBox.append(faceEl);
+    }
   }
 
   function showPreview(trigger: HTMLElement) {
@@ -99,41 +330,57 @@
     const back = trigger.dataset.cardBack;
     if (!front) return;
 
-    frontImg.src = front;
-    frontImg.hidden = false;
-    if (back) {
-      backImg.src = back;
-      backImg.hidden = false;
-    } else {
-      backImg.hidden = true;
-      backImg.removeAttribute("src");
+    if (trigger !== shownTrigger) {
+      const name = trigger.dataset.cardName ?? "";
+      title.textContent = name;
+      panel.setAttribute("aria-label", name);
+      frontImg.src = front;
+      frontImg.alt = name;
+      if (back) {
+        backImg.src = back;
+        backImg.alt = `${name} (back face)`;
+        backImg.hidden = false;
+      } else {
+        backImg.hidden = true;
+        backImg.removeAttribute("src");
+      }
+      renderOracle(trigger.dataset.cardOracle);
+      shownTrigger = trigger;
     }
 
     popup.hidden = false;
 
     if (hoverCapable) {
-      popup.classList.remove("is-fullscreen");
+      popup.classList.remove("is-drawer");
       positionPopup(trigger);
     } else {
-      popup.classList.add("is-fullscreen");
+      popup.classList.add("is-drawer");
       popup.style.left = "";
       popup.style.top = "";
+      document.documentElement.style.overflow = "hidden";
+      panel.scrollTop = 0;
     }
   }
 
   function hidePreview() {
+    clearTimeout(openTimer);
+    clearTimeout(closeTimer);
     popup.hidden = true;
     pinnedTrigger = null;
+    shownTrigger = null;
+    document.documentElement.style.overflow = "";
   }
 
   function positionPopup(trigger: HTMLElement) {
     const rect = trigger.getBoundingClientRect();
-    const popupRect = popup.getBoundingClientRect();
+    const popupRect = panel.getBoundingClientRect();
     const margin = 12;
 
     let left = rect.right + margin;
+    let origin = "left";
     if (left + popupRect.width > window.innerWidth - margin) {
       left = rect.left - popupRect.width - margin;
+      origin = "right";
     }
     left = Math.min(Math.max(margin, left), Math.max(margin, window.innerWidth - popupRect.width - margin));
 
@@ -142,38 +389,60 @@
 
     popup.style.left = `${left}px`;
     popup.style.top = `${top}px`;
+    panel.style.setProperty("--card-preview-origin", `${origin} center`);
   }
 
-  closeBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    hidePreview();
-  });
+  /** Hover/focus: open after a short delay, or right away when already showing another card. */
+  function scheduleShow(trigger: HTMLElement) {
+    if (pinnedTrigger && pinnedTrigger !== trigger) return;
+    clearTimeout(closeTimer);
+    clearTimeout(openTimer);
+    if (!popup.hidden) {
+      showPreview(trigger);
+    } else {
+      openTimer = window.setTimeout(() => showPreview(trigger), OPEN_DELAY);
+    }
+  }
+
+  function scheduleHide(trigger: HTMLElement) {
+    clearTimeout(openTimer);
+    if (trigger === pinnedTrigger) return;
+    clearTimeout(closeTimer);
+    closeTimer = window.setTimeout(() => {
+      if (!pinnedTrigger) hidePreview();
+    }, CLOSE_DELAY);
+  }
 
   if (hoverCapable) {
     document.addEventListener("mouseover", (e) => {
       const trigger = triggerOf(e.target);
-      if (trigger) showPreview(trigger);
+      if (trigger) scheduleShow(trigger);
     });
     document.addEventListener("mouseout", (e) => {
       const trigger = triggerOf(e.target);
-      if (trigger && trigger !== pinnedTrigger) hidePreview();
+      // Ignore moves between a trigger's own children.
+      if (trigger && !trigger.contains(e.relatedTarget as Node | null)) scheduleHide(trigger);
     });
     document.addEventListener("focusin", (e) => {
       const trigger = triggerOf(e.target);
-      if (trigger) showPreview(trigger);
+      if (trigger) scheduleShow(trigger);
     });
     document.addEventListener("focusout", (e) => {
       const trigger = triggerOf(e.target);
-      if (trigger && trigger !== pinnedTrigger) hidePreview();
+      if (trigger) scheduleHide(trigger);
     });
   }
 
   document.addEventListener("click", (e) => {
+    // Taps inside the drawer (scrolling, reading) keep it open; the overlay closes it.
+    if (popup.classList.contains("is-drawer") && panel.contains(e.target as Node)) return;
+
     const trigger = triggerOf(e.target);
     if (trigger) {
       if (pinnedTrigger === trigger) {
         hidePreview();
       } else {
+        clearTimeout(openTimer);
         pinnedTrigger = trigger;
         showPreview(trigger);
       }
@@ -181,6 +450,10 @@
       return;
     }
     if (!popup.hidden) hidePreview();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !popup.hidden) hidePreview();
   });
 
   if (hoverCapable) {
