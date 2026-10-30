@@ -1,25 +1,107 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import ArchetypeSearch from "@/components/ArchetypeSearch.astro";
+import ArchetypeBurst from "@/components/ArchetypeBurst.astro";
+import QuickSearch from "@/components/QuickSearch.astro";
+import BlockScroll from "@/components/BlockScroll.astro";
 import { ARCHETYPES } from "@/lib/data-layer";
 
 const archetypes = ARCHETYPES;
 const totalDecks = archetypes.reduce((sum, a) => sum + a.count, 0);
+const mostPlayed = [...archetypes].sort((a, b) => b.count - a.count);
+const decks = (n: number) => `${n} deck${n === 1 ? "" : "s"}`;
 ---
 
 <Layout title="Archetypes – Amsterdam Pauper League">
-  <div class="container mx-auto max-w-screen-lg px-4 py-8">
-    <h1 class="text-3xl font-bold mb-2">Archetypes</h1>
-
-    <div class="flex gap-6 text-sm text-muted-foreground mb-6">
-      <span>
-        <span class="font-mono font-semibold text-foreground">{totalDecks}</span> total decks
-      </span>
-      <span>
-        <span class="font-mono font-semibold text-foreground">{archetypes.length}</span> archetypes
-      </span>
+  <!-- fixed background: the page content below scrolls over it -->
+  <ArchetypeBurst archetypes={archetypes} />
+  <main>
+    <div id="search" class="archetypes-hero snap-block over-burst pointer-events-none">
+      <!-- Title and search float over the middle of the burst, leaving the rays
+           around it free for labels; only the box itself takes clicks -->
+      <div class="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-4">
+        <div class="pointer-events-auto w-full max-w-xl" data-burst-avoid>
+          <h1 class="heading-display text-5xl sm:text-7xl mb-3">Archetypes</h1>
+          <p class="text-muted-foreground md:text-xl mb-4">
+            {totalDecks} total decks · {archetypes.length} archetypes
+          </p>
+          <QuickSearch
+            noun="archetypes"
+            items={archetypes.map((a) => ({
+              name: a.name,
+              href: `/archetypes/${a.slug}`,
+              detail: `${decks(a.count)} · ${a.percentage}`,
+            }))}
+          />
+          <!-- players/index.astro has the same block, so the two pages line up -->
+          <a
+            href="#all"
+            class="mt-4 flex h-9 w-fit items-center rounded-lg border border-border bg-background/80 px-4 text-sm backdrop-blur hover:bg-muted/60 transition-colors"
+          >
+            Show all ↓
+          </a>
+        </div>
+      </div>
     </div>
 
-    <ArchetypeSearch archetypes={archetypes} />
-  </div>
+    <!-- Every archetype, most played first; slides up over the fixed burst -->
+    <section id="all" class="snap-block over-burst mx-auto w-full max-w-screen-lg px-4 py-12">
+      <h2 class="heading-display text-4xl sm:text-5xl mb-6">All archetypes</h2>
+      <ol class="columns-1 md:columns-2 gap-x-8 rounded-xl border border-border bg-background/70 p-4 backdrop-blur-sm">
+        {
+          mostPlayed.map((a, i) => (
+            <li class="break-inside-avoid">
+              <a
+                href={`/archetypes/${a.slug}`}
+                class="flex items-baseline gap-3 border-b border-border px-2 py-1.5 hover:bg-muted/50 transition-colors"
+              >
+                <span class="w-7 shrink-0 text-right font-mono text-sm text-muted-foreground">{i + 1}</span>
+                <span class="flex-1 truncate">{a.name}</span>
+                <span class="shrink-0 text-sm text-muted-foreground tabular-nums">
+                  {decks(a.count)} · {a.percentage}
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+  </main>
+  <!-- one wheel gesture moves between the top block and the full list -->
+  <BlockScroll />
 </Layout>
+
+<style>
+  /* the window below the header and banner, so the first scroll goes
+     straight to the list */
+  .archetypes-hero {
+    position: relative;
+    height: calc(100vh - 3.5rem - var(--banner-h, 0px));
+    height: calc(100dvh - 3.5rem - var(--banner-h, 0px));
+  }
+
+  :global(html) {
+    scroll-padding-top: 3.5rem; /* blocks land clear of the sticky header */
+  }
+
+  /* above the fixed burst (z-index 0), which sits above plain page blocks so
+     its rays can take clicks; the hero itself lets clicks through to them */
+  .over-burst {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    :global(html) {
+      scroll-behavior: smooth;
+    }
+  }
+</style>
+
+<style is:global>
+  /* the registration banner and the footer also stay above the fixed burst */
+  #registration-banner,
+  body > footer {
+    position: relative;
+    z-index: 1;
+  }
+</style>

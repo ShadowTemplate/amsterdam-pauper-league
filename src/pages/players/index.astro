@@ -1,20 +1,77 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import PlayerSearch from "@/components/PlayerSearch.astro";
+import BurstBackground from "@/components/BurstBackground.astro";
+import QuickSearch from "@/components/QuickSearch.astro";
+import BlockScroll from "@/components/BlockScroll.astro";
 import { PLAYERS } from "@/lib/data-layer";
 
 const players = PLAYERS;
 ---
 
 <Layout title="Players – Amsterdam Pauper League">
-  <div class="container mx-auto max-w-screen-lg px-4 py-8">
-    <h1 class="text-3xl font-bold mb-2">Players</h1>
+  <!-- fixed background: the page content below scrolls over it -->
+  <BurstBackground />
+  <main>
+    <!-- Same block and centring as the archetypes page, so title, subtitle,
+         search bar and "Show all" sit in the same place on both -->
+    <div id="search" class="players-hero snap-block flex flex-col items-center justify-center px-4">
+      <div class="w-full max-w-xl">
+        <h1 class="heading-display text-5xl sm:text-7xl mb-3">Players</h1>
+        <p class="text-muted-foreground md:text-xl mb-4">
+          {players.length} players in our community
+        </p>
+        <QuickSearch
+          noun="players"
+          items={players.map((p) => ({ name: p.name, href: `/players/${p.slug}` }))}
+        />
+        <a
+          href="#all"
+          class="mt-4 flex h-9 w-fit items-center rounded-lg border border-border bg-background/80 px-4 text-sm backdrop-blur hover:bg-muted/60 transition-colors"
+        >
+          Show all ↓
+        </a>
+      </div>
+    </div>
 
-    <p class="text-sm text-muted-foreground mb-6">
-      <span class="font-mono font-semibold text-foreground">{players.length}</span>{" "}
-      players in the league
-    </p>
-
-    <PlayerSearch players={players} />
-  </div>
+    <!-- Every player, alphabetically; slides up over the fixed background -->
+    <section id="all" class="snap-block mx-auto w-full max-w-screen-lg px-4 py-12">
+      <h2 class="heading-display text-4xl sm:text-5xl mb-6">All players</h2>
+      <ol class="columns-1 md:columns-2 gap-x-8 rounded-xl border border-border bg-background/70 p-4 backdrop-blur-sm">
+        {
+          players.map((p, i) => (
+            <li class="break-inside-avoid">
+              <a
+                href={`/players/${p.slug}`}
+                class="flex items-baseline gap-3 border-b border-border px-2 py-1.5 hover:bg-muted/50 transition-colors"
+              >
+                <span class="w-7 shrink-0 text-right font-mono text-sm text-muted-foreground">{i + 1}</span>
+                <span class="flex-1 truncate">{p.name}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+  </main>
+  <!-- one wheel gesture moves between the top block and the full list -->
+  <BlockScroll />
 </Layout>
+
+<style>
+  /* the window below the header and banner, so the first scroll goes
+     straight to the list */
+  .players-hero {
+    height: calc(100vh - 3.5rem - var(--banner-h, 0px));
+    height: calc(100dvh - 3.5rem - var(--banner-h, 0px));
+  }
+
+  :global(html) {
+    scroll-padding-top: 3.5rem; /* blocks land clear of the sticky header */
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    :global(html) {
+      scroll-behavior: smooth;
+    }
+  }
+</style>

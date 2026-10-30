@@ -8,11 +8,15 @@ import "@/styles/globals.css";
 interface Props {
   title?: string;
   description?: string;
+  /** keep the registration banner on screen, stuck just below the header,
+      instead of letting it scroll away (the homepage) */
+  pinnedBanner?: boolean;
 }
 
 const {
   title = "Amsterdam Pauper League",
   description = "The largest Magic: The Gathering™ Pauper tournament series in the Netherlands",
+  pinnedBanner = false,
 } = Astro.props;
 ---
 
@@ -26,8 +30,9 @@ const {
     <link rel="icon" href="/favicon.ico" />
   </head>
   <body class="min-h-full flex flex-col bg-background text-foreground">
+    <slot name="hero" />
     <Header />
-    <RegistrationBanner />
+    <RegistrationBanner pinned={pinnedBanner} />
     <slot />
     <Footer />
     <CardPreviewPopup />

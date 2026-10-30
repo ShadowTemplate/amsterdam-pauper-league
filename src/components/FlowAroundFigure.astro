@@ -1,0 +1,76 @@
+---
+// Elements marked data-flow-around-figure are cut to flow around the
+// background figure (BurstBackground), keeping the artwork's gap around it.
+// The cut is a real clip-path, so it also shapes where the element can be
+// clicked. It is computed for when the element's block is in view (snapped
+// below the header, or the page at the top for its first block), and only
+// redone on resize (not on every scroll frame).
+//
+// The outline comes from tools/landing-burst/ (landing-figure-halo.json).
+// To turn the effect off, remove <FlowAroundFigure /> from the page.
+import halo from "@/assets/landing-figure-halo.json";
+---
+
+<script define:vars={{ halo }}>
+  const ARTBOARD = 2550; // the artwork's viewBox size
+  const targets = document.querySelectorAll("[data-flow-around-figure]");
+
+  function cut() {
+    const root = document.documentElement;
+    const rem = parseFloat(getComputedStyle(root).fontSize);
+    const snapPadding = parseFloat(getComputedStyle(root).scrollPaddingTop) || 0;
+
+    // BurstBackground's frame: the window below the 3.5rem header; the
+    // artwork is scaled to fit it ("meet") and centred
+    const frameTop = 3.5 * rem;
+    const width = innerWidth;
+    const height = innerHeight - frameTop;
+    const scale = Math.min(width, height) / ARTBOARD;
+    const originX = (width - ARTBOARD * scale) / 2;
+    const originY = frameTop + (height - ARTBOARD * scale) / 2;
+
+    const firstBlock = document.querySelector(".snap-block");
+    for (const el of targets) {
+      const block = el.closest(".snap-block");
+      const box = el.getBoundingClientRect();
+      // where the element sits on screen when its block is in view: blocks
+      // scrolled to sit just below the header, except the page's first block
+      // (or no block at all), which is seen with the page at the very top
+      const left = box.left;
+      const top =
+        block && block !== firstBlock
+          ? snapPadding + (box.top - block.getBoundingClientRect().top)
+          : box.top + scrollY;
+      const points = halo.map(([x, y]) => [originX + x * scale - left, originY + y * scale - top]);
+      // the element's box with the figure's outline as a hole
+      el.style.clipPath = `path(evenodd, "M0 0H${box.width}V${box.height}H0Z ${smoothClosedPath(points)}")`;
+    }
+  }
+
+  // closed Catmull-Rom curve through the points, as cubic Béziers, so the
+  // cut edge flows instead of showing corners
+  function smoothClosedPath(points) {
+    const n = points.length;
+    const at = (i) => points[(i + n) % n];
+    const f = (v) => v.toFixed(1);
+    let d = `M${f(points[0][0])} ${f(points[0][1])}`;
+    for (let i = 0; i < n; i++) {
+      const [p0, p1, p2, p3] = [at(i - 1), at(i), at(i + 1), at(i + 2)];
+      const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6];
+      const c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
+      d += `C${f(c1[0])} ${f(c1[1])} ${f(c2[0])} ${f(c2[1])} ${f(p2[0])} ${f(p2[1])}`;
+    }
+    return d + "Z";
+  }
+
+  if (targets.length) {
+    cut();
+    let timer;
+    window.addEventListener("resize", () => {
+      clearTimeout(timer);
+      timer = setTimeout(cut, 100);
+    });
+    // the banner's height (part of the snap padding) can settle after load
+    document.fonts.ready.then(cut);
+  }
+</script>

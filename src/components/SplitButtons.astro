@@ -1,0 +1,81 @@
+---
+// Big stacked buttons filling one half of a split block (homepage: Events
+// and FAQ; season page: Events, Standings and Meta). See-through brand
+// colours in order (orange, yellow, purple) with navy display-font labels.
+// Their edges flow around the background figure when the page includes
+// <FlowAroundFigure />.
+
+interface Props {
+  /** two or three buttons, top to bottom */
+  links: { href: string; label: string }[];
+  label: string;
+  class?: string;
+}
+
+const { links, label, class: className } = Astro.props;
+const COLOURS = ["orange", "yellow", "purple"];
+---
+
+<nav
+  class:list={["split-buttons grid", className]}
+  style={`grid-template-rows: repeat(${links.length}, minmax(0, 1fr))`}
+  aria-label={label}
+  data-flow-around-figure
+>
+  {
+    links.map((link, i) => (
+      <a href={link.href} class:list={["split-button", `split-button--${COLOURS[i % COLOURS.length]}`]}>
+        <span class="heading-display">{link.label}</span>
+      </a>
+    ))
+  }
+</nav>
+
+<style>
+  .split-buttons {
+    min-height: 60vh;
+  }
+
+  /* labels sit at the right edge, clear of the figure on the left */
+  .split-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: 2.5rem;
+    color: #012031;
+    font-size: clamp(3rem, 9vw, 8rem);
+    /* see-through, so the background pattern still shows */
+    background: rgb(var(--link-rgb) / 0.55);
+    transition: background-color 150ms ease;
+  }
+
+  .split-button:hover,
+  .split-button:focus-visible {
+    background: rgb(var(--link-rgb) / 0.8);
+  }
+
+  /* brand book "on brand" combos: navy on orange, navy on purple; navy on
+     yellow is "tolerated" */
+  .split-button--orange {
+    --link-rgb: 255 78 0;
+  }
+
+  .split-button--yellow {
+    --link-rgb: 215 207 8;
+  }
+
+  .split-button--purple {
+    --link-rgb: 163 122 201;
+  }
+
+  @media (min-width: 768px) {
+    .split-buttons {
+      min-height: 0;
+    }
+
+    .split-button {
+      padding-inline: 4.5rem;
+      font-size: clamp(3rem, 7vw, 8rem);
+    }
+  }
+</style>

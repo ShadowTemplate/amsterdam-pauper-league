@@ -1,0 +1,139 @@
+---
+// A single search bar: matches show under it while typing, Enter opens the
+// best match, arrow keys move through the results, Ctrl+f (⌘f on Mac) jumps
+// to it. Used by the players and archetypes pages.
+
+interface Item {
+  name: string;
+  href: string;
+  /** extra text shown on the right of a result, e.g. "79 decks" */
+  detail?: string;
+}
+
+interface Props {
+  items: Item[];
+  /** what is being searched, e.g. "players" */
+  noun: string;
+}
+
+const { items, noun } = Astro.props;
+// How many matches to show under the search bar
+const MAX_RESULTS = 8;
+
+// lower case without accents, so "vinicius" finds "Vinícius"
+const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+---
+
+<div class="quick-search relative w-full" data-max-results={MAX_RESULTS}>
+  <input
+    type="search"
+    placeholder={`Search ${noun}… (Ctrl+f)`}
+    autocomplete="off"
+    aria-label={`Search ${noun}`}
+    class="quick-search-input w-full rounded-xl border border-border bg-background/80 px-5 py-4 text-lg backdrop-blur focus:outline-none focus:ring-2 focus:ring-primary"
+  />
+
+  <!-- results float over the page, so typing never moves anything around -->
+  <ul class="quick-search-list absolute inset-x-0 top-full z-20 mt-2 overflow-hidden rounded-xl border border-border bg-background/95 backdrop-blur" hidden>
+    {
+      items.map((item) => (
+        <li data-name={fold(item.name)} hidden>
+          <a
+            href={item.href}
+            class="flex items-baseline justify-between gap-3 px-5 py-2.5 hover:bg-muted/60 focus:bg-muted/60 focus:outline-none transition-colors"
+          >
+            <span class="truncate">{item.name}</span>
+            {item.detail && <span class="shrink-0 text-sm text-muted-foreground tabular-nums">{item.detail}</span>}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p class="quick-search-empty absolute inset-x-0 top-full z-20 mt-2 rounded-xl border border-border bg-background/95 px-5 py-2.5 text-muted-foreground backdrop-blur" hidden>
+    No {noun} found.
+  </p>
+</div>
+
+<script>
+  const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const isMac = navigator.platform.toUpperCase().includes("MAC");
+
+  for (const root of document.querySelectorAll<HTMLElement>(".quick-search")) {
+    const input = root.querySelector<HTMLInputElement>(".quick-search-input")!;
+    const list = root.querySelector<HTMLUListElement>(".quick-search-list")!;
+    const empty = root.querySelector<HTMLElement>(".quick-search-empty")!;
+    const items = [...list.querySelectorAll<HTMLLIElement>("li[data-name]")];
+    const maxResults = Number(root.dataset.maxResults);
+    let shown: HTMLLIElement[] = [];
+
+    const update = () => {
+      const query = fold(input.value.trim());
+      // names starting with the query (any word) first, then names containing it
+      const starts: HTMLLIElement[] = [];
+      const contains: HTMLLIElement[] = [];
+      if (query) {
+        for (const li of items) {
+          const name = li.dataset.name!;
+          if (name.startsWith(query) || name.includes(" " + query)) starts.push(li);
+          else if (name.includes(query)) contains.push(li);
+        }
+      }
+      shown = [...starts, ...contains].slice(0, maxResults);
+
+      items.forEach((li) => (li.hidden = true));
+      // re-append in ranked order so the list shows best matches first
+      shown.forEach((li) => {
+        li.hidden = false;
+        list.appendChild(li);
+      });
+      list.hidden = shown.length === 0;
+      empty.hidden = !query || shown.length > 0;
+    };
+
+    const link = (li: HTMLLIElement) => li.querySelector("a")!;
+
+    input.addEventListener("input", update);
+
+    // Enter opens the best match; arrow down moves into the results
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && shown.length) {
+        e.preventDefault();
+        link(shown[0]).click();
+      } else if (e.key === "ArrowDown" && shown.length) {
+        e.preventDefault();
+        link(shown[0]).focus();
+      }
+    });
+
+    list.addEventListener("keydown", (e) => {
+      const links = shown.map(link);
+      const i = links.indexOf(document.activeElement as HTMLAnchorElement);
+      if (i === -1) return;
+      if (e.key === "ArrowDown" && i < links.length - 1) {
+        e.preventDefault();
+        links[i + 1].focus();
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        (i === 0 ? input : links[i - 1]).focus();
+      }
+    });
+
+    // The static placeholder says "Ctrl+f"; show the Mac modifier where relevant
+    if (isMac) input.placeholder = input.placeholder.replace("Ctrl+f", "⌘f");
+
+    update();
+  }
+
+  // ⌘f on Mac, Ctrl+f elsewhere — on Mac, Ctrl+f stays the native caret binding
+  document.addEventListener("keydown", (e) => {
+    const input = document.querySelector<HTMLInputElement>(".quick-search-input");
+    if (!input) return;
+    const modifier = isMac ? e.metaKey && !e.ctrlKey : e.ctrlKey && !e.metaKey;
+    if (!modifier || e.altKey || e.shiftKey) return;
+    if (e.key.toLowerCase() !== "f") return;
+    e.preventDefault();
+    input.focus();
+    input.select();
+  });
+</script>

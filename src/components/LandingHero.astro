@@ -1,0 +1,55 @@
+---
+// Full-window landing: the APL burst in full colour. The burst stays fixed in
+// the window while the landing block scrolls away, and fades into a faint
+// background pattern for the rest of the page.
+import BurstBackground from "@/components/BurstBackground.astro";
+---
+
+<section id="home" class="landing-hero snap-block" aria-label="Amsterdam Pauper League"></section>
+<BurstBackground vivid />
+
+<style>
+  /* Behind the burst layers, which sit at z-index -2 and -1. */
+  .landing-hero {
+    position: relative;
+    z-index: -3;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    flex-shrink: 0;
+    background: #012031;
+  }
+</style>
+
+<script>
+  // Over the first window height of scrolling, fade the burst from full
+  // colour to its faint background level, and ease it from the whole window
+  // into the frame below the sticky header that every other page uses.
+  const HEADER_REM = 3.5;
+  const layers = [...document.querySelectorAll<HTMLElement>(".burst-layer")].map((el) => ({
+    el,
+    faded: parseFloat(getComputedStyle(el).getPropertyValue("--faded-opacity")) || 0,
+  }));
+  if (layers.length) {
+    let queued = false;
+    const update = () => {
+      queued = false;
+      const progress = Math.min(Math.max(scrollY / innerHeight, 0), 1);
+      const top = progress * HEADER_REM;
+      for (const { el, faded } of layers) {
+        el.style.opacity = String(1 - progress * (1 - faded));
+        el.style.top = `${top}rem`;
+        el.style.height = `calc(100dvh - ${top}rem)`;
+      }
+    };
+    const queue = () => {
+      if (!queued) {
+        queued = true;
+        requestAnimationFrame(update);
+      }
+    };
+    window.addEventListener("scroll", queue, { passive: true });
+    window.addEventListener("resize", queue);
+    update();
+  }
+</script>

@@ -1,0 +1,347 @@
+---
+// The APL burst where every wavy ray is a link to an archetype: the most
+// played archetype on the first ray clockwise from 12 o'clock, then down the
+// list going clockwise. Each archetype's name is written along its ray in the
+// display font, every letter sized to the ray's width at that spot, so names
+// shrink as the ray narrows towards the figure. Rays light up on hover.
+//
+// Labels are laid out in the browser: which part of a ray is on screen
+// depends on the window's shape, and labels avoid the element marked
+// data-burst-avoid (the title and search box).
+//
+// The burst is fixed in the same frame as BurstBackground on other pages
+// (the window below the header) and the page content scrolls over it. Once
+// the page is scrolled away from the top, labels fade out and the rays stop
+// taking clicks: they are just the background then.
+import type { Archetype } from "@/types";
+import raysSvg from "@/assets/landing-rays.svg?raw";
+import centerlines from "@/assets/landing-rays.json";
+import Figure from "@/assets/landing-figure.svg";
+
+interface Props {
+  archetypes: Archetype[];
+}
+
+type Line = [number, number, number][]; // [x, y, ray width] from the tip outward
+
+const { archetypes } = Astro.props;
+const viewBox = raysSvg.match(/viewBox="([^"]+)"/)![1];
+const paths = [...raysSvg.matchAll(/<path d="([^"]+)"/g)].map((m) => m[1]);
+const lines = centerlines as Line[];
+
+// clockwise angle from straight up of a ray's outward direction
+const angle = (line: Line) => {
+  const [x0, y0] = line[0];
+  const [x1, y1] = line[line.length - 1];
+  return (Math.atan2(x1 - x0, -(y1 - y0)) + 2 * Math.PI) % (2 * Math.PI);
+};
+const order = paths.map((_, i) => i).sort((a, b) => angle(lines[a]) - angle(lines[b]));
+const mostPlayed = [...archetypes].sort((a, b) => b.count - a.count);
+const rays = order.map((i, rank) => ({ d: paths[i], line: lines[i], archetype: mostPlayed[rank] }));
+---
+
+<div class="archetype-burst-frame">
+  <svg class="archetype-burst" viewBox={viewBox} preserveAspectRatio="xMidYMid meet" overflow="visible">
+    {
+      rays.map(({ d, line, archetype }) =>
+        archetype ? (
+          <a
+            href={`/archetypes/${archetype.slug}`}
+            class="ray-link"
+            aria-label={`${archetype.name}: ${archetype.count} decks`}
+            data-label={archetype.name}
+            data-line={JSON.stringify(line)}
+          >
+            <path d={d} />
+            <g class="ray-label" aria-hidden="true" />
+          </a>
+        ) : (
+          <path d={d} class="ray-plain" />
+        ),
+      )
+    }
+  </svg>
+  <div class="archetype-figure" aria-hidden="true">
+    <Figure class="archetype-figure-art" />
+  </div>
+</div>
+
+<style>
+  /* Fixed in the same frame as BurstBackground on the other pages: the window
+     below the sticky header. It sits above the page's plain blocks (z-index
+     0) so the rays can take clicks; page content meant to scroll over it is
+     positioned above it (z-index 1). Rays reach far outside the artwork, so
+     the frame clips them. */
+  .archetype-burst-frame {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 3.5rem;
+    height: calc(100vh - 3.5rem);
+    height: calc(100dvh - 3.5rem);
+    overflow: hidden;
+    z-index: 0;
+  }
+
+  /* scrolled away from the top: just a background */
+  .archetype-burst-frame.is-background .ray-link {
+    pointer-events: none;
+  }
+
+  .ray-label {
+    transition: opacity 200ms ease;
+  }
+
+  .archetype-burst,
+  .archetype-figure {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+
+  .archetype-figure {
+    opacity: 0.25;
+    pointer-events: none;
+  }
+
+  .archetype-figure-art {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+
+  .ray-link path,
+  .ray-plain {
+    fill: #a37ac9;
+    fill-opacity: 0.14;
+    transition: fill-opacity 150ms ease;
+  }
+
+  .ray-link:hover path,
+  .ray-link:focus-visible path {
+    fill-opacity: 0.9;
+  }
+
+  .ray-link:focus-visible {
+    outline: none;
+  }
+
+  .ray-label :global(text) {
+    fill: #e8eef8;
+    fill-opacity: 0.85;
+    font-family: var(--font-display);
+    font-weight: 600;
+    transition: fill 150ms ease;
+  }
+
+  .ray-link:hover .ray-label :global(text),
+  .ray-link:focus-visible .ray-label :global(text) {
+    fill: #012031;
+    fill-opacity: 1;
+  }
+</style>
+
+<script>
+  type Line = [number, number, number][];
+
+  const SVG_NS = "http://www.w3.org/2000/svg";
+  const FONT_FAMILY = '"DeFonte Plus"';
+  const LETTER_HEIGHT = 0.6; // font size relative to the ray's width
+  const MAX_PX = 56; // largest letters, in screen pixels
+  const MIN_PX = 9; // smallest letters worth drawing
+  const TRACKING = 0.08; // extra space between letters, relative to font size
+  const SMOOTHING = 3; // centre-line points averaged on each side, so letters
+  // follow the ray's direction rather than every wiggle (tight bends crowd them)
+  const AVOID_MARGIN_PX = 16;
+  const EDGE_MARGIN_PX = 8; // keep letters this far from the window edges
+
+  const svg = document.querySelector<SVGSVGElement>(".archetype-burst");
+  const avoid = document.querySelector<HTMLElement>("[data-burst-avoid]");
+  const links = [...document.querySelectorAll<SVGAElement>(".ray-link")];
+  const measure = document.createElement("canvas").getContext("2d")!;
+
+  // width of each character at font size 1
+  const advances = new Map<string, number>();
+  const advance = (ch: string) => {
+    if (!advances.has(ch)) advances.set(ch, measure.measureText(ch).width / 100);
+    return advances.get(ch)!;
+  };
+
+  type Rect = { left: number; top: number; right: number; bottom: number };
+
+  function toSvgRect(r: DOMRect, inverse: DOMMatrix, pad = 0): Rect {
+    const a = new DOMPoint(r.left - pad, r.top - pad).matrixTransform(inverse);
+    const b = new DOMPoint(r.right + pad, r.bottom + pad).matrixTransform(inverse);
+    return { left: a.x, top: a.y, right: b.x, bottom: b.y };
+  }
+
+  const inside = (r: Rect, x: number, y: number, inset: number) =>
+    x > r.left + inset && x < r.right - inset && y > r.top + inset && y < r.bottom - inset;
+
+  /** Moving average of the centre line's position (widths kept as they are). */
+  function smooth(line: Line): Line {
+    return line.map(([, , w], i) => {
+      const from = Math.max(0, i - SMOOTHING);
+      const to = Math.min(line.length - 1, i + SMOOTHING);
+      let x = 0;
+      let y = 0;
+      for (let j = from; j <= to; j++) {
+        x += line[j][0];
+        y += line[j][1];
+      }
+      const n = to - from + 1;
+      return [x / n, y / n, w];
+    });
+  }
+
+  /** Longest stretch of the centre line that is on screen, clear of the
+      title/search box and wide enough for legible letters. */
+  function usableStretch(line: Line, visible: Rect, blocked: Rect | null, scale: number): Line {
+    let best: Line = [];
+    let run: Line = [];
+    for (const point of line) {
+      const [x, y, w] = point;
+      // letters reach about half their height (LETTER_HEIGHT * w / 2) off the line
+      const ok =
+        w * LETTER_HEIGHT * scale >= MIN_PX &&
+        inside(visible, x, y, (w * LETTER_HEIGHT) / 2) &&
+        !(blocked && inside(blocked, x, y, -w / 2));
+      if (ok) run.push(point);
+      if (!ok || point === line[line.length - 1]) {
+        if (run.length > best.length) best = run;
+        run = [];
+      }
+    }
+    return best;
+  }
+
+  /** Lay letters along a polyline; returns each letter's centre (arc length) and size. */
+  function placeLetters(text: string, start: number, sizeAt: (p: number) => number, factor: number) {
+    let p = start;
+    const letters = [...text].map((ch) => {
+      const size = sizeAt(p) * factor;
+      const width = advance(ch) * size;
+      const letter = { ch, at: p + width / 2, size };
+      p += width * (1 + TRACKING);
+      return letter;
+    });
+    return { letters, length: p - start };
+  }
+
+  function layout() {
+    const ctm = svg?.getScreenCTM();
+    if (!svg || !ctm) return;
+    const scale = ctm.a; // screen pixels per artwork unit
+    const inverse = ctm.inverse();
+    // the part of the burst actually on screen, below the registration banner
+    // when there is one
+    const box = svg.getBoundingClientRect();
+    const bannerBottom = document.getElementById("registration-banner")?.getBoundingClientRect().bottom ?? 0;
+    const top = Math.max(box.top, bannerBottom, 0);
+    const onScreen = new DOMRect(
+      Math.max(box.left, 0),
+      top,
+      Math.min(box.right, innerWidth) - Math.max(box.left, 0),
+      Math.min(box.bottom, innerHeight) - top,
+    );
+    const visible = toSvgRect(onScreen, inverse, -EDGE_MARGIN_PX);
+    const blocked = avoid ? toSvgRect(avoid.getBoundingClientRect(), inverse, AVOID_MARGIN_PX) : null;
+    measure.font = `600 100px ${FONT_FAMILY}`;
+
+    for (const link of links) {
+      const group = link.querySelector(".ray-label")!;
+      group.replaceChildren();
+      let stretch = usableStretch(smooth(JSON.parse(link.dataset.line!)), visible, blocked, scale);
+      if (stretch.length < 2) continue;
+
+      // read left to right: rays pointing left are written from the outside in
+      if (stretch[stretch.length - 1][0] < stretch[0][0]) stretch = stretch.reverse();
+      const along = [0];
+      for (let i = 1; i < stretch.length; i++) {
+        const [x0, y0] = stretch[i - 1];
+        const [x1, y1] = stretch[i];
+        along.push(along[i - 1] + Math.hypot(x1 - x0, y1 - y0));
+      }
+      const total = along[along.length - 1];
+      const segment = (p: number) => {
+        let i = 1;
+        while (i < along.length - 1 && along[i] < p) i++;
+        return i;
+      };
+      const sizeAt = (p: number) => {
+        const i = segment(p);
+        const t = Math.min(Math.max((p - along[i - 1]) / (along[i] - along[i - 1] || 1), 0), 1);
+        const w = stretch[i - 1][2] + t * (stretch[i][2] - stretch[i - 1][2]);
+        return Math.min(w * LETTER_HEIGHT, MAX_PX / scale);
+      };
+
+      // shrink the whole name until it fits the stretch, then centre it
+      const text = link.dataset.label!.toUpperCase();
+      let factor = 1;
+      let placed = placeLetters(text, 0, sizeAt, factor);
+      for (let i = 0; i < 20 && placed.length > total; i++) {
+        factor *= Math.max(0.5, (total / placed.length) * 0.98);
+        placed = placeLetters(text, 0, sizeAt, factor);
+      }
+      placed = placeLetters(text, (total - placed.length) / 2, sizeAt, factor);
+      if (placed.length > total || Math.min(...placed.letters.map((l) => l.size)) * scale < MIN_PX) continue;
+
+      for (const { ch, at, size } of placed.letters) {
+        const i = segment(at);
+        const [x0, y0] = stretch[i - 1];
+        const [x1, y1] = stretch[i];
+        const t = Math.min(Math.max((at - along[i - 1]) / (along[i] - along[i - 1] || 1), 0), 1);
+        const x = x0 + t * (x1 - x0);
+        const y = y0 + t * (y1 - y0);
+        const rotation = (Math.atan2(y1 - y0, x1 - x0) * 180) / Math.PI;
+        const letter = document.createElementNS(SVG_NS, "text");
+        letter.textContent = ch;
+        letter.setAttribute("x", x.toFixed(1));
+        letter.setAttribute("y", y.toFixed(1));
+        letter.setAttribute("font-size", size.toFixed(1));
+        letter.setAttribute("text-anchor", "middle");
+        letter.setAttribute("dominant-baseline", "central");
+        letter.setAttribute("transform", `rotate(${rotation.toFixed(1)} ${x.toFixed(1)} ${y.toFixed(1)})`);
+        group.appendChild(letter);
+      }
+    }
+  }
+
+  // As the page scrolls away from the top, fade the labels out over the first
+  // half window; past that the rays are just background and take no clicks.
+  function fadeWithScroll() {
+    const frame = svg?.closest<HTMLElement>(".archetype-burst-frame");
+    if (!frame) return;
+    const progress = Math.min(Math.max(scrollY / (innerHeight * 0.5), 0), 1);
+    for (const group of frame.querySelectorAll<SVGGElement>(".ray-label")) {
+      group.style.opacity = String(1 - progress);
+    }
+    frame.classList.toggle("is-background", progress > 0.5);
+  }
+
+  if (svg) {
+    let timer: number | undefined;
+    window.addEventListener("resize", () => {
+      clearTimeout(timer);
+      timer = window.setTimeout(layout, 100);
+    });
+    let queued = false;
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (queued) return;
+        queued = true;
+        requestAnimationFrame(() => {
+          queued = false;
+          fadeWithScroll();
+        });
+      },
+      { passive: true },
+    );
+    fadeWithScroll();
+    // measure with the real font, not the fallback
+    document.fonts.load(`600 100px ${FONT_FAMILY}`).finally(layout);
+  }
+</script>

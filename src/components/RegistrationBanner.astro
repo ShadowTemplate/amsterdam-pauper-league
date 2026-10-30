@@ -1,6 +1,14 @@
 ---
 import { EVENTS } from "@/lib/data-layer";
 
+interface Props {
+  /** stick just below the sticky header instead of scrolling away with the
+      page (its height is always published as --banner-h) */
+  pinned?: boolean;
+}
+
+const { pinned = false } = Astro.props;
+
 const nextEvent = EVENTS
   .filter((e) => e.status === "upcoming" && e.registrationUrl)
   .sort((a, b) => b.date.localeCompare(a.date))[0];
@@ -8,8 +16,12 @@ const nextEvent = EVENTS
 
 {
   nextEvent && (
-    <div class="w-full bg-primary/10 border-b border-primary/20">
-      <div class="mx-auto max-w-screen-lg px-4 py-2.5 text-sm text-center">
+    <div
+      id="registration-banner"
+      class:list={["w-full bg-[#d7cf08] text-[#012031]", { "sticky top-14 z-40": pinned }]}
+    >
+      {/* brand book combo navy (#012031) on yellow (#D7CF08): "tolerated" for small text */}
+      <div class="mx-auto max-w-screen-lg px-4 py-2.5 text-sm text-center font-medium">
         →{" "}
         <a
           href={nextEvent.registrationUrl}
@@ -22,5 +34,22 @@ const nextEvent = EVENTS
         ←
       </div>
     </div>
+  )
+}
+
+{
+  nextEvent && (
+    <script is:inline>
+      // publish the banner's height (it wraps on narrow screens) as --banner-h
+      // before the first paint, and keep it up to date: pages sized to fill
+      // the window below header and banner use it
+      (() => {
+        const banner = document.getElementById("registration-banner");
+        const publish = () =>
+          document.documentElement.style.setProperty("--banner-h", `${banner.offsetHeight}px`);
+        publish();
+        new ResizeObserver(publish).observe(banner);
+      })();
+    </script>
   )
 }

@@ -2,6 +2,7 @@
 import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
 
 const navLinks = [
+  { href: "/", label: "Home" },
   { href: `/seasons/${CURRENT_SEASON_YEAR}`, label: "Seasons" },
   { href: `/events/${CURRENT_SEASON_YEAR}`, label: "Events" },
   { href: "/players", label: "Players" },
@@ -13,10 +14,8 @@ const navLinks = [
 
 <header class="sticky top-0 z-50 w-full shadow-xs bg-background border-b border-border">
   <div class="container mx-auto flex h-14 max-w-screen-lg items-center justify-between px-4 md:grid md:grid-cols-[1fr_auto_1fr]">
-    <!-- Logo (left) -->
-    <a href="/" class="font-bold text-lg tracking-tight hover:opacity-80 transition-opacity">
-      APL
-    </a>
+    <!-- Left: intentionally empty (keeps the nav centred and the menu button on the right) -->
+    <div></div>
 
     <!-- Desktop nav (center) -->
     <nav class="hidden md:flex items-center gap-6 text-sm">

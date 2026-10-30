@@ -1,60 +1,34 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import PrizesCard from "@/components/PrizesCard.astro";
-import { EVENTS, getLeagueSeason } from "@/lib/data-layer";
+import LandingHero from "@/components/LandingHero.astro";
+import FlowAroundFigure from "@/components/FlowAroundFigure.astro";
+import SplitButtons from "@/components/SplitButtons.astro";
+import WaveWiggle from "@/components/WaveWiggle.astro";
+import BlockScroll from "@/components/BlockScroll.astro";
+import { getLeagueSeason } from "@/lib/data-layer";
 import { CURRENT_SEASON_YEAR } from "@/lib/current-season";
 
 const top16 = (getLeagueSeason(CURRENT_SEASON_YEAR)?.standings ?? []).slice(0, 16);
-const hasOpenRegistration = EVENTS.some((e) => e.status === "upcoming" && e.registrationUrl);
 ---
 
-<Layout title="Amsterdam Pauper League">
+<Layout title="Amsterdam Pauper League" pinnedBanner>
+  <LandingHero slot="hero" />
+  <WaveWiggle />
   <main class="flex-1">
-    <!-- Hero -->
-    <section class:list={["relative mx-auto flex w-full flex-col items-center justify-center pb-6 text-center px-4", hasOpenRegistration ? "pt-10" : "pt-14"]}>
-      <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mb-6">
-        Amsterdam Pauper League
-      </h1>
-      <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl mb-8">
-        Welcome to the largest Pauper tournament series in the Netherlands!<br />Compete in thrilling monthly events with our fantastic community to win amazing prices, flight tickets and byes to Paupergeddon.
-      </p>
-      <div class="flex gap-4">
-        <a
-          href={`/events/${CURRENT_SEASON_YEAR}`}
-          class="bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition text-center w-40"
-        >
-          View Events
-        </a>
-        <a
-          href="/faq"
-          class="bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition text-center w-40"
-        >
-          Learn More
-        </a>
-      </div>
-    </section>
-
-    <!-- Quote -->
-    <blockquote class="mx-auto max-w-screen-lg w-full px-4 pt-0 pb-6 text-center text-muted-foreground italic text-xl">
-      "I came to play Magic, I stayed for the people."
-      <footer class="mt-2 text-sm not-italic">— APL player</footer>
-    </blockquote>
-
-    <div class="mx-auto w-full max-w-3xl border-b border-border"></div>
-
-    <!-- Standings -->
-    <section class="mx-auto pt-8 pb-6 md:pt-12 max-w-screen-lg w-full px-4 text-center">
-      <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
-        Road to Paupergeddon 2027
-      </h2>
-      <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl mb-8">
-        The APL Champion represents the Netherlands at Paupergeddon, the most important Pauper event in the world.<br />Will you be able to climb the ladder and claim your spot?
-      </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 max-w-xl mx-auto mb-6">
-        {[top16.slice(0, 8), top16.slice(8, 16)].map((half) => (
-          <div>
-            {half.map((s) => (
-              <div class="flex items-center py-2 px-3 border-b border-border hover:bg-muted/50 text-sm">
+    <!-- Standings: current season top 16 (left), Events and FAQ (right) -->
+    <div id="standings" class="snap-block grid grid-cols-1 md:grid-cols-2">
+      <section class="flex flex-col justify-center px-4 py-6 md:px-10">
+        <div class="w-full max-w-md mx-auto">
+          <h2 class="heading-display text-4xl sm:text-5xl mb-2">
+            Current season
+          </h2>
+          <p class="text-muted-foreground mb-5">
+            Road to Paupergeddon Spring Edition 2027
+          </p>
+          <div class="mb-5">
+            {top16.map((s) => (
+              <div class="flex items-center py-1.5 px-3 border-b border-border hover:bg-muted/50 text-sm">
                 <span class="font-mono text-muted-foreground w-7 shrink-0 text-center">{s.position}</span>
                 <span class="flex-1 px-2 text-left flex items-center gap-2">
                   {s.positionChange !== undefined && (
@@ -80,47 +54,111 @@ const hasOpenRegistration = EVENTS.some((e) => e.status === "upcoming" && e.regi
               </div>
             ))}
           </div>
-        ))}
-      </div>
-      <a
-        href={`/seasons/${CURRENT_SEASON_YEAR}`}
-        class="inline-block bg-primary text-primary-foreground px-6 py-2 font-medium rounded-lg hover:opacity-90 transition"
-      >
-        View Standings
-      </a>
-    </section>
+          <a
+            href={`/seasons/${CURRENT_SEASON_YEAR}`}
+            class="text-sm underline underline-offset-4 hover:opacity-80 transition"
+          >
+            Full standings →
+          </a>
+        </div>
+      </section>
 
-    <!-- Quote -->
-    <blockquote class="mx-auto max-w-screen-lg w-full px-4 pt-0 pb-6 text-center text-muted-foreground italic text-xl">
-      "Bottom feeders sometimes rise to the top."
-      <footer class="mt-2 text-sm not-italic">— Chittering Rats</footer>
-    </blockquote>
+      <SplitButtons
+        label="Explore"
+        links={[
+          { href: `/events/${CURRENT_SEASON_YEAR}`, label: "Events" },
+          { href: "/faq", label: "FAQ" },
+        ]}
+      />
+    </div>
 
-    <div class="mx-auto w-full max-w-3xl border-b border-border"></div>
+    <!-- Prizes: calculator (left), how leg prizes work (right) -->
+    <div id="prizes" class="snap-block grid grid-cols-1 md:grid-cols-2">
+      <section class="flex flex-col justify-center px-4 py-8 md:px-10">
+        <!-- same column width as the standings list, so titles and boxes line up -->
+        <div class="w-full max-w-md mx-auto">
+          <h2 class="heading-display text-4xl sm:text-5xl mb-6">
+            Prizes
+          </h2>
+          <PrizesCard />
+        </div>
+      </section>
 
-    <!-- Prizes -->
-    <section class="mx-auto pt-8 pb-6 md:px-6 md:pt-12 max-w-screen-lg w-full px-4 text-center">
-      <div class="space-y-4 mb-8">
-        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl">
-          Prizes
-        </h2>
-        <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl">
-          Leg prizes are determined based on the number of players in each event.<br />
+      <section class="flex flex-col justify-center px-4 py-8 md:px-10">
+        <p class="w-full max-w-lg mx-auto text-muted-foreground md:text-xl">
+          Leg prizes are determined based on the number of players in each event.
           A portion of the entry fees is used to cover venue costs, judge
-          compensation, and travel allowances to Paupergeddon.<br />
+          compensation, and travel allowances to Paupergeddon.
           The rest goes directly into the prize pool for that event.
         </p>
-      </div>
-      <div class="max-w-sm mx-auto">
-        <PrizesCard />
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <!-- Quote -->
-    <blockquote class="mx-auto max-w-screen-lg w-full px-4 pt-0 pb-6 text-center text-muted-foreground italic text-xl">
-      "Wake up, my friends! There are deeds to be done and treasures to be won!"
-      <footer class="mt-2 text-sm not-italic">— Inspiring Bard</footer>
-    </blockquote>
+    <!-- Unused text from the old homepage, parked here until we find it a place -->
+    <div id="unused" class="snap-block border-t border-border">
+      <section class="mx-auto max-w-screen-lg w-full px-4 py-10 text-center space-y-8">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+            Amsterdam Pauper League
+          </h1>
+          <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl">
+            Welcome to the largest Pauper tournament series in the Netherlands!<br />Compete in thrilling monthly events with our fantastic community to win amazing prices, flight tickets and byes to Paupergeddon.
+          </p>
+        </div>
 
+        <p class="text-muted-foreground md:text-xl mx-auto max-w-2xl">
+          The APL Champion represents the Netherlands at Paupergeddon, the most important Pauper event in the world.<br />Will you be able to climb the ladder and claim your spot?
+        </p>
+
+        <blockquote class="text-muted-foreground italic text-xl">
+          "I came to play Magic, I stayed for the people."
+          <footer class="mt-2 text-sm not-italic">— APL player</footer>
+        </blockquote>
+
+        <blockquote class="text-muted-foreground italic text-xl">
+          "Bottom feeders sometimes rise to the top."
+          <footer class="mt-2 text-sm not-italic">— Chittering Rats</footer>
+        </blockquote>
+
+        <blockquote class="text-muted-foreground italic text-xl">
+          "Wake up, my friends! There are deeds to be done and treasures to be won!"
+          <footer class="mt-2 text-sm not-italic">— Inspiring Bard</footer>
+        </blockquote>
+      </section>
+    </div>
   </main>
+  <!-- after the page content: its script runs in place and needs the buttons -->
+  <FlowAroundFigure />
+  <BlockScroll />
 </Layout>
+
+<style is:global>
+  /* The homepage scrolls in blocks: #home -> #standings -> #prizes -> #unused. */
+  /* --banner-h: height of the registration banner pinned above the header
+     (0 when there is no open registration) */
+  html {
+    scroll-snap-type: y mandatory;
+    /* keep snapped blocks clear of the sticky banner and header */
+    scroll-padding-top: calc(3.5rem + var(--banner-h, 0px));
+    /* blocks snap into place themselves; without this the browser nudges the
+       landing a few pixels when the banner grows as its font loads */
+    overflow-anchor: none;
+  }
+
+  .snap-block {
+    scroll-snap-align: start;
+  }
+
+  #standings,
+  #prizes {
+    min-height: calc(100vh - 3.5rem - var(--banner-h, 0px));
+    min-height: calc(100dvh - 3.5rem - var(--banner-h, 0px));
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+</style>
+
