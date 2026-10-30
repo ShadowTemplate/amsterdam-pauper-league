@@ -53,6 +53,7 @@ old_stuff/*
 
 tools/obs-label-generator/obs_label_generator/__pycache__/*
 tools/leg-helper/leg_helper/__pycache__/*
+tools/landing-burst/__pycache__/*
 
 tools/venv
 tool/obs-label-generator/obs_label_generator/obs_apl/
