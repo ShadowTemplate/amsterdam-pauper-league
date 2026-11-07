@@ -29,6 +29,7 @@ import { decks as decks20260704 } from "@/lib/data/decks/2026-07-04";
 import { decks as decks20260808 } from "@/lib/data/decks/2026-08-08";
 import { decks as decks20260905 } from "@/lib/data/decks/2026-09-05";
 import { decks as decks20261003 } from "@/lib/data/decks/2026-10-03";
+import { decks as decks20261107 } from "@/lib/data/decks/2026-11-07";
 
 const allDeckArrays = [
   { eventSlug: "2024-03-02", decks: decks20240302 },
@@ -58,6 +59,7 @@ const allDeckArrays = [
   { eventSlug: "2026-08-08", decks: decks20260808 },
   { eventSlug: "2026-09-05", decks: decks20260905 },
   { eventSlug: "2026-10-03", decks: decks20261003 },
+  { eventSlug: "2026-11-07", decks: decks20261107 },
 ];
 
 type DeckWithEvent = Deck & { eventSlug: string; archetype: string };

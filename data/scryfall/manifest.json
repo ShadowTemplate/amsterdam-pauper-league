@@ -617,6 +617,12 @@
     "released_at": "2024-09-27",
     "set": "dsk"
   },
+  "Blessed Ghoul": {
+    "front": "/scryfall/bb975803-9bf2-401e-9414-d272df314398.jpg",
+    "id": "bb975803-9bf2-401e-9414-d272df314398",
+    "released_at": "2026-10-02",
+    "set": "fra"
+  },
   "Blight Mamba": {
     "front": "/scryfall/cf9b3335-565c-406d-bd94-f36974602552.jpg",
     "id": "cf9b3335-565c-406d-bd94-f36974602552",
@@ -2305,6 +2311,12 @@
     "released_at": "2023-11-17",
     "set": "lci"
   },
+  "Fanatical Firebrand": {
+    "front": "/scryfall/5e5565de-028c-4799-a9f6-4dcd685639eb.jpg",
+    "id": "5e5565de-028c-4799-a9f6-4dcd685639eb",
+    "released_at": "2018-01-19",
+    "set": "rix"
+  },
   "Fanatical Offering": {
     "front": "/scryfall/d896dd52-b134-4b55-ab91-ccb05ecc50f4.jpg",
     "id": "d896dd52-b134-4b55-ab91-ccb05ecc50f4",
@@ -2340,6 +2352,12 @@
     "id": "3e052cde-985a-401f-828a-2d98511bbcd5",
     "released_at": "2008-05-02",
     "set": "shm"
+  },
+  "Faultgrinder": {
+    "front": "/scryfall/be88b32a-986c-4317-b4a3-119f67e13b83.jpg",
+    "id": "be88b32a-986c-4317-b4a3-119f67e13b83",
+    "released_at": "2007-10-12",
+    "set": "lrw"
   },
   "Favor of the Overbeing": {
     "front": "/scryfall/9bf061f8-3aec-429a-bde7-7c110f872416.jpg",
@@ -2556,6 +2574,12 @@
     "id": "57fb0fa7-0c5c-4a75-9461-c51403c30282",
     "released_at": "2024-06-14",
     "set": "mh3"
+  },
+  "Forecasting Fortune Teller": {
+    "front": "/scryfall/023e7ad4-6af0-4f29-a716-27a313974227.jpg",
+    "id": "023e7ad4-6af0-4f29-a716-27a313974227",
+    "released_at": "2025-11-21",
+    "set": "tla"
   },
   "Forest": {
     "front": "/scryfall/6f1c8cb0-38eb-408b-94e8-16db83999b3b.jpg",
@@ -3384,6 +3408,12 @@
     "id": "2c2ee817-9ca9-4f09-bc71-7994c19a9470",
     "released_at": "2023-09-08",
     "set": "woe"
+  },
+  "Horned Helm": {
+    "front": "/scryfall/749c408a-0a19-44a3-a436-295380573f91.jpg",
+    "id": "749c408a-0a19-44a3-a436-295380573f91",
+    "released_at": "2004-06-04",
+    "set": "5dn"
   },
   "Horned Sliver": {
     "front": "/scryfall/d0175cec-e64c-45c6-9208-76127e76a7cf.jpg",
@@ -4341,6 +4371,12 @@
     "released_at": "2022-02-18",
     "set": "neo"
   },
+  "Mischievous Sneakling": {
+    "front": "/scryfall/3b66fa00-2fa6-4060-9e7f-8e3fde6deb73.jpg",
+    "id": "3b66fa00-2fa6-4060-9e7f-8e3fde6deb73",
+    "released_at": "2026-01-23",
+    "set": "ecl"
+  },
   "Misery Charm": {
     "front": "/scryfall/2be66eaf-222b-4c40-a9fa-aad56b9218e0.jpg",
     "id": "2be66eaf-222b-4c40-a9fa-aad56b9218e0",
@@ -4383,11 +4419,23 @@
     "released_at": "1997-10-14",
     "set": "tmp"
   },
+  "Mogg Raider": {
+    "front": "/scryfall/94e9cc0a-c210-4525-8c7f-9c6306cc21b0.jpg",
+    "id": "94e9cc0a-c210-4525-8c7f-9c6306cc21b0",
+    "released_at": "1997-10-14",
+    "set": "tmp"
+  },
   "Mogg War Marshal": {
     "front": "/scryfall/8b9e0bdb-b615-447a-b80d-d7244c25c56e.jpg",
     "id": "8b9e0bdb-b615-447a-b80d-d7244c25c56e",
     "released_at": "2006-10-06",
     "set": "tsp"
+  },
+  "Moldervine Cloak": {
+    "front": "/scryfall/871c3f80-aaa7-485f-b519-57363f5905dd.jpg",
+    "id": "871c3f80-aaa7-485f-b519-57363f5905dd",
+    "released_at": "2005-10-07",
+    "set": "rav"
   },
   "Molten Gatekeeper": {
     "front": "/scryfall/9f5ba065-2806-4e99-a330-168cfe76250f.jpg",
@@ -4574,6 +4622,12 @@
     "id": "64ae5a91-ac54-4222-832e-d7a740a3f7cb",
     "released_at": "2010-02-05",
     "set": "wwk"
+  },
+  "Nausea": {
+    "front": "/scryfall/a10531d8-fc99-4a2b-94b0-97a25521d725.jpg",
+    "id": "a10531d8-fc99-4a2b-94b0-97a25521d725",
+    "released_at": "1998-06-15",
+    "set": "exo"
   },
   "Navigator's Compass": {
     "front": "/scryfall/6a283135-7a51-4cf7-82a6-7e50894e64a5.jpg",
@@ -5152,6 +5206,12 @@
     "released_at": "2010-04-23",
     "set": "roe"
   },
+  "Protege's Awakening": {
+    "front": "/scryfall/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
+    "id": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+    "released_at": "2026-10-02",
+    "set": "fra"
+  },
   "Psychic Puppetry": {
     "front": "/scryfall/9e341d6b-f4b0-4347-8055-f5fab756334c.jpg",
     "id": "9e341d6b-f4b0-4347-8055-f5fab756334c",
@@ -5619,6 +5679,12 @@
     "id": "c062caf7-f0eb-44db-9f74-e6711a13fada",
     "released_at": "2006-07-21",
     "set": "csp"
+  },
+  "Rites of Initiation": {
+    "front": "/scryfall/6f2fc246-2e95-456f-aa4e-97768c4f4bb4.jpg",
+    "id": "6f2fc246-2e95-456f-aa4e-97768c4f4bb4",
+    "released_at": "2001-10-01",
+    "set": "ody"
   },
   "River Boa": {
     "front": "/scryfall/2e9d5aaf-b7e8-4676-aec8-7d29a0169a2c.jpg",
@@ -6459,6 +6525,12 @@
     "id": "0900a8d1-a1b1-48c9-8af1-726a623c7d74",
     "released_at": "2020-04-24",
     "set": "iko"
+  },
+  "Something Worth Saving": {
+    "front": "/scryfall/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
+    "id": "02ee7817-40af-4fcf-a2df-eb218b669281",
+    "released_at": "2026-10-02",
+    "set": "fra"
   },
   "Songs of the Damned": {
     "front": "/scryfall/6cff3547-8c72-439a-91fe-ebe729dab748.jpg",
@@ -7383,6 +7455,12 @@
     "released_at": "2024-09-27",
     "set": "dsk"
   },
+  "Undergrowth Leopard": {
+    "front": "/scryfall/67ab8f9a-b17c-452f-b4ef-a3f91909e3de.jpg",
+    "id": "67ab8f9a-b17c-452f-b4ef-a3f91909e3de",
+    "released_at": "2025-04-11",
+    "set": "tdm"
+  },
   "Underworld Rage-Hound": {
     "front": "/scryfall/a04eef82-fd53-41f4-9c7e-28b9ac039032.jpg",
     "id": "a04eef82-fd53-41f4-9c7e-28b9ac039032",
@@ -7406,6 +7484,12 @@
     "id": "f95b8eb1-4dbb-4bb9-aa31-b7a12e3b4618",
     "released_at": "2024-06-14",
     "set": "mh3"
+  },
+  "Unflinching Hortimancer": {
+    "front": "/scryfall/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
+    "id": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
+    "released_at": "2026-10-02",
+    "set": "fra"
   },
   "Union of the Third Path": {
     "front": "/scryfall/486a0745-7360-4cc9-9cc2-30c0eda6e00c.jpg",

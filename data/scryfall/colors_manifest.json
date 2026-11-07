@@ -290,6 +290,10 @@
     "G"
   ],
   "Bleeding Woods": [],
+  "Blessed Ghoul": [
+    "W",
+    "B"
+  ],
   "Blight Mamba": [
     "G"
   ],
@@ -1063,6 +1067,9 @@
   "Family Reunion": [
     "W"
   ],
+  "Fanatical Firebrand": [
+    "R"
+  ],
   "Fanatical Offering": [
     "B"
   ],
@@ -1079,6 +1086,9 @@
   "Fate Transfer": [
     "U",
     "B"
+  ],
+  "Faultgrinder": [
+    "R"
   ],
   "Favor of the Overbeing": [
     "U",
@@ -1185,6 +1195,9 @@
     "U"
   ],
   "Foreboding Landscape": [],
+  "Forecasting Fortune Teller": [
+    "U"
+  ],
   "Forest": [],
   "Forgotten Cave": [],
   "Forked Bolt": [
@@ -1553,6 +1566,7 @@
   "Hopeless Nightmare": [
     "B"
   ],
+  "Horned Helm": [],
   "Horned Sliver": [
     "G"
   ],
@@ -1987,6 +2001,10 @@
   "Mirrorshell Crab": [
     "U"
   ],
+  "Mischievous Sneakling": [
+    "U",
+    "B"
+  ],
   "Misery Charm": [
     "B"
   ],
@@ -2006,8 +2024,14 @@
   "Mogg Fanatic": [
     "R"
   ],
+  "Mogg Raider": [
+    "R"
+  ],
   "Mogg War Marshal": [
     "R"
+  ],
+  "Moldervine Cloak": [
+    "G"
   ],
   "Molten Gatekeeper": [
     "R"
@@ -2091,6 +2115,9 @@
   ],
   "Nature's Claim": [
     "G"
+  ],
+  "Nausea": [
+    "B"
   ],
   "Navigator's Compass": [],
   "Naya Hushblade": [
@@ -2339,6 +2366,9 @@
     "U"
   ],
   "Prophetic Prism": [],
+  "Protege's Awakening": [
+    "U"
+  ],
   "Psychic Puppetry": [
     "U"
   ],
@@ -2551,6 +2581,9 @@
     "B"
   ],
   "Rite of Flame": [
+    "R"
+  ],
+  "Rites of Initiation": [
     "R"
   ],
   "River Boa": [
@@ -2909,6 +2942,9 @@
   ],
   "Solid Footing": [
     "W"
+  ],
+  "Something Worth Saving": [
+    "G"
   ],
   "Songs of the Damned": [
     "B"
@@ -3324,6 +3360,9 @@
   "Unable to Scream": [
     "U"
   ],
+  "Undergrowth Leopard": [
+    "G"
+  ],
   "Underworld Rage-Hound": [
     "R"
   ],
@@ -3334,6 +3373,9 @@
     "B"
   ],
   "Unfathomable Truths": [],
+  "Unflinching Hortimancer": [
+    "W"
+  ],
   "Union of the Third Path": [
     "W"
   ],

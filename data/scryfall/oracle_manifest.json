@@ -863,6 +863,15 @@
       "typeLine": "Land"
     }
   ],
+  "Blessed Ghoul": [
+    {
+      "manaCost": "{W/B}",
+      "name": "Blessed Ghoul",
+      "stats": "1/1",
+      "text": "Lifelink\n{2}{W/B}: Return this card from your graveyard to your hand.",
+      "typeLine": "Creature — Zombie Cleric"
+    }
+  ],
   "Blight Mamba": [
     {
       "manaCost": "{1}{G}",
@@ -3226,6 +3235,15 @@
       "typeLine": "Instant"
     }
   ],
+  "Fanatical Firebrand": [
+    {
+      "manaCost": "{R}",
+      "name": "Fanatical Firebrand",
+      "stats": "1/1",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)\n{T}, Sacrifice this creature: It deals 1 damage to any target.",
+      "typeLine": "Creature — Goblin Pirate"
+    }
+  ],
   "Fanatical Offering": [
     {
       "manaCost": "{1}{B}",
@@ -3287,6 +3305,15 @@
       "name": "Fate Transfer",
       "text": "Move all counters from target creature onto another target creature.",
       "typeLine": "Instant"
+    }
+  ],
+  "Faultgrinder": [
+    {
+      "manaCost": "{6}{R}",
+      "name": "Faultgrinder",
+      "stats": "4/4",
+      "text": "Trample\nWhen this creature enters, destroy target land.\nEvoke {4}{R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)",
+      "typeLine": "Creature — Elemental"
     }
   ],
   "Favor of the Overbeing": [
@@ -3594,6 +3621,15 @@
       "name": "Foreboding Landscape",
       "text": "{T}: Add {C}.\n{T}, Sacrifice this land: Search your library for a basic Swamp, Forest, or Island card, put it onto the battlefield tapped, then shuffle.\nCycling {B}{G}{U} ({B}{G}{U}, Discard this card: Draw a card.)",
       "typeLine": "Land"
+    }
+  ],
+  "Forecasting Fortune Teller": [
+    {
+      "manaCost": "{1}{U}",
+      "name": "Forecasting Fortune Teller",
+      "stats": "1/3",
+      "text": "When this creature enters, create a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+      "typeLine": "Creature — Human Advisor Ally"
     }
   ],
   "Forest": [
@@ -4771,6 +4807,14 @@
       "name": "Hopeless Nightmare",
       "text": "When this enchantment enters, each opponent discards a card and loses 2 life.\nWhen this enchantment is put into a graveyard from the battlefield, scry 2.\n{2}{B}: Sacrifice this enchantment.",
       "typeLine": "Enchantment"
+    }
+  ],
+  "Horned Helm": [
+    {
+      "manaCost": "{2}",
+      "name": "Horned Helm",
+      "text": "Equipped creature gets +1/+1 and has trample.\n{G}{G}: Attach this Equipment to target creature you control.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+      "typeLine": "Artifact — Equipment"
     }
   ],
   "Horned Sliver": [
@@ -6132,6 +6176,15 @@
       "typeLine": "Artifact Creature — Crab"
     }
   ],
+  "Mischievous Sneakling": [
+    {
+      "manaCost": "{1}{U/B}",
+      "name": "Mischievous Sneakling",
+      "stats": "2/2",
+      "text": "Changeling (This card is every creature type.)\nFlash",
+      "typeLine": "Creature — Shapeshifter"
+    }
+  ],
   "Misery Charm": [
     {
       "manaCost": "{B}",
@@ -6192,6 +6245,15 @@
       "typeLine": "Creature — Goblin"
     }
   ],
+  "Mogg Raider": [
+    {
+      "manaCost": "{R}",
+      "name": "Mogg Raider",
+      "stats": "1/1",
+      "text": "Sacrifice a Goblin: Target creature gets +1/+1 until end of turn.",
+      "typeLine": "Creature — Goblin"
+    }
+  ],
   "Mogg War Marshal": [
     {
       "manaCost": "{1}{R}",
@@ -6199,6 +6261,14 @@
       "stats": "1/1",
       "text": "Echo {1}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen this creature enters or dies, create a 1/1 red Goblin creature token.",
       "typeLine": "Creature — Goblin Warrior"
+    }
+  ],
+  "Moldervine Cloak": [
+    {
+      "manaCost": "{2}{G}",
+      "name": "Moldervine Cloak",
+      "text": "Enchant creature\nEnchanted creature gets +3/+3.\nDredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)",
+      "typeLine": "Enchantment — Aura"
     }
   ],
   "Molten Gatekeeper": [
@@ -6461,6 +6531,14 @@
       "name": "Nature's Claim",
       "text": "Destroy target artifact or enchantment. Its controller gains 4 life.",
       "typeLine": "Instant"
+    }
+  ],
+  "Nausea": [
+    {
+      "manaCost": "{1}{B}",
+      "name": "Nausea",
+      "text": "All creatures get -1/-1 until end of turn.",
+      "typeLine": "Sorcery"
     }
   ],
   "Navigator's Compass": [
@@ -7283,6 +7361,14 @@
       "typeLine": "Artifact"
     }
   ],
+  "Protege's Awakening": [
+    {
+      "manaCost": "{3}{U}",
+      "name": "Protege's Awakening",
+      "text": "Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nDraw a card.",
+      "typeLine": "Sorcery"
+    }
+  ],
   "Psychic Puppetry": [
     {
       "manaCost": "{1}{U}",
@@ -7921,6 +8007,14 @@
       "name": "Rite of Flame",
       "text": "Add {R}{R}, then add {R} for each card named Rite of Flame in each graveyard.",
       "typeLine": "Sorcery"
+    }
+  ],
+  "Rites of Initiation": [
+    {
+      "manaCost": "{R}",
+      "name": "Rites of Initiation",
+      "text": "Discard any number of cards at random. Creatures you control get +1/+0 until end of turn for each card discarded this way.",
+      "typeLine": "Instant"
     }
   ],
   "River Boa": [
@@ -9105,6 +9199,14 @@
       "name": "Solid Footing",
       "text": "Flash\nEnchant creature\nEnchanted creature gets +1/+1.\nAs long as enchanted creature has vigilance, it assigns combat damage equal to its toughness rather than its power.",
       "typeLine": "Enchantment — Aura"
+    }
+  ],
+  "Something Worth Saving": [
+    {
+      "manaCost": "{1}{G}",
+      "name": "Something Worth Saving",
+      "text": "Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)",
+      "typeLine": "Instant"
     }
   ],
   "Songs of the Damned": [
@@ -10443,6 +10545,15 @@
       "typeLine": "Enchantment — Aura"
     }
   ],
+  "Undergrowth Leopard": [
+    {
+      "manaCost": "{1}{G}",
+      "name": "Undergrowth Leopard",
+      "stats": "2/2",
+      "text": "Vigilance\n{1}, Sacrifice this creature: Destroy target artifact or enchantment.",
+      "typeLine": "Creature — Cat"
+    }
+  ],
   "Underworld Rage-Hound": [
     {
       "manaCost": "{1}{R}",
@@ -10474,6 +10585,15 @@
       "name": "Unfathomable Truths",
       "text": "Devoid (This card has no color.)\nDraw three cards and create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice this token: Add {C}.\"",
       "typeLine": "Instant"
+    }
+  ],
+  "Unflinching Hortimancer": [
+    {
+      "manaCost": "{1}{W}",
+      "name": "Unflinching Hortimancer",
+      "stats": "2/1",
+      "text": "Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\nWhenever you gain life, put a +1/+1 counter on this creature.",
+      "typeLine": "Creature — Human Cleric"
     }
   ],
   "Union of the Third Path": [
