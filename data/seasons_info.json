@@ -17,6 +17,7 @@
   },
   "2026": {
     "awards": [
+      { "playerSlug": "jelle_zwaan", "flight": true, "bye": true }
     ],
     "status": "ongoing",
     "bestOfCap": 7

@@ -11,7 +11,7 @@ export const season2026: LeagueSeason = {
     byesUnlocked: 2,
   },
   standings: [
-    { position: 1, player: "Jelle Zwaan", playerSlug: "jelle_zwaan", points: 93, positionChange: 2 },
+    { position: 1, player: "Jelle Zwaan", playerSlug: "jelle_zwaan", points: 93, flight: true, bye: true, positionChange: 2 },
     { position: 2, player: "Jelle Schneider", playerSlug: "jelle_schneider", points: 90, positionChange: -1 },
     { position: 3, player: "Nicolas Komanski", playerSlug: "nicolas_komanski", points: 88, positionChange: -1 },
     { position: 4, player: "Stefan van der List", playerSlug: "stefan_van_der_list", points: 86, positionChange: 5 },
