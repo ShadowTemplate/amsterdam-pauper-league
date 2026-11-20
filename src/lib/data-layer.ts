@@ -10,6 +10,8 @@ import type {
 } from "@/types";
 
 // ── Event imports ─────────────────────────────────────────────────────────────
+import { event as e20270213Event } from "@/lib/data/events/2027-02-13";
+import { event as e20270130Event } from "@/lib/data/events/2027-01-30";
 import { event as e20261107Event, eventDetail as e20261107Detail } from "@/lib/data/events/2026-11-07";
 import { event as e20261003Event, eventDetail as e20261003Detail } from "@/lib/data/events/2026-10-03";
 import { event as e20260905Event, eventDetail as e20260905Detail } from "@/lib/data/events/2026-09-05";
@@ -54,6 +56,8 @@ export { _PLAYERS as PLAYERS, _PLAYER_DETAILS as PLAYER_DETAILS };
 // ── Assembled arrays ──────────────────────────────────────────────────────────
 
 export const EVENTS: Event[] = [
+  e20270213Event,
+  e20270130Event,
   e20261107Event,
   e20261003Event,
   e20260905Event,

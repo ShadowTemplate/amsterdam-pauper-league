@@ -31,3 +31,15 @@ const ongoingYear = Object.entries(info).find(([, s]) => s.status === "ongoing")
 // season hasn't been generated yet (e.g. no legs played there yet).
 export const CURRENT_SEASON_YEAR: number =
   ongoingYear && generatedYears.has(ongoingYear) ? Number(ongoingYear) : AVAILABLE_YEARS[0];
+
+// Years shown as tabs on the Events page: every season with generated data,
+// plus any year that only has upcoming events so far (no leg played yet, so
+// no season file) - e.g. a new season's announced events.
+const eventModules = import.meta.glob("./data/events/*.ts");
+const eventYears = Object.keys(eventModules)
+  .map((p) => p.match(/(\d{4})-\d{2}-\d{2}\.ts$/)?.[1])
+  .filter((y): y is string => y != null);
+
+export const EVENT_YEARS: number[] = [...new Set([...AVAILABLE_YEARS.map(String), ...eventYears])]
+  .map(Number)
+  .sort((a, b) => b - a);

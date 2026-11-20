@@ -2,15 +2,15 @@
 import Layout from "@/layouts/Layout.astro";
 import { EVENTS } from "@/lib/data-layer";
 import { formatDate } from "@/lib/utils";
-import { CURRENT_SEASON_YEAR, AVAILABLE_YEARS } from "@/lib/current-season";
+import { CURRENT_SEASON_YEAR, EVENT_YEARS } from "@/lib/current-season";
 
 export function getStaticPaths() {
-  return AVAILABLE_YEARS.map((year) => ({ params: { year: String(year) } }));
+  return EVENT_YEARS.map((year) => ({ params: { year: String(year) } }));
 }
 
 const { year } = Astro.params;
 const currentYear = parseInt(year);
-const availableYears = AVAILABLE_YEARS;
+const availableYears = EVENT_YEARS;
 
 const eventsForYear = EVENTS.filter((e) => e.date.startsWith(year)).sort(
   (a, b) => b.date.localeCompare(a.date)
